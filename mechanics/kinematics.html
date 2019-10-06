@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>kinematics</title>
+
+
+
+</head>
+
+<body>
+
+<h1 id="toc_0">Kinematics</h1>
+
+<h2 id="toc_1">Equations of motion</h2>
+
+<h3 id="toc_2">Uniform acceleration</h3>
+
+<p>For a uniformly accelerating body, moving in 1D space, the velocity \( v_x \) at time \( t \) can be calculated as:</p>
+
+<p>\[
+v_x = v_{x, 0}+ a_x t
+\]</p>
+
+<p>The position \( x \) of an uniformly accelerating body with initial velocity \( v_{x, 0} \) at time \( t \) can be calculated as:</p>
+
+<p>\(
+x = x_0 + v_{x, 0} t + \frac{1}{2} a_x t^2,
+\)
+where \( x_0 \) is the initial position.</p>
+
+<p>From the two relations above, we can calculate a body&#39;s velocity \( v_x \) at any position \( x \), without knowing the time spent since the initial condition.</p>
+
+<p>\[
+\begin{eqnarray}
+t &amp;=&amp; \frac{v_x - v_x, 0}}{a_x} \Rightarrow \\
+x - x_0 &amp;=&amp; v_x, 0} \left( \frac{v_x - v_{x, 0}}{a}\right) + \frac{1}{2} \frac{(v_x - v_{x, 0})^2}{a} \\
+2 a (x - x_0) &amp;=&amp; \cancel{2 v_x v_{x, 0}} - 2 v_{x, 0}^2 + v_x^2 + v_{x, 0}^2 - \cancel{2 v_x v_{x, 0}} \\
+v_x^2 &amp;=&amp; v_{x, 0}^2 + 2a (x - x_0)
+\end{eqnarray}
+\]</p>
+
+<p>Using these equations of motion, we can calculate the average distance moved as:
+\(
+\begin{eqnarray}
+x - x_0 &amp;=&amp; t \left( v_{x, 0} + \frac{1}{2} a t \right) \\
+&amp;=&amp; t \left( v_{x, 0} + \frac{v_x - v_{x, 0}}{2} \right) \\
+&amp;=&amp; t \left( \frac{v_{x, 0} + v_x}{2} \right) \\
+\bar{x} &amp;=&amp; t \bar{v}_x
+\end{eqnarray}
+\)</p>
+
+<h3 id="toc_3">Non-uniform acceleration</h3>
+
+
+
+<script type="text/x-mathjax-config">
+(function () {
+
+MathJax.Hub.Config({
+	'showProcessingMessages': false,
+	'messageStyle': 'none'
+});
+
+if (typeof MathJaxListener !== 'undefined') {
+	MathJax.Hub.Register.StartupHook('End', function () {
+		MathJaxListener.invokeCallbackForKey_('End');
+	});
+}
+
+})();
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+</body>
+
+</html>
