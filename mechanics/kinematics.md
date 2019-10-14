@@ -18,7 +18,6 @@ $$
 where \\( x_0 \\) is the initial position.
 
 From the two relations above, we can calculate a body's velocity \\( v_x \\) at any position \\( x \\), without knowing the time spent since the initial condition.
-
 $$
 \begin{eqnarray}
 t &=& \frac{v_x - v_x, 0}}{a_x} \Rightarrow \\
