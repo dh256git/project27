@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Blog</title>
+    <title>Template page</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -17,7 +17,7 @@
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
   <header class="masthead mb-auto">
     <div class="inner">
-      <h3 class="masthead-brand">Welcome to the blog!</h3>
+      <h3 class="masthead-brand">Welcome to the template page!</h3>
       <nav class="nav nav-masthead justify-content-center">
         <a class="nav-link" href="https://dh256git.github.io/project27/index.html">Home</a>
         <a class="nav-link" href="https://dh256git.github.io/project27/blog/blog.html">Blog</a>
@@ -27,33 +27,35 @@
   </header>
 
   <main role="main" class="inner cover">
-    <h1 class="cover-heading">Scribbles on the scribbles</h1>
-<p>The blog of Project27 is split into two sections: TWIST and the Project log. Both sections are themed around science, accessibility, and life style, but from slightly different angles.    </p>
-<hr>
+    <h1 class="cover-heading">Page yet to be written</h1>
 
-<div class="row">
-<div class="col-md-6">
-<h3 id="toc_0">Project log of Project27</h3>
-
-<p>Project log is a set of scribbles on topics that I found worth mentioning in context of developing Project27. These topics mainly focus on working with MathML, LaTeX, and web content authoring tools, such as markdown. A cross platform evaluation of mathematical content accessibility is a key objective of the project log.</p>
-
-<p><a href="./project-log/project-log.html">Read the project log</a></p>
-</div>
-<div class="col-md-6">
-<h3 id="toc_0">TWIST: The way I see it</h3>
-
-<p>TWIST is a set of scribbles on various life events and the way I see them. The key objective of TWIST is to collect a set of life style articles in a subjective manner, from a blind scientist and science communicator's point of view.</p>
-
-<p><a href="./twist/twist.html">Read the TWIST</a></p>
-</div>
-</div>
   </main>
 
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS and mathjax -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+<script type="text/x-mathjax-config">
+(function () {
+
+MathJax.Hub.Config({
+	'showProcessingMessages': false,
+	'messageStyle': 'none'
+});
+
+if (typeof MathJaxListener !== 'undefined') {
+	MathJax.Hub.Register.StartupHook('End', function () {
+		MathJaxListener.invokeCallbackForKey_('End');
+	});
+}
+
+})();
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
   </body>
 </html>
