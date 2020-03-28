@@ -1,5 +1,3 @@
-# Kinematics
-
 ## Equations of motion
 
 ### Uniform acceleration
