@@ -1,4 +1,3 @@
-## Why does Project27 exist?
 
 This page introduces the Project27 vision and mission, why it exists, who is behind the content, and what the roadmap of development is.
 
@@ -14,17 +13,17 @@ For the content to be universally accessible, this will not depend on additional
 
 This vision requires three things.
 First, a standardised, robust, and compatible system of  markup languages for reliable digital language processing, serving multiple solutions of non-visual communication.  
-Second, content authoring tools for creating written documents, which are synthesised by existing text-to-speech solutions into natural verbalisations across platforms.
+Second, content authoring tools for creating written documents, which are synthesised by existing text-to-speech solutions into natural verbalisations across platforms.  
 Third, methods of appending graphical and multimedia content with their non-visual equivalent, such as tabular descriptions of charts, or audio descriptions of video.
 
 Standard and robust markup languages, text-to-speech solutions already exist, but with an inconsistent quality of output, typically mutually exclusive and serving one or another platform, and which require additional tools to process scripts into natural output.
 If Project27 finds a way to interface between existing markup languages, develops authoring tools and content through peer review that is ensuring a high standard of quality across multiple platforms, it really can become the most significant educational web journal for universally accessible technical content. 
 
-If this vision is hard to believe in, watch this demonstration of what a text-to-speech solution was capable of in the 90s and how much it developed to be present in our homes as a naturally speaking voice assistant. Also, remember that the widely used markup language - TeX - was first released in 1991, i.e. 29 years ago.
+If this vision is hard to believe in, [watch  the Macintosh introduce itself in 1984](https://www.youtube.com/watch?v=2B-XwPjn9YY) using text-to-speech solutions, and how far natural language processing and synthetic speech has developed, to become responsive, naturally speaking [voice assistants present in our homes](http://emosamples.syntheticspeech.de). Also, remember that the widely used markup language - [TeX](https://www.tug.org/whatis.html) - was developed throughout the 1980s, with a version usable on personal computers by the early 90s, i.e. roughly 30 years ago.
 
 ### What's the Project27 mission?
 
-To deliver content and authoring solutions that remove the barriers between technical resources and methods of non-visual access to information.
+**To deliver content and authoring solutions that remove the barriers between technical resources and methods of non-visual access to information.**
 
 This mission statement is how Project27 intends to make its vision come true. If the vision is the destination, the mission is the path selected to arrive at the destination.
 
@@ -51,7 +50,7 @@ It was not easy to come so far. I consider myself incredibly lucky, and merely c
 
 The Project27 blog serves two purposes. First, to log things I learn during the development of this project, which one day may be shaped into a deliverable solution, as defined in the mission statement. Second, through the TWIST series, I'd like to hint a key notion. A person is a set of identities. As a good friend of mine once said, "Daniel, you are 50 shades of Daniel". I want to show that, a scientist is not just a "scientist". A blind person is not just a "blind" person. I want to show, through my journey what any blind person can do if they find the way. A blind person can cook delicious meals, a blind person can study and work in sciences, a blind person can be active in journalism and audio editing. A blind person can also learn to programme, study human psychology, and perform statistical analysis for data science. Some of these life style stories will come through the pipeline of the TWIST blog, and some through scribbles of the Dancyclopedia. 
 
-There is one common aspect of all the content within Project27. If the laws of physics do not forbid what you want to do, then you can do it. I truly wish that the content, solutions, and spirit will become not only my own, but a shared vision of many. As part of the project, I will follow an open office policy. This means, if you need help doing something and you believe I can help, I will try. The mode of communication will evolve with the project itself. 
+There is one common aspect of all the content within Project27. If the laws of physics allow it, you can do it. I truly wish that the content, solutions, and spirit will become not only my own, but a shared vision of many. As part of the project, I will follow an open office policy. This means, if you need help doing something and you believe I can help, I will try. The mode of communication will evolve with the project itself. 
 
 So long, all the best!
 
@@ -76,7 +75,8 @@ The Dancyclopedia is what I think about as an educational, web journal. Initiall
 * Cookbook; and
 * Vocal.
 
-The Mathematical and physical sciences hub (MPS) is a collection of scribbles on mathematical and physics content, organised into distinct issues, or chapters. This volume exists to develop universally accessible content that relies on the heavy use of mathematical notation and diagrams. We also must understand what the laws of physics allow and forbid to tell whether we can or can not do something. Remember, if the laws of physics do not forbid it, you can do it.
+The Mathematical and physical sciences hub (MPS) is a collection of scribbles on mathematical and physics content, organised into distinct issues, or chapters. This volume exists to develop universally accessible content that relies on the heavy use of mathematical notation and diagrams. We also must understand what the laws of physics allow and forbid to tell whether we can or can not do something. Remember: 
+> If the laws of physics allow it, you can do it.
 
 The volume on computer literacy exists to offer a collection of handy tips on how to operate a set of tools, such as git for version control, bash for interacting through shell commands, or RMarkdown to produce accessible reports of statistical analysis. What's common in these scribbles is that they approach the task from the non-visual access point of view. While a high percentage of tutorials describe how to create an RMD report using R Studio (an inaccessible GUI tool), there are not many who give clear instructions on how to do the same through shell commands. These are skills that a blind scientist might find useful. This volume also gives an opportunity to incubate solutions that makes reading computer code a more sophisticated experience for text-to-speech users, for instance auditory syntax highlighting.
 
