@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title> {{   page.title   }}</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+<!--Custom style sheets-->
+        <link rel="stylesheet" href="/assets/css/cover.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+  </head>
+  <body>
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="masthead mb-auto">
+    <div class="inner">
+      <h3 class="masthead-brand">Welcome to {{ page.title }}!</h3>
+{% include navigation-dropdown.html %}
+    </div>
+  </header>
+
+  <main role="main" class="inner cover">
+ {{   content   }}
+  </main>
+
+{% include scripts.html %}
+
+  </body>
+</html>

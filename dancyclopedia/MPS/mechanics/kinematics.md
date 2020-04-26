@@ -1,3 +1,10 @@
+---
+layout: scribbles
+title: Scribbles on kinematics
+---
+
+# Scribbles on kinematics
+
 ## Equations of motion
 
 ### Uniform acceleration

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Potato pork stew
+---
+
 # Pork stew with potato
 
 Let's see how to cook your chosen dish.

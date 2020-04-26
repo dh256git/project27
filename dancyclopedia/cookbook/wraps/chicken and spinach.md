@@ -1,3 +1,8 @@
+---
+layout: default
+title: Chicken and spinach wrap
+---
+
 # Chicken and spinach wrap
 
 Let's see how to cook your chosen dish.

@@ -1,12 +1,17 @@
+---
+layout: default
+title: Desserts and breakfast
+---
+
 # Menu for desserts and breakfast
 
 * Fruit baskets
-* [Mulled wine](Mulled wine.md)
+* [Mulled wine](./mulled-wine.html)
 * Yoghurt with muesli
 * milk with muesli
 * crumpet with spreads
 * toast with spreads
-* [Sultana porridge](Sultana porridge.md)
+* [Sultana porridge](./sultana-porridge.html)
 * scrambled eggs
 * frittata
 * baked beans with sausages

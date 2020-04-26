@@ -1,3 +1,9 @@
+---
+layout: default
+title: Layered green beans
+---
+
+
 # Rakott bab (Stacked green beans)
 
 Let's see how to cook your chosen dish.

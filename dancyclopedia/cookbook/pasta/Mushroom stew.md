@@ -1,3 +1,8 @@
+---
+layout: default
+title: Mushroom stew
+---
+
 # Mushroom stew
 
 Let's see how to cook your chosen dish.

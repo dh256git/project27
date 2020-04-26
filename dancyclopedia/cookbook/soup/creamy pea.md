@@ -1,3 +1,8 @@
+---
+layout: default
+title: Creamy pea soup
+---
+
 # Creamy pea soup
 
 Let's see how to cook your chosen dish.

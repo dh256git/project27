@@ -1,3 +1,8 @@
+---
+layout: default
+title: Prawn and sun dried tomato risotto
+---
+
 # Prawn and sun-dried tomato risotto
 
 Let's see how to cook your chosen dish.

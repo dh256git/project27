@@ -1,3 +1,9 @@
+---
+layout: default
+title: Tuna tomato pasta
+---
+
+
 # Origano-tomato tuna pasta
 
 Let's see how to cook your chosen dish.

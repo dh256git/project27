@@ -1,3 +1,8 @@
+---
+layout: scribbles
+title: Scribbles on vectors
+---
+
 # Vectors
 
 ## Scalar product

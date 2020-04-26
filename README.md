@@ -1,3 +1,7 @@
+---
+layout: default
+title: README
+---
 
 This page introduces the Project27 vision and mission, why it exists, who is behind the content, and what the roadmap of development is.
 

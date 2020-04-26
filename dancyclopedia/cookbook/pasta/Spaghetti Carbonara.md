@@ -1,3 +1,8 @@
+---
+layout: default
+title: Spaghetti Carbonara
+---
+
 # Spaghetti Carbonara
 
 Let's see how to cook your chosen dish.

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Mushroom and chicken risotto
+---
+
 # Mushroom and chicken risotto
 
 Let's see how to cook your chosen dish.
