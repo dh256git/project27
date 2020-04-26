@@ -1,8 +1,6 @@
----
----
 - name: Home
-  link: {{ site.baseurl }}/index.html
+  link: https://dh256.github.io/project27/index.html
 - name: Dancyclopedia
-  link: {{ site.baseurl }}/dancyclopedia/dancyclopedia.html
+  link: https://dh256.github.io/project27/dancyclopedia/dancyclopedia.html
 - name: Blog
-  link: {{ site.baseurl }}/blog/blog.html
+  link: https://dh256.github.io/project27/blog/blog.html
