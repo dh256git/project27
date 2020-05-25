@@ -1,6 +1,6 @@
 - name: Home
-  link: https://dh256git.github.io/project27/index.html
+  link: /index.html
 - name: Dancyclopedia
-  link: https://dh256git.github.io/project27/dancyclopedia/dancyclopedia.html
+  link: /dancyclopedia/dancyclopedia.html
 - name: Blog
-  link: https://dh256git.github.io/project27/blog/blog.html
+  link: /blog/blog.html

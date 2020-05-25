@@ -1,9 +1,9 @@
 ---
 layout: default
-title: README
+title: About Project27 and its founder
 ---
 
-This page introduces the Project27 vision and mission, why it exists, who is behind the content, and what the roadmap of development is.
+This page introduces the Project27 vision and mission, why it exists, who is behind the content, and what the roadmap of development is. On the small scale, Project27 is a private, digital notebook on a range of topics that matter to the author. It is a hobby activity, an opportunity to learn skills in web development, audio editing, and revising notes on physics. However, there exists a vision on the grand scale too.
 
 ### What's the Project27 vision?
 

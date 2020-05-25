@@ -21,7 +21,11 @@
   <header class="masthead mb-auto">
     <div class="inner">
       <h3 class="masthead-brand">Welcome to {{ page.title }}!</h3>
-{% include navigation-dropdown.html %}
+
+      <nav class="nav nav-masthead justify-content-center">
+{% include navigation.html %}
+{% include dropdown-MPS.html %}
+</nav>
     </div>
   </header>
 

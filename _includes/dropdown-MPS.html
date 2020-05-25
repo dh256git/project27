@@ -1,0 +1,9 @@
+<div class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">List of chapters</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown01">
+  {% for item in site.data.dropdown-MPS %}
+          <a class="dropdown-item" href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+  {% endfor %}
+</div>
+</div>
+</div>
