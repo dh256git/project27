@@ -1,6 +1,6 @@
 - name: Home
-  link: {{ site.baseurl }}/index.html
+  link: /index.html
 - name: Dancyclopedia
-  link: {{ site.baseurl }}/dancyclopedia/dancyclopedia.html
+  link: /dancyclopedia/dancyclopedia.html
 - name: Blog
   link: /blog/blog.html
