@@ -7,12 +7,8 @@
 
     <title> {{   page.title   }}</title>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-
 <!--Custom style sheets-->
-        <link rel="stylesheet" href="/assets/css/cover.css">
-    <link rel="stylesheet" href="/assets/css/styles.css">
+        <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl}}">
 
   </head>
   <body>
@@ -23,8 +19,10 @@
       <h3 class="masthead-brand">Welcome to {{ page.title }}!</h3>
 
       <nav class="nav nav-masthead justify-content-center">
+        <div class="collapse navbar-collapse" id="primaryNavigation">
 {% include navigation.html %}
 {% include dropdown-MPS.html %}
+</div>
 </nav>
     </div>
   </header>
