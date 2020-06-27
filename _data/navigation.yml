@@ -1,5 +1,5 @@
 - name: Home
-  link: {{'/index.html' | prepend: site.baseurl}}
+  link: {{ site.baseurl }}/index.html
 - name: Dancyclopedia
   link: {{ site.baseurl }}/dancyclopedia/dancyclopedia.html
 - name: Blog
