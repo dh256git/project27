@@ -5,7 +5,7 @@ title: Meat feast
 
 # Menu for meat
 
-* [Layered green beans](rakottbab.html)
+* [Layered green beans](rakott-bab.html)
 * [Pork stew with potato](pork-stew-with-potato.html)
 * [Potato dish](potato-dish.html)
 * [Asparagus bacon bundles](asparagus-bacon-bundles.html)
