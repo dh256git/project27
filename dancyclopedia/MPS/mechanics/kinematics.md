@@ -25,8 +25,8 @@ where \\( x_0 \\) is the initial position.
 From the two relations above, we can calculate a body's velocity \\( v_x \\) at any position \\( x \\), without knowing the time spent since the initial condition.
 $$
 \begin{eqnarray}
-t &=& \frac{v_x - v_x, 0}}{a_x} \Rightarrow \\
-x - x_0 &=& v_x, 0} \left( \frac{v_x - v_{x, 0}}{a}\right) + \frac{1}{2} \frac{(v_x - v_{x, 0})^2}{a} \\
+t &=& \frac{v_x - v_{x, 0}}{a_x} \Rightarrow \\
+x - x_0 &=& v_{x, 0} \left( \frac{v_x - v_{x, 0}}{a}\right) + \frac{1}{2} \frac{(v_x - v_{x, 0})^2}{a} \\
 2 a (x - x_0) &=& \cancel{2 v_x v_{x, 0}} - 2 v_{x, 0}^2 + v_x^2 + v_{x, 0}^2 - \cancel{2 v_x v_{x, 0}} \\
 v_x^2 &=& v_{x, 0}^2 + 2a (x - x_0)
 \end{eqnarray}
