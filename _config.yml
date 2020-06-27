@@ -14,5 +14,4 @@ include:
   - CONTRIBUTING.md
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
-
-#baseurl: /project27
+baseurl: /project27
