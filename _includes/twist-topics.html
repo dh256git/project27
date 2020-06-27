@@ -1,36 +1,42 @@
-  <h5>Adventures</h5>
+  <h5>Accessibility adventures</h5>
   <ul>
     {% for post in site.categories.adventures %}
       <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 
-  <h5>Grapheel archive</h5>
-  <ul>
-    {% for post in site.categories.grapheel-archive %}
-      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-
-  <h5>Identities</h5>
+  <h5>Infinit identities</h5>
   <ul>
     {% for post in site.categories.identities %}
       <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 
-
-  <h5>Nanotip</h5>
+  <h5>Reading ranger</h5>
   <ul>
-    {% for post in site.categories.nanotip %}
+    {% for post in site.categories.reading %}
       <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
 
 
-  <h5>Reading</h5>
+  <h5>Sexy science</h5>
   <ul>
-    {% for post in site.categories.reading %}
+    {% for post in site.categories.science %}
+      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <h5>Gone Grapheel</h5>
+  <ul>
+    {% for post in site.categories.grapheel-archive %}
+      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <h5>Numerous nanotip</h5>
+  <ul>
+    {% for post in site.categories.nanotip %}
       <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
