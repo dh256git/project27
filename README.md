@@ -68,7 +68,7 @@ The project is split into two parts.
 * The blog, and
 * the Dancyclopedia.
 
-The TWIST blog provides life style articles on living with a vision impairment. Project log on the other hand, does what it says. It keeps a log of issues encountered, snippets of problems and solutions while developing the content.
+The TWIST blog provides life style articles on living with a vision impairment. The LogBook on the other hand, does what it says. It keeps a log of issues encountered, snippets of problems and solutions while developing the content.
 
 The Dancyclopedia is what I think about as an educational, web journal. Initially, six volumes form part of the journal.
 
@@ -143,4 +143,4 @@ For now, in the first five years, I will explore solutions and write content  on
 
 #### Issue tracking
 
-Project27 will track known issues on inaccurate information, as well as known accessibility bugs around the scientific content. This will partly be done through the GitHub repository and the Project log articles.
+Project27 will track known issues on inaccurate information, as well as known accessibility bugs around the scientific content. This will partly be done through the GitHub repository and the LogBook articles.

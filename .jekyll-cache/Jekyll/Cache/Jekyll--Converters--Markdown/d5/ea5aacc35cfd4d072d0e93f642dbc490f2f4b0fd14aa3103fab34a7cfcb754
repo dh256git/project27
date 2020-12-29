@@ -1,4 +1,4 @@
-I"9<p>This page introduces the Project27 vision and mission, why it exists, who is behind the content, and what the roadmap of development is. On the small scale, Project27 is a private, digital notebook on a range of topics that matter to the author. It is a hobby activity, an opportunity to learn skills in web development, audio editing, and revising notes on physics. However, there exists a vision on the grand scale too.</p>
+I"ý8<p>This page introduces the Project27 vision and mission, why it exists, who is behind the content, and what the roadmap of development is. On the small scale, Project27 is a private, digital notebook on a range of topics that matter to the author. It is a hobby activity, an opportunity to learn skills in web development, audio editing, and revising notes on physics. However, there exists a vision on the grand scale too.</p>
 
 <h3 id="whats-the-project27-vision">Whatâ€™s the Project27 vision?</h3>
 
@@ -65,7 +65,7 @@ Project27 should minimise the gap between perceived experience, when consuming t
   <li>the Dancyclopedia.</li>
 </ul>
 
-<p>The TWIST blog provides life style articles on living with a vision impairment. Project log on the other hand, does what it says. It keeps a log of issues encountered, snippets of problems and solutions while developing the content.</p>
+<p>The TWIST blog provides life style articles on living with a vision impairment. The LogBook on the other hand, does what it says. It keeps a log of issues encountered, snippets of problems and solutions while developing the content.</p>
 
 <p>The Dancyclopedia is what I think about as an educational, web journal. Initially, six volumes form part of the journal.</p>
 
@@ -154,5 +154,5 @@ Project27 should minimise the gap between perceived experience, when consuming t
 
 <h4 id="issue-tracking">Issue tracking</h4>
 
-<p>Project27 will track known issues on inaccurate information, as well as known accessibility bugs around the scientific content. This will partly be done through the GitHub repository and the Project log articles.</p>
+<p>Project27 will track known issues on inaccurate information, as well as known accessibility bugs around the scientific content. This will partly be done through the GitHub repository and the LogBook articles.</p>
 :ET
