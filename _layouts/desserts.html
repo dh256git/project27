@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+  <div class="row">
+    <div class="col-md-8 blog-main">
+      <div class="blog-post">
+
+{{ content }}
+
+      </div><!-- /.blog-post -->
+
+{% include pagination-navbar.html %}
+    </div><!-- /.blog-main -->
+
+    <aside class="col-md-4 blog-sidebar">
+      <div class="p-4">
+<h4>More like this</h4>
+<p>Did you like this recipe? Ask the video chef to inspire you further. Alternatively, you can look at my hand picked online resources of similar recipes, or select another item on the menu to try. </p>
+
+<h5>Video chef</h5>
+<p>Check out the <a href="{{ page.video }}">video chef</a> for inspiration of preparing this recipe.</p>
+
+<h5>Other {{ page.title | downcase }} recipes</h5>
+  <ul>
+    {% for recipe in site.data.cookbook.desserts.mulled-wine-alternative %}
+      <li><a href="{{ recipe.link }}">{{ recipe.name }}</a></li>
+    {% endfor %}
+  </ul>
+
+<h5>More recipes from the {{ page.menu }} menu</h5>
+  <ul>
+    {% for post in site.categories.desserts %}
+      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+      </div>
+    </aside><!-- /.blog-sidebar -->
+      </div><!-- /.row -->

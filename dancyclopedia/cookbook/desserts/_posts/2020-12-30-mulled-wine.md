@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: desserts
 title: Mulled wine
+menu: desserts
+video: https://youtu.be/PfHMCB7UePc
 ---
-
-# Mulled wine
 
 Let's see how to cook your chosen dish.
 
@@ -11,13 +11,21 @@ Let's see how to cook your chosen dish.
 
 Here is what you need to have at home.
 
-1. 1 bottle, cheap wine,
-2. 0.5, Cinnamon stick;
-3. 1 handful, clove or kardamom;
-4. 1, orange;
-5. 3 tsps, brown sugar;
-6. 1 handful, dried plums;
-7. 1 mug, water.
+<table>
+  {% for row in site.data.cookbook.desserts.mulled-wine%}
+    {% if forloop.first %}
+    <tr>
+      {% for pair in row %}
+        <th>{{ pair[0] }}</th>
+      {% endfor %}
+    </tr>
+    {% endif %}
+
+    {% tablerow pair in row %}
+      {{ pair[1] }}
+    {% endtablerow %}
+  {% endfor %}
+</table>
 
 ## Preparation
 
@@ -34,11 +42,3 @@ Here are the steps to cook the meal. Enjoy!
 6. Stir and add the sugar.
 7. Finally add the plums and water and wait until it heats up again.
 8. Serve into mugs with a few plums.
-
-## Extras
-
-[Video chef: Here is one way of doing it.](https://youtu.be/PfHMCB7UePc)
-
-### More online recipes
-
-* [Recipe of a search engine](www.google.com)
