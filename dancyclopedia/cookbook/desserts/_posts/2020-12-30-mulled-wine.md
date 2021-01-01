@@ -1,29 +1,20 @@
 ---
-layout: desserts
+layout: recipes
 title: Mulled wine
-menu: desserts
+menu: desserts and breakfast
 video: https://youtu.be/PfHMCB7UePc
+music: https://open.spotify.com/playlist/37i9dQZF1DWVqfgj8NZEp1?si=QOz1ujfjQrqSR6yTeP6OIg
 ---
 
-Let's see how to cook your chosen dish.
+This is a quick and tasty treat. No chewing is required. Ideal during the winter, while curling up on the sofa under a blanket.
 
 ## Ingredients
 
 Here is what you need to have at home.
 
 <table>
-  {% for row in site.data.cookbook.desserts.mulled-wine%}
-    {% if forloop.first %}
-    <tr>
-      {% for pair in row %}
-        <th>{{ pair[0] }}</th>
-      {% endfor %}
-    </tr>
-    {% endif %}
-
-    {% tablerow pair in row %}
-      {{ pair[1] }}
-    {% endtablerow %}
+  {% for row  in site.data.cookbook.desserts.mulled-wine %}
+{% include ingredients.html %}
   {% endfor %}
 </table>
 
@@ -34,7 +25,7 @@ Serves: Make sure to share, and buy for your pals.
 
 Here are the steps to cook the meal. Enjoy!
 
-1. Start playing music in the background.
+1. Play music in the kitchen. [I recommend this playlist.]({{ page.music }})
 2. Pore a glass of drink for the chef.
 3. Start heating up the wine at low heat.
 4. Crush the cinnamon stick into the wine, and chuck a handful of cloves into it.

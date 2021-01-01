@@ -1,9 +1,10 @@
 ---
-layout: default
-title: Wraps
+layout: recipesdefault
+title: Menu for wraps
 ---
 
-# Menu for wrap
-
-* chicken and spinach wrap
-* 
+  <ul>
+    {% for post in site.categories.wraps %}
+      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>

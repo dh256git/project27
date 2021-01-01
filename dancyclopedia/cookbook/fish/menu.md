@@ -1,9 +1,14 @@
 ---
-layout: default
-title: Fish dish
+layout: recipes
+title: Menu for fish dishes
 ---
 
-# Menu for fish
+  <ul>
+    {% for post in site.categories.fish %}
+      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+### To do
 
 * Fried salmon filet
-* 

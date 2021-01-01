@@ -1,10 +1,10 @@
 ---
-layout: default
-title: Risotto
+layout: recipes
+title: Menu for risotto meals
 ---
 
-# Menu for risotto
-
-* [prawn and sun-dried tomato](prawn and sun-dried tomato.html)
-* [Mushroom and chicken](Mushroom and chicken.html)
-* 
+  <ul>
+    {% for post in site.categories.risotto %}
+      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>

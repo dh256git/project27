@@ -1,17 +1,19 @@
 ---
-layout: default
-title: Desserts and breakfast
+layout: recipes
+title: Menu for desserts and breakfast
 ---
 
-# Menu for desserts and breakfast
+  <ul>
+    {% for post in site.categories.desserts %}
+      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+### To do
 
 * Fruit baskets
-* [Mulled wine](./mulled-wine.html)
-* Yoghurt with muesli
-* milk with muesli
+
 * crumpet with spreads
-* toast with spreads
-* [Sultana porridge](./sultana-porridge.html)
 * scrambled eggs
 * frittata
 * baked beans with sausages
