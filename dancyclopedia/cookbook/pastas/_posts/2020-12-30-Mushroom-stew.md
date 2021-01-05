@@ -1,9 +1,11 @@
 ---
-layout: default
+layout: recipes
 title: Mushroom stew
+menu: pasta
+video: https://youtu.be/UxZk762hZgM
+music: 
 ---
 
-# Mushroom stew
 
 Let's see how to cook your chosen dish.
 
@@ -32,11 +34,3 @@ Here are the steps to cook the meal. Enjoy!
 5. Stir until it goes soft, then add vegeta mix and seasoning. Meantime, boil pasta.
 6. Add little water if necessary, then the sour cream. Grate garlic onto the stew to finish it off.
 7. Serve on pasta and enjoy.
-
-## Extras
-
-[Video chef: Here is one way of doing it.](https://youtu.be/UxZk762hZgM)
-
-### More online recipes
-
-* [Recipe of a search engine](www.google.com)

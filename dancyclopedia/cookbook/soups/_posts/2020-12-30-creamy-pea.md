@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: recipes
 title: Creamy pea soup
+menu: soups to scoop
+video: 
+music: 
 ---
-
-# Creamy pea soup
 
 Let's see how to cook your chosen dish.
 
@@ -29,11 +30,3 @@ Here are the steps to cook the meal. Enjoy!
 4. Add the cream, and season with nutmeg, salt, pepper, and vegetable mix.
 5. Once it boils again, add the remaining peas. 
 6. Meantime fry some lardon and add it to the portions when serving. Enjoy.
-
-## Extras
-
-[Video chef: Here is one way of doing it.](www.youtube.com)
-
-### More online recipes
-
-* [Recipe of a search engine](www.google.com)

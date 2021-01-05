@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: recipes
 title: Potato dish
+menu: meat feast
 ---
 
 # POtato dish

@@ -1,28 +1,36 @@
-# Name of dish
+---
+layout: recipes
+title: 
+menu: 
+video: 
+music: 
+additional:
+  - name: 
+    link: 
+  - name: 
+    link: 
+time: Takes as long as it takes.
+serves: Make sure to share, and buy for your pals.
+---
 
-Let's see how to cook your chosen dish.
+Short description of the meal.
 
 ## Ingredients
 
 Here is what you need to have at home.
 
-1. ***
+<table>
+  {% for row  in site.data.cookbook.desserts.** %}
+{% include ingredients.html %}
+  {% endfor %}
+</table>
+
+Serves: {{ page.serves }}
 
 ## Preparation
 
-Time: Takes as long as it takes.  
-Serves: Make sure to share, and buy for your pals.
+Here are the steps to cook the meal. {{ page.time }} Share and enjoy!
 
-Here are the steps to cook the meal. Enjoy!
-
-1. Start playing music in the background.
+1. Play music in the kitchen. [I recommend this playlist.]({{ page.music }})
 2. Pore a glass of drink for the chef.
-3. ***
-
-## Extras
-
-[Video chef: Here is one way of doing it.](www.youtube.com)
-
-### More online recipes
-
-* [Recipe of a search engine](www.google.com)
+3. 

@@ -1,4 +1,13 @@
-# Cottage cheese pasta bake
+---
+layout: recipes
+title: Cottage cheese pasta bake
+menu: pasta
+video: 
+music: 
+additional:
+  - name: Pasta with cottage cheese and bacon
+    link: http://allrecipes.co.uk/recipe/22201/pasta-with-cottage-cheese-and-bacon.aspx
+---
 
 Let's see how to cook your chosen dish.
 
@@ -22,11 +31,3 @@ Here are the steps to cook the meal. Enjoy!
 5. while the pasta is hot, spread and mix the diced shpeck or lardons with it.
 6. mix the pasta with the cottage cheese and the sour cream
 7. bake it in the oven for 20 minutes on 180 degrees.
-
-## Extras
-
-[Video chef: Here is one way of doing it.](www.youtube.com)
-
-### More online recipes
-
-* [Pasta with cottage cheese and bacon](http://allrecipes.co.uk/recipe/22201/pasta-with-cottage-cheese-and-bacon.aspx)

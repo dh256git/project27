@@ -1,9 +1,13 @@
 ---
-layout: default
-title: Prawn and sun dried tomato risotto
+layout: recipes
+title: Prawn and sun-dried tomato risotto
+menu: risotto
+video: https://www.youtube.com/watch?v=B_xcPz2-oL0
+music: 
+additional:
+  - name: Prawn, sun-dried tomato and peas risotto
+    link: http://allrecipes.co.uk/recipe/5805/prawn--sun-dried-tomatoes-and-pea-risotto.aspx
 ---
-
-# Prawn and sun-dried tomato risotto
 
 Let's see how to cook your chosen dish.
 
@@ -39,11 +43,3 @@ Here are the steps to cook the meal. Enjoy!
 7. For the last 2 minutes of cooking, stir in 250g cooked, peeled prawns and 200g peas (thawed, if frozen, by putting them into a colander and pouring boiling water over). 
 8. When the risotto is done, stir in the herbs, then season to taste. 
 9. Serve with Parmesan cheese shavings scattered over the top.
-
-## Extras
-
-[Video chef: Here is one way of doing it.](https://www.youtube.com/watch?v=B_xcPz2-oL0)
-
-### More online recipes
-
-* [Prawn, sun-dried tomato and peas risotto](http://allrecipes.co.uk/recipe/5805/prawn--sun-dried-tomatoes-and-pea-risotto.aspx)

@@ -1,10 +1,13 @@
 ---
-layout: default
-title: Tuna tomato pasta
+layout: recipes
+title: Origano-tomato tuna pasta
+menu: pasta
+video: 
+music: 
+additional:
+  - name: Pasta with tuna and tomato
+    link: https://www.bbcgoodfood.com/recipes/1965/pasta-with-tuna-and-tomato-sauce
 ---
-
-
-# Origano-tomato tuna pasta
 
 Let's see how to cook your chosen dish.
 
@@ -34,11 +37,3 @@ Here are the steps to cook the meal. Enjoy!
 6. add the tomato puree, ketchup and the herbs. Grate the garlic on the mixture.
 7. Boil the penne for 8 minutes, then mix the tuna and the pasta in a bowl.
 8. Serve it with cheese.
-
-## Extras
-
-[Video chef: Here is one way of doing it.](www.youtube.com)
-
-### More online recipes
-
-* [Pasta with tuna and tomato](https://www.bbcgoodfood.com/recipes/1965/pasta-with-tuna-and-tomato-sauce)

@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: recipes
 title: SLow baked pork stake
+menu: meat feast
 ---
 
 # Slow baked pork stake with potato salad

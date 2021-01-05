@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: recipes
 title: Mushroom and chicken risotto
+menu: risotto
+video: https://youtu.be/d2_VQhp3ThI
+music: 
 ---
-
-# Mushroom and chicken risotto
 
 Let's see how to cook your chosen dish.
 
@@ -37,11 +38,3 @@ Here are the steps to cook the meal. Enjoy!
 7. add the herb mix and gradually add the stock until the rice goes sticky.
 8. At the end grate the garlic on the risotto and add the butter.
 9. Serve and enjoy.
-
-## Extras
-
-[Video chef: Here is one way of doing it.](https://youtu.be/d2_VQhp3ThI)
-
-### More online recipes
-
-* [Recipe of a search engine](www.google.com)

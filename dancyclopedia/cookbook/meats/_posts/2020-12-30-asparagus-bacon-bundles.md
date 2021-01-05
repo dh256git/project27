@@ -1,6 +1,7 @@
 ---
-layout: default
-title: Asparagus bacon bundlesbreakfast
+layout: recipes
+title: Asparagus bacon bundles
+menu: meat feast
 ---
 
 # Asparagus bacon bundles

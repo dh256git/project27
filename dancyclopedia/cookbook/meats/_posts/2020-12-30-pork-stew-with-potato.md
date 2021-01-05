@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: recipes
 title: Potato pork stew
+menu: meat feast
 ---
 
 # Pork stew with potato

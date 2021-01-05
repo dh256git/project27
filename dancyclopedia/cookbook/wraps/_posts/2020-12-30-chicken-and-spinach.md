@@ -1,9 +1,13 @@
 ---
-layout: default
+layout: recipes
 title: Chicken and spinach wrap
+menu: wraps
+video: https://www.youtube.com/watch?v=TadWhAGTAbE
+music: 
+additional:
+  - name: Sun-dried, feta, chicken wrap
+    link: http://allrecipes.co.uk/recipe/29089/sun-dried-tomato--feta-and-chicken-wraps.aspx
 ---
-
-# Chicken and spinach wrap
 
 Let's see how to cook your chosen dish.
 
@@ -32,11 +36,3 @@ Here are the steps to cook the meal. Enjoy!
 6. Lay a tortilla wrap on a plate, spread some spinach leaves on top, and spread 2-3 table spoonfull of filling on the spinach. 
 7. Sprinkle some sweet chilly on top, and serve without wrapping. 
 8. Wrap together when everyone is seated.
-
-## Extras
-
-[Video chef: Here is one way of doing it.](https://www.youtube.com/watch?v=TadWhAGTAbE)
-
-### More online recipes
-
-* [Sun-dried, feta, chicken wrap](http://allrecipes.co.uk/recipe/29089/sun-dried-tomato--feta-and-chicken-wraps.aspx)

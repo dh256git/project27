@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: recipes
 title: Layered green beans
+menu: meat feast
 ---
 
 

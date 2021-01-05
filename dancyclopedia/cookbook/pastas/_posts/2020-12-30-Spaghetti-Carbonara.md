@@ -1,9 +1,10 @@
 ---
-layout: default
+layout: recipes
 title: Spaghetti Carbonara
+menu: pasta
+video: https://youtu.be/3AAdKl1UYZs
+music: 
 ---
-
-# Spaghetti Carbonara
 
 Let's see how to cook your chosen dish.
 
@@ -34,11 +35,3 @@ Here are the steps to cook the meal. Enjoy!
 7. Cook the spaghetti, and as soon as it's done, add it to the sauce while it's hot, such that the eggs can cook a little and the cheese can melt.
 8. Mix and add the fried lardons.
 9. Serve and enjoy.
-
-## Extras
-
-[Video chef: Here is one way of doing it.](https://youtu.be/3AAdKl1UYZs)
-
-### More online recipes
-
-* [Recipe of a search engine](www.google.com)
