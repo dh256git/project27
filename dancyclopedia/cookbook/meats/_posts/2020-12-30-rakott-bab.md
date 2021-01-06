@@ -2,10 +2,16 @@
 layout: recipes
 title: Layered green beans
 menu: meat feast
+video: https://www.youtube.com/watch?v=q_T9GmNmqtM
+music: 
+additional:
+  - name: Stacked green beans
+    link: http://receptletoltes.hu/en/arch%C3%ADvum/4668
+  - name: 
+    link: 
+time: Takes as long as it takes.
+serves: Make sure to share, and buy for your pals.
 ---
-
-
-# Rakott bab (Stacked green beans)
 
 Let's see how to cook your chosen dish.
 
@@ -13,23 +19,19 @@ Let's see how to cook your chosen dish.
 
 Here is what you need to have at home.
 
-1. 1, onion, finely chopped;
-2. 850 g, pork, minced;
-3. 125 g, rice, boiled;
-4. 2 jars, green beans, soft;
-5. 300 ml, sour cream;
-6. some, bred crumbs;
-7. seasoning: salt, black pepper, paprika, vegetable stock;
-8. greasing: lard and oil.
+<table>
+  {% for row  in site.data.cookbook.meats.layered %}
+{% include ingredients.html %}
+  {% endfor %}
+</table>
+
+Serves: {{ page.serves }}
 
 ## Preparation
 
-Time: Takes as long as it takes.  
-Serves: Make sure to share, and buy for your pals.
+Here are the steps to cook the meal. {{ page.time }} Share and enjoy!
 
-Here are the steps to cook the meal. Enjoy!
-
-1. Start playing music in the background.
+1. Play music in the kitchen. [I recommend this playlist.]({{ page.music }})
 2. Pore a glass of drink for the chef.
 3. Start boiling the rice.
 4. While the rice cooks, start preparing the minced stew. For this, chop the onions finely, and fry them on lard. When the onions soften, add paprika, according to your taste.
@@ -40,11 +42,3 @@ Here are the steps to cook the meal. Enjoy!
 9. On top of the stew layer, spread the sour cream, such that it covers all the meat. This is when you can add extra seasoning, such as more salt, pepper, or as I did, a bit of garlic.
 10. Finally, top it up with another layer of green beans.
 11. The finishing touch is to add the bred crumbs on top. Potentially, you can make a mix of bred crumbs, cheese and seasoning to sprinkle on top. 
-
-## Extras
-
-[Video chef: Here is one way of doing it.](https://www.youtube.com/watch?v=q_T9GmNmqtM)
-
-### More online recipes
-
-* [Layered green beans](http://receptletoltes.hu/en/arch%C3%ADvum/4668)

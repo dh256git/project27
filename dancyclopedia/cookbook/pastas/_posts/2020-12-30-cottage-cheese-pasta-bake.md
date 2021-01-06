@@ -7,6 +7,8 @@ music:
 additional:
   - name: Pasta with cottage cheese and bacon
     link: http://allrecipes.co.uk/recipe/22201/pasta-with-cottage-cheese-and-bacon.aspx
+time: Takes as long as it takes.
+serves: Make sure to share, and buy for your pals.
 ---
 
 Let's see how to cook your chosen dish.
@@ -15,16 +17,19 @@ Let's see how to cook your chosen dish.
 
 Here is what you need to have at home.
 
-1. 250 g, Long stripe pasta *rovid metelt)
-2. 300g, cottage cheese
-3. 3 TBSPs, sour cream, mixed
-4. 100g, shpeck / lardon, diced
+<table>
+  {% for row  in site.data.cookbook.pastas.cottage %}
+{% include ingredients.html %}
+  {% endfor %}
+</table>
+
+Serves: {{ page.serves }}
 
 ## Preparation
 
-Here are the steps to cook the meal. Enjoy!
+Here are the steps to cook the meal. {{ page.time }} Share and enjoy!
 
-1. Start playing music in the background.
+1. Play music in the kitchen. [I recommend this playlist.]({{ page.music }})
 2. Pore a glass of drink for the chef.
 3. boil the pasta for 8 minutes
 4. spread the pasta in an oven dish

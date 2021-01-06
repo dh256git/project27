@@ -4,6 +4,13 @@ title: Creamy pea soup
 menu: soups to scoop
 video: 
 music: 
+additional:
+  - name: 
+    link: 
+  - name: 
+    link: 
+time: Takes as long as it takes.
+serves: Make sure to share, and buy for your pals.
 ---
 
 Let's see how to cook your chosen dish.
@@ -12,19 +19,19 @@ Let's see how to cook your chosen dish.
 
 Here is what you need to have at home.
 
-1. 1 kg, green peas;
-2. 600ml, single cooking cream;
-3. Seasoning: Nutmeg, salt, black pepper, parsley, vegetable mix;
-4. 300g, lardons.
+<table>
+  {% for row  in site.data.cookbook.soups.creamy-pea %}
+{% include ingredients.html %}
+  {% endfor %}
+</table>
+
+Serves: {{ page.serves }}
 
 ## Preparation
 
-Time: Takes as long as it takes.  
-Serves: Make sure to share, and buy for your pals.
+Here are the steps to cook the meal. {{ page.time }} Share and enjoy!
 
-Here are the steps to cook the meal. Enjoy!
-
-1. Start playing music in the background.
+1. Play music in the kitchen. [I recommend this playlist.]({{ page.music }})
 2. Pore a glass of drink for the chef.
 3. Pore half of the peas in a sauce pot, and add enough water to cover it. Boil for a few minutes, then using a mixer, mush the peas.
 4. Add the cream, and season with nutmeg, salt, pepper, and vegetable mix.

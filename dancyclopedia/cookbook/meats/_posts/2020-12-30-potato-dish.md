@@ -2,9 +2,16 @@
 layout: recipes
 title: Potato dish
 menu: meat feast
+video: https://youtu.be/hTPSdevZPEg
+music: 
+additional:
+  - name: 
+    link: 
+  - name: 
+    link: 
+time: Takes as long as it takes.
+serves: Make sure to share, and buy for your pals.
 ---
-
-# POtato dish
 
 Let's see how to cook your chosen dish.
 
@@ -12,22 +19,19 @@ Let's see how to cook your chosen dish.
 
 Here is what you need to have at home.
 
-1. 1kg, potato, sliced;
-2. 6, eggs, sliced;;
-3. 1 rod, sausage;
-4. 300ml, sour cream;
-5. some, breadcrumbs;
-6. 2 tbsps, lard (alternatively olive oil);
-7. Seasoning: salt, black pepper.
+<table>
+  {% for row  in site.data.cookbook.meats.potato-dish %}
+{% include ingredients.html %}
+  {% endfor %}
+</table>
+
+Serves: {{ page.serves }}
 
 ## Preparation
 
-Time: Takes as long as it takes.  
-Serves: Make sure to share, and buy for your pals.
+Here are the steps to cook the meal. {{ page.time }} Share and enjoy!
 
-Here are the steps to cook the meal. Enjoy!
-
-1. Start playing music in the background.
+1. Play music in the kitchen. [I recommend this playlist.]({{ page.music }})
 2. Pore a glass of drink for the chef.
 3. Start with boiling the whole pilled potatoes and eggs. After these are done, wait until they cool down.
 4. SLice the sausage, potatos, and eggs.
@@ -38,12 +42,4 @@ Here are the steps to cook the meal. Enjoy!
 9. Now repeat the same layers once more, and cover it all up with a layer of potato.
 10. Finish it with olive oil on the potato and breadcrumbs.
 11. Bake in the oven for 20 minutes, on 180 degrees Celsius.
-12. Serve and enjoy. 
-
-## Extras
-
-[Video chef: Here is one way of doing it.](https://youtu.be/hTPSdevZPEg)
-
-### More online recipes
-
-* [Recipe of a search engine](www.google.com)
+12. Serve and enjoy.

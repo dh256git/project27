@@ -7,6 +7,8 @@ music:
 additional:
   - name: Sun-dried, feta, chicken wrap
     link: http://allrecipes.co.uk/recipe/29089/sun-dried-tomato--feta-and-chicken-wraps.aspx
+time: Takes as long as it takes.
+serves: Make sure to share, and buy for your pals.
 ---
 
 Let's see how to cook your chosen dish.
@@ -15,20 +17,19 @@ Let's see how to cook your chosen dish.
 
 Here is what you need to have at home.
 
-* 1 clove of garlic, sliced
-* 3, charlotte onions, sliced
-* 1, pack of spinach leaves
-* 6-8, sun-dried tomato, chopped
-* 1, can of sweet corn
-* 2, chicken breast filets
-* tortilla wraps
-* sweet chilly sauce
+<table>
+  {% for row  in site.data.cookbook.wraps.chicken %}
+{% include ingredients.html %}
+  {% endfor %}
+</table>
+
+Serves: {{ page.serves }}
 
 ## Preparation
 
-Here are the steps to cook the meal. Enjoy!
+Here are the steps to cook the meal. {{ page.time }} Share and enjoy!
 
-1. Start playing music in the background.
+1. Play music in the kitchen. [I recommend this playlist.]({{ page.music }})
 2. Pore a glass of drink for the chef.
 3. Start chopping up the sun-dried tomato, and chuck it in a pan. If needed use a bit more oil from the jar of the tomato.
 4. chop up the chicken, garlic, onions, and also chuck it in the pan. 

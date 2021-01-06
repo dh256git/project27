@@ -4,6 +4,13 @@ title: Spaghetti Carbonara
 menu: pasta
 video: https://youtu.be/3AAdKl1UYZs
 music: 
+additional:
+  - name: 
+    link: 
+  - name: 
+    link: 
+time: Takes as long as it takes.
+serves: Make sure to share, and buy for your pals.
 ---
 
 Let's see how to cook your chosen dish.
@@ -12,21 +19,19 @@ Let's see how to cook your chosen dish.
 
 Here is what you need to have at home.
 
-1. 250g, spaghetti,
-2. 2, fresh eggs,
-3. 150ml, single cream,
-4. 100g, parmesan cheese,
-5. 100g, lardons,
-6. Seasoning: black pepper only.
+<table>
+  {% for row  in site.data.cookbook.pastas.carbonara %}
+{% include ingredients.html %}
+  {% endfor %}
+</table>
+
+Serves: {{ page.serves }}
 
 ## Preparation
 
-Time: Takes as long as it takes.  
-Serves: Make sure to share, and buy for your pals.
+Here are the steps to cook the meal. {{ page.time }} Share and enjoy!
 
-Here are the steps to cook the meal. Enjoy!
-
-1. Start playing music in the background.
+1. Play music in the kitchen. [I recommend this playlist.]({{ page.music }})
 2. Pore a glass of drink for the chef.
 3. Fry the lardons in a pan.
 4. Beat the eggs and add the cream to it.

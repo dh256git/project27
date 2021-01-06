@@ -20,7 +20,7 @@ This is a quick and tasty treat. No chewing is required. Ideal during the winter
 Here is what you need to have at home.
 
 <table>
-  {% for row  in site.data.cookbook.desserts.mulled-wine %}
+  {% for row  in site.data.cookbook.desserts.mulled %}
 {% include ingredients.html %}
   {% endfor %}
 </table>
