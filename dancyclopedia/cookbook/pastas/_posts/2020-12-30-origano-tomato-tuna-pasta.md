@@ -2,8 +2,8 @@
 layout: recipes
 title: Origano-tomato tuna pasta
 menu: pasta
-video: 
-music: 
+video: https://youtu.be/q38wEG1FHww
+music: https://open.spotify.com/user/spotify/playlist/37i9dQZF1DZ06evO1SC425?si=jzJwDaN9RM-uak4XEwGrOA
 additional:
   - name: Pasta with tuna and tomato
     link: https://www.bbcgoodfood.com/recipes/1965/pasta-with-tuna-and-tomato-sauce

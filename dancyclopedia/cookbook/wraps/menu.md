@@ -1,5 +1,5 @@
 ---
-layout: recipesdefault
+layout: default
 title: Menu for wraps
 ---
 

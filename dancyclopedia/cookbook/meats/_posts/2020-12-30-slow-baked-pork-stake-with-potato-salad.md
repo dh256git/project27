@@ -2,13 +2,13 @@
 layout: recipes
 title: SLow baked pork stake
 menu: meat feast
-video: 
-music: 
+video: https://youtu.be/nWvHNLHrXZ0
+music: https://open.spotify.com/playlist/37i9dQZF1DX1riuLHc7Ui5?si=P7Fz8s18QQKamfbkYGBJ_w
 additional:
-  - name: 
-    link: 
-  - name: 
-    link: 
+  - name: Phil’s Slow Roasted Pork Steak
+    link: https://www.stltoday.com/lifestyles/food-and-cooking/recipes/phil-s-slow-roasted-pork-steak/article_898b02f5-138a-5a56-836b-a9b3bb12c4d3.html
+  - name: Easy bake pork chops
+    link: https://thestayathomechef.com/easy-baked-pork-chops/
 time: Takes as long as it takes.
 serves: Make sure to share, and buy for your pals.
 ---

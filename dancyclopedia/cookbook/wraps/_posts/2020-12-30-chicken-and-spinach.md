@@ -1,9 +1,9 @@
 ---
 layout: recipes
 title: Chicken and spinach wrap
-menu: wraps
+menu: wraps and rolls
 video: https://www.youtube.com/watch?v=TadWhAGTAbE
-music: 
+music: https://open.spotify.com/playlist/37i9dQZF1E8Pm24fThBuX4?si=y5itagY2Rc-O5b62D3byrg
 additional:
   - name: Sun-dried, feta, chicken wrap
     link: http://allrecipes.co.uk/recipe/29089/sun-dried-tomato--feta-and-chicken-wraps.aspx

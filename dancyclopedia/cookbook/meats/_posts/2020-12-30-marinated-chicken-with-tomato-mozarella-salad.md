@@ -2,13 +2,13 @@
 layout: default
 title: Marinated chicken with tomato and mozarella salad
 menu: meat feast
-video: 
-music: 
+video: https://youtu.be/SFtWmCwxBpI
+music: https://open.spotify.com/playlist/37i9dQZF1DX1riuLHc7Ui5?si=P7Fz8s18QQKamfbkYGBJ_w
 additional:
-  - name: 
-    link: 
-  - name: 
-    link: 
+  - name: Caprese chicken (All recipes)
+    link: https://www.allrecipes.com/recipe/229605/caprese-chicken/
+  - name: Grilled Chicken with Tomato and Mozzarella Salad
+    link: https://www.myrecipes.com/recipe/grilled-chicken-with-tomato-mozzarella-salad
 time: Takes as long as it takes.
 serves: Make sure to share, and buy for your pals.
 ---

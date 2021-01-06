@@ -3,12 +3,12 @@ layout: recipes
 title: Mushroom and chicken risotto
 menu: risotto
 video: https://youtu.be/d2_VQhp3ThI
-music: 
+music: https://open.spotify.com/user/spotify/playlist/37i9dQZF1DWUofLlXqRWZz?si=USn4-F9USKyABFz6jLhhtg
 additional:
-  - name: 
-    link: 
-  - name: 
-    link: 
+  - name: Chicken and mushroom risotto (BBC Good Food)
+    link: https://www.bbcgoodfood.com/recipes/chicken-mushroom-risotto
+  - name: Gourmet Mushroom Risotto (All recipes)
+    link: https://www.allrecipes.com/recipe/85389/gourmet-mushroom-risotto/
 time: Takes as long as it takes.
 serves: Make sure to share, and buy for your pals.
 ---

@@ -3,12 +3,12 @@ layout: recipes
 title: Spaghetti Carbonara
 menu: pasta
 video: https://youtu.be/3AAdKl1UYZs
-music: 
+music: https://open.spotify.com/user/spotify/playlist/37i9dQZF1DZ06evO1SC425?si=jzJwDaN9RM-uak4XEwGrOA
 additional:
-  - name: 
-    link: 
-  - name: 
-    link: 
+  - name: Ultimate spaghetti Carbonara (BBC Good Food)
+    link: https://www.bbcgoodfood.com/recipes/ultimate-spaghetti-carbonara-recipe
+  - name: Gennaro's classic spaghetti carbonara
+    link: https://www.jamieoliver.com/recipes/pasta-recipes/gennaro-s-classic-spaghetti-carbonara/
 time: Takes as long as it takes.
 serves: Make sure to share, and buy for your pals.
 ---

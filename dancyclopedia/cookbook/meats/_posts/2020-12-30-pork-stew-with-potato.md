@@ -3,7 +3,7 @@ layout: recipes
 title: Potato pork stew
 menu: meat feast
 video: https://youtu.be/twgSz-PE-jQ
-music: 
+music: https://open.spotify.com/playlist/37i9dQZF1DX1riuLHc7Ui5?si=P7Fz8s18QQKamfbkYGBJ_w
 additional:
   - name: Romanian pork and potato stew
     link: https://www.thespruceeats.com/romanian-pork-and-potato-stew-recipe-1137274

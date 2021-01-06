@@ -2,13 +2,13 @@
 layout: recipes
 title: Asparagus bacon bundles
 menu: meat feast
-video: 
-music: 
+video: https://youtu.be/Xk3UfRdwm7o
+music: https://open.spotify.com/playlist/37i9dQZF1DX1riuLHc7Ui5?si=P7Fz8s18QQKamfbkYGBJ_w
 additional:
-  - name: 
-    link: 
-  - name: 
-    link: 
+  - name: BACON WRAPPED GARLIC ASPARAGUS BUNDLES
+    link: https://www.food.com/recipe/bacon-wrapped-garlic-asparagus-bundles-116610
+  - name: Bacon Wrapped Asparagus Bundles
+    link: https://www.foodnetwork.com/recipes/rachael-ray/bacon-wrapped-asparagus-bundles-recipe-1915631
 time: Takes as long as it takes.
 serves: Make sure to share, and buy for your pals.
 ---

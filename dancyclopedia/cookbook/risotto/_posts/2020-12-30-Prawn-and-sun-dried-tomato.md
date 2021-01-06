@@ -3,7 +3,7 @@ layout: recipes
 title: Prawn and sun-dried tomato risotto
 menu: risotto
 video: https://www.youtube.com/watch?v=B_xcPz2-oL0
-music: 
+music: https://open.spotify.com/user/spotify/playlist/37i9dQZF1DWUofLlXqRWZz?si=USn4-F9USKyABFz6jLhhtg
 additional:
   - name: Prawn, sun-dried tomato and peas risotto
     link: http://allrecipes.co.uk/recipe/5805/prawn--sun-dried-tomatoes-and-pea-risotto.aspx

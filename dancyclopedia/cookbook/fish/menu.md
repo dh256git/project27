@@ -1,5 +1,5 @@
 ---
-layout: recipes
+layout: default
 title: Menu for fish dishes
 ---
 

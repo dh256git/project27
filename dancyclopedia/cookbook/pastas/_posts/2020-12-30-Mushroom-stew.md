@@ -3,12 +3,12 @@ layout: recipes
 title: Mushroom stew
 menu: pasta
 video: https://youtu.be/UxZk762hZgM
-music: 
+music: https://open.spotify.com/user/spotify/playlist/37i9dQZF1DZ06evO1SC425?si=jzJwDaN9RM-uak4XEwGrOA
 additional:
-  - name: 
-    link: 
-  - name: 
-    link: 
+  - name: Creamy mushroom stew
+    link: https://paleoleap.com/creamy-mushroom-stew/
+  - name: Fresh and wild mushroom stew (NYT)
+    link: https://cooking.nytimes.com/recipes/1015198-fresh-and-wild-mushroom-stew
 time: Takes as long as it takes.
 serves: Make sure to share, and buy for your pals.
 ---

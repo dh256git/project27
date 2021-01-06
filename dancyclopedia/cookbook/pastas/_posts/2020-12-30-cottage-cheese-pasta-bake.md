@@ -2,8 +2,8 @@
 layout: recipes
 title: Cottage cheese pasta bake
 menu: pasta
-video: 
-music: 
+video: https://youtu.be/P3_adq1GUro
+music: https://open.spotify.com/user/spotify/playlist/37i9dQZF1DZ06evO1SC425?si=jzJwDaN9RM-uak4XEwGrOA
 additional:
   - name: Pasta with cottage cheese and bacon
     link: http://allrecipes.co.uk/recipe/22201/pasta-with-cottage-cheese-and-bacon.aspx

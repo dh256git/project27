@@ -2,13 +2,13 @@
 layout: recipes
 title: Creamy pea soup
 menu: soups to scoop
-video: 
-music: 
+video: https://youtu.be/v6_x6NER7VE
+music: https://open.spotify.com/playlist/37i9dQZF1DX8yMCqd4JdaS?si=ANWAisFsRliV4uoXLcr9Kw
 additional:
-  - name: 
-    link: 
-  - name: 
-    link: 
+  - name: Creamy pea soup (Taste of home)
+    link: https://www.tasteofhome.com/recipes/creamy-pea-soup/
+  - name: Creamy pea soup (My recipes)
+    link: https://www.myrecipes.com/recipe/creamy-pea-soup
 time: Takes as long as it takes.
 serves: Make sure to share, and buy for your pals.
 ---
