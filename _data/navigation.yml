@@ -1,6 +1,6 @@
 - name: Home
   link: /index.html
-- name: Dancyclopedia
-  link: /dancyclopedia/dancyclopedia.html
 - name: Blog
   link: /blog/blog.html
+- name: Dancyclopedia
+  link: /dancyclopedia/dancyclopedia.html

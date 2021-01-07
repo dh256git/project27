@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+  <div class="row">
+    <div class="col-md-8 blog-main">
+      <div class="blog-post">
+
+{{ content }}
+
+      </div><!-- /.blog-post -->
+
+<hr>
+      {% include secondary-navbar.html %}
+  </div><!-- /.blog-main -->
+
+    <aside class="col-md-4 blog-sidebar">
+      <div class="p-4">
+<h4>Articles in {{ page.branch }}</h4>
+<p>Did you like this post? Have a look at further {{ page.branch }} categories below, and pick another article to read.</p>
+
+{% if page.url contains "twist" %}
+{% include twist-topics.html %}
+{% elsif page.url contains "project-log" %}
+{% include logbook-topics.html %}
+{% endif %}
+      </div>
+    </aside><!-- /.blog-sidebar -->
+      </div><!-- /.row -->
