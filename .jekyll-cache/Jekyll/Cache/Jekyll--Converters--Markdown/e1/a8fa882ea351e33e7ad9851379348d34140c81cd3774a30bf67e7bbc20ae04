@@ -1,4 +1,4 @@
-I"�8<p>This page introduces the Project27 vision and mission, why it exists, who is behind the content, and what the roadmap of development is. On the small scale, Project27 is a private, digital notebook on a range of topics that matter to the author. It is a hobby activity, an opportunity to learn skills in web development, audio editing, and revising notes on physics. However, there exists a vision on the grand scale too.</p>
+I"�8<p>This page introduces the Project27 vision and mission, why it exists, who is behind the content, and what the roadmap of development is. On the small scale, Project27 is a private, digital notebook on a range of topics that matter to the author. It is a hobby activity, an opportunity to learn skills in web development, audio editing, and revising notes on physics. However, there exists a vision on the grand scale too.</p>
 
 <h3 id="whats-the-project27-vision">What’s the Project27 vision?</h3>
 
@@ -49,7 +49,7 @@ Project27 should minimise the gap between perceived experience, when consuming t
 
 <p>The Project27 blog serves two purposes. First, to log things I learn during the development of this project, which one day may be shaped into a deliverable solution, as defined in the mission statement. Second, through the TWIST series, I’d like to hint a key notion. A person is a set of identities. As a good friend of mine once said, “Daniel, you are 50 shades of Daniel”. I want to show that, a scientist is not just a “scientist”. A blind person is not just a “blind” person. I want to show, through my journey what any blind person can do if they find the way. A blind person can cook delicious meals, a blind person can study and work in sciences, a blind person can be active in journalism and audio editing. A blind person can also learn to programme, study human psychology, and perform statistical analysis for data science. Some of these life style stories will come through the pipeline of the TWIST blog, and some through scribbles of the Dancyclopedia.</p>
 
-<p>There is one common aspect of all the content within Project27. If the laws of physics allow it, you can do it. I truly wish that the content, solutions, and spirit will become not only my own, but a shared vision of many. As part of the project, I will follow an open office policy. This means, if you need help doing something and you believe I can help, I will try. The mode of communication will evolve with the project itself.</p>
+<p>There is one common aspect of all the content within Project27. If the laws of nature allow it, you can do it. I truly wish that the content, solutions, and spirit will become not only my own, but a shared vision of many. As part of the project, I will follow an open office policy. This means, if you need help doing something and you believe I can help, I will try. The mode of communication will evolve with the project itself.</p>
 
 <p>So long, all the best!</p>
 
@@ -78,9 +78,9 @@ Project27 should minimise the gap between perceived experience, when consuming t
   <li>Vocal.</li>
 </ul>
 
-<p>The Mathematical and physical sciences hub (MPS) is a collection of scribbles on mathematical and physics content, organised into distinct issues, or chapters. This volume exists to develop universally accessible content that relies on the heavy use of mathematical notation and diagrams. We also must understand what the laws of physics allow and forbid to tell whether we can or can not do something. Remember:</p>
+<p>The Mathematical and physical sciences hub (MPS) is a collection of scribbles on mathematical and physics content, organised into distinct issues, or chapters. This volume exists to develop universally accessible content that relies on the heavy use of mathematical notation and diagrams. We also must understand what the laws of nature allow and forbid to tell whether we can or can not do something. Remember:</p>
 <blockquote>
-  <p>If the laws of physics allow it, you can do it.</p>
+  <p>If the laws of nature allow it, you can do it.</p>
 </blockquote>
 
 <p>The volume on computer literacy exists to offer a collection of handy tips on how to operate a set of tools, such as git for version control, bash for interacting through shell commands, or RMarkdown to produce accessible reports of statistical analysis. What’s common in these scribbles is that they approach the task from the non-visual access point of view. While a high percentage of tutorials describe how to create an RMD report using R Studio (an inaccessible GUI tool), there are not many who give clear instructions on how to do the same through shell commands. These are skills that a blind scientist might find useful. This volume also gives an opportunity to incubate solutions that makes reading computer code a more sophisticated experience for text-to-speech users, for instance auditory syntax highlighting.</p>

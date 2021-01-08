@@ -1,3 +1,4 @@
+      <nav class="navbar navbar-expand-md navbar-light nav nav-masthead justify-content-center">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon">{% include icons/menu.svg %}</span>
   </button>
@@ -5,4 +6,10 @@
   {% for item in site.data.navigation %}
     <a href="{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
   {% endfor %}
+  {% if page.url contains "MPS" %}
+  {% include dropdown-MPS.html %}
+  {% elsif page.url contains "cookbook" %}
+  {% include dropdown-cookbook.html %}
+  {% endif %}
 </div>
+</nav>

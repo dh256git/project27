@@ -1,35 +1,5 @@
-<!doctype html>
-<html lang="en">
-  <head>
+---
+layout: default
+---
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title> {{   page.title   }}</title>
-
-<!--Custom style sheets-->
-        <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl}}">
-
-  </head>
-  <body>
-
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="masthead mb-auto">
-    <div class="inner">
-      <h3 class="masthead-brand">Welcome to {{ page.title }}!</h3>
-
-      <nav class="nav nav-masthead justify-content-center">
-{% include navigation.html %}
-{% include dropdown-MPS.html %}
-</nav>
-    </div>
-  </header>
-
-  <main role="main" class="inner cover">
- {{   content   }}
-  </main>
-
-{% include scripts.html %}
-
-  </body>
-</html>
+{{ content }}

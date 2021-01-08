@@ -1,3 +1,4 @@
+{% if page.url contains "twist" %}
   <h5>Accessibility adventures</h5>
   <ul>
     {% for post in site.categories.adventures %}
@@ -40,3 +41,27 @@
       <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
+  
+{% elsif page.url contains "project-log" %}
+  
+    <h5>LaTeX to MathML</h5>
+  <ul>
+    {% for post in site.categories.LaTeX-to-MathML %}
+      <li><a href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <h5>MathML usability</h5>
+  <ul>
+    {% for post in site.categories.MathML-usability %}
+      <li><a href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+
+  <h5>Issues</h5>
+  <ul>
+    {% for post in site.categories.issues %}
+      <li><a href="{{ post.url | prepend: site.baseurl}}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endif %}
