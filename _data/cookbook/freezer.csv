@@ -1,2 +1,2 @@
-Item, Quantity, Shelf, Date, Note
-Chicken breast, 2, 2, 12-04-2020, open pack
+Item, Quantity, Shelf, Date, Code, Note
+Chicken breast, 2, 2, 12-04-2020, 0112-1532, open pack
