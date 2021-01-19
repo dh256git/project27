@@ -1,2 +1,21 @@
-Item, Quantity, Shelf, Date, Code, Note
-Chicken breast, 2, 2, 12-04-2020, 0112-1532, open pack
+Item, Quantity, Note, Shelf, Date, Code
+smoked sausage, 1, from Hungary, 1, 01-01-2021, 0121-0001
+lemon, 1, whole but already zested, 1, 01-01-2021, 0121-0002
+mixed berries, 1, 300g opened, 1, 01-01-2021, 0121-0003
+left over Chinese, 1, boxed up, 1, 01-01-2021, 0121-0004
+
+chicken breast, 1, original pack, 2, 01-01-2021, 0121-0005
+diced pork shoulder, 1, original pack, 2, 01-01-2021, 0121-0006
+chicken thighs, 1, freezer bag (4 peaces), 2, 01-01-2021, 0121-0007
+steak meat, 3, raw in freezer bag (2 slices each), 2, 01-01-2021, 0121-0008
+
+Wiener schnitzel, 3, from home (4 slices each), 3, 01-01-2021, 0121-0009
+pork ribs, 2, home made (ready to eat - 4 per pack), 3, 01-01-2021, 0121-0010
+ratatouille, 2, boxed (ready to eat), 3, 01-01-2021, 0121-0011
+fried shredded cabbage, 3, boxed (ready to eat, 3, 01-01-2021, 0121-0012
+minced pork stew with rice, 1, boxed (to be used with pleated green beans), 3, 01-01-2021, 0121-0013
+mum's gnocchi, 1, boxed (ready to eat), 3, 01-01-2021, 0121-0014
+
+Beetroot, 1, pealed and sliced in freezer bag, 4,  01-01-2021, 0121-0015
+green peas, 1, 1kg pack unopened, 4, 01-01-2021, 0121-0016
+small prawns, 1, pealed and cooked (200g bag), 4, 01-01-2021, 0121-0017
