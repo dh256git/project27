@@ -1,0 +1,40 @@
+I"‚<p>This is what I have in the freezer.</p>
+
+<table>
+  
+    
+    <tr>
+      
+        <th scope="col">Item</th>
+      
+        <th scope="col"> Quantity</th>
+      
+        <th scope="col"> Shelf</th>
+      
+        <th scope="col"> Date</th>
+      
+        <th scope="col"> Code</th>
+      
+        <th scope="col"> Note</th>
+      
+    </tr>
+    
+
+    <tr class="row1">
+<td class="col1">
+      Chicken breast
+    </td><td class="col2">
+       2
+    </td><td class="col3">
+       2
+    </td><td class="col4">
+       12-04-2020
+    </td><td class="col5">
+       0112-1532
+    </td><td class="col6">
+       open pack
+    </td></tr>
+
+  
+</table>
+:ET
