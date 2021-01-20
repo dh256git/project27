@@ -1,0 +1,85 @@
+I"<p>Come and help Project27, and Project27 will help you.</p>
+
+<h2 id="call-for-volunteers-and-contributors">Call for volunteers and contributors</h2>
+
+<p>If you’d like to volunteer your time, and learn a new skill, or improve and existing skill you have and I don’t, then please consider helping me.</p>
+
+<h3 id="1-web-stylist---a-k-a-bootstrap-guru">1. Web stylist - a. k. a. Bootstrap guru</h3>
+
+<p>I just about managed to link up Bootstrap, Jekyll, and GitHub Pages, to kick in the Project27 engine.
+However, I haven’t really spent time working on the visual appeal of the site yet.
+In part, this is because I can not see the effect of any change I’d do.
+In part, because Bootstrap scares me. So really, the site would benefit from the capable hands of a web stylist, tinkering on visual design.</p>
+
+<h4 id="who-am-i-looking-for">Who am I looking for?</h4>
+
+<p>Somebody, who</p>
+
+<ul>
+  <li>wants to get into web design and learn Bootstrap for styling;</li>
+  <li>has a creative and artistic mindset;</li>
+  <li>catches onto a challenge, and doesn’t let it go until the challenge is solved.</li>
+</ul>
+
+<h4 id="what-i-am-looking-for">What I am looking for?</h4>
+
+<p>Some of the ToDo items that I’d happily delegate to a helpful volunteer, include :</p>
+
+<ul>
+  <li>creating a unique, and consistent character of the site, by:
+    <ol>
+      <li>populating content with graphical icons, and figures;</li>
+      <li>designing and implementing a global colour scheme;</li>
+      <li>designing and implementing the type and visual style of UI elements;</li>
+      <li>improving the layout of the content.</li>
+    </ol>
+  </li>
+  <li>enhancing accessibility and usability, by:
+    <ol>
+      <li>making sure accessibility, and usability are kept in mind when designing the visual styling. For example:</li>
+    </ol>
+    <ul>
+      <li>graphical elements have suitable alternative description, ARIA labels are informative, and UI elements use standard HTML syntax compatible with screen readers.</li>
+      <li>The colour scheme has sufficient contrast, and the font size and family is appropriate for low vision users.</li>
+      <li>Content layout is convenient to access for people with learning difficulties or motor disabilities.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>If you are up for volunteering with tackling some or all of the above challenges, please get in touch with me.</p>
+
+<h3 id="2-back-end-engineer---a-k-a-jekyll-guru">2. Back-end engineer - a. k. a. Jekyll guru</h3>
+
+<p>Although I’ve learnt a lot about using Jekyll since the start of Project27, there are a few issues persisting for longer than I’d like them to persist.
+I track these issues on GitHub, but so far made little progress about resolving the tickets.
+If you can help, please do.</p>
+
+<h4 id="who-am-i-looking-for-1">Who am I looking for?</h4>
+
+<p>Somebody, who:</p>
+
+<ul>
+  <li>has past experience with Jekyll or Liquid, or learns quickly;</li>
+  <li>can solve issues I couldn’t, and happy to teach me.</li>
+</ul>
+
+<h4 id="what-am-i-looking-for">What am I looking for?</h4>
+
+<p>Some of the ToDo items that I’d happily delegate to a helpful volunteer, include :</p>
+
+<ul>
+  <li>finding Jekyll solutions of issues I track;</li>
+  <li>raising new issues, suggestions of optimisation around the Jekyll structure, and the Liquid syntax currently used.</li>
+</ul>
+
+<p>Think you can help? Please let me know.</p>
+
+<hr />
+
+<h2 id="credits-kudos-acknowledgements-thanks-and-all-that-jazz">Credits, kudos,, acknowledgements, thanks and all that jazz</h2>
+
+<p>Volunteers and contributors will be praised often and well. Well, once Project27 has any.</p>
+
+<h3 id="daniel-hajas---web-master">Daniel hajas - Web master</h3>
+<p>Thanks really, I’m so cool, couldn’t live without myself. However, I’d rather praise the awesome volunteers on board of Project27.</p>
+:ET

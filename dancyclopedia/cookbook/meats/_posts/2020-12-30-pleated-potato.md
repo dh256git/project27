@@ -21,7 +21,7 @@ Here is what you need to have at home.
 
 <table>
   {% for row  in site.data.cookbook.meats.pleated-potato %}
-{% include ingredients.html %}
+{% include global/tabulator.html %}
   {% endfor %}
 </table>
 

@@ -19,7 +19,7 @@ Here is what you need to have at home.
 
 <table>
   {% for row  in site.data.cookbook.wraps.chicken %}
-{% include ingredients.html %}
+{% include global/tabulator.html %}
   {% endfor %}
 </table>
 

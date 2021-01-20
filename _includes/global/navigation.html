@@ -7,9 +7,9 @@
     <a href="{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
   {% endfor %}
   {% if page.url contains "MPS" %}
-  {% include dropdown-MPS.html %}
+  {% include dancyclopedia/dropdown-MPS.html %}
   {% elsif page.url contains "cookbook" %}
-  {% include dropdown-cookbook.html %}
+  {% include dancyclopedia/dropdown-cookbook.html %}
   {% endif %}
 </div>
 </nav>

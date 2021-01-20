@@ -7,6 +7,6 @@ This is what I have in the freezer.
 
 <table>
   {% for row  in site.data.cookbook.freezer %}
-{% include ingredients.html %}
+{% include global/tabulator.html %}
   {% endfor %}
 </table>
