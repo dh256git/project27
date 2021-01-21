@@ -1,0 +1,166 @@
+I"�<h2 id="call-for-volunteers-and-contributors">Call for volunteers and contributors</h2>
+
+<p><strong>Come and help Project27, and Project27 will help you.</strong></p>
+
+<blockquote>
+  <p>If you’d like to volunteer your time, and learn a new skill, or improve and existing skill you have and I don’t, then please consider helping me.</p>
+</blockquote>
+
+<p>Daniel - Project27 editor</p>
+
+<hr />
+
+<h2 id="volunteering-opportunities">Volunteering opportunities</h2>
+
+<p>Currently, the following specific roles and jobs are waiting for you to take.</p>
+
+<h3 id="1-web-stylist---a-k-a-bootstrap-guru">1. Web stylist - a. k. a. Bootstrap guru</h3>
+
+<p>I just about managed to link up Bootstrap, Jekyll, and GitHub Pages, to kick in the Project27 engine.
+However, I haven’t really spent time working on the visual appeal of the site yet.
+In part, this is because I can not see the effect of any change I’d do.
+In part, because Bootstrap scares me. So really, the site would benefit from the capable hands of a web stylist, tinkering on visual design.</p>
+
+<h4 id="who-am-i-looking-for">Who am I looking for?</h4>
+
+<p>Somebody, who</p>
+
+<ul>
+  <li>wants to get into web design and learn Bootstrap for styling;</li>
+  <li>has a creative and artistic mindset;</li>
+  <li>catches onto a challenge, and doesn’t let it go until the challenge is solved.</li>
+  <li>can learn and problem solve independently, though there will be room for collaborative learning and working.</li>
+</ul>
+
+<h4 id="what-am-i-looking-for">What am I looking for?</h4>
+
+<p>Some of the ToDo items that I’d happily delegate to a helpful volunteer, include :</p>
+
+<ul>
+  <li>creating a unique, and consistent character of the site, by:
+    <ol>
+      <li>populating content with graphical icons, and figures;</li>
+      <li>designing and implementing a global colour scheme;</li>
+      <li>designing and implementing the type and visual style of UI elements;</li>
+      <li>improving the layout of the content.</li>
+    </ol>
+  </li>
+  <li>enhancing accessibility and usability, by:
+    <ol>
+      <li>making sure accessibility, and usability are kept in mind when designing the visual styling. For example:</li>
+    </ol>
+    <ul>
+      <li>graphical elements have suitable alternative description, ARIA labels are informative, and UI elements use standard HTML syntax compatible with screen readers.</li>
+      <li>The colour scheme has sufficient contrast, and the font size and family is appropriate for low vision users.</li>
+      <li>Content layout is convenient to access for people with learning difficulties or motor disabilities.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="2-back-end-engineer---a-k-a-jekyll-guru">2. Back-end engineer - a. k. a. Jekyll guru</h3>
+
+<p>Although I’ve learnt a lot about using Jekyll since the start of Project27, there are a few issues persisting for longer than I’d like them to persist.
+I track these issues on GitHub, but so far made little progress about resolving the tickets.
+If you can help, please do.</p>
+
+<h4 id="who-am-i-looking-for-1">Who am I looking for?</h4>
+
+<p>Somebody, who:</p>
+
+<ul>
+  <li>has past experience with Jekyll or Liquid, or learns quickly;</li>
+  <li>can solve issues I couldn’t, and happy to teach me.</li>
+</ul>
+
+<h4 id="what-am-i-looking-for-1">What am I looking for?</h4>
+
+<p>Some of the ToDo items that I’d happily delegate to a helpful volunteer, include :</p>
+
+<ul>
+  <li>finding Jekyll solutions of issues I track;</li>
+  <li>raising new issues, suggestions of optimisation around the Jekyll structure, and the Liquid syntax currently used.</li>
+</ul>
+
+<hr />
+
+<h2 id="why-would-i-volunteer-to-contribute-to-project27">Why would I volunteer to contribute to Project27?</h2>
+
+<p><strong>Do it for yourself.</strong></p>
+
+<blockquote>
+  <ol>
+    <li>Learn new skills, or improve your existing skills:</li>
+  </ol>
+</blockquote>
+
+<p>Project27 is all about learning new skills, and getting better in doing certain things, by practicing, and innovating.
+The project offers a wide range of skills to pick up and nurture, and you get to choose which is most valuable to you.
+All that Project27 volunteering roles do, is setting SMART (Specific, Measurable, Achievable, Relevant, and Timely) targets for you to work towards.</p>
+
+<blockquote>
+  <ol>
+    <li>Use your knowledge and productivity output to help others:</li>
+  </ol>
+</blockquote>
+
+<p>In the process of learning, you are also contributing to a shared vision.
+You could learn on your own, and practice through your personal project.
+Wouldn’t it be more satisfying though, to help other people in the process?
+There are no deadlines, no punishment if something doesn’t work out.
+It’s learning through trial and error, and practice.</p>
+
+<blockquote>
+  <ol>
+    <li>Be part of a team:</li>
+  </ol>
+</blockquote>
+
+<p>Vibrant teams maintain a friendly vibe.
+ There will be opportunities to be social by both digital and physical ways.
+ Turn up for every, or every fifth team checkin.
+ Stay for an hour, or drop in for only ten minutes.
+ Being socially proactive is not a must, only an opportunity.</p>
+
+<ol>
+  <li>
+    <div class="dropdown">
+             <a class="nav-link dropdown-toggle" href="#" id="b04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Satisfy your dopamine needs with an extra reward.</a>
+     <div class="dropdown-menu" aria-labelledby="b04">
+</div></div>
+  </li>
+</ol>
+<p>
+
+Are you the collector type, gathering and displaying credits, kudos,, acknowledgements, thanks, and all that jazz?
+Then you'll also get the rewards on the 
+<!--[public Project27 wall of fame,](./wall-of-fame.html) as well as in the inner circle of Project27.-->
+
+</p>
+<p>&lt;/div&gt;
+&lt;/div&gt;</p>
+
+<hr />
+
+<h2 id="how-much-time-should-you-commit">How much time should you commit?</h2>
+
+<p>The level of engagement is flexible. You may</p>
+
+<ul>
+  <li>identify, or ask me for a single challenge, solve it, and you are done.</li>
+  <li>continue working on multiple challenges, whenever you find time, even if only a couple hours in a month.</li>
+  <li>get hooked, and if you have nothing better to do, treat it as a part time role.</li>
+</ul>
+
+<hr />
+
+<h2 id="become-a-project27-volunteer">Become a Project27 volunteer</h2>
+
+<p>Are you interested in contributing to Project27 and becoming a volunteer?
+Please, express your interest by using the button below.</p>
+
+<!--Note: Decide best method of expressing interest.-->
+
+<p><button class="btn btn-outline-primary" aria-disabled="true" href="#">
+BECOME A VOLUNTEER
+</button></p>
+:ET
