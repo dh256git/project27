@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # script to automate git add, commit, and push
-cd ~/Documents/self/informatics/projects/Project27/src/
+cd ~/Documents/self/informatics/projects/project27/src/
 echo "Add commit message"
 read commitMessage
 git add .
