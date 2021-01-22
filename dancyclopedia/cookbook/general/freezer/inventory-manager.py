@@ -1,6 +1,7 @@
 ## importing packages
 import pandas as pd
 from datetime import datetime
+from subprocess import Popen
 
 ## Defining a class for managing the freezer inventory.
 class inventory():
@@ -67,8 +68,10 @@ class inventory():
 			if commit == "n":
 				print("Changes will not be uploaded.")
 			elif commit == "y":
-				print("running the git push bash script") # implement bash script
-				print("Uploading initiated. Confirm deployment status.")
+				print("Upload request is registered.")
+				path = "../../../../bash/deploy.sh"
+				Popen(path, shell=True)
+
 
 ## +++Run script+++
 inventory()
