@@ -4,6 +4,6 @@
 echo "Add commit message"
 read commitMessage
 git add .
-git commit -m '$commitMessage'
-git push origin master
+git commit -m "$commitMessage"
+echo "git push origin master"
 echo "Deployment initiated. Confirm status."
