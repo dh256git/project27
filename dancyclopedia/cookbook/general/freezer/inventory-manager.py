@@ -70,8 +70,7 @@ class inventory():
 				print("Changes will not be uploaded.")
 			elif commit == "y":
 				print("Upload request is registered.")
-				path = "../../../../bash/deploy.sh"
-				Popen(path, shell=True)
+				Popen("deploy27", shell=True)
 				time.sleep(30)
 
 ## +++Run script+++
