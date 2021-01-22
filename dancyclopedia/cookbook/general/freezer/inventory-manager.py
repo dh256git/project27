@@ -2,6 +2,7 @@
 import pandas as pd
 from datetime import datetime
 from subprocess import Popen
+import time
 
 ## Defining a class for managing the freezer inventory.
 class inventory():
@@ -12,7 +13,6 @@ class inventory():
 		## importing data frame from csv file
 		self.freezer = pd.read_csv('../../../../_data/cookbook/freezer.csv')
 		self.interface()
-		self.save = self.freezer.to_csv(r'../../../../_data/cookbook/freezer.csv', index = None, header=True)
 
 	## Function to add new entries to data frame.
 	def addEntry(self):
@@ -31,11 +31,12 @@ class inventory():
 		code = now.strftime("%j-%M%S") # generate code based on day of the year, with minutes and seconds.
 		newEntry = pd.Series([item, int(quantity), note, shelf, date, code], index=self.freezer.columns)
 		self.freezer = self.freezer.append(newEntry, ignore_index=True)
+		self.save = self.freezer.to_csv(r'../../../../_data/cookbook/freezer.csv', index = None, header=True)
 		print(item + " added to the inventory.")
 
 	## Function to remove entries.
 	def removeEntry(self):
-		code = input("Enter the code of the item to be removed, or go back: ")
+		code = input("Enter the code of the item to be removed: ")
 		for i in range(0, len(self.freezer.Code)):
 			if code == self.freezer.Code[i]:
 				if int(self.freezer.Quantity[i]) == 1:
@@ -46,7 +47,7 @@ class inventory():
 					print(str(self.freezer.Quantity[i]) + self.freezer.Item[i] + " left.")
 			else:
 				pass
-
+		self.save = self.freezer.to_csv(r'../../../../_data/cookbook/freezer.csv', index = None, header=True)
 
 	## Function for the CLI.
 	def interface(self):
@@ -71,7 +72,7 @@ class inventory():
 				print("Upload request is registered.")
 				path = "../../../../bash/deploy.sh"
 				Popen(path, shell=True)
-
+				time.sleep(30)
 
 ## +++Run script+++
 inventory()
