@@ -9,11 +9,9 @@ class inventory():
 	def __init__(self):
 		super(inventory, self).__init__()
 		## importing data frame from csv file
-		self.freezer = pd.read_csv('./freezer.csv')
-		self.addEntry()
-		print(self.freezer)
-		self.save = self.freezer.to_csv(r'./freezer.csv', index = None, header=True)
-
+		self.freezer = pd.read_csv('../../../../_data/cookbook/freezer.csv')
+		self.interface()
+		self.save = self.freezer.to_csv(r'../../../../_data/cookbook/freezer.csv', index = None, header=True)
 
 	## Function to add new entries to data frame.
 	def addEntry(self):
@@ -36,11 +34,41 @@ class inventory():
 
 	## Function to remove entries.
 	def removeEntry(self):
-		pass
+		code = input("Enter the code of the item to be removed, or go back: ")
+		for i in range(0, len(self.freezer.Code)):
+			if code == self.freezer.Code[i]:
+				if int(self.freezer.Quantity[i]) == 1:
+					print(self.freezer.Item[i] + " is out of stock.")
+					self.freezer = self.freezer.drop(index = i)
+				elif int(self.freezer.Quantity[i]) > 1:
+					self.freezer.Quantity[i] = 		int(self.freezer.Quantity[i]) - 1
+					print(str(self.freezer.Quantity[i]) + self.freezer.Item[i] + " left.")
+			else:
+				pass
+
 
 	## Function for the CLI.
 	def interface(self):
-		pass
+		action = input("What would you like to do? Type add, remove, or quit: ")
+		while action not in ["add", "remove", "quit"] or action == "":
+			print("Enter a valid option: add, remove, or quit.")
+			action = input("What would you like to do? Type add, remove, or quit: ")
+		if action == "add":
+			self.addEntry()
+			self.interface()
+		elif action == "remove":
+			self.removeEntry()
+			self.interface()
+		else:
+			commit = input("Would you like to push changes online after quitting? Type y or n: ")
+			while commit not in ["y", "n"] or commit == "":
+				print("Enter a valid option: y or n.")
+				commit = input("Would you like to push changes online after quitting? Type y or n: ")
+			if commit == "n":
+				print("Changes will not be uploaded.")
+			elif commit == "y":
+				print("running the git push bash script") # implement bash script
+				print("Uploading initiated. Confirm deployment status.")
 
 ## +++Run script+++
 inventory()
