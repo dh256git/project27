@@ -14,6 +14,7 @@ serves: Make sure to share, and buy for your pals.
 ---
 
 If you want to show off with a tasty, healthy, mediterranean meal, this pasta is a great choice.
+<!-- excerpt-end -->
 
 ## Ingredients
 

@@ -14,6 +14,7 @@ serves: Make sure to share, and buy for your pals.
 ---
 
 Let's see how to cook your chosen dish.
+<!-- excerpt-end -->
 
 ## Ingredients
 

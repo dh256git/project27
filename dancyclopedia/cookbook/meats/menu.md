@@ -1,10 +1,9 @@
 ---
 layout: default
-title: Menu for meat feast
+title: Menu for meat feasts
 ---
 
-  <ul>
-    {% for post in site.categories.meats %}
-      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+{% for post in site.categories.meats %}
+<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+<p>{{ post.excerpt }}</p>
+{% endfor %}

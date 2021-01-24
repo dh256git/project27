@@ -1,21 +1,9 @@
 ---
 layout: default
-title: Menu for desserts and breakfast
+title: Menu for desserts and brekfast
 ---
 
-  <ul>
-    {% for post in site.categories.desserts %}
-      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-
-### To do
-
-* Fruit baskets
-
-* crumpet with spreads
-* scrambled eggs
-* frittata
-* baked beans with sausages
-* leek, lardon, camembert dish
-* smoked salmon with cream cheese
+{% for post in site.categories.desserts %}
+<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+<p>{{ post.excerpt }}</p>
+{% endfor %}

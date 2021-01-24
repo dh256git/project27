@@ -1,10 +1,9 @@
 ---
 layout: default
-title: Menu for wraps
+title: Menu for wraps and rolls
 ---
 
-  <ul>
-    {% for post in site.categories.wraps %}
-      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+{% for post in site.categories.wraps %}
+<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+<p>{{ post.excerpt }}</p>
+{% endfor %}

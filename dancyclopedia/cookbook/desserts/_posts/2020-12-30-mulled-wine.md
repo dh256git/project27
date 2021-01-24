@@ -14,6 +14,7 @@ serves: Make sure to share, and buy for your pals.
 ---
 
 This is a quick and tasty treat. No chewing is required. Ideal during the winter, while curling up on the sofa under a blanket.
+<!-- excerpt-end -->
 
 ## Ingredients
 

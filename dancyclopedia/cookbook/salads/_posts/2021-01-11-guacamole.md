@@ -14,6 +14,7 @@ serves: Make sure to share, and buy for your pals.
 ---
 
 A quick and healthy party food to dip in and share around.
+<!-- excerpt-end -->
 
 ## Ingredients
 

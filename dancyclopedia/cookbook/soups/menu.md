@@ -2,8 +2,8 @@
 layout: default
 title: Menu for soups
 ---
-  <ul>
-    {% for post in site.categories.soups %}
-      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+
+{% for post in site.categories.soups %}
+<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+<p>{{ post.excerpt }}</p>
+{% endfor %}

@@ -13,14 +13,15 @@ time: Takes as long as it takes.
 serves: Make sure to share, and buy for your pals.
 ---
 
-Short description of the meal.
+Let's see how to cook your meal.
+<!-- excerpt-end -->
 
 ## Ingredients
 
 Here is what you need to have at home.
 
 <table>
-  {% for row  in site.data.cookbook.desserts.** %}
+  {% for row  in site.data.cookbook.**.** %}
 {% include global/tabulator.html %}
   {% endfor %}
 </table>

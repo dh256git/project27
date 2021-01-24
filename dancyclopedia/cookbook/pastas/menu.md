@@ -3,8 +3,7 @@ layout: default
 title: Menu for pasta dishes
 ---
 
-  <ul>
-    {% for post in site.categories.pastas %}
-      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+{% for post in site.categories.pastas %}
+<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+<p>{{ post.excerpt }}</p>
+{% endfor %}

@@ -13,7 +13,8 @@ time: Takes as long as it takes.
 serves: Make sure to share, and buy for your pals.
 ---
 
-Let's see how to cook your chosen dish.
+One of the creamy soups when you need something quick and light. Green pea is the protagonist of this soup.
+<!-- excerpt-end -->
 
 ## Ingredients
 

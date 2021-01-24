@@ -14,6 +14,7 @@ serves: Make sure to share, and buy for your pals.
 ---
 
 One of my personal favourites. I've tried many prawn cocktails in various places, but none of them were as delicious as mum's home made version of this starter.
+<!-- excerpt-end -->
 
 ## Ingredients
 

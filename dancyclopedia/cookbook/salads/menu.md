@@ -1,10 +1,9 @@
 ---
 layout: default
-title: Menu for salads
+title: Menu for salads and dips
 ---
 
-  <ul>
-    {% for post in site.categories.salads %}
-      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+{% for post in site.categories.salads %}
+<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+<p>{{ post.excerpt }}</p>
+{% endfor %}

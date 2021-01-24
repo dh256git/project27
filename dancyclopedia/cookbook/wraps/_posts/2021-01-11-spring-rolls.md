@@ -14,6 +14,7 @@ serves: Make sure to share, and buy for your pals.
 ---
 
 A roll for every season, let it be spring or summer. The wife of a Vietnamese colleague makes these amazing spring rolls, so I had to try it myself. Crispy, delicious, and you can easily eat one too many.
+<!-- excerpt-end -->
 
 ## Ingredients
 

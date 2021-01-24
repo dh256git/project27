@@ -1,10 +1,9 @@
 ---
 layout: default
-title: Menu for risotto meals
+title: Menu for risotto
 ---
 
-  <ul>
-    {% for post in site.categories.risotto %}
-      <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+{% for post in site.categories.risotto %}
+<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+<p>{{ post.excerpt }}</p>
+{% endfor %}
