@@ -43,6 +43,7 @@ Potential work places:
 3. [MIND research](https://www.mind.org.uk/about-us/our-policy-work/reports-and-guides/our-research/)
 4. [Samaritans research](https://www.samaritans.org/about-samaritans/research-policy/)
 5. [Leonard Cheshire research](https://www.leonardcheshire.org)
+6. [GDI Hug](https://www.disabilityinnovation.com)
 
 Networking nodes:
 
@@ -74,7 +75,8 @@ Potential work places:
 13. [Royal Society of Chemistry](https://www.rsc.org)
 14. [Royal Astronomical Society](https://ras.ac.uk)
 15. [Royal Institution GB](https://www.rigb.org)
-
+16. []Sense about science](https://senseaboutscience.org/)
+ + Contact: [Sophie](https://www.linkedin.com/in/sophie-lane-381365199/)
 Networking nodes:
 
 1. the PSCI-COM mailing list and Twitter feed
