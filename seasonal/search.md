@@ -7,13 +7,15 @@ title: Job search
 
 These are the professions that would interest me.
 
-### Interview and application techniques
+### Interview and application techniques, job search platforms
 
-Resources to prepare successful job applications and interviews.
+Resources to prepare successful job applications and interviews, as well as platforms to find jobs.
 
 1. [How to succeed at writing job applications](https://www.futurelearn.com/courses/writing-applications)
 2. [How to succeed at an interview](https://www.futurelearn.com/courses/interviews)
 3. [Leonard Cheshire - Change100 programme and other resources](https://www.leonardcheshire.org)
+4. [Jobs in academia](https://www.jobs.ac.uk)
+5. [Jobs in the charity sector](https://www.charityjob.co.uk)
 
 ### Key phrases for job search sites
 
@@ -44,6 +46,7 @@ Potential work places:
 4. [Samaritans research](https://www.samaritans.org/about-samaritans/research-policy/)
 5. [Leonard Cheshire research](https://www.leonardcheshire.org)
 6. [GDI Hug](https://www.disabilityinnovation.com)
+7. [Diversity and Ability](https://diversityandability.com)
 
 Networking nodes:
 

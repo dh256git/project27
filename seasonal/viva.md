@@ -9,7 +9,7 @@ Notes to help me prepare and deliver the PhD Viva.
 
 ## Introductory presentation
 
-Notes on the 20-25 minutes presentation that I will start with, if the examiners would like me to.
+Notes on the 10-15 minutes presentation that I will start with, if the examiners would like me to.
 
 #### 1. Title slide
 
@@ -33,11 +33,11 @@ I wanted to find a way to touch atoms.
 
 #### 3. Overview
 
-Introduction: motivation, research questions, research methods
+Introduction: objective, approach
 
-Portfolio: Projects 1 to 5 in 3 parts.
+Portfolio (on demand): Projects 1 to 5 in 3 parts.
 
-Outcome: Future research, publications, contributions, reflection.
+Outcomes: Results, future research, publications, contributions, reflection.
 
 ### Introduction
 
@@ -61,20 +61,22 @@ That's how I got interested in the sense of touch.
 
 In particular, mid-air touch, which is a programable interface, enabling the creation of invisible and dynamic tactile sensations.
 
-#### 5. Research scope and questions
+#### 5. Research scope and the objective
 
-Research fields of haptics, science communication, and Human-Computer Interaction (HCI).
+Fields: haptics, science communication, and Human-Computer Interaction (HCI).
 
-Areas of mid-air haptics, audience segments, and multisensory HCI.
+Areas: mid-air haptics, audience segments, and multisensory HCI.
 
-Overall: How  can engagement between science and society be supported by mid-air haptic technology?
+Key RQ: How  can engagement between science and society be supported by mid-air haptic technology?
 
+<!--
 1. O&C: features, 1 modality - science communicators
 2. O&C: characterisation, 3 modalities - disengaged audiences
 3. Integrate: multisensory live event - attentive public
 4. Integrate: multisensory multimedia experience - sensory impaired public
 5. Eval: effectiveness?
 6. Apply: formal learning environment - VI or expert audiences.
+-->
 
 #### 6. Research approach and summary of methods
 
@@ -100,9 +102,15 @@ Part 2: Opportunities and challenges of mid-air haptics
 
 #### 7. Project 1: I can feel it moving
 
-Objective: Evaluating six design heuristics of mid-air haptic probes for scientific concepts.
+Objective: 
 
-Methods: Qualitative analysis of focus groups with science communicators.
+Evaluating six design heuristics of
+
+mid-air haptic probes for scientific concepts.
+
+Methods: Qualitative analysis of 
+
+focus groups with science communicators.
 
 Results: Characterisation of mid-air haptic probes
 
@@ -162,9 +170,9 @@ Methods:
 
 Practical evaluation methods and observations.
 
-Results:
+Results: Indicating E. I., predominance
 
-Missed opportunity of communicating the science of the multisensory technology,
+dark matter shadowing the science of the multisensory technology,
 
 challenges in evaluation of overall experience.
 
@@ -254,7 +262,7 @@ Quantitative measurements - accuracy of recognition, self-reported confidence;
 
 qualitative analysis: interviews on strategy and descriptions.
 
-Results: 30\% increased accuracy of shape recognition; 
+Results: 30% increased accuracy of shape recognition; 
 
 significantly higher confidence
 
@@ -271,7 +279,52 @@ If you'd like to take a break from me talking, I'd suggest we watch the video.
 
 ### Outcome
 
-#### 16. What would I study, if I were to do a post-doc?
+#### 16. Summary of results
+
+Not an either or, but a both answer
+
+Mid-air haptics can support engagement between science and society in both formal and informal science communication.
+---
+Project 1: Characterisation of mid-air haptic probes
+
+dynamic touch - only 1/6 design features being characteristic
+
+shared experiences (mid-air vs VR),
+
+storytelling, metaphors - similar to mid-air touch in art projects.
+---
+Project 2:
+list of TAR through rigorous method,
+
+quantitative match scores per interaction modality,
+
+qualitative characterisation of mid-air tactile sensations.
+
+Example: physical touch being playful, mid-air touch creating sense of imagination.
+
+Limitation: Due to covid, only 5 participants.
+---
+Project 3: Indicating E. I., predominance
+
+dark matter shadowing the science of the multisensory technology,
+
+challenges in evaluation of overall experience.
+---
+Project 4: Preference for VH match,
+
+with haptics, more absorbed, more enjoyable,
+
+role reversal suggested.
+---
+Project 5: 30% increased accuracy of shape recognition; 
+
+significantly higher confidence
+
+effects of haptic strokes and chunking - qualitative result
+
+comparable to other haptic interfaces.
+
+#### 17. What would I study, if I were to do a post-doc?
 
 Arguably, this PhD is more of an exploratory research rather than an in-depth investigation.
 
@@ -283,7 +336,7 @@ For example:
 2. Mid-air touch augmented tactile graphics - benefits, limitations, addressing known challenges
 3. Developing methods of evaluation for technological multisensory experiences.
 
-#### 17. Publications
+#### 18. Publications
 
 5 publications in total: 
 
@@ -295,9 +348,7 @@ A second, and fourth author (journal and case study).
 
 Both empirical research contribution and practical insights.
 
-#### 18. Contributions: What did I learn?
-
-
+#### 19. Contributions: What did I learn?
 
 I feel this thesis makes a two-fold contribution to the fields of haptics and science communication.
 
@@ -315,7 +366,7 @@ This has implications for various application areas.
 
 Such as accessibility of classroom learning, or usability of haptic interfaces.
 
-#### 19. Reflection
+#### 20. Reflection
 
 I'd also like to reflect a little on the overall PhD experience.
 
@@ -335,15 +386,15 @@ Skills: computer, peer reviewing and publishing, analysis and reasoning.
 
 Personal: changing scientific identity and views on living life.
 
-#### 20. One touch of nature makes the whole world kin
+#### 21. One touch of nature makes the whole world kin
 
-I'd like to end here with this quote.
+I'd like to end the introductory presentation here with this quote.
 
 One touch of nature makes the whole world kin.
 
 If we could touch not only the visible and touchable things in nature, but also the imperceptible phenomena, perhaps science would become less scary for people.
 
-Thank you, and let's take the conversation from here.
+Thank you, I'll stop here and let you ask questions.
 
 ---
 
@@ -438,7 +489,7 @@ We did not follow the typical scientific method to draw conclusions.
 I would like to break down this question to two parts.
 To what I learnt with regards to my research area, and with regards to my personal development.
 
-With regards to my research area, I would say I learnt that the technology is not hopeless for applications in science communication, let it be formal or informal science learning.
+With regards to my research area, I would say I learnt that the technology can support both formal and informal science communication, according to the needs of various audiences. It is not an either or technological solution for classroom vs museum, or abled vs disabled audiences.
 There is some concern about mid-air haptics, because of what it feels like.
 Mid-air haptic sensations can be quite blurry to make out specific patterns.
 Mid-air haptic sensations exert very little force on the user, so can be missed easily, unlike some other haptic stimulation.
@@ -611,12 +662,19 @@ Notes on some of the specific topics within my PhD dissertation, that I feel les
 
 <!-- expand list to headings and short explanations -->
 
-#### mental models and representations
+#### Weber-Fechner law
 
 #### Scaffolding in learning
 
-*#### Fehner law
+#### mental model, mental world, and mental representations
 
-#### Webber law
+#### Social Representations Theory
 
-#### concepts around metaphors, such as anchoring.
+1. Anchoring: 
+2. Objectification: 
+3. Mental models approach: 
+
+#### Cognitive absorption test
+
+#### Flow theory
+
