@@ -664,17 +664,74 @@ Notes on some of the specific topics within my PhD dissertation, that I feel les
 
 #### Weber-Fechner law
 
+Weber's law (1834) states that the just-noticeable-difference \\( \Delta I \\) is proportional to the intensity of a stimulus. This is expressed using the Weber's fraction as:
+
+\\[
+\frac{\Delta I}{I_s} = k \Rightarrow \Delta I = k I_s
+\\]
+
+Fechner states that there is a logarithmic relationship between the perceived intensity and the stimulus intensity.
+
+\\[
+I_p = k \log I_s
+\\]
+
+Stephen's power law suggests that there is a power law relationship between perceived intensity and intensity stimulus.
+
+\\[
+I_p = k I_s^n
+\\]
+, where \\( n \\) is a parameter defined by the channel of perception.
+
 #### Scaffolding in learning
+
+Scaffolding refers to structured assistance or guidance that helps someone build confidence and push their limits to develop new skills, accomplish tasks. Scaffolds help to build on existing knowledge to gain new knowledge. The goal is gaining autonomy.
 
 #### mental model, mental world, and mental representations
 
+The mental world is a simulation in our mind of the physical world. Since we can not imagine the whole world in our mind at once, smaller units, so called mental models feed in the mental world. Mental models are local simulations, while the mental world is a set of mental models, linking together. Mental representations, of objects, processes, build up the mental model of a local system.
+
 #### Social Representations Theory
 
-1. Anchoring: 
-2. Objectification: 
-3. Mental models approach: 
+Moscovici described two main processes by which the unfamiliar is made familiar: anchoring and objectification. 
 
-#### Cognitive absorption test
+1. Anchoring: 
+
+Anchoring  involves the ascribing of meaning to new phenomena – objects, relations, experiences, practices, etc. – by means of integrating it into existing worldviews, so it can be interpreted and compared to the "already known". In this way, the threat that the strange and unfamiliar object poses is being erased.
+
+2. Objectification: 
+
+In the process of objectification something abstract is turned into something almost concrete.
 
 #### Flow theory
 
+Jeanne Nakamura and Csíkszentmihályi identify the following six factors as encompassing an experience of flow:
+
+1. Intense and focused concentration on the present moment
+2. Merging of action and awareness
+3. A loss of reflective self-consciousness
+4. A sense of personal control or agency over the situation or activity
+5. A distortion of temporal experience, one's subjective experience of time is altered
+6. Experience of the activity as intrinsically rewarding, also referred to as autotelic experience
+
+Those aspects can appear independently of each other, but only in combination do they constitute a so-called flow experience. Additionally, psychology writer Kendra Cherry has mentioned three other components that Csíkszentmihályi lists as being a part of the flow experience:
+
+1. Immediate feedback
+2. Feeling the potential to succeed
+3. Feeling so engrossed in the experience, that other needs become negligible
+
+Just as with the conditions listed above, these conditions can be independent of one another.
+
+#### Cognitive absorption test
+
+Technology acceptance theories build on individual psychology of enjoyment and flow. The cognitive absorption construct is a flow like description of interaction with technology specifically.
+
+A multidimensional construct labeled cognitive absorption and defined as a state of deep involvement with software.
+
+Five different dimensions of cognitive absorption (CA) are:
+
+1. temporal dissociation,
+2. focused immersion,
+3. heightened enjoyment,
+4. control,
+5. curiosity
