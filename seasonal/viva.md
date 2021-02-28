@@ -45,13 +45,13 @@ Outcomes: Results, future research, publications, contributions, reflection.
 
 I was interested in science communication.
 
-Scientists can find solutions, but it's society who comes up with problems.
+Because scientists can find solutions, but it's society who comes up with problems.
 
-There is a need for a good two-way communication, and trust in science.
+Thus, there is a need for a good two-way communication, and trust in science.
 
 Think about vaccines and COVID19.
 
-But how do we trust something we don't see?
+Not surprising, how do we trust something we don't see?
 
 Touch makes things more real.
 
@@ -68,6 +68,8 @@ Fields: haptics, science communication, and Human-Computer Interaction (HCI).
 Areas: mid-air haptics, audience segments, and multisensory HCI.
 
 Key RQ: How  can engagement between science and society be supported by mid-air haptic technology?
+
+Operationalised and broke down to 4 questions.
 
 <!--
 1. O&C: features, 1 modality - science communicators
@@ -284,7 +286,9 @@ If you'd like to take a break from me talking, I'd suggest we watch the video.
 Not an either or, but a both answer
 
 Mid-air haptics can support engagement between science and society in both formal and informal science communication.
+
 ---
+
 Project 1: Characterisation of mid-air haptic probes
 
 dynamic touch - only 1/6 design features being characteristic
@@ -292,7 +296,9 @@ dynamic touch - only 1/6 design features being characteristic
 shared experiences (mid-air vs VR),
 
 storytelling, metaphors - similar to mid-air touch in art projects.
+
 ---
+
 Project 2:
 list of TAR through rigorous method,
 
@@ -302,20 +308,24 @@ qualitative characterisation of mid-air tactile sensations.
 
 Example: physical touch being playful, mid-air touch creating sense of imagination.
 
-Limitation: Due to covid, only 5 participants.
 ---
+
 Project 3: Indicating E. I., predominance
 
 dark matter shadowing the science of the multisensory technology,
 
-challenges in evaluation of overall experience.
+challenges in evaluation of overall experience, sensory acuity across ages.
+
 ---
+
 Project 4: Preference for VH match,
 
-with haptics, more absorbed, more enjoyable,
+with haptics, more absorbed, opinion forming, higher agreement with haptics
 
 role reversal suggested.
+
 ---
+
 Project 5: 30% increased accuracy of shape recognition; 
 
 significantly higher confidence
@@ -695,13 +705,9 @@ The mental world is a simulation in our mind of the physical world. Since we can
 
 Moscovici described two main processes by which the unfamiliar is made familiar: anchoring and objectification. 
 
-1. Anchoring: 
+Anchoring: Anchoring  involves the ascribing of meaning to new phenomena – objects, relations, experiences, practices, etc. – by means of integrating it into existing worldviews, so it can be interpreted and compared to the "already known". In this way, the threat that the strange and unfamiliar object poses is being erased.
 
-Anchoring  involves the ascribing of meaning to new phenomena – objects, relations, experiences, practices, etc. – by means of integrating it into existing worldviews, so it can be interpreted and compared to the "already known". In this way, the threat that the strange and unfamiliar object poses is being erased.
-
-2. Objectification: 
-
-In the process of objectification something abstract is turned into something almost concrete.
+Objectification: In the process of objectification something abstract is turned into something almost concrete.
 
 #### Flow theory
 
