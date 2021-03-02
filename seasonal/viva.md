@@ -19,29 +19,29 @@ Ultrasonic mid-air haptic technology in context of science communication
 
 #### 2. Why did I choose the topic of my PhD?
 
-I was interested in science communication since my undergraduate degree.
+Ever since I went to university, I was interested in science communication.
 
-Because scientists can find solutions, but it's society who comes up with problems.
+Scientists can find solutions, but it's society who identifies problems.
 
-Thus, there is a need for a good two-way communication, and trust in science.
+There is a need for a good two-way communication, and trust in science.
 
 Think about vaccines and COVID19.
 
-Not surprising, how do we trust something we don't see?
+How do we trust something we don't see?
 
 Touch makes things more real.
 
 When we don't believe our eyes, or don't know what we see, we first try and touch.
 
-That's how I got interested in the sense of touch.
+That's how I got interested in tactile experiences.
 
 In particular, mid-air touch, which is a programable interface, enabling the creation of invisible and dynamic tactile sensations.
 
 #### 3. Context
 
-I have studied physics in my undergraduate.
+I have studied physics during my undergraduate years.
 
-I also lost my sight a few years before coming to university.
+I also lost my sight a few years before that.
 
 These two factors, made me think, how could we turn graphs on computer screens into accessible formats for blind people.
 
@@ -49,14 +49,15 @@ Computer pictures are made of pixels, and I asked myself if we could use tactile
 
 This naturally brought me in the field of tangible user interfaces, human-computer interaction and haptics.
 
-Then I heard about and felt mid-air haptics, and I thought this might be an amazing technology when we want to communicate something scientific.
+Then I heard about, and felt mid-air haptics, and I thought this might be an amazing technology when we want to communicate something scientific.
 
 how exactly could we use it,  which audiences?.
 
 I proposed a PhD study, which Ultraleap Limited decided to fund, and my 3 year research has started.
 
 #### 4. Research scope and the objective
-My key RQ is, How  can engagement between science and society be supported by mid-air haptic technology?
+
+My overall RQ is, How  can engagement between science and society be supported by mid-air haptic technology?
 
 Operationalised in terms of audience needs, and learning environments.
 
