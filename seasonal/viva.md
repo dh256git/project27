@@ -418,6 +418,12 @@ Notes on general questions about the overall PhD experience, and some key resear
 
 ### Set 1: My research and thesis
 
+#### What is a single unique insight of your research?
+
+On an abstract level, mid-air haptics in its current technological state is most effective in facilitating the engagement between science and society in forms of entertainment and art, that is the enjoyment dimension of the AEIOU framework of science communication. Never the less, I've also learnt that by novel haptic rendering methods, we can make mid-air haptic sensations comparable to other tactile communication methods in terms of educating, conveying specific information from sciences.
+
+More concretely, a single important insight is that mid-air haptics is cool, because it can create dynamic tactile sensations on the skin. We have seen that in chapter 5, 8, and 9 explicitly, in totally different contexts and audiences. Science communicators highlighting dynamic touch from five other features. Sensory impaired people highlighting a preference for matching dynamic haptics with what's moving on the screen. Opportunity sampled participants highlighted that they are able to recognise tactile shapes in mid-air, if it's rendered using a dynamic tactile pointer.
+
 #### Why is your subject important?
 
 Usually, the first thing we do when we do not believe our eyes, or can not decide what we see, is that we try to touch that thing.
