@@ -19,7 +19,7 @@ Currently, the following specific roles and jobs are waiting for you to take.
 
 {% for member in site.team %}
 <h3>
-<a href="{{ member.url }}">{{ member.role }} - a. k. a. {{ member.nickname }}</a></h3>
+<a href="{{ member.url | prepend: site.baseurl }}">{{ member.role }} - a. k. a. {{ member.nickname }}</a></h3>
 <p>{{ member.excerpt }}</p>
 {% endfor %}
 
