@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title> {{   page.title   }}</title>
+
+<!--Custom style sheets-->
+        <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl}}">
+
+  </head>
+  <body>
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="masthead mb-auto">
+    <div class="inner">
+      <h3 class="masthead-brand">Project27 - If the laws of nature allow it, you can do it!</h3>
+
+{% include global/navigation.html %}
+    </div>
+  </header>
+
+  <main role="main" class="inner cover">
+ {{   content   }}
+  </main>
+
+{% include global/footer.html version="0" subversion="0" commit="80" %}
+{% include global/scripts.html %}
+
+  </body>
+</html>

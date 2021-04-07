@@ -1,0 +1,31 @@
+---
+layout: default
+title: Home Page
+---
+
+
+    <h1 class="cover-heading">If the laws of nature allow it, you can do it!</h1>
+    <p class="lead">{{ site.brand }} is a "How to" guide on a wide range of topics, based on my own experiences and knowledge. It is my personal edition of the Hitchhikers' guide to the galaxy.</p>
+        <p class="lead">
+      <a href="./README.html" class="btn btn-lg btn-secondary">Read more about Project27 and its author</a>
+    </p>
+
+<hr>
+
+<div class="row">
+<div class="col-md-6">
+<h3>The Blog</h3>
+
+<p>The blog is a place to read project logs and other scribbles on life events.</p>
+
+<p><a href="./blog/blog.html">Open the blog</a></p>
+</div>
+<div class="col-md-6">
+<h3>The Dancyclopedia</h3>
+
+<p>The Dancyclopedia is an encyclopedia written by Daniel, a blind scientist.
+
+<p><a href="./dancyclopedia/dancyclopedia.html">Open the Dancyclopedia</a></p>
+</div>
+</div>
+

@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title> Volunteering and contributions</title>
+
+<!--Custom style sheets-->
+        <link rel="stylesheet" href="/assets/css/main.css">
+
+  </head>
+  <body>
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="masthead mb-auto">
+    <div class="inner">
+      <h3 class="masthead-brand">Project27: A corpus of challenges and solutions</h3>
+
+      <nav class="navbar navbar-expand-md navbar-light nav nav-masthead justify-content-center">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" role="img" focusable="false"><title>Menu</title><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/></svg></span>
+  </button>
+        <div class="collapse navbar-collapse" id="primaryNavigation">
+  
+    <a href="/index.html" >Home</a>
+  
+    <a href="/blog/blog.html" >Blog</a>
+  
+    <a href="/dancyclopedia/dancyclopedia.html" >Dancyclopedia</a>
+  
+    <a href="/volunteering/volunteering.html" >Volunteering</a>
+  
+  
+</div>
+</nav>
+    </div>
+  </header>
+
+  <main role="main" class="inner cover">
+ ## Call for volunteers and contributors
+
+**Come and help Project27, and Project27 will help you.**
+
+> If you'd like to volunteer your time, and learn a new skill, or improve and existing skill you have and I don't, then please consider helping me.
+
+Daniel - Project27 editor
+
+---
+
+## Volunteering opportunities
+
+Currently, the following specific roles and jobs are waiting for you to take.
+
+
+
+---
+
+## Why would I volunteer to contribute to Project27?
+
+**Do it for yourself.**
+
+
+
+
+
+
+
+
+
+<div class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="b01" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">Learn new skills, or improve your existing skills.</a>
+        <div class="dropdown-menu" aria-labelledby="b01">
+<p>
+
+Project27 is all about learning new skills, and getting better in doing certain things, by practicing, and innovating.
+The project offers a wide range of skills to pick up and nurture, and you get to choose which is most valuable to you.
+All that Project27 volunteering roles do, is setting SMART (Specific, Measurable, Achievable, Relevant, and Timely) targets for you to work towards.
+
+</p>
+</div>
+</div>
+<div class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="b02" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">Use your knowledge and productivity output to help others.</a>
+        <div class="dropdown-menu" aria-labelledby="b02">
+<p>
+
+In the process of learning, you are also contributing to a shared vision.
+You could learn on your own, and practice through your personal project.
+Wouldn't it be more satisfying though, to help other people in the process?
+There are no deadlines, no punishment if something doesn't work out.
+It's learning through trial and error, and practice.
+
+</p>
+</div>
+</div>
+<div class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="b03" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">Be part of a team.</a>
+        <div class="dropdown-menu" aria-labelledby="b03">
+<p>
+
+ Vibrant teams maintain a friendly vibe.
+ There will be opportunities to be social by both digital and physical ways.
+ Turn up for every, or every fifth team checkin.
+ Stay for an hour, or drop in for only ten minutes.
+ Being socially proactive is not a must, only an opportunity.
+
+</p>
+</div>
+</div>
+<div class="dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="b04" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">Satisfy your dopamine needs with an extra reward.</a>
+        <div class="dropdown-menu" aria-labelledby="b04">
+<p>
+
+Are you the collector type, gathering and displaying credits, kudos,, acknowledgements, thanks, and all that jazz?
+Then you'll also get the rewards on the <a href="./wall-of-fame.html">public Project27 wall of fame,</a> as well as in the inner circle of Project27.
+
+</p>
+</div>
+</div>
+
+---
+
+## How much time should you commit?
+
+The level of engagement is flexible. You may
+
++ identify, or ask me for a single challenge, solve it, and you are done.
++ continue working on multiple challenges, whenever you find time, even if only a couple hours in a month.
++ get hooked, and if you have nothing better to do, treat it as a part time role.
+
+---
+
+## Become a Project27 volunteer
+
+Are you interested in contributing to Project27 and becoming a volunteer?
+Please, express your interest by using the button below.
+
+<!--Note: Decide best method of expressing interest.-->
+
+<button class="btn btn-outline-primary" aria-disabled="true" href="#">
+BECOME A VOLUNTEER
+</button>
+
+  </main>
+
+<footer>
+<p>The Project27 site was last updated on: 07 Apr 2021.</p>
+<p>Version: 0.0.80.</p>
+<p>Daniel Hajas (2020) - <a href="https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license">Licence to be decided.</a></p>
+</footer>
+
+<!-- Bootstrap dependency scripts -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- Mathematics script -->
+<script type="text/x-mathjax-config">
+(function () {
+
+MathJax.Hub.Config({
+	'showProcessingMessages': false,
+	'messageStyle': 'none'
+});
+
+if (typeof MathJaxListener !== 'undefined') {
+	MathJax.Hub.Register.StartupHook('End', function () {
+		MathJaxListener.invokeCallbackForKey_('End');
+	});
+}
+
+})();
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+  </body>
+</html>

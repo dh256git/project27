@@ -1,5 +1,7 @@
 collections:
-  team:
+  volunteering:
+    output: true
+  about:
     output: true
 sass: 
    sass_dir: assets/css
@@ -19,3 +21,5 @@ include:
   - PULL_REQUEST_TEMPLATE.md
 baseurl: /project27
 excerpt_separator: <!-- excerpt-end -->
+brand: Project27
+motto: A corpus of challenges and solutions

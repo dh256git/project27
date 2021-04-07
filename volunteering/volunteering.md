@@ -5,11 +5,11 @@ title: Volunteering and contributions
 
 ## Call for volunteers and contributors
 
-**Come and help Project27, and Project27 will help you.**
+**Come and help {{ site.brand }}, and {{ site.brand }} will help you.**
 
 > If you'd like to volunteer your time, and learn a new skill, or improve and existing skill you have and I don't, then please consider helping me.
 
-Daniel - Project27 editor
+Daniel - {{ site.brand }} editor
 
 ---
 
@@ -17,7 +17,7 @@ Daniel - Project27 editor
 
 Currently, the following specific roles and jobs are waiting for you to take.
 
-{% for member in site.team %}
+{% for member in site.volunteering %}
 <h3>
 <a href="{{ member.url | prepend: site.baseurl }}">{{ member.role }} - a. k. a. {{ member.nickname }}</a></h3>
 <p>{{ member.excerpt }}</p>
@@ -25,14 +25,14 @@ Currently, the following specific roles and jobs are waiting for you to take.
 
 ---
 
-## Why would I volunteer to contribute to Project27?
+## Why would I volunteer to contribute to {{ site.brand }}?
 
 **Do it for yourself.**
 
 {% capture benefit1 %}
-Project27 is all about learning new skills, and getting better in doing certain things, by practicing, and innovating.
+{{ site.brand }} is all about learning new skills, and getting better in doing certain things, by practicing, and innovating.
 The project offers a wide range of skills to pick up and nurture, and you get to choose which is most valuable to you.
-All that Project27 volunteering roles do, is setting SMART (Specific, Measurable, Achievable, Relevant, and Timely) targets for you to work towards.
+All that {{ site.brand }} volunteering roles do, is setting SMART (Specific, Measurable, Achievable, Relevant, and Timely) targets for you to work towards.
 {% endcapture %}
 
 {% capture benefit2 %}
@@ -53,7 +53,7 @@ It's learning through trial and error, and practice.
 
 {% capture benefit4 %}
 Are you the collector type, gathering and displaying credits, kudos,, acknowledgements, thanks, and all that jazz?
-Then you'll also get the rewards on the <a href="./wall-of-fame.html">public Project27 wall of fame,</a> as well as in the inner circle of Project27.
+Then you'll also get the rewards on the <a href="./wall-of-fame.html">public {{ site.brand }} wall of fame,</a> as well as in the inner circle of {{ site.brand }}.
 {% endcapture %}
 
 {% include global/collapseable.html benefit="Learn new skills, or improve your existing skills." paragraph=benefit1 ID="b01" %}
@@ -73,9 +73,9 @@ The level of engagement is flexible. You may
 
 ---
 
-## Become a Project27 volunteer
+## Become a {{ site.brand }} volunteer
 
-Are you interested in contributing to Project27 and becoming a volunteer?
+Are you interested in contributing to {{ site.brand }} and becoming a volunteer?
 Please, express your interest by using the button below.
 
 <!--Note: Decide best method of expressing interest.-->
