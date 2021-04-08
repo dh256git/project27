@@ -56,10 +56,10 @@ Are you the collector type, gathering and displaying credits, kudos,, acknowledg
 Then you'll also get the rewards on the <a href="./wall-of-fame.html">public {{ site.brand }} wall of fame,</a> as well as in the inner circle of {{ site.brand }}.
 {% endcapture %}
 
-{% include global/collapseable.html benefit="Learn new skills, or improve your existing skills." paragraph=benefit1 ID="b01" %}
-{% include global/collapseable.html benefit="Use your knowledge and productivity output to help others." paragraph=benefit2 ID="b02" %}
-{% include global/collapseable.html benefit="Be part of a team." paragraph=benefit3 ID="b03" %}
-{% include global/collapseable.html benefit="Satisfy your dopamine needs with an extra reward." paragraph=benefit4 ID="b04" %}
+{% include global/collapseable.html trigger="Learn new skills, or improve your existing skills." paragraph=benefit1 ID="b01" %}
+{% include global/collapseable.html trigger="Use your knowledge and productivity output to help others." paragraph=benefit2 ID="b02" %}
+{% include global/collapseable.html trigger="Be part of a team." paragraph=benefit3 ID="b03" %}
+{% include global/collapseable.html trigger="Satisfy your dopamine needs with an extra reward." paragraph=benefit4 ID="b04" %}
 
 ---
 

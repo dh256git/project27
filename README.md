@@ -49,7 +49,21 @@ However, there exists a vision on the grand scale too.
 
 ## What's on {{ site.brand }}?
 
-The project is split into two parts.
+The site is split into two parts: [Blog](./blog/blog.html) and [Dancyclopedia.](./dancyclopedia/dancyclopedia.html)
+Blog posts and Dancyclopedia scribbles both come in two flavours: technical, and lifestyle. 
+
+The blog has two branches: [LogBook](./blog/project-log/project-log.html) and [TWIST.](./blog/twist/twist.html)
+
+The Dancyclopedia is what I think about as an educational, web journal.
+Initially, five volumes, separated into two repositories, form part of the journal.
+
+1. Science repository:
+ * [Mathematical and Physical Sciences (MPS);](./dancyclopedia/MPS/MPS.html)
+ * [Computer Literacy;](./dancyclopedia/CL/CL.html)
+ * [Statistics;](./dancyclopedia/statistics/statistics.html)
+2. Lifestyle repository:
+ * [Cookbook;](./dancyclopedia/cookbook/cookbook/html)
+ * [Vocal.](./dancyclopedia/vocal/vocal.html)
 
 [Read more about what you will find on this site](./about/content.html)
 
@@ -59,53 +73,77 @@ The project is split into two parts.
 
 The roadmap of this project is split into five year intervals.
 
-#### 2025
-
- {{ site.brand }} is a private tool, under construction. No public access is granted. In the first five years, the key characteristics and targets are:
-
-* single author project, with smaller contributions from trusted friends.
-* learn basic web development skills, 
-* explore solutions and methods around accessible written technical content creation, and
-* expand the library of scribbles with written content, external links, and multimedia.
-
+{% capture rm2025 %}
+ {{ site.brand }} is a private tool, under construction.
+ No public access is granted.
+ In the first five years, the key characteristics and targets are:
+</p>
+<ul>
+<li>single author project, with smaller contributions from trusted friends.</li>
+<li>learn basic web development skills,</li>
+<li>explore solutions and methods around accessible written technical content creation, and</li>
+<li>expand the library of scribbles with written content, external links, and multimedia.</li>
+</ul>
+<p>
 The key performance indicators are:
+</p>
+<ul>
+<li>A coherent, usable, easy to maintain website architecture is completed;</li>
+<li>a solution is regularly executed and documented for deploying content that is universally accessible on Windows, Mac, and iOS, using automated conversion of markup sources, and clutter cleaner scripts, eliminating the use of any additional need for processing published content;</li>
+<li>every volume, chapter, and blog topic has at least one high quality, complete article;</li>
+<li>KPIs are determined for 2025-2030.</li>
+</ul>
+<p>Moving on...
+{% endcapture %}
 
-* A coherent, usable, easy to maintain website architecture is completed;
-* a solution is regularly executed and documented for deploying content that is universally accessible on Windows, Mac, and iOS, using automated conversion of markup sources, and clutter cleaner scripts, eliminating the use of any additional need for processing published content;
-* every volume, chapter, and blog topic has at least one high quality, complete article;
-* KPIs are determined for 2025-2030.
-
-#### 2030
-
+{% capture rm2030 %}
 For the second interval of five years, the project is in public beta status to inform its roadmap, potentially introducing a pivot point.
+</p>
+<ul>
+<li>Two author project: Daniel and a co-editor works together to conform the content and web architecture to public feedback.</li>
+<li>exploration of solutions for appending graphical and video content with their non-visual equivalence;</li>
+<li>expand scribbles in existing volumes, and consider new volumes based on feedback.</li>
+</ul><p>
+Moving on...
+{% endcapture %}
 
-* Two author project: Daniel and a co-editor works together to conform the content and web architecture to public feedback.
-* exploration of solutions for appending graphical and video content with their non-visual equivalence;
-* expand scribbles in existing volumes, and consider new volumes based on feedback.
-
-#### 2035
+{% capture rm2035 %}
 
 Ten years after conception, {{ site.brand }} transitions from a single author project to a multi-author journal. 
+</p>
+<ul>
+<li>The CEO oversees the content creation, funding and marketing tasks. The CTO is responsible for quality assurance of the web architecture including accessibility and functionality, as well as exploring new technological solutions in line with the vision and mission statements;</li>
+<li>associate editors are appointed to take care of individual volumes;</li>
+<li>volume content is expanded by the project team, and public feedback based on usage is considered; however, still no public notes are published;</li>
+<li>a system is developed for submitting scribbles by the public, and distributed for peer review.</li>
+</ul><p>
+Moving on...
+{% endcapture %}
 
-* The CEO oversees the content creation, funding and marketing tasks. The CTO is responsible for quality assurance of the web architecture including accessibility and functionality, as well as exploring new technological solutions in line with the vision and mission statements;
-* associate editors are appointed to take care of individual volumes;
-* volume content is expanded by the project team, and public feedback based on usage is considered; however, still no public notes are published;
-* a system is developed for submitting scribbles by the public, and distributed for peer review.
-
-#### 2035-2050
-
+{% capture rm2050 %}
 The web journal opens for public submission of scribbles, which are published after peer review and quality check.
+</p>
+<ul>
+<li>operation starts as conventional journals with editor, associate editors, reviewers, and authors;</li>
+<li>strategy development for revenue making from tools developed and experiences from the past 15 years;</li>
+<li>journal remains open source.</li>
+</ul><p>
+If the project has got as far as this, the roadmap will be extended.
+{% endcapture %}
 
-* operation starts as conventional journals with editor, associate editors, reviewers, and authors;
-* strategy development for revenue making from tools developed and experiences from the past 15 years;
-* journal remains open source.
-
----
+{% include global/collapseable.html trigger="2025" paragraph=rm2025 ID="2025rm" %}
+{% include global/collapseable.html trigger="2030" paragraph=rm2030 ID="2030rm" %}
+{% include global/collapseable.html trigger="2035" paragraph=rm2035 ID="2035rm" %}
+{% include global/collapseable.html trigger="2035-2050" paragraph=rm2050 ID="2050rm" %}
 
 ### Evolution of contributions
 
-For now, in the first five years, I will explore solutions and write content  on my own. However, eventually, I'd like to have associate editors, who take care of existing content and expand the volume they own. Although one of the key objective at the personal level is to learn web development, I'd like to work with a web developer, occupying the role of CTO, who knows what they are doing and are able to innovate through modern technological solutions. I'm just writing web scribbles and work towards the vision step by step. 
+For now, in the first five years from 2020, I will explore solutions and write content  on my own.
+However, eventually, I'd like to have associate editors, who take care of existing content and expand the volume they own.
+Although one of the key objective at the personal level is to learn web development, I'd like to work with a web developer, occupying the role of CTO, who knows what they are doing and are able to innovate through modern technological solutions.
+I'm just writing web scribbles and work towards the vision step by step. 
 
 ### Issue tracking
 
-{{ site.brand }} will track known issues on inaccurate information, as well as known accessibility bugs around the scientific content. This will partly be done through the GitHub repository and the LogBook articles.
+{{ site.brand }} will track known issues on inaccurate information, as well as known accessibility bugs around the scientific content.
+This will partly be done through the GitHub repository and the LogBook posts.

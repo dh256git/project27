@@ -70,7 +70,7 @@ Currently, the following specific roles and jobs are waiting for you to take.
 
 
 <div class="dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="b01" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">Learn new skills, or improve your existing skills.</a>
+                <a class="nav-link dropdown-toggle" href="#" id="b01" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false"></a>
         <div class="dropdown-menu" aria-labelledby="b01">
 <p>
 
@@ -82,7 +82,7 @@ All that Project27 volunteering roles do, is setting SMART (Specific, Measurable
 </div>
 </div>
 <div class="dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="b02" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">Use your knowledge and productivity output to help others.</a>
+                <a class="nav-link dropdown-toggle" href="#" id="b02" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false"></a>
         <div class="dropdown-menu" aria-labelledby="b02">
 <p>
 
@@ -96,7 +96,7 @@ It's learning through trial and error, and practice.
 </div>
 </div>
 <div class="dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="b03" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">Be part of a team.</a>
+                <a class="nav-link dropdown-toggle" href="#" id="b03" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false"></a>
         <div class="dropdown-menu" aria-labelledby="b03">
 <p>
 
@@ -110,7 +110,7 @@ It's learning through trial and error, and practice.
 </div>
 </div>
 <div class="dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="b04" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">Satisfy your dopamine needs with an extra reward.</a>
+                <a class="nav-link dropdown-toggle" href="#" id="b04" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false"></a>
         <div class="dropdown-menu" aria-labelledby="b04">
 <p>
 
@@ -147,8 +147,8 @@ BECOME A VOLUNTEER
   </main>
 
 <footer>
-<p>The Project27 site was last updated on: 07 Apr 2021.</p>
-<p>Version: 0.0.80.</p>
+<p>The Project27 site was last updated on: 08 Apr 2021.</p>
+<p>Version: 0.0.81.</p>
 <p>Daniel Hajas (2020) - <a href="https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license">Licence to be decided.</a></p>
 </footer>
 
