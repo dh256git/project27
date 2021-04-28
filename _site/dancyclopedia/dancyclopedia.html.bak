@@ -121,7 +121,7 @@ Dancyclopedia is a guide to do tasks, I once learnt how to do. Sadly, unless pra
 
 <footer>
 <p>The Project27 site was last updated on: 28 Apr 2021.</p>
-<p>Version: 0.0.82.</p>
+<p>Version: 0.0.83.</p>
 <p>Daniel Hajas (2020) - <a href="https://wiki.creativecommons.org/wiki/Marking_your_work_with_a_CC_license">Licence to be decided.</a></p>
 </footer>
 
@@ -151,6 +151,8 @@ if (typeof MathJaxListener !== 'undefined') {
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
+<!--Script for font awesome icons-->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
 
   </body>
 </html>
