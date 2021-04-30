@@ -2,17 +2,17 @@
 
 ## Navigation - level 1 fixed
 
-Home | web log | Dancyclopedia
+Home | web log | {{ site.product }}
 
 ### Home page
 
-Just a welcome text with 12 units width, and a row of 2x6 units width for the web log and Dancyclopedia home pages. Use the cover Bootstrap template.
+Just a welcome text with 12 units width, and a row of 2x6 units width for the web log and {{ site.product }} home pages. Use the cover Bootstrap template.
 
 ### Web log page
 
 Like the home page, but the row splits into two columns of TWIST and project log.
 
-### Dancyclopedia page
+### {{ site.product }} page
 
 Like the home page, but grid structure for topics.
 
@@ -32,9 +32,9 @@ On Project log
 * LaTeX to MathML
 * MathML usability
 
-## Dancyclopedia pages
+## {{ site.product }} pages
 
-On the grid of Dancyclopedia home page, and as secondary navigation :
+On the grid of {{ site.product }} home page, and as secondary navigation :
 
 * Mathematical and physical sciences
 * Computer literacy

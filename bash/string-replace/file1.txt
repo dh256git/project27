@@ -1,3 +1,2 @@
 Hi,
-This is {{ site.brand }}.
-Bye.
+This is ./guide/guide.html at guide.

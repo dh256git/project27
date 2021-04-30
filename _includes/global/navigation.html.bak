@@ -1,0 +1,17 @@
+      <nav class="navbar navbar-expand-md navbar-light nav nav-masthead justify-content-center">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon">{% include icons/menu.svg %}</span>
+  </button>
+        <div class="collapse navbar-collapse" id="primaryNavigation" role="menubar">
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+  {% endfor %}
+  {% if page.url contains "MPS" %}
+  {% include dancyclopedia/dropdown-MPS.html %}
+  {% elsif page.url contains "cookbook" %}
+  {% include dancyclopedia/dropdown-cookbook.html %}
+  {% elsif page.url contains "dancyclopedia" %}
+  {% include global/dropdown-seasonal.html %}
+  {% endif %}
+</div>
+</nav>

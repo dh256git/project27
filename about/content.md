@@ -5,8 +5,8 @@ title: The content
 
 # What's on {{ site.brand }}?
 
-The site is split into two parts: [Blog](../blog/blog.html) and [Dancyclopedia.](../dancyclopedia/dancyclopedia.html)
-Blog posts and Dancyclopedia scribbles both come in two flavours: technical, and lifestyle. 
+The site is split into two parts: [Blog](../blog/blog.html) and [{{ site.product }}.](../guide/guide.html)
+Blog posts and {{ site.product }} scribbles both come in two flavours: technical, and lifestyle. 
 
 ## The blog
 
@@ -19,18 +19,18 @@ This makes LogBook a more technical set of posts.
 Secondly, "The Way I See iT (TWIST) provides lifestyle and reflective posts.
 Topics are written in a wide spectrum, from living with vision impairment, through self-identities, to reading books.
 
-## The Dancyclopedia
+## The {{ site.product }}
 
-The Dancyclopedia is what I think about as an educational, web journal.
+The {{ site.product }} is what I think about as an educational, web journal.
 Initially, five volumes form part of the journal.
 
 1. Science repository:
- * [Mathematical and Physical Sciences (MPS);](../dancyclopedia/MPS/MPS.html)
- * [Computer Literacy;](../dancyclopedia/CL/CL.html)
- * [Statistics;](../dancyclopedia/statistics/statistics.html)
+ * [Mathematical and Physical Sciences (MPS);](../guide/MPS/MPS.html)
+ * [Computer Literacy;](../guide/CL/CL.html)
+ * [Statistics;](../guide/statistics/statistics.html)
 2. Lifestyle repository:
- * [Cookbook;](../dancyclopedia/cookbook/cookbook/html)
- * [Vocal.](../dancyclopedia/vocal/vocal.html)
+ * [Cookbook;](../guide/cookbook/cookbook/html)
+ * [Vocal.](../guide/vocal/vocal.html)
 
 ### Science repository
 

@@ -1,0 +1,18 @@
+- name: Desserts and breakfast
+  link: /dancyclopedia/cookbook/desserts/menu.html
+- name: Fish dish and sea bits
+  link: /dancyclopedia/cookbook/fish/menu.html
+- name: Meat feast
+  link: /dancyclopedia/cookbook/meats/menu.html
+- name: Pasta
+  link: /dancyclopedia/cookbook/pastas/menu.html
+- name: Risotto
+  link: /dancyclopedia/cookbook/risotto/menu.html
+- name: Salads and dips
+  link: /dancyclopedia/cookbook/salads/menu.html
+- name: Soups to scoop
+  link: /dancyclopedia/cookbook/soups/menu.html
+- name: Wraps and rolls
+  link: /dancyclopedia/cookbook/wraps/menu.html
+- name: Freezer inventory
+  link: /dancyclopedia/cookbook/general/freezer/inventory.html

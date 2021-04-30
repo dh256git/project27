@@ -7,10 +7,10 @@
     <a href="{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
   {% endfor %}
   {% if page.url contains "MPS" %}
-  {% include dancyclopedia/dropdown-MPS.html %}
+  {% include guide/dropdown-MPS.html %}
   {% elsif page.url contains "cookbook" %}
-  {% include dancyclopedia/dropdown-cookbook.html %}
-  {% elsif page.url contains "dancyclopedia" %}
+  {% include guide/dropdown-cookbook.html %}
+  {% elsif page.url contains "guide" %}
   {% include global/dropdown-seasonal.html %}
   {% endif %}
 </div>
