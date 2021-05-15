@@ -18,7 +18,15 @@
 -->
   <header>
   <!--class="masthead mb-auto"-->
+<div class="row">
+<div class="col-6 justify-content-center">
 <a href="#mainContent">Skip to main content</a>
+</div>
+<div class="col-6 justify-content-center">
+<a href="#footerContent">Skip to footer</a>
+</div>
+</div>
+
       <h3 class="masthead-brand">{{ site.brand }}: {{ site.motto }}</h3>
 
 {% include global/navigation.html %}
@@ -28,7 +36,7 @@
  {{   content   }}
   </main>
 <!--</div>-->
-{% include global/footer.html version="0" subversion="0" commit="86" %}
+{% include global/footer.html version="0" subversion="0" commit="87" %}
 {% include global/scripts.html %}
 
   </body>
