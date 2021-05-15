@@ -1,12 +1,18 @@
-<div class="bg-light justify-content-center">
-      <nav class="navbar navbar-expand-md nav" tabindex="0">
+      <nav class="navbar navbar-expand-md navbar-dark bg-my-nav" tabindex="0">
+<a href="{{ 'index.html' | prepend: site.baseurl }}" class=navbar-brand">
+<img src="/assets/images/Daniel.jpg" alt="Project 27 logo" class="logo" width="150em">
+</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon">{% include icons/menu.svg %}</span>
+    <span class="navbar-toggler-icon"></span>
   </button>
-        <div class="collapse navbar-collapse" id="primaryNavigation" role="menubar">
+        <div class="collapse navbar-collapse" id="primaryNavigation">
+<ul class="navbar-nav ml-auto" role="menubar">
   {% for item in site.data.navigation %}
-    <a href="{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+  <li>
+    <a href="{{ item.link | prepend: site.baseurl }}">{{ item.name }}</a>
+  </li>
   {% endfor %}
+  </ul>
   {% if page.url contains "MPS" %}
   {% include guide/dropdown-MPS.html %}
   {% elsif page.url contains "cookbook" %}
@@ -16,4 +22,3 @@
   {% endif %}
 </div>
 </nav>
-</div>
