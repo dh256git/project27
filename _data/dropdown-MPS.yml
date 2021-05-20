@@ -1,8 +1,8 @@
 - name: Mathematics
-  link: /guide/MPS/mathematics/mathematics.html
+  link: /guide/MPS/mathematics/index.html
 - name: Classical mechanics
-  link: /guide/MPS/mechanics/mechanics.html
+  link: /guide/MPS/mechanics/index.html
 - name: Oscillations
-  link: /guide/MPS/oscillations/oscillations.html
+  link: /guide/MPS/oscillations/index.html
 - name: Quantum mechanics
-  link: /guide/MPS/quantum-mechanics/quantum-mechanics.html
+  link: /guide/MPS/quantum-mechanics/index.html

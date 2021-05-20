@@ -1,0 +1,23 @@
+<nav aria-label="Secondary">
+<div class="row">
+<div class="col-md-4">
+{% include global/breadcrumbs.html %}
+  {% if page.url contains "blog" %}
+  {% include blog/pagination.html %}
+  {% endif %}
+</div>
+<div class="col-md-4">
+  {% if page.url contains "MPS" %}
+  {% include guide/dropdown-MPS.html %}
+  {% elsif page.url contains "cookbook" %}
+  {% include guide/dropdown-cookbook.html %}
+  {% elsif page.url contains "guide" %}
+  {% include global/dropdown-seasonal.html %}
+  {% endif %}
+</div>
+<div class="col-md-4">
+{% include global/reading-time.html %}
+{% include global/meta.html %}
+</div>
+</div>
+</nav>

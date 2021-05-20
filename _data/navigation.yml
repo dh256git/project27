@@ -1,8 +1,8 @@
 - name: Home
   link: /index.html
 - name: Blog
-  link: /blog/blog.html
+  link: /blog/index.html
 - name: Guide
-  link: /guide/guide.html
+  link: /guide/index.html
 - name: Volunteering
-  link: /volunteering/volunteering.html
+  link: /volunteering/index.html

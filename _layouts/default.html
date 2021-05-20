@@ -27,16 +27,17 @@
 </div>
 </div>
 
-      <h3 class="masthead-brand">{{ site.brand }}: {{ site.motto }}</h3>
+      <span class="masthead-brand">{{ site.brand }}: {{ site.motto }}</span>
 
 {% include global/navigation.html %}
   </header>
 
   <main role="main" class="inner cover" id="mainContent">
+{% include global/navigation-secondary.html %}
  {{   content   }}
   </main>
 <!--</div>-->
-{% include global/footer.html version="0" subversion="0" commit="88" %}
+{% include global/footer.html version="0" subversion="0" commit="89" %}
 {% include global/scripts.html %}
 
   </body>

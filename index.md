@@ -26,7 +26,7 @@ title: Project27 Home Page
 
 <p>The {{ site.product }} is a set of volumes, including scribbles on how to do specific things as a blind person, let it be a technical challenge, or a matter of lifestyle.</p>
 
-<a href="./guide/guide.html">Open the {{ site.product }}</a>
+<a href="./guide/index.html">Open the {{ site.product }}</a>
 </div>
 </div>
 
