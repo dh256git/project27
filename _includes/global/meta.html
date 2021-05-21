@@ -1,4 +1,8 @@
-<div class="blog-post-meta">
+  <button type="button" data-toggle="collapse" data-target="#meta-info" aria-controls="meta-info" aria-expanded="false" aria-label="Page information">
+    <span><i class="fa fa-info-circle" aria-hidden="false"></i></span>
+  </button>
+<div class="blog-post-meta collapse" id="meta-info">
+{% include global/reading-time.html %}
 <p>Written by: {{ page.author }}</p>
 <p>Reviewed by: {{ page.reviewer }}</p>
 <p>Published on: {{ page.date | date_to_string }}</p>
