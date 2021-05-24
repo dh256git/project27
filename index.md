@@ -19,7 +19,7 @@ title: Project27 Home Page
 
 <p>The blog is a place to read opinion based posts on casual topics, as well as posts on the development of this project.</p>
 
-<a href="./blog/blog.html">Open the blog</a>
+<a href="./blog/index.html">Open the blog</a>
 </div>
 <div class="col-md-6">
 <h3>The {{ site.product }}</h3>
