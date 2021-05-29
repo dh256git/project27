@@ -1,3 +1,10 @@
+collections:
+  volunteering:
+    output: true
+  about:
+    output: true
+sass: 
+   sass_dir: assets/css
 plugins:
   - jekyll-relative-links
 relative_links:
@@ -12,3 +19,8 @@ include:
   - CONTRIBUTING.md
   - ISSUE_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
+baseurl: /project27
+excerpt_separator: <!-- excerpt-end -->
+brand: Project27
+motto: A warehouse of challenges and solutions.
+product: Guide

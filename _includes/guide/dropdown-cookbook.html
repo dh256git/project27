@@ -1,0 +1,9 @@
+<div class="dropdown bg-my-nav">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cookbook chapters</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown01">
+  {% for item in site.data.cookbook.dropdown-cookbook %}
+          <a class="dropdown-item" href="{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+  {% endfor %}
+</div>
+</div>
+</div>
