@@ -1,4 +1,0 @@
-# Black body radiation
-
-
-

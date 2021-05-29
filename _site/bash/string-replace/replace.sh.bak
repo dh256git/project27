@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd ../../
+
+grep -rli 'dancyclopedia' * | xargs -I@ sed -i '.bak' 's/dancyclopedia/guide/g' @
+
+echo "String replacement done"
