@@ -1,4 +1,4 @@
-I"×<p>A family classic. Iâ€™ve always loved the smell of cinnamon while the apple was braising. Less so in the stew we cooked afterwards in the same pan.
+I"Û<p>A family classic. Iâ€™ve always loved the smell of cinnamon while the apple was braising. Less so in the stew we cooked afterwards in the same pan.
 <!-- excerpt-end --></p>
 
 <h2 id="ingredients">Ingredients</h2>
@@ -12,29 +12,9 @@
       
         <th scope="col"></th>
       
-        <th scope="col">{"Ingredient"=&gt;"flour", " Quantity"=&gt;" 300", " Unit"=&gt;" g"}</th>
+        <th scope="col">{"Ingredient"=&gt;"red wine", " Quantity"=&gt;" 0.75", " Unit"=&gt;" l"}</th>
       
     </tr>
-    
-
-    <tr class="row1">
-<td class="col1">
-      
-    </td><td class="col2">
-      {"Ingredient"=&gt;"granulated sugar", " Quantity"=&gt;" 150", " Unit"=&gt;" g"}
-    </td></tr>
-
-  
-    
-
-    <tr class="row1">
-<td class="col1">
-      
-    </td><td class="col2">
-      {"Ingredient"=&gt;"granulated sugar", " Quantity"=&gt;" 200", " Unit"=&gt;" g"}
-    </td></tr>
-
-  
     
 
     <tr class="row1">
@@ -51,7 +31,27 @@
 <td class="col1">
       
     </td><td class="col2">
+      {"Ingredient"=&gt;"granulated sugar", " Quantity"=&gt;" 150", " Unit"=&gt;" g"}
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      
+    </td><td class="col2">
       {"Ingredient"=&gt;"milk", " Quantity"=&gt;" 1", " Unit"=&gt;" cup"}
+    </td></tr>
+
+  
+    
+
+    <tr class="row1">
+<td class="col1">
+      
+    </td><td class="col2">
+      {"Ingredient"=&gt;"granulated sugar", " Quantity"=&gt;" 200", " Unit"=&gt;" g"}
     </td></tr>
 
   
