@@ -1,8 +1,10 @@
       <nav class="blog-pagination" aria-label="Pages">
         {% if page.previous.url %}
-        <a class="btn btn-outline-primary" href="{{ page.previous.url | prepend: site.baseurl }}">Previous: {{page.previous.title}}</a> <br>
-  {% endif %}
-  {% if page.next.url %}
+        <a class="btn btn-outline-primary" href="{{ page.previous.url | prepend: site.baseurl }}">Previous: {{page.previous.title}}</a>
+        <div class="row">
+        {% endif %}
+        {% if page.next.url %}
         <a class="btn btn-outline-secondary" href="{{ page.next.url | prepend: site.baseurl }}" tabindex="-1" aria-disabled="false">Next: {{ page.next.title}}</a>
         {% endif %}
+        </div>
       </nav>
