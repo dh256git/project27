@@ -12,7 +12,7 @@ title: Project27 Home Page
 </div>
 
 ---
-
+<div class="container">
 <div class="row">
 <div class="col-md-6">
 <h3>The Blog</h3>
@@ -29,4 +29,3 @@ title: Project27 Home Page
 <a href="./guide/index.html">Open the {{ site.product }}</a>
 </div>
 </div>
-

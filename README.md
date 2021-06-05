@@ -2,7 +2,6 @@
 layout: default
 title: About Project27
 ---
-
 # About {{ site.brand }}
 
 This page introduces the {{ site.brand }} vision and mission, why it exists, who is behind the content, and what the roadmap of development is.
