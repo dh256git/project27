@@ -13,6 +13,8 @@
   {% for item in site.data.volumes.blog %}
           <a class="dropdown-item" href="{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
   {% endfor %}
+  {% else %}
+  <p>Please open the blog or the {{ site.product }} before selecting a volume.</p>
   {% endif %}
 </div>
 </div>
