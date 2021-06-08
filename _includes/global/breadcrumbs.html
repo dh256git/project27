@@ -5,7 +5,7 @@
   {% if forloop.last %}
     <br> > {{ page.title }}
   {% else %}
-    > <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' | prepend: site.baseurl }}{% endfor %}{{ index.html }}">{% if crumb contains "MPS" %}{{ crumb | replace:'-',' ' | remove:'.html' | upcase }}{% elsif crum != "MPS" %}{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}{% endif %}</a>
+    > <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' | replace:'without-plugin/','without-plugins/' }}{% endfor %}{{ '' | append: 'index.html' | prepend: site.baseurl }}">{% if crumb contains "MPS" %}{{ crumb | replace:'-',' ' | remove:'.html' | upcase }}{% elsif crum != "MPS" %}{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}{% endif %}</a>
   {% endif %}
 {% endfor %}
 </div>
