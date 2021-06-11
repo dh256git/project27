@@ -1,6 +1,8 @@
 <div class="dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="{{ include.ID }}" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">{{ include.trigger }}</a>
-        <div class="dropdown-menu" aria-labelledby="{{ include.ID }}">
+  <button type="button" data-toggle="collapse" data-target="#{{ include.ID }}" aria-controls="{{ include.ID }}" aria-expanded="false">
+                {{ include.trigger }}
+                </button>
+        <div class="dropdown-menu" aria-labelledby="{{ include.ID }}" id="{{ include.ID }}">
 <p>
 {{ include.paragraph }}
 </p>
