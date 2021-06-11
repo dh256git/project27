@@ -13,9 +13,9 @@
   </head>
   <body>
 
-<!--
+
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
--->
+
   <header>
   <!--class="masthead mb-auto"-->
 <div class="row">
@@ -32,11 +32,12 @@
 {% include global/navigation.html %}
   </header>
 
-  <main role="main" class="inner cover" id="mainContent">
+  <main role="main" div class="container" id="mainContent">
 {% include global/navigation-secondary.html %}
  {{   content   }}
+  </div>
   </main>
-<!--</div>-->
+</div>
 {% include global/footer.html version="0" subversion="0" commit="95" %}
 {% include global/scripts.html %}
 

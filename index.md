@@ -10,9 +10,7 @@ title: Project27 Home Page
 <div>
       <a href="./README.html" class="btn btn-lg btn-secondary">Read more about {{ site.brand }}</a>
 </div>
-
 ---
-<div class="container">
 <div class="row">
 <div class="col-md-6">
 <h3>The Blog</h3>

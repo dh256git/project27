@@ -1,6 +1,6 @@
 <nav aria-label="Secondary">
 <div class="row">
-<div class="col-md-5">
+<div class="col-md-6">
 {% include global/breadcrumbs.html %}
   {% if page.layout == "post" or page.layout == "recipes" %}
   {% include blog/pagination.html %}
@@ -8,7 +8,7 @@
         {% include blog/branch-and-featured.html %}
   {% endif %}
 </div>
-<div class="col-md-4">
+<div class="col-md-3">
   <button type="button" data-toggle="collapse" data-target="#selector" aria-controls="selector" aria-expanded="false" aria-label="Select">
     <span><i class="fas fa-bookmark fa-lg" aria-hidden="false"></i></span>
   </button>
