@@ -21,7 +21,7 @@ Let's see how to cook your meal.
 Here is what you need to have at home.
 
 <table>
-  {% for row  in site.data.cookbook.**.** %}
+  {% for row  in site.data.cookbook %}
 {% include global/tabulator.html %}
   {% endfor %}
 </table>

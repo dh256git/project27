@@ -5,12 +5,12 @@ title: The content
 
 # What's on {{ site.brand }}?
 
-The site is split into two parts: [Blog](../blog/blog.html) and [{{ site.product }}.](../guide/guide.html)
+The site is split into two parts: [Blog](../blog/index.html) and [{{ site.product }}.](../guide/index.html)
 Blog posts and {{ site.product }} scribbles both come in two flavours: technical, and lifestyle. 
 
 ## The blog
 
-The blog has two branches: [LogBook](../blog/project-log/project-log.html) and [TWIST.](../blog/twist/twist.html)
+The blog has two branches: [LogBook](../blog/logbook/index.html) and [TWIST.](../blog/twist/index.html)
 
 Firstly, LogBook does what it says.
 It keeps a log of issues encountered, snippets of problems and solutions while developing the content.
@@ -25,12 +25,12 @@ The {{ site.product }} is what I think about as an educational, web journal.
 Initially, five volumes form part of the journal.
 
 1. Science repository:
- * [Mathematical and Physical Sciences (MPS);](../guide/MPS/MPS.html)
- * [Computer Literacy;](../guide/CL/CL.html)
- * [Statistics;](../guide/statistics/statistics.html)
+ * [Mathematical and Physical Sciences (MPS);](../guide/MPS/index.html)
+ * [Computer Literacy;](../guide/CL/index.html)
+ * [Statistics;](../guide/statistics/index.html)
 2. Lifestyle repository:
- * [Cookbook;](../guide/cookbook/cookbook/html)
- * [Vocal.](../guide/vocal/vocal.html)
+ * [Cookbook;](../guide/cookbook/index.html)
+ * [Vocal.](../guide/vocal/index.html)
 
 ### Science repository
 
