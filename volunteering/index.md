@@ -80,6 +80,6 @@ Please, express your interest by using the button below.
 
 <!--Note: Decide best method of expressing interest.-->
 
-<button class="btn btn-outline-primary" aria-disabled="true" href="#">
+<button class="mybtn" aria-disabled="true" href="#">
 BECOME A VOLUNTEER
 </button>
