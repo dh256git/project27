@@ -121,8 +121,8 @@ Skill: research communication and outreach on touch in well-being
 
 Potential work places:
 
-1. [Nordic Cuddle](nordiccuddle.com)
- + email contact: ryan@nordiccuddle.com
+1. [Nordic Cuddle](www.nordiccuddle.com)
+ + email contact: [Ryan](ryan@nordiccuddle.com)
 2. [Touch Trust](http://www.touchtrust.co.uk/what-we-do/)
 3. [Story massage](https://www.storymassage.co.uk/home/about-us/)
 
