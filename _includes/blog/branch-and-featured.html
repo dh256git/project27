@@ -1,9 +1,10 @@
-      <nav class="blog-pagination" aria-label="Blog">
+     <nav class="blog-pagination" aria-label="Blog">
 {% for switcher in page.switch %}
-        <a class="btn btn-outline-primary" href="{{ switcher.link | prepend: site.baseurl }}">{{ switcher.name }}</a>
+                <a class="mybtn" href="{{ switcher.link | prepend: site.baseurl }}">{{ switcher.name }}</a>
         <br>
 {% endfor %}
 {%for featured in page.featured %}
-        <a class="btn btn-outline-secondary" href="{{ featured.link | prepend: site.baseurl }}" tabindex="-1" aria-disabled="false">{{ featured.name }}</a>
+        <a class="mybtn" href="{{ featured.link | prepend: site.baseurl }}" tabindex="-1" aria-disabled="false">{{ featured.name }}</a>
         {% endfor %}
-      </nav> 
+      </nav>
+</div>

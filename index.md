@@ -8,11 +8,9 @@ title: Project27 Home Page
 {{ site.brand }} is a guide on a wide range of topics, based on the skills, experiences, and knowledge of a scientifically minded, blind person. It is a personal edition of the "Hitchhikers' guide to the galaxy".
 
 <div>
-      <a href="./README.html" class="btn btn-lg btn-secondary">Read more about {{ site.brand }}</a>
+      <a href="./README.html" class="btn btn-lg" class="mybtn">Read more about {{ site.brand }}</a>
 </div>
-
 ---
-<div class="container">
 <div class="row">
 <div class="col-md-6">
 <h3>The Blog</h3>
@@ -27,5 +25,4 @@ title: Project27 Home Page
 <p>The {{ site.product }} is a set of volumes, including scribbles on how to do specific things as a blind person, let it be a technical challenge, or a matter of lifestyle.</p>
 
 <a href="./guide/index.html">Open the {{ site.product }}</a>
-</div>
 </div>

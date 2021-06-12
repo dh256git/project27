@@ -1,6 +1,6 @@
 <div class="dropdown bg-my-nav">
-                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="volume-selector" aria-haspopup="true">Volumes</a>
-        <div class="dropdown-menu" aria-labelledby="volume-selector">
+<button type="button" class="mybtn" data-toggle="collapse" data-target="#volume-selector" data-toggle="dropdown" id="volume-selector" aria-haspopup="true">Volumes</button>
+        <div class="dropdown-menu" aria-labelledby="volume-selector" id="volume-selector">
   {% if page.url contains "seasonal" %}
   {% for item in site.data.volumes.seasonal %}
           <a class="dropdown-item" href="{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>

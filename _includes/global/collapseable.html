@@ -1,10 +1,11 @@
 <div class="dropdown">
-  <button type="button" data-toggle="collapse" data-target="#{{ include.ID }}" aria-controls="{{ include.ID }}" aria-expanded="false">
+  <button type="button" class="mybtn" data-toggle="collapse" data-target="#{{ include.ID }}" aria-controls="{{ include.ID }}" aria-expanded="false">
                 {{ include.trigger }}
                 </button>
-        <div class="dropdown-menu" aria-labelledby="{{ include.ID }}" id="{{ include.ID }}">
+        <div class="dropdown-menu" aria-labelledby="{{ include.ID }}" id="{{ include.ID }}">      
 <p>
 {{ include.paragraph }}
 </p>
+</div>
 </div>
 </div>
