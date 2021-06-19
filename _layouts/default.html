@@ -28,8 +28,12 @@
 </div>
 
 
-      <span class="masthead-brand"><img src="{{ '/assets/images/Project27 logo.png' | prepend: site.baseurl }}" alt="Project 27 logo" class="logo" width="90em">{{ site.motto }}</span>
-      
+      <span class="masthead-brand">
+<a href="{{ '/index.html' | prepend: site.baseurl }}" class=navbar-brand">
+      <img src="{{ '/assets/images/Project27 logo.png' | prepend: site.baseurl }}" alt="Project 27 logo" class="logo" width="90em">
+      </a>
+      {{ site.motto }}
+      </span>
 
 {% include global/navigation.html %}
   </header>
