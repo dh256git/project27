@@ -1,7 +1,11 @@
-<nav aria-label="Secondary">
 <div class="row">
 <div class="col-md-6">
+<h6>You are here</h6>
+{% if page.url contains "blog" %}
+{% include global/breadcrumbs-blog.html %}
+{% else %}
 {% include global/breadcrumbs.html %}
+{% endif %}
   {% if page.layout == "post" or page.layout == "recipes" %}
   {% include blog/pagination.html %}
   {% elsif page.layout == "blog" %}
@@ -25,4 +29,3 @@
 </div>
 </div>
 </div>
-</nav>
