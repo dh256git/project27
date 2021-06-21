@@ -1,7 +1,7 @@
 <div class="row">
 <div class="col-md-6">
 <h6>You are here</h6>
-{% if page.url contains "blog" %}
+{% if page.url contains "blog" or page.url contains "cookbook"  or page.url contains "sharing-stories" %}
 {% include global/breadcrumbs-blog.html %}
 {% else %}
 {% include global/breadcrumbs.html %}
