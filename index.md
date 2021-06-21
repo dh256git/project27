@@ -17,12 +17,12 @@ title: Project27 Home Page
 
 <p>The blog is a place to read opinion based posts on casual topics, as well as posts on the development of this project.</p>
 
-<a href="./blog/index.html">Open the blog</a>
+<a href="./blog/index.html" class= "mybtn">Open the blog</a>
 </div>
 <div class="col-md-6">
 <h3>The {{ site.product }}</h3>
 
 <p>The {{ site.product }} is a set of volumes, including scribbles on how to do specific things as a blind person, let it be a technical challenge, or a matter of lifestyle.</p>
 
-<a href="./guide/index.html">Open the {{ site.product }}</a>
+<a href="./guide/index.html" class="mybtn">Open the {{ site.product }}</a>
 </div>
