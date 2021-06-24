@@ -8,7 +8,7 @@ title: Project27 Home Page
 {{ site.brand }} is a guide on a wide range of topics, based on the skills, experiences, and knowledge of a scientifically minded, blind person.
 
 <div>
-      <a href="./README.html" class="btn btn-lg" class="mybtn">Read more about {{ site.brand }}</a>
+      <a href="./about/index.html" class="btn btn-lg" class="mybtn">Read more about {{ site.brand }}</a>
 </div>
 ---
 <div class="row">
