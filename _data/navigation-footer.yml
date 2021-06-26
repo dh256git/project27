@@ -1,6 +1,6 @@
-- name: Values
-  link: /guidelines/values.html
-- name: Content Guidelines
-  link: /guidelines/content.html
-- name: Review Guidelines
-  link: /guidelines/review.html
+- name: About
+  link: /about/index.html
+- name: Guidelines
+  link: /guidelines/index.html
+- name: Legal
+  link: /legal/index.html

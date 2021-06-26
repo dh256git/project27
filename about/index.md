@@ -47,6 +47,19 @@ However, there exists a vision on the grand scale too.
 
 ---
 
+## Values and culture
+
+The culture at {{ site.brand }} is defined by four core values:
+
+1. commitment,
+2. openness,
+3. respect, and
+4. engagement.
+
+[Read more about our values](./values.html)
+
+---
+
 ## What's on {{ site.brand }}?
 
 The site is split into two parts: [Blog](./blog/index.html) and [{{ site.product }}.](./guide/index.html)

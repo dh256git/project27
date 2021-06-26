@@ -1,22 +1,11 @@
 ---
 layout: default
-title: Values and guidelines
+title: Guidelines
 ---
 
 # {{ page.title }}
 
-This page outlines the values and guidelines endorsed and followed by {{ site.brand }}.
-
-## The {{ site.brand }} values
-
-The ownership of {{ site.brand }} believes in four core values:
-
-1. commitment,
-2. openness,
-3. respect, and 
-4. engagement.
-
-[Read more about our values](./values.html)
+This page outlines the content and review guidelines followed by {{ site.brand }}.
 
 ## Content guidelines
 
