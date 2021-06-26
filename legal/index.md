@@ -1,6 +1,6 @@
 ---
 layout: default
-Legal statements
+title: Legal statements
 ---
 
 # {{ page.title }}

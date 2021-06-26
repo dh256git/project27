@@ -27,7 +27,7 @@ I truly wish that the content and the spirit of {{ site.brand }} will become not
 So long, all the best!  
 Daniel
 
-[Read the complete welcome letter by Daniel, and get to know him more](./about/author.html)
+[Read the complete welcome letter by Daniel, and get to know him more](./author.html)
 
 ---
 
@@ -35,7 +35,7 @@ Daniel
 
 On the small scale, {{ site.brand }} is a private, digital notebook on a range of topics that matter to the author. It is a hobby activity, an opportunity to learn skills in web development, audio editing, and revising notes on physics.
 
-[Read more about the modest ambition](./about/modest.html)
+[Read more about the modest ambition](./modest.html)
 
 ---
 
@@ -43,7 +43,7 @@ On the small scale, {{ site.brand }} is a private, digital notebook on a range o
 
 However, there exists a vision on the grand scale too.
 
-[Read more about the grand ambition](./about/grand.html)
+[Read more about the grand ambition](./grand.html)
 
 ---
 
@@ -78,7 +78,7 @@ Initially, five volumes, separated into two collections, form part of the {{ sit
  * [Cookbook;](./guide/cookbook/index.html)
  * [Vocal.](./guide/vocal/index.html)
 
-[Read more about what you will find on this site](./about/content.html)
+[Read more about what you will find on this site](./content.html)
 
 ---
 
