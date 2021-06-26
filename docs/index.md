@@ -3,7 +3,7 @@ layout: default
 title: Project27 Home Page
 ---
 
-# {{ site.motto }}%}
+# {{ site.motto }}
 
 {{ site.brand }} is a guide on a wide range of topics, based on the skills, experiences, and knowledge of a scientifically minded, blind person.
 
