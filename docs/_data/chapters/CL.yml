@@ -1,0 +1,12 @@
+- name: BASH
+  link: /guide/CL/bash/index.html
+- name: Git
+  link: /guide/CL/git/index.html
+- name: Markdown
+  link: /guide/CL/md/index.html
+- name: Python
+  link: /guide/CL/python/index.html
+- name: R
+  link: /guide/CL/R/index.html
+- name: Web development
+  link: /guide/CL/web/index.html

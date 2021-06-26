@@ -1,0 +1,6 @@
+- name: Blog
+  link: /blog/index.html
+- name: Guide
+  link: /guide/index.html
+- name: Volunteering
+  link: /volunteering/index.html

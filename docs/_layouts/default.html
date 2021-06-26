@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title> {{   page.title   }}</title>
+
+<!--Custom style sheets-->
+        <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl}}">
+
+  </head>
+  <body>
+
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+  <header>
+  <!--class="masthead mb-auto"-->
+<div class="row">
+<div class="col-md-6">
+<a class="d-flex justify-content-center" href="#mainContent">Skip to main content</a>
+</div>
+<div class="col-md-6">
+<a class="d-flex justify-content-center" href="#footerContent">Skip to footer</a>
+</div>
+</div>
+
+
+      <span class="masthead-brand">
+<a href="{{ '/index.html' | prepend: site.baseurl }}" class=navbar-brand">
+      <img src="{{ '/assets/images/Project27 logo.png' | prepend: site.baseurl }}" alt="Project 27 logo" class="logo" width="90em">
+      </a>
+      {{ site.motto }}
+      </span>
+
+{% include global/navigation.html %}
+  </header>
+
+  <main role="main" div class="container" id="mainContent">
+{% include global/navigation-secondary.html %}
+ {{   content   }}
+  </div>
+  </main>
+<!--</div>-->
+{% include global/footer.html version="0" subversion="0" commit="100" %}
+{% include global/scripts.html %}
+
+  </body>
+</html>
