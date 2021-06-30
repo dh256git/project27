@@ -11,7 +11,7 @@ for item in myFile.split("\n"):
 		myLine = item.strip()
 
 ## search for two digit sequence in source string, group match sequence into a string.
-commit = re.search(r'\d\d', myLine).group()
+commit = re.search(r'\d\d\d', myLine).group()
 
 ## increase commit number by 1
 newCommit = str(int(commit) + 1)

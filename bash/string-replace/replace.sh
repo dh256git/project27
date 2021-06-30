@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ../../
+cd ../../docs/
 
 grep -rli 'guide' * | xargs -I@ sed -i '.bak' 's/guide/guide/g' @
 
