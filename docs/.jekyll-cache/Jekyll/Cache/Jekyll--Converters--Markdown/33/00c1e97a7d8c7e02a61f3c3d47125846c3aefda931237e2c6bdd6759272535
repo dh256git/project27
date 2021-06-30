@@ -1,4 +1,4 @@
-I"m <h1 id="about-project27">About Project27</h1>
+I"Z <h1 id="about-project27">About Project27</h1>
 
 <p>This page introduces the Project27 vision and mission, why it exists, who is behind the content, and what the roadmap of development is.</p>
 
@@ -96,7 +96,7 @@ Initially, five volumes, separated into two collections, form part of the Guide.
   <button type="button" class="mybtn" data-toggle="collapse" data-target="#R2025" aria-controls="R2025" aria-expanded="false">
                 2025
                 </button>
-        <div class="dropdown-menu" aria-labelledby="R2025" id="R2025">      
+        <div class="dropdown-menu" aria-label="2025" id="R2025">      
 <p>
 
  Project27 is a private tool, under construction.
@@ -127,7 +127,7 @@ The key performance indicators are:
   <button type="button" class="mybtn" data-toggle="collapse" data-target="#R2030" aria-controls="R2030" aria-expanded="false">
                 2030
                 </button>
-        <div class="dropdown-menu" aria-labelledby="R2030" id="R2030">      
+        <div class="dropdown-menu" aria-label="2030" id="R2030">      
 <p>
 
 For the second interval of five years, the project is in public beta status to inform its roadmap, potentially introducing a pivot point.
@@ -146,7 +146,7 @@ Moving on...
   <button type="button" class="mybtn" data-toggle="collapse" data-target="#R2035" aria-controls="R2035" aria-expanded="false">
                 2035
                 </button>
-        <div class="dropdown-menu" aria-labelledby="R2035" id="R2035">      
+        <div class="dropdown-menu" aria-label="2035" id="R2035">      
 <p>
 
 
@@ -167,7 +167,7 @@ Moving on...
   <button type="button" class="mybtn" data-toggle="collapse" data-target="#R2050" aria-controls="R2050" aria-expanded="false">
                 2035-2050
                 </button>
-        <div class="dropdown-menu" aria-labelledby="R2050" id="R2050">      
+        <div class="dropdown-menu" aria-label="2035-2050" id="R2050">      
 <p>
 
 The web journal opens for public submission of scribbles, which are published after peer review and quality check.
