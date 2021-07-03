@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: cookbook
 title: Menu for meat feasts
 ---
 <div class="container">
 {% for post in site.categories.meats %}
-<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-<p>{{ post.excerpt }}</p>
+{% include guide/cookbook-menu.html %}
 {% endfor %}
 </div>
