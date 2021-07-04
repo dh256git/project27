@@ -1,9 +1,9 @@
 ---
-layout: default
-title: Work in progress
+layout: blog-category
+title: Grapheel archive
+topicIndex: 5
 ---
 
-<h1>Work in progress</h1>
-
-This page is a work in progress.
-Please visit the page later for any updates.
+    {% for post in site.categories.grapheel-archive %}
+{% include global/preview.html %}
+    {% endfor %}

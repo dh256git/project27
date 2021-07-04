@@ -5,7 +5,7 @@
   link: /blog/logbook/MathML-usability/index.html
   description: I'm aware that MathML is a standardised markup language. However, what is not standardised is the way different screen readers handle it. I hope to take notes on anything related to MathML usability. One day this might come handy.
 - name: Project27 site development
-  link: /blog/site/index.html
+  link: /blog/logbook/dev/index.html
   description: Here, I aim to log challenges and solutions encountered while building the project site.
 - name: Issue tracking
   link: /blog/logbook/issues/index.html

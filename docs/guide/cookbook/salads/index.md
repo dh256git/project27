@@ -4,6 +4,6 @@ title: Menu for salads and dips
 ---
 <div class="container">
 {% for post in site.categories.salads %}
-{% include guide/cookbook-menu.html %}
+{% include global/preview.html %}
 {% endfor %}
 </div>

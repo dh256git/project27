@@ -1,0 +1,12 @@
+<h3>{{ post.title }}</h3>
+
+<p>{{ post.excerpt }}</p>
+
+{% if page.url contains "cookbook" %}
+<a href="{{ post.url | prepend: site.baseurl }}" class="mybtnguide">
+Open {{ post.title | downcase }} recipe
+{% elsif page.url contains "blog" %}
+<a href="{{ post.url | prepend: site.baseurl }}" class="mybtnblog">
+Continue reading {{ post.title | downcase }}
+{% endif %}
+</a>

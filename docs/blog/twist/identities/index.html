@@ -1,9 +1,9 @@
 ---
-layout: default
-title: Work in progress
+layout: blog-category
+title: Identities
+topicIndex: 1
 ---
 
-<h1>Work in progress</h1>
-
-This page is a work in progress.
-Please visit the page later for any updates.
+    {% for post in site.categories.identities %}
+{% include global/preview.html %}
+    {% endfor %}
