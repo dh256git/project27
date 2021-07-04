@@ -4,6 +4,13 @@ title: "Happy Jekylling!"
 list: [1, 2, 3, 4]
 ---
 
+# Data access
+
+{% assign var = site.data.logbook[1] %}
+
+{{ var.name }}
+
+
 # Embedding YouTube video 
 
 Hello
