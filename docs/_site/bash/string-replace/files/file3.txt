@@ -1,3 +1,0 @@
-Hi there,
-This is the {{ site.brand }} test file number 3.
-Cheers.
