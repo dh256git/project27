@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Become a Bootstrap guru
+team: RnD
 role: Web stylist
 nickname: Bootstrap guru
 date: 2021-01-20

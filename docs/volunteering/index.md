@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Volunteering and contributions
+title: Volunteering and contributionsReview", "Content 
 ---
 
 ## Call for volunteers and contributors
@@ -17,10 +17,43 @@ Daniel - {{ site.brand }} editor
 
 Currently, the following specific roles and jobs are waiting for you to take.
 
-{% for member in site.volunteering %}
-<h3>
-<a href="{{ member.url | prepend: site.baseurl }}">{{ member.role }} - a. k. a. {{ member.nickname }}</a></h3>
+### Research and Development (R&D) team
+
+People who help with the research and development activities of {{ site.brand }}.
+
+{% assign teamRnD = site.volunteering | where:"team","RnD" %}
+{% for member in teamRnD %}
+<h4>
+<a href="{{ member.url | prepend: site.baseurl }}">{{ member.role }} - a. k. a. {{ member.nickname }}</a></h4>
 <p>{{ member.excerpt }}</p>
+{% else %}
+<p>Currently no roles are available in this team.</p>
+{% endfor %}
+
+### Editorial and review team
+
+<p>People who help edit and review the content.</p>
+
+{% assign teamER = site.volunteering | where:"team","ER" %}
+{% for member in teamER %}
+<h4>
+<a href="{{ member.url | prepend: site.baseurl }}">{{ member.role }} - a. k. a. {{ member.nickname }}</a></h4>
+<p>{{ member.excerpt }}</p>
+{% else %}
+<p>Currently no roles are available in this team.</p>
+{% endfor %}
+
+### Content creation team
+
+<p>People who help with creating new content.</p>
+
+{% assign teamCC = site.volunteering | where:"team","CC" %}
+{% for member in teamCC %}
+<h4>
+<a href="{{ member.url | prepend: site.baseurl }}">{{ member.role }} - a. k. a. {{ member.nickname }}</a></h4>
+<p>{{ member.excerpt }}</p>
+{% else %}
+<p>Currently no roles are available in this team.</p>
 {% endfor %}
 
 ---

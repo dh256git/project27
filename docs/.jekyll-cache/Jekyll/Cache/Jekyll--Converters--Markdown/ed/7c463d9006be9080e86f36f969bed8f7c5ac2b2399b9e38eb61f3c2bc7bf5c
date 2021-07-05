@@ -1,4 +1,4 @@
-I"<h2 id="call-for-volunteers-and-contributors">Call for volunteers and contributors</h2>
+I"<<h2 id="call-for-volunteers-and-contributors">Call for volunteers and contributors</h2>
 
 <p><strong>Come and help Project27, and Project27 will help you.</strong></p>
 
@@ -14,14 +14,33 @@
 
 <p>Currently, the following specific roles and jobs are waiting for you to take.</p>
 
-<h3>
-<a href="/volunteering/bootstrap.html">Web stylist - a. k. a. Bootstrap guru</a></h3>
+<h3 id="research-and-development-rd-team">Research and Development (R&amp;D) team</h3>
+
+<p>People who help with the research and development activities of Project27.</p>
+
+<h4>
+<a href="/volunteering/rnd/bootstrap.html">Web stylist - a. k. a. Bootstrap guru</a></h4>
 <p><p>Could you make the Project27 site look better?</p>
 </p>
 
-<h3>
-<a href="/volunteering/jekyll.html">Back-end engineer - a. k. a. Jekyll guru</a></h3>
+<h4>
+<a href="/volunteering/rnd/jekyll.html">Back-end engineer - a. k. a. Jekyll guru</a></h4>
 <p><p>Could you enhance the back-end Jekyll directory structure and use of Liquid code?</p>
+</p>
+
+<h3 id="editorial-and-review-team">Editorial and review team</h3>
+
+<p>People who help edit and review the content.</p>
+
+<p>Currently no roles are available in this team.</p>
+
+<h3 id="content-creation-team">Content creation team</h3>
+
+<p>People who help with creating new content.</p>
+
+<h4>
+<a href="/volunteering/cc/role1.html">Test - a. k. a. Test</a></h4>
+<p><p>Test role.</p>
 </p>
 
 <hr />

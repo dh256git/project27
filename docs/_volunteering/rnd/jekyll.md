@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Become a Jekyll guru
+team: RnD
 role: Back-end engineer
 nickname: Jekyll guru
 date: 2021-01-21
