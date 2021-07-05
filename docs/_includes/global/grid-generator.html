@@ -1,0 +1,40 @@
+{% for item in dataFile %}                       
+    {% assign rowfinder = forloop.index | modulo: 2 %}
+    {% if rowfinder == 1 %}
+      <div class="row">
+      <div class="col-md">
+      <h3>{{ item.name }}</h3>
+
+      <p>{{ item.description }}</p>
+      
+      <a class="{{ page.buttonStyle }}" href="{{ item.link | prepend: site.baseurl }}">
+      Open the {{ item.name }} {{ page.levelToOpen }}
+      </a>
+      </div>
+    {% elsif rowfinder == 0 %}
+      <div class="col-md">
+      <h3>{{ item.name }}</h3>
+
+      <p>{{ item.description }}</p>
+      
+      <a class="{{ page.buttonStyle }}" href="{{ item.link | prepend: site.baseurl }}">
+      Open the {{ item.name }} {{ page.levelToOpen }}
+      </a>
+      </div>
+      </div>
+    {% else %}
+      <div class="col-md">
+      <h3>{{ item.name }}</h3>
+
+      <p>{{ item.description }}</p>
+      
+      <a class="{{ page.buttonStyle }}" href="{{ item.link | prepend: site.baseurl }}">
+      Open the {{ item.name }} {{ page.levelToOpen }}
+      </a>
+      </div>
+    {% endif %}
+{% endfor %}
+<!-- if more than two columns are desired and modulo can take other values than 0 and 1. -->
+{% if rowfinder != 0 %}
+      </div>
+{% endif %}
