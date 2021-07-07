@@ -20,11 +20,10 @@ Let's see how to cook your meal.
 
 Here is what you need to have at home.
 
-<table>
-  {% for row  in site.data.cookbook %}
-{% include global/tabulator.html %}
-  {% endfor %}
-</table>
+
+{% assign dataFile = site.data.cookbook.desserts.porridge %}
+{% include global/tabulator2.html %}
+
 
 Serves: {{ page.serves }}
 

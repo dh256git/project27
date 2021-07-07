@@ -4,6 +4,6 @@ title: Project27 site development
 topicIndex: 2
 ---
 
-    {% for post in site.categories.dev %}
+{% assign theCategory = site.categories.dev %}
 {% include global/preview.html %}
-    {% endfor %}
+

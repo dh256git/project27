@@ -1,23 +1,11 @@
 ---
 layout: default
 title: Blog
+buttonStyle: mybtnblog
+levelToOpen: branch
 ---
-    <h1 class="cover-heading">Scribbles on the scribbles</h1>
-<p>The blog of {{ site.brand }} is split into two sections: LogBook and TWIST. If LogBook is the objective point of view, then TWIST is definitely the subjective one.</p>
+    <h1 class="cover-heading">The {{ page.title }}: Scribbles on the scribbles</h1>
+<p>The blog of {{ site.brand }} is split into two branches: LogBook and TWIST. If LogBook is the objective point of view, then TWIST is definitely the subjective one.</p>
 <hr>
-<div class="row">
-<div class="col-md-6">
-<h3 id="toc_0">LogBook</h3>
-
-<p>The LogBook is a set of scribbles on topics that I found worth mentioning in context of developing {{ site.brand }}. These topics mainly focus on working with MathML, LaTeX, and web content authoring tools, such as markdown. A cross platform evaluation of mathematical content accessibility is a key objective of this branch.</p>
-
-<p><a href="./logbook/index.html"class="mybtnblog">Flick through the LogBook</a></p>
-</div>
-<div class="col-md-6">
-<h3 id="toc_0">TWIST: The way I see it</h3>
-
-<p>TWIST is a set of scribbles on various life events and thoughts that cross my mind. These notes are subjective, written in what I'd hope to be an engaging style.</p>
-
-<p><a href="./twist/index.html"class="mybtnblog">Flick through TWIST</a></p>
-</div>
-</div>
+{% assign dataFile = site.data.volumes.blog %}
+{% include global/grid-generator.html heading="h2" %}

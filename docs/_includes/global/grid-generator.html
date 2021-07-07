@@ -1,9 +1,13 @@
 {% for item in dataFile %}                       
     {% assign rowfinder = forloop.index | modulo: 2 %}
+<!-- Temporarily disable showing the volunteering section in the grid on the home page. Remove if statement to show item. -->
+{% if item.name == "Volunteering" %}
+{% continue %}
+{% else %}
     {% if rowfinder == 1 %}
       <div class="row">
       <div class="col-md">
-      <h3>{{ item.name }}</h3>
+      <{{ include.heading }}>{{ include.article }} {{ item.name }}</{{ include.heading }}>
 
       <p>{{ item.description }}</p>
       
@@ -13,7 +17,7 @@
       </div>
     {% elsif rowfinder == 0 %}
       <div class="col-md">
-      <h3>{{ item.name }}</h3>
+      <{{ include.heading }}>{{ include.article }} {{ item.name }}</{{ include.heading }}>
 
       <p>{{ item.description }}</p>
       
@@ -24,7 +28,7 @@
       </div>
     {% else %}
       <div class="col-md">
-      <h3>{{ item.name }}</h3>
+      <{{ include.heading }}>{{ include.article }} {{ item.name }}</{{ include.heading }}>
 
       <p>{{ item.description }}</p>
       
@@ -32,6 +36,7 @@
       Open the {{ item.name }} {{ page.levelToOpen }}
       </a>
       </div>
+    {% endif %}
     {% endif %}
 {% endfor %}
 <!-- if more than two columns are desired and modulo can take other values than 0 and 1. -->

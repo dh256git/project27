@@ -14,10 +14,5 @@ switch:
 
 <p>The LogBook really just logs any troubles, interesting observations, and hopefully solutions related to developing the {{ site.brand }} content. To start with, I'll focus on four topics.</p>
 
-{% for topic in site.data.chapters.logbook %}
-<h2>{{ topic.name }}</h2>
-
-<p>{{ topic.description }}</p>
-
-<a class="mybtnblog" href="{{ topic.link | prepend: site.baseurl }}">Open the {{ topic.name }} category</a>
-{% endfor %}
+{% assign dataFile = site.data.chapters.logbook %}
+{% include global/grid-generator.html heading="h2" %}

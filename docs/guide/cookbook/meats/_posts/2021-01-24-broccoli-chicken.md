@@ -20,11 +20,10 @@ The roasted seeds, sweet chilly sauce, soft pieces of broccoli, and the marinate
 
 Here is what you need to have at home.
 
-<table>
-  {% for row  in site.data.cookbook.meats.broccoli %}
-{% include global/tabulator.html %}
-  {% endfor %}
-</table>
+
+{% assign dataFile = site.data.cookbook.meats.broccoli %}
+{% include global/tabulator2.html %}
+
 
 Serves: {{ page.serves }}
 

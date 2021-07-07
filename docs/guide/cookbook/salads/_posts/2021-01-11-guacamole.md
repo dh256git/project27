@@ -20,11 +20,10 @@ A quick and healthy party food to dip in and share around.
 
 Here is what you need to have at home.
 
-<table>
-  {% for row  in site.data.cookbook.salads.guacamole %}
-{% include global/tabulator.html %}
-  {% endfor %}
-</table>
+
+{% assign dataFile = site.data.cookbook.salads.guacamole %}
+{% include global/tabulator2.html %}
+
 
 Serves: {{ page.serves }}
 

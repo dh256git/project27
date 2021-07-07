@@ -1,3 +1,4 @@
+{% for post in theCategory %}
 <h3>{{ post.title }}</h3>
 
 <p>{{ post.excerpt }}</p>
@@ -10,3 +11,4 @@ Open {{ post.title | downcase }} recipe
 Continue reading {{ post.title | downcase }}
 {% endif %}
 </a>
+{% endfor %}

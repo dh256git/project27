@@ -18,11 +18,9 @@ Let's see how to cook your chosen dish.
 
 Here is what you need to have at home.
 
-<table>
-  {% for row  in site.data.cookbook.risotto.prawn %}
-{% include global/tabulator.html %}
-  {% endfor %}
-</table>
+{% assign dataFile = site.data.cookbook.risotto.prawn %}
+{% include global/tabulator2.html %}
+
 
 Serves: {{ page.serves }}
 

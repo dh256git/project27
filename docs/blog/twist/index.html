@@ -8,6 +8,8 @@ featured:
 switch: 
   - name: Switch to the LogBook
     link: /blog/logbook/index.html
+buttonStyle: mybtnblog
+levelToOpen: category
 ---
 <div class="container">
     <h1 class="cover-heading">What is twisted in here?</h1>
@@ -16,71 +18,6 @@ switch:
 
 <hr>
 
-<div class="row">
-<div class="col-md-6">
-{% assign topic1 = site.data.chapters.twist[0] %}
-<h2>{{ topic1.name }}</h2>
-
-<p>{{ topic1.description }}</p>
-
-<a class="mybtnblog" href="{{ topic1.link | prepend: site.baseurl }}">Open the {{ topic1.name }} category</a>
-
-</div>
-<div class="col-md-6">
-{% assign topic2 = site.data.chapters.twist[1] %}
-<h2>{{ topic2.name }}</h2>
-
-<p>{{ topic2.description }}</p>
-
-<a class="mybtnblog" href="{{ topic2.link | prepend: site.baseurl }}">Open the {{ topic2.name }} category</a>
-
-</div>
-</div>
-
-<hr>
-
-<div class="row">
-<div class="col-md-6">
-{% assign topic3 = site.data.chapters.twist[2] %}
-<h2>{{ topic3.name }}</h2>
-
-<p>{{ topic3.description }}</p>
-
-<a class="mybtnblog" href="{{ topic3.link | prepend: site.baseurl }}">Open the {{ topic3.name }} category</a>
-
-</div>
-<div class="col-md-6">
-{% assign topic4 = site.data.chapters.twist[3] %}
-<h2>{{ topic4.name }}</h2>
-
-<p>{{ topic4.description }}</p>
-
-<a class="mybtnblog" href="{{ topic4.link | prepend: site.baseurl }}">Open the {{ topic4.name }} category</a>
-
-</div>
-</div>
-
-<hr>
-
-<div class="row">
-<div class="col-md-6">
-{% assign topic5 = site.data.chapters.twist[4] %}
-<h2>{{ topic5.name }}</h2>
-
-<p>{{ topic5.description }}</p>
-
-<a class="mybtnblog" href="{{ topic5.link | prepend: site.baseurl }}">Open the {{ topic5.name }} category</a>
-
-</div>
-<div class="col-md-6">
-{% assign topic6 = site.data.chapters.twist[5] %}
-<h2>{{ topic6.name }}</h2>
-
-<p>{{ topic6.description }}</p>
-
-<a class="mybtnblog" href="{{ topic6.link | prepend: site.baseurl }}">Open the {{ topic6.name }} category</a>
-
-</div>
-</div>
-
+{% assign dataFile = site.data.chapters.twist %}
+{% include global/grid-generator.html heading="h2" %}
 </div>
