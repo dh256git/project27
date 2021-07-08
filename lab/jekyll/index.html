@@ -1,0 +1,46 @@
+---
+layout: default
+title: "Happy Jekylling!"
+list: ["apple", "banana", "kivi", "orange", "strawberry"]
+---
+
+# Data access
+
+{% assign var = site.data.logbook[1] %}
+
+{{ var.name }}
+
+# Embedding YouTube video 
+
+Hello
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2yzHkGTnAe4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# Loops and grids
+
+Loop:
+
+{% assign myvariable = page.list %}
+{% assign gridLimit = 3 %}
+{% assign gridOffset = 1 %}
+{% include for.html myLim=gridLimit %}
+
+
+Grid:
+
+{% for item in myvariable %}                       
+    {% assign rowfinder = forloop.index | modulo: 2 %}
+    {% if rowfinder == 1 %}
+      <div aria-label="row">
+      <div aria-label="column"><h1>{{ item.name }}</h1><p>{{ item.description }}</p><a href="{{ item.link }}">Open {{ item.name }}</a></div>
+    {% elsif rowfinder == 0 %}
+      <div aria-label="column"><h1>{{ item.name }}</h1><p>{{ item.description }}</p><a href="{{ item.link }}">Open {{ item.name }}</a></div>
+      </div>
+    {% else %}
+      <div aria-label="column"><h1>{{ item.name }}</h1><p>{{ item.description }}</p><a href="{{ item.link }}">Open {{ item.name }}</a></div>
+    {% endif %}
+{% endfor %}
+<!-- if more than two columns are desired and modulo can take other values than 0 and 1. -->
+{% if rowfinder != 0 %}
+      </div>
+{% endif %}

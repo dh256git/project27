@@ -84,7 +84,7 @@
 <div class="row">
 <div class="col-md-6">
 <div class="dropdown bg-my-nav">
-<button type="button" class="mybtn" data-toggle="collapse" data-target="#volume-selector" data-toggle="dropdown" id="volume-selector" aria-haspopup="true">Volumes</button>
+<button type="button" class="mybtn" data-toggle="collapse" data-target="#volume-selector" data-toggle="dropdown" id="volume-selector" aria-haspopup="true">Volume</button>
         <div class="dropdown-menu" aria-labelledby="volume-selector" id="volume-selector">
   
   
@@ -105,7 +105,7 @@
 </div>
 <div class="col-md-6">
 <div class="dropdown bg-my-nav">
-<button type="button" class="mybtn" data-toggle="collapse" data-target="#chapter-selector" data-toggle="dropdown" id="chapter-selector" aria-haspopup="true">Chapters</button>
+<button type="button" class="mybtn" data-toggle="collapse" data-target="#chapter-selector" data-toggle="dropdown" id="chapter-selector" aria-haspopup="true">chapter</button>
         <div class="dropdown-menu" aria-labelledby="chapter-selector" id="chapter-selector">
   
   <p>Please select a volume before selecting a chapter.</p>
@@ -115,6 +115,29 @@
 </div>
 </div>
 
+<div class="row">
+<div class="col-md-6">
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtn" data-toggle="collapse" data-target="#section-selector" data-toggle="dropdown" id="section-selector" aria-haspopup="true">Section</button>
+        <div class="dropdown-menu" aria-labelledby="section-selector" id="section-selector">
+  
+  <p>Please open a volume and a chapter, before you are able to select a section. It may also be that this chapter has not been divided into sections.</p>
+  
+</div>
+</div>
+
+</div>
+<div class="col-md-6">
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtn" data-toggle="collapse" data-target="#note-selector" data-toggle="dropdown" id="note-selector" aria-haspopup="true">Note</button>
+        <div class="dropdown-menu" aria-labelledby="note-selector" id="note-selector">
+  
+  <p>Please select a section before selecting a note.</p>
+  
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 <div class="col-md-3">
@@ -128,10 +151,10 @@
   
     4 mins
   
-</span>
 </p>
+</span>
 <p>Written by: </p>
-<p>Reviewed by: . <a href="/guidelines/review.html">Read about the Project27 review guidelines.</a></p>
+<p>Reviewed by: . <a href="/guidelines/review.html">Read our guidelines on reviews.</a></p>
 <p>Published on: </p>
 </div>
 </div>
@@ -221,46 +244,72 @@ share guidance on how to use R-markdown to interact with R in accessible ways.
 </p>
 </div>
 </div>
-<div class="container">
-<div class="row">
-<div class="col-md-6">
-<h3>Mathematical and Physical Sciences (MPS)</h3>
 
-<p>MPS is a volume of notes on topics of mathematics and physics.</p>
 
-        <p class="lead">
-      <a href="./MPS/index.html" class="mybtnguide">Open the MPS volume</a>
-    </p>
-</div>
-<div class="col-md-6">
-<h3>Computer Literacy</h3>
 
-<p>Computer Literacy is a volume of notes on how to do small, practical tasks on the computer, in context of studying, researching, and publishing scientific content.</p>
-        <p class="lead">
-      <a href="./CL/index.html" class="mybtnguide">Open the Computer Literacy volume</a>
-    </p>
-</div>
-<!--
-<div class="col-md-4">
-<h3>Haptics</h3>
+                       
+    
+<!-- Hide the item in the grid. Remove if statement to show item. -->
 
-<p>Haptics is a volume of notes on human factors of touch and haptic technology.</p>
-        <p class="lead">
-      <a href="./haptics/haptics.html" class="btn btn-lg btn-secondary">Open the haptics hub</a>
-    </p>
-</div>
--->
-<div class="container">
-<div class="row">
-<div class="col-md-12">
-<h3>Statistics</h3>
+    
+      <div class="row">
+      <div class="col-md">
+      <h3> Mathematical and Physical Sciences</h3>
 
-<p>Statistics is a volume of notes on statistical methods.</p>
-        <p class="lead">
-      <a href="./statistics/index.html" class="mybtnguide">Open the Statistics volume</a>
-    </p>
-</div>
-</div>
+      <p>MPS is a volume of notes on topics of mathematics and physics.</p>
+
+      <a class="mybtnguide" href="/guide/MPS/index.html">
+
+      Open the Mathematical and Physical Sciences volume
+
+      </a>
+      </div>
+    
+    
+                       
+    
+<!-- Hide the item in the grid. Remove if statement to show item. -->
+
+    
+      <div class="col-md">
+      <h3> Computer Literacy</h3>
+
+      <p>Computer Literacy is a volume of notes on how to do small, practical tasks on the computer, in context of studying, researching, and publishing scientific content.</p>
+
+      <a class="mybtnguide" href="/guide/CL/index.html">
+
+      Open the Computer Literacy volume
+
+      </a>
+      </div>
+      </div>
+    
+    
+                       
+    
+<!-- Hide the item in the grid. Remove if statement to show item. -->
+
+    
+      <div class="row">
+      <div class="col-md">
+      <h3> Statistics</h3>
+
+      <p>Statistics is a volume of notes on statistical methods.</p>
+
+      <a class="mybtnguide" href="/guide/statistics/index.html">
+
+      Open the Statistics volume
+
+      </a>
+      </div>
+    
+    
+
+<!-- if more than two columns are desired and modulo can take other values than 0 and 1. -->
+
+      </div>
+
+
 
 <hr>
 
@@ -322,26 +371,50 @@ listen to, honour, and capture stories of family, friends, and other acquaintanc
 </div>
 </div>
 
-<div class="row">
-<div class="col-md-6">
-<h3>CookBook</h3>
 
-<p>CookBook is a volume of recipes from the Project27 author household.</p>
-        <p class="lead">
-      <a href="./cookbook/index.html" class="mybtnguide">Open the cookbook</a>
-    </p>
-</div>
-<div class="col-md-6">
-<h3>Vocal</h3>
 
-<p>Vocal is an album of short biographies and audio recorded conversations with family, friends, and acquaintances of the Project27 author. The album's key objective is to portray multiple life stories and honour the storytellers.</p>
-        <p class="lead">
-      <a href="./vocal/index.html" class="mybtnguide">Open the vocal album</a>
-    </p>
-</div>
-</div>
-</div>
-</div>
+                       
+    
+<!-- Hide the item in the grid. Remove if statement to show item. -->
+
+    
+      <div class="row">
+      <div class="col-md">
+      <h3> Cookbook</h3>
+
+      <p>CookBook is a volume of recipes coming from the project contributors.</p>
+
+      <a class="mybtnguide" href="/guide/cookbook/index.html">
+
+      Open the Cookbook volume
+
+      </a>
+      </div>
+    
+    
+                       
+    
+<!-- Hide the item in the grid. Remove if statement to show item. -->
+
+    
+      <div class="col-md">
+      <h3> Vocal</h3>
+
+      <p>Vocal is a volume of short biographies and audio recorded conversations with family, friends, and acquaintances of the Project27 author. The album's key objective is to portray multiple life stories and honour the storytellers.</p>
+
+      <a class="mybtnguide" href="/guide/vocal/index.html">
+
+      Open the Vocal volume
+
+      </a>
+      </div>
+      </div>
+    
+    
+
+<!-- if more than two columns are desired and modulo can take other values than 0 and 1. -->
+
+
 </div>
   </div>
   </main>
@@ -380,8 +453,8 @@ listen to, honour, and capture stories of family, friends, and other acquaintanc
 <img src="/assets/images/Python logo.png" alt="Python" class= "poweredbyx2">
 <img src="/assets/images/R logo.jpg" alt="R" class= "poweredby">
 <img src="/assets/images/Bash shell logo.png" alt="Bash" class= "poweredby"></p>
-<p>Version: 0.0.189.</p>
-<p>Last updated: 07 Jul 2021 at 07:57.</p>
+<p>Version: 0.0.190.</p>
+<p>Last updated: 08 Jul 2021 at 20:48.</p>
 </div>
 </footer>
 <!-- Bootstrap dependency scripts -->

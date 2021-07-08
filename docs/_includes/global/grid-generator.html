@@ -1,40 +1,22 @@
-{% for item in dataFile %}                       
+{% for item in dataFile limit: gridLimit offset: gridOffset %}                       
     {% assign rowfinder = forloop.index | modulo: 2 %}
-<!-- Temporarily disable showing the volunteering section in the grid on the home page. Remove if statement to show item. -->
-{% if item.name == "Volunteering" %}
+<!-- Hide the item in the grid. Remove if statement to show item. -->
+{% if item.name == gridHide %}
 {% continue %}
 {% else %}
     {% if rowfinder == 1 %}
       <div class="row">
       <div class="col-md">
-      <{{ include.heading }}>{{ include.article }} {{ item.name }}</{{ include.heading }}>
-
-      <p>{{ item.description }}</p>
-      
-      <a class="{{ page.buttonStyle }}" href="{{ item.link | prepend: site.baseurl }}">
-      Open the {{ item.name }} {{ page.levelToOpen }}
-      </a>
+{% include global/tile.html %}
       </div>
     {% elsif rowfinder == 0 %}
       <div class="col-md">
-      <{{ include.heading }}>{{ include.article }} {{ item.name }}</{{ include.heading }}>
-
-      <p>{{ item.description }}</p>
-      
-      <a class="{{ page.buttonStyle }}" href="{{ item.link | prepend: site.baseurl }}">
-      Open the {{ item.name }} {{ page.levelToOpen }}
-      </a>
+{% include global/tile.html %}
       </div>
       </div>
     {% else %}
       <div class="col-md">
-      <{{ include.heading }}>{{ include.article }} {{ item.name }}</{{ include.heading }}>
-
-      <p>{{ item.description }}</p>
-      
-      <a class="{{ page.buttonStyle }}" href="{{ item.link | prepend: site.baseurl }}">
-      Open the {{ item.name }} {{ page.levelToOpen }}
-      </a>
+{% include global/tile.html %}
       </div>
     {% endif %}
     {% endif %}
