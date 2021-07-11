@@ -1,5 +1,5 @@
-.mybtn {
-      background-color: #b5c6e4;
+.bg-general-land{
+      background-color: #9932CC;
       font-size: 20px;
       color: black;
       border: solid rgb(0, 0, 0) 3px;
@@ -8,6 +8,17 @@
       margin-bottom: 10px;
       margin-top: 10px;
       }
+
+.bg-general-vol{
+            background-color: #8A2BE2;
+            font-size: 20px;
+            color: black;
+            border: solid rgb(0, 0, 0) 3px;
+            font-weight: bold;
+            border-radius: 12px;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            }
 
 .mybtnnextbutton{
       background-color: #b5c6e4;
@@ -36,8 +47,8 @@
       width: 100px;
       }
 
-.mybtnguide {
-      background-color: green;
+.bg-guide-land{
+      background-color: #90EE90;
       font-size: 20px;
       color: black;
       padding: 10px;
@@ -46,8 +57,19 @@
       border-radius: 12px;
       }
 
-.mybtnblog {
-      background-color: rgb(69, 69, 238);
+.bg-guide-vol{
+            background-color: #00FF7F;
+            font-size: 20px;
+            color: black;
+            padding: 10px;
+            border: solid black 3px;
+            font-weight: bold;
+            border-radius: 12px;
+            }
+
+
+ .bg-blog-land{
+      background-color: #87CEFA;
       font-size: 20px;
       color: black;
       padding: 10px;
@@ -55,6 +77,16 @@
       font-weight: bold;
       border-radius: 12px;
       }
+      
+.bg-blog-vol{
+            background-color: #6495ED;
+            font-size: 20px;
+            color: black;
+            padding: 10px;
+            border: solid black 3px;
+            font-weight: bold;
+            border-radius: 12px;
+            }
 
 .mybtnmps {
       background-color: rgb(2, 175, 2);

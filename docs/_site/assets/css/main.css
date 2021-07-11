@@ -1,13 +1,31 @@
 /*! Bootstrap v4.3.1 (https://getbootstrap.com/) Copyright 2011-2019 The Bootstrap Authors Copyright 2011-2019 Twitter, Inc. Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */
-.mybtn { background-color: #b5c6e4; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-bottom: 10px; margin-top: 10px; }
+.bg-general-land { background: #9932CC; }
+
+.bg-general-vol { background: #8A2BE2; }
+
+.bg-blog-land { background: #87CEFA; }
+
+.bg-blog-vol { background: #6495ED; }
+
+.bg-guide-land { background: #90EE90; }
+
+.bg-guide-vol { background: #00FF7F; }
+
+.bg-general-land { background-color: #9932CC; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-bottom: 10px; margin-top: 10px; }
+
+.bg-general-vol { background-color: #8A2BE2; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-bottom: 10px; margin-top: 10px; }
 
 .mybtnnextbutton { background-color: #b5c6e4; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-top: 15px; padding: 4px; margin-left: 1px; max-width: 100em; }
 
 .mybtnpreviousbutton { background-color: #b5c6e4; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-top: 15px; margin-bottom: 15px; padding: 4px; white-space: normal; width: 100px; }
 
-.mybtnguide { background-color: green; font-size: 20px; color: black; padding: 10px; border: solid black 3px; font-weight: bold; border-radius: 12px; }
+.bg-guide-land { background-color: #90EE90; font-size: 20px; color: black; padding: 10px; border: solid black 3px; font-weight: bold; border-radius: 12px; }
 
-.mybtnblog { background-color: #4545ee; font-size: 20px; color: black; padding: 10px; border: solid black 3px; font-weight: bold; border-radius: 12px; }
+.bg-guide-vol { background-color: #00FF7F; font-size: 20px; color: black; padding: 10px; border: solid black 3px; font-weight: bold; border-radius: 12px; }
+
+.bg-blog-land { background-color: #87CEFA; font-size: 20px; color: black; padding: 10px; border: solid black 3px; font-weight: bold; border-radius: 12px; }
+
+.bg-blog-vol { background-color: #6495ED; font-size: 20px; color: black; padding: 10px; border: solid black 3px; font-weight: bold; border-radius: 12px; }
 
 .mybtnmps { background-color: #02af02; font-size: 20px; color: black; padding: 10px; border: solid black 3px; font-weight: bold; border-radius: 12px; }
 
