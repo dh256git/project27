@@ -1,6 +1,0 @@
-- name: LogBook
-  link: /blog/logbook/index.html
-  description: The LogBook is a set of scribbles on topics that I found worth mentioning in context of developing Project27. These topics mainly focus on working with MathML, LaTeX, and web content authoring tools, such as markdown. A cross platform evaluation of mathematical content accessibility is a key objective of this branch.
-- name: TWIST
-  link: /blog/twist/index.html
-  description: TWIST is a set of scribbles on various life events and thoughts that cross my mind. These notes are subjective, written in what I'd hope to be an engaging style.
