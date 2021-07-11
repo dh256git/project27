@@ -1,7 +1,7 @@
 - name: Desserts and breakfast
   link: /guide/cookbook/desserts/index.html
   description: Who says it's too early for desserts? Have something sweet, as dinner or as breakfast.
-  buttonLabel: Give me something sweet.
+  buttonLabel: Give me something sweet
 - name: Fish dish and other sea bits
   link: /guide/cookbook/fish/index.html
   description: Everything revolves around fish.
