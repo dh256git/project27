@@ -1,6 +1,3 @@
-<footer id="footerContent">
-<div class="container">
-
 {% include global/navigation-footer.html %}
 
 {% if page.url contains "blog" %}
@@ -20,5 +17,3 @@
 <img src="{{ '/assets/images/Bash shell logo.png' | prepend: site.baseurl }}" alt="Bash" class= "poweredby"></p>
 <p>Version: {{ include.version }}.{{ include.subversion }}.{{ include.commit }}.</p>
 <p>Last updated: {{ site.time | date_to_rfc822 | date: "%d %b %Y at %H:%M" }}.</p>
-</div>
-</footer>
