@@ -1,0 +1,13 @@
+      <{{ include.heading }}>{{ include.article }} {{ item.name }}</{{ include.heading }}>
+
+<i class="{{ page.listOfIcons[forloop.index0] }} fa-lg" aria-hidden="true"></i>
+
+      <p>{{ item.description }}</p>
+
+      <a class="{{ page.buttonStyle }}" href="{{ item.link | prepend: site.baseurl }}">
+{% if item.buttonLabel %}      
+{{ item.buttonLabel }}
+{% else %}
+      Open the {{ item.name }} {{ page.levelToOpen }}
+{% endif %}
+      </a>

@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="row">
+<div class="col-md-8">
+
+{{ content }}
+
+</div>
+
+    <aside class="col-md-4 blog-sidebar">
+    <h4>Chapters in the cookbook</h4>
+<p>These are the menus to select a meal from.</p>
+    <ul>
+    {% for item in site.data.chapters.cookbook %}
+    <li>
+    <a href="{{ item.link | prepend: site.baseurl }}">{{ item.name }}</a>
+    </li>
+    {% endfor %}
+    </ul>
+        </aside><!-- /.blog-sidebar -->
+        </div>

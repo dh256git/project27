@@ -1,0 +1,4 @@
+{% include global/reading-time.html %}
+<p>Written by: {{ page.author }}</p>
+<p>Reviewed by: {{ page.reviewer }}. <a href="{{ '/guidelines/review.html' | prepend: site.baseurl }}">Read our guidelines on reviews.</a></p>
+<p>Published on: {{ page.date | date_to_string }}</p>

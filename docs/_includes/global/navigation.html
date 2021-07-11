@@ -1,0 +1,14 @@
+      <nav class="navbar navbar-expand-md navbar-dark bg-my-nav" tabindex="0" aria-label="Primary">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="primaryNavigation">
+<ul class="navbar-nav ml-auto" role="menubar">
+  {% for item in site.data.navigation %}
+  <li>
+    <a href="{{ item.link | prepend: site.baseurl }}">{{ item.name }}</a>
+  </li>
+  {% endfor %}
+  </ul>
+</div>
+</nav>

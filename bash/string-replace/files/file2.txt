@@ -1,0 +1,3 @@
+Hello,
+{{ site.brand }} is cool.
+Aloha.

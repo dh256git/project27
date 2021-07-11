@@ -1,0 +1,15 @@
+- name: Mathematical and Physical Sciences
+  link: /guide/MPS/index.html
+  description: MPS is a volume of notes on topics of mathematics and physics.
+- name: Computer Literacy
+  link: /guide/CL/index.html
+  description: Computer Literacy is a volume of notes on how to do small, practical tasks on the computer, in context of studying, researching, and publishing scientific content.
+- name: Statistics
+  link: /guide/statistics/index.html
+  description: Statistics is a volume of notes on statistical methods.
+- name: Cookbook
+  link: /guide/cookbook/index.html
+  description: CookBook is a volume of recipes coming from the project contributors.
+- name: Vocal
+  link: /guide/vocal/index.html
+  description: Vocal is a volume of short biographies and audio recorded conversations with family, friends, and acquaintances of the Project27 author. The album's key objective is to portray multiple life stories and honour the storytellers.
