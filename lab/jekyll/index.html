@@ -1,8 +1,21 @@
 ---
 layout: default
 title: "Happy Jekylling!"
-list: ["apple", "banana", "kivi", "orange", "strawberry"]
+list: [["", "apple2"], ["", "banana2"], ["kivi", "kivi2"]]
+listText: ["I like ", "I love ", "I do not like "]
 ---
+
+<h1>arrays</h1>
+
+<ul>
+{% for item in page.listText %}
+{% if page.list[forloop.index0][0] == "" %}
+<li>{{ item }} {{ page.list[forloop.index0][1] }}</li>
+{% else %}
+<li>{{ item }} {{ page.list[forloop.index0][0] }}</li>
+{% endif %}
+{% endfor %}
+</ul>
 
 # Data access
 

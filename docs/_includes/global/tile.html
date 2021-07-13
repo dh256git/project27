@@ -1,6 +1,9 @@
       <{{ include.heading }}>{{ include.article }} {{ item.name }}</{{ include.heading }}>
-
-<i class="{{ page.listOfIcons[forloop.index0] }} fa-lg" aria-hidden="true"></i>
+{% if page.listOfIcons[forloop.index0][0] == "" %}
+<img src="{{ page.listOfIcons[forloop.index0][1] }}" aria-hidden="true">
+{% else %}
+<i class="{{ page.listOfIcons[forloop.index0][0] }} fa-lg" aria-hidden="true"></i>
+{% endif %}
 
       <p>{{ item.description }}</p>
 
