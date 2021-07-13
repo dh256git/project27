@@ -1,4 +1,5 @@
 {% for item in dataFile limit: gridLimit offset: gridOffset %}                       
+{% assign loopIndex = forloop.index0 | plus: gridOffset %} 
     {% assign rowfinder = forloop.index | modulo: 2 %}
 <!-- Hide the item in the grid. Remove if statement to show item. -->
 {% if item.name == gridHide %}
