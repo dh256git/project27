@@ -1,6 +1,6 @@
       <{{ include.heading }}>{{ include.article }} {{ item.name }}</{{ include.heading }}>
 {% if page.listOfIcons[forloop.index0][0] == "" %}
-<img src="{{ page.listOfIcons[forloop.index0][1] }}" aria-hidden="true">
+<img src="{{ '/assets/images/' | prepend: site.baseurl }}{{ page.listOfIcons[forloop.index0][1] }}" aria-hidden="true" alt="{{ page.listOfIcons[forloop.index0][1] }}" class="logo" width="90em">
 {% else %}
 <i class="{{ page.listOfIcons[forloop.index0][0] }} fa-lg" aria-hidden="true"></i>
 {% endif %}
