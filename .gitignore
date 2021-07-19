@@ -16,6 +16,6 @@ _book
 *.pdf
 
 # jekyll-cache and gemfiles
-./docs/_site/*
-./.jekyll-cache/*
+/docs/_site/*
+/*/.jekyll-cache/*
 Gemfile*
