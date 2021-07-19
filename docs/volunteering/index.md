@@ -1,7 +1,12 @@
 ---
 layout: default
-title: Volunteering and contributions
+title: Volunteering and contributionsReview", "Content 
+buttonStyle: mybtn
 ---
+
+{% assign teamRnD = site.volunteering | where:"team","RnD" %}
+{% assign teamER = site.volunteering | where:"team","ER" %}
+{% assign teamCC = site.volunteering | where:"team","CC" %}
 
 ## Call for volunteers and contributors
 
@@ -15,12 +20,54 @@ Daniel - {{ site.brand }} editor
 
 ## Volunteering opportunities
 
-Currently, the following specific roles and jobs are waiting for you to take.
+The following tasks are waiting for you to take.
 
-{% for member in site.volunteering %}
-<h3>
-<a href="{{ member.url | prepend: site.baseurl }}">{{ member.role }} - a. k. a. {{ member.nickname }}</a></h3>
+### Research and Development team
+
+Join the Research and Development (R&D) team.
+There are {{ teamRnD | size }} available tasks.
+The R&D team members help with the research and development activities of {{ site.brand }}, such as website development or researching solutions to ongoing challenges in the project.
+
+{% for member in teamRnD %}
+<h4>{{ member.task }}</h4>
+
 <p>{{ member.excerpt }}</p>
+
+<a href="{{ member.url | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">View task details</a>
+{% else %}
+<p>Currently no roles are available in this team.</p>
+{% endfor %}
+
+### Editorial and review team
+
+Join the Editorial and Review team.
+There are {{ teamER | size }} available tasks.
+The team of editors and reviewers help us make sure content is relevant and a high quality.
+
+{% for member in teamER %}
+<h4>{{ member.task }}</h4>
+
+<p>{{ member.excerpt }}</p>
+
+<a href="{{ member.url | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">View task details</a>
+{% else %}
+<p>Currently no roles are available in this team.</p>
+{% endfor %}
+
+### Content Creation team
+
+Join the Content Creation team.
+There are {{ teamCC | size }} available tasks.
+The Content Creation team helps with authoring new notes for {{ site.product }}.
+
+{% for member in teamCC %}
+<h4>{{ member.task }}</h4>
+
+<p>{{ member.excerpt }}</p>
+
+<a href="{{ member.url | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">View task details</a>
+{% else %}
+<p>Currently no roles are available in this team.</p>
 {% endfor %}
 
 ---
@@ -53,7 +100,7 @@ It's learning through trial and error, and practice.
 
 {% capture benefit4 %}
 Are you the collector type, gathering and displaying credits, kudos,, acknowledgements, thanks, and all that jazz?
-Then you'll also get the rewards on the <a href="./wall-of-fame.html">public {{ site.brand }} wall of fame,</a> as well as in the inner circle of {{ site.brand }}.
+Then you'll also get the rewards on the <a href="./acknowledgements.html">public acknowledgements page,</a> as well as in the inner circle of {{ site.brand }}.
 {% endcapture %}
 
 {% include global/collapseable.html trigger="Learn new skills, or improve your existing skills." paragraph=benefit1 ID="b01" %}

@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog-branch
 title: "TWIST - The way I see it"
 branch: Twist
 featured: 
@@ -8,6 +8,10 @@ featured:
 switch: 
   - name: Switch to the LogBook
     link: /blog/logbook/index.html
+buttonStyle: fg-blog-vol
+backgroundStyle: bg-blog-vol
+listOfIcons: [["fas fa-blind", ""], ["fas fa-people-arrows", ""], ["fas fa-book-open", ""], ["fas fa-satellite", ""], ["fas fa-microscope", ""], ["fas fa-file-archive", ""]]
+levelToOpen: category
 ---
 <div class="container">
     <h1 class="cover-heading">What is twisted in here?</h1>
@@ -16,53 +20,6 @@ switch:
 
 <hr>
 
-<div class="row">
-<div class="col-md-6">
-<h4 id="toc_1">Accessibility adventures</h4>
-
-<p>There are so many things in life that give us the opportunity to think about how different people with different needs approach an adventure. Let it be a bus journey, a long weekend in the woods, or a sailing trip across the Atlantic, I like to speculate on one or another adventure of my life, and write down the way I see it.</p>
-</div>
-<div class="col-md-6">
-<h4 id="toc_2">Infinit identities</h4>
-
-<p>I am not just I. I am Me, myself, and I. I believe it is important to understand that we can not stick labels on people. The way I see a person is as a collection of identities. Through these set of scribbles, I&#39;d like to illustrate this point through my own identities. As my good friend once said - &quot;Daniel, you are 50 shades of Daniel&quot;.</p>
-</div>
-</div>
-
-<hr>
-
-<div class="row">
-<div class="col-md-6">
-<h4 id="toc_3">Reading ranger</h4>
-
-<p>Once you know yourself, yes, all many of yourselves, it is time to get to know others. Personal relationships are fantastic, but physical connection is not always viable. Luckily, the greatest invention of time - writing - enable you and I to meet, and have a conversation with anyone. Well, anyone who decided to write a book and published it. In the scribbles on reading, I&#39;ll attempt to paint a picture of the conversations between book authors and me. </p>
-
-</div>
-<div class="col-md-6">
-<h4 id="toc_4">Sexy science</h4>
-
-<p>Science is sexy. Science is beautiful. It does not have to be the boring subject from school. You do not even need to be born as a scientist. You can learn scientific thinking, and there are many awesome science communication projects helping you with this. I hope to post about some of my favourites in this topic.</p>
-</div>
-</div>
-
-<hr>
-
-<div class="row">
-<div class="col-md-6">
-<h4 id="toc_5">Gone Grapheel</h4>
-
-<p>Once upon a time... sorry, I mean: A long, long time ago, in a galaxy far away... there was a project called Grapheel. The Grapheel archive does what it says on the tin. Since I authored some of those earlier posts, and I think they are still valuable, I decided to archive them on TWIST. However, no new scribbles will be added here.</p>
-</div>
-<div class="col-md-6">
-<h4 id="toc_6">Numerous nanotip</h4>
-
-<p>Nanotip is a set of scribbles, which are bite size, nanoscopic, or relatively short considering my wordy way of writing. None of the less, I hope these little tips will help the reader. On the first place me, Mr gold fish memory.</p>
-</div>
-</div>
-
-<hr>
-
-<h4>Let us dive in</h4>
-
-<p>Now that you know what to find on this branch of the {{ site.brand }} blog, dive in and pick an article from the side bar.</p>
+{% assign dataFile = site.data.chapters.twist %}
+{% include global/grid-generator.html heading="h2" %}
 </div>

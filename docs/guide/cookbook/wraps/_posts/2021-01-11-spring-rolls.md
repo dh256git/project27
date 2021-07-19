@@ -20,11 +20,9 @@ A roll for every season, let it be spring or summer. The wife of a Vietnamese co
 
 Here is what you need to have at home.
 
-<table>
-  {% for row  in site.data.cookbook.wrap.spring %}
-{% include global/tabulator.html %}
-  {% endfor %}
-</table>
+{% assign dataFile = site.data.cookbook.wrap.spring %}
+{% include global/tabulator2.html %}
+
 
 Serves: {{ page.serves }}
 

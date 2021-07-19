@@ -13,7 +13,6 @@
   </head>
   <body>
 
-
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
 
   <header>
@@ -38,13 +37,15 @@
 {% include global/navigation.html %}
   </header>
 
-  <main role="main" div class="container" id="mainContent">
+  <main role="main" id="mainContent" class="container">
 {% include global/navigation-secondary.html %}
  {{   content   }}
-  </div>
   </main>
-<!--</div>-->
-{% include global/footer.html version="0" subversion="0" commit="181" %}
+
+<footer id="footerContent" class="{{ page.backgroundStyle }}">
+{% include global/footer.html version="0" subversion="0" commit="195" %}
+</footer>
+</div>
 {% include global/scripts.html %}
 
   </body>

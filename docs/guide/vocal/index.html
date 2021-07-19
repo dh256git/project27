@@ -1,29 +1,17 @@
 ---
 layout: default
 title: Vocal
+buttonStyle: fg-guide-vol
+backgroundStyle: bg-guide-vol
+listOfIcons: [["fas fa-microphone", ""], ["fas fa-broadcast-tower", ""]]
+levelToOpen: chapter
 ---
 
     <h1 class="cover-heading">Vocal - An album of voices</h1>
 
-<p>Vocal is an album of short biographies and audio recorded conversations with family, friends, and acquaintances of the {{ site.brand }} author. The album's key objective is to portray multiple life stories and honour the storytellers.</p>
+<p>Vocal is a volume of short biographies and audio recorded conversations with family, friends, and acquaintances of the {{ site.brand }} author. The album's key objective is to portray multiple life stories and honour the storytellers.</p>
 
 <hr>
 
-<div class="row">
-<div class="col-md-6">
-<h3 id="toc_0">Capturing stories</h3>
-
-<p>Capturing stories is a chapter of scribbles on concepts and techniques of audio editing, the art of listening and asking questions, and responsible journalism.</p>
-
-        <p class="lead">
-      <a href="./capturing-stories/index.html" class="mybtnvocal">Open the chapter on capturing stories</a></p>
-</div>
-<div class="col-md-6">
-<h3 id="toc_0">Sharing stories</h3>
-
-<p>Sharing stories may be a source of inspiration. So let us get to know the people that shaped the identity of {{ site.brand }} through their own stories.</p>
-
-        <p class="lead">
-      <a href="./sharing-stories/index.html" class="mybtnvocal">Open the chapter on sharing stories</a></p>
-</div>
-</div>
+{% assign dataFile = site.data.chapters.vocal %}
+{% include global/grid-generator.html heading="h2" %}

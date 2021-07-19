@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: cookbook
 title: Menu for desserts and brekfast
 ---
 <div class="container">
-{% for post in site.categories.desserts %}
-<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-<p>{{ post.excerpt }}</p>
-{% endfor %}
+{% assign theCategory = site.categories.desserts %}
+{% include global/preview.html %}
+
 </div>

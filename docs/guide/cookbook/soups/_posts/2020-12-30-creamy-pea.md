@@ -20,11 +20,9 @@ One of the creamy soups when you need something quick and light. Green pea is th
 
 Here is what you need to have at home.
 
-<table>
-  {% for row  in site.data.cookbook.soups.creamy-pea %}
-{% include global/tabulator.html %}
-  {% endfor %}
-</table>
+{% assign dataFile = site.data.cookbook.soups.creamy-pea %}
+{% include global/tabulator2.html %}
+
 
 Serves: {{ page.serves }}
 

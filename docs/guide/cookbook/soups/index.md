@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: cookbook
 title: Menu for soups
 ---
 <div class="container">
-{% for post in site.categories.soups %}
-<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-<p>{{ post.excerpt }}</p>
-{% endfor %}
+{% assign theCategory = site.categories.soups %}
+{% include global/preview.html %}
+
 </div>

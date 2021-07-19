@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: blog-branch
 title: LogBook
 branch: LogBook
 featured: 
@@ -8,23 +8,15 @@ featured:
 switch: 
   - name: Switch to Twist
     link: /blog/twist/index.html
+buttonStyle: fg-blog-vol
+backgroundStyle: bg-blog-vol
+listOfIcons: [["", ""], ["", ""], ["fas fa-sitemap", ""], ["fas fa-exclamation-triangle", ""]]
+levelToOpen: category
 ---
 <div class="container">
-<h3 id="toc_0">What is logged in the LogBook?</h3>
+<h1 id="toc_0">What is logged in the LogBook?</h1>
 
-<p>The LogBook really just logs any troubles, interesting observations, and hopefully solutions related to developing the {{ site.brand }} content. To start with, I&#39;ll focus on three topics.</p>
+<p>The LogBook really just logs any troubles, interesting observations, and hopefully solutions related to developing the {{ site.brand }} content. To start with, I'll focus on four topics.</p>
 
-<h4 id="toc_1">LaTeX to MathML</h4>
-
-<p>I&#39;m intending to use LaTeX syntax within MarkDown and web scripts to produce the MathML eventually visible on the web pages of {{ site.brand }}. However, I expect this will not always be a gentle ride. Thus, it makes sense to log LaTeX to MathML related issues.</p>
-
-<h4 id="toc_2">MathML usability</h4>
-
-<p>I&#39;m aware that MathML is a standardised markup language. However, what is not standardised is the way different screen readers handle it. I hope to take notes on anything related to MathML usability. One day this might come handy.</p>
-
-<h4 id="toc_3">Issues</h4>
-
-<p>Then there is a general page to track issues. This can be issues with the quality of the creative content, issues with web development, or issues with accessibility. Some of this issue tracking will happen through short posts, and some will happen through more robust methods, such as GitHub&#39;s own issue tracking. Yes, I know. Issue is an overused word. Issue-Issue-Issue... Any issues with that?</p>
-
-<p>Good stuff! To check what&#39;s been logged so far, have a look at the articles in the side bar.</p>
-</div>
+{% assign dataFile = site.data.chapters.logbook %}
+{% include global/grid-generator.html heading="h2" %}
