@@ -23,6 +23,8 @@ padding-top: 10px;
 .container {
     max-width: 60rem;
     margin: 0 auto;
+    padding: 10px;
+    text-align: center;
 }
 
 .poweredby {
@@ -33,4 +35,21 @@ padding-top: 10px;
 .poweredbyx2 {
     width: 138px;
     margin-top: 15px;
+}
+
+.mybtn {
+    background: #C2C5AA;
+    border: solid black 3px;
+      font-weight: bold;
+      border-radius: 12px;
+      display: inline-block;
+}
+
+.mybtswitch{
+    background: #C2C5AA;
+    border: solid black 3px;
+      font-weight: bold;
+      border-radius: 12px;
+      display: inline-block;
+      margin-bottom: 5px;
 }

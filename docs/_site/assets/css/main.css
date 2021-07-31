@@ -23,51 +23,51 @@ bg-.guide-note { background: #008000; }
 
 .bg-nav-header { background: #C2C5AA; }
 
-.bg-nav-footer { background: #C2C5AA; }
+.bg-nav-footer { background: #C2C5AA; text-align: center; }
 
-.fg-general-land { background-color: #9932CC; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-bottom: 10px; margin-top: 10px; }
+.fg-general-land { background-color: #9932CC; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-bottom: 10px; margin-top: 10px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.fg-general-vol { background-color: #8A2BE2; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-bottom: 10px; margin-top: 10px; }
+.fg-general-vol { background-color: #8A2BE2; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-bottom: 10px; margin-top: 10px; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.mybtnnextbutton { background-color: #b5c6e4; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-top: 15px; padding: 4px; margin-left: 1px; max-width: 100em; }
+.mybtnnextbutton { background-color: #C2C5AA; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-top: 15px; padding: 4px; margin-left: 1px; max-width: 100em; text-align: center; }
 
-.mybtnpreviousbutton { background-color: #b5c6e4; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-top: 15px; margin-bottom: 15px; padding: 4px; white-space: normal; width: 100px; }
+.mybtnpreviousbutton { background-color: #C2C5AA; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-top: 15px; margin-bottom: 15px; padding: 4px; white-space: normal; width: 100px; text-align: center; }
 
-.fg-guide-land { background-color: #90EE90; font-size: 20px; color: black; padding: 10px; border: solid black 3px; font-weight: bold; border-radius: 12px; }
+.fg-guide-land { background-color: #90EE90; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.fg-guide-vol { background-color: #00FF7F; font-size: 20px; color: black; padding: 10px; border: solid black 3px; font-weight: bold; border-radius: 12px; }
+.fg-guide-vol { background-color: #00FF7F; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.fg-guide-chap { background-color: #3CB371; font-size: 20px; color: black; padding: 10px; border: solid black 3px; font-weight: bold; border-radius: 12px; }
+.fg-guide-chap { background-color: #3CB371; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.fg-guide-sect { background-color: #2E8B57; font-size: 20px; color: black; padding: 10px; border: solid black 3px; font-weight: bold; border-radius: 12px; }
+.fg-guide-sect { background-color: #2E8B57; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.fg-guide-note { background-color: #008000; font-size: 20px; color: black; padding: 10px; border: solid black 3px; font-weight: bold; border-radius: 12px; }
+.fg-guide-note { background-color: #008000; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.fg-blog-land { background-color: #87CEFA; font-size: 20px; color: black; padding: 10px; border: solid black 3px; font-weight: bold; border-radius: 12px; }
+.fg-blog-land { background-color: #87CEFA; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.fg-blog-vol { background-color: #6495ED; font-size: 20px; color: black; padding: 10px; border: solid black 3px; font-weight: bold; border-radius: 12px; }
+.fg-blog-vol { background-color: #6495ED; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.fg-blog-chap { background-color: #4169E1; font-size: 20px; color: black; padding: 10px; border: solid black 3px; font-weight: bold; border-radius: 12px; }
+.fg-blog-chap { background-color: #4169E1; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.fg-blog-sect { background-color: #0000FF; font-size: 20px; color: black; padding: 10px; border: solid black 3px; font-weight: bold; border-radius: 12px; }
+.fg-blog-sect { background-color: #0000FF; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.mybtnmps { background-color: #02af02; font-size: 20px; color: black; padding: 10px; border: solid black 3px; font-weight: bold; border-radius: 12px; }
+.mybtnmps { background-color: #02af02; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.mybtnmathematics { background-color: #01ca01; font-size: 20px; color: black; padding: 10px; border: solid black 3px; font-weight: bold; border-radius: 12px; }
+.mybtnmathematics { background-color: #01ca01; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.mybtnclassicmechanics { background-color: #21c521; font-size: 20px; color: black; padding: 10px; border: solid black 3px; font-weight: bold; border-radius: 12px; }
+.mybtnclassicmechanics { background-color: #21c521; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.mybtnoscillations { background-color: #35be35; font-size: 20px; color: black; padding: 10px; border: solid black 3px; font-weight: bold; border-radius: 12px; }
+.mybtnoscillations { background-color: #35be35; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.mybtnquantummechanics { background-color: #45c045; font-size: 20px; color: black; padding: 10px; border: solid black 3px; font-weight: bold; border-radius: 12px; }
+.mybtnquantummechanics { background-color: #45c045; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.mybtncomputerliteracy { background-color: #2baf48; font-size: 20px; color: black; padding: 10px; border: solid black 3px; font-weight: bold; border-radius: 12px; }
+.mybtncomputerliteracy { background-color: #2baf48; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.mybtnstatistics { background-color: #49af5f; font-size: 20px; color: black; padding: 10px; border: solid black 3px; font-weight: bold; border-radius: 12px; }
+.mybtnstatistics { background-color: #49af5f; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.mybtncookbook { background-color: #6cd182; font-size: 20px; color: black; padding: 10px; border: solid black 3px; font-weight: bold; border-radius: 12px; }
+.mybtncookbook { background-color: #6cd182; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.mybtnvocal { background-color: #8dd49d; font-size: 20px; color: black; padding: 10px; border: solid black 3px; font-weight: bold; border-radius: 12px; }
+.mybtnvocal { background-color: #8dd49d; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
 nav li { display: inline-block; margin-left: 30px; padding-top: 0px; }
 
@@ -79,11 +79,15 @@ nav a { color: black; }
 
 .btn-outline-secondary { padding-top: 10px; }
 
-.container { max-width: 60rem; margin: 0 auto; }
+.container { max-width: 60rem; margin: 0 auto; padding: 10px; text-align: center; }
 
 .poweredby { width: 100px; margin-top: 15px; }
 
 .poweredbyx2 { width: 138px; margin-top: 15px; }
+
+.mybtn { background: #C2C5AA; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; }
+
+.mybtswitch { background: #C2C5AA; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; margin-bottom: 5px; }
 
 :root { --blue: #007bff; --indigo: #6610f2; --purple: #6f42c1; --pink: #e83e8c; --red: #dc3545; --orange: #fd7e14; --yellow: #ffc107; --green: #28a745; --teal: #20c997; --cyan: #17a2b8; --white: #fff; --gray: #6c757d; --gray-dark: #343a40; --primary: #8d021f; --secondary: #6c757d; --success: #28a745; --info: #17a2b8; --warning: #ffc107; --danger: #dc3545; --light: #f8f9fa; --dark: #343a40; --breakpoint-xs: 0; --breakpoint-sm: 576px; --breakpoint-md: 768px; --breakpoint-lg: 992px; --breakpoint-xl: 1200px; --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
