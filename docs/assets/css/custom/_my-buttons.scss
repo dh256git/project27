@@ -7,6 +7,10 @@
       border-radius: 12px;
       margin-bottom: 10px;
       margin-top: 10px;
+      display: inline-block;
+      text-align: center;
+      padding: 0 20px;
+      margin: 0;
       }
 
 .fg-general-vol{
@@ -18,10 +22,15 @@
             border-radius: 12px;
             margin-bottom: 10px;
             margin-top: 10px;
+            border-radius: 12px;
+      display: inline-block;
+      text-align: center;
+      padding: 0 20px;
+      margin: 0;
             }
 
 .mybtnnextbutton{
-      background-color: #b5c6e4;
+      background-color: #C2C5AA;
       font-size: 20px;
       color: black;
       border: solid rgb(0, 0, 0) 3px;
@@ -31,10 +40,11 @@
       padding: 4px;
       margin-left: 1px;
       max-width: 100em;
+      text-align: center;
       }
 
 .mybtnpreviousbutton {
-      background-color: #b5c6e4;
+      background-color: #C2C5AA;
       font-size: 20px;
       color: black;
       border: solid rgb(0, 0, 0) 3px;
@@ -45,183 +55,238 @@
       padding: 4px;
       white-space: normal;
       width: 100px;
+      text-align: center;
       }
 
 .fg-guide-land{
       background-color: #90EE90;
       font-size: 20px;
       color: black;
-      padding: 10px;
       border: solid black 3px;
       font-weight: bold;
       border-radius: 12px;
+      display: inline-block;
+      text-align: center;
+      padding: 0 20px;
+      margin: 0;
       }
 
 .fg-guide-vol{
             background-color: #00FF7F;
             font-size: 20px;
             color: black;
-            padding: 10px;
             border: solid black 3px;
             font-weight: bold;
             border-radius: 12px;
+      display: inline-block;
+      text-align: center;
+      padding: 0 20px;
+      margin: 0;
             }
 
 .fg-guide-chap{
             background-color: #3CB371;
             font-size: 20px;
             color: black;
-            padding: 10px;
             border: solid black 3px;
             font-weight: bold;
             border-radius: 12px;
+      display: inline-block;
+      text-align: center;
+      padding: 0 20px;
+      margin: 0;
             }
             
 .fg-guide-sect{
             background-color: #2E8B57;
             font-size: 20px;
             color: black;
-            padding: 10px;
             border: solid black 3px;
             font-weight: bold;
             border-radius: 12px;
+      display: inline-block;
+      text-align: center;
+      padding: 0 20px;
+      margin: 0;
             }
 
 .fg-guide-note{
             background-color: #008000;
             font-size: 20px;
             color: black;
-            padding: 10px;
             border: solid black 3px;
             font-weight: bold;
             border-radius: 12px;
+      display: inline-block;
+      text-align: center;
+      padding: 0 20px;
+      margin: 0;
             }
 
  .fg-blog-land{
       background-color: #87CEFA;
       font-size: 20px;
       color: black;
-      padding: 10px;
       border: solid black 3px;
       font-weight: bold;
       border-radius: 12px;
+      display: inline-block;
+      text-align: center;
+      padding: 0 20px;
+      margin: 0;
       }
       
 .fg-blog-vol{
             background-color: #6495ED;
             font-size: 20px;
             color: black;
-            padding: 10px;
             border: solid black 3px;
             font-weight: bold;
             border-radius: 12px;
+      display: inline-block;
+      text-align: center;
+      padding: 0 20px;
+      margin: 0;
             }
 
 .fg-blog-chap{
       background-color: #4169E1;
       font-size: 20px;
       color: black;
-      padding: 10px;
       border: solid black 3px;
       font-weight: bold;
       border-radius: 12px;
+      display: inline-block;
+      text-align: center;
+      padding: 0 20px;
+      margin: 0;
       }
 
 .fg-blog-sect{
       background-color: #0000FF;
       font-size: 20px;
       color: black;
-      padding: 10px;
       border: solid black 3px;
       font-weight: bold;
       border-radius: 12px;
+      display: inline-block;
+      text-align: center;
+      padding: 0 20px;
+      margin: 0;
 }
 
 .mybtnmps {
       background-color: rgb(2, 175, 2);
       font-size: 20px;
       color: black;
-      padding: 10px;
       border: solid black 3px;
       font-weight: bold;
       border-radius: 12px;
+      display: inline-block;
+      text-align: center;
+      padding: 0 20px;
+      margin: 0;
       }
       
 .mybtnmathematics {
       background-color: rgb(1, 202, 1);
       font-size: 20px;
       color: black;
-      padding: 10px;
       border: solid black 3px;
       font-weight: bold;
       border-radius: 12px;
+      display: inline-block;
+      text-align: center;
+      padding: 0 20px;
+      margin: 0;
       }
 .mybtnclassicmechanics {
       background-color: rgb(33, 197, 33);
       font-size: 20px;
       color: black;
-      padding: 10px;
       border: solid black 3px;
       font-weight: bold;
       border-radius: 12px;
+      display: inline-block;
+      text-align: center;
+      padding: 0 20px;
+      margin: 0;
       }
   
 .mybtnoscillations {
       background-color: rgb(53, 190, 53);
       font-size: 20px;
       color: black;
-      padding: 10px;
       border: solid black 3px;
       font-weight: bold;
       border-radius: 12px;
+      display: inline-block;
+      text-align: center;
+      padding: 0 20px;
+      margin: 0;
       }
 
 .mybtnquantummechanics {
       background-color: rgb(69, 192, 69);
       font-size: 20px;
       color: black;
-      padding: 10px;
       border: solid black 3px;
       font-weight: bold;
       border-radius: 12px;
+      display: inline-block;
+      text-align: center;
+      padding: 0 20px;
+      margin: 0;
       }
   
 .mybtncomputerliteracy {
       background-color: rgb(43, 175, 72);
       font-size: 20px;
       color: black;
-      padding: 10px;
       border: solid black 3px;
       font-weight: bold;
       border-radius: 12px;
+      display: inline-block;
+      text-align: center;
+      padding: 0 20px;
+      margin: 0;
       }
   
 .mybtnstatistics {
       background-color: rgb(73, 175, 95);
       font-size: 20px;
       color: black;
-      padding: 10px;
       border: solid black 3px;
       font-weight: bold;
       border-radius: 12px;
+      display: inline-block;
+      text-align: center;
+      padding: 0 20px;
+      margin: 0;
       }
 
 .mybtncookbook {
       background-color: rgb(108, 209, 130);
       font-size: 20px;
       color: black;
-      padding: 10px;
       border: solid black 3px;
       font-weight: bold;
       border-radius: 12px;
+      display: inline-block;
+      text-align: center;
+      padding: 0 20px;
+      margin: 0;
       }
 
 .mybtnvocal {
       background-color: rgb(141, 212, 157);
       font-size: 20px;
       color: black;
-      padding: 10px;
       border: solid black 3px;
       font-weight: bold;
       border-radius: 12px;
+      display: inline-block;
+      text-align: center;
+      padding: 0 20px;
+      margin: 0;
       }        
