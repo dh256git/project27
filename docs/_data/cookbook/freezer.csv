@@ -1,8 +1,6 @@
 Item,Quantity,Note,Shelf,Date,Code
 lemon,1,whole but already zested,1,01-01-2021,0121-0002
-Wiener schnitzel,1,from home (4 slices each),3,01-01-2021,0121-0009
-ratatouille,1,boxed (ready to eat),3,01-01-2021,0121-0011
-fried shredded cabbage,2,boxed (ready to eat,3,01-01-2021,0121-0012
+fried shredded cabbage,1,boxed (ready to eat,3,01-01-2021,0121-0012
 cabbage stew,2,Home made,2,22-Feb-2021,053-2833
 Wild stew (Vadas),2,Home made,2,22-Feb-2021,053-2923
 Gizzard stew,3,Home made,2,22-Feb-2021,053-3240
@@ -20,5 +18,13 @@ Quorn scampy (10,1,Vegetarian,4,03-Jun-2021,154-0107
 black forest fruit,2,330g,1,03-Jun-2021,154-0141
 king prawns,1,200g; XL size,4,03-Jun-2021,154-0248
 Croissants,1,8 in the pack,1,03-Jun-2021,154-0442
-Chicken breasts,2,bag of two,3,05-Jul-2021,186-5247
+Chicken breasts,1,bag of two,3,05-Jul-2021,186-5247
 pork shoulder steak,1,four in the bag,3,05-Jul-2021,186-5310
+onion rings,1,breaded,4,18-Jul-2021,199-4640
+sweet potato fries,1,500g,4,18-Jul-2021,199-4702
+chips,1,900g,4,18-Jul-2021,199-4715
+green peas,1,500g,4,18-Jul-2021,199-4727
+hash browns,1,,2,18-Jul-2021,199-4749
+gammon,1,400g roughly,3,18-Jul-2021,199-4813
+Richmond sausages,2,4 pieces in bag,3,18-Jul-2021,199-4848
+pain a chocolate,1,bag of 8,1,18-Jul-2021,199-4925
