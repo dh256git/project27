@@ -1,6 +1,9 @@
 ---
 layout: default
 title: About Project27
+buttonStyle: fg-general-vol
+backgroundStyle: bg-general-vol
+listOfIcons: [["", ""], ["", ""]]
 ---
 # About {{ site.brand }}
 
