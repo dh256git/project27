@@ -38,11 +38,13 @@ padding-top: 10px;
 }
 
 .mybtn {
-    background: #C2C5AA;
+    background-color: #C2C5AA;
     border: solid black 3px;
       font-weight: bold;
       border-radius: 12px;
-      display: inline-block;
+      display: inline-table;
+      position: relative;
+      overflow: hiddens;
 }
 
 .mybtswitch{
