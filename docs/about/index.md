@@ -87,7 +87,7 @@ The roadmap of {{ site.brand }} starts on 6th of October, 2019 with setting the 
 The road ahead is made up of four milestones, separated by five year intervals.
 
 {% capture rm2020 %}
-Collecting physics notes and recipes scattered around the harddrive into a single,  accessible, and usable platform.
+Collecting physics notes and recipes scattered around the hard-drive into a single,  accessible, and usable platform.
 {% endcapture %}
 
 {% capture rm2025 %}
@@ -99,10 +99,10 @@ Theme: Development of a private site based on product requirements of the produc
 The key initiatives towards the milestone are:
 </p>
 <ul>
-<li>Community: {{ site.brand }} is developed by the product owner. Contributions are made by trusted friends and family.</li>
-<li>R&D: Learning basic web development skills.</li>
-<li>R&D: Learning basic project management and business development skills.</li>
-<li>R&D: Documenting the challenges and solutions occured during the experimentation with methods of creating accessible content for  technical documents.</li>
+<li>Team: {{ site.brand }} is developed by the product owner. Contributions are made by trusted friends and family.</li>
+<li>R&D: Learning basic web development skills, and developing v0.1.</li>
+<li>PM&BD: Learning basic project management and business development skills, and setting a workflow up.</li>
+<li>R&D: Documenting the challenges and solutions occurred during the experimentation with methods of creating accessible content for  technical documents.</li>
 <li>Content: Expanding original content with reviewed written notes and posts, external links, and external multimedia.</li>
 </ul>
 <p>
@@ -128,7 +128,7 @@ Theme: Pivoting towards requirements set by stakeholders.
 The key initiatives towards the milestone are:
 </p>
 <ul>
-<li>Community: The product owner and a business partner works together to adapt the product to new requirements set by stakeholders. Contributions are made by three {{ site. brand }} teams (R&D, editorial and review, and content creation).</li>
+<li>Team: The product owner and a business partner works together to adapt the product to new requirements set by stakeholders. Contributions are made by three {{ site. brand }} teams: the R&D team, the editorial and review team, and the content creation team.</li>
 <li>R&D: Exploring challenges and solutions for accessible data visualisations, figures, and videos of technical nature.</li>
 <li>Content: Expanding notes and posts in existing volumes and branches. Considering new volumes based on stakeholder requirements.</li>
 </ul><p>
@@ -138,13 +138,13 @@ Moving on...
 {% capture rm2035 %}
 <h4>2035 milestone</h4></p>
 <p>
-Theme: 
+Theme: Consolidating operations.
 </p>
 <p>
 The key initiatives towards the milestone are:
 </p>
 <ul>
-<li>Community: Establishing organisational structure. The CEO oversees the content creation, funding and marketing tasks. The CTO is responsible for quality assurance of the web architecture including accessibility and functionality, as well as exploring new technological solutions in line with the vision and mission statements.</li>
+<li>Team: Establishing organisational structure. The CEO oversees the content creation, funding and marketing tasks. The CTO is responsible for quality assurance of the web architecture including accessibility and functionality, as well as exploring new technological solutions in line with the vision and mission statements.</li>
 <li>Community: associate editors are appointed to take care of individual volumes, and content authors are recruited for creative and review tasks.</li>
 <li>Content: Volumes are expanded by content authors. User requirements are used to design content.</li>
 <li>R&D: A system is developed for submitting user authored content and its distribution for peer-review.</li>
@@ -162,7 +162,7 @@ The key initiatives towards the milestone are:
 </p>
 <ul>
 <li>Community: Operation starts as conventional journals with editor, associate editors,-reviewers, and authors.</li>
-<li>R&D: Strategy is developed for harnessing revenue streams from the tools developed and the team expertise, reinvesting in advancing {{ site.brand }} R&D initiatives.</li>
+<li>PM&BD: Strategy is developed for harnessing revenue streams from the tools developed and the team expertise, reinvesting in advancing {{ site.brand }} R&D initiatives.</li>
 </ul><p>
 If the project has got as far as this, the roadmap will be extended.
 {% endcapture %}
@@ -175,10 +175,17 @@ If the project has got as far as this, the roadmap will be extended.
 
 ### Evolution of contributions
 
-For now, in the first five years from 2020, I will explore solutions and write content  on my own.
-However, eventually, I'd like to have associate editors, who take care of existing content and expand the volume they own.
-Although one of the key objective at the personal level is to learn web development, I'd like to work with a web developer, occupying the role of CTO, who knows what they are doing and are able to innovate through modern technological solutions.
-I'm just writing web scribbles and work towards the vision step by step. 
+The time between the cornerstone and the first milestone is used to learn, experiment, and set the scene for a scalable project.
+The project is primarily a one person exploration.
+Although one of the key objective at the personal level is to learn web development, expanding the R&D team with a web developer who knows what they are doing and are able to innovate through modern technological solutions, would be desirable.
+
+The second milestone introduces the project and its stakeholders to each other, updating product requirements, with a business partner on board.
+The PM&BD team is formed.
+
+The third milestone transfers ownership parts of the product to associate editors, and reviewers are recruited to make up the {{ site.brand }} community.
+Content is heavily influenced by user requirements.
+
+In the final milestone, the project is community driven, by means of peer-reviewed contributions. Content is managed by associate editors, while the management team looks after sustainability, scalability, and reinvestment in R&D initiatives.
 
 ### Issue tracking
 
