@@ -3,10 +3,6 @@ layout: default
 title: The author
 ---
 
-# Who is behind {{ site.brand }}?
-
-Presently, {{ site.brand }} is a single author site.
-
 ## Dr Daniel Hajas - Founder of {{ site.brand }}
 
 ![Photo of Daniel.](../assets/images/Daniel.jpg)

@@ -13,26 +13,30 @@ This page introduces the {{ site.brand }} vision and mission, why it exists, who
 
 ## Who is behind {{ site.brand }}?
 
-Welcome, my name is Daniel, and the {{ site.brand }} vision is my vision too. 
+{{ site.brand }} was started by a blind science graduate, called Daniel. He develops the project, with the help of contributions made by  his friends, family members, and colleagues.
 
-I lost my sight at the age of 16. Yet, I live a good life.
+---
+
+> Welcome, my name is Daniel, and the {{ site.brand }} vision is my vision too. 
+> 
+> I lost my sight at the age of 16. Yet, I live a good life.
 I have a doctorate degree in science, I have a healthy social life, and I live independently.
 My journey was not easy, but it was doable with support and the right mindset.
 So now, I would like to help those who are at the beginning of their journey.
 This is why I created {{ site.brand }}.
-
-The {{ site.brand }} Blog is where I express my opinion, insights, and experiences.
+> 
+> The {{ site.brand }} Blog is where I express my opinion, insights, and experiences.
 The {{ site.brand }} {{ site.product }} is where I publish scribbles on technical and lifestyle challenges I have once faced, and the solutions that helped me overcome these challenges.
-
-{{ site.brand }} is really a warehouse of challenges and solutions.
+> 
+> {{ site.brand }} is really a warehouse of challenges and solutions.
 I truly wish that the content and the spirit of {{ site.brand }} will become not only my own, but a shared vision of many.
-
-So long, all the best!  
-Daniel
-
-[Read the complete welcome letter by Daniel, and get to know him more](./author.html)
+> 
+> So long, all the best!  
+> Daniel
 
 ---
+
+[View Daniel's profile to read the complete welcome letter](./author.html)
 
 ## The modest ambition
 
@@ -40,15 +44,11 @@ On the small scale, {{ site.brand }} is a private, digital notebook on a range o
 
 [Read more about the modest ambition](./modest.html)
 
----
-
 ## The grand ambition
 
 However, there exists a vision on the grand scale too.
 
 [Read more about the grand ambition](./grand.html)
-
----
 
 ## Values and culture
 
@@ -60,8 +60,6 @@ The culture at {{ site.brand }} is defined by four core values:
 4. engagement.
 
 [Read more about our values](./values.html)
-
----
 
 ## What's on {{ site.brand }}?
 
@@ -83,74 +81,97 @@ Initially, five volumes, separated into two collections, form part of the {{ sit
 
 [Read more about what you will find on this site](./content.html)
 
----
-
 ## Where does the {{ site.brand }} roadmap lead?
 
-The roadmap of this project is split into five year intervals.
+The roadmap of {{ site.brand }} starts on 6th of October, 2019 with setting the cornerstone.
+The road ahead is made up of four milestones, separated by five year intervals.
+
+{% capture rm2020 %}
+Collecting physics notes and recipes scattered around the harddrive into a single,  accessible, and usable platform.
+{% endcapture %}
 
 {% capture rm2025 %}
- {{ site.brand }} is a private tool, under construction.
- No public access is granted.
- In the first five years, the key characteristics and targets are:
+<h4>2025 milestone</h4></p>
+<p>
+Theme: Development of a private site based on product requirements of the product owner.
+</p>
+<p>
+The key initiatives towards the milestone are:
 </p>
 <ul>
-<li>single author project, with smaller contributions from trusted friends.</li>
-<li>learn basic web development skills,</li>
-<li>explore solutions and methods around accessible written technical content creation, and</li>
-<li>expand the library of scribbles with written content, external links, and multimedia.</li>
+<li>Community: {{ site.brand }} is developed by the product owner. Contributions are made by trusted friends and family.</li>
+<li>R&D: Learning basic web development skills.</li>
+<li>R&D: Learning basic project management and business development skills.</li>
+<li>R&D: Documenting the challenges and solutions occured during the experimentation with methods of creating accessible content for  technical documents.</li>
+<li>Content: Expanding original content with reviewed written notes and posts, external links, and external multimedia.</li>
 </ul>
 <p>
 The key performance indicators are:
 </p>
 <ul>
-<li>A coherent, usable, easy to maintain website architecture is completed;</li>
-<li>a solution is regularly executed and documented for deploying content that is universally accessible on Windows, Mac, and iOS, using automated conversion of markup sources, and clutter cleaner scripts, eliminating the use of any additional need for processing published content;</li>
-<li>every volume, chapter, and blog topic has at least one high quality, complete article;</li>
-<li>KPIs are determined for 2025-2030.</li>
+<li>How much do people in the organisation engage with the initiatives of the current milestone?</li>
+<li>Is {{ site.brand }} a stable release of a coherent, usable, and easy-to-maintain website architecture?</li>
+<li>Are basic project management procedures and business development strategies established in a sustainable framework?</li>
+<li>How regularly are R&D challenges and solutions executed and documented?;</li>
+<li>How many reviewed "notes" and "posts" are published in individual Guide "chapters", and Blog "categories" respectively?</li>
+<li>Does the next milestone and its initiatives reflect the latest requirements, and are KPIs updated?</li>
 </ul>
 <p>Moving on...
 {% endcapture %}
 
 {% capture rm2030 %}
-For the second interval of five years, the project is in public beta status to inform its roadmap, potentially introducing a pivot point.
+<h4>2030 milestone</h4></p>
+<p>
+Theme: Pivoting towards requirements set by stakeholders.
+</p>
+<p>
+The key initiatives towards the milestone are:
 </p>
 <ul>
-<li>Two author project: Daniel and a co-editor works together to conform the content and web architecture to public feedback.</li>
-<li>exploration of solutions for appending graphical and video content with their non-visual equivalence;</li>
-<li>expand scribbles in existing volumes, and consider new volumes based on feedback.</li>
+<li>Community: The product owner and a business partner works together to adapt the product to new requirements set by stakeholders. Contributions are made by three {{ site. brand }} teams (R&D, editorial and review, and content creation).</li>
+<li>R&D: Exploring challenges and solutions for accessible data visualisations, figures, and videos of technical nature.</li>
+<li>Content: Expanding notes and posts in existing volumes and branches. Considering new volumes based on stakeholder requirements.</li>
 </ul><p>
 Moving on...
 {% endcapture %}
 
 {% capture rm2035 %}
-
-Ten years after conception, {{ site.brand }} transitions from a single author project to a multi-author journal. 
+<h4>2035 milestone</h4></p>
+<p>
+Theme: 
+</p>
+<p>
+The key initiatives towards the milestone are:
 </p>
 <ul>
-<li>The CEO oversees the content creation, funding and marketing tasks. The CTO is responsible for quality assurance of the web architecture including accessibility and functionality, as well as exploring new technological solutions in line with the vision and mission statements;</li>
-<li>associate editors are appointed to take care of individual volumes;</li>
-<li>volume content is expanded by the project team, and public feedback based on usage is considered; however, still no public notes are published;</li>
-<li>a system is developed for submitting scribbles by the public, and distributed for peer review.</li>
+<li>Community: Establishing organisational structure. The CEO oversees the content creation, funding and marketing tasks. The CTO is responsible for quality assurance of the web architecture including accessibility and functionality, as well as exploring new technological solutions in line with the vision and mission statements.</li>
+<li>Community: associate editors are appointed to take care of individual volumes, and content authors are recruited for creative and review tasks.</li>
+<li>Content: Volumes are expanded by content authors. User requirements are used to design content.</li>
+<li>R&D: A system is developed for submitting user authored content and its distribution for peer-review.</li>
 </ul><p>
 Moving on...
 {% endcapture %}
 
 {% capture rm2050 %}
-The web journal opens for public submission of scribbles, which are published after peer review and quality check.
+<h4>2050 milestone</h4></p>
+<p>
+Theme: {{ site.brand }} opens for public contributions, which are published after peer-review.
+</p>
+<p>
+The key initiatives towards the milestone are:
 </p>
 <ul>
-<li>operation starts as conventional journals with editor, associate editors, reviewers, and authors;</li>
-<li>strategy development for revenue making from tools developed and experiences from the past 15 years;</li>
-<li>journal remains open source.</li>
+<li>Community: Operation starts as conventional journals with editor, associate editors,-reviewers, and authors.</li>
+<li>R&D: Strategy is developed for harnessing revenue streams from the tools developed and the team expertise, reinvesting in advancing {{ site.brand }} R&D initiatives.</li>
 </ul><p>
 If the project has got as far as this, the roadmap will be extended.
 {% endcapture %}
 
-{% include global/collapseable.html trigger="2025" paragraph=rm2025 ID="R2025" %}
-{% include global/collapseable.html trigger="2030" paragraph=rm2030 ID="R2030" %}
-{% include global/collapseable.html trigger="2035" paragraph=rm2035 ID="R2035" %}
-{% include global/collapseable.html trigger="2035-2050" paragraph=rm2050 ID="R2050" %}
+{% include global/collapseable.html trigger="2020 cornerstone" paragraph=rm2020 ID="R2020" %}
+{% include global/collapseable.html trigger="2025 milestone" paragraph=rm2025 ID="R2025" %}
+{% include global/collapseable.html trigger="2030 milestone" paragraph=rm2030 ID="R2030" %}
+{% include global/collapseable.html trigger="2035 milestone" paragraph=rm2035 ID="R2035" %}
+{% include global/collapseable.html trigger="2050 milestone" paragraph=rm2050 ID="R2050" %}
 
 ### Evolution of contributions
 
