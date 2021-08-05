@@ -40,13 +40,15 @@ I truly wish that the content and the spirit of {{ site.brand }} will become not
 
 ## The modest ambition
 
-On the small scale, {{ site.brand }} is a private, digital notebook on a range of topics that matter to the author. It is a hobby activity, an opportunity to learn skills in web development, audio editing, and revising notes on physics.
+In the short run, {{ site.brand }} is a digital, private notebook on a range of topics that matter to the author. It is a hobby activity and an opportunity to learn new skills and practice existing ones.
 
 [Read more about the modest ambition](./modest.html)
 
 ## The grand ambition
 
 However, there exists a vision on the grand scale too.
+In the long run, the single author corpus is expanded to a collection of peer-written and peer-reviewed content.
+The topics of the product owner's personal interest are expanded to community interest.
 
 [Read more about the grand ambition](./grand.html)
 
