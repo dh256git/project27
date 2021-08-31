@@ -193,3 +193,9 @@ In the final milestone, the project is community driven, by means of peer-review
 
 {{ site.brand }} will track known issues on inaccurate information, as well as known accessibility bugs around the scientific content.
 This will partly be done through the GitHub repository and the LogBook posts.
+
+## Dashboard
+
+The dashboard is for tracking data related to the project development.
+
+[Open dashboard](./dashboard/index.html)
