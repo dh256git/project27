@@ -7,13 +7,30 @@
 {% endif %}
 
 <p>Powered by: 
+<a href="https://github.com">
 <img src="{{ '/assets/images/Github logo.png' | prepend: site.baseurl }}" alt="Github" class= "poweredby">
+</a>
+<a href="https://jekyllrb.com">
 <img src="{{ '/assets/images/Jekyll logo.png' | prepend: site.baseurl }}" alt="Jekyll" class= "poweredbyx2">     
+</a>
+<a href="https://getbootstrap.com">
 <img src="{{ '/assets/images/Bootstrap logo.png' | prepend: site.baseurl }}" alt="Bootstrap" class= "poweredby">  
+</a>
+<a href="https://www.markdownguide.org">
 <img src="{{ '/assets/images/Markdown logo.png' | prepend: site.baseurl }}" alt="Markdown" class= "poweredbyx2"> 
+</a>
+<a href="https://www.latex-project.org">
 <img src="{{ '/assets/images/LaTeX logo.png' | prepend: site.baseurl }}" alt="LaTeX" class= "poweredbyx2">  
+</a>
+<a href="https://www.python.org">
 <img src="{{ '/assets/images/Python logo.png' | prepend: site.baseurl }}" alt="Python" class= "poweredbyx2">
+</a>
+<a href="https://www.r-project.org">
 <img src="{{ '/assets/images/R logo.jpg' | prepend: site.baseurl }}" alt="R" class= "poweredby">
-<img src="{{ '/assets/images/Bash shell logo.png' | prepend: site.baseurl }}" alt="Bash" class= "poweredby"></p>
+</a>
+<a href="https://www.gnu.org/software/bash/">
+<img src="{{ '/assets/images/Bash shell logo.png' | prepend: site.baseurl }}" alt="Bash" class= "poweredby">
+</a>
+</p>
 <p>Version: {{ include.version }}.{{ include.subversion }}.{{ include.commit }}.</p>
 <p>Last updated: {{ site.time | date_to_rfc822 | date: "%d %b %Y at %H:%M" }}.</p>
