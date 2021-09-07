@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- scripts for vega lite -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2/build/vega.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0/build/vega-lite.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title> Job search</title>
+
+<!--Custom style sheets-->
+        <link rel="stylesheet" href="/project27/assets/css/main.css">
+
+  </head>
+  <body>
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+  <header>
+  <!--class="masthead mb-auto"-->
+<div class="row">
+<div class="col-md-6">
+<a class="d-flex justify-content-center" href="#mainContent">Skip to main content</a>
+</div>
+<div class="col-md-6">
+<a class="d-flex justify-content-center" href="#footerContent">Skip to footer</a>
+</div>
+</div>
+
+
+      <span class="masthead-brand">
+<a href="/project27/index.html" class=navbar-brand">
+      <img src="/project27/assets/images/Project27 logo.png" alt="Project 27 logo" class="logo" width="90em">
+      </a>
+      A warehouse of challenges and solutions.
+      </span>
+
+      <nav class="navbar navbar-expand-md navbar-dark bg-nav-header" tabindex="0" aria-label="Primary">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="primaryNavigation">
+<ul class="navbar-nav ml-auto" role="menubar">
+  
+  <li>
+    <a href="/project27/blog/index.html">Blog</a>
+  </li>
+  
+  <li>
+    <a href="/project27/guide/index.html">Guide</a>
+  </li>
+  
+  <li>
+    <a href="/project27/volunteering/index.html">Volunteering</a>
+  </li>
+  
+  </ul>
+</div>
+</nav>
+  </header>
+
+  <main role="main" id="mainContent" class="container">
+<div class="row ">
+<div class="col-md-6">
+<h6>You are here</h6>
+
+<div id="breadcrumbs">
+
+<a href="/project27/">Home</a>
+
+  
+    > <a href="/project27/seasonal/index.html">Seasonal</a>
+  
+
+  
+    <br> > Job search
+  
+
+</div>
+
+  
+</div>
+<div class="col-md-3">
+  <button type="button" class="mybtn" data-toggle="collapse" data-target="#selector" aria-controls="selector" aria-expanded="false" aria-label="Select">
+    <span><i class="fas fa-bookmark fa-lg" aria-hidden="false"></i></span>
+  </button>
+<div class="collapse" id="selector">
+<div class="row">
+<div class="col-md-6">
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtn" data-toggle="collapse" data-target="#volume-selector" data-toggle="dropdown" id="volume-selector" aria-haspopup="true">Volume</button>
+        <div class="dropdown-menu" aria-labelledby="volume-selector" id="volume-selector">
+  
+  
+          <a class="dropdown-item" href="/project27/seasonal/search.html" class="current">Job search</a>
+  
+  
+</div>
+</div>
+
+</div>
+<div class="col-md-6">
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtn" data-toggle="collapse" data-target="#chapter-selector" data-toggle="dropdown" id="chapter-selector" aria-haspopup="true">Chapter</button>
+        <div class="dropdown-menu" aria-labelledby="chapter-selector" id="chapter-selector">
+  
+  <p>Please select a volume before selecting a chapter.</p>
+  
+</div>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-6">
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtn" data-toggle="collapse" data-target="#section-selector" data-toggle="dropdown" id="section-selector" aria-haspopup="true">Section</button>
+        <div class="dropdown-menu" aria-labelledby="section-selector" id="section-selector">
+  
+  <p>Please open a volume and a chapter, before you are able to select a section. It may also be that this chapter has not been divided into sections.</p>
+  
+</div>
+</div>
+
+</div>
+<div class="col-md-6">
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtn" data-toggle="collapse" data-target="#note-selector" data-toggle="dropdown" id="note-selector" aria-haspopup="true">Note</button>
+        <div class="dropdown-menu" aria-labelledby="note-selector" id="note-selector">
+  
+  <p>Please select a section before selecting a note.</p>
+  
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+  <button type="button" class="mybtn" data-toggle="collapse" data-target="#meta-info" aria-controls="meta-info" aria-expanded="false" aria-label="Page information">
+    <span><i class="fa fa-info-circle fa-lg"  aria-hidden="false"></i></span>
+  </button>
+<div class="blog-post-meta collapse" id="meta-info">
+<p class="reading-time">Estimated time to read: 
+  
+  
+    4 - 5 mins
+  
+</p>
+<p>Written by: </p>
+<p>Reviewed by: . <a href="/project27/guidelines/review.html">Read our guidelines on reviews.</a></p>
+<p>Published on: </p>
+</div>
+</div>
+</div>
+ <h1 id="search">search</h1>
+
+<p>These are the professions that would interest me.</p>
+
+<h3 id="interview-and-application-techniques-job-search-platforms">Interview and application techniques, job search platforms</h3>
+
+<p>Resources to prepare successful job applications and interviews, as well as platforms to find jobs.</p>
+
+<ol>
+  <li><a href="https://www.futurelearn.com/courses/writing-applications">How to succeed at writing job applications</a></li>
+  <li><a href="https://www.futurelearn.com/courses/interviews">How to succeed at an interview</a></li>
+  <li><a href="https://www.leonardcheshire.org">Leonard Cheshire - Change100 programme and other resources</a></li>
+  <li><a href="https://www.jobs.ac.uk">Jobs in academia</a></li>
+  <li><a href="https://www.charityjob.co.uk">Jobs in the charity sector</a></li>
+</ol>
+
+<h3 id="key-phrases-for-job-search-sites">Key phrases for job search sites</h3>
+
+<p>Here are some key search phrases.</p>
+
+<ol>
+  <li>public engagement</li>
+  <li>science communication</li>
+  <li>research coordinator</li>
+  <li>accessibility</li>
+  <li>inclusive technology</li>
+  <li>user experience</li>
+  <li>haptics</li>
+  <li>assistive technology</li>
+</ol>
+
+<hr />
+
+<h2 id="research-advice-coordinator">Research advice coordinator</h2>
+
+<p>Skill: general research skill &amp; project management.</p>
+
+<p><strong>Jobs where the main responsibility is to synthesise the latest research knowledge in a given field, and give advice to the employer organisation about improving its services. One of the roles may be, a liaison between the research community and professional services, for example a charitable organisation working with clients.</strong></p>
+
+<p>Potential work places:</p>
+
+<ol>
+  <li><a href="https://www.rnib.org.uk/who-we-are/jobs-rnib">RNIB research</a></li>
+  <li><a href="https://www.guidedogs.org.uk/about-us/what-we-do/research">Guide Dogs Association research</a></li>
+  <li><a href="https://www.mind.org.uk/about-us/our-policy-work/reports-and-guides/our-research/">MIND research</a></li>
+  <li><a href="https://www.samaritans.org/about-samaritans/research-policy/">Samaritans research</a></li>
+  <li><a href="https://www.leonardcheshire.org">Leonard Cheshire research</a></li>
+  <li><a href="https://www.disabilityinnovation.com">GDI Hug</a></li>
+  <li><a href="https://diversityandability.com">Diversity and Ability</a></li>
+</ol>
+
+<p>Networking nodes:</p>
+
+<ol>
+  <li>Maidstone or Brighton office of GDA.</li>
+</ol>
+
+<hr />
+
+<h2 id="science-communication-or-public-engagement-officer">Science communication or public engagement officer</h2>
+
+<p>Skill: Event organisation, activity planning, project management.</p>
+
+<p><strong>Jobs where the main responsibility is to manage an organisation’s public engagement with science scheme. Universities, national institutions, not for profit organisations, commercial companies for informal science education. A role to design new activities, organising and evaluating public engagement events.</strong></p>
+
+<p>Potential work places:</p>
+
+<ol>
+  <li><a href="https://researchoutreach.org">Research outreach</a>
+    <ul>
+      <li>note: communication agency specialised in research</li>
+    </ul>
+  </li>
+  <li><a href="https://www.cancerresearchuk.org/about-us/charity-jobs/director-patient-public-engagement">Cancer Research UK</a></li>
+  <li><a href="https://www.icr.ac.uk/about-us/policy-and-engagement/public-engagement">Institute of Cancer Research (ICR) public engagement</a></li>
+  <li><a href="https://www.britishscienceassociation.org">British Science Association</a></li>
+  <li><a href="https://www.publicengagement.ac.uk">NCCPE</a></li>
+  <li><a href="https://www.sussexstem.co.uk">Sussex STEM</a></li>
+  <li><a href="https://www.iop.org/">Institute of Physics</a></li>
+  <li><a href="https://ktn-uk.org">KTN</a></li>
+  <li><a href="https://www.ogdentrust.com">Ogden Trust</a></li>
+  <li><a href="https://wellcome.org">Welcome Trust</a></li>
+  <li><a href="https://stfc.ukri.org">STFC</a></li>
+  <li><a href="https://epsrc.ukri.org">EPSRC</a></li>
+  <li><a href="https://www.rsc.org">Royal Society of Chemistry</a></li>
+  <li><a href="https://ras.ac.uk">Royal Astronomical Society</a></li>
+  <li><a href="https://www.rigb.org">Royal Institution GB</a></li>
+  <li>[]Sense about science](https://senseaboutscience.org/)
+    <ul>
+      <li>Contact: <a href="https://www.linkedin.com/in/sophie-lane-381365199/">Sophie</a>
+Networking nodes:</li>
+    </ul>
+  </li>
+  <li>the PSCI-COM mailing list and Twitter feed</li>
+  <li><a href="https://www.big.uk.com">BIG STEM communicators network</a></li>
+</ol>
+
+<hr />
+
+<h2 id="user-experience-ux--research-development-and-testing-of-assistive-technology-at-for-the-visually-impaired-vi">User experience (UX)  research, development, and testing of assistive technology (AT) for the visually impaired (VI)</h2>
+
+<p>Skill: Experience with Human-Computer Interaction (HCI) and assistive technology (AT).</p>
+
+<p><strong>Jobs where the main responsibility is to conduct UX research on assistive technology used by visually impaired people. A role which would in part involve the development of new products or their enhancements, testing existing AT products. Mostly charities and companies specialised in providing AT and services to VI users.</strong></p>
+
+<p>Potential work places:</p>
+
+<ol>
+  <li><a href="http://www.humanware.com/en-international/home">Humanware</a></li>
+  <li><a href="https://yourdolphin.com">Dolphin computers</a></li>
+</ol>
+
+<hr />
+
+<h2 id="accessibility-specialist-in-digital-products">Accessibility specialist in digital products</h2>
+
+<p>Skill: Experience with digital accessibility and inclusive product design</p>
+
+<p><strong>Jobs where the main responsibility is to ensure the employer is selling solutions to customers, which are accessible to all users. For example, a role to oversee accessibility features and considerations within an agency who creates website solutions or a company which develops mobile apps for their customers.</strong></p>
+
+<p>Potential work places:</p>
+
+<ol>
+  <li><a href="https://agileapp.co">AgileApp</a></li>
+  <li><a href="https://krify.co/best-web-and-mobile-app-development-company-in-brighton-and-hove-uk/">Krify</a></li>
+</ol>
+
+<hr />
+
+<h2 id="outreach-for-touch-and-well-being">Outreach for touch and well-being</h2>
+
+<p>Skill: research communication and outreach on touch in well-being</p>
+
+<p><strong>Jobs where the main responsibility is to promote the research and application of touch therapies in various scenarios.</strong></p>
+
+<p>Potential work places:</p>
+
+<ol>
+  <li><a href="https://www.rebekkamikkola.com">Nordic Cuddle</a></li>
+  <li><a href="http://www.touchtrust.co.uk/what-we-do/">Touch Trust</a></li>
+  <li><a href="https://www.storymassage.co.uk/home/about-us/">Story massage</a></li>
+</ol>
+
+<p>Networking nodes:</p>
+
+<ol>
+  <li><a href="https://www.culturehealthandwellbeing.org.uk/">Culture, Health and Wellbeing Alliance</a>
+    <ul>
+      <li>Synopsis: You will find a community of around 4500 practitioners, sector professionals, therapists and academics interested in this topic, plus lots of resources.</li>
+    </ul>
+  </li>
+  <li><a href="https://www.marchnetwork.org/opportunities">Community assets on mental health (SIG on touch)</a>
+    <ul>
+      <li>synopsis: There isn’t a group dedicated to touch but there are ones looking for example at Arts, Crafts and mental health, and another looking at Archaeology and mental Health - both of which are very touch orientated</li>
+    </ul>
+  </li>
+  <li>Jorgee Esteves’s work and other osteopaths that have taken an interest in touch. Other interesting area is tactile lymphoedema therapy.</li>
+</ol>
+
+<h2 id="haptics-or-inclusive-tech-associate-for-tech-giants">Haptics or inclusive tech associate for tech giants</h2>
+
+<p>Skill: Haptics and inclusive tech research and development</p>
+
+<p><strong>Jobs at giant tech companies specifically, who start to invest more and more in inclusive products, accessibility, and haptics. The main responsibility that would suit me most is jobs in research and development.</strong></p>
+
+<p>Potential work places:</p>
+
+<ol>
+  <li>IBM</li>
+  <li>Google</li>
+  <li>Facebook</li>
+  <li>Apple</li>
+  <li>Microsoft</li>
+  <li>Amazon</li>
+</ol>
+
+<h2 id="academia---postdoc-and-early-career-scientist-fellowships">Academia - postdoc and early career scientist fellowships</h2>
+
+<p>Skill: Academic research and publishing</p>
+
+<p><strong>Jobs where research labs recruit post doctoral researchers for a specific project, or funded early careeer scientist fellowships to research newly proposed projects.</strong></p>
+
+<p>Potential research groups, fellowship schemes:</p>
+
+<ol>
+  <li><a href="https://ec.europa.eu/research/mariecurieactions/actions/individual-fellowships_en">Marie Curie Fellowship</a></li>
+</ol>
+
+  </main>
+
+<footer id="footerContent" class="">
+      <nav class="navbar navbar-dark bg-nav-footer" tabindex="0" aria-label="Footer">
+<ul class="navbar-nav ml-auto" role="menubar">
+  
+  <li>
+    <a href="/project27/about/index.html">About</a>
+  </li>
+  
+  <li>
+    <a href="/project27/guidelines/index.html">Guidelines</a>
+  </li>
+  
+  <li>
+    <a href="/project27/legal/index.html">Legal</a>
+  </li>
+  
+  </ul>
+</nav>
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />Except where otherwise noted, <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Project27</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://dh256git.github.io/project27/about/author.html" property="cc:attributionName" rel="cc:attributionURL">Daniel Hajas</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License.</a>
+
+
+<p>Powered by: 
+<a href="https://github.com">
+<img src="/project27/assets/images/Github logo.png" alt="Github" class= "poweredby">
+</a>
+<a href="https://jekyllrb.com">
+<img src="/project27/assets/images/Jekyll logo.png" alt="Jekyll" class= "poweredbyx2">     
+</a>
+<a href="https://getbootstrap.com">
+<img src="/project27/assets/images/Bootstrap logo.png" alt="Bootstrap" class= "poweredby">  
+</a>
+<a href="https://www.markdownguide.org">
+<img src="/project27/assets/images/Markdown logo.png" alt="Markdown" class= "poweredbyx2"> 
+</a>
+<a href="https://www.latex-project.org">
+<img src="/project27/assets/images/LaTeX logo.png" alt="LaTeX" class= "poweredbyx2">  
+</a>
+<a href="https://www.python.org">
+<img src="/project27/assets/images/Python logo.png" alt="Python" class= "poweredbyx2">
+</a>
+<a href="https://www.r-project.org">
+<img src="/project27/assets/images/R logo.jpg" alt="R" class= "poweredby">
+</a>
+<a href="https://www.gnu.org/software/bash/">
+<img src="/project27/assets/images/Bash shell logo.png" alt="Bash" class= "poweredby">
+</a>
+</p>
+<p>Version: 0.0.195.</p>
+<p>Last updated: 07 Sep 2021 at 21:23.</p>
+</footer>
+</div>
+<!-- Bootstrap dependency scripts -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- Mathematics script -->
+<script type="text/x-mathjax-config">
+(function () {
+
+MathJax.Hub.Config({
+	'showProcessingMessages': false,
+	'messageStyle': 'none'
+});
+
+if (typeof MathJaxListener !== 'undefined') {
+	MathJax.Hub.Register.StartupHook('End', function () {
+		MathJaxListener.invokeCallbackForKey_('End');
+	});
+}
+
+})();
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<!--Script for font awesome icons-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>

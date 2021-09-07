@@ -1,11 +1,289 @@
----
-layout: default
-title: Blackbody radiation
-buttonStyle: mybtnmathematics
-levelToOpen: note
----
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- scripts for vega lite -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2/build/vega.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0/build/vega-lite.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<h1>Notes on {{ page.title }}</h1>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-{% assign theCategory = site.data.notes.blackbody %}
-{% include global/preview.html %}
+    <title> Blackbody radiation</title>
+
+<!--Custom style sheets-->
+        <link rel="stylesheet" href="/project27/assets/css/main.css">
+
+  </head>
+  <body>
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+  <header>
+  <!--class="masthead mb-auto"-->
+<div class="row">
+<div class="col-md-6">
+<a class="d-flex justify-content-center" href="#mainContent">Skip to main content</a>
+</div>
+<div class="col-md-6">
+<a class="d-flex justify-content-center" href="#footerContent">Skip to footer</a>
+</div>
+</div>
+
+
+      <span class="masthead-brand">
+<a href="/project27/index.html" class=navbar-brand">
+      <img src="/project27/assets/images/Project27 logo.png" alt="Project 27 logo" class="logo" width="90em">
+      </a>
+      A warehouse of challenges and solutions.
+      </span>
+
+      <nav class="navbar navbar-expand-md navbar-dark bg-nav-header" tabindex="0" aria-label="Primary">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="primaryNavigation">
+<ul class="navbar-nav ml-auto" role="menubar">
+  
+  <li>
+    <a href="/project27/blog/index.html">Blog</a>
+  </li>
+  
+  <li>
+    <a href="/project27/guide/index.html">Guide</a>
+  </li>
+  
+  <li>
+    <a href="/project27/volunteering/index.html">Volunteering</a>
+  </li>
+  
+  </ul>
+</div>
+</nav>
+  </header>
+
+  <main role="main" id="mainContent" class="container">
+<div class="row ">
+<div class="col-md-6">
+<h6>You are here</h6>
+
+<div id="breadcrumbs">
+
+<a href="/project27/">Home</a>
+
+  
+    > <a href="/project27/guide/index.html">Guide</a>
+  
+
+  
+    > <a href="/project27/guide/MPS/index.html">MPS</a>
+  
+
+  
+    > <a href="/project27/guide/MPS/quantum-mechanics/index.html">Quantum mechanics</a>
+  
+
+  
+    <br> > Blackbody radiation
+  
+
+</div>
+
+  
+</div>
+<div class="col-md-3">
+  <button type="button" class="mybtn" data-toggle="collapse" data-target="#selector" aria-controls="selector" aria-expanded="false" aria-label="Select">
+    <span><i class="fas fa-bookmark fa-lg" aria-hidden="false"></i></span>
+  </button>
+<div class="collapse" id="selector">
+<div class="row">
+<div class="col-md-6">
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtn" data-toggle="collapse" data-target="#volume-selector" data-toggle="dropdown" id="volume-selector" aria-haspopup="true">Volume</button>
+        <div class="dropdown-menu" aria-labelledby="volume-selector" id="volume-selector">
+  
+  
+          <a class="dropdown-item" href="/project27/guide/MPS/index.html" >Mathematical and Physical Sciences</a>
+  
+          <a class="dropdown-item" href="/project27/guide/CL/index.html" >Computer Literacy</a>
+  
+          <a class="dropdown-item" href="/project27/guide/statistics/index.html" >Statistics</a>
+  
+          <a class="dropdown-item" href="/project27/guide/cookbook/index.html" >Cookbook</a>
+  
+          <a class="dropdown-item" href="/project27/guide/vocal/index.html" >Vocal</a>
+  
+    
+</div>
+</div>
+
+</div>
+<div class="col-md-6">
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtn" data-toggle="collapse" data-target="#chapter-selector" data-toggle="dropdown" id="chapter-selector" aria-haspopup="true">Chapter</button>
+        <div class="dropdown-menu" aria-labelledby="chapter-selector" id="chapter-selector">
+  
+  
+          <a class="dropdown-item" href="/project27/guide/MPS/mathematics/index.html" >Mathematics</a>
+  
+          <a class="dropdown-item" href="/project27/guide/MPS/mechanics/index.html" >Classical mechanics</a>
+  
+          <a class="dropdown-item" href="/project27/guide/MPS/oscillations/index.html" >Oscillations</a>
+  
+          <a class="dropdown-item" href="/project27/guide/MPS/quantum-mechanics/index.html" >Quantum mechanics</a>
+  
+    
+</div>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-6">
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtn" data-toggle="collapse" data-target="#section-selector" data-toggle="dropdown" id="section-selector" aria-haspopup="true">Section</button>
+        <div class="dropdown-menu" aria-labelledby="section-selector" id="section-selector">
+  
+  
+          <a class="dropdown-item" href="/project27/guide/MPS/mechanics/kinematics/index.html" >Kinematics</a>
+  
+          <a class="dropdown-item" href="/project27/guide/MPS/mechanics/dynamics/index.html" >Dynamics</a>
+  
+    
+</div>
+</div>
+
+</div>
+<div class="col-md-6">
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtn" data-toggle="collapse" data-target="#note-selector" data-toggle="dropdown" id="note-selector" aria-haspopup="true">Note</button>
+        <div class="dropdown-menu" aria-labelledby="note-selector" id="note-selector">
+  
+  
+          <a class="dropdown-item" href="/project27" ></a>
+  
+    
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+  <button type="button" class="mybtn" data-toggle="collapse" data-target="#meta-info" aria-controls="meta-info" aria-expanded="false" aria-label="Page information">
+    <span><i class="fa fa-info-circle fa-lg"  aria-hidden="false"></i></span>
+  </button>
+<div class="blog-post-meta collapse" id="meta-info">
+<p class="reading-time">Estimated time to read: 
+  
+  
+    1 min
+  
+</p>
+<p>Written by: </p>
+<p>Reviewed by: . <a href="/project27/guidelines/review.html">Read our guidelines on reviews.</a></p>
+<p>Published on: </p>
+</div>
+</div>
+</div>
+ <h1>Notes on Blackbody radiation</h1>
+
+
+
+<h3>1. Blackbody radiation</h3>
+
+<p>This note is about blackbody radiation.</p>
+
+
+<a href="/project27/guide/MPS/quantum-mechanics/blackbody/blackbody.html" class="mybtnmathematics">
+Open the note on blackbody radiation
+
+</a>
+
+  </main>
+
+<footer id="footerContent" class="">
+      <nav class="navbar navbar-dark bg-nav-footer" tabindex="0" aria-label="Footer">
+<ul class="navbar-nav ml-auto" role="menubar">
+  
+  <li>
+    <a href="/project27/about/index.html">About</a>
+  </li>
+  
+  <li>
+    <a href="/project27/guidelines/index.html">Guidelines</a>
+  </li>
+  
+  <li>
+    <a href="/project27/legal/index.html">Legal</a>
+  </li>
+  
+  </ul>
+</nav>
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />Except where otherwise noted, <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Project27</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://dh256git.github.io/project27/about/author.html" property="cc:attributionName" rel="cc:attributionURL">Daniel Hajas</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License.</a>
+
+
+<p>Powered by: 
+<a href="https://github.com">
+<img src="/project27/assets/images/Github logo.png" alt="Github" class= "poweredby">
+</a>
+<a href="https://jekyllrb.com">
+<img src="/project27/assets/images/Jekyll logo.png" alt="Jekyll" class= "poweredbyx2">     
+</a>
+<a href="https://getbootstrap.com">
+<img src="/project27/assets/images/Bootstrap logo.png" alt="Bootstrap" class= "poweredby">  
+</a>
+<a href="https://www.markdownguide.org">
+<img src="/project27/assets/images/Markdown logo.png" alt="Markdown" class= "poweredbyx2"> 
+</a>
+<a href="https://www.latex-project.org">
+<img src="/project27/assets/images/LaTeX logo.png" alt="LaTeX" class= "poweredbyx2">  
+</a>
+<a href="https://www.python.org">
+<img src="/project27/assets/images/Python logo.png" alt="Python" class= "poweredbyx2">
+</a>
+<a href="https://www.r-project.org">
+<img src="/project27/assets/images/R logo.jpg" alt="R" class= "poweredby">
+</a>
+<a href="https://www.gnu.org/software/bash/">
+<img src="/project27/assets/images/Bash shell logo.png" alt="Bash" class= "poweredby">
+</a>
+</p>
+<p>Version: 0.0.195.</p>
+<p>Last updated: 07 Sep 2021 at 21:23.</p>
+</footer>
+</div>
+<!-- Bootstrap dependency scripts -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- Mathematics script -->
+<script type="text/x-mathjax-config">
+(function () {
+
+MathJax.Hub.Config({
+	'showProcessingMessages': false,
+	'messageStyle': 'none'
+});
+
+if (typeof MathJaxListener !== 'undefined') {
+	MathJax.Hub.Register.StartupHook('End', function () {
+		MathJaxListener.invokeCallbackForKey_('End');
+	});
+}
+
+})();
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<!--Script for font awesome icons-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
