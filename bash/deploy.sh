@@ -12,9 +12,10 @@ python3 ../bash/version-counter.py
 jekyll build
 
 ## Pause for 3 seconds
+sleep 3
 
 ## copy site files to deployed docs
-cp -r _site/* docs/
+cp -r _site/* ../docs/
 
 ## initiate git deployment to master
 cd ../docs/
