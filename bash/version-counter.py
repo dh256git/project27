@@ -1,7 +1,7 @@
 import re # regular expression
 
 ## read text file content to string variable
-path = "_layouts/default.html"
+path = "src/_layouts/default.html"
 with open(path, 'r') as file:
     myFile = file.read()
 
@@ -10,7 +10,7 @@ for item in myFile.split("\n"):
 	if "commit" in item:
 		myLine = item.strip()
 
-## search for two digit sequence in source string, group match sequence into a string.
+## search for three digit sequence in source string, group match sequence into a string.
 commit = re.search(r'\d\d\d', myLine).group()
 
 ## increase commit number by 1
