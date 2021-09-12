@@ -1,6 +1,6 @@
       <{{ include.heading }}>{{ include.article }} {{ item.name }}</{{ include.heading }}>
 {% if page.listOfIcons[loopIndex][0] == "" %}
-<img src="{{ '/assets/images/' | prepend: site.baseurl }}{{ page.listOfIcons[loopIndex][1] }}" aria-hidden="true" alt="{{ page.listOfIcons[loopIndex][1] }}" class="logo" width="90em">
+<img src="{{ '/assets/images/' | prepend: site.baseurl }}{{ page.listOfIcons[loopIndex][1] }}" aria-hidden="true" alt="{{ page.listOfIcons[loopIndex][1] }}" width="45px">
 {% else %}
 <i class="{{ page.listOfIcons[loopIndex][0] }} fa-lg" aria-hidden="true"></i>
 {% endif %}
