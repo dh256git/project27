@@ -1,5 +1,5 @@
 nav li{
-display: inline;
+display: list-item;
 margin-right: 20px;
 font-weight: bold;
 }
@@ -38,6 +38,7 @@ padding-top: 10px;
       position: relative;
       display: inline-block;
       overflow: hiddens;
+    font-weight: bold;
 }
 
 .mybtswitch{
