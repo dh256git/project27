@@ -5,13 +5,13 @@ buttonStyle: fg-general-vol
 backgroundStyle: bg-general-vol
 listOfIcons: [["", ""], ["", ""]]
 ---
-# About {{ site.brand }}
+## About {{ site.brand }}
 
 This page introduces the {{ site.brand }} vision and mission, why it exists, who is behind the content, and what the roadmap of development is.
 
 ---
 
-## Who is behind {{ site.brand }}?
+### Who is behind {{ site.brand }}?
 
 {{ site.brand }} was started by a blind science graduate, called Daniel. He develops the project, with the help of contributions made by  his friends, family members, and colleagues.
 
@@ -38,13 +38,13 @@ I truly wish that the content and the spirit of {{ site.brand }} will become not
 
 [View Daniel's profile to read the complete welcome letter](./author.html)
 
-## The modest ambition
+### The modest ambition
 
 In the short run, {{ site.brand }} is a digital, private notebook on a range of topics that matter to the author. It is a hobby activity and an opportunity to learn new skills and practice existing ones.
 
 [Read more about the modest ambition](./modest.html)
 
-## The grand ambition
+### The grand ambition
 
 However, there exists a vision on the grand scale too.
 In the long run, the single author corpus is expanded to a collection of peer-written and peer-reviewed content.
@@ -52,7 +52,7 @@ The topics of the product owner's personal interest are expanded to community in
 
 [Read more about the grand ambition](./grand.html)
 
-## Values and culture
+### Values and culture
 
 The culture at {{ site.brand }} is defined by four core values:
 
@@ -63,7 +63,7 @@ The culture at {{ site.brand }} is defined by four core values:
 
 [Read more about our values](./values.html)
 
-## What's on {{ site.brand }}?
+### What's on {{ site.brand }}?
 
 The site is split into two parts: [Blog](./blog/index.html) and [{{ site.product }}.](./guide/index.html)
 Blog posts and {{ site.product }} scribbles both come in two flavours: technical, and lifestyle. 
@@ -83,7 +83,7 @@ Initially, five volumes, separated into two collections, form part of the {{ sit
 
 [Read more about what you will find on this site](./content.html)
 
-## Where does the {{ site.brand }} roadmap lead?
+### Where does the {{ site.brand }} roadmap lead?
 
 The roadmap of {{ site.brand }} starts on 6th of October, 2019 with setting the cornerstone.
 The road ahead is made up of four milestones, separated by five year intervals.
@@ -175,7 +175,7 @@ If the project has got as far as this, the roadmap will be extended.
 {% include global/collapseable.html trigger="2035 milestone" paragraph=rm2035 ID="R2035" %}
 {% include global/collapseable.html trigger="2050 milestone" paragraph=rm2050 ID="R2050" %}
 
-### Evolution of contributions
+#### Evolution of contributions
 
 The time between the cornerstone and the first milestone is used to learn, experiment, and set the scene for a scalable project.
 The project is primarily a one person exploration.
@@ -189,12 +189,12 @@ Content is heavily influenced by user requirements.
 
 In the final milestone, the project is community driven, by means of peer-reviewed contributions. Content is managed by associate editors, while the management team looks after sustainability, scalability, and reinvestment in R&D initiatives.
 
-### Issue tracking
+#### Issue tracking
 
 {{ site.brand }} will track known issues on inaccurate information, as well as known accessibility bugs around the scientific content.
 This will partly be done through the GitHub repository and the LogBook posts.
 
-## Dashboard
+### Dashboard
 
 The dashboard is for tracking data related to the project development.
 

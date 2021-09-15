@@ -4,7 +4,7 @@ title: Privacy statement
 date: 26th of June, 2021
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 Last revised on: {{ page.date }}.
 

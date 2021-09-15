@@ -3,6 +3,6 @@ layout: default
 title: Terms of use
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 This page is a work in progress. Please checkk for updates.

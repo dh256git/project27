@@ -3,7 +3,7 @@ layout: default
 title: The modest ambition
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 In the short run, {{ site.brand }} is a digital, private notebook on a range of topics that matter to the author.
 It is a hobby activity, an opportunity to learn skills in web development, accessible content creation, audio editing, revising notes on physics and statistics, capturing and sharing life stories and recipes, expressing opinions and much more. .

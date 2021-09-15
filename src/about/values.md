@@ -3,7 +3,7 @@ layout: default
 title: Values
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 Our core values are:
 

@@ -3,18 +3,18 @@ layout: default
 title: Guidelines
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 This page outlines the content and review guidelines followed by {{ site.brand }}.
 
-## Content guidelines
+### Content guidelines
 
 The content authoring guidelines evolve alongside the growth of the project.
 These guidelines play a role in ensuring that content is consistent and of high quality.
 
 [Read the content guidelines](./content.html)
 
-## Review guidelines
+### Review guidelines
 
 No content, and no author is perfect.
 This is why peer reviews are a valued contribution at {{ site.brand }}.

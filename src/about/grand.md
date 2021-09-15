@@ -3,7 +3,7 @@ layout: default
 title: The grand ambition
 ---
 
-# {{ page.title }}
+## {{ page.title }}
 
 There exists a vision on the grand scale too.
 In the long run, the single author corpus is expanded to a collection of peer written and peer reviewed content.

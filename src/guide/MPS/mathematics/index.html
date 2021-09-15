@@ -7,11 +7,11 @@ levelToOpen: section
 listOfIcons: [["", "complex-numbers.png"], ["", "Differential-equations.png"], ["", "vectors.jpg"]]
 ---
 
-    <h1 class="cover-heading">Chapter on {{ page.title | downcase }}</h1>
+    <h2 class="cover-heading">Chapter on {{ page.title | downcase }}</h2>
 
 <p>Mathematics is the abstract science of number, quantity, and space, either as abstract concepts ( pure mathematics ), or as applied to other disciplines such as physics and engineering ( applied mathematics ).</p>
 
 <hr>
 
 {% assign dataFile = site.data.sections.mathematics %}
-{% include global/grid-generator.html heading="h2" %}
+{% include global/grid-generator.html heading="h3" %}

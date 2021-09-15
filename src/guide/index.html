@@ -7,7 +7,7 @@ listOfIcons: [["fas fa-atom", ""], ["fas fa-desktop", ""], ["fas fa-chart-line"]
 levelToOpen: volume
 ---
 <div class="container">
-    <h1 class="cover-heading">The {{ site.product }}: Scribbles of a blind scientist</h1>
+    <h2 class="cover-heading">The {{ site.product }}: Scribbles of a blind scientist</h2>
 
 <blockquote>
 The {{ site.brand }} {{ site.product }} is a set of descriptive notes on how to do tasks, I once knew how to do. Sadly, unless practice follows learning, all knowledge fades. - Daniel hajas
@@ -18,7 +18,7 @@ Its additional aims are to revise, study, research, innovate, and make aware.</p
 
 <hr>
 
-<h2>Science collection</h2>
+<h3>Science collection</h3>
 
 <p>The {{ site.brand }} Science collection is a collection of volumes on mathematical and physical sciences, computer literacy, and statistics.<p>
 
@@ -27,7 +27,7 @@ Why are these volumes included in the Science collection?
 {% endcapture %}
 
 {% capture repository1 %}
-<h3>Mathematical and Physical Sciences</h3>
+<h4>Mathematical and Physical Sciences</h4>
 
 <p>Editing the MPS volume is a good opportunity to</p>
 <ol>
@@ -50,7 +50,7 @@ research, experiment with, and log ways of writing scientific notation in access
 </li>
 </ol>
 
-<h3>Computer literacy</h3>
+<h4>Computer literacy</h4>
 
 <p>Editing the Computer literacy volume is a good opportunity to</p>
 
@@ -63,7 +63,7 @@ provide specific guidance and alternative solutions for screen reader users, whe
 </li>
 </ol>
 
-<h3>Statistics</h3>
+<h4>Statistics</h4>
 
 <p>Understanding the calculations of statistics, and being able to perform statistical analysis may be useful in most experimental branches of science, for example psychology, sociology, computer science, or any branch of natural science. Editing the Statistics volume is a good opportunity to</p>
 <ol>
@@ -83,12 +83,12 @@ share guidance on how to use R-markdown to interact with R in accessible ways.
 
 {% assign dataFile = site.data.volumes.guide %}
 {% assign gridLimit = 3 %}
-{% include global/grid-generator.html heading="h3" %}
+{% include global/grid-generator.html heading="h4" %}
 
 
 <hr>
 
-<h2>Lifestyle collection</h2>
+<h3>Lifestyle collection</h3>
 
 <p>
 The Lifestyle collection is a collection of volumes on cooking, journalism, and human relationships.
@@ -99,7 +99,7 @@ Why are these volumes included in the Lifestyle collection?
 {% endcapture %}
 
 {% capture repository2 %}
-<h3>Cookbook</h3>
+<h4>Cookbook</h4>
 
 <p>Editing the Cookbook is a good opportunity to</p>
 <ol>
@@ -117,7 +117,7 @@ study the management of simple databases, such as list of ingredients.
 </li>
 </ol>
 
-<h3>Vocal</h3>
+<h4>Vocal</h4>
 
 <p>Editing the Vocal album is a good opportunity to</p>
 <ol>
@@ -137,6 +137,6 @@ listen to, honour, and capture stories of family, friends, and other acquaintanc
 
 {% assign dataFile = site.data.volumes.guide %}
 {% assign gridOffset = 3 %}
-{% include global/grid-generator.html heading="h3" %}
+{% include global/grid-generator.html heading="h4" %}
 
 </div>

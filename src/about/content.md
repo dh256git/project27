@@ -3,12 +3,12 @@ layout: default
 title: The content
 ---
 
-# What's on {{ site.brand }}?
+## What's on {{ site.brand }}?
 
 The site is split into two parts: [Blog](../blog/index.html) and [{{ site.product }}.](../guide/index.html)
-Blog posts and {{ site.product }} scribbles both come in two flavours: technical, and lifestyle. 
+Blog posts and {{ site.product }} notes both come in two flavours: technical, and lifestyle. 
 
-## The blog
+### The blog
 
 The blog has two branches: [LogBook](../blog/logbook/index.html) and [TWIST.](../blog/twist/index.html)
 
@@ -19,7 +19,7 @@ This makes LogBook a more technical set of posts.
 Secondly, "The Way I See iT (TWIST) provides lifestyle and reflective posts.
 Topics are written in a wide spectrum, from living with vision impairment, through self-identities, to reading books.
 
-## The {{ site.product }}
+### The {{ site.product }}
 
 The {{ site.product }} is what I think about as an educational, web journal.
 Initially, five volumes form part of the journal.
@@ -32,20 +32,20 @@ Initially, five volumes form part of the journal.
  * [Cookbook;](../guide/cookbook/index.html)
  * [Vocal.](../guide/vocal/index.html)
 
-### Science repository
+#### Science collection
 
-The Mathematical and Physical Sciences (MPS) volume is a collection of scribbles on mathematical and physics content, organised into distinct issues, or chapters.
+The Mathematical and Physical Sciences (MPS) volume is a collection of notes on mathematical and physics content, organised into distinct issues, or chapters.
 This volume exists to develop universally accessible content that relies on the heavy use of mathematical notation and diagrams.
 
 The volume on computer literacy exists to offer a collection of handy tips on how to operate a set of tools, such as git for version control, bash for interacting through shell commands, or RMarkdown to produce accessible reports of statistical analysis.
-What's common in these scribbles is that they approach the task from the non-visual access point of view.
+What's common in these notes is that they approach the task from the non-visual access point of view.
 While a high percentage of tutorials describe how to create an RMD report using R Studio (an inaccessible GUI tool), there are not many who give clear instructions on how to do the same through shell commands.
 These are skills that a blind scientist might find useful.
 This volume also gives an opportunity to incubate solutions that makes reading computer code a more sophisticated experience for text-to-speech users, for instance auditory syntax highlighting.
 
-The Statistics volume is a set of scribbles on both theoretical and practical aspects of using statistics to our needs.
+The Statistics volume is a set of notes on both theoretical and practical aspects of using statistics to our needs.
 
-### Lifestyle repository
+#### Lifestyle collection
 
 The cookbook volume is nothing more but a collection of recipes.
 It secured a place because many people live with the assumption that blind people can not cook.
