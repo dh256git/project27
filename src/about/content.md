@@ -1,6 +1,8 @@
 ---
 layout: default
 title: The content
+buttonStyle: fg-general-chap
+backgroundStyle: bg-general-chap
 ---
 
 # What's on {{ site.brand }}?

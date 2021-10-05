@@ -1,6 +1,8 @@
 ---
 layout: default
 title: The grand ambition
+buttonStyle: fg-general-chap
+backgroundStyle: bg-general-chap
 ---
 
 # {{ page.title }}

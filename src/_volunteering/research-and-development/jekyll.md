@@ -4,6 +4,8 @@ title: Developing the site structure
 team: RnD
 task: Developing the site structure
 date: 2021-01-21
+buttonStyle: fg-general-chap
+backgroundStyle: bg-general-chap
 ---
 
 Could you enhance the site structure under the hood using Jekyll? Do you have ideas on how to improve the code written in Liquid syntax?

@@ -1,6 +1,8 @@
 ---
 layout: scribbles
 title: Scribbles on vectors
+buttonStyle: fg-guide-note
+backgroundStyle: bg-guide-note
 ---
 
 # Vectors

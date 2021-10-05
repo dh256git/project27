@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Volunteering and contributionsReview", "Content 
-buttonStyle: mybtn
+buttonStyle: fg-general-vol
+backgroundStyle: bg-general-vol
 ---
 
 {% assign teamRnD = site.volunteering | where:"team","RnD" %}
