@@ -4,6 +4,8 @@ title: Developing the visual design
 team: RnD
 task: Developing the visual design
 date: 2021-01-20
+buttonStyle: fg-general-chap
+backgroundStyle: bg-general-chap
 ---
 
 Could you make the {{ site.brand }} site look better?

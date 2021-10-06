@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Guidelines
+buttonStyle: fg-general-vol
+backgroundStyle: bg-general-vol
 ---
 
 ## {{ page.title }}

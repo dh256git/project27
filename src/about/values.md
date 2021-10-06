@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Values
+buttonStyle: fg-general-chap
+backgroundStyle: bg-general-chap
 ---
 
 ## {{ page.title }}

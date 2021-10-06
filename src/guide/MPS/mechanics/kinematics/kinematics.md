@@ -1,6 +1,8 @@
 ---
 layout: scribbles
 title: Scribbles on kinematics
+buttonStyle: fg-guide-note
+backgroundStyle: bg-guide-note
 ---
 
 # Scribbles on kinematics

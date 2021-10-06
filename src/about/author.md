@@ -1,6 +1,8 @@
 ---
 layout: default
 title: The author
+buttonStyle: fg-general-chap
+backgroundStyle: bg-general-chap
 ---
 
 ## Dr Daniel Hajas - Founder of {{ site.brand }}
