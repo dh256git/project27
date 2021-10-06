@@ -1,75 +1,83 @@
 /*! Bootstrap v4.3.1 (https://getbootstrap.com/) Copyright 2011-2019 The Bootstrap Authors Copyright 2011-2019 Twitter, Inc. Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */
-.bg-general-land { background: #9932CC; }
+.bg-general-land { background: #814FA7; }
 
-.bg-general-vol { background: #8A2BE2; }
+.bg-general-vol { background: #734B90; }
 
-.bg-blog-land { background: #87CEFA; }
+.bg-general-chap { background: #6E448E; }
 
-.bg-blog-vol { background: #6495ED; }
+.bg-blog-land { background: #87CEEB; }
 
-.bg-blog-chap { background: #4169E1; }
+.bg-blog-vol { background: #55ADD1; }
 
-.bg-blog-sect { background: #0000FF; }
+.bg-blog-chap { background: #4198BB; }
 
-.bg-guide-land { background: #90EE90; }
+.bg-blog-sect { background: #2980A2; }
 
-.bg-guide-vol { background: #00FF7F; }
+.bg-blog-note { background: #1B5F7A; }
 
-.bg-guide-chap { background: #3CB371; }
+.bg-guide-land { background: #98FB98; }
 
-.bg-guide-sect { background: #2E8B57; }
+.bg-guide-vol { background: #7ED27E; }
 
-.bg-guide-note { background: #008000; }
+.bg-guide-chap { background: #54B054; }
 
-.bg-nav-header { background: #C2C5AA; }
+.bg-guide-sect { background: #378037; }
 
-.bg-nav-footer { padding-left: 5px; background: #C2C5AA; text-align: center; }
+.bg-guide-note { background: #286128; }
+
+.bg-nav-header { background: #D3D3D3; }
+
+.bg-nav-footer { padding-left: 5px; background: #D3D3D3; text-align: center; }
 
 .photo-of-daniel { width: 50%; }
 
-.fg-general-land { background-color: #9932CC; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-bottom: 10px; margin-top: 10px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.fg-general-land { background-color: #814FA7; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-bottom: 10px; margin-top: 10px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.fg-general-vol { background-color: #8A2BE2; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-bottom: 10px; margin-top: 10px; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.fg-general-vol { background-color: #734B90; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-bottom: 10px; margin-top: 10px; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.mybtnnextbutton { background-color: #C2C5AA; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-top: 15px; padding: 4px; margin-left: 1px; max-width: 100em; text-align: center; }
+.fg-general-chap { background-color: #6E448E; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-bottom: 10px; margin-top: 10px; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.mybtnpreviousbutton { background-color: #C2C5AA; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-top: 15px; margin-bottom: 15px; padding: 4px; white-space: normal; width: 100px; text-align: center; }
+.mybtnnextbutton { background-color: #D3D3D3; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-top: 15px; padding: 4px; margin-left: 1px; max-width: 100em; text-align: center; }
 
-.fg-guide-land { background-color: #90EE90; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.mybtnpreviousbutton { background-color: #D3D3D3; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-top: 15px; margin-bottom: 15px; padding: 4px; white-space: normal; width: 100px; text-align: center; }
 
-.fg-guide-vol { background-color: #00FF7F; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.fg-guide-land { background-color: #98FB98; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.fg-guide-chap { background-color: #3CB371; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.fg-guide-vol { background-color: #7ED27E; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.fg-guide-sect { background-color: #2E8B57; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.fg-guide-chap { background-color: #54B054; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.fg-guide-note { background-color: #008000; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.fg-guide-sect { background-color: #378037; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.fg-blog-land { background-color: #87CEFA; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.fg-guide-note { background-color: #286128; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.fg-blog-vol { background-color: #6495ED; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.fg-blog-land { background-color: #87CEEB; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.fg-blog-chap { background-color: #4169E1; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.fg-blog-vol { background-color: #55ADD1; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.fg-blog-sect { background-color: #0000FF; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.fg-blog-chap { background-color: #4198BB; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.mybtnmps { background-color: #02af02; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.fg-blog-sect { background-color: #2980A2; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.mybtnmathematics { background-color: #01ca01; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.fg-blog-note { background-color: #1B5F7A; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.mybtnclassicmechanics { background-color: #21c521; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.mybtnmps { background-color: #7ED27E; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.mybtnoscillations { background-color: #35be35; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.mybtnmathematics { background-color: #54B054; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.mybtnquantummechanics { background-color: #45c045; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.mybtnclassicmechanics { background-color: #54B054; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.mybtncomputerliteracy { background-color: #2baf48; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.mybtnoscillations { background-color: #54B054; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.mybtnstatistics { background-color: #49af5f; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.mybtnquantummechanics { background-color: #54B054; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.mybtncookbook { background-color: #6cd182; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.mybtncomputerliteracy { background-color: #7ED27E; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.mybtnvocal { background-color: #8dd49d; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.mybtnstatistics { background-color: #7ED27E; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+
+.mybtncookbook { background-color: #7ED27E; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+
+.mybtnvocal { background-color: #7ED27E; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
 nav li { display: list-item; margin-right: 20px; font-weight: bold; }
 
@@ -83,9 +91,9 @@ nav a { color: black; }
 
 .mycontainer { text-align: left; padding-right: 20px; padding-left: 15px; }
 
-.mybtn { background-color: #C2C5AA; border: solid black 3px; font-weight: bold; margin-top: 30px; border-radius: 12px; position: relative; display: inline-block; overflow: hiddens; font-weight: bold; }
+.mybtn { background-color: #D3D3D3; border: solid black 3px; font-weight: bold; margin-top: 30px; border-radius: 12px; position: relative; display: inline-block; overflow: hiddens; font-weight: bold; }
 
-.mybtswitch { background: #C2C5AA; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; margin-bottom: 5px; }
+.mybtswitch { background: #D3D3D3; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; margin-bottom: 5px; }
 
 .poweredby { padding-top: 15px; height: 80px; padding-right: 10px; }
 
