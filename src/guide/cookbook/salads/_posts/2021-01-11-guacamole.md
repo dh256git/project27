@@ -2,6 +2,8 @@
 layout: recipes
 title: Guacamole
 menu: salads
+buttonStyle: fg-guide-sect
+backgroundStyle: bg-guide-sect
 video: https://youtu.be/-mHfm9FGmGI
 music: https://open.spotify.com/playlist/37i9dQZF1E8LaodrxNOC26?si=4aIi2q8AQi-XlRd-7pQU2g
 additional:

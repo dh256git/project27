@@ -2,6 +2,8 @@
 layout: recipes
 title: Cottage cheese pasta bake
 menu: pasta
+buttonStyle: fg-guide-sect
+backgroundStyle: bg-guide-sect
 video: https://youtu.be/P3_adq1GUro
 music: https://open.spotify.com/user/spotify/playlist/37i9dQZF1DZ06evO1SC425?si=jzJwDaN9RM-uak4XEwGrOA
 additional:

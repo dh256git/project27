@@ -1,7 +1,9 @@
 ---
 layout: recipes
 title: 
-menu: 
+menu:
+buttonStyle: fg-guide-sect
+backgroundStyle: bg-guide-sect
 video: 
 music: 
 additional:

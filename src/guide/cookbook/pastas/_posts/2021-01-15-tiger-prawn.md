@@ -2,6 +2,8 @@
 layout: recipes
 title: Tiger prawn and wild garlic pesto pasta
 menu: pasta
+buttonStyle: fg-guide-sect
+backgroundStyle: bg-guide-sect
 video: https://youtu.be/3aQIYxXLlP4
 music: https://open.spotify.com/playlist/37i9dQZF1DZ06evO2piM6c?si=dZHuHcdOQLacrYrR7N5_Yg
 additional:

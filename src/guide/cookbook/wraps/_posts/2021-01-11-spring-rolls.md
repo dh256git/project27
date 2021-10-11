@@ -2,6 +2,8 @@
 layout: recipes
 title: Vietnamese spring rolls
 menu: wraps and rolls
+buttonStyle: fg-guide-sect
+backgroundStyle: bg-guide-sect
 video: https://youtu.be/7uzL7Ep2Ii0
 music: https://open.spotify.com/album/5O2Blb3Ti3eHPluZq7hfrk?si=A00Cj6mOTeapmfKbc9Iy9w
 additional:
