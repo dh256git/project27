@@ -21,12 +21,14 @@
 
   <header>
   <!--class="masthead mb-auto"-->
+<div class="bg-background">
 <div class="row">
 <div class="col-md-6">
 <a class="d-flex justify-content-center" href="#mainContent">Skip to main content</a>
 </div>
 <div class="col-md-6">
 <a class="d-flex justify-content-center" href="#footerContent">Skip to footer</a>
+</div>
 </div>
 </div>
 
@@ -41,7 +43,7 @@
 {% include global/navigation.html %}
   </header>
 
-  <main role="main" id="mainContent" class="container">
+  <main role="main" id="mainContent" class="container bg-background">
 {% include global/navigation-secondary.html %}
  {{   content   }}
   </main>
