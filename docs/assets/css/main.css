@@ -23,13 +23,13 @@
 
 .bg-guide-sect { background: #378037; }
 
-.bg-guide-note { background: #286128; }
+.bg-guide-note { background: #336F25; }
 
 .bg-nav-header { background: #D3D3D3; }
 
 .bg-nav-footer { padding-left: 5px; background: #D3D3D3; text-align: center; }
 
-.photo-of-daniel { width: 50%; }
+.bg-background { background: #F8F5E9; }
 
 .fg-general-land { background-color: #814FA7; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-bottom: 10px; margin-top: 10px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
@@ -79,6 +79,10 @@
 
 .mybtnvocal { background-color: #7ED27E; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
+.mybtn { background-color: #D3D3D3; border: solid black 3px; font-weight: bold; margin-top: 30px; border-radius: 12px; position: relative; display: inline-block; overflow: hiddens; font-weight: bold; }
+
+.mybtswitch { background: #D3D3D3; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; margin-bottom: 5px; }
+
 nav li { display: list-item; margin-right: 20px; font-weight: bold; }
 
 nav a { color: black; }
@@ -91,9 +95,9 @@ nav a { color: black; }
 
 .mycontainer { text-align: left; padding-right: 20px; padding-left: 15px; }
 
-.mybtn { background-color: #D3D3D3; border: solid black 3px; font-weight: bold; margin-top: 30px; border-radius: 12px; position: relative; display: inline-block; overflow: hiddens; font-weight: bold; }
+.you-are-here { font-size: 1.25em; color: #000; font-family: Charter; }
 
-.mybtswitch { background: #D3D3D3; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; margin-bottom: 5px; }
+.photo-of-daniel { width: 50%; }
 
 .poweredby { padding-top: 15px; height: 80px; padding-right: 10px; }
 
@@ -110,8 +114,6 @@ nav a { color: black; }
 .poweredbyx7 { padding-top: 11px; height: 80px; padding-right: 10px; }
 
 .license { color: black; padding-left: 5px; margin-left: 10px; display: block; }
-
-.you-are-here { font-size: 1.25em; color: #000; font-family: Charter; }
 
 :root { --blue: #007bff; --indigo: #6610f2; --purple: #6f42c1; --pink: #e83e8c; --red: #dc3545; --orange: #fd7e14; --yellow: #ffc107; --green: #28a745; --teal: #20c997; --cyan: #17a2b8; --white: #fff; --gray: #6c757d; --gray-dark: #343a40; --primary: #8d021f; --secondary: #6c757d; --success: #28a745; --info: #17a2b8; --warning: #ffc107; --danger: #dc3545; --light: #f8f9fa; --dark: #343a40; --breakpoint-xs: 0; --breakpoint-sm: 576px; --breakpoint-md: 768px; --breakpoint-lg: 992px; --breakpoint-xl: 1200px; --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
