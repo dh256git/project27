@@ -2,6 +2,8 @@
 layout: recipes
 title: Asparagus bacon bundles
 menu: meat feast
+buttonStyle: fg-guide-sect
+backgroundStyle: bg-guide-sect
 video: https://youtu.be/Xk3UfRdwm7o
 music: https://open.spotify.com/playlist/37i9dQZF1DX1riuLHc7Ui5?si=P7Fz8s18QQKamfbkYGBJ_w
 additional:

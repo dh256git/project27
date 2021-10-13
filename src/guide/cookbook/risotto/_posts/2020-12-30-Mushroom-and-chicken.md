@@ -2,6 +2,8 @@
 layout: recipes
 title: Mushroom and chicken risotto
 menu: risotto
+buttonStyle: fg-guide-sect
+backgroundStyle: bg-guide-sect
 video: https://youtu.be/d2_VQhp3ThI
 music: https://open.spotify.com/user/spotify/playlist/37i9dQZF1DWUofLlXqRWZz?si=USn4-F9USKyABFz6jLhhtg
 additional:

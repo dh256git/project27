@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Legal statements
+buttonStyle: fg-general-vol
+backgroundStyle: bg-general-vol
 ---
 
 ## {{ page.title }}

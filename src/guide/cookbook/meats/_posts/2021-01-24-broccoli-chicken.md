@@ -2,6 +2,8 @@
 layout: recipes
 title: Broccoli with honey glazed chicken
 menu: meat feast
+buttonStyle: fg-guide-sect
+backgroundStyle: bg-guide-sect
 video: https://youtu.be/49wU-HxpK1Y
 music: https://open.spotify.com/playlist/37i9dQZF1E8TxPTejrlr81?si=-kV5aNERRXaMfq0WuERfvw
 additional:

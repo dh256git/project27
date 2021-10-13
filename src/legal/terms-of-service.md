@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Terms of service
+buttonStyle: fg-general-chap
+backgroundStyle: bg-general-chap
 ---
 
 ## {{ page.title }}

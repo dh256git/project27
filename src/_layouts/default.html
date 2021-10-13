@@ -19,6 +19,7 @@
 
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
 
+<div class="bg-background">
 <div class="row">
 <div class="col-md-6">
 <a class="d-flex justify-content-center" href="#mainContent">Skip to main content</a>
@@ -38,8 +39,10 @@
 
 {% include global/navigation.html %}
   </header>
+</div>
 
-  <main id="mainContent" class="container">
+  <main role="main" id="mainContent" class="container bg-background">
+
 {% include global/navigation-secondary.html %}
  {{   content   }}
   </main>

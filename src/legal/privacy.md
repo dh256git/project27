@@ -2,6 +2,8 @@
 layout: default
 title: Privacy statement
 date: 26th of June, 2021
+buttonStyle: fg-general-chap
+backgroundStyle: bg-general-chap
 ---
 
 ## {{ page.title }}

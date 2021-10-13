@@ -2,6 +2,8 @@
 layout: recipes
 title: Prawn cocktail
 menu: fish dish
+buttonStyle: fg-guide-sect
+backgroundStyle: bg-guide-sect
 video: https://youtu.be/kJhGS3JOhS0
 music: https://open.spotify.com/user/janhenrikd/playlist/5HMe6iNknDegDrxHmTJvwf?si=_IOJt_o7RMC19a4aw1oAOQ
 additional:
