@@ -17,20 +17,20 @@ This page introduces the {{ site.brand }} vision and mission, why it exists, who
 
 ---
 
-> Welcome, my name is Daniel, and the {{ site.brand }} vision is my vision too. 
-> 
+> Welcome, my name is Daniel, and the {{ site.brand }} vision is my vision too.
+>
 > I lost my sight at the age of 16. Yet, I live a good life.
 I have a doctorate degree in science, I have a healthy social life, and I live independently.
 My journey was not easy, but it was doable with support and the right mindset.
 So now, I would like to help those who are at the beginning of their journey.
 This is why I created {{ site.brand }}.
-> 
+>
 > The {{ site.brand }} Blog is where I express my opinion, insights, and experiences.
 The {{ site.brand }} {{ site.product }} is where I publish scribbles on technical and lifestyle challenges I have once faced, and the solutions that helped me overcome these challenges.
-> 
+>
 > {{ site.brand }} is really a warehouse of challenges and solutions.
 I truly wish that the content and the spirit of {{ site.brand }} will become not only my own, but a shared vision of many.
-> 
+>
 > So long, all the best!  
 > Daniel
 
@@ -56,17 +56,17 @@ The topics of the product owner's personal interest are expanded to community in
 
 The culture at {{ site.brand }} is defined by four core values:
 
-1. commitment,
-2. openness,
-3. respect, and
-4. engagement.
+1. Commitment
+2. Openness
+3. Respect
+4. Engagement
 
 [Read more about our values](./values.html)
 
 ### What's on {{ site.brand }}?
 
 The site is split into two parts: [Blog](./blog/index.html) and [{{ site.product }}.](./guide/index.html)
-Blog posts and {{ site.product }} scribbles both come in two flavours: technical, and lifestyle. 
+Blog posts and {{ site.product }} scribbles both come in two flavours: technical, and lifestyle.
 
 The blog has two branches: [LogBook](./blog/logbook/index.html) and [TWIST.](./blog/twist/index.html)
 
@@ -74,12 +74,12 @@ The {{ site.product }} is what I think about as an educational, web journal.
 Initially, five volumes, separated into two collections, form part of the {{ site.product }}.
 
 1. Science collection:
- * [Mathematical and Physical Sciences (MPS);](./guide/MPS/index.html)
- * [Computer Literacy;](./guide/CL/index.html)
- * [Statistics;](./guide/statistics/index.html)
+  * [Mathematical and Physical Sciences (MPS);](./guide/MPS/index.html)
+  * [Computer Literacy;](./guide/CL/index.html)
+  * [Statistics;](./guide/statistics/index.html)
 2. Lifestyle collection:
- * [Cookbook;](./guide/cookbook/index.html)
- * [Vocal.](./guide/vocal/index.html)
+  * [Cookbook;](./guide/cookbook/index.html)
+  * [Vocal.](./guide/vocal/index.html)
 
 [Read more about what you will find on this site](./content.html)
 

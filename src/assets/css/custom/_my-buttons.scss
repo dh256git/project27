@@ -321,13 +321,13 @@ padding: 0 20px;
 margin: 0;
 }
 
-.mybtn {
+.mysecondarybtn {
 background-color: #D3D3D3;
 border: solid black 3px;
 font-weight: bold;
 margin-top: 30px;
 border-radius: 12px;
-position: relative;
+position: sticky;
 display: inline-block;
 overflow: hiddens;
 font-weight: bold;
@@ -341,3 +341,4 @@ border-radius: 12px;
 display: inline-block;
 margin-bottom: 5px;
 }
+
