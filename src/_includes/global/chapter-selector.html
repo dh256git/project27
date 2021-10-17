@@ -1,6 +1,6 @@
 <div class="dropdown bg-my-nav">
 <button type="button" class="mybtn" data-toggle="collapse" data-target="#chapter-selector" aria-haspopup="true">Chapter</button>
-        <div class="dropdown-menu" aria-labelledby="chapter-selector" id="chapter-selector">
+        <div class="dropdown-menu" id="chapter-selector">
   {% if page.url contains "MPS" %}
   {% for item in site.data.chapters.MPS %}
           <a class="dropdown-item" href="{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>

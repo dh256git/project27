@@ -1,6 +1,6 @@
 <div class="dropdown bg-my-nav">
 <button type="button" class="mybtn" data-toggle="collapse" data-target="#section-selector" aria-haspopup="true">Section</button>
-        <div class="dropdown-menu" aria-labelledby="section-selector" id="section-selector">
+        <div class="dropdown-menu" id="section-selector">
   {% if page.url contains "mathematics" %}
   {% for item in site.data.sections.mathematics %}
           <a class="dropdown-item" href="{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
