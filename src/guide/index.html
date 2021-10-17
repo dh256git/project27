@@ -137,11 +137,11 @@ Why are these volumes included in the Lifestyle collection?
 {% endcapture %}
 
 {% capture repository2 %}
-{% include global/collapseable.html trigger="Cookbook" paragraph=why-cookbook ID="r02-1" %}
-{% include global/collapseable.html trigger=Vocal paragraph=why-vocal ID="r02-2" %}
+{% include global/collapseable.html trigger="Cookbook" paragraph=why-cookbook ID="r02-1" style=""%}
+{% include global/collapseable.html trigger=Vocal paragraph=why-vocal ID="r02-2" style="" %}
 {% endcapture %}
 
-{% include global/collapseable.html trigger=why-lifestyle paragraph=repository2 ID="r02" %}
+{% include global/collapseable.html trigger=why-lifestyle paragraph=repository2 ID="r02" style="" %}
 
 {% assign dataFile = site.data.volumes.guide %}
 {% assign gridOffset = 3 %}
