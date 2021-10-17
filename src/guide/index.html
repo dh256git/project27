@@ -95,11 +95,7 @@ share guidance on how to use R-markdown to interact with R in accessible ways.
 The Lifestyle collection is a collection of volumes on cooking, journalism, and human relationships.
 </p>
 
-{% capture why-lifestyle %}
-Why are these volumes included in the Lifestyle collection?
-{% endcapture %}
-
-{% capture repository2 %}
+{% capture why-cookbook %}
 <h4>Cookbook</h4>
 
 <p>Editing the Cookbook is a good opportunity to</p>
@@ -117,7 +113,9 @@ research semantic text-to-speech solutions in context of measuring units used in
 study the management of simple databases, such as list of ingredients.
 </li>
 </ol>
+{% endcapture %}
 
+{% capture why-vocal %}
 <h4>Vocal</h4>
 
 <p>Editing the Vocal album is a good opportunity to</p>
@@ -132,6 +130,15 @@ study and share how to do audio editing in practice using the Reaper program;
 listen to, honour, and capture stories of family, friends, and other acquaintances.
 </li>
 </ol>
+{% endcapture %}
+
+{% capture why-lifestyle %}
+Why are these volumes included in the Lifestyle collection?
+{% endcapture %}
+
+{% capture repository2 %}
+{% include global/collapseable.html trigger="Cookbook" paragraph=why-cookbook ID="r02-1" %}
+{% include global/collapseable.html trigger=Vocal paragraph=why-vocal ID="r02-2" %}
 {% endcapture %}
 
 {% include global/collapseable.html trigger=why-lifestyle paragraph=repository2 ID="r02" %}
