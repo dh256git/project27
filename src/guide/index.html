@@ -26,7 +26,7 @@ Its additional aims are to revise, study, research, innovate, and make aware.</p
 Why are these volumes included in the Science collection?
 {% endcapture %}
 
-{% capture repository1 %}
+{% capture why-MPS %}
 <h4>Mathematical and Physical Sciences</h4>
 
 <p>Editing the MPS volume is a good opportunity to</p>
@@ -49,7 +49,9 @@ into sections and chapters, which make more structural sense, than the original 
 research, experiment with, and log ways of writing scientific notation in accessible formats.
 </li>
 </ol>
+{% endcapture %}
 
+{% capture why-computer %}
 <h4>Computer literacy</h4>
 
 <p>Editing the Computer literacy volume is a good opportunity to</p>
@@ -62,8 +64,9 @@ organise "how to" notes on various topics of computer literacy,
 provide specific guidance and alternative solutions for screen reader users, where available online resources are not considering accessibility.
 </li>
 </ol>
+{% endcapture %}
 
-
+{% capture why-statistics %}
 <h4>Statistics</h4>
 
 <p>Understanding the calculations of statistics, and being able to perform statistical analysis may be useful in most experimental branches of science, for example psychology, sociology, computer science, or any branch of natural science. Editing the Statistics volume is a good opportunity to</p>
@@ -78,6 +81,14 @@ practice statistical analysis using the open source program "R";
 share guidance on how to use R-markdown to interact with R in accessible ways.
 </li>
 </ol>
+{% endcapture %}
+
+{% capture repository1 %}
+{% include global/collapseable.html trigger="Mathematical and Physical Sciences" paragraph=why-MPS ID="r01-1" style="" %}
+
+{% include global/collapseable.html trigger="Computer literacy" paragraph=why-computer ID="r01-2" style="" %}
+
+{% include global/collapseable.html trigger="Statistics" paragraph=why-statistics ID="r01-3" style="" %}
 {% endcapture %}
 
 {% include global/collapseable.html trigger=why-science paragraph=repository1 ID="r01" %}
