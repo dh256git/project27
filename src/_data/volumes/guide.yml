@@ -6,10 +6,10 @@
   description: Computer Literacy is a volume of notes on how to do small, practical tasks on the computer, in context of studying, researching, and publishing scientific content.
 - name: Statistics
   link: /guide/statistics/index.html
-  description: Statistics is a volume of notes on statistical methods.
+  description: Statistics is a volume of notes on how statistical calculations work in a mathematical sense. Practical tips on how statistical analysis is done on a computer are also included.
 - name: Cookbook
   link: /guide/cookbook/index.html
-  description: CookBook is a volume of recipes coming from the project contributors.
+  description: CookBook is a volume of recipes coming from the project contributors. People living with sight loss can indeed cook delicious meals. We show how.
 - name: Vocal
   link: /guide/vocal/index.html
   description: Vocal is a volume of short biographies and audio recorded conversations with family, friends, and acquaintances of the Project27 author. The album's key objective is to portray multiple life stories and honour the storytellers.
