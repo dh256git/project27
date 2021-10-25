@@ -45,7 +45,7 @@ padding: 0 20px;
 margin: 0;
 }
 
-.mybtnnextbutton{
+.next-post{
 background-color: #D3D3D3;
 font-size: 20px;
 color: black;
@@ -59,7 +59,7 @@ max-width: 100em;
 text-align: center;
 }
 
-.mybtnpreviousbutton {
+.previous-post{
 background-color: #D3D3D3;
 font-size: 20px;
 color: black;
@@ -342,3 +342,10 @@ display: inline-block;
 margin-bottom: 5px;
 }
 
+.dropdown{
+padding: 15px;
+}
+
+.dropdown-menu{
+padding: 15px;
+}
