@@ -83,9 +83,7 @@
 
 .mybtswitch { background: #D3D3D3; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; margin-bottom: 5px; }
 
-.dropdown { padding: 15px; }
-
-.dropdown-menu { padding: 15px; }
+.volume-selector { width: 100%; overflow: unset; text-overflow: inherit; position: absolute; text-indent: unset; display: inline-block; vertical-align: middle; white-space: normal; }
 
 nav li { display: list-item; margin-right: 20px; font-weight: bold; }
 
