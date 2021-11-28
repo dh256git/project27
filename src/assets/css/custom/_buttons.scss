@@ -51,11 +51,14 @@ font-size: 20px;
 color: black;
 border: solid rgb(0, 0, 0) 3px;
 font-weight: bold;
-border-radius: 12px;
+width: fit-content;
+height: fit-content;
+border-radius: 22px;
 margin-top: 15px;
-padding: 4px;
+margin-bottom: 15px;
+padding: 0px 10px;
 margin-left: 1px;
-max-width: 100em;
+display: inline-flex;
 text-align: center;
 }
 
@@ -65,13 +68,16 @@ font-size: 20px;
 color: black;
 border: solid rgb(0, 0, 0) 3px;
 font-weight: bold;
-border-radius: 12px;
+width: fit-content;
+height: fit-content;
+border-radius: 22px;
 margin-top: 15px;
 margin-bottom: 15px;
-padding: 4px;
+padding: 0px 10px;
 white-space: normal;
-width: 100px;
 text-align: center;
+display: inline-flex;
+position: relative;
 }
 
 .fg-guide-land{
@@ -350,5 +356,4 @@ margin-bottom: 5px;
       text-indent: unset;
       display: inline-block;
       vertical-align: middle;
-      white-space: normal;
 } 
