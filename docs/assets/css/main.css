@@ -37,9 +37,9 @@
 
 .fg-general-chap { background-color: #6E448E; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-bottom: 10px; margin-top: 10px; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.next-post { background-color: #D3D3D3; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-top: 15px; padding: 4px; margin-left: 1px; max-width: 100em; text-align: center; }
+.next-post { background-color: #D3D3D3; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; width: fit-content; height: fit-content; border-radius: 22px; margin-top: 15px; margin-bottom: 15px; padding: 0px 10px; margin-left: 1px; display: inline-flex; text-align: center; }
 
-.previous-post { background-color: #D3D3D3; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-top: 15px; margin-bottom: 15px; padding: 4px; white-space: normal; width: 100px; text-align: center; }
+.previous-post { background-color: #D3D3D3; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; width: fit-content; height: fit-content; border-radius: 22px; margin-top: 15px; margin-bottom: 15px; padding: 0px 10px; white-space: normal; text-align: center; display: inline-flex; position: relative; }
 
 .fg-guide-land { background-color: #98FB98; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
@@ -83,7 +83,7 @@
 
 .mybtswitch { background: #D3D3D3; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; margin-bottom: 5px; }
 
-.volume-selector { width: 100%; overflow: unset; text-overflow: inherit; position: absolute; text-indent: unset; display: inline-block; vertical-align: middle; white-space: normal; }
+.volume-selector { width: 100%; overflow: unset; text-overflow: inherit; position: absolute; text-indent: unset; display: inline-block; vertical-align: middle; }
 
 nav li { display: list-item; margin-right: 20px; font-weight: bold; }
 
