@@ -1,0 +1,25 @@
+<select onchange="handleChange(this)">
+  <option value="http://www.example.com/#url1" label="label1" data-customvar="customvar 1">URL 1</option>
+  <option value="http://www.example.com/#url2" label="label2" data-customvar="customvar 2">URL 2</option>
+  <option value="http://www.example.com/#url3" label="label3" data-customvar="customvar 3">URL 3</option>
+</select>
+
+<iframe id="iframe-id"></iframe>
+<h1 id="which-url"></h1>
+
+<script>
+  const handleChange = (select) => {
+    const option = select.selectedOptions[0];
+
+    const value = option.value;
+    const label = option.label;
+    const text = option.text;
+    const customvar = option.dataset.customvar;
+
+    console.log(value, label, text, customvar);
+
+    document.getElementById('iframe-id').setAttribute('src', value);
+    document.getElementById('iframe-id').setAttribute('title', label);
+    document.getElementById('which-url').innerHTML = value;
+  }
+</script>

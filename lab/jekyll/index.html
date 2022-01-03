@@ -1,61 +1,17 @@
----
-layout: default
-title: "Happy Jekylling!"
-list: [["", "apple2"], ["", "banana2"], ["kivi", "kivi2"]]
-listText: ["I like ", "I love ", "I do not like "]
----
+<select id="page-selector" onchange="handleChange(this.value)">
+  <option value="./test-pages/page1.html" selected="selected">First page</option>
+  <option value="./test-pages/page2.html">Second page</option>
+  <option value="./test-pages/page3.html">Third page</option>
+</select>
 
-<h1>arrays</h1>
+<iframe id="iframe-id" src="./test-pages/page1.html" title="First page"></iframe>
 
-<ul>
-{% assign gridOffset = 2 %}
-{% for item in page.listText offset: gridOffset%}
-{% assign loopIndex = forloop.index0 | plus: gridOffset %}
-{% if page.list[loopIndex][0] == "" %}
-<li>{{ loopIndex }}. {{ item }} {{ page.list[loopIndex][1] }}</li>
-{% else %}
-<li>{{ loopIndex }}. {{ item }} {{ page.list[loopIndex][0] }}</li>
-{% endif %}
-{% endfor %}
-</ul>
-
-# Data access
-
-{% assign var = site.data.logbook[1] %}
-
-{{ var.name }}
-
-# Embedding YouTube video 
-
-Hello
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2yzHkGTnAe4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-# Loops and grids
-
-Loop:
-
-{% assign myvariable = page.list %}
-{% assign gridLimit = 3 %}
-{% assign gridOffset = 1 %}
-{% include for.html myLim=gridLimit %}
-
-
-Grid:
-
-{% for item in myvariable %}                       
-    {% assign rowfinder = forloop.index | modulo: 2 %}
-    {% if rowfinder == 1 %}
-      <div aria-label="row">
-      <div aria-label="column"><h1>{{ item.name }}</h1><p>{{ item.description }}</p><a href="{{ item.link }}">Open {{ item.name }}</a></div>
-    {% elsif rowfinder == 0 %}
-      <div aria-label="column"><h1>{{ item.name }}</h1><p>{{ item.description }}</p><a href="{{ item.link }}">Open {{ item.name }}</a></div>
-      </div>
-    {% else %}
-      <div aria-label="column"><h1>{{ item.name }}</h1><p>{{ item.description }}</p><a href="{{ item.link }}">Open {{ item.name }}</a></div>
-    {% endif %}
-{% endfor %}
-<!-- if more than two columns are desired and modulo can take other values than 0 and 1. -->
-{% if rowfinder != 0 %}
-      </div>
-{% endif %}
+<script>
+  const handleChange = (value) => {
+    console.log(value);
+    document.getElementById('iframe-id').setAttribute('src', value);
+    var popupMenu = document.getElementById("page-selector");
+    var selectedMenuItem = popupMenu.options[popupMenu.selectedIndex].text;
+    document.getElementById('iframe-id').setAttribute('title', selectedMenuItem);
+  }
+</script>
