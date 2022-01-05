@@ -9,6 +9,7 @@ backgroundStyle: bg-blog-note
 ---
 
 It's been said that fire is the greatest discovery in history, and writing is the greatest invention of time. Writing enables people to capture their thoughts and share it with other people, who can read.
+<!-- excerpt-end -->
 
 The identities our personality is made up of; in part evolve through meeting other people, who share the same identity as us. Learning from experiences of role models, conversing with others, helps us to adopt a certain desired behaviour, attitude, or insight; all of which shape how we exhibit an identity. 
 
