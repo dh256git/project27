@@ -34,4 +34,4 @@ We have a [public board](https://trello.com/b/0TnZCOLE/issue-tracking) to track 
 
 If there is an issue you spotted, and you would like to let us know, you can [e-mail the issue into the inbox list](mailto:dhajas+uuw95qpr3nkff4ghokvs@boards.trello.com) on the public Trello board. 
 
-Simply put a brief "issue title" in the subject of the e-mail, and a full description of the issue in the body of the e-mail. We appreciate these descriptions to be written in markdown.
+Simply put a brief "issue title" in the subject of the e-mail, and a full description of the issue in the body of the e-mail. We appreciate these descriptions to be written in markdown. We even crafted a handy [issue tracking template]({{ site.baseurl }}{% link assets/documents/Project27--Issue-Tracking-Template.md %}), which you can copy directly into the body of your e-mail, fill in, then send.
