@@ -85,6 +85,8 @@
 
 .volume-selector { width: 100%; overflow: unset; text-overflow: inherit; position: absolute; text-indent: unset; display: inline-block; vertical-align: middle; }
 
+a.disabled { /* Make the disabled links grayish*/ color: #a7a4a4; opacity: 30%; /* And disable the pointer events */ pointer-events: none; }
+
 nav li { display: list-item; margin-right: 20px; font-weight: bold; }
 
 nav a { color: black; }
@@ -116,6 +118,10 @@ nav a { color: black; }
 .mycontainer { text-align: left; padding-right: 20px; padding-left: 15px; }
 
 .you-are-here { font-size: 1.25em; color: #000; font-family: Charter; font-weight: bold; }
+
+.modal { display: none; position: fixed; top: 5%; left: 0; right: 0; margin: 0 auto 0 auto; background: white; max-width: 500px; padding: 40px; border-radius: 3px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); z-index: 2; }
+
+.modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; cursor: pointer; background: rgba(0, 0, 0, 0.4); }
 
 :root { --blue: #007bff; --indigo: #6610f2; --purple: #6f42c1; --pink: #e83e8c; --red: #dc3545; --orange: #fd7e14; --yellow: #ffc107; --green: #28a745; --teal: #20c997; --cyan: #17a2b8; --white: #fff; --gray: #6c757d; --gray-dark: #343a40; --primary: #8d021f; --secondary: #6c757d; --success: #28a745; --info: #17a2b8; --warning: #ffc107; --danger: #dc3545; --light: #f8f9fa; --dark: #343a40; --breakpoint-xs: 0; --breakpoint-sm: 576px; --breakpoint-md: 768px; --breakpoint-lg: 992px; --breakpoint-xl: 1200px; --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
