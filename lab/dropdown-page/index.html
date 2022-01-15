@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Modals and Keyboard Traps</title>
+    <meta name="description" content="Fixing tabindex">
+
+    <!-- Mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+<h4>Science collection</h4>
+<p>The Project27 Science collection is a collection of volumes on mathematical and physical sciences, computer literacy, and statistics.</p>
+<p>If you want to find out more about why these volumes are in the Sience collection click on the button below.</p>
+    <button class="modal-toggle">Why are these volumes included in the Science collection?</button>
+
+<div aria-role="dialog"> 
+<div class="modal">
+<h1>Mathematical and Physical Sciences</h1>
+<p>Editing the MPS volume is a good opportunity to revise the author's knowledge on physics;
+organise previously written notes on mathematics and physics into sections and chapters, which make more structural sense, than the original organisation of notes, and
+ according to {{ site.brand }} guidelines; research, experiment with, and log ways of writing scientific notation in accessible formats.
+<button class="modal-close">OK</button>
+</div>
+    <div class="modal-overlay"></div>
+
+    <script src="modal.js"></script>
+  </body>
+</html>

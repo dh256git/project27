@@ -357,3 +357,11 @@ margin-bottom: 5px;
       display: inline-block;
       vertical-align: middle;
 } 
+
+a.disabled {
+      /* Make the disabled links grayish*/
+      color: rgb(167, 164, 164);
+      opacity: 30%;
+      /* And disable the pointer events */
+      pointer-events: none;
+    }
