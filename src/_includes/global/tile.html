@@ -7,6 +7,14 @@
 
       <p>{{ item.description }}</p>
 
+{% if page.title == "Project27 Guide" %}
+<div id="{{ page.listOfDots[loopIndex] }}">Why is the {{ item.name }} {{ page.levelToOpen }} included in the {{ site.brand }} {{ site.product }}?</div>
+
+{% include guide/why.html %}
+
+<button onclick="{{ page.listOfFunctions[loopIndex] }}" id="{{ page.listOfButtons[loopIndex] }}">Read more</button>
+{% endif %}
+
       <a class="{{ page.buttonStyle }}" href="{{ item.link | prepend: site.baseurl }}">
 {% if item.buttonLabel %}      
 {{ item.buttonLabel }}
