@@ -8,11 +8,18 @@
       <p>{{ item.description }}</p>
 
 {% if page.title == "Project27 Guide" %}
-<div id="{{ page.listOfDots[loopIndex] }}">Why is the {{ item.name }} {{ page.levelToOpen }} included in the {{ site.brand }} {{ site.product }}?</div>
+<div class="row">
+<div class="col">
+<div id="{{ page.listOfDots[loopIndex] }}"></div>
 
 {% include guide/why.html %}
-
-<button onclick="{{ page.listOfFunctions[loopIndex] }}" id="{{ page.listOfButtons[loopIndex] }}">Read more</button>
+</div>
+</div>
+<div class="row">
+<div class="col">
+<button onclick="{{ page.listOfFunctions[loopIndex] }}" id="{{ page.listOfButtons[loopIndex] }}" aria-label="Why is the {{ item.name }} {{ page.levelToOpen }} included in the {{ site.brand }} {{ site.product }}?">Read More</button>
+</div>
+</div>
 {% endif %}
 
       <a class="{{ page.buttonStyle }}" href="{{ item.link | prepend: site.baseurl }}">
