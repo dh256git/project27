@@ -11,7 +11,13 @@ This page introduces the {{ site.brand }} vision and mission, why it exists, who
 
 ---
 
-### Who is behind {{ site.brand }}?
+### Meet the {{ site.brand }} team
+
+Currently, a dream duo (Daniel and Danielle) is working on {{ site.brand }}. We are partners in life, as much as working on this project.
+
+[Learn more about the team](./team/index.html)
+
+### Where did {{ site.brand }} begin?
 
 {{ site.brand }} was started by a blind science graduate, called Daniel. He develops the project, with the help of contributions made by  his friends, family members, and colleagues.
 
@@ -36,7 +42,7 @@ I truly wish that the content and the spirit of {{ site.brand }} will become not
 
 ---
 
-[View Daniel's profile to read the complete welcome letter](./author.html)
+To read the complete welcome letter, [view Daniel's profile](./author.html)
 
 ### The modest ambition
 
