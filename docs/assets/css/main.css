@@ -31,6 +31,10 @@
 
 .bg-background { background: #F8F5E9; }
 
+.hidden-text { display: none; }
+
+.hidden-text { border: none; }
+
 .fg-general-land { background-color: #814FA7; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-bottom: 10px; margin-top: 10px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
 .fg-general-vol { background-color: #734B90; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-bottom: 10px; margin-top: 10px; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
@@ -80,6 +84,8 @@
 .mybtnvocal { background-color: #7ED27E; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
 .mysecondarybtn { background-color: #D3D3D3; border: solid black 3px; font-weight: bold; margin-top: 30px; border-radius: 12px; position: sticky; display: inline-block; overflow: hiddens; font-weight: bold; }
+
+.Read-More { background-color: #D3D3D3; border: solid black 3px; font-weight: bold; margin-top: 20px; margin-bottom: 20px; border-radius: 12px; position: sticky; display: inline-block; overflow: hiddens; font-weight: bold; }
 
 .mybtswitch { background: #D3D3D3; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; margin-bottom: 5px; }
 
