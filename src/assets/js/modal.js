@@ -77,3 +77,67 @@ function readMoreVocal() {
     moreText.style.display = "inline";
   }
 }
+
+function readMoreVolunteering1() {
+  var dots = document.getElementById("volunteer1");
+  var moreText = document.getElementById("morevolunteer1");
+  var btnText = document.getElementById("Read-More-BTN1");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+function readMoreVolunteering2() {
+  var dots = document.getElementById("volunteer2");
+  var moreText = document.getElementById("morevolunteer2");
+  var btnText = document.getElementById("Read-More-BTN2");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+function readMoreVolunteering3() {
+  var dots = document.getElementById("volunteer3");
+  var moreText = document.getElementById("morevolunteer3");
+  var btnText = document.getElementById("Read-More-BTN3");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+
+function readMoreVolunteering4() {
+  var dots = document.getElementById("volunteer4");
+  var moreText = document.getElementById("morevolunteer4");
+  var btnText = document.getElementById("Read-More-BTN4");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
