@@ -1,0 +1,16 @@
+<select id="fruit" onchange="handleChange(this.value)">
+  <option value="http://www.example.com/#url1">URL 1</option>
+  <option value="http://www.example.com/#url2">URL 2</option>
+  <option value="http://www.example.com/#url3">URL 3</option>
+</select>
+
+<iframe id="iframe-id"></iframe>
+<h1 id="which-url"></h1>
+
+<script>
+  const handleChange = (value) => {
+    console.log(value);
+    document.getElementById('iframe-id').setAttribute('src', value);
+    document.getElementById('which-url').innerHTML = value;
+  }
+</script>

@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+  <div class="row">
+    <div class="col-md-8 blog-main">
+      <div class="blog-post">
+<h2>{{ page.title }}</h2>
+{{ content }}
+      </div><!-- /.blog-post -->
+
+<hr>
+{% include blog/pagination-by-category.html %}
+  </div><!-- /.blog-main -->
+
+    <aside class="col-md-4 blog-sidebar">
+{% include blog/categories.html %}
+    </aside><!-- /.blog-sidebar -->
+      </div><!-- /.row -->

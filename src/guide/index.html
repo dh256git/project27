@@ -1,0 +1,46 @@
+---
+layout: default
+title: Project27 Guide
+buttonStyle: fg-guide-land
+backgroundStyle: bg-guide-land
+listOfIcons: [["fas fa-atom", ""], ["fas fa-desktop", ""], ["fas fa-chart-line"], ["fas fa-utensils", ""], ["fas fa-record-vinyl", ""]]
+levelToOpen: volume
+listOfDots: ["dots", "dots1", "dots2", "dots3", "dots4"]
+listOfMore: ["more", "more1", "more2", "more3", "more4"]
+listOfButtons: ["Read-more", "Read-more1", "Read-more2", "Read-more3", "Read-more4"]
+listOfFunctions: ["readMoreMPS()", "readMoreComputerLiteracy()", "readMoreStatistics()", "readMoreCookbook()", "readMoreVocal()"]
+---
+<div class="container">
+    <h2 class="cover-heading">The {{ site.product }}: Scribbles of a blind scientist</h2>
+
+<blockquote>
+The {{ site.brand }} {{ site.product }} is a set of descriptive notes on how to do tasks, I once knew how to do. Sadly, unless practice follows learning, all knowledge fades. - Daniel hajas
+</blockquote>
+
+<p>The key aim of {{ site.product }} is to offer a quick reference in unpracticed tasks, organised into specific topics.
+Its additional aims are to revise, study, research, innovate, and make aware.</p>
+
+<hr>
+
+<h3>Science collection</h3>
+
+<p>The {{ site.brand }} Science collection is a collection of volumes on mathematical and physical sciences, computer literacy, and statistics.<p>
+
+
+{% assign dataFile = site.data.volumes.guide %}
+{% assign gridLimit = 3 %}
+{% include global/grid-generator.html heading="h4" %}
+
+<hr>
+
+<h3>Lifestyle collection</h3>
+
+<p>
+The Lifestyle collection is a collection of volumes on cooking, journalism, and human relationships.
+</p>
+
+{% assign dataFile = site.data.volumes.guide %}
+{% assign gridOffset = 3 %}
+{% include global/grid-generator.html heading="h4" %}
+
+</div>

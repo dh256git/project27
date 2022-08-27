@@ -1,17 +1,29 @@
 #!/bin/bash
 
-# script to automate git add, commit, and push
+# script to automate deployment of static site files
 
-## Go to project directory
-cd ~/Documents/self/informatics/projects/project27/docs/
+## Go to project root directory
+cd ~/Documents/self/informatics/projects/project27/
 
 ## execute version-counter python script to increment commit count
-python3 ../bash/version-counter.py
+python3 bash/version-counter.py
 
-## initiate git process
+## build site from source using config default baseurl
+cd src/
+jekyll build
+
+## Pause for 3 seconds
+sleep 3
+
+## copy site files to deployed docs
+cp -r _site/* ../docs/
+
+## initiate git deployment to master
+git add _layouts/default.html # add default.html from source to the commit of deployment, so after deployment a clean local repository is the output, given all other changes of source have been committed before.
+cd ../docs/
+git add . # add all docs files to deployed content.
 echo "Add commit message"
 read commitMessage
-git add .
 git commit -m "$commitMessage"
 git push origin master
 echo "Deployment initiated. Confirm status."

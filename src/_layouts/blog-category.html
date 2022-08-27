@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+{% if page.url contains "twist" %}
+{% assign topic = site.data.chapters.twist[page.topicIndex] %}
+{% elsif page.url contains "logbook" %}
+{% assign topic = site.data.chapters.logbook[page.topicIndex] %}
+{% endif %}
+
+  <h2>{{ topic.name }}</h2>
+
+<p>{{ topic.description }}</p>
+
+<h3>Complete list of posts</h3>
+
+<p>The following list is a growing collection of posts in the "{{ topic.name }}" category.</p>
+
+{{ content }}

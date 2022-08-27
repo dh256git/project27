@@ -1,0 +1,32 @@
+<div class="row {{ page.backgroundStyle }}">
+<div class="col-md-6">
+{% if page.url contains "blog" or page.url contains "cookbook"  or page.url contains "sharing-stories" %}
+{% include global/breadcrumbs-blog.html %}
+{% elsif page.title contains "Home Page" %}
+<h1>Welcome to {{ site.brand }}</h1>
+{% else %}
+{% include global/breadcrumbs.html %}
+{% endif %}
+  {% if page.layout == "post" or page.layout == "recipes" %}
+  {% include blog/pagination-by-category.html %}
+  {% elsif page.layout == "blog-branch" %}
+        {% include blog/branch-and-featured.html %}
+  {% endif %}
+</div>
+<div class="col-md-3">
+  <button type="button" class="mysecondarybtn" data-toggle="collapse" data-target="#selector" aria-controls="selector" aria-expanded="false" aria-label="Contents">
+    <span><i class="fas fa-bookmark fa-lg" aria-hidden="false"></i></span>
+  </button>
+<div class="collapse" id="selector" aria-label="Contents menu">
+{% include global/select.html %}
+</div>
+</div>
+<div class="col-md-3">
+  <button type="button" class="mysecondarybtn" data-toggle="collapse" data-target="#meta-info" aria-controls="meta-info" aria-expanded="false" aria-label="Page information">
+    <span><i class="fa fa-info-circle fa-lg" aria-hidden="false"></i></span>
+  </button>
+<div class="blog-post-meta collapse" id="meta-info">
+{% include global/meta.html %}
+</div>
+</div>
+</div>

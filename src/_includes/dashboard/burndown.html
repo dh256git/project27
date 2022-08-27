@@ -1,0 +1,35 @@
+<h3>Burndown chart</h3>
+
+<p>View how the latest sprint is progressing.</p>
+
+  <div id="view"></div>
+
+  <script type="text/javascript">
+
+    const vlSpec =
+      {
+        $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
+        "description": "Burndown chart for the ongoing sprint.",
+        "data": {
+        "url": "{{ page.burndownData | prepend: site.baseurl }}"
+        },
+        "mark": {
+        "type": "line",
+        "point": true
+        },
+        "encoding": {
+        "x": { "field": "date", "type": "ordinal" },
+        "y": { "field": "story point", "type": "quantitative" }
+        }
+      };
+
+    var vgSpec = vegaLite.compile(vlSpec).spec;
+    let runtime = vega.parse(vgSpec);
+    const view = new vega.View(runtime)
+          .logLevel(vega.Warn) // Set view logging level
+          .initialize(document.getElementById('view')) // Set parent DOM element
+          .renderer('svg') // Set render type (defaults to 'canvas')
+          .hover(true) // Enable hover event processing
+          .run(); // Update and render the view
+
+  </script>

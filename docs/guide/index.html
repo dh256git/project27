@@ -1,35 +1,207 @@
----
-layout: default
-title: Project27 Guide
-buttonStyle: fg-guide-land
-backgroundStyle: bg-guide-land
-listOfIcons: [["fas fa-atom", ""], ["fas fa-desktop", ""], ["fas fa-chart-line"], ["fas fa-utensils", ""], ["fas fa-record-vinyl", ""]]
-levelToOpen: volume
----
-<div class="container">
-    <h1 class="cover-heading">The {{ site.product }}: Scribbles of a blind scientist</h1>
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- scripts for vega lite -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2/build/vega.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0/build/vega-lite.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title> Project27 Guide</title>
+
+<!--Custom style sheets-->
+        <link rel="stylesheet" href="/project27/assets/css/main.css">
+
+  </head>
+  <body>
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column bg-background">
+
+<div class="bg-background">
+<div class="row">
+<div class="col-md-6">
+<a class="d-flex justify-content-center" href="#mainContent">Skip to main content</a>
+</div>
+<div class="col-md-6">
+<a class="d-flex justify-content-center" href="#footerContent">Skip to footer</a>
+</div>
+</div>
+
+  <header>
+      <span class="masthead-brand">
+<a href="/project27/index.html" class=navbar-brand">
+      <img src="/project27/assets/images/Project27 logo.png" alt="Project 27 logo" class="logo" width="90em">
+      </a>
+      A warehouse of challenges and solutions.
+      </span>
+
+      <nav class="navbar navbar-expand-md navbar-dark bg-nav-header" tabindex="0" aria-label="Primary">
+  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="primaryNavigation">
+<ul class="navbar-nav ml-auto" role="menubar">
+  
+  <li>
+    <a href="/project27/blog/index.html">Blog</a>
+  </li>
+  
+  <li>
+    <a href="/project27/guide/index.html">Guide</a>
+  </li>
+  
+  <li>
+    <a href="/project27/volunteering/index.html">Volunteering</a>
+  </li>
+  
+  </ul>
+</div>
+</nav>
+  </header>
+</div>
+
+  <main role="main" id="mainContent" class="container bg-background">
+
+<div class="row bg-guide-land">
+<div class="col-md-6">
+
+<div id="breadcrumbs">
+<h1 class="you-are-here">You are here</h1>
+
+<a href="/project27/">Home</a>
+
+  
+    <br> > Project27 Guide
+  
+
+</div>
+
+  
+</div>
+<div class="col-md-3">
+  <button type="button" class="mysecondarybtn" data-toggle="collapse" data-target="#selector" aria-controls="selector" aria-expanded="false" aria-label="Contents">
+    <span><i class="fas fa-bookmark fa-lg" aria-hidden="false"></i></span>
+  </button>
+<div class="collapse" id="selector" aria-label="Contents menu">
+<div class="row">
+<div class="col-md-6">
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtn" data-toggle="collapse" data-target="#volume-selector" aria-haspopup="true">Volume</button>
+        <div class="dropdown-menu" id="volume-selector">
+  
+  
+          <a class="dropdown-item" href= "/project27/guide/MPS/index.html" >Mathematical and Physical Sciences</a>
+  
+          <a class="dropdown-item" href= "/project27/guide/CL/index.html" >Computer Literacy</a>
+  
+          <a class="dropdown-item" href= "/project27/guide/statistics/index.html" >Statistics</a>
+  
+          <a class="dropdown-item" href= "/project27/guide/cookbook/index.html" >Cookbook</a>
+  
+          <a class="dropdown-item" href= "/project27/guide/vocal/index.html" >Vocal</a>
+  
+    
+</div>
+</div>
+
+</div>
+<div class="col-md-6">
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtn" data-toggle="collapse" data-target="#chapter-selector" aria-haspopup="true">Chapter</button>
+        <div class="dropdown-menu" id="chapter-selector">
+  
+  <p>Please select a volume before selecting a chapter.</p>
+  
+</div>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-6">
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtn" data-toggle="collapse" data-target="#section-selector" aria-haspopup="true">Section</button>
+        <div class="dropdown-menu" id="section-selector">
+  
+  <p>Please open a volume and a chapter, before you are able to select a section. It may also be that this chapter has not been divided into sections.</p>
+  
+</div>
+</div>
+
+</div>
+<div class="col-md-6">
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtn" data-toggle="collapse" data-target="#note-selector" aria-haspopup="true">Note</button>
+        <div class="dropdown-menu" id="note-selector">
+  
+  <p>Please select a section before selecting a note.</p>
+  
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+  <button type="button" class="mysecondarybtn" data-toggle="collapse" data-target="#meta-info" aria-controls="meta-info" aria-expanded="false" aria-label="Page information">
+    <span><i class="fa fa-info-circle fa-lg" aria-hidden="false"></i></span>
+  </button>
+<div class="blog-post-meta collapse" id="meta-info">
+<p class="reading-time">Estimated time to read: 
+  
+  
+    5 - 6 mins
+  
+</p>
+<p>Written by: </p>
+<p>Reviewed by: . <a href="/project27/guidelines/review.html">Read our guidelines on reviews.</a></p>
+<p>Published on: </p>
+</div>
+</div>
+</div>
+ <div class="container">
+    <h2 class="cover-heading">The Guide: Scribbles of a blind scientist</h2>
 
 <blockquote>
-The {{ site.brand }} {{ site.product }} is a set of descriptive notes on how to do tasks, I once knew how to do. Sadly, unless practice follows learning, all knowledge fades. - Daniel hajas
+The Project27 Guide is a set of descriptive notes on how to do tasks, I once knew how to do. Sadly, unless practice follows learning, all knowledge fades. - Daniel hajas
 </blockquote>
 
-<p>The key aim of {{ site.product }} is to offer a quick reference in unpracticed tasks, organised into specific topics.
+<p>The key aim of Guide is to offer a quick reference in unpracticed tasks, organised into specific topics.
 Its additional aims are to revise, study, research, innovate, and make aware.</p>
 
 <hr>
 
-<h2>Science collection</h2>
+<h3>Science collection</h3>
 
-<p>The {{ site.brand }} Science collection is a collection of volumes on mathematical and physical sciences, computer literacy, and statistics.<p>
+<p>The Project27 Science collection is a collection of volumes on mathematical and physical sciences, computer literacy, and statistics.<p>
 
-{% capture why-science %}
-Why are these volumes included in the Science collection?
-{% endcapture %}
 
-{% capture repository1 %}
-<h3>Mathematical and Physical Sciences</h3>
 
-<p>Editing the MPS volume is a good opportunity to</p>
+
+                       
+ 
+    
+<!-- Hide the item in the grid. Remove if statement to show item. -->
+
+    
+      <div class="row">
+      <div class="col-md">
+      <h4> Mathematical and Physical Sciences</h4>
+
+<i class="fas fa-atom fa-lg" aria-hidden="true"></i>
+
+
+      <p>MPS is a volume of notes on topics of mathematics and physics.</p>
+
+
+<div class="row">
+<div class="col">
+<div id="dots"></div>
+
+
+<div class= "hidden-text" id="more">Editing the MPS volume is a good opportunity to</p>
 <ol>
 <li>
 revise the author's knowledge on physics;
@@ -41,7 +213,7 @@ organise previously written notes on mathematics and physics
 into sections and chapters, which make more structural sense, than the original organisation of notes, and
 </li>
 <li>
- according to {{ site.brand }} guidelines;
+ according to Project27 guidelines;
 </li>
 </ul>
 </li>
@@ -49,10 +221,47 @@ into sections and chapters, which make more structural sense, than the original 
 research, experiment with, and log ways of writing scientific notation in accessible formats.
 </li>
 </ol>
+</div>
 
-<h3>Computer literacy</h3>
+</div>
+</div>
+<div class="row">
+<div class="col">
+<button onclick="readMoreMPS()" id="Read-more"class= "Read-More">Read More</button>
+</div>
+</div>
 
-<p>Editing the Computer literacy volume is a good opportunity to</p>
+
+      <a class="fg-guide-land" href="/project27/guide/MPS/index.html">
+
+      Open the Mathematical and Physical Sciences volume
+
+      </a>
+
+      </div>
+    
+    
+                       
+ 
+    
+<!-- Hide the item in the grid. Remove if statement to show item. -->
+
+    
+      <div class="col-md">
+      <h4> Computer Literacy</h4>
+
+<i class="fas fa-desktop fa-lg" aria-hidden="true"></i>
+
+
+      <p>Computer Literacy is a volume of notes on how to do small, practical tasks on the computer, in context of studying, researching, and publishing scientific content.</p>
+
+
+<div class="row">
+<div class="col">
+<div id="dots1"></div>
+
+
+  <div class= "hidden-text" id="more1">Editing the Computer literacy volume is a good opportunity to</p>
 
 <ol>
 <li>
@@ -62,10 +271,49 @@ organise "how to" notes on various topics of computer literacy,
 provide specific guidance and alternative solutions for screen reader users, where available online resources are not considering accessibility.
 </li>
 </ol>
+</div>
 
-<h3>Statistics</h3>
+</div>
+</div>
+<div class="row">
+<div class="col">
+<button onclick="readMoreComputerLiteracy()" id="Read-more1"class= "Read-More">Read More</button>
+</div>
+</div>
 
-<p>Understanding the calculations of statistics, and being able to perform statistical analysis may be useful in most experimental branches of science, for example psychology, sociology, computer science, or any branch of natural science. Editing the Statistics volume is a good opportunity to</p>
+
+      <a class="fg-guide-land" href="/project27/guide/CL/index.html">
+
+      Open the Computer Literacy volume
+
+      </a>
+
+      </div>
+      </div>
+    
+    
+                       
+ 
+    
+<!-- Hide the item in the grid. Remove if statement to show item. -->
+
+    
+      <div class="row">
+      <div class="col-md">
+      <h4> Statistics</h4>
+
+<i class="fas fa-chart-line fa-lg" aria-hidden="true"></i>
+
+
+      <p>Statistics is a volume of notes on how statistical calculations work in a mathematical sense. Practical tips on how statistical analysis is done on a computer are also included.</p>
+
+
+<div class="row">
+<div class="col">
+<div id="dots2"></div>
+
+
+  <div class= "hidden-text" id="more2"><p>Understanding the calculations of statistics, and being able to perform statistical analysis may be useful in most experimental branches of science, for example psychology, sociology, computer science, or any branch of natural science. Editing the Statistics volume is a good opportunity to</p>
 <ol>
 <li>
 study how statistical methods work at the mathematical and conceptual level;
@@ -77,37 +325,70 @@ practice statistical analysis using the open source program "R";
 share guidance on how to use R-markdown to interact with R in accessible ways.
 </li>
 </ol>
-{% endcapture %}
+</div>
 
-{% include global/collapseable.html trigger=why-science paragraph=repository1 ID="r01" %}
+</div>
+</div>
+<div class="row">
+<div class="col">
+<button onclick="readMoreStatistics()" id="Read-more2"class= "Read-More">Read More</button>
+</div>
+</div>
 
-{% assign dataFile = site.data.volumes.guide %}
-{% assign gridLimit = 3 %}
-{% include global/grid-generator.html heading="h3" %}
+
+      <a class="fg-guide-land" href="/project27/guide/statistics/index.html">
+
+      Open the Statistics volume
+
+      </a>
+
+      </div>
+    
+    
+
+<!-- if more than two columns are desired and modulo can take other values than 0 and 1. -->
+
+      </div>
 
 
 <hr>
 
-<h2>Lifestyle collection</h2>
+<h3>Lifestyle collection</h3>
 
 <p>
 The Lifestyle collection is a collection of volumes on cooking, journalism, and human relationships.
 </p>
 
-{% capture why-lifestyle %}
-Why are these volumes included in the Lifestyle collection?
-{% endcapture %}
 
-{% capture repository2 %}
-<h3>Cookbook</h3>
 
-<p>Editing the Cookbook is a good opportunity to</p>
+                       
+ 
+    
+<!-- Hide the item in the grid. Remove if statement to show item. -->
+
+    
+      <div class="row">
+      <div class="col-md">
+      <h4> Cookbook</h4>
+
+<i class="fas fa-utensils fa-lg" aria-hidden="true"></i>
+
+
+      <p>CookBook is a volume of recipes coming from the project contributors. People living with sight loss can indeed cook delicious meals. We show how.</p>
+
+
+<div class="row">
+<div class="col">
+<div id="dots3"></div>
+
+
+  <div class= "hidden-text" id="more3"><p>Editing the Cookbook is a good opportunity to</p>
 <ol>
 <li>
 challenge the misconception of "blind people cannot cook", by showing that people with sight loss may enjoy being creative in the kitchen, and are able to excel in gastronomical activities;
 </li>
 <li>
-organise the {{ site.brand }} recipes into an online cookbook, according to the project guidelines;
+organise the Project27 recipes into an online cookbook, according to the project guidelines;
 </li>
 <li>
 research semantic text-to-speech solutions in context of measuring units used in recipes;
@@ -116,10 +397,47 @@ research semantic text-to-speech solutions in context of measuring units used in
 study the management of simple databases, such as list of ingredients.
 </li>
 </ol>
+</div>
 
-<h3>Vocal</h3>
+</div>
+</div>
+<div class="row">
+<div class="col">
+<button onclick="readMoreCookbook()" id="Read-more3"class= "Read-More">Read More</button>
+</div>
+</div>
 
-<p>Editing the Vocal album is a good opportunity to</p>
+
+      <a class="fg-guide-land" href="/project27/guide/cookbook/index.html">
+
+      Open the Cookbook volume
+
+      </a>
+
+      </div>
+    
+    
+                       
+ 
+    
+<!-- Hide the item in the grid. Remove if statement to show item. -->
+
+    
+      <div class="col-md">
+      <h4> Vocal</h4>
+
+<i class="fas fa-record-vinyl fa-lg" aria-hidden="true"></i>
+
+
+      <p>Vocal is a volume of short biographies and audio recorded conversations with family, friends, and acquaintances of the Project27 author. The album's key objective is to portray multiple life stories and honour the storytellers.</p>
+
+
+<div class="row">
+<div class="col">
+<div id="dots4"></div>
+
+
+  <div class= "hidden-text" id="more4"><p>Editing the Vocal album is a good opportunity to</p>
 <ol>
 <li>
 study and share best practices of spcific aspects of journalism, such as interview techniques;
@@ -131,12 +449,130 @@ study and share how to do audio editing in practice using the Reaper program;
 listen to, honour, and capture stories of family, friends, and other acquaintances.
 </li>
 </ol>
-{% endcapture %}
-
-{% include global/collapseable.html trigger=why-lifestyle paragraph=repository2 ID="r02" %}
-
-{% assign dataFile = site.data.volumes.guide %}
-{% assign gridOffset = 3 %}
-{% include global/grid-generator.html heading="h3" %}
+</div>
 
 </div>
+</div>
+<div class="row">
+<div class="col">
+<button onclick="readMoreVocal()" id="Read-more4"class= "Read-More">Read More</button>
+</div>
+</div>
+
+
+      <a class="fg-guide-land" href="/project27/guide/vocal/index.html">
+
+      Open the Vocal volume
+
+      </a>
+
+      </div>
+      </div>
+    
+    
+
+<!-- if more than two columns are desired and modulo can take other values than 0 and 1. -->
+
+
+</div>
+  </main>
+
+<footer id="footerContent" class="bg-guide-land">
+      <nav class="navbar navbar-expand-md navbar-dark bg-nav-footer" tabindex="0" aria-label="Footer">
+<ul class="navbar-nav ml-auto" role="menubar">
+  
+  <li>
+    <a href="/project27/about/index.html">About</a>
+  </li>
+  
+  <li>
+    <a href="/project27/guidelines/index.html">Guidelines</a>
+  </li>
+  
+  <li>
+    <a href="/project27/legal/index.html">Legal</a>
+  </li>
+  
+  </ul>
+</nav>
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="margin: 10px" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />Except where otherwise noted, <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Project27</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://dh256git.github.io/project27/about/author.html" property="cc:attributionName" rel="cc:attributionURL">Daniel Hajas</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License.</a>
+
+
+<p>Powered by: 
+<a href="https://github.com">
+<img src="/project27/assets/images/Github logo.png" alt="Github" class= "poweredby">
+</a>
+<a href="https://jekyllrb.com">
+<img src="/project27/assets/images/Jekyll logo.png" alt="Jekyll" class= "poweredbyx2">     
+</a>
+<a href="https://getbootstrap.com">
+<img src="/project27/assets/images/Bootstrap logo.png" alt="Bootstrap" class= "poweredby">  
+</a>
+<a href="https://www.markdownguide.org">
+<img src="/project27/assets/images/Markdown logo.png" alt="Markdown" class= "poweredbyx3"> 
+</a>
+<a href="https://www.latex-project.org">
+<img src="/project27/assets/images/LaTeX logo.png" alt="LaTeX" class= "poweredbyx5">  
+</a>
+<a href="https://www.python.org">
+<img src="/project27/assets/images/Python logo.png" alt="Python" class= "poweredbyx6">
+</a>
+<a href="https://www.r-project.org">
+<img src="/project27/assets/images/Rlogo.png" alt="R" class= "poweredbyx4">
+</a>
+<a href="https://www.gnu.org/software/bash/">
+<img src="/project27/assets/images/Bash shell logo.png" alt="Bash" class= "poweredbyx7">
+</a>
+</p>
+<div class="mycontainer">
+<div class="row justify-content-start">
+<div class="col">
+<p> Version: 0.0.224.</p>
+</div>
+<div class="row justify-content-end">
+<div class="col">
+<p>Last updated: 27 Aug 2022 at 19:48.</p>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<!-- Bootstrap dependency scripts -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- Mathematics script -->
+<script type="text/x-mathjax-config">
+(function () {
+
+MathJax.Hub.Config({
+	'showProcessingMessages': false,
+	'messageStyle': 'none'
+});
+
+if (typeof MathJaxListener !== 'undefined') {
+	MathJax.Hub.Register.StartupHook('End', function () {
+		MathJaxListener.invokeCallbackForKey_('End');
+	});
+}
+
+})();
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<!--Script for font awesome icons-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
+
+<!--script for read more modal -->
+<script defer src="/project27/assets/js/modal.js"></script>
+
+<!--script for select pop-up -->
+<script defer src="/project27/assets/js/pop-up.js"></script>
+
+  </body>
+</html>

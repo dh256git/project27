@@ -1,0 +1,27 @@
+description: The official Project27 site. A warehouse of challenges and solutions in science and technology for people with sight loss.
+collections:
+  volunteering:
+    output: true
+  about:
+    output: true
+sass: 
+   sass_dir: assets/css
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - CONTRIBUTING.md
+  - README.md
+  - LICENSE.md
+  - COPYING.md
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - ISSUE_TEMPLATE.md
+  - PULL_REQUEST_TEMPLATE.md
+baseurl: /project27
+excerpt_separator: <!-- excerpt-end -->
+brand: Project27
+motto: A warehouse of challenges and solutions.
+product: Guide
