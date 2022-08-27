@@ -1,0 +1,30 @@
+---
+layout: default
+title: Danielle Garratt
+buttonStyle: fg-general-sect
+backgroundStyle: bg-general-sect
+---
+
+{% assign profile = site.data.volunteering.team[1] %}
+{% assign profile-sections = site.data.volunteering.danielle %}
+
+<div class="row">
+<div class="col">
+<img src="{{ profile.photo | prepend: site.baseurl }}" alt="{{ profile.alt }}" height="200px" width="150px">
+</div>
+<div class="col">
+<h2>{{ profile.title }} {{ profile.name }}</h2>
+
+<p>{{ profile.contribution }}</p>
+
+<select onchange="handleChange(this)">
+{% for item in profile-sections %}
+<option value="{{ item.value | prepend: site.baseurl }}" label="{{ item.label }}">{{ item.text }}</option>
+{% endfor %}
+</select>
+</div>
+</div>
+
+<h3 id="frame-heading">Introduction</h3>
+
+<iframe src="{{ '/about/team/Danielle/introduction.html' | prepend: site.baseurl }}"title="Introduction" id="iframe-id" height="750" width="500"></iframe>
