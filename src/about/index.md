@@ -7,7 +7,7 @@ listOfIcons: [["", ""], ["", ""]]
 ---
 ## About {{ site.brand }}
 
-This page introduces the {{ site.brand }} vision and mission, why it exists, who is behind the content, and what the roadmap of development is.
+This page introduces the {{ site.brand }} vision and mission, why we do it, who we are, and where we want to be by 2050.
 
 ---
 
@@ -41,6 +41,18 @@ This is why I created {{ site.brand }}.
 
 To read the complete welcome letter, [view Daniel's profile](./author.html)
 
+## What we do
+
+We support people with learning disabilities and visual impairments, by creating a safe space and opportunities for learning.
+
+1. **Active learning**: We promote active learning, by getting volunteers involved with small projects to learn from, while they help with developing the {{ site.brand }} site.
+2. **Passive learning**: We enable people to learn using accessible content, by producing a growing library of notes within the {{ site.brand }} {{ site.product }}..
+
+We also support the families, friends, teachers, carers, and mentors of learners by inspiring and consulting.
+
+1. **Sharing thoughts**: We share how we see things with regards to sight loss and learning disability in our blog posts. We do this to lead by example, and inspire anyone who lacks the confidence to learn new skills.
+2. **Consulting**: Anyone who needs time to talk things through with us can book an appointment for a session of consulting.
+
 ### The modest ambition
 
 {{ site.brand }} is a digital, private notebook on a range of topics that matter to Daniel and Danielle. It is a hobby activity and an opportunity to learn new skills and practice existing ones.
@@ -51,7 +63,7 @@ To read the complete welcome letter, [view Daniel's profile](./author.html)
 
 However, there exists a vision on the grand scale too: 
 **Together we learn, together we teach!**
-More people join {{ site.brand }} to learnn by getting involved.
+More people join {{ site.brand }} to learn by getting involved.
 The team expands, and new projects are added.
 The growth of the library allows more visually impaired and learning disabled people to learn, even if they don't wish to get involved in projects.
 The team becomes a community.
@@ -74,7 +86,10 @@ The culture at {{ site.brand }} is defined by four core values:
 The site is split into two parts: [Blog](./blog/index.html) and [{{ site.product }}.](./guide/index.html)
 Blog posts and {{ site.product }} notes both come in two flavours: technical, and lifestyle.
 
-The blog has two branches: [LogBook](./blog/logbook/index.html) and [TWIST.](./blog/twist/index.html)
+The blog has two branches:
+
+1. [LogBook](./blog/logbook/index.html) - a technical blog to track challenges and milestones encountered during the development of projects; and
+2. [TWIST.](./blog/twist/index.html) - posts on the way we see things.
 
 The {{ site.product }} is what we refer to as the library or the journal.
 Initially, five volumes, separated into two collections, form part of the {{ site.product }}.
@@ -181,10 +196,10 @@ If the project has got as far as this, the roadmap will be extended.
 {% include global/collapseable.html trigger="2035 milestone" paragraph=rm2035 ID="R2035" %}
 {% include global/collapseable.html trigger="2050 milestone" paragraph=rm2050 ID="R2050" %}
 
-#### Evolution of contributions
+#### The roadmap explained
 
 The time between the cornerstone and the first milestone is used to learn, experiment, and set the scene for a scalable project.
-Although one of the key objective at the personal level is to learn web development, expanding the R&D team with a web developer who knows what they are doing and are able to innovate through modern technological solutions, would be desirable.
+Although one of the key objective at the personal level is to learn web development, expanding the R&D team with a professional web developer who is able to innovate through modern technological solutions, would be desirable.
 
 The second milestone introduces the project and its stakeholders to each other, updating product requirements, with a business partner on board.
 The PM&BD team is formed.
@@ -196,11 +211,5 @@ In the final milestone, the project is community driven, by means of peer-review
 
 #### Issue tracking
 
-{{ site.brand }} will track known issues on inaccurate information, as well as known accessibility bugs around the scientific content.
-This will partly be done through the GitHub repository and the LogBook posts.
-
-### Dashboard
-
-The dashboard is for tracking data related to the project development.
-
-[Open dashboard](./dashboard/index.html)
+{{ site.brand }} tracks known issues on inaccurate information, as well as known accessibility bugs around the scientific content.
+This is done through the GitHub repository and the LogBook posts.
