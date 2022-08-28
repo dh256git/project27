@@ -44,7 +44,7 @@ To read the complete welcome letter, [view Daniel's profile](./team/Daniel/Danie
 
 ---
 
-## What we do
+### What we do
 
 We support people with learning disabilities and visual impairments, by creating a safe space and opportunities for learning.
 
@@ -107,7 +107,7 @@ The culture at {{ site.brand }} is defined by four core values:
 
 [Read more about our values](./values.html)
 
-## Dashboard - The [[ site.brand }} backstage
+## Dashboard - The {{ site.brand }} backstage
 
 We have a public dashboard, where we keep the project roadmap, and progress updates on the latest sprint. We like to be transparent, so anyone is welcome to have a quick look. However, the dashboard doesn't meet our user experience, and accessibility standards. Please be forgiving if you decide to view the dashboard.
 
