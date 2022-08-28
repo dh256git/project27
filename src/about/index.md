@@ -37,21 +37,44 @@ This is why I created {{ site.brand }}.
 > So long, all the best!  
 > Daniel
 
----
-
 To read the complete welcome letter, [view Daniel's profile](./author.html)
+
+---
 
 ## What we do
 
 We support people with learning disabilities and visual impairments, by creating a safe space and opportunities for learning.
 
 1. **Active learning**: We promote active learning, by getting volunteers involved with small projects to learn from, while they help with developing the {{ site.brand }} site.
-2. **Passive learning**: We enable people to learn using accessible content, by producing a growing library of notes within the {{ site.brand }} {{ site.product }}..
+2. **Passive learning**: We enable people to learn using accessible content, by producing a growing library of notes within the {{ site.brand }} {{ site.product }}.
 
 We also support the families, friends, teachers, carers, and mentors of learners by inspiring and consulting.
 
 1. **Sharing thoughts**: We share how we see things with regards to sight loss and learning disability in our blog posts. We do this to lead by example, and inspire anyone who lacks the confidence to learn new skills.
 2. **Consulting**: Anyone who needs time to talk things through with us can book an appointment for a session of consulting.
+
+### What's on {{ site.brand }}?
+
+The site is split into two parts: [Blog](./blog/index.html) and [{{ site.product }}.](./guide/index.html)
+Blog posts and {{ site.product }} notes both come in two flavours: technical, and lifestyle.
+
+The blog has two branches:
+
+1. [LogBook](./blog/logbook/index.html) - a technical blog to track challenges and milestones encountered during the development of projects.
+2. [TWIST.](./blog/twist/index.html) - posts on the way we see things.
+
+The {{ site.product }} is what we refer to as the library or the journal.
+Initially, five volumes, separated into two collections, form part of the {{ site.product }}.
+
+1. Science collection:
+  * [Mathematical and Physical Sciences (MPS);](./guide/MPS/index.html) - a volume of notes on topics of mathematics and physics.
+  * [Computer Literacy;](./guide/CL/index.html) -a volume of notes on how to do small, practical tasks on the computer.
+  * [Statistics;](./guide/statistics/index.html)- a volume of notes on how statistical calculations work in a mathematical sense.
+2. Lifestyle collection:
+  * [Cookbook;](./guide/cookbook/index.html) - recipies that we enjoy and for you to try out.
+  * [Vocal.](./guide/vocal/index.html) - a area of short stories and audio recordings with family and friends.
+
+[Read more about what you will find on this site](./content.html)
 
 ### The modest ambition
 
@@ -81,29 +104,6 @@ The culture at {{ site.brand }} is defined by four core values:
 
 [Read more about our values](./values.html)
 
-### What's on {{ site.brand }}?
-
-The site is split into two parts: [Blog](./blog/index.html) and [{{ site.product }}.](./guide/index.html)
-Blog posts and {{ site.product }} notes both come in two flavours: technical, and lifestyle.
-
-The blog has two branches:
-
-1. [LogBook](./blog/logbook/index.html) - a technical blog to track challenges and milestones encountered during the development of projects; and
-2. [TWIST.](./blog/twist/index.html) - posts on the way we see things.
-
-The {{ site.product }} is what we refer to as the library or the journal.
-Initially, five volumes, separated into two collections, form part of the {{ site.product }}.
-
-1. Science collection:
-  * [Mathematical and Physical Sciences (MPS);](./guide/MPS/index.html)
-  * [Computer Literacy;](./guide/CL/index.html)
-  * [Statistics;](./guide/statistics/index.html)
-2. Lifestyle collection:
-  * [Cookbook;](./guide/cookbook/index.html)
-  * [Vocal.](./guide/vocal/index.html)
-
-[Read more about what you will find on this site](./content.html)
-
 ### Where does the {{ site.brand }} roadmap lead?
 
 The roadmap of {{ site.brand }} starts on 6th of October, 2019 with setting the cornerstone.
@@ -123,8 +123,8 @@ The key initiatives towards the milestone are:
 </p>
 <ul>
 <li>Team: {{ site.brand }} is developed by the product owner. Contributions are made by trusted friends and family.</li>
-<li>R&D: Learning basic web development skills, and developing v0.1.</li>
-<li>PM&BD: Learning basic project management and business development skills, and setting a workflow up.</li>
+<li>Research and Development (R&D): Learning basic web development skills, and developing v0.1.</li>
+<li>Project management (PM) & business development (BD) : Learning basic project management and business development skills, and setting a workflow up.</li>
 <li>R&D: Documenting the challenges and solutions occurred during the experimentation with methods of creating accessible content for  technical documents.</li>
 <li>Content: Expanding original content with reviewed written notes and posts, external links, and external multimedia.</li>
 </ul>
@@ -137,7 +137,7 @@ The key performance indicators are:
 <li>Are basic project management procedures and business development strategies established in a sustainable framework?</li>
 <li>How regularly are R&D challenges and solutions executed and documented?;</li>
 <li>How many reviewed "notes" and "posts" are published in individual Guide "chapters", and Blog "categories" respectively?</li>
-<li>Does the next milestone and its initiatives reflect the latest requirements, and are KPIs updated?</li>
+<li>Does the next milestone and its initiatives reflect the latest requirements, and are Keep Performance Indicators (KPIs) updated?</li>
 </ul>
 <p>Moving on...
 {% endcapture %}
@@ -185,7 +185,7 @@ The key initiatives towards the milestone are:
 </p>
 <ul>
 <li>Community: Operation starts as conventional journals with editor, associate editors,-reviewers, and authors.</li>
-<li>PM&BD: Strategy is developed for harnessing revenue streams from the tools developed and the team expertise, reinvesting in advancing {{ site.brand }} R&D initiatives.</li>
+<li>Project management "PM" & business development "BD": Strategy is developed for harnessing revenue streams from the tools developed and the team expertise, reinvesting in advancing {{ site.brand }} R&D initiatives.</li>
 </ul><p>
 If the project has got as far as this, the roadmap will be extended.
 {% endcapture %}
@@ -199,10 +199,10 @@ If the project has got as far as this, the roadmap will be extended.
 #### The roadmap explained
 
 The time between the cornerstone and the first milestone is used to learn, experiment, and set the scene for a scalable project.
-Although one of the key objective at the personal level is to learn web development, expanding the R&D team with a professional web developer who is able to innovate through modern technological solutions, would be desirable.
+Although one of the key objective at the personal level is to learn web development, expanding the Research and Development (R&D) team with a professional web developer who is able to innovate through modern technological solutions, would be desirable.
 
 The second milestone introduces the project and its stakeholders to each other, updating product requirements, with a business partner on board.
-The PM&BD team is formed.
+The project management (PM) & business development (BD) team is formed.
 
 The third milestone transfers ownership parts of the product to associate editors, and reviewers are recruited to make up the {{ site.brand }} community.
 Content is heavily influenced by user requirements.
