@@ -12,20 +12,19 @@ Between 2009 to 2013 I went to Sussex Downs college and studied.
 * Life Skills.
 * Adult Literacy and Numeracy.
 
-## Work history 
+## Work history
 
-* since 2019: I work at Speak Out as a learning disabilities voices network project worker.
-* 2017-2018: I worked as a intern at Amaze.
-* 2013: I worked as a General Assistant at Blatchington Court Trust. 
+* since 2019: I work at [Brighton and Hove Speak Out] as a Learning Disabilities Voices Network Project Worker. (https://www.bhspeakout.org.uk)
+* 2017-2018: I worked as a intern at Amaze. (https://amazesussex.org.uk/)
+* 2013: I worked as a General Assistant at [Blatchington Court Trust.] (https://www.blatchingtoncourt.org.uk/)
+
+## Volunteering
+
+* I am a member at [Carousel], they have helped me get into filming and producing videos and teaching other people how to use different camera equipment. (https://carousel.org.uk/)
+* In 2017- 2018 I volunteered with a art group called MyMarc what was a art group for young people with disabilities.
 
 ## Achievements
 
-* Learnt to video edit on DaVinci Resolve. 
-* Created an article about 50 years of speaking up towards an important history.
-
-Notes:
-
-- add links to BCT, Amaze, and speakout websites.
-- Mention the work with Carousel and link to their website
-- mention paralympic involvement and Cricket
-- add link to 50 years article.
+* One of my biggest achievements has been to carry the Paraolympic torch from Abby Road to Lords cricket ground in 2012. I got the opotunity to do this by playing visually impaired cricket with a all womens team.
+* Learnt to video edit on DaVinci Resolve.
+* I helped write a article called years of speaking up towards an important history. in the book called [Intellectual Disability in the Twentieth Century] (https://policy.bristoluniversitypress.co.uk/intellectual-disability-in-the-twentieth-century)
