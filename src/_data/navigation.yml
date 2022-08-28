@@ -1,8 +1,9 @@
 - name: Blog
   link: /blog/index.html
-  description: The blog is a place to read opinion based posts on casual topics, as well as posts on the development of this project.
+  description: The blog is a place where we tell our stories, and log the development of Project27. We want to share thoughts on blindness, learning disability, and other topics we find interesting. We do this to inspire people. Every challenge has its flip side, and often a solution too.
 - name: Guide
   link: /guide/index.html
-  description: The Guide is a set of volumes, including scribbles on how to do specific things as a blind person, let it be a technical challenge, or a matter of lifestyle.
+  description: The Guide is a library of notes for learning. It is written with accessibility in mind. The notes cover a wide range of topics, let it be a technical challenge, or a matter of lifestyle.
 - name: Volunteering
   link: /volunteering/index.html
+  description: Volunteering is the way we involve learners of all abilities and skills. Through active learning, it is the volunteers who build the projects of Project27. Together we learn, together we teach.

@@ -13,13 +13,13 @@ This page introduces the {{ site.brand }} vision and mission, why it exists, who
 
 ### Meet the {{ site.brand }} team
 
-Currently, a dream duo (Daniel and Danielle) is working on {{ site.brand }}. We are partners in life, as much as working on this project.
+We are Daniel and Danielle, a couple from Brighton, England. We wanted to learn, so we started developing {{ site.brand }}. We live with disabilities, and we have a lot to share.
 
 [Learn more about the team](./team/index.html)
 
 ### Where did {{ site.brand }} begin?
 
-{{ site.brand }} was started by a blind science graduate, called Daniel. He develops the project, with the help of contributions made by  his friends, family members, and colleagues.
+Daniel wanted to collect his science notes from university and his family recipes all in one place. In addition, this library of notes had to be accessible for blind readers, like himself. What's more, the library had to be accessible regardless what device it is viewed on; offering the same level of user experience. This quickly turned into an exciting challenge of web development, and gave birth to {{ site.brand }}.
 
 ---
 
@@ -31,11 +31,8 @@ My journey was not easy, but it was doable with support and the right mindset.
 So now, I would like to help those who are at the beginning of their journey.
 This is why I created {{ site.brand }}.
 >
-> The {{ site.brand }} Blog is where I express my opinion, insights, and experiences.
-The {{ site.brand }} {{ site.product }} is where I publish scribbles on technical and lifestyle challenges I have once faced, and the solutions that helped me overcome these challenges.
->
 > {{ site.brand }} is really a warehouse of challenges and solutions.
-I truly wish that the content and the spirit of {{ site.brand }} will become not only my own, but a shared vision of many.
+> I truly wish that the content and the spirit of {{ site.brand }} will become not only my own, but a shared vision of many.
 >
 > So long, all the best!  
 > Daniel
@@ -46,15 +43,18 @@ To read the complete welcome letter, [view Daniel's profile](./author.html)
 
 ### The modest ambition
 
-In the short run, {{ site.brand }} is a digital, private notebook on a range of topics that matter to the author. It is a hobby activity and an opportunity to learn new skills and practice existing ones.
+{{ site.brand }} is a digital, private notebook on a range of topics that matter to Daniel and Danielle. It is a hobby activity and an opportunity to learn new skills and practice existing ones.
 
 [Read more about the modest ambition](./modest.html)
 
 ### The grand ambition
 
-However, there exists a vision on the grand scale too.
-In the long run, the single author corpus is expanded to a collection of peer-written and peer-reviewed content.
-The topics of the product owner's personal interest are expanded to community interest.
+However, there exists a vision on the grand scale too: 
+**Together we learn, together we teach!**
+More people join {{ site.brand }} to learnn by getting involved.
+The team expands, and new projects are added.
+The growth of the library allows more visually impaired and learning disabled people to learn, even if they don't wish to get involved in projects.
+The team becomes a community.
 
 [Read more about the grand ambition](./grand.html)
 
@@ -62,9 +62,10 @@ The topics of the product owner's personal interest are expanded to community in
 
 The culture at {{ site.brand }} is defined by four core values:
 
-1. Commitment
-2. Openness
-3. Respect
+
+1. Respect
+2. Accessibility
+3. Commitment
 4. Engagement
 
 [Read more about our values](./values.html)
@@ -72,11 +73,11 @@ The culture at {{ site.brand }} is defined by four core values:
 ### What's on {{ site.brand }}?
 
 The site is split into two parts: [Blog](./blog/index.html) and [{{ site.product }}.](./guide/index.html)
-Blog posts and {{ site.product }} scribbles both come in two flavours: technical, and lifestyle.
+Blog posts and {{ site.product }} notes both come in two flavours: technical, and lifestyle.
 
 The blog has two branches: [LogBook](./blog/logbook/index.html) and [TWIST.](./blog/twist/index.html)
 
-The {{ site.product }} is what I think about as an educational, web journal.
+The {{ site.product }} is what we refer to as the library or the journal.
 Initially, five volumes, separated into two collections, form part of the {{ site.product }}.
 
 1. Science collection:
@@ -184,7 +185,6 @@ If the project has got as far as this, the roadmap will be extended.
 #### Evolution of contributions
 
 The time between the cornerstone and the first milestone is used to learn, experiment, and set the scene for a scalable project.
-The project is primarily a one person exploration.
 Although one of the key objective at the personal level is to learn web development, expanding the R&D team with a web developer who knows what they are doing and are able to innovate through modern technological solutions, would be desirable.
 
 The second milestone introduces the project and its stakeholders to each other, updating product requirements, with a business partner on board.
