@@ -22,7 +22,7 @@ I live independently in England, United Kingdom, and speak english as my second 
 It was not easy to come so far.
 I consider myself incredibly lucky, and merely clever.
 I wouldn't be where I am now, without all the support I received, and now it is time for me to start returning the favour for anyone who might benefit from it.
-This is why I created {{ site.brand }}, which is a place where I can start offering my support.
+This is why I created {{ site.brand }}, which is a place where I can start offering my support, alongside like-minded, talented volunteers.
 
 The {{ site.brand }} Blog is where I express my opinion, insights, and experiences.
 The Blog serves two purposes.
@@ -40,7 +40,7 @@ I want to show, through my journey what any blind person can do if they find the
 A blind person can cook delicious meals, a blind person can study and work in sciences, a blind person can be active in journalism and audio editing.
 A blind person can also learn to programme, study human psychology, and perform statistical analysis for data science.
 
-Some of these life style stories will come through the pipeline of the TWIST blog, and some through scribbles of the {{ site.brand }} {{ site.product }}.
+Some of these life style stories will come through the pipeline of the TWIST blog, and some through notes of the {{ site.brand }} {{ site.product }}.
 If the Blog is where I offer food for thought, then the {{ site.product }} is where I wish to help people get things done.
 My solutions are not the only path, but they are the ones that helped me overcome challenges; let it be a question in performing a scientific task, or a matter of lifestyle. 
 
