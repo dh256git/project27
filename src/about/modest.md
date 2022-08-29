@@ -1,22 +1,38 @@
 ---
 layout: default
 title: The modest ambition
+author: Daniel Hajas
+revised: Danielle Garratt
+date: 2022-08-29
 buttonStyle: fg-general-chap
 backgroundStyle: bg-general-chap
 ---
 
 ## {{ page.title }}
 
-In the short run, {{ site.brand }} is a digital, private notebook on a range of topics that matter to the author.
-It is a hobby activity, an opportunity to learn skills in web development, accessible content creation, audio editing, revising notes on physics and statistics, capturing and sharing life stories and recipes, expressing opinions and much more. .
+{{ site.brand }} is a digital, private notebook on a range of topics that matter to Daniel and Danielle. It is a hobby activity. It is an opportunity to learn through doing. We are gaining new skills and lead by example. For instance, we learn:
+
+* web development,
+* accessible content creation,
+* audio editing,
+* physics and statistics,
+* capturing and sharing life stories and recipes,
+* expressing opinions,
+
+and much more, while we work on projects.
 
 ### What's the modest {{ site.brand }} vision?
 
-**{{ site.brand }} facilitates learning, teaching, research, and innovation activities in the context of supporting the product owner in personal development and participation in society.**
+**Through {{ site.brand }}, 
+we tell our stories, and we inspire people living with learning disabilities and sight loss.
+We teach, and we remind ourselves how to do things.
+We learn by doing, and we involve others in learning.**
 
 ### What's the modest {{ site.brand }} mission?
 
-**To provide a corpus of organised and accessible notes on topics of the product owner's personal interest.**
+**To develop learning projects, and build an accessible library of notes.**
+
+#### The mission explained
 
 The {{ site.brand }} motto states that the project is
 
@@ -30,5 +46,7 @@ In dictionary terms, a corpus is
 
 > "a collection of written texts, especially the entire works of a particular author or a body of writing on a particular subject."
 
-In this sense, the mission statement reflects the desire to collect and organise the notes of the author into a single collection of written documents.
-Content is edited and organised according to {{ site.brand }} content and review guidelines, with special emphasis on innovation and best practices in digital accessibility.
+In this sense, the mission statement reflects the wish to collect and organise the notes of Daniel and Danielle into a single collection.
+We edit and organise the content according to the {{ site.brand }} guidelines.
+In the content guidelines, we place special emphasis on best practices in digital accessibility.
+Small projects help us to find new, easier ways to make the learning experience inclusive.

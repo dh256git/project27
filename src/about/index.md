@@ -87,12 +87,14 @@ Initially, five volumes, separated into two collections, form part of the {{ sit
 
 ### The grand ambition
 
-However, there exists a vision on the grand scale too: 
+There exists a vision on the grand scale too: 
 **Together we learn, together we teach!**
 More people join {{ site.brand }} to learn by getting involved.
 The team expands, and new projects are added.
 The growth of the library allows more visually impaired and learning disabled people to learn, even if they don't wish to get involved in projects.
 The team becomes a community.
+The community drives business activities.
+The revenue is invested in new research, development, and learning projects.
 
 [Read more about the grand ambition](./grand.html)
 
@@ -100,9 +102,9 @@ The team becomes a community.
 
 The culture at {{ site.brand }} is defined by four core values:
 
-1. Respect
+1. Commitment
 2. Accessibility
-3. Commitment
+3. Respect
 4. Engagement
 
 [Read more about our values](./values.html)

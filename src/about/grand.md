@@ -1,6 +1,9 @@
 ---
 layout: default
 title: The grand ambition
+author: Daniel Hajas
+revised: Danielle Garratt
+date: 2022-08-29
 buttonStyle: fg-general-chap
 backgroundStyle: bg-general-chap
 ---
@@ -8,30 +11,39 @@ backgroundStyle: bg-general-chap
 ## {{ page.title }}
 
 There exists a vision on the grand scale too.
-In the long run, the single author corpus is expanded to a collection of peer written and peer reviewed content.
-The topics of the product owner's personal interest are expanded to community interest.
+More people join {{ site.brand }} to learn by getting involved.
+The team expands, and new projects are added.
+The growth of the library allows more visually impaired and learning disabled people to learn, even if they don't wish to get involved in projects.
+The team becomes a community.
+The community drives business activities.
+The revenue is invested in new research, development, and learning projects.
 
 ### What's the grand {{ site.brand }} vision?
 
-**{{ site.brand }} facilitates learning, teaching, research, and innovation activities in the context of supporting people living with vision impairment in personal development and participation in society.**
+**Together we learn, together we teach!**
+
+#### The vision explained
 
 This vision statement reflects the belief of where {{ site.brand }} will be in 2050, 30 years after its launch.
 
-In 2050, if a person with vision impairment would like to consume scientific or otherwise technical and professional content, they will be able to do it anywhere, anytime, without any preparation or specialised equipment in addition to their regular choice of assistive technology.
-You can compare this with a sighted person today, who sits down on the sofa, brings up the Wikipedia page about special relativity on their internet enabled device, and starts comprehending the content.
+In 2050, if a person with vision impairment would like to consume scientific or otherwise technical and professional content, they will be able to do it as easily, as reading any other content.
+They will only need their regular choice of assistive technology.
+You can compare this with a sighted person learning in 2020.
+Learning can occur, in three easy steps:
 
-For the content to be universally accessible, this will not depend on additional assistive technology or non-standard document formats.
-The quality and ease-of-use for technical resources, such as mathematical scripture, graphical information, or multimedia content will be no different from the experience of digital materials used by sighted consumers.
+1. Jim sits down on the sofa.
+2. He brings up the Wikipedia page about special relativity on his phone.
+3. He starts learning the theory.
+
+Our vision is to replicate this learning experience for vision impaired learners.
+Hence, content will not depend on specialised assistive technology.
+People will not need non-standard document formats.
 
 This vision requires three things.
-Firstly, a standardised, robust, and compatible system of  markup languages for reliable digital language processing, serving multiple solutions of non-visual communication.  
-Secondly, content authoring tools for creating written documents, which are synthesised by existing text-to-speech solutions into natural verbalisations across platforms.  
-Thirdly, methods of appending graphical and multimedia content with their non-visual equivalent, such as accessible data visualisations, or audio descriptions of videos.
 
-Standard and robust markup languages, text-to-speech solutions already exist, but with an inconsistent quality of output, which require additional tools to process scripts into natural output.
-If {{ site.brand }} finds a way to interface between existing markup languages, develops authoring tools and content through peer-review that is ensuring a high standard of quality across multiple platforms, it really can facilitate learning, teaching, research, and innovation activities supporting people living with vision impairment. 
-
-Unlike other initiatives, {{ site.brand }} focuses on the processes behind content creation, and not on the volume and range of content output. Whilst the {{ site.brand }} is a comprehensive archive of notes and posts, the value is in the activities that led to creating these notes.
+1. Light-weight digital language processing. A system of standardised, robust, and compatible  markup languages.
+2. Content authoring tools for creating written documents. These documents are synthesised by existing text-to-speech solutions into natural language across digital platforms.  
+3. Methods of linking graphical and multimedia content with their non-visual equivalent, such as accessible data visualisations, or audio descriptions of videos.
 
 <!--
 If this vision is hard to believe in, [watch  the Macintosh introduce itself in 1984](https://www.youtube.com/watch?v=2B-XwPjn9YY) using text-to-speech solutions, and how far natural language processing and synthetic speech has developed, to become responsive, naturally speaking [voice assistants present in our homes](http://emosamples.syntheticspeech.de). Also, remember that the widely used markup language - [TeX](https://www.tug.org/whatis.html) - was developed throughout the 1980s, with a version usable on personal computers by the early 90s, i.e. roughly 30 years ago.
@@ -39,19 +51,27 @@ If this vision is hard to believe in, [watch  the Macintosh introduce itself in 
 
 ### What's the grand {{ site.brand }} mission?
 
-**To deliver content and authoring solutions that remove the barriers between scientific, technical, or professional resources and methods of non-visual access to such information.**
+**To create tools and a place for learning, driven by a community of learners and teachers, who value accessible learning experiences.**
 
-This mission statement is how {{ site.brand }} intends to make its vision come true.
-If the vision is the destination, the mission is the path selected to arrive at the destination.
+#### The mission explained
 
-The first part of the mission statement states how {{ site.brand }} will facilitate lerning, teaching, research, and innovation activities by 2050.
-This is only possible by innovating new solutions that will enable the high quality, universally accessible experience.
-Creating a substantial and growing volume of peer-reviewed content is what will enable the vision impaired community and society to adopt the solutions in a wide range of contexts.
+This mission statement is how {{ site.brand }} will make its vision come true.
+If the vision is the destination, the mission is the path to our goal.
+
+The first part of the mission statement states how {{ site.brand }} will facilitate learning, teaching, research, and innovation by 2050.
+
+This is only possible by innovating new solutions.
+Creating tools, a place for learning, and content will enable the community, and {{ site.brand }} to grow..
 Innovation enables the goal, delivery achieves it.
 
-The second half of the mission statement defines the mindset in which solutions should be engineered.
-{{ site.brand }} does not want to simply improve the quality of existing solutions, or create a new repository of resources.
-Innovation should strive to remove those experiential barriers that prevent processing of scientific, technical, and professional resources by methods of non-visual access to such information.
-{{ site.brand }} should minimise the gap between perceived experience, when consuming technical content, by a sighted and a vision impaired person.
+The second half of the mission statement highlights the need for community engagement.
+Learning is a social process.
+It is an interaction between teachers and learners.
+Learners can become teachers.
+Individuals can form communities, if their values align.
+Our mission is to harness the power of people, who value an accessible learning experience.
+They can drive the growth of projects, and teach new learners.
 
-Unlike the project vision, the mission of {{ site.brand }},  will evolve as existing technologies and solutions carry on evolving.
+This is a mission in 2022.
+The vision should stay the same.
+But, the mission of {{ site.brand }},  will change as existing technologies and solutions evolve.
