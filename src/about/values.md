@@ -9,7 +9,7 @@ backgroundStyle: bg-general-chap
 
 Our core values are:
 
-1. Commitment - Working effectively and with dedication to perform to the highest standards. Being responsible and accountable for our choices and decisions.
-2. Openness - Listening, treating each other fairly and honestly. Learning from experience and reflecting on our choices and decisions.
-3. Respect - Shaping an inclusive environment in which diversity is valued. Communicating openly and transparently.
-4. Engagement - Participating in the shared vision and activities of {{ site.brand }} through research, teaching and learning, and social interaction; thus empowering our community members to contribute to, influence and improve society.
+1. Commitment - working at the highest level and being able to make our own choices and decisions.
+2. Accessibility - Being able to access all of the website and to be able to understand what is being said.
+3. Respect - Being able to talk clearly and listen to others opionions.
+4. Engagement - Taking part in the shared vision and activities of {{ site.brand }} through research, teaching and learning.
