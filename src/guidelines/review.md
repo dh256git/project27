@@ -1,30 +1,68 @@
 ---
 layout: default
 title: Review guidelines
+author: Daniel Hajas
+reviewer: Danielle Garratt
+date: 2022-08-31
+buttonStyle: fg-general-chap
+backgroundStyle: bg-general-chap
 ---
 
 ## {{ page.title }}
 
-All content on {{ site.brand }} is subject to peer review before publication.
-Reviewing consist of three components: an access, a content, and a readability review.
-Each of the three components are carried out by a dedicated reviewer, nominated by an associate editor.
+We always ask a second person, a peer reviewer, to check the authors' work. We look at four things, and publish our work with C.A.R.E.:
 
-### Access review
+1. content,
+2. accessibility,
+3. readability, and
+4. engagement.
 
-The access review ensures that the content is accessible for blind and low vision readers.
-The key task is to make sure text, equations, figures, tables and all other media are accessible and usable.
-The associate editor must aim to nominate a reviewer who has the necessary skills to perform the accessibility review using all relevant assistive technology. For example, using screen readers relying on text-to-speech or braille output, screen magnification programmes and so on.
+Four independent reviewers are nominated by an associate editor, and assigned to one of the review guidelines. 
 
-### Content review
+### 1. Content review
 
-The content review ensures that the content is factually accurate.
-The key task is to make sure no false, incorrect, or outdated information is published.
-The associate editor must aim to nominate a reviewer who has sufficient knowledge in the topic of the content to be reviewed.
+We want content to be accurate and up to date. Key things we look for are:
 
-### Readability review
+* We don't share false information.
+* No outdated information is published.
+* The content is not offensive.
 
-The readability review ensures that the content is easy to read, despite the potential use of  technical words and phrases.
-The key task is to make sure the content is easy to read.
-For example, reviewing the length of sentences and words, or removing unnecessary words and replacing unfamiliar ones with their more frequent synonyms.
+The associate editor must select a knowledgeable reviewer in the topic to be reviewed.
+
+### 2. Access review
+
+We want accessible content. Our primary focus is on blind and low vision readers. Nevertheless, we are mindful of learning disabled people too. Access reviewers should:
+
+*  Make sure text is simple to read.
+*  Text-to-speech friendly equations are used.
+* *  We hid or described figures.
+* Tables are easy to navigate and understand.
+* We selected videos that are accessible.
+
+Our reviewers make sure authors don't slip up. Authors, reviewers, and editors work together to fix accessibility issues. The associate editor selects one or more disabled reviewers.
+
+Access reviewers should have the skills  to use the right assistive technology. For example, we might ask a blind person to review the text-to-speech or braille output. We sometimes ask a low vision reader to check how is screen magnification and contrast. We also run unmanned readability tests, and ask learning disabled people to score the reading experience.
+
+### 3. Readability review
+
+Content should be easy to read. Despite our efforts, in some pages we may not be able to meet our readability target (FRES > 60). This is because of long, technical words and phrases in some educational notes. We trust reviewers and editors to suggests ways we can make readability better. For example,
+
+* long sentences should be broken up into shorter ones,
+* long, and less familiar words should be replaced or rephrased,
+* examples should be used to explain complex ideas.
+
 The readability review also should ensure the appropriateness of spelling, grammar and all other language requirements.
-The associate editor must aim to nominate a reviewer with good linguistic skills in the native language of the content to be reviewed.
+
+The associate editor should choose a reviewer with good linguistic skills. This should possibly be in the native language of the reviewed content.
+
+### 4. Engagement review
+
+We want the content to be engaging. The authors and reviewers should balance readability with engagement. For example,
+
+*  for every 5-6 minutes of reading time, an image is shown,
+*  icons and emojis are used to make text more engaging,
+*  inspiring, telling quotes are used to illustrate a point,
+*  engaging vocabulary is used,
+*  the voice of writing is informal, and humorous.
+
+The associate editor should choose a reviewer, who has experience in writing engaging blog posts, and learning materials.

@@ -2,7 +2,7 @@
 layout: default
 title: Values
 author: Danielle Garratt
-revised: Daniel Hajas
+reviewer: Daniel Hajas
 date: 2022-08-29
 buttonStyle: fg-general-chap
 backgroundStyle: bg-general-chap

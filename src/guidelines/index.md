@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Guidelines
+author: Daniel Hajas
+reviewer: Danielle Garratt
+date: 2022-08-31
 buttonStyle: fg-general-vol
 backgroundStyle: bg-general-vol
 ---

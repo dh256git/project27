@@ -2,7 +2,7 @@
 layout: default
 title: The content
 author: Daniel Hajas
-revised: Danielle Garratt
+reviewer: Danielle Garratt
 date: 2022-08-29
 buttonStyle: fg-general-chap
 backgroundStyle: bg-general-chap
