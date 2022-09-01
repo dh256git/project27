@@ -1,13 +1,16 @@
 ---
 layout: default
 title: Blog
+author: Daniel Hajas
+reviewer: Danielle Garratt
+date: 2022-09-01
 buttonStyle: fg-blog-land
 backgroundStyle: bg-blog-land
 listOfIcons: [["fas fa-book", ""], ["", "Mobius-strip.png"]]
 levelToOpen: branch
 ---
-    <h2 class="cover-heading">The {{ page.title }}: Scribbles on the scribbles</h2>
-<p>The blog of {{ site.brand }} is split into two branches: LogBook and TWIST. If LogBook is the objective point of view, then TWIST is definitely the subjective one.</p>
+    <h2 class="cover-heading">The {{ page.title }}: Thoughts and lessons to share</h2>
+<p>The {{ site.brand }} Blog is split into two branches: LogBook and TWIST. In the LogBook, we record issues and solutions found during the development of the {{ site.brand }} {{ site.product }}. TWIST is all about sharing thoughts to engage with and inspire new ideas.</p>
 <hr>
 {% assign dataFile = site.data.volumes.blog %}
 {% include global/grid-generator.html heading="h3" %}
