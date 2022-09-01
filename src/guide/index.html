@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Project27 Guide
+author: Daniel Hajas
+reviewer: Danielle Garratt
+date: 2022-09-01
 buttonStyle: fg-guide-land
 backgroundStyle: bg-guide-land
 listOfIcons: [["fas fa-atom", ""], ["fas fa-desktop", ""], ["fas fa-chart-line"], ["fas fa-utensils", ""], ["fas fa-record-vinyl", ""]]
@@ -11,21 +14,19 @@ listOfButtons: ["Read-more", "Read-more1", "Read-more2", "Read-more3", "Read-mor
 listOfFunctions: ["readMoreMPS()", "readMoreComputerLiteracy()", "readMoreStatistics()", "readMoreCookbook()", "readMoreVocal()"]
 ---
 <div class="container">
-    <h2 class="cover-heading">The {{ site.product }}: Scribbles of a blind scientist</h2>
+    <h2 class="cover-heading">The {{ site.product }}: A journal of life-long learning</h2>
 
-<blockquote>
-The {{ site.brand }} {{ site.product }} is a set of descriptive notes on how to do tasks, I once knew how to do. Sadly, unless practice follows learning, all knowledge fades. - Daniel hajas
-</blockquote>
+<p>The {{ site.brand }} {{ site.product }} is a set of notes to capture and share life-long learning. Notes are organised into collections of science and lifestyle. The {{ site.product }} is a free resource. Developing the {{ site.product }} is based on projects. Working on these projects is an opportunity for active learning. We capture solutions learnt on the way, and share project outputs in form of notes.</p>
 
-<p>The key aim of {{ site.product }} is to offer a quick reference in unpracticed tasks, organised into specific topics.
-Its additional aims are to revise, study, research, innovate, and make aware.</p>
+<p>Our aim is to offer a quick reference in new, or unpracticed tasks. In addition, we aim to revise, study, research, innovate, and make aware by publishing notes in the {{ site.product }}.</p>
 
 <hr>
 
 <h3>Science collection</h3>
 
-<p>The {{ site.brand }} Science collection is a collection of volumes on mathematical and physical sciences, computer literacy, and statistics.<p>
+<p>The {{ site.brand }} Science collection is a set of volumes on mathematical and physical sciences, computer literacy, and statistics.</p>
 
+<p>Associate editor: <a href="{{ '/about/team/Daniel/Daniel.html' | prepend: site.baseurl }}">Daniel Hajas</a></p>
 
 {% assign dataFile = site.data.volumes.guide %}
 {% assign gridLimit = 3 %}
@@ -36,9 +37,10 @@ Its additional aims are to revise, study, research, innovate, and make aware.</p
 <h3>Lifestyle collection</h3>
 
 <p>
-The Lifestyle collection is a collection of volumes on cooking, journalism, and human relationships.
+The Lifestyle collection is a set of volumes on cooking, journalism, and human relationships.
 </p>
 
+<p>Associate editor: <a href="{{ '/about/team/Danielle/Danielle.html' | prepend: site.baseurl }}">Danielle Garratt</a></p>
 {% assign dataFile = site.data.volumes.guide %}
 {% assign gridOffset = 3 %}
 {% include global/grid-generator.html heading="h4" %}

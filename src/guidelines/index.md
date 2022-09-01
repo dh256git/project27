@@ -10,18 +10,16 @@ backgroundStyle: bg-general-vol
 
 ## {{ page.title }}
 
-This page outlines the content and review guidelines followed by {{ site.brand }}.
+This page outlines our guidelines on creating and reviewing content.
 
 ### Content guidelines
 
-The content authoring guidelines evolve alongside the growth of the project.
-These guidelines play a role in ensuring that content is consistent and of high quality.
+We want high quality and consistent content. The content guidelines are revised periodically. We expect to improve as the site develops.
 
 [Read the content guidelines](./content.html)
 
 ### Review guidelines
 
-No content, and no author is perfect.
-This is why peer reviews are a valued contribution at {{ site.brand }}.
+No content, and no author is perfect. This is why we value reviews from others.
 
 [Read the review guidelines](./review.html)
