@@ -11,10 +11,11 @@ listOfIcons: [["", ""], ["", ""]]
 {% assign profile = site.data.volunteering.team[0] %}
 {% assign profile-sections = site.data.volunteering.daniel %}
 
-<div class="row">
-<div class="col">
-<img src="{{ profile.photo | prepend: site.baseurl }}" alt="{{ profile.alt }}" height="200px" width="150px">
+<div class="container">
+<img src="{{ profile.photo | prepend: site.baseurl }}" class="daniel-profile" alt="{{ profile.alt }}" height="250px" width="230px">
 </div>
+
+<div class="row">
 <div class="col">
 <h2>{{ profile.title }} {{ profile.name }}</h2>
 
