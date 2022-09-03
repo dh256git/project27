@@ -1,7 +1,7 @@
 ---
 layout: post
 branch: Twist
-category: Nanotips and FAQs
+tag: Nanotips and FAQs
 author: Daniel
 title: FAQ 2 - How do I read maths in accessible ways?
 buttonStyle: fg-blog-note

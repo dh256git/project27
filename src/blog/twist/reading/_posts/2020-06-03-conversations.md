@@ -1,7 +1,7 @@
 ---
 layout: post
 branch: Twist
-category: Reading
+tag: Reading
 author: Daniel
 title: Reading - An introduction to this category
 buttonStyle: fg-blog-note

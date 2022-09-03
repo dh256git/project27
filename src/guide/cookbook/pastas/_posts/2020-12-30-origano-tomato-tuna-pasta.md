@@ -2,6 +2,7 @@
 layout: recipes
 title: Origano-tomato tuna pasta
 menu: pasta
+tag: pasta
 buttonStyle: fg-guide-sect
 backgroundStyle: bg-guide-sect
 video: https://youtu.be/q38wEG1FHww

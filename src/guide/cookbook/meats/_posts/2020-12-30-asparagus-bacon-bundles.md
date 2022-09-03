@@ -2,6 +2,7 @@
 layout: recipes
 title: Asparagus bacon bundles
 menu: meat feast
+tag: meat feast
 buttonStyle: fg-guide-sect
 backgroundStyle: bg-guide-sect
 video: https://youtu.be/Xk3UfRdwm7o

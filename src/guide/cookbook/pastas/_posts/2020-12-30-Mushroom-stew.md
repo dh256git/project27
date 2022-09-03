@@ -2,6 +2,7 @@
 layout: recipes
 title: Mushroom stew
 menu: pasta
+tag: pasta
 buttonStyle: fg-guide-sect
 backgroundStyle: bg-guide-sect
 video: https://youtu.be/UxZk762hZgM

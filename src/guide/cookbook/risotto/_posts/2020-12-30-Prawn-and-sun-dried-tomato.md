@@ -2,6 +2,7 @@
 layout: recipes
 title: Prawn and sun-dried tomato risotto
 menu: risotto
+tag: risotto
 buttonStyle: fg-guide-sect
 backgroundStyle: bg-guide-sect
 video: https://www.youtube.com/watch?v=B_xcPz2-oL0

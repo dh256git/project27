@@ -2,6 +2,7 @@
 layout: recipes
 title: Mushroom and chicken risotto
 menu: risotto
+tag: risotto
 buttonStyle: fg-guide-sect
 backgroundStyle: bg-guide-sect
 video: https://youtu.be/d2_VQhp3ThI

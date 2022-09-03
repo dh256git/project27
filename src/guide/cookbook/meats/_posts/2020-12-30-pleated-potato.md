@@ -2,6 +2,7 @@
 layout: recipes
 title: Pleated potato casserole
 menu: meat feast
+tag: meat feast
 buttonStyle: fg-guide-sect
 backgroundStyle: bg-guide-sect
 video: https://youtu.be/hTPSdevZPEg

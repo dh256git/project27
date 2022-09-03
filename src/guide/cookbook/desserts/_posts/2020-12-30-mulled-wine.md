@@ -2,6 +2,7 @@
 layout: recipes
 title: Mulled wine
 menu: desserts and breakfast
+tag: desserts and breakfast
 buttonStyle: fg-guide-sect
 backgroundStyle: bg-guide-sect
 video: https://youtu.be/PfHMCB7UePc

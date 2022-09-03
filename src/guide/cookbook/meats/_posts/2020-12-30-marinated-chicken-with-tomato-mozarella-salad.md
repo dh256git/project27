@@ -2,6 +2,7 @@
 layout: default
 title: Marinated chicken with tomato and mozarella salad
 menu: meat feast
+tag: meat feast
 buttonStyle: fg-guide-sect
 backgroundStyle: bg-guide-sect
 video: https://youtu.be/SFtWmCwxBpI

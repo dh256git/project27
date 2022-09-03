@@ -2,6 +2,7 @@
 layout: recipes
 title: Chicken and spinach wrap
 menu: wraps and rolls
+tag: wraps and rolls
 buttonStyle: fg-guide-sect
 backgroundStyle: bg-guide-sect
 video: https://www.youtube.com/watch?v=TadWhAGTAbE

@@ -2,6 +2,7 @@
 layout: recipes
 title: Pleated green bean casserole
 menu: meat feast
+tag: meat feast
 buttonStyle: fg-guide-sect
 backgroundStyle: bg-guide-sect
 video: https://www.youtube.com/watch?v=q_T9GmNmqtM

@@ -2,6 +2,7 @@
 layout: recipes
 title: Prawn cocktail
 menu: fish dish
+tag: fish dish
 buttonStyle: fg-guide-sect
 backgroundStyle: bg-guide-sect
 video: https://youtu.be/kJhGS3JOhS0

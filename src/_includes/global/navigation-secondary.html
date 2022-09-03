@@ -8,7 +8,7 @@
 {% include global/breadcrumbs.html %}
 {% endif %}
   {% if page.layout == "post" or page.layout == "recipes" %}
-  {% include blog/pagination-by-category.html %}
+  {% include blog/pagination-by-tag.html %}
   {% elsif page.layout == "blog-branch" %}
         {% include blog/branch-and-featured.html %}
   {% endif %}

@@ -3,7 +3,7 @@ layout: post
 author: Daniel
 title: Issue tracking - An introduction to the category
 branch: LogBook
-category: Issue tracking
+tag: Issue tracking
 buttonStyle: fg-blog-sect
 backgroundStyle: bg-blog-sect
 ---

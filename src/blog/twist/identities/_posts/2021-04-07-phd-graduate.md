@@ -2,7 +2,7 @@
 layout: post
 title: The PhD graduate identity
 branch: Twist
-category: Identities
+tag: Identities
 buttonStyle: fg-blog-note
 backgroundStyle: bg-blog-note
 ---

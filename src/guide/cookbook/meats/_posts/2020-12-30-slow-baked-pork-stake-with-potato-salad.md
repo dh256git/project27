@@ -2,6 +2,7 @@
 layout: recipes
 title: SLow baked pork stake
 menu: meat feast
+tag: meat feast
 buttonStyle: fg-guide-sect
 backgroundStyle: bg-guide-sect
 video: https://youtu.be/nWvHNLHrXZ0

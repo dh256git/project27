@@ -2,6 +2,7 @@
 layout: recipes
 title: Creamy pea soup
 menu: soups to scoop
+tag: soups to scoop
 buttonStyle: fg-guide-sect
 backgroundStyle: bg-guide-sect
 video: https://youtu.be/v6_x6NER7VE

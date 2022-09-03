@@ -2,6 +2,7 @@
 layout: recipes
 title: Spaghetti Carbonara
 menu: pasta
+tag: pasta
 buttonStyle: fg-guide-sect
 backgroundStyle: bg-guide-sect
 video: https://youtu.be/3AAdKl1UYZs

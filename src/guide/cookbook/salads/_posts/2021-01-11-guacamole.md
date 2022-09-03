@@ -2,6 +2,7 @@
 layout: recipes
 title: Guacamole
 menu: salads
+tag: salads
 buttonStyle: fg-guide-sect
 backgroundStyle: bg-guide-sect
 video: https://youtu.be/-mHfm9FGmGI
