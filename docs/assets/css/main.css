@@ -119,9 +119,19 @@ nav a { color: black; }
 
 .license { color: black; padding-left: 5px; margin-left: 10px; display: block; }
 
+.daniel-profile { padding-top: 22px; padding-left: 5px; padding-right: 0px; }
+
+.danielle-profile { padding-top: 22px; padding-left: 5px; padding-right: 0px; }
+
+.profile-photo { padding-top: 0px; padding-right: 10px; padding-bottom: 10px; }
+
 .container { max-width: 60rem; margin: 0 auto; padding: 10px; text-align: center; }
 
 .mycontainer { text-align: left; padding-right: 20px; padding-left: 15px; }
+
+.profilecontainer { text-align: center; display: inline-flex; }
+
+.profilecontainertitle { padding: 15px; }
 
 .you-are-here { font-size: 1.25em; color: #000; font-family: Charter; font-weight: bold; }
 

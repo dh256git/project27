@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- scripts for vega lite -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2/build/vega.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0/build/vega-lite.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title> Coins of vision impairment</title>
+
+<!--Custom style sheets-->
+        <link rel="stylesheet" href="/project27/assets/css/main.css">
+
+  </head>
+  <body>
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column bg-background">
+
+<div class="bg-background">
+<div class="row">
+<div class="col-md-6">
+<a class="d-flex justify-content-center" href="#mainContent">Skip to main content</a>
+</div>
+<div class="col-md-6">
+<a class="d-flex justify-content-center" href="#footerContent">Skip to footer</a>
+</div>
+</div>
+
+  <header>
+      <span class="masthead-brand">
+<a href="/project27/index.html" class=navbar-brand">
+      <img src="/project27/assets/images/Project27 logo.png" alt="Project 27 logo" class="logo" width="90em">
+      </a>
+      A warehouse of challenges and solutions.
+      </span>
+
+      <nav class="navbar navbar-expand-md navbar-dark bg-nav-header" tabindex="0" aria-label="Primary">
+  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="primaryNavigation">
+<ul class="navbar-nav ml-auto" role="menubar">
+  
+  <li>
+    <a href="/project27/blog/index.html">Blog</a>
+  </li>
+  
+  <li>
+    <a href="/project27/guide/index.html">Guide</a>
+  </li>
+  
+  <li>
+    <a href="/project27/volunteering/index.html">Volunteering</a>
+  </li>
+  
+  </ul>
+</div>
+</nav>
+  </header>
+</div>
+
+  <main role="main" id="mainContent" class="container bg-background">
+
+<div class="row bg-blog-note">
+<div class="col-md-6">
+
+<div id="breadcrumbs">
+<h1 class="you-are-here">You are here</h1>
+
+<a href="/project27/">Home</a>
+
+  
+    <a href="/project27/blog/index.html">👉 Blog</a>
+  
+
+  
+    <a href="/project27/blog/twist/index.html">👉 Twist</a>
+  
+
+  
+    <a href="/project27/blog/twist/disabilities/index.html">👉 Disabilities</a>
+  
+
+  
+    <br> 👉 Coins of vision impairment
+  
+
+</div>
+
+  
+          
+        <a class="previous-post" href="/project27/blog/twist/disabilities/2017/10/03/travel.html">Previous: Travel on the 25 express</a>
+        
+        <br>
+        
+        <a class="next-post" href="/project27/blog/twist/disabilities/2017/09/16/tedx.html" tabindex="-1" aria-disabled="false">Next: Talking at TEDx Margate</a>
+        
+  
+</div>
+<div class="col-md-3">
+  <button type="button" class="mysecondarybtn" data-toggle="collapse" data-target="#selector" aria-controls="selector" aria-expanded="false" aria-label="Contents">
+    <span><i class="fas fa-bookmark fa-lg" aria-hidden="false"></i></span>
+  </button>
+<div class="collapse" id="selector" aria-label="Contents menu">
+<div class="row">
+<div class="col-md-6">
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtn" data-toggle="collapse" data-target="#volume-selector" aria-haspopup="true">Volume</button>
+        <div class="dropdown-menu" id="volume-selector">
+  
+  
+          <a class="dropdown-item" href= "/project27/blog/logbook/index.html" >LogBook</a>
+  
+          <a class="dropdown-item" href= "/project27/blog/twist/index.html" >TWIST</a>
+  
+  
+</div>
+</div>
+
+</div>
+<div class="col-md-6">
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtn" data-toggle="collapse" data-target="#chapter-selector" aria-haspopup="true">Chapter</button>
+        <div class="dropdown-menu" id="chapter-selector">
+  
+  
+          <a class="dropdown-item" href="/project27/blog/twist/disabilities/index.html" >Living with disabilities</a>
+  
+          <a class="dropdown-item" href="/project27/blog/twist/identities/index.html" >Identities</a>
+  
+          <a class="dropdown-item" href="/project27/blog/twist/reading/index.html" >Reading</a>
+  
+          <a class="dropdown-item" href="/project27/blog/twist/science/index.html" >Science communication</a>
+  
+          <a class="dropdown-item" href="/project27/blog/twist/nanotip/index.html" >Nanotips and FAQs</a>
+  
+          <a class="dropdown-item" href="/project27/blog/twist/grapheel-archive/index.html" >Grapheel archive</a>
+  
+    
+</div>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-6">
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtn" data-toggle="collapse" data-target="#section-selector" aria-haspopup="true">Section</button>
+        <div class="dropdown-menu" id="section-selector">
+  
+  <p>Please open a volume and a chapter, before you are able to select a section. It may also be that this chapter has not been divided into sections.</p>
+  
+</div>
+</div>
+
+</div>
+<div class="col-md-6">
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtn" data-toggle="collapse" data-target="#note-selector" aria-haspopup="true">Note</button>
+        <div class="dropdown-menu" id="note-selector">
+  
+  <p>Please select a section before selecting a note.</p>
+  
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+  <button type="button" class="mysecondarybtn" data-toggle="collapse" data-target="#meta-info" aria-controls="meta-info" aria-expanded="false" aria-label="Page information">
+    <span><i class="fa fa-info-circle fa-lg" aria-hidden="false"></i></span>
+  </button>
+<div class="blog-post-meta collapse" id="meta-info">
+<p class="reading-time">Estimated time to read: 
+  
+  
+    3 - 4 mins
+  
+</p>
+<p>Written by: </p>
+<p>Reviewed by: . <a href="/project27/guidelines/review.html">Read our guidelines on reviews.</a></p>
+<p>Revised on: 28 Sep 2017</p>
+</div>
+</div>
+</div>
+   <div class="row">
+    <div class="col-md-8 blog-main">
+      <div class="blog-post">
+<h2>Coins of vision impairment</h2>
+<p>On my way to Sensing Culture, an event held at the Lewes Castle, aiming to make museum and heritage visits more inclusive and multi-sensory in experience, I was thinking the following.
+<!-- excerpt-end -->
+Disabilities are a tad analogous to coins. I came to this playful semi-conclusion based on two funny things that has happened to me today. But we’ll get to that in a minute, let’s first follow up on why would disabilities be anything like coins. Well, because just like any special need, any disabled person, coins also come in various shapes, sizes, colours, materials they are made of and, yes, value as well. Disabled people are no different. We come in a wide variety of flavours. Oh, and that’s of course true for the enabled community as well.</p>
+
+<p>So what are the two things that inspired this thought over a 6 minutes train journey I couldn’t classify very long and thereby not a very deep thought either? Again like a coin has two faces, people can treat disabilities in two extremes. Very upswing, or very patronising. Now here is the first example. I’m standing in an office, talking to an admin staff member. I’m standing there with my white, long cane straight out, in front of me, perfectly mid-way between me and the person asking for my National ID. I hand it to her, she walks away to confirm my identity, and comes back in a minute, ready to hand back the document, while she exclaims: Here is your driving license, Sir! Yeah, well, now you learnt something new. Apparently she thinks blind people can do anything they want, including driving. She is not alone, the shiny side of the coin is that often people will assume disability is no barrier to anything, which personally I prefer. So to conclude the first mini-story, I took my “driving license”, thanked her, and asked if we could hurry the administration as I don’t want to get a ticket on my car.
+Now unfortunately, sometimes people think the opposite. The tail of the coin is that, just because you can not see, you can not speak either and therefore will respond to your friend on your side who doesn’t even speak the local language, even though you asked a simple question. This happens often too, and today on Lewes train station was no different. I’ve only asked for assisted travel to get around platforms. For one reason or an other, similarly what usually happens on airports, with the slight alternation, I didn’t get a wheel-chair but a ramp. Clearly people at the station assumed because one can not see, they can not make a step down to the platform. Meanwhile, I was welcomed by a good friend, who apparently treated my arrival as a celebrity, not to mention that with a group of people we have this ongoing joke about me being ‘famous’. So it’s really not the fact that they offered a ramp that made me laugh, but that they forgot to roll out the red carpet…
+Of course we are talking about extremes when comparing how people treat disabilities as a heads or tails scenario, but unfortunately the ratio of people who honestly know how to cope with it, are probably the same fraction as how it’s likely that a flipped coin will end up on its edge.</p>
+
+      </div><!-- /.blog-post -->
+
+<hr>
+        
+        <a class="previous-post" href="/project27/blog/twist/disabilities/2017/10/03/travel.html">Previous: Travel on the 25 express</a>
+        
+        <br>
+        
+        <a class="next-post" href="/project27/blog/twist/disabilities/2017/09/16/tedx.html" tabindex="-1" aria-disabled="false">Next: Talking at TEDx Margate</a>
+        
+  </div><!-- /.blog-main -->
+
+    <aside class="col-md-4 blog-sidebar">
+<h2>More posts from the  category</h2>
+
+<p>Did you like this post? Choose another post from the  category below.</p>
+
+
+<ul>
+
+<li>
+<a href="/project27/blog/twist/disabilities/2018/03/28/climbing.html">
+Climbing walls and barriers
+</a>
+</li>
+
+<li>
+<a href="/project27/blog/twist/disabilities/2017/10/03/travel.html">
+Travel on the 25 express
+</a>
+</li>
+
+<li>
+<a href="/project27/blog/twist/disabilities/2017/09/28/coins.html">
+Coins of vision impairment
+</a>
+</li>
+
+<li>
+<a href="/project27/blog/twist/disabilities/2017/09/16/tedx.html">
+Talking at TEDx Margate
+</a>
+</li>
+
+<li>
+<a href="/project27/blog/twist/disabilities/2017/09/15/category.html">
+Living with disabilities - An introduction to this category
+</a>
+</li>
+
+</ul>
+
+    </aside><!-- /.blog-sidebar -->
+      </div><!-- /.row -->
+  </main>
+
+<footer id="footerContent" class="bg-blog-note">
+      <nav class="navbar navbar-expand-md navbar-dark bg-nav-footer" tabindex="0" aria-label="Footer">
+<ul class="navbar-nav ml-auto" role="menubar">
+  
+  <li>
+    <a href="/project27/about/index.html">About</a>
+  </li>
+  
+  <li>
+    <a href="/project27/guidelines/index.html">Guidelines</a>
+  </li>
+  
+  <li>
+    <a href="/project27/legal/index.html">Legal</a>
+  </li>
+  
+  </ul>
+</nav>
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="margin: 10px" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Except where otherwise noted, <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Project27</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://dh256git.github.io/project27/about/team/Daniel/Daniel.html" property="cc:attributionName" rel="cc:attributionURL">Daniel Hajas</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a>
+
+
+<p>Powered by: 
+<a href="https://github.com">
+<img src="/project27/assets/images/Github logo.png" alt="Github" class= "poweredby">
+</a>
+<a href="https://jekyllrb.com">
+<img src="/project27/assets/images/Jekyll logo.png" alt="Jekyll" class= "poweredbyx2">     
+</a>
+<a href="https://getbootstrap.com">
+<img src="/project27/assets/images/Bootstrap logo.png" alt="Bootstrap" class= "poweredby">  
+</a>
+<a href="https://www.markdownguide.org">
+<img src="/project27/assets/images/Markdown logo.png" alt="Markdown" class= "poweredbyx3"> 
+</a>
+<a href="https://www.latex-project.org">
+<img src="/project27/assets/images/LaTeX logo.png" alt="LaTeX" class= "poweredbyx5">  
+</a>
+<a href="https://www.python.org">
+<img src="/project27/assets/images/Python logo.png" alt="Python" class= "poweredbyx6">
+</a>
+<a href="https://www.r-project.org">
+<img src="/project27/assets/images/Rlogo.png" alt="R" class= "poweredbyx4">
+</a>
+<a href="https://www.gnu.org/software/bash/">
+<img src="/project27/assets/images/Bash shell logo.png" alt="Bash" class= "poweredbyx7">
+</a>
+</p>
+<div class="mycontainer">
+<div class="row justify-content-start">
+<div class="col">
+<p> Version: 0.0.234.</p>
+</div>
+<div class="row justify-content-end">
+<div class="col">
+<p>Last updated: 03 Sep 2022 at 16:39.</p>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<!-- Bootstrap dependency scripts -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- Mathematics script -->
+<script type="text/x-mathjax-config">
+(function () {
+
+MathJax.Hub.Config({
+	'showProcessingMessages': false,
+	'messageStyle': 'none'
+});
+
+if (typeof MathJaxListener !== 'undefined') {
+	MathJax.Hub.Register.StartupHook('End', function () {
+		MathJaxListener.invokeCallbackForKey_('End');
+	});
+}
+
+})();
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<!--Script for font awesome icons-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
+
+<!--script for read more modal -->
+<script defer src="/project27/assets/js/modal.js"></script>
+
+<!--script for select pop-up -->
+<script defer src="/project27/assets/js/pop-up.js"></script>
+
+  </body>
+</html>
