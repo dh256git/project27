@@ -1,0 +1,29 @@
+---
+layout: default
+title: Meet the team
+buttonStyle: fg-general-chap
+backgroundStyle: bg-general-chap
+listOfIcons: [["", ""], ["", ""]]
+---
+
+## {{ page.title }}
+
+Anyone who has ever volunteered to contribute to {{ site.brand }} is acknowledged on this page.
+Find out more about the people who make up the team.
+
+
+{% for item in site.data.volunteering.team %}
+<div class="profilecontainertitle">
+<h3>{{ item.name }} - {{ site.brand }} {{ item.role }}</h3>
+</div>
+
+<div class="profilecontainer">
+<img src="{{ item.photo | prepend: site.baseurl }}" class="profile-photo" alt="{{ item.alt }}" height="300px" width="200px">
+
+{{ item.contribution }}
+</div>
+
+<div class="row">
+<a href="{{ item.profile | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">View {{ item.shortname }}'s profile</a>
+</div>
+{% endfor %}
