@@ -128,6 +128,6 @@ Please, express your interest by using the button below.
 
 <!--Note: Decide best method of expressing interest.-->
 
-<button class="mybtn" aria-disabled="true" href="#">
+<button class="fg-general-vol" aria-disabled="true" href="#">
 BECOME A VOLUNTEER
 </button>
