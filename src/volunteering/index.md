@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Volunteering and contributionsReview", "Content 
+title: Volunteering 
 buttonStyle: fg-general-vol
 backgroundStyle: bg-general-vol
 ---
@@ -9,13 +9,13 @@ backgroundStyle: bg-general-vol
 {% assign teamER = site.volunteering | where:"team","ER" %}
 {% assign teamCC = site.volunteering | where:"team","CC" %}
 
-## Call for volunteers and contributors
+## Work with us to learn with us
 
-**Come and help {{ site.brand }}, and {{ site.brand }} will help you.**
+Come, volunteer to work with the {{ site.brand }}, team to learn with us, and teach those who want to learn.
 
 > If you'd like to volunteer your time, and learn a new skill, or improve and existing skill you have and I don't, then please consider helping me.
 
-Daniel - {{ site.brand }} editor
+Daniel - {{ site.brand }} founder
 
 ---
 
@@ -101,7 +101,7 @@ It's learning through trial and error, and practice.
 
 {% capture benefit4 %}
 Are you the collector type, gathering and displaying credits, kudos,, acknowledgements, thanks, and all that jazz?
-Then you'll also get the rewards on the <a href="./acknowledgements.html">public acknowledgements page,</a> as well as in the inner circle of {{ site.brand }}.
+Then you'll also get the rewards on <a href="/about/team/index.html">our team page,</a> as well as in the inner circle of {{ site.brand }}.
 {% endcapture %}
 
 {% include global/collapseable.html trigger="Learn new skills, or improve your existing skills." paragraph=benefit1 ID="b01" %}
@@ -128,6 +128,4 @@ Please, express your interest by using the button below.
 
 <!--Note: Decide best method of expressing interest.-->
 
-<button class="mybtn" aria-disabled="true" href="#">
-BECOME A VOLUNTEER
-</button>
+<a class="{{ page.buttonStyle }}" aria-disabled="false" href="{{ '/volunteering/become-a-volunteer.html' | prepend: site.baseurl }}">BECOME A VOLUNTEER</a>
