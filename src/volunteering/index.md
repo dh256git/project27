@@ -40,13 +40,13 @@ The R&D team members help with the research and development activities of {{ sit
 <p>Currently no roles are available in this team.</p>
 {% endfor %}
 
-### Editorial and review team
+### Content Creation team
 
-Join the Editorial and Review team.
-There are {{ teamER | size }} available tasks.
-The team of editors and reviewers help us make sure content is relevant and a high quality.
+Join the Content Creation team.
+There are {{ teamCC | size }} available tasks.
+The Content Creation team helps with authoring new notes for {{ site.product }}.
 
-{% for member in teamER %}
+{% for member in teamCC %}
 <h4>{{ member.task }}</h4>
 
 <p>{{ member.excerpt }}</p>
@@ -56,13 +56,13 @@ The team of editors and reviewers help us make sure content is relevant and a hi
 <p>Currently no roles are available in this team.</p>
 {% endfor %}
 
-### Content Creation team
+### Editorial and review team
 
-Join the Content Creation team.
-There are {{ teamCC | size }} available tasks.
-The Content Creation team helps with authoring new notes for {{ site.product }}.
+Join the Editorial and Review team.
+There are {{ teamER | size }} available tasks.
+The team of editors and reviewers help us make sure content is relevant and a high quality.
 
-{% for member in teamCC %}
+{% for member in teamER %}
 <h4>{{ member.task }}</h4>
 
 <p>{{ member.excerpt }}</p>

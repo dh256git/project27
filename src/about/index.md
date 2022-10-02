@@ -48,13 +48,13 @@ To read the complete welcome letter, [view Daniel's profile](./team/Daniel/Danie
 
 We support people with learning disabilities and visual impairments, by creating a safe space and opportunities for learning.
 
-1. **Active learning**: We promote active learning, by getting volunteers involved with small projects to learn from, while they help with developing the {{ site.brand }} site.
-2. **Passive learning**: We enable people to learn using accessible content, by producing a growing library of notes within the {{ site.brand }} {{ site.product }}.
+1. **Active learning**: We promote active learning, by [getting volunteers involved]({{ site.baseurl }}{% link volunteering/index.md %}) with small projects to learn from, while they help with developing the {{ site.brand }} site.
+2. **Passive learning**: We enable people to learn using accessible content, by producing a growing library of notes within the {{ site.brand }} [{{ site.product }}]({{site.baseurl }}{% link guide/index.html %}).
 
 We also support the families, friends, teachers, carers, and mentors of learners by inspiring and consulting.
 
-1. **Sharing thoughts**: We share how we see things with regards to sight loss and learning disability in our blog posts. We do this to lead by example, and inspire anyone who lacks the confidence to learn new skills.
-2. **Consulting**: Anyone who needs time to talk things through with us can book an appointment for a session of consulting.
+1. **Sharing thoughts**: We share how we see things with regards to sight loss and learning disability in our [blog posts]({{ site.baseurl }}{% link blog/index.html %}). We do this to lead by example, and inspire anyone who lacks the confidence to learn new skills.
+2. **Offering support**: Anyone who needs time to talk things through with us can [book an appointment]({{ site.baseurl }}{% link support/index.md %}) for a session of consulting, tutoring, or mentoring.
 
 ### What's on {{ site.brand }}?
 
