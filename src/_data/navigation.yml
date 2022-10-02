@@ -7,3 +7,6 @@
 - name: Volunteering
   link: /volunteering/index.html
   description: Volunteering is the way we involve learners of all abilities and skills. Through active learning, it is the volunteers who build the projects of Project27. Together we learn, together we teach.
+- name: Support
+  link: /support/index.html
+  description: A service we are still thinking about.

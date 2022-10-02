@@ -6,7 +6,7 @@ reviewer: Danielle Garratt
 date: 2022-08-27
 buttonStyle: fg-general-land
 backgroundStyle: bg-general-land
-listOfIcons: [["fas fa-pencil-alt", ""], ["fas fa-compass", ""]]
+listOfIcons: [["fas fa-pencil-alt", ""], ["fas fa-compass", ""], ["fa-solid fa-handshake", ""], ["fa-solid fa-person-chalkboard", ""]]
 ---
 
 <h2>What is {{ site.brand }}?</h2>
@@ -26,5 +26,4 @@ We tell our insights through blog posts. We teach through the notes of the {{ si
       <a href="./about/index.html" class="{{ page.buttonStyle }}">Read more about {{ site.brand }}</a>
 
 {% assign dataFile = site.data.navigation %}
-{% assign gridHide = "Volunteering" %}
-{% include global/grid-generator.html heading="h2" article="The" %}
+{% include global/grid-generator.html heading="h2" %}
