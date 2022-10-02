@@ -137,7 +137,6 @@ Then you'll also get the rewards on <a href="/about/team/index.html">our team pa
 <button onclick="readMoreVolunteering4()" id="Read-More-BTN4">Read more</button>
 </li>
 </ol>
->>>>>>> read-more
 
 ---
 
