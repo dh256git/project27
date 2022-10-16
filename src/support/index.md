@@ -2,7 +2,8 @@
 layout: default
 title: Support
 author: Daniel Hajas
-date: 2022-10-02
+reviewer: Danielle Garratt
+date: 2022-10-15
 buttonStyle: fg-general-vol
 backgroundStyle: bg-general-vol
 ---
@@ -63,9 +64,7 @@ After the session, we are sending out a short feedback survey to you, where you 
 
 1. ask for a full refund,
 2. convert your booking fee into payment for the support, or
-3. to pay an additional sum,
-
-depending how much you value our support.
+3. to pay an additional sum - depending how much you value our support.
 
 You can book one support session in a calendar month, free of charge. If you'd like more support, we will work with you to plan and schedule a personalised support period. Support periods are a paid for service. For further details, please read our [terms of service.]({{ site.baseurl }}{% link legal/terms-of-service.md %})
 
