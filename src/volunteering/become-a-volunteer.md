@@ -15,6 +15,7 @@ Thanks for your interest in becoming a volunteer. To do so, please download the 
 <a class="{{ page.buttonStyle }}" href="{{ '/assets/documents/Project27--Application-form-for-volunteers.md' | prepend: site.baseurl}}" download="Project27 - Application form for volunteers">
 Download application form
 </a>
+
 The application process is very quick and simple, but it is also a small, self-contained challenge. By sending us your completed application form, you show us:
 
 * how committed you are to learning,

@@ -77,13 +77,13 @@ Initially, five volumes, separated into two collections, form part of the {{ sit
   * [Cookbook;](./guide/cookbook/index.html) - recipes that we enjoy and for you to try out.
   * [Vocal.](./guide/vocal/index.html) - an album of short stories and audio recordings with family and friends.
 
-[Read more about what you will find on this site](./content.html)
+{% include global/buttonLink.html url="./content.html" label="Read more about what you will find on this site" %}
 
 ### The modest ambition
 
 {{ site.brand }} is a digital, private notebook on a range of topics that matter to Daniel and Danielle. It is a hobby activity and an opportunity to learn new skills and practice existing ones.
 
-[Read more about the modest ambition](./modest.html)
+{% include global/buttonLink.html url="./modest.html" label="Read more about the modest ambition" %}
 
 ### The grand ambition
 
@@ -96,7 +96,7 @@ The team becomes a community.
 The community drives business activities.
 The revenue is invested in new research, development, and learning projects.
 
-[Read more about the grand ambition](./grand.html)
+{% include global/buttonLink.html url="./grand.html" label="Read more about the grand ambition" %}
 
 ### Values and culture
 
@@ -107,10 +107,10 @@ The culture at {{ site.brand }} is defined by four core values:
 3. Respect
 4. Engagement
 
-[Read more about our values](./values.html)
+{% include global/buttonLink.html url="./values.html" label="Read more about our values" %}
 
 ## Dashboard - The {{ site.brand }} backstage
 
 We have a public dashboard, where we keep the project roadmap, and progress updates on the latest sprint. We like to be transparent, so anyone is welcome to have a quick look. However, the dashboard doesn't meet our user experience, and accessibility standards. Please be forgiving if you decide to view the dashboard.
 
-[View the dashboard](./dashboard/index.html)
+{% include global/buttonLink.html url="./dashboard/index.html" label="View the dashboard" %}

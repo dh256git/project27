@@ -68,7 +68,7 @@ After the session, we are sending out a short feedback survey to you, where you 
 
 You can book one support session in a calendar month, free of charge. If you'd like more support, we will work with you to plan and schedule a personalised support period. Support periods are a paid for service. For further details, please read our [terms of service.]({{ site.baseurl }}{% link legal/terms-of-service.md %})
 
-<button onclick="showBookingFrame()" id="button-show-booking">Book a support session</button>
+<button class="{{ page.buttonStyle }}" onclick="showBookingFrame()" id="button-show-booking">Book a support session</button>
 
 <div id="booking-frame-hide"></div>
 
