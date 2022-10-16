@@ -22,7 +22,7 @@ That's why we come to you, listen to your needs and unique circumstances, and wh
 ### Who is going to provide the support?
 
 For the time being, you can book a support session with Daniel and Danielle - the core team at {{ site.brand }}.
-To learn more about us, check out [our team page]({{ site.baseurl }}{% link about/team/index.html %}).
+To learn more about us, check out [our team page]({% link about/team/index.html %}).
 
 The information you provide in your support session booking form will help us to find the best person in our team, or wider community, to talk to you.
 
@@ -35,7 +35,7 @@ We can provide support in the following ways:
 * mentoring; for those who just need a bit more general guidance and confidence building;
 * referrals: for those occasions we don't know the solution to your challenges;
 * research: for specific questions, where we might need to do a bit of digging to come up with a solution, or a demonstrator tool;
-* tutoring: for people, who want to get hands-on and learn new skills in topics we endorse in the [{{ site.brand }} {{ site.product }}.]({{ site.baseurl }}{% link guide/index.html %})
+* tutoring: for people, who want to get hands-on and learn new skills in topics we endorse in the [{{ site.brand }} {{ site.product }}.]({% link guide/index.html %})
 
 You can book a single session. We can also help you plan multiple sessions over a longer period of time. We call this a support period. Have you heard the phrase: ["The whole is greater than the sum of its parts"](https://se-scholar.com/se-blog/2017/6/23/who-said-the-whole-is-greater-than-the-sum-of-the-parts)? It's true for {{ site.brand }} support sessions too. During the first session, we can help with creating your personal support period, planning the desired number and type of sessions.
 
@@ -66,7 +66,7 @@ After the session, we are sending out a short feedback survey to you, where you 
 2. convert your booking fee into payment for the support, or
 3. to pay an additional sum - depending how much you value our support.
 
-You can book one support session in a calendar month, free of charge. If you'd like more support, we will work with you to plan and schedule a personalised support period. Support periods are a paid for service. For further details, please read our [terms of service.]({{ site.baseurl }}{% link legal/terms-of-service.md %})
+You can book one support session in a calendar month, free of charge. If you'd like more support, we will work with you to plan and schedule a personalised support period. Support periods are a paid for service. For further details, please read our [terms of service.]({% link legal/terms-of-service.md %})
 
 <button class="{{ page.buttonStyle }}" onclick="showBookingFrame()" id="button-show-booking">Book a support session</button>
 

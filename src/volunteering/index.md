@@ -15,7 +15,7 @@ backgroundStyle: bg-general-vol
 
 ## Work with us to learn with us
 
-Come, volunteer to work with the {{ site.brand }}, team to learn with us, and teach those who want to learn.
+Come, volunteer to work with the {{ site.brand }} team to learn with us, and teach those who want to learn.
 
 > If you'd like to volunteer your time, and learn a new skill, or improve and existing skill you have and I don't, then please consider helping me.
 
