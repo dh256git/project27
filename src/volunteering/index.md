@@ -99,7 +99,7 @@ Members of the C-suite lead by example, and help with the management of {{ site.
 
 <ol>
 <li>
-Learn new skills, or improve your excisting skills.<div id="volunteer1"></div><div id="morevolunteer1">
+Learn new skills, or improve your existing skills.<div id="volunteer1"></div><div id="morevolunteer1">
 {{ site.brand }} is all about learning new skills, and getting better in doing certain things, by practicing, and innovating.
 The project offers a wide range of skills to pick up and nurture, and you get to choose which is most valuable to you.All that {{ site.brand }} volunteering roles do, is setting SMART (Specific, Measurable, Achievable, Relevant, and Timely) targets for you to work towards.
 </div>

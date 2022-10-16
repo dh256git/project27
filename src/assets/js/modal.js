@@ -141,3 +141,19 @@ function readMoreVolunteering4() {
     moreText.style.display = "inline";
   }
 }
+
+function showBookingFrame() {
+  var dots = document.getElementById("booking-frame-hide");
+  var moreText = document.getElementById("booking-frame-show");
+  var btnText = document.getElementById("button-show-booking");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Book a support session";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Hide booking page";
+    moreText.style.display = "inline";
+  }
+}
