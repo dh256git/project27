@@ -18,7 +18,7 @@ This page introduces the {{ site.brand }} vision and mission, why we do it, who 
 
 We are Daniel and Danielle, a couple from Brighton, England. We wanted to learn, so we started developing {{ site.brand }}. We live with disabilities, and we have a lot to share.
 
-[Learn more about the team](./team/index.html)
+{% include global/buttonLink.html url="./team/index.html" label="Learn more about the team" %}
 
 ### Where did {{ site.brand }} begin?
 
