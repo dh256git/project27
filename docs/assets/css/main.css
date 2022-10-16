@@ -141,6 +141,8 @@ nav a { color: black; }
 
 .profile-photo { padding-top: 0px; padding-right: 10px; padding-bottom: 10px; }
 
+.cover-image { padding-top: 10px; padding-right: 10px; padding-bottom: 10px; }
+
 .container { max-width: 60rem; margin: 0 auto; padding: 10px; text-align: center; }
 
 .mycontainer { text-align: left; padding-right: 20px; padding-left: 15px; }
