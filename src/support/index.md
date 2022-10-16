@@ -11,11 +11,12 @@ backgroundStyle: bg-general-vol
 
 We are here to support those who need it the most. 
 
+{% include global/cover-image.html image="support-cover.png" alt="A cartoon hand holding a wrench and reaching out from a laptop screen." %}
 ### Why do we offer personalised support?
 
 We know from experience, written tutorials and guides aren't always enough.
 Sometimes we just need a little more hands-on support.
-That's why we come to you, listen to your needs and unique circumstances, and why we help.
+That's why we come to you, listen to your needs and unique circumstances, and why we want to help.
 
 ### Who is going to provide the support?
 
@@ -33,7 +34,7 @@ We can provide support in the following ways:
 * mentoring; for those who just need a bit more general guidance and confidence building;
 * referrals: for those occasions we don't know the solution to your challenges;
 * research: for specific questions, where we might need to do a bit of digging to come up with a solution, or a demonstrator tool;
-* tutoring: for people, who want to get hands-on and learn new skills in topics we endorse in the {{ [site.brand }} {{ site.product }}.]({{ site.baseurl }}{% link guide/index.html %})
+* tutoring: for people, who want to get hands-on and learn new skills in topics we endorse in the [{{ site.brand }} {{ site.product }}.]({{ site.baseurl }}{% link guide/index.html %})
 
 You can book a single session. We can also help you plan multiple sessions over a longer period of time. We call this a support period. Have you heard the phrase: ["The whole is greater than the sum of its parts"](https://se-scholar.com/se-blog/2017/6/23/who-said-the-whole-is-greater-than-the-sum-of-the-parts)? It's true for {{ site.brand }} support sessions too. During the first session, we can help with creating your personal support period, planning the desired number and type of sessions.
 
