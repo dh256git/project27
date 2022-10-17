@@ -40,7 +40,7 @@ This is why I created {{ site.brand }}.
 > So long, all the best!  
 > Daniel
 
-To read the complete welcome letter, [view Daniel's profile](./team/Daniel/Daniel.html)
+To read the complete welcome letter, [view Daniel's profile](./team/Daniel/index.html)
 
 ---
 
@@ -48,34 +48,34 @@ To read the complete welcome letter, [view Daniel's profile](./team/Daniel/Danie
 
 We support people with learning disabilities and visual impairments, by creating a safe space and opportunities for learning.
 
-1. **Active learning**: We promote active learning, by [getting volunteers involved]({{ site.baseurl }}{% link volunteering/index.md %}) with small projects to learn from, while they help with developing the {{ site.brand }} site.
-2. **Passive learning**: We enable people to learn using accessible content, by producing a growing library of notes within the {{ site.brand }} [{{ site.product }}]({{site.baseurl }}{% link guide/index.html %}).
+1. **Active learning**: We promote active learning, by [getting volunteers involved]({% link volunteering/index.md %}) with small projects to learn from, while they help with developing the {{ site.brand }} site.
+2. **Passive learning**: We enable people to learn using accessible content, by producing a growing library of notes within the {{ site.brand }} [{{ site.product }}]({% link guide/index.html %}).
 
 We also support the families, friends, teachers, carers, and mentors of learners by inspiring and consulting.
 
-1. **Sharing thoughts**: We share how we see things with regards to sight loss and learning disability in our [blog posts]({{ site.baseurl }}{% link blog/index.html %}). We do this to lead by example, and inspire anyone who lacks the confidence to learn new skills.
-2. **Offering support**: Anyone who needs time to talk things through with us can [book an appointment]({{ site.baseurl }}{% link support/index.md %}) for a session of consulting, tutoring, or mentoring.
+1. **Sharing thoughts**: We share how we see things with regards to sight loss and learning disability in our [blog posts]({% link blog/index.html %}). We do this to lead by example, and inspire anyone who lacks the confidence to learn new skills.
+2. **Offering support**: Anyone who needs time to talk things through with us can [book a support session]({% link support/index.md %}) for a session of consulting, tutoring, or mentoring.
 
 ### What's on {{ site.brand }}?
 
-The site is split into two parts: [Blog](./blog/index.html) and [{{ site.product }}.](./guide/index.html)
+The site is split into two parts: [Blog]({% link blog/index.html %}) and [{{ site.product }}.]({% link guide/index.html %})
 Blog posts and {{ site.product }} notes both come in two flavours: technical, and lifestyle.
 
 The blog has two branches:
 
-1. [LogBook](./blog/logbook/index.html) - a technical blog to track challenges and milestones encountered during the development of projects.
-2. [TWIST.](./blog/twist/index.html) - posts on the way we see things.
+1. [LogBook]({% link blog/logbook/index.html %}) - a technical blog to track challenges and milestones encountered during the development of projects.
+2. [TWIST.]({% link blog/twist/index.html %}) - posts on the way we see things.
 
 The {{ site.product }} is what we refer to as the library or the journal.
 Initially, five volumes, separated into two collections, form part of the {{ site.product }}.
 
 1. Science collection:
-  * [Mathematical and Physical Sciences (MPS);](./guide/MPS/index.html) - a volume of notes on topics of mathematics and physics.
-  * [Computer Literacy;](./guide/CL/index.html) -a volume of notes on how to do small, practical tasks on the computer.
-  * [Statistics;](./guide/statistics/index.html)- a volume of notes on how statistical calculations work in a mathematical sense.
+  * [Mathematical and Physical Sciences (MPS);]({% link guide/MPS/index.html %}) - a volume of notes on topics of mathematics and physics.
+  * [Computer Literacy;]({% link guide/CL/index.html %}) -a volume of notes on how to do small, practical tasks on the computer.
+  * [Statistics;]({% link guide/statistics/index.html %})- a volume of notes on how statistical calculations work in a mathematical sense.
 2. Lifestyle collection:
-  * [Cookbook;](./guide/cookbook/index.html) - recipes that we enjoy and for you to try out.
-  * [Vocal.](./guide/vocal/index.html) - an album of short stories and audio recordings with family and friends.
+  * [Cookbook;]({% link guide/cookbook/index.html %}) - recipes that we enjoy and for you to try out.
+  * [Vocal.]({% link guide/vocal/index.html %}) - an album of short stories and audio recordings with family and friends.
 
 {% include global/buttonLink.html url="/about/content.html" label="Read more about what you will find on this site" %}
 

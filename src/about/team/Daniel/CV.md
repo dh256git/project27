@@ -17,7 +17,7 @@ I was born in Hungary, where I lived my childhood. Prior to moving to Brighton (
 
 In 2017 I graduated with a first class honours, Master of theoretical physics degree. Although fundamental physics studies was very satisfying and a great opportunity to acquire skills for solving problems, I also developed an interest in touch technologies. This has led to my current research interest in Human COmputer Interaction (HCI) and haptic interfaces in context of science communication. As a transition from my undergraduate to PhD studentship, in my master year I focused on a science communication project under the supervision of [Prof Kathy Romer.](https://profiles.sussex.ac.uk/p114410-kathy-romer)
 
-Between 2017 and 2021 I have completed a PhD under the supervision of [Prof marianna Obrist](https://uclic.ucl.ac.uk/people/marianna-obrist) at the [Sussex Computer-Human Interaction (SCHI)](https://multi-sensory.info) laboratory.
+Between 2017 and 2021 I have completed a PhD under the supervision of [Prof marianna Obrist](https://uclic.ucl.ac.uk/people/marianna-obrist) at the [Sussex Computer-Human Interaction (SCHI) laboratory.](https://www.sussex.ac.uk/schi/)
 
 ##### Path to employment
 
