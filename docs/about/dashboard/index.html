@@ -1,12 +1,15 @@
 <!doctype html>
 <html lang="en">
   <head>
-
 <!-- scripts for vega lite -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2/build/vega.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0/build/vega-lite.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+  <!-- olli -->
+  <script src="https://cdn.jsdelivr.net/npm/olli@1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/olli-adapters@1"></script>
+  
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -321,11 +324,10 @@ This is done through the GitHub repository and the LogBook posts.</p>
 
 <h3 id="latest-sprint---progress-chart">Latest sprint - progress chart</h3>
 
-<h3>Burndown chart</h3>
-
 <p>View how the latest sprint is progressing.</p>
 
-<div id="view"></div>
+<div id="vega-container" aria-hidden="true"></div>
+<div id="olli-container"></div>
 
 <script type="text/javascript">
 
@@ -336,25 +338,29 @@ This is done through the GitHub repository and the LogBook posts.</p>
         "data": {
         "url": "/project27/about/dashboard/burndown-data/current-sprint.csv"
         },
-        "mark": {
-        "type": "line",
-        "point": true
-        },
+        "mark": "line",
         "encoding": {
         "x": { "field": "date", "type": "ordinal" },
         "y": { "field": "story point", "type": "quantitative" }
         }
       };
 
-    var vgSpec = vegaLite.compile(vlSpec).spec;
-    let runtime = vega.parse(vgSpec);
-    const view = new vega.View(runtime)
-          .logLevel(vega.Warn) // Set view logging level
-          .initialize(document.getElementById('view')) // Set parent DOM element
-          .renderer('svg') // Set render type (defaults to 'canvas')
-          .hover(true) // Enable hover event processing
-          .run(); // Update and render the view
-
+  // code to render the vega-lite chart
+  const vegaSpec = vegaLite.compile(vlSpec).spec;
+  const runtime = vega.parse(vegaSpec);
+  const vegaContainer = document.getElementById('vega-container');
+  const view = new vega.View(runtime)
+    .logLevel(vega.Warn)
+    .initialize(vegaContainer)
+    .renderer('svg')
+    .hover()
+    .run();
+    
+  // code to render the olli treeview
+  OlliAdapters.VegaLiteAdapter(vlSpec).then(olliVisSpec => {
+    const olliRender = olli(olliVisSpec);
+    document.getElementById("olli-container").append(olliRender);
+  })
   </script>
 
 
@@ -412,11 +418,11 @@ This is done through the GitHub repository and the LogBook posts.</p>
 <div class="mycontainer">
 <div class="row justify-content-start">
 <div class="col">
-<p> Version: 0.0.244.</p>
+<p> Version: 0.0.245.</p>
 </div>
 <div class="row justify-content-end">
 <div class="col">
-<p>Last updated: 16 Oct 2022 at 18:59.</p>
+<p>Last updated: 17 Oct 2022 at 15:45.</p>
 </div>
 </div>
 </div>
