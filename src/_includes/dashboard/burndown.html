@@ -1,13 +1,8 @@
 
 <p>View how the latest sprint is progressing.</p>
 
-<h4>Screen reader accessible representation</h4>
-
-  <div id="olli-container"></div>
-  
-  <h4>Visual representation</h4>
-
   <div id="vega-container" aria-hidden="true"></div>
+  <div id="olli-container"></div>
 
   <script type="text/javascript">
 
@@ -18,10 +13,7 @@
         "data": {
         "url": "{{ page.burndownData | prepend: site.baseurl }}"
         },
-        "mark": {
-        "type": "line",
-        "point": true
-        },
+        "mark": "line",
         "encoding": {
         "x": { "field": "date", "type": "ordinal" },
         "y": { "field": "story point", "type": "quantitative" }
