@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- scripts for vega lite -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2/build/vega.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0/build/vega-lite.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- olli -->
+  <script src="https://cdn.jsdelivr.net/npm/olli@1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/olli-adapters@1"></script>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title> Managing research and development</title>
+
+<!--Custom style sheets-->
+        <link rel="stylesheet" href="/project27/assets/css/main.css">
+
+<!--font awesome icons-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column bg-background">
+
+<div class="bg-background">
+<div class="row">
+<div class="col-md-6">
+<a class="d-flex justify-content-center" href="#mainContent">Skip to main content</a>
+</div>
+<div class="col-md-6">
+<a class="d-flex justify-content-center" href="#footerContent">Skip to footer</a>
+</div>
+</div>
+
+  <header>
+      <span class="masthead-brand">
+<a href="/project27/index.html" class=navbar-brand">
+      <img src="/project27/assets/images/Project27 logo.png" alt="Project 27 logo" class="logo" width="90em">
+      </a>
+      A warehouse of challenges and solutions.
+      </span>
+
+      <nav class="navbar navbar-expand-md navbar-dark bg-nav-header" tabindex="0" aria-label="Primary">
+  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="primaryNavigation">
+<ul class="navbar-nav ml-auto" role="menubar">
+  
+  <li>
+    <a href="/project27/blog/index.html">Blog</a>
+  </li>
+  
+  <li>
+    <a href="/project27/guide/index.html">Guide</a>
+  </li>
+  
+  <li>
+    <a href="/project27/volunteering/index.html">Volunteering</a>
+  </li>
+  
+  <li>
+    <a href="/project27/support/index.html">Support</a>
+  </li>
+  
+  </ul>
+</div>
+</nav>
+  </header>
+</div>
+
+  <main role="main" id="mainContent" class="container bg-background">
+
+<div class="row bg-general-chap">
+<div class="col-md-6">
+
+<div id="breadcrumbs">
+<h1 class="you-are-here">You are here</h1>
+
+<a href="/project27/">Home</a>
+
+  
+    <a href="/project27/volunteering/index.html">👉 Volunteering</a>
+  
+
+  
+    <a href="/project27/volunteering/management/index.html">👉 Management</a>
+  
+
+  
+    <br> 👉 Managing research and development
+  
+
+</div>
+
+  
+</div>
+<div class="col-md-3">
+  <button type="button" class="mysecondarybtn" data-toggle="collapse" data-target="#selector" aria-controls="selector" aria-expanded="false" aria-label="Contents">
+    <span><i class="fas fa-bookmark fa-lg" aria-hidden="false"></i></span>
+  </button>
+<div class="collapse" id="selector" aria-label="Contents menu">
+<div class="row">
+<div class="col-md-6">
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtn" data-toggle="collapse" data-target="#volume-selector" aria-haspopup="true">Volume</button>
+        <div class="dropdown-menu" id="volume-selector">
+  
+  <p>Please open the blog or the Guide before selecting a volume.</p>
+  
+</div>
+</div>
+
+</div>
+<div class="col-md-6">
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtn" data-toggle="collapse" data-target="#chapter-selector" aria-haspopup="true">Chapter</button>
+        <div class="dropdown-menu" id="chapter-selector">
+  
+  <p>Please select a volume before selecting a chapter.</p>
+  
+</div>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-6">
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtn" data-toggle="collapse" data-target="#section-selector" aria-haspopup="true">Section</button>
+        <div class="dropdown-menu" id="section-selector">
+  
+  <p>Please open a volume and a chapter, before you are able to select a section. It may also be that this chapter has not been divided into sections.</p>
+  
+</div>
+</div>
+
+</div>
+<div class="col-md-6">
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtn" data-toggle="collapse" data-target="#note-selector" aria-haspopup="true">Note</button>
+        <div class="dropdown-menu" id="note-selector">
+  
+  <p>Please select a section before selecting a note.</p>
+  
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-3">
+  <button type="button" class="mysecondarybtn" data-toggle="collapse" data-target="#meta-info" aria-controls="meta-info" aria-expanded="false" aria-label="Page information">
+    <span><i class="fa fa-info-circle fa-lg" aria-hidden="false"></i></span>
+  </button>
+<div class="blog-post-meta collapse" id="meta-info">
+<p class="reading-time">Estimated time to read: 
+  
+  
+    1 min
+  
+</p>
+<p>Written by: </p>
+<p>Reviewed by: . <a href="/project27/guidelines/review.html">Read our guidelines on reviews.</a></p>
+<p>Revised on: 01 Oct 2022</p>
+</div>
+</div>
+</div>
+ <p>Do you code? Can you do research? Do you have good person skills and academic connections?
+<!-- excerpt-end -->
+This is a task for somebody who can roll their sleeves up, and get hands-on with technical research and development. That’s not only it. You will also need to be a good team player, and pull all the research and development work together from a range of people, working on a range of R&amp;D tasks.</p>
+
+<h4 id="who-am-i-looking-for">Who am I looking for?</h4>
+
+<p>Somebody, who:</p>
+
+<ul>
+  <li>has past experience with Git Hub, LaTeX, MathML, Jekyll, screen readers, or learns quickly;</li>
+  <li>has experience with agile project management and web development;</li>
+  <li>knows the latest trend in styling and scripting, keeps up with the development of accessibility practices, and can think creatively about the application of existing tools on the web;</li>
+  <li>can come up, and implement, an agenda for research and development tasks.</li>
+</ul>
+
+<h4 id="what-am-i-looking-for">What am I looking for?</h4>
+
+<p>Some of the ToDo items that I’d happily delegate to a helpful volunteer, include :</p>
+
+<ul>
+  <li>management of cross-platform operability, and distributed systems;</li>
+  <li>cracking tough challenges in screen reader access to equations and visualisations on the web;</li>
+  <li>leading and motivating a team of developers to research and solve challenges on the roadmap of Guide.</li>
+</ul>
+
+  </main>
+
+<footer id="footerContent" class="bg-general-chap">
+      <nav class="navbar navbar-expand-md navbar-dark bg-nav-footer" tabindex="0" aria-label="Footer">
+<ul class="navbar-nav ml-auto" role="menubar">
+  
+  <li>
+    <a href="/project27/about/index.html">About</a>
+  </li>
+  
+  <li>
+    <a href="/project27/guidelines/index.html">Guidelines</a>
+  </li>
+  
+  <li>
+    <a href="/project27/legal/index.html">Legal</a>
+  </li>
+  
+  </ul>
+</nav>
+
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="margin: 10px" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />Except where otherwise noted, <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Project27</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="/project27/about/team/Daniel/index.html" property="cc:attributionName" rel="cc:attributionURL">Daniel Hajas</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License.</a>
+
+
+<p>Powered by: 
+<a href="https://github.com">
+<img src="/project27/assets/images/Github logo.png" alt="Github" class= "poweredby">
+</a>
+<a href="https://jekyllrb.com">
+<img src="/project27/assets/images/Jekyll logo.png" alt="Jekyll" class= "poweredbyx2">     
+</a>
+<a href="https://getbootstrap.com">
+<img src="/project27/assets/images/Bootstrap logo.png" alt="Bootstrap" class= "poweredby">  
+</a>
+<a href="https://www.markdownguide.org">
+<img src="/project27/assets/images/Markdown logo.png" alt="Markdown" class= "poweredbyx3"> 
+</a>
+<a href="https://www.latex-project.org">
+<img src="/project27/assets/images/LaTeX logo.png" alt="LaTeX" class= "poweredbyx5">  
+</a>
+<a href="https://www.python.org">
+<img src="/project27/assets/images/Python logo.png" alt="Python" class= "poweredbyx6">
+</a>
+<a href="https://www.r-project.org">
+<img src="/project27/assets/images/Rlogo.png" alt="R" class= "poweredbyx4">
+</a>
+<a href="https://www.gnu.org/software/bash/">
+<img src="/project27/assets/images/Bash shell logo.png" alt="Bash" class= "poweredbyx7">
+</a>
+</p>
+<div class="mycontainer">
+<div class="row justify-content-start">
+<div class="col">
+<p> Version: 0.0.248.</p>
+</div>
+<div class="row justify-content-end">
+<div class="col">
+<p>Last updated: 23 Oct 2022 at 20:49.</p>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<!-- Bootstrap dependency scripts -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- Mathematics script -->
+<script type="text/x-mathjax-config">
+(function () {
+
+MathJax.Hub.Config({
+	'showProcessingMessages': false,
+	'messageStyle': 'none'
+});
+
+if (typeof MathJaxListener !== 'undefined') {
+	MathJax.Hub.Register.StartupHook('End', function () {
+		MathJaxListener.invokeCallbackForKey_('End');
+	});
+}
+
+})();
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<!--script for read more modal -->
+<script defer src="/project27/assets/js/modal.js"></script>
+
+<!--script for select pop-up -->
+<script defer src="/project27/assets/js/pop-up.js"></script>
+
+  </body>
+</html>
