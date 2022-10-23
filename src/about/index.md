@@ -14,13 +14,13 @@ This page introduces the {{ site.brand }} vision and mission, why we do it, who 
 
 ---
 
-### Meet the {{ site.brand }} team
+### Who we are
 
 We are Daniel and Danielle, a couple from Brighton, England. We wanted to learn, so we started developing {{ site.brand }}. We live with disabilities, and we have a lot to share.
 
 {% include global/buttonLink.html url="/about/team/index.html" label="Learn more about the team" %}
 
-### Where did {{ site.brand }} begin?
+### Where we began
 
 Daniel wanted to collect his science notes from university and his family recipes all in one place. In addition, this library of notes had to be accessible for blind readers, like himself. The library had to be accessible regardless what device it is viewed on; offering the same level of user experience. This quickly turned into an exciting challenge of web development, and gave birth to {{ site.brand }}.
 
@@ -56,6 +56,7 @@ We also support the families, friends, teachers, carers, and mentors of learners
 1. **Sharing thoughts**: We share how we see things with regards to sight loss and learning disability in our [blog posts]({% link blog/index.html %}). We do this to lead by example, and inspire anyone who lacks the confidence to learn new skills.
 2. **Offering support**: Anyone who needs time to talk things through with us can [book a support session]({% link support/index.md %}) for a session of consulting, tutoring, or mentoring.
 
+<!--
 ### What's on {{ site.brand }}?
 
 The site is split into two parts: [Blog]({% link blog/index.html %}) and [{{ site.product }}.]({% link guide/index.html %})
@@ -76,6 +77,7 @@ Initially, five volumes, separated into two collections, form part of the {{ sit
 2. Lifestyle collection:
   * [Cookbook;]({% link guide/cookbook/index.html %}) - recipes that we enjoy and for you to try out.
   * [Vocal.]({% link guide/vocal/index.html %}) - an album of short stories and audio recordings with family and friends.
+-->
 
 {% include global/buttonLink.html url="/about/content.html" label="Read more about what you will find on this site" %}
 

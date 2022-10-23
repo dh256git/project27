@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Managing the research and development
+title: Managing research and development
 team: Management
-task: Managing the research and development
+task: Managing research and development
 date: 2022-10-01
 buttonStyle: fg-general-chap
 backgroundStyle: bg-general-chap
 ---
 
-Do you code? Can you do research? Do you have good person skills? Would you like to be a CTO?
+Do you code? Can you do research? Do you have good person skills and academic connections?
 <!-- excerpt-end -->
 This is a task for somebody who can roll their sleeves up, and get hands-on with technical research and development. That's not only it. You will also need to be a good team player, and pull all the research and development work together from a range of people, working on a range of R&D tasks.
 

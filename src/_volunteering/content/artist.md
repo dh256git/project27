@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Finding and adding visual assets to content
-team: CC
+team: Content
 task: Finding and adding visual assets to content
 date: 2022-10-02
 buttonStyle: fg-general-chap

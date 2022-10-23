@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Managing the day-to-day operations
+title: Managing the operational activities
 team: Management
-task: Managing the day-to-day operations
+task: Managing the operational activities
 date: 2022-10-01
 buttonStyle: fg-general-chap
 backgroundStyle: bg-general-chap
 ---
 
-Do you value partnerships? Do you know how to build a good strategy? Would you like to be a COO?
+Do you value partnerships? Do you know how to build a good strategy?
 <!-- excerpt-end -->
 We will need to start thinking of partnering with others to accomplish our mission. We also need to think of the long-term play, while solving challenges relevant today. So if you know what an operational plan looks like, you can navigate legal documents and want to help our community, please volunteer. 
 

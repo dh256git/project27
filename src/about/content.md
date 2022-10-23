@@ -1,6 +1,6 @@
 ---
 layout: default
-title: The content
+title: What's on the site?
 author: Daniel Hajas
 reviewer: Danielle Garratt
 date: 2022-08-29
@@ -8,7 +8,7 @@ buttonStyle: fg-general-chap
 backgroundStyle: bg-general-chap
 ---
 
-## What's on {{ site.brand }}?
+## {{ page.title }}
 
 The site is split into two parts: [Blog](../blog/index.html) and [{{ site.product }}.](../guide/index.html)
 Blog posts and {{ site.product }} notes both come in two types: technical, and lifestyle.

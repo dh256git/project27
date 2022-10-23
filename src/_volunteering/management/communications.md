@@ -8,7 +8,7 @@ buttonStyle: fg-general-chap
 backgroundStyle: bg-general-chap
 ---
 
-Are you good with setting the right tone? Is the "social" gene in your DNA? Would you like to be a CCO?
+Are you good with setting the right tone? Is the "social" gene in your DNA?
 <!-- excerpt-end -->
 {{ site.brand }} may have many projects to learn from, but we need an extra four "V"-s. If you know what the voice of a brand means, and you can sketch visually appealing stories, which are accessible and engaging even to those who don't get to see this; well, then you are welcomed in our team.
 
@@ -25,5 +25,6 @@ Somebody, who:
 Some of the ToDo items that I'd happily delegate to a helpful volunteer, include :
 
 + creating a public engagement and communications strategy, embodying the {{ site.brand }} identity;
-+ advising our content creators and reviewers to produce brand coherent learning materials;
-+ designing visual assets, layouts, and other hooks, which make learning engaging.
++ advising our content creators and reviewers to producing brand coherent learning materials;
++ designing visual assets, layouts, and other hooks, which make learning engaging;
++ working closely with the team member responsible for sales and marketing on grabbing the attention of innovators.

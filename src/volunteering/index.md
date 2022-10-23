@@ -11,7 +11,7 @@ backgroundStyle: bg-general-vol
 {% assign teamLeadership = site.volunteering | where:"team","Management" %}
 {% assign teamRnD = site.volunteering | where:"team","RnD" %}
 {% assign teamER = site.volunteering | where:"team","ER" %}
-{% assign teamCC = site.volunteering | where:"team","CC" %}
+{% assign teamContent = site.volunteering | where:"team","Content" %}
 
 ## Work with us to learn with us
 
@@ -25,6 +25,14 @@ Daniel - {{ site.brand }} founder
 
 ## Volunteering opportunities
 
+We do it all.
+And we can't wait to find people who do some of our tasks much better than we do.
+We don't have roles, we work on tasks.
+As such, we adopted [Apple's Directly Responsible Individual (DRI) way of working.](https://mentorphile.com/2019/03/05/fostering-apples-culture-of-accountability-the-dri/)
+Everyone in the team is directly responsible for the task assigned to them.
+
+Still interested in volunteering?
+We are ready to delegate.
 The following tasks are waiting for you to take.
 
 ### Research and Development team
@@ -43,13 +51,13 @@ The R&D team members help with the research and development activities of {{ sit
 <p>Currently no roles are available in this team.</p>
 {% endfor %}
 
-### Content Creation team
+### Content team
 
-Join the Content Creation team.
-There are {{ teamCC | size }} available tasks.
-The Content Creation team helps with authoring new notes for {{ site.product }}.
+Join the Content team.
+There are {{ teamContent | size }} available tasks.
+The Content team helps with authoring new notes for {{ site.product }}.
 
-{% for member in teamCC %}
+{% for member in teamContent %}
 <h4>{{ member.task }}</h4>
 
 <p>{{ member.excerpt }}</p>
@@ -75,11 +83,15 @@ The team of editors and reviewers help us make sure content is relevant and a hi
 <p>Currently no roles are available in this team.</p>
 {% endfor %}
 
-### Leadership team - the C-suite
+### Management team
 
 Join the management team.
+ We need to plan the future, while coordinating our work in the present.
 There are {{ teamLeadership | size }} available tasks.
-Members of the C-suite lead by example, and help with the management of {{ site.brand }}. We need to plan the future, while coordinating our work in the present.
+Members of the management team help with business activities and other key tasks.
+Managers lead by example, supporting volunteers of other teams.
+Team members can break down  their tasks, and recruit new members to work on these smaller tasks.
+By doing so, they can also create new, senior leadership roles in the C-suite of {{ site.brand }} for themselves.
 
 {% for member in teamLeadership %}
 <h4>{{ member.task }}</h4>
