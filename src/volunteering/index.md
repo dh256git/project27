@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Volunteering
+tagline: Work with us to learn with us
 author: Daniel Hajas
 reviewer: Danielle Garratt
 date: 2022-10-02
@@ -13,13 +14,15 @@ backgroundStyle: bg-general-vol
 {% assign teamER = site.volunteering | where:"team","ER" %}
 {% assign teamContent = site.volunteering | where:"team","Content" %}
 
-## Work with us to learn with us
+## {{ page.title }}: {{ page.tagline }}
 
-Come, volunteer to work with the {{ site.brand }} team to learn with us, and teach those who want to learn.
+Get involved!
+Volunteer to work with the {{ site.brand }} team, and learn through hands-on tasks.
+By doing so, you will also teach those who want to learn, but are not yet ready to roll their sleaves up.
 
-> If you'd like to volunteer your time, and learn a new skill, or improve and existing skill you have and I don't, then please consider helping me.
+{% include global/cover-image.html image="volunteering-cover.jpg" alt="A drawn tree, with handprints as leaves on the branches." %}
 
-Daniel - {{ site.brand }} founder
+<a class="{{ page.buttonStyle }}" aria-disabled="false" href="{{ '/volunteering/become-a-volunteer.html' | prepend: site.baseurl }}">BECOME A VOLUNTEER</a>
 
 ---
 
@@ -46,7 +49,7 @@ The R&D team members help with the research and development activities of {{ sit
 
 <p>{{ member.excerpt }}</p>
 
-<a href="{{ member.url | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">View task details</a>
+<a href="{{ member.url | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">View details: {{ member.task }}</a>
 {% else %}
 <p>Currently no roles are available in this team.</p>
 {% endfor %}
@@ -62,7 +65,7 @@ The Content team helps with authoring new notes for {{ site.product }}.
 
 <p>{{ member.excerpt }}</p>
 
-<a href="{{ member.url | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">View task details</a>
+<a href="{{ member.url | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">View details: {{ member.task }}</a>
 {% else %}
 <p>Currently no roles are available in this team.</p>
 {% endfor %}
@@ -78,7 +81,7 @@ The team of editors and reviewers help us make sure content is relevant and a hi
 
 <p>{{ member.excerpt }}</p>
 
-<a href="{{ member.url | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">View task details</a>
+<a href="{{ member.url | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">View details: {{ member.task }}</a>
 {% else %}
 <p>Currently no roles are available in this team.</p>
 {% endfor %}
@@ -98,7 +101,7 @@ By doing so, they can also create new, senior leadership roles in the C-suite of
 
 <p>{{ member.excerpt }}</p>
 
-<a href="{{ member.url | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">View task details</a>
+<a href="{{ member.url | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">View details: {{ member.task }}</a>
 {% else %}
 <p>Currently no roles are available in this team.</p>
 {% endfor %}
@@ -169,5 +172,3 @@ Please, express your interest by using the button below.
 
 <!--Note: Decide best method of expressing interest.-->
 
-
-<a class="{{ page.buttonStyle }}" aria-disabled="false" href="{{ '/volunteering/become-a-volunteer.html' | prepend: site.baseurl }}">BECOME A VOLUNTEER</a>

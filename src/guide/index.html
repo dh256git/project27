@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Project27 Guide
+title: Guide
+tagline: A journal of life-long learning
 author: Daniel Hajas
 reviewer: Danielle Garratt
 date: 2022-09-01
@@ -14,11 +15,13 @@ listOfButtons: ["Read-more", "Read-more1", "Read-more2", "Read-more3", "Read-mor
 listOfFunctions: ["readMoreMPS()", "readMoreComputerLiteracy()", "readMoreStatistics()", "readMoreCookbook()", "readMoreVocal()"]
 ---
 <div class="container">
-    <h2 class="cover-heading">The {{ site.product }}: A journal of life-long learning</h2>
+    <h2 class="cover-heading">The {{ site.product }}: {{ page.tagline }}</h2>
 
 <p>The {{ site.brand }} {{ site.product }} is a set of notes to capture and share life-long learning. Notes are organised into collections of science and lifestyle. The {{ site.product }} is a free resource. Developing the {{ site.product }} is based on projects. Working on these projects is an opportunity for active learning. We capture solutions learnt on the way, and share project outputs in form of notes.</p>
 
 <p>Our aim is to offer a quick reference in new, or unpracticed tasks. In addition, we aim to revise, study, research, innovate, and make aware by publishing notes in the {{ site.product }}.</p>
+
+{% include global/cover-image.html image="guide-cover.jpg" alt="Someone is holding a paper map, and pointing at a location with a finger." %}
 
 <hr>
 

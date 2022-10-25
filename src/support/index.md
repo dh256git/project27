@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Support
+tagline: Invest in your skills and employability
 author: Daniel Hajas
 reviewer: Danielle Garratt
 date: 2022-10-15
@@ -8,11 +9,17 @@ buttonStyle: fg-general-vol
 backgroundStyle: bg-general-vol
 ---
 
-## {{ page.title }}
+## {{ page.title }}: {{ page.tagline }}
 
-We are here to support those who need it the most. 
+We are here to support those who need it the most.
+A phone or necklace you bought could be broken, lost, or taken.
+The knowledge and skills you learn with us will remain yours forever.
+Invest in the only thing nobody can take from you.
+The return will be employability, and a richer human experience overall.
+We will help you invest wisely, in the skills that matter the most to you.
 
 {% include global/cover-image.html image="support-cover.png" alt="A cartoon hand holding a wrench and reaching out from a laptop screen." %}
+
 ### Why do we offer personalised support?
 
 We know from experience, written tutorials and guides aren't always enough.

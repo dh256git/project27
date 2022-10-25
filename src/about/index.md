@@ -16,6 +16,8 @@ This page introduces the {{ site.brand }} vision and mission, why we do it, who 
 
 ### Who we are
 
+{% include global/cover-image.html image="founders-cover.jpg" alt="Daniel and Danielle are photographed in the UK Parliament. They are wearing smart clothing. A guide dog is sitting in front of them. In the background multiple signs are visible, such as logos of University College London, World Health Organisation, and GDI Hub. Other signs read 'AT changes lives' and 'Launching the Global Report on Assistive Technology'." %}
+
 We are Daniel and Danielle, a couple from Brighton, England. We wanted to learn, so we started developing {{ site.brand }}. We live with disabilities, and we have a lot to share.
 
 {% include global/buttonLink.html url="/about/team/index.html" label="Learn more about the team" %}
