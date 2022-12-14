@@ -10,7 +10,7 @@ python3 bash/version-counter.py
 
 ## build site from source using config default baseurl
 cd src/
-jekyll build
+JEKYLL_ENV=production jekyll build
 
 ## Pause for 3 seconds
 sleep 3
