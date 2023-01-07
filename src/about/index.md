@@ -83,24 +83,17 @@ Initially, five volumes, separated into two collections, form part of the {{ sit
 
 {% include global/buttonLink.html url="/about/content.html" label="Read more about what you will find on this site" %}
 
-### The modest ambition
+### Our vision
 
-{{ site.brand }} is a digital, private notebook on a range of topics that matter to Daniel and Danielle. It is a hobby activity and an opportunity to learn new skills and practice existing ones.
+We see the transformation of the {{ site.brand }} team into a supportive community, and the growth of the {{ site.brand }} {{ site.product }} into a platform of active learning.
 
-{% include global/buttonLink.html url="/about/modest.html" label="Read more about the modest ambition" %}
+{% include global/buttonLink.html url="/about/vision.html" label="Read more about our vision" %}
 
-### The grand ambition
+### Our mission
 
-There exists a vision on the grand scale too: 
-**Together we learn, together we teach!**
-More people join {{ site.brand }} to learn by getting involved.
-The team expands, and new projects are added.
-The growth of the library allows more visually impaired and learning disabled people to learn, even if they don't wish to get involved in projects.
-The team becomes a community.
-The community drives business activities.
-The revenue is invested in new research, development, and learning projects.
+Our mission is to create personalised opportunities for skills development in a safe environment for communities of blind or learning disabled people.
 
-{% include global/buttonLink.html url="/about/grand.html" label="Read more about the grand ambition" %}
+{% include global/buttonLink.html url="/about/mission.html" label="Read more about our mission" %}
 
 ### Values and culture
 
