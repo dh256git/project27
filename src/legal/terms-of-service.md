@@ -16,7 +16,7 @@ Last updated: {{ page.date }}
 We offer support services under the following terms:
 
 1. support sessions are free of charge;
-2. there is a £19.99 booking fee applicable;
+2. there is a £29.99 booking fee applicable;
 3. the booking fee is fully refundable, and will be refunded in full or in part, within 7 working days, if the customer requests the refund;
 4. booked, but unattended support sessions are non-refundable, where a late attendance counts as an unattended session after 5 minutes of the arranged start time;
 5. support sessions can last a maximum of 60 minutes;

@@ -28,7 +28,7 @@ Daniel wanted to collect his science notes from university and his family recipe
 
 ---
 
-> Welcome, my name is Daniel, and the {{ site.brand }} vision is my vision too.
+> Welcome, my name is Daniel, and the {{ site.brand }} vision is my legacy.
 >
 > I lost my sight at the age of 16. Yet, I live a good life.
 I have a doctorate degree in science, I have a healthy social life, and I live independently.
@@ -36,7 +36,7 @@ My journey was not easy, but it was doable with support and the right mindset.
 So now, I would like to help those who are at the beginning of their journey.
 This is why I created {{ site.brand }}.
 >
-> {{ site.brand }} is really a warehouse of challenges and solutions.
+> Since I started collecting my notes, this site offered me endless occasions for learning..
 > I truly wish that the content and the spirit of {{ site.brand }} will become not only my own, but a shared vision of many.
 >
 > So long, all the best!  

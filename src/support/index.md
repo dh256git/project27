@@ -87,5 +87,5 @@ You can book one support session in a calendar month, free of charge. If you'd l
 
 Our wish to help is true, and our ways of support is flexible.
 However, we appreciate this flexibility and multitude of options may be confusing at first.
-If you would like to clarify something, or ask questions we haven't thought of, please send us an e-mail.
+If you would like to clarify something, or ask questions we haven't thought of, please send us an e-mail on support@project27skills.com.
 We look forward to hearing from you.

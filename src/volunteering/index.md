@@ -18,7 +18,7 @@ backgroundStyle: bg-general-vol
 
 Get involved!
 Volunteer to work with the {{ site.brand }} team, and learn through hands-on tasks.
-By doing so, you will also teach those who want to learn, but are not yet ready to roll their sleaves up.
+By doing so, you will also teach those who want to learn, but are not yet ready to roll their sleeves up.
 
 {% include global/cover-image.html image="volunteering-cover.jpg" alt="A drawn tree, with handprints as leaves on the branches." %}
 
@@ -116,7 +116,7 @@ By doing so, they can also create new, senior leadership roles in the C-suite of
 <li>
 Learn new skills, or improve your existing skills.<div id="volunteer1"></div><div id="morevolunteer1">
 {{ site.brand }} is all about learning new skills, and getting better in doing certain things, by practicing, and innovating.
-The project offers a wide range of skills to pick up and nurture, and you get to choose which is most valuable to you.All that {{ site.brand }} volunteering roles do, is setting SMART (Specific, Measurable, Achievable, Relevant, and Timely) targets for you to work towards.
+The project offers a wide range of skills to pick up and nurture, and you get to choose which is most valuable to you. All that {{ site.brand }} volunteering roles do, is setting SMART (Specific, Measurable, Achievable, Relevant, and Timely) targets for you to work towards.
 </div>
 <button onclick="readMoreVolunteering1()" id= "Read-More-BTN1">Read more</button>
 </li>
@@ -159,9 +159,20 @@ Then you'll also get the rewards on <a href="/about/team/index.html">our team pa
 
 The level of engagement is flexible. You may
 
-+ identify, or ask me for a single challenge, solve it, and you are done.
++ identify, or ask us for a single challenge, solve it, and you are done.
 + continue working on multiple challenges, whenever you find time, even if only a couple hours in a month.
 + get hooked, and if you have nothing better to do, treat it as a part time role.
+
+### Certified pathways of volunteering
+
+We are committed to certifying your contributions. Currently, we offer the following achievements:
+
++ Trainee: after successful completion of 4 tasks (~16 hours of commitment);
++ Apprentice: after successful completion of 16 tasks (~16 hours of regular commitment per week, for one month);
++ Intern: after successful completion of 48 tasks (~16 hours of regular commitment per week, for three months);
++ Active volunteer: after successful completion of 100 tasks (~8 hours of regular commitment per week, for one year)
+
+Active volunteers will be considered for part-time employment at {{ site.brand }} or one of our partners; subject to funding and the legal constitution of the {{ site.brand }} community interest company in 2024.
 
 ---
 
@@ -170,5 +181,4 @@ The level of engagement is flexible. You may
 Are you interested in contributing to {{ site.brand }} and becoming a volunteer?
 Please, express your interest by using the button below.
 
-<!--Note: Decide best method of expressing interest.-->
-
+<a class="{{ page.buttonStyle }}" aria-disabled="false" href="{{ '/volunteering/become-a-volunteer.html' | prepend: site.baseurl }}">BECOME A VOLUNTEER</a>
