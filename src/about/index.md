@@ -24,7 +24,7 @@ We are Daniel and Danielle, a couple from Brighton, England. We wanted to learn,
 
 ### Where we began
 
-Daniel wanted to collect his science notes from university and his family recipes all in one place. In addition, this library of notes had to be accessible for blind readers, like himself. The library had to be accessible regardless what device it is viewed on; offering the same level of user experience. This quickly turned into an exciting challenge of web development, and gave birth to {{ site.brand }}.
+Daniel wanted to collect his science notes from university and his family recipes all in one place. In addition, this library of notes had to be accessible for blind readers, like himself. The library had to be accessible regardless what device it is viewed on; offering the same level of user experience. This quickly turned into an exciting challenge of web development, and gave birth to {{ site.brand }}. After Danielle joined the team, we realised that there are many [skills that matter to us]({% link about/skills.md %}) which we want to develop, by setting learning tasks on {{ site.brand }} to ourselves.
 
 ---
 

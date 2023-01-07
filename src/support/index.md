@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Support
-tagline: Invest in your skills and employability
+tagline: Invest in a guide of your journey
 author: Daniel Hajas
 reviewer: Danielle Garratt
 date: 2022-10-15

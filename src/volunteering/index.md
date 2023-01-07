@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Volunteering
-tagline: Work with us to learn with us
+tagline: Together we learn, together we grow
 author: Daniel Hajas
 reviewer: Danielle Garratt
 date: 2022-10-02
