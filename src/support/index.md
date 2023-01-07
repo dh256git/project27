@@ -80,7 +80,9 @@ You can book one support session in a calendar month, free of charge. If you'd l
 <div id="booking-frame-hide"></div>
 
 <div id="booking-frame-show" class="hidden-text">
-<iframe src="{{ '/support/booking-page.html' | prepend: site.baseurl }}" title="Booking page" id="booking" height="500" width="800"></iframe>
+<div class="iframe-container">
+<iframe src="{{ '/support/booking-page.html' | prepend: site.baseurl }}" title="Booking page" id="booking" class="responsive-iframe"></iframe>
+</div>
 </div>
 
 ### Have a question?
