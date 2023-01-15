@@ -1,7 +1,7 @@
     {% assign sortedTasks = site.volunteering | sort: 'date' | reverse %}
     
 {% if page.url contains "blog" %}
-<div id="spotlight">
+<div id="spotlight" class="spotlight">
 <h3>Spotlight: View the latest posts</h3>
 <ul>
 {% for post in site.posts limit:3 %}
@@ -12,7 +12,7 @@
 </ul>
 </div>
 {% elsif page.url contains "guide" %}
-<div id="spotlight">
+<div id="spotlight" class="spotlight">
 <h3>Spotlight: View the latest notes</h3>
 </div>
 {% elsif page.url contains "volunteering" %}
@@ -27,7 +27,7 @@
 </ul>
 </div>
 {% else %}
-<div id="spotlight">
+<div id="spotlight" class="spotlight">
 <h3>Spotlight: The latest news on {{ site.brand }}</h3>
 <ul>
 {% for news in site.data.news  limit:3 %}
