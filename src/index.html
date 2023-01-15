@@ -25,5 +25,9 @@ We tell our insights through blog posts. We teach through the notes of the {{ si
 
       <a href="./about/index.html" class="{{ page.buttonStyle }}">Read more about {{ site.brand }}</a>
 
+<hr>
+{% include spotlight.html %}
+<hr>
+
 {% assign dataFile = site.data.navigation %}
 {% include global/grid-generator.html heading="h2" %}

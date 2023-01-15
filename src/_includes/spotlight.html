@@ -1,0 +1,40 @@
+    {% assign sortedTasks = site.volunteering | sort: 'date' | reverse %}
+    
+{% if page.url contains "blog" %}
+<div id="spotlight">
+<h3>Spotlight: View the latest posts</h3>
+<ul>
+{% for post in site.posts limit:3 %}
+<li>
+<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> - {{ post.date | date_to_rfc822 | date: "%d %b %Y" }}
+</li>
+{% endfor %}
+</ul>
+</div>
+{% elsif page.url contains "guide" %}
+<div id="spotlight">
+<h3>Spotlight: View the latest notes</h3>
+</div>
+{% elsif page.url contains "volunteering" %}
+<div id="spotlight">
+<h3>Spotlight: View the latest tasks</h3>
+<ul>
+{% for member in sortedTasks limit:3 %}
+<li>
+<a href="{{ member.url | prepend: site.baseurl }}">{{ member.task }}</a> - {{ member.date | date_to_rfc822 | date: "%d %b %Y" }}
+</li>
+{% endfor %}
+</ul>
+</div>
+{% else %}
+<div id="spotlight">
+<h3>Spotlight: The latest news on {{ site.brand }}</h3>
+<ul>
+{% for news in site.data.news  limit:3 %}
+<li>
+<a href="{{ news.link | prepend: site.baseurl }}">{{ news.headline }}</a> - {{ news.date | date_to_rfc822 | date: "%d %b %Y" }}
+</li>
+{% endfor %}
+</ul>
+</div>
+{% endif %}
