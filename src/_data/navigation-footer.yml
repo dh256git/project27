@@ -1,5 +1,7 @@
 - name: About
   link: /about/index.html
+- name: Contact
+  link: /contact/index.html
 - name: Guidelines
   link: /guidelines/index.html
 - name: Legal
