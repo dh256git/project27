@@ -29,12 +29,17 @@
 {% else %}
 <div id="spotlight" class="spotlight">
 <h3>Spotlight: The latest news on {{ site.brand }}</h3>
-<ul>
+<div class="featured-news">
 {% for news in site.data.news  limit:3 %}
-<li>
+<div class="row">
+<div class="col-3">
+<img src="{{ news.thumbnail | prepend: site.baseurl }}" alt="{{ news.thumbnailAlt }}" class="thumbnail-image">
+</div>
+<div class="col-9">
 <a href="{{ news.link | prepend: site.baseurl }}">{{ news.headline }}</a> - {{ news.date | date_to_rfc822 | date: "%d %b %Y" }}
-</li>
+</div>
+</div>
 {% endfor %}
-</ul>
+</div>
 </div>
 {% endif %}

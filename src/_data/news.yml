@@ -1,16 +1,20 @@
 - headline: We have updated our issue tracking processes
   link: https://project27skills.com/blog/logbook/issues/2020/06/05/initialise.html
   date: 2023-01-15
-  thumbnail: 
+  thumbnail: /assets/images/atom.png
+  thumbnailAlt: A placeholder thumbnail image.
 - headline: New milestone by way of a custom domain
   link: https://project27skills.com/blog/logbook/dev/2022/12/14/google-analytics.html
   date: 2022-12-18
-  thumbnail: 
+  thumbnail: /assets/images/atom.png
+  thumbnailAlt: A placeholder thumbnail image.
 - headline: Danielle wins award for leadership in self-advocacy
   link: 
   date: 2022-12-02
-  thumbnail: 
+  thumbnail: /assets/images/atom.png
+  thumbnailAlt: A placeholder thumbnail image.
 - headline: Example! Write a snappy headline
   link: Full URL to relevant blog post
   date: Date of news item in yyyy-mm-dd
   thumbnail: /path/to/thumbnail
+  thumbnailAlt: Write an alt text for the thumbnail
