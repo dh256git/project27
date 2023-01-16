@@ -1,0 +1,66 @@
+---
+layout: default
+author: Daniel Hajas
+title: All posts
+buttonStyle: fg-blog-sect
+backgroundStyle: bg-blog-sect
+---
+
+{% assign categoryLink = '' %}
+{% assign devLink = '/blog/logbook/dev/index.html' %}
+{% assign issuesLink = '/blog/logbook/issues/index.html' %}
+{% assign latexLink = '/blog/logbook/LaTeX-to-MathML/index.html' %}
+{% assign mathmlLink = '/blog/logbook/MathML-usability/index.html' %}
+{% assign disabilitiesLink = '/blog/twist/disabilities/index.html' %}
+{% assign identitiesLink = '/blog/twist/identities/index.html' %}
+{% assign nanotipLink = '/blog/twist/nanotip/index.html' %}
+{% assign readingLink = '/blog/twist/reading/index.html' %}
+{% assign scienceLink = '/blog/twist/science/index.html' %}
+
+## All posts
+
+All the {{ site.brand }} blog posts in one place.
+
+---
+
+<div class="feed">
+{% for post in site.posts %}
+{% if post.url contains "cookbook" or post.url contains "vocal"  or post.url contains "grapheel" %}
+{% continue %}
+{% endif %}
+<div class="row">
+<div class="col-3">
+<img src="{{ post.thumbnail | prepend: site.baseurl }}" alt="{{ post.thumbnailAlt }}" class="thumbnail-image">
+</div>
+<div class="col-9">
+<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+<p>Posted in 
+{% if post.url contains "/dev/" %}
+{% assign categoryLink = devLink %}
+{% elsif post.url contains "issues" %}
+{% assign categoryLink = issuesLink %}
+{% elsif post.url contains "latex-to-mathml" %}
+{% assign categoryLink = latexLink %}
+{% elsif post.url contains "mathml-usability" %}
+{% assign categoryLink = mathmlLink %}
+{% elsif post.url contains "disabilities" %}
+{% assign categoryLink = disabilitiesLink %}
+{% elsif post.url contains "identities" %}
+{% assign categoryLink = identitiesLink %}
+{% elsif post.url contains "nanotip" %}
+{% assign categoryLink = nanotipLink %}
+{% elsif post.url contains "reading" %}
+{% assign categoryLink = readingLink %}
+{% elsif post.url contains "science" %}
+{% assign categoryLink = scienceLink %}
+{% else %}
+{% assign categoryLink = '404.html' %}
+{% endif %}
+<a href="{{ categoryLink | prepend: site.baseurl }}">
+{{ post.tag }}
+</a>
+, on {{ post.date | date_to_rfc822 | date: "%d %b %Y" }}.</p>
+</div>
+</div>
+{% endfor %}
+</div>
