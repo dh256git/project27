@@ -21,7 +21,8 @@ All the {{ site.brand }} news in one place.
 <img src="{{ news.thumbnail | prepend: site.baseurl }}" alt="{{ news.thumbnailAlt }}" class="thumbnail-image">
 </div>
 <div class="col-9">
-<a href="{{ news.link | prepend: site.baseurl }}">{{ news.headline }}</a> - {{ news.date | date_to_rfc822 | date: "%d %b %Y" }}
+<p><a href="{{ news.link | prepend: site.baseurl }}">{{ news.headline }}</a></p>
+<p>{{ news.date | date_to_rfc822 | date: "%d %b %Y" }}</p>
 </div>
 </div>
 {% endfor %}

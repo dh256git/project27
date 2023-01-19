@@ -23,7 +23,7 @@ All the {{ site.brand }} blog posts in one place.
 
 ---
 
-<div class="feed">
+<div class="blog-feed">
 {% for post in site.posts %}
 {% if post.url contains "cookbook" or post.url contains "vocal"  or post.url contains "grapheel" %}
 {% continue %}
@@ -33,7 +33,7 @@ All the {{ site.brand }} blog posts in one place.
 <img src="{{ post.thumbnail | prepend: site.baseurl }}" alt="{{ post.thumbnailAlt }}" class="thumbnail-image">
 </div>
 <div class="col-9">
-<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+<p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
 <p>Posted in 
 {% if post.url contains "/dev/" %}
 {% assign categoryLink = devLink %}

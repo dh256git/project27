@@ -10,7 +10,8 @@
 <img src="{{ post.thumbnail | prepend: site.baseurl }}" alt="{{ post.thumbnailAlt }}" class="thumbnail-image">
 </div>
 <div class="col-9">
-<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> - {{ post.date | date_to_rfc822 | date: "%d %b %Y" }}
+<p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+<p>{{ post.date | date_to_rfc822 | date: "%d %b %Y" }}</p>
 </div>
 </div>
 {% endfor %}
@@ -38,7 +39,8 @@
 <img src="{{ news.thumbnail | prepend: site.baseurl }}" alt="{{ news.thumbnailAlt }}" class="thumbnail-image">
 </div>
 <div class="col-9">
-<a href="{{ news.link | prepend: site.baseurl }}">{{ news.headline }}</a> - {{ news.date | date_to_rfc822 | date: "%d %b %Y" }}
+<p><a href="{{ news.link | prepend: site.baseurl }}">{{ news.headline }}</a></p>
+<p>{{ news.date | date_to_rfc822 | date: "%d %b %Y" }}</p>
 </div>
 </div>
 {% endfor %}

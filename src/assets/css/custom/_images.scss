@@ -80,5 +80,34 @@ height: 75px;
 }
 
 .thumbnail-image {
-width: 75px;
+width: 65px;
+}
+
+.featured-feed {
+    padding: 70px;
+    display: grid;
+    justify-content: space-evenly;
+    grid-auto-flow: column;
+    align-content: center;
+    height: 300px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-row-gap: 1px;
+}
+
+.feed {
+    padding: 70px;
+    display: grid;
+    justify-content: space-evenly;
+    grid-auto-flow: column;
+    align-content: center;
+    height: 300px;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.blog-feed {
+    padding: 10px;
+    display: contents;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    height: 200px;
 }
