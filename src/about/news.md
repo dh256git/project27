@@ -18,7 +18,7 @@ All the {{ site.brand }} news in one place.
 {% for news in site.data.news %}
 <div class="row">
 <div class="col-3">
-<img src="{{ news.thumbnail | prepend: site.baseurl }}" alt="{{ news.thumbnailAlt }}" class="thumbnail-image">
+<img src="{{ '/assets/images/news/' | append: news.thumbnail | prepend: site.baseurl }}" alt="{{ news.thumbnailAlt }}" class="thumbnail-image">
 </div>
 <div class="col-9">
 <p><a href="{{ news.link | prepend: site.baseurl }}">{{ news.headline }}</a></p>

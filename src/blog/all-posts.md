@@ -30,7 +30,11 @@ All the {{ site.brand }} blog posts in one place.
 {% endif %}
 <div class="row">
 <div class="col-3">
-<img src="{{ post.thumbnail | prepend: site.baseurl }}" alt="{{ post.thumbnailAlt }}" class="thumbnail-image">
+{% if post.image %}
+<img src="{{ '/assets/images/blog/' | append: post.image | prepend: site.baseurl }}" alt="{{ post.alt }}" class="thumbnail-image">
+{% else %}
+<img src="{{ '/assets/images/Project27 logo.png' | prepend: site.baseurl }}" alt="A placeholder image, showing the Project27 logo." class="thumbnail-image">
+{% endif %}
 </div>
 <div class="col-9">
 <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>

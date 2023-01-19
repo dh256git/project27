@@ -6,6 +6,8 @@ branch: LogBook
 tag: Site development
 buttonStyle: fg-blog-sect
 backgroundStyle: bg-blog-sect
+image: google-analytics.png
+alt: The Google Analytics logo, spelling the name of the service out, with a bar-chart underneath it.
 ---
 
 Another step, another skill in the bag. Time to build live, measure constantly, and learn faster.
