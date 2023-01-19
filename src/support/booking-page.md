@@ -1,5 +1,4 @@
 ---
-layout: frame-content
 title: Booking page
 ---
 
