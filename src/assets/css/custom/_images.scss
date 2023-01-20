@@ -85,39 +85,150 @@ padding-bottom: 10px;
 }
 
 .social-icon {
-width: 75px;
-height: 75px;
+width: 100%;
+height: auto;
 }
 
+/* mobile version*/
+@media only screen and (min-width: 480px) {
+.thumbnail-image-news{
+    width: 150%;
+    height: auto;
+}
+}
+
+/* desktop version*/
+@media only screen and (min-width: 1200px) {
+    .thumbnail-image-news{
+        width: 50%;
+        height: auto;
+    }
+    }
+
+/* mobile version*/
+@media only screen and (min-width: 480px) {
 .thumbnail-image {
-width: 65px;
+width: 80%;
+height: auto;
+}
 }
 
+/* desktop version*/
+@media only screen and (min-width: 1200px) {
+    .thumbnail-image {
+    width: 20%;
+    height: auto;
+    }
+    }
+
+/* mobile version*/
+@media only screen and (min-width: 480px) {
+    .thumbnail-image-blog {
+    width: 100%;
+    height: auto;
+    }
+    }
+
+/* desktop version*/
+@media only screen and (min-width: 1200px) {
+    .thumbnail-image-blog {
+    width: 30%;
+    height: auto;
+    }
+    }
+
+/* mobile version*/
+@media only screen and (min-width: 480px) {
+    .thumbnail-image-blog1 {
+    width: 150%;
+    height: auto;
+    }
+    }
+
+/* desktop version*/
+@media only screen and (min-width: 1200px) {
+    .thumbnail-image-blog1 {
+    width: 60%;
+    height: auto;
+    }
+    }
+
+/* mobile version*/ 
+@media only screen and (min-width: 480px) {
 .featured-feed {
-    padding: 70px;
+    padding: 1%;
     display: grid;
-    justify-content: space-evenly;
+    justify-content:center;
     grid-auto-flow: column;
     align-content: center;
-    height: 300px;
+    height: auto;
     grid-template-rows: repeat(3, 1fr);
-    grid-row-gap: 1px;
+    row-gap: 1%;
+}
 }
 
+/* desktop version*/ 
+@media only screen and (min-width: 480px) {
+    .featured-feed {
+        padding: 1%;
+        display: grid;
+        justify-content:center;
+        grid-auto-flow: column;
+        align-content: center;
+        height: auto;
+        grid-template-rows: repeat(3, 1fr);
+        row-gap: 1%;
+    }
+    }
+
+    /* mobile version*/ 
+@media only screen and (min-width: 480px) {
 .feed {
-    padding: 70px;
+    padding: 1%;
     display: grid;
-    justify-content: space-evenly;
-    grid-auto-flow: column;
+    justify-content: center;
+    grid-auto-flow: row;
     align-content: center;
-    height: 300px;
+    height: auto;
     grid-template-rows: repeat(3, 1fr);
+    row-gap: 1%;
+}
 }
 
+/* desktop version*/ 
+@media only screen and (min-width: 480px) {
+.feed {
+    padding: 1%;
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: row;
+    align-content: center;
+    height: auto;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 5%;
+}
+}
+
+    /* mobile version*/ 
+    @media only screen and (min-width: 480px) {
 .blog-feed {
-    padding: 10px;
+    padding: 10%;
     display: contents;
     justify-content: space-evenly;
     align-content: flex-start;
-    height: 200px;
+    height: 200%;
+    row-gap: 1%;
+}
+}
+
+/* desktop version*/ 
+@media only screen and (min-width: 480px) {
+.blog-feed {
+    padding: 15%;
+    display: contents;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    height: 200%;
+    row-gap: 5%;
+}
 }
