@@ -12,22 +12,28 @@ listOfIcons: [["fas fa-pencil-alt", ""], ["fas fa-compass", ""], ["fa-solid fa-h
 <h2>What is {{ site.brand }}?</h2>
 
 <p>
-{{ site.brand }} is a place for learning. It is developed by a couple - Daniel and Danielle. The content is drawing on the skills, experiences, and knowledge of the {{ site.brand }} team. Daniel is a scientifically-minded blind person, with an interest in social entrepreneurship. Danielle covers art, and expertly navigates the world of learning disability.
+{{ site.brand }} is a place for learning. The content draws on lived experiences and professional skills of the {{ site.brand }} team. It is developed by a couple - Daniel and Danielle. Daniel is a scientifically-minded blind person, with an interest in social entrepreneurship. Danielle covers art, media, gaming, and self-advocacy, while expertly navigating the world of learning disability.
+</p>
+
+<p>
+Our team and services help blind or learning disabled people to develop skills that matter. We help reduce frustrations caused by inaccessible learning tools, and build confidence in people's abilities. We do this through peer support, personalised opportunities for learning, creating and discovering new challenges in a safe place, built by it's community.
+</p>
+
+      <a href="./about/index.html" class="{{ page.buttonStyle }}">Read more about {{ site.brand }}</a>
+
+{% include spotlight.html %}
+
+<hr>
+
+<h2>What we do</h2>
+
+<p>
+We tell our story. We teach and guide. We involve blind or learning disabled learners. We support you.
 </p>
 
 <blockquote>
 "Tell me and I forget. Teach me and I remember. Involve me and I learn." - Benjamin Franklin
 </blockquote>
 
-<p>
-We tell our insights through blog posts. We teach through the notes of the {{ site.brand }} {{ site.product }}. We involve learners with learning disabilities and visual impairment through the projects of {{ site.brand }}.
-</p>
-
-      <a href="./about/index.html" class="{{ page.buttonStyle }}">Read more about {{ site.brand }}</a>
-
-<hr>
-{% include spotlight.html %}
-<hr>
-
 {% assign dataFile = site.data.navigation %}
-{% include global/grid-generator.html heading="h2" %}
+{% include global/grid-generator.html heading="h3" %}
