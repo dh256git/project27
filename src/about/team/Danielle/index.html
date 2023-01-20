@@ -1,14 +1,16 @@
 ---
 layout: default
 title: Danielle Garratt
+author: Danielle Garratt
 reviewer: Daniel Hajas
 date: 2022-08-27
+update: 2023-01-20
 buttonStyle: fg-general-chap
 backgroundStyle: bg-general-chap
 listOfIcons: [["", ""], ["", ""]]
 ---
 
-{% assign profile = site.data.volunteering.team[1] %}
+{% assign profile = site.data.volunteering.core-team[1] %}
 {% assign profile-sections = site.data.volunteering.danielle %}
 
 <div class="profilecontainertitle">
@@ -26,8 +28,8 @@ listOfIcons: [["", ""], ["", ""]]
 {% endfor %}
 </select>
 
-<h3 id="frame-heading">Introduction</h3>
+<h3 id="frame-heading">Open letter</h3>
 
 <div class="iframe-container">
-<iframe src="{{ '/about/team/Danielle/introduction.html' | prepend: site.baseurl }}"title="Introduction" id="iframe-id" class="responsive-iframe"></iframe>
+<iframe src="{{ '/about/team/Danielle/introduction.html' | prepend: site.baseurl }}"title="Welcome letter" id="iframe-id" class="responsive-iframe"></iframe>
 </div>

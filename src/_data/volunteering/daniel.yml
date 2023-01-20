@@ -2,8 +2,8 @@
   label: Welcome letter
   text: Open letter
 - value: /about/team/Daniel/CV.html
-  label: CV
-  text: public CV
+  label: Biography
+  text: Biography
 - value: /about/team/Daniel/publications.html
   label: Publications
   text: Publications

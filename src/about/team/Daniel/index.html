@@ -1,14 +1,16 @@
 ---
 layout: default
 title: Daniel Hajas
+author: Daniel Hajas
 reviewer: Danielle Garratt
 date: 2022-08-27
+update: 2023-01-20
 buttonStyle: fg-general-chap
 backgroundStyle: bg-general-chap
 listOfIcons: [["", ""], ["", ""]]
 ---
 
-{% assign profile = site.data.volunteering.team[0] %}
+{% assign profile = site.data.volunteering.core-team[0] %}
 {% assign profile-sections = site.data.volunteering.daniel %}
 
 <div class="profilecontainertitle">
@@ -26,7 +28,7 @@ listOfIcons: [["", ""], ["", ""]]
 {% endfor %}
 </select>
 
-<h3 id="frame-heading">Welcome letter</h3>
+<h3 id="frame-heading">Open letter</h3>
 
 <div class="iframe-container">
 <iframe src="{{ '/about/team/Daniel/letter.html' | prepend: site.baseurl }}" title="Welcome letter" id="iframe-id" class="responsive-iframe"></iframe>

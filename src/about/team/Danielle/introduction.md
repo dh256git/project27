@@ -2,9 +2,8 @@
 author: Danielle Garratt
 reviewer: Daniel Hajas
 date: 2022-08-27
+update: 2023-01-20
 ---
-
-## Short introduction
 
 Hello, my name is Danielle and I'm working on Project27. 
 
@@ -17,4 +16,5 @@ In Project27 one of the areas what I focus on is the Lifestyle collection. I foc
 I want to show that people with a learning disability and people who have a visual impairment can cook and learn new skills along the way. 
 
 Kind regards,
+
 Danielle
