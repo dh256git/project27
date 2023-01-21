@@ -72,21 +72,16 @@
   height: 100%;
 }
 
-/* mobile version*/
-@media only screen and (min-width: 480px) {
 .spotlight{
 	margin: 0 auto 0 auto;
 	background: white;
-	max-width: 60%;
-	padding: 3%;
+	max-width: 60px;
+	padding: 3px;
   height: auto;
-	border-radius: 10%;
-	box-shadow: 0 1% 5% rgba(0,0,0,.3);
-}
+	border-radius: 10px;
+	box-shadow: 0 1px 5px rgba(0,0,0,.3);
 }
 
-/* desktop version*/
-@media only screen and (min-width: 1200px) {
   .spotlight{
     margin: 0 auto 0 auto;
     background: white;
@@ -95,5 +90,4 @@
     height: auto;
     border-radius: 10%;
     box-shadow: 0 1% 5% rgba(0,0,0,.3);
-  }
   }
