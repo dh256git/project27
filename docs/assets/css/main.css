@@ -147,47 +147,19 @@ nav a { color: black; }
 
 .social-icon { width: 100%; height: auto; }
 
-/* mobile version*/
-@media only screen and (min-width: 480px) { .thumbnail-image-news { width: 150%; height: auto; } }
+.feature-feed { padding: 1%; display: grid; justify-content: center; grid-auto-flow: row; align-content: center; height: auto; row-gap: 5%; }
 
-/* desktop version*/
-@media only screen and (min-width: 1200px) { .thumbnail-image-news { width: 50%; height: auto; } }
+.feed { padding: 1%; display: grid; justify-content: center; grid-auto-flow: row; align-content: center; height: auto; row-gap: 5%; }
 
-/* mobile version*/
-@media only screen and (min-width: 480px) { .thumbnail-image { width: 80%; height: auto; } }
+.blog-feed { padding: 5%; display: contents; justify-content: space-evenly; align-content: flex-start; height: auto; row-gap: 1%; }
 
-/* desktop version*/
-@media only screen and (min-width: 1200px) { .thumbnail-image { width: 20%; height: auto; } }
+@media only screen and (min-width: 480px) { .news-image { max-width: 110%; display: block; padding-top: 5%; } }
 
-/* mobile version*/
-@media only screen and (min-width: 480px) { .thumbnail-image-blog { width: 100%; height: auto; } }
+@media only screen and (min-width: 480px) { .thumbnail-image-blog1 { max-width: 110%; display: block; padding-top: 5%; } }
 
-/* desktop version*/
-@media only screen and (min-width: 1200px) { .thumbnail-image-blog { width: 30%; height: auto; } }
+@media only screen and (min-width: 480px) { .thumbnail-image-blog { max-width: 50.50%; display: block; padding: 2%; } }
 
-/* mobile version*/
-@media only screen and (min-width: 480px) { .thumbnail-image-blog1 { width: 150%; height: auto; } }
-
-/* desktop version*/
-@media only screen and (min-width: 1200px) { .thumbnail-image-blog1 { width: 60%; height: auto; } }
-
-/* mobile version*/
-@media only screen and (min-width: 480px) { .featured-feed { padding: 1%; display: grid; justify-content: center; grid-auto-flow: column; align-content: center; height: auto; grid-template-rows: repeat(3, 1fr); row-gap: 1%; } }
-
-/* desktop version*/
-@media only screen and (min-width: 480px) { .featured-feed { padding: 1%; display: grid; justify-content: center; grid-auto-flow: column; align-content: center; height: auto; grid-template-rows: repeat(3, 1fr); row-gap: 1%; } }
-
-/* mobile version*/
-@media only screen and (min-width: 480px) { .feed { padding: 1%; display: grid; justify-content: center; grid-auto-flow: row; align-content: center; height: auto; grid-template-rows: repeat(3, 1fr); row-gap: 1%; } }
-
-/* desktop version*/
-@media only screen and (min-width: 480px) { .feed { padding: 1%; display: grid; justify-content: center; grid-auto-flow: row; align-content: center; height: auto; grid-template-rows: repeat(3, 1fr); row-gap: 5%; } }
-
-/* mobile version*/
-@media only screen and (min-width: 480px) { .blog-feed { padding: 10%; display: contents; justify-content: space-evenly; align-content: flex-start; height: 200%; row-gap: 1%; } }
-
-/* desktop version*/
-@media only screen and (min-width: 480px) { .blog-feed { padding: 15%; display: contents; justify-content: space-evenly; align-content: flex-start; height: 200%; row-gap: 5%; } }
+@media only screen and (min-width: 480px) { .thumbnail-image { max-width: 50.55%; display: block; padding: 2%; } }
 
 .container { max-width: 60rem; margin: 0 auto; padding: 10px; text-align: center; }
 
@@ -207,11 +179,9 @@ nav a { color: black; }
 
 .responsive-iframe { position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%; }
 
-/* mobile version*/
-@media only screen and (min-width: 480px) { .spotlight { margin: 0 auto 0 auto; background: white; max-width: 60%; padding: 3%; height: auto; border-radius: 10%; box-shadow: 0 1% 5% rgba(0, 0, 0, 0.3); } }
+.spotlight { margin: 0 auto 0 auto; background: white; max-width: 60px; padding: 3px; height: auto; border-radius: 10px; box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3); }
 
-/* desktop version*/
-@media only screen and (min-width: 1200px) { .spotlight { margin: 0 auto 0 auto; background: white; max-width: 60%; padding: 3%; height: auto; border-radius: 10%; box-shadow: 0 1% 5% rgba(0, 0, 0, 0.3); } }
+.spotlight { margin: 0 auto 0 auto; background: white; max-width: 60%; padding: 3%; height: auto; border-radius: 10%; box-shadow: 0 1% 5% rgba(0, 0, 0, 0.3); }
 
 :root { --blue: #007bff; --indigo: #6610f2; --purple: #6f42c1; --pink: #e83e8c; --red: #dc3545; --orange: #fd7e14; --yellow: #ffc107; --green: #28a745; --teal: #20c997; --cyan: #17a2b8; --white: #fff; --gray: #6c757d; --gray-dark: #343a40; --primary: #8d021f; --secondary: #6c757d; --success: #28a745; --info: #17a2b8; --warning: #ffc107; --danger: #dc3545; --light: #f8f9fa; --dark: #343a40; --breakpoint-xs: 0; --breakpoint-sm: 576px; --breakpoint-md: 768px; --breakpoint-lg: 992px; --breakpoint-xl: 1200px; --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
