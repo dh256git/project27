@@ -98,7 +98,7 @@ I have always been interested in community building and volunteering.
 
 ### 1. Mentor at Look UK (since October 2022)
 
-I joined a volunteer group of mentors at [Look UK](https://www.look-uk.org), supporting blind and partially sighted children in Sussex, England. My mentor role involves regular communication with an assigned mentee over text chat, virtual meetings, and in-person events.
+I joined a volunteer group of mentors at [Look UK](https://www.look-uk.org/mentoring/), supporting blind and partially sighted children in Sussex, England. My mentor role involves regular communication with an assigned mentee over text chat, virtual meetings, and in-person events.
 
 ### 2. The Sussex Universe Lecture Series (October 2014 – April 2016)
 
