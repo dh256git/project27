@@ -36,11 +36,11 @@
 {% else %}
 <div id="spotlight" class="spotlight">
 <h3>Spotlight: The latest news on {{ site.brand }}</h3>
-<div class="featured-feed">
+<div class="feed">
 {% for news in site.data.news  limit:3 %}
 <div class="row">
 <div class="col-3">
-<img src="{{ '/assets/images/news/' | append: news.thumbnail | prepend: site.baseurl }}" alt="{{ news.thumbnailAlt }}" class="thumbnail-image-news">
+<img src="{{ '/assets/images/news/' | append: news.thumbnail | prepend: site.baseurl }}" alt="{{ news.thumbnailAlt }}" class="news-image">
 </div>
 <div class="col-9">
 <p><a href="{{ news.link | prepend: site.baseurl }}">{{ news.headline }}</a></p>
