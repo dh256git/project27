@@ -39,7 +39,7 @@ We wouldn't be where we are today, without the invaluable advice and guidance of
 
 {% for item in site.data.volunteering.advisory-team %}
 <div class="profilecontainertitle">
-<h4>{{ item.name }} - {{ site.brand }} {{ item.role }}</h4>
+<h4>{{ item.name }} - {{ item.role }}</h4>
 </div>
 
 <div class="profilecontainer">
@@ -49,7 +49,7 @@ We wouldn't be where we are today, without the invaluable advice and guidance of
 </div>
 
 <div class="row">
-<a href="{{ item.profile | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">View {{ item.shortname }}'s profile</a>
+<a href="{{ item.profile | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">Learn more about {{ item.shortname }}</a>
 </div>
 {% else %}
 <p>We are just confirming seats at our advisory board for an academic, a business, a community, and a technology advisor.</p>
