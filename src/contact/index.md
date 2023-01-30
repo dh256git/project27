@@ -33,3 +33,14 @@ We began to establish, and gradually grow our social media presence. You can fol
 ### PO Box and registered address
 
 We are looking for a suitable location and mail delivery arrangement. Once we have one, we will update this section.
+
+## Frequently asked questions
+
+We were asked the following questions many times. See what we usually say.
+
+<dl>
+{% for item in site.data.FAQ %}
+<dt>Q: {{ item.question }}</dt>
+<dd>A: {{ item.answer }}</dd>
+{% endfor %}
+</dl>
