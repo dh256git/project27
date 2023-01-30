@@ -126,8 +126,12 @@ The R&D team members help with the research and development activities of {{ sit
 
 ### Content team
 
+{% assign taskCountContent = teamContent | size %}
 Join the Content team.
-There are {{ teamContent | size }} available tasks.
+{% case taskCountContent %}
+{% when 1 %}There is {{ taskCountContent }} available task.
+{% else %}There are {{ taskCountContent }} available tasks.
+{% endcase %}
 The Content team helps with authoring new notes for {{ site.product }}.
 
 {% for member in teamContent %}

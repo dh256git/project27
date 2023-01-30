@@ -7,7 +7,7 @@
 {% if page.reviewer %}
 <p>Reviewed by: {{ page.reviewer }}. <a href="{{ '/guidelines/review.html' | prepend: site.baseurl }}">Read our guidelines on reviews.</a></p>
 {% else %}
-<p>Reviewed by: Danielle Garratt. <a href="{{ '/guidelines/review.html' | prepend: site.baseurl }}">Read our guidelines on reviews.</a></p>
+<p>Reviewed by: To be assigned. <a href="{{ '/guidelines/review.html' | prepend: site.baseurl }}">Read our guidelines on reviews.</a></p>
 {% endif %}
 {% if page.date %}
 <p>Published on: {{ page.date | date_to_string }}</p>
@@ -20,11 +20,9 @@
 <p>Revised on: {{ '2023-01-01' | date_to_string }}</p>
 {% endif %}
 {% if page.updated %}
-{% assign updatedYear = page.updated | date: '%Y'%}
-{% assign updatedMonth = page.updated | date: '%b'%}
-{% assign updatedDay = page.updated | date: '%d'%}
-{% assign reviseYear = updatedYear | plus: 2 %}
-<p>Revision due: {{ updatedDay }} {{ updatedMonth }} {{ reviseYear }}</p>
+{% assign reviseYear = page.updated | date: '%Y' | plus: 2 %}
+{% assign updatedDayMonth = page.updated | date: '%-d %b' %}
+<p>Revision due: {{ updatedDayMonth }} {{ reviseYear }}</p>
 {% else %}
 <p>Revision due: {{ '2024-01-01' | date_to_string }}</p>
 {% endif %}
