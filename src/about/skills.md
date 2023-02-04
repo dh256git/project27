@@ -22,13 +22,103 @@ If you find a skill on the list that matters to you too, and you want to learn b
 
 So far, we have been on the journey of learning {{ skills | size }} skills. We are expanding this list as we go.
 
+#### Accessibility
+
 <ul>
 {% for item in skills %}
+{% if item.Category == 'Accessibility' %}
 <li>
 {{ item.Skill }}
 </li>
+{% endif %}
 {% endfor %}
 </ul>
+
+#### Web development
+
+<ul>
+{% for item in skills %}
+{% if item.Category == 'Web development' %}
+<li>
+{{ item.Skill }}
+</li>
+{% endif %}
+{% endfor %}
+</ul>
+
+#### Digital skills
+
+<ul>
+{% for item in skills %}
+{% if item.Category == 'Digital skills' %}
+<li>
+{{ item.Skill }}
+</li>
+{% endif %}
+{% endfor %}
+</ul>
+
+#### Entrepreneurship
+
+<ul>
+{% for item in skills %}
+{% if item.Category == 'Entrepreneurship' %}
+<li>
+{{ item.Skill }}
+</li>
+{% endif %}
+{% endfor %}
+</ul>
+
+#### Social skills
+
+<ul>
+{% for item in skills %}
+{% if item.Category == 'Social skills' %}
+<li>
+{{ item.Skill }}
+</li>
+{% endif %}
+{% endfor %}
+</ul>
+
+#### Personal competencies
+
+<ul>
+{% for item in skills %}
+{% if item.Category == 'Personal competencies' %}
+<li>
+{{ item.Skill }}
+</li>
+{% endif %}
+{% endfor %}
+</ul>
+
+#### Journalism
+
+<ul>
+{% for item in skills %}
+{% if item.Category == 'Journalism' %}
+<li>
+{{ item.Skill }}
+</li>
+{% endif %}
+{% endfor %}
+</ul>
+
+#### Research
+
+<ul>
+{% for item in skills %}
+{% if item.Category == 'Research' %}
+<li>
+{{ item.Skill }}
+</li>
+{% endif %}
+{% endfor %}
+</ul>
+
+---
 
 ### Skills that matter to you
 
