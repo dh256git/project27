@@ -41,7 +41,7 @@ We can provide support in the following ways:
 
 1. mentoring: for those who just need a bit of general guidance and confidence building;
 2. tutoring: for people, who want to get hands-on and learn new skills in topics we endorse in the [{{ site.brand }} {{ site.product }};]({% link guide/index.html %})
-3 consultancy: for parents, teachers, carers, disability advisors or whoever wishes to consult us with a specific question in mind;
+3. consultancy: for parents, teachers, carers, disability advisors or whoever wishes to consult us with a specific question in mind;
 4. research: for specific questions, where we might need to do a bit of digging to come up with a solution, or build a demonstrator tool;
 5. referrals: for those occasions we don't know the solution to your challenges.
 
@@ -78,7 +78,7 @@ After the session, we are sending out a short feedback survey to you, where you 
 
 You can book one support session in a calendar month, free of charge. If you'd like more support, we will work with you to plan and schedule a personalised skill studio. Skill studios are a paid for service. For further details, please read our [pricing page]({% link support/pricing.md %}) and the [terms of service.]({% link legal/terms-of-service.md %})
 
-**If you can afford it, please always consider converting your booking fee into payment. Payments received through our support services help with funding the costs associated with [{{ site.brand }} {{ site.product }}]({% link guide/index.html %}) and [{{ site.brand }} Volunteering.]({% link volunteering/index.html %})**
+**If you can afford it, please always consider converting your booking fee into payment. Payments received through our support services help with funding the costs associated with [{{ site.brand }} {{ site.product }}]({% link guide/index.html %}) and [{{ site.brand }} Volunteering.]({% link volunteering/index.md %})**
 
 <button class="{{ page.buttonStyle }}" onclick="showBookingFrame()" id="button-show-booking">Book a support session</button>
 

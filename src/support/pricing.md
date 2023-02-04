@@ -28,8 +28,10 @@ For those who just need a bit of general guidance and confidence building.
 
 - Time: 1 hour
 - Price: £9.99
-- Includes:
 
+Mentoring includes:
+
+* describe...
 
 #### 2. tutoring
 
@@ -37,7 +39,10 @@ For people, who want to get hands-on and learn new skills in topics we endorse i
 
 - Time: 1 hour
 - Price: £19.99
-- Includes:
+
+Tutoring includes:
+
+* describe...
 
 #### 3 consultancy
 
@@ -45,7 +50,10 @@ For parents, teachers, carers, disability advisors or whoever wishes to consult 
 
 - Time: 1 hour
 - Price: £29.99
-- Includes:
+
+Consultancy includes:
+
+* describe...
 
 #### 4. research
 
@@ -53,7 +61,10 @@ For specific questions, where we might need to do a bit of digging to come up wi
 
 - Time: 1 hour
 - Price: £39.99
-- Includes:
+
+Research support includes:
+
+* describe...
 
 #### 5. referrals
 
@@ -61,7 +72,10 @@ For those occasions, when we don't know the solution to your challenges, and we 
 
 - Time: 1 hour
 - Price: £19.99
-- Includes:
+
+Referrals include:
+
+* describe...
 
 ---
 
@@ -75,9 +89,17 @@ Our classic studio, with a taster of sessions.
 
 - Time: 10 hours
 - Price: £199.99 - valued at £220.90
-- Includes:
- * Session 1 (consultancy): an initial in-person session at your home, or remotely over a video call;
- * Sessions 2-4 (mentoring): three sessions remotely, over video calls or text messaging;
- * Sessions 5-6 (research): two sessions of remote research or demonstrator tool development, with the outputs e-mailed to you;
- * Sessions 7-9 (tutorials or training): three sessions in-person at your home, or remotely over video calls;
- * Session 10 (referrals): a session in-person at your home, or remotely over a video call with the specialist we think you need to talk to.
+
+The studio includes:
+
++ Session 1 (consultancy): an initial in-person session at your home, or remotely over a video call;
++ Sessions 2-4 (mentoring): three sessions remotely, over video calls or text messaging;
++ Sessions 5-6 (research): two sessions of remote research or demonstrator tool development, with the outputs e-mailed to you;
++ Sessions 7-9 (tutorials or training): three sessions in-person at your home, or remotely over video calls;
++ Session 10 (referrals): a session in-person at your home, or remotely over a video call with the specialist we think you need to talk to.
+
+### Where does the money go?
+
+We appreciate these prices may be difficult to pay for some. We are actively working with donors, funders, and partners to buy some of these services on your behalf.
+
+The revenue and funds raised through {{ site.brand }} Support are invested into maintaining and improving other {{ site.brand }} products and services, such as the [{{ site.brand }} {{ site.product }}]({% link guide/index.html %}) and [{{ site.brand }} Volunteering.]({% link volunteering/index.md %})
