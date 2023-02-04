@@ -4,6 +4,7 @@ title: Contact us
 author: Daniel Hajas
 reviewer: Danielle Garratt
 date: 2023-01-15
+licence: copyright
 buttonStyle: fg-general-vol
 backgroundStyle: bg-general-vol
 listOfIcons: [["", ""], ["", ""]]

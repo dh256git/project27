@@ -5,6 +5,7 @@ tagline: Invest in a guide of your journey
 author: Daniel Hajas
 reviewer: Danielle Garratt
 date: 2022-10-15
+licence: copyright
 buttonStyle: fg-general-vol
 backgroundStyle: bg-general-vol
 ---

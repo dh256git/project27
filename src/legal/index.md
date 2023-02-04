@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Legal statements
+title: Legal
+licence: copyright
 buttonStyle: fg-general-vol
 backgroundStyle: bg-general-vol
 ---

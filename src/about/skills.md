@@ -25,10 +25,10 @@ So far, we learnt {{ skills | size }} skills, across the following skill sets:
 
 - [accessibility,](#accessibility-skills)
 - [web development,](#web-dev-skills)
-- [digital skills,]()#digital-skills
+- [digital skills,](#digital-skills)
 - [entrepreneurship,](#entrepreneurship)
 - [social skills,](#social-skills)
-- [personal competencies,]()#personal
+- [personal competencies,](#personal)
 - [journalism,](#journalism) and
 - [research.](#research)
 
