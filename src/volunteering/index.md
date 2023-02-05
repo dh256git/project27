@@ -23,7 +23,7 @@ By doing so, you will also teach those who want to learn, but are not yet ready 
 
 {% include global/cover-image.html image="volunteering-cover.jpg" alt="A drawn tree, with handprints as leaves on the branches." %}
 
-<a class="{{ page.buttonStyle }}" aria-disabled="false" href="{{ '/volunteering/become-a-volunteer.html' | prepend: site.baseurl }}">BECOME A VOLUNTEER</a>
+<a id="apply-to-volunteer-top" class="{{ page.buttonStyle }}" aria-disabled="false" href="{{ '/volunteering/become-a-volunteer.html' | prepend: site.baseurl }}">BECOME A VOLUNTEER</a>
 
 ---
 {% include spotlight.html %}
@@ -31,7 +31,10 @@ By doing so, you will also teach those who want to learn, but are not yet ready 
 
 ## Why would I volunteer to contribute to {{ site.brand }}?
 
-**Do it for yourself.**
+Volunteer for two main reasons:
+
+1. We need your help. We are not experts or professionals in everything that's needed to keep {{ site.brand }} up and running. There is a lot to do, so a helpful hand is always appreciated.
+2. Do it for yourself. We can guarantee, you will learn something new and useful. Benefits include:
 
 <ol>
 <li>
@@ -49,6 +52,7 @@ You could learn on your own, and practice through your personal project.
 Wouldn't it be more satisfying though, to help other people in the process?
 There are no deadlines, no punishment if something doesn't work out.
 It's learning through trial and error, and practice.
+What we build together, ultimately helps communities of blind or learning disabled people.
 </div>
 <button onclick="readMoreVolunteering2()" id="Read-More-BTN2">Read more</button>
 </li>
@@ -94,6 +98,14 @@ We are committed to certifying your contributions. Currently, we offer the follo
 + Active volunteer: after successful completion of 100 tasks (~8 hours of regular commitment per week, for one year)
 
 Active volunteers will be considered for part-time employment at {{ site.brand }} or one of our partners; subject to funding and the legal constitution of the {{ site.brand }} community interest company in 2024.
+
+## What happens after I apply to volunteer?
+
+We follow a three step process to ensure you have a great experience of joining the team.
+
+1. Introduction: We organise a virtual meeting with you to make introductions, understand your interests, and discuss the tasks you would like to help with.
+2. Onboarding: During your first week, we ask you to complete our onboarding workflow, which involves reading through our 'getting started' package, a 30 minute virtual meeting to get you familiar with our systems, and another 30 minute to set you up on your first task.
+3. Supervision: During the first month with us, we offer two hours of [supervision support]({% link support/pricing.md %}), to make sure you can give us feedback, ask questions, and to help you combat initial difficulties.
 
 ---
 
@@ -188,4 +200,4 @@ By doing so, they can also create new, senior leadership roles in the C-suite of
 Are you interested in contributing to {{ site.brand }} and becoming a volunteer?
 Please, express your interest by using the button below.
 
-<a class="{{ page.buttonStyle }}" aria-disabled="false" href="{{ '/volunteering/become-a-volunteer.html' | prepend: site.baseurl }}">BECOME A VOLUNTEER</a>
+<a id="apply-to-volunteer-bottom" class="{{ page.buttonStyle }}" aria-disabled="false" href="{{ '/volunteering/become-a-volunteer.html' | prepend: site.baseurl }}">BECOME A VOLUNTEER</a>
