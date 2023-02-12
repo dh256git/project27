@@ -20,7 +20,7 @@ If you'd like to set up a regular support plan with a variety of support session
 
 We can provide support in the following ways:
 
-#### 1. Mentoring - 30 minutes for £10.00
+#### 1. Mentoring - 30 minutes for £15.00
 
 For those who just need a bit of general guidance and confidence building.
 
@@ -31,7 +31,7 @@ For those who just need a bit of general guidance and confidence building.
 * recommending products, services, or communities to explore;
 * optionally, introducing you to experts in our community, to get even more support.
 
-#### 2. Tutoring - 60 minutes for £20.00
+#### 2. Tutoring - 60 minutes for £35.00
 
 For people, who want to get hands-on and learn new skills in topics we endorse in the [{{ site.brand }} {{ site.product }}.]({% link guide/index.html %})
 
@@ -42,7 +42,7 @@ For people, who want to get hands-on and learn new skills in topics we endorse i
 * a written summary of the feedback and recommendations for further practice;
 * optionally, introducing you to experts in our community, to get even more support.
 
-#### 3. Supervision - 60 minutes for £20.00
+#### 3. Supervision - 60 minutes for £35.00
 
 Exclusively, for {{ site.brand }} volunteers, who want to get hands-on and learn new skills, but need extra supervision on top of their volunteer credit.
 
@@ -72,7 +72,7 @@ For specific questions, where we might need to do a bit of digging to come up wi
 * sharing access to the demonstrator tool with you (if applicable);
 * optionally, introducing you to experts in our community, to get even more support.
 
-#### 6. Innovation consultancy - 60 minutes for £80.00
+#### 6. Innovation consultancy - 60 minutes for £75.00
 
 For businesses and academic research groups, who value the benefits of co-design and disability inclusion, and want to make real impact through innovation.
 
@@ -95,16 +95,16 @@ Skill studios are personalised to your needs. However, we have some recommendati
 
 Our classic studio, with a taster of sessions.
 
-- Time: 10 hours
-- Price: £199.99 - valued at £220.90
+- Time: 8.5 hours
+- Price: £320.00 (valued at £350.00)
 
 The studio includes:
 
 + Session 1 (consultancy): an initial in-person session at your home, or remotely over a video call;
 + Sessions 2-4 (mentoring): three sessions remotely, over video calls or text messaging;
 + Sessions 5-6 (research): two sessions of remote research or demonstrator tool development, with the outputs e-mailed to you;
-+ Sessions 7-9 (tutorials or training): three sessions in-person at your home, or remotely over video calls;
-+ Session 10 (referrals): a session in-person at your home, or remotely over a video call with the specialist we think you need to talk to.
++ Sessions 7-9 (tutorials): three sessions in-person at your home, or remotely over video calls;
++ Session 10 (consultancy): to talk through the progress and advise on steps ahead.
 
 ### Where does the money go?
 
