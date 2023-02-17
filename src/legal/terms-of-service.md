@@ -3,25 +3,27 @@ layout: default
 title: Terms of service
 author: Daniel Hajas
 date: 2022-10-02
+updated: 2023-02-17
 buttonStyle: fg-general-chap
 backgroundStyle: bg-general-chap
 ---
 
 ## {{ page.title }}
 
-Last updated: {{ page.date }}
+Last updated: {{ page.updated }}
 
 ### Support services
 
 We offer support services under the following terms:
 
-1. support sessions are free of charge;
-2. there is a £29.99 booking fee applicable;
-3. the booking fee is fully refundable, and will be refunded in full or in part, within 7 working days, if the customer requests the refund;
+1. support sessions are a paid service;
+2. Every calendar month, one support session can be booked free of charge;
+3. there is a £5.00 booking fee applicable;
 4. booked, but unattended support sessions are non-refundable, where a late attendance counts as an unattended session after 5 minutes of the arranged start time;
 5. support sessions can last a maximum of 60 minutes;
-6. cancellations made at least 24 hours in advance of the start time of a booked support session are fully refundable;
-7. cancellations made at least 6 hours in advance of the start time of a booked support session are partially refundable, where an administration fee of £9.99 is deducted from the booking fee.
+6. cancellations made at least 24 hours in advance of the start time of a booked support session are fully refundable, excluding the booking fee;
+7. cancellations made at least 6 hours in advance of the start time of a booked support session are partially refundable, excluding the booking fee and an administrative fee of £10;
+8. The booking fee is included in the quoted pricing.
 
 ### Notices
 
