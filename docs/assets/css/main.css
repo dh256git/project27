@@ -145,15 +145,29 @@ nav a { color: black; }
 
 .blog-cover { width: 200px; justify-content: center; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; }
 
-.social-icon { width: 75px; height: 75px; }
+.social-icon { width: 100%; height: auto; }
 
-.thumbnail-image { width: 65px; }
+.feature-feed { padding: 1%; display: grid; justify-content: center; grid-auto-flow: row; align-content: center; height: auto; row-gap: 5%; }
 
-.featured-feed { padding: 70px; display: grid; justify-content: space-evenly; grid-auto-flow: column; align-content: center; height: 300px; grid-template-rows: repeat(3, 1fr); grid-row-gap: 1px; }
+.feed { padding: 5%; display: grid; justify-content: center; grid-auto-flow: row; align-content: center; height: auto; row-gap: 5%; }
 
-.feed { padding: 70px; display: grid; justify-content: space-evenly; grid-auto-flow: column; align-content: center; height: 300px; grid-template-rows: repeat(3, 1fr); }
+.blog-feed { padding: 5%; display: block; justify-content: space-evenly; align-content: flex-start; height: auto; row-gap: 1%; }
 
-.blog-feed { padding: 10px; display: contents; justify-content: space-evenly; align-content: flex-start; height: 200px; }
+.news-image { max-width: 60%; display: block; padding-top: 5%; }
+
+.thumbnail-image-blog1 { max-width: 70%; display: block; padding-top: 5%; }
+
+.thumbnail-image-blog { max-width: 70%; display: block; padding-top: 5%; }
+
+.thumbnail-image { max-width: 70%; display: block; padding-top: 5px; }
+
+@media screen and (max-width: 480px) { .news-image { max-width: 100%; display: block; padding-top: 5%; } }
+
+@media screen and (max-width: 480px) { .thumbnail-image-blog1 { max-width: 100%; display: block; padding-top: 5%; } }
+
+@media screen and (max-width: 480px) { .thumbnail-image-blog { max-width: 100%; display: block; padding: 2%; } }
+
+@media screen and (max-width: 480px) { .thumbnail-image { max-width: 100%; display: block; padding: 2%; } }
 
 .container { max-width: 60rem; margin: 0 auto; padding: 10px; text-align: center; }
 
@@ -173,7 +187,11 @@ nav a { color: black; }
 
 .responsive-iframe { position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%; }
 
-.spotlight { margin: 0 auto 0 auto; background: white; max-width: 1000px; padding: 40px; border-radius: 3px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); }
+.spotlight { margin: 0 auto 0 auto; background: white; max-width: 60px; padding: 3px; height: auto; border-radius: 10px; box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3); }
+
+.spotlight { margin: 0 auto 0 auto; background: white; max-width: 50%; padding: 3%; height: auto; border-radius: 10%; box-shadow: 0 1% 5% rgba(0, 0, 0, 0.3); }
+
+@media screen and (max-width: 480px) { .spotlight { margin: 0 auto 0 auto; background: white; max-width: 100%; padding: 3%; height: auto; border-radius: 10%; box-shadow: 0 1% 5% rgba(0, 0, 0, 0.3); } }
 
 :root { --blue: #007bff; --indigo: #6610f2; --purple: #6f42c1; --pink: #e83e8c; --red: #dc3545; --orange: #fd7e14; --yellow: #ffc107; --green: #28a745; --teal: #20c997; --cyan: #17a2b8; --white: #fff; --gray: #6c757d; --gray-dark: #343a40; --primary: #8d021f; --secondary: #6c757d; --success: #28a745; --info: #17a2b8; --warning: #ffc107; --danger: #dc3545; --light: #f8f9fa; --dark: #343a40; --breakpoint-xs: 0; --breakpoint-sm: 576px; --breakpoint-md: 768px; --breakpoint-lg: 992px; --breakpoint-xl: 1200px; --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 

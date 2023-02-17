@@ -5,6 +5,7 @@ tagline: Invest in a guide of your journey
 author: Daniel Hajas
 reviewer: Danielle Garratt
 date: 2022-10-15
+licence: copyright
 buttonStyle: fg-general-vol
 backgroundStyle: bg-general-vol
 ---
@@ -38,19 +39,21 @@ The information you provide in your support session booking form will help us to
 Support sessions are personalised to your needs.
 We can provide support in the following ways:
 
-* consultancy: for parents, teachers, carers, disability advisors or whoever wishes to consult us with a specific question in mind;
-* mentoring; for those who just need a bit more general guidance and confidence building;
-* referrals: for those occasions we don't know the solution to your challenges;
-* research: for specific questions, where we might need to do a bit of digging to come up with a solution, or a demonstrator tool;
-* tutoring: for people, who want to get hands-on and learn new skills in topics we endorse in the [{{ site.brand }} {{ site.product }}.]({% link guide/index.html %})
+1. mentoring: for those who just need a bit of general guidance and confidence building;
+2. tutoring: for people, who want to get hands-on and learn new skills in topics we endorse in the [{{ site.brand }} {{ site.product }};]({% link guide/index.html %})
+3. consultancy: for parents, teachers, carers, disability advisors or whoever wishes to consult us with a specific question in mind;
+4. research: for specific questions, where we might need to do a bit of digging to come up with a solution, or build a demonstrator tool;
+5. referrals: for those occasions we don't know the solution to your challenges.
 
-You can book a single session. We can also help you plan multiple sessions over a longer period of time. We call this a support period. Have you heard the phrase: ["The whole is greater than the sum of its parts"](https://se-scholar.com/se-blog/2017/6/23/who-said-the-whole-is-greater-than-the-sum-of-the-parts)? It's true for {{ site.brand }} support sessions too. During the first session, we can help with creating your personal support period, planning the desired number and type of sessions.
+{% include global/buttonLink.html url="/support/pricing.html" label="View details and the pricing of support sessions" %}
+
+You can book a single session. We can also help you plan multiple sessions over a longer period of time. We call this a skill studio. Have you heard the phrase: ["The whole is greater than the sum of its parts"](https://se-scholar.com/se-blog/2017/6/23/who-said-the-whole-is-greater-than-the-sum-of-the-parts)? It's true for {{ site.brand }} support sessions too. During the first session, we can help with creating your personal skill studio, planning the desired number and type of sessions.
 
 ### Where will the session take place?
 
 We are based in East Sussex, England. However, our skills can reach far with the help of the internet. The location of support sessions will depend on the type of support required.
 
-To illustrate where it all happens, let's look at a scenario, with ten sessions in a support period:
+To illustrate where it all happens, let's look at a scenario, with ten sessions in a skill studio:
 
 * Session 1 (consultancy): an initial in-person session at your home, or remotely over a video call;
 * Sessions 2-4 (mentoring): three sessions remotely, over video calls or text messaging;
@@ -73,7 +76,9 @@ After the session, we are sending out a short feedback survey to you, where you 
 2. convert your booking fee into payment for the support, or
 3. to pay an additional sum - depending how much you value our support.
 
-You can book one support session in a calendar month, free of charge. If you'd like more support, we will work with you to plan and schedule a personalised support period. Support periods are a paid for service. For further details, please read our [terms of service.]({% link legal/terms-of-service.md %})
+You can book one support session in a calendar month, free of charge. If you'd like more support, we will work with you to plan and schedule a personalised skill studio. Skill studios are a paid for service. For further details, please read our [pricing page]({% link support/pricing.md %}) and the [terms of service.]({% link legal/terms-of-service.md %})
+
+**If you can afford it, please always consider converting your booking fee into payment. Payments received through our support services help with funding the costs associated with [{{ site.brand }} {{ site.product }}]({% link guide/index.html %}) and [{{ site.brand }} Volunteering.]({% link volunteering/index.md %})**
 
 <button class="{{ page.buttonStyle }}" onclick="showBookingFrame()" id="button-show-booking">Book a support session</button>
 
