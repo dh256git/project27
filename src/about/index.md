@@ -15,7 +15,7 @@ We are a mission driven small family business, supporting blind or learning disa
 
 ### What we do
 
-We engage in a range of activities to support our mission.
+We engage in five key activities to support our mission.
 
 1. **Sharing thoughts**: We share our lived experience of sight-loss, learning disability, and success, through our [blog.]({% link blog/index.html %})
 2. **Passive learning**: We enable people to learn about science and lifestyle, by creating accessible articles in the [{{ site.brand }} {{ site.product }}.]({% link guide/index.html %})
@@ -23,7 +23,7 @@ We engage in a range of activities to support our mission.
 4. **Consultancy**: Anyone who needs time to talk things through with us can [book a support session]({% link support/index.md %}) for a session of consulting, tutoring, or mentoring.
 5. **Research and innovation**: We work with academic researchers and businesses to push the frontiers of access to science, and disability inclusion.
 
-{% include global/buttonLink.html url="/about/content.html" label="Read more about what you will find on this site" %}
+{% include global/buttonLink.html url="/about/content.html" label="Read more about our published content and services" %}
 
 ### Who we are
 
@@ -37,9 +37,8 @@ We live with disabilities, and we have a lot to share.
 
 ### Our vision
 
-We see the transformation of the {{ site.brand }} team into a supportive community, and the growth of the {{ site.brand }} {{ site.product }} into a platform of active learning.
-
-{% include global/buttonLink.html url="/about/vision.html" label="Read more about our vision" %}
+Blind or learning disabled people get to live the lives they want to live,
+while they are acknowledged as productive members of society.
 
 ### Our mission
 
@@ -47,8 +46,6 @@ Our mission is
 to create personalised opportunities for skills development 
 in a safe environment 
 for communities of blind or learning disabled people.
-
-{% include global/buttonLink.html url="/about/mission.html" label="Read more about our mission" %}
 
 ### Our values
 
@@ -74,26 +71,3 @@ After Danielle joined the team, we realised that there are many [skills that mat
 We wanted to get better at doing certain things, by building {{ site.brand }} bit by bit.
 This was always meant to be a private project.
 Then, we realised, we can help people, while they help us.
-
-<!--
-### What's on {{ site.brand }}?
-
-The site is split into two parts: [Blog]({% link blog/index.html %}) and [{{ site.product }}.]({% link guide/index.html %})
-Blog posts and {{ site.product }} notes both come in two flavours: technical, and lifestyle.
-
-The blog has two branches:
-
-1. [LogBook]({% link blog/logbook/index.html %}) - a technical blog to track challenges and milestones encountered during the development of projects.
-2. [TWIST.]({% link blog/twist/index.html %}) - posts on the way we see things.
-
-The {{ site.product }} is what we refer to as the library or the journal.
-Initially, five volumes, separated into two collections, form part of the {{ site.product }}.
-
-1. Science collection:
-  * [Mathematical and Physical Sciences (MPS);]({% link guide/MPS/index.html %}) - a volume of notes on topics of mathematics and physics.
-  * [Computer Literacy;]({% link guide/CL/index.html %}) -a volume of notes on how to do small, practical tasks on the computer.
-  * [Statistics;]({% link guide/statistics/index.html %})- a volume of notes on how statistical calculations work in a mathematical sense.
-2. Lifestyle collection:
-  * [Cookbook;]({% link guide/cookbook/index.html %}) - recipes that we enjoy and for you to try out.
-  * [Vocal.]({% link guide/vocal/index.html %}) - an album of short stories and audio recordings with family and friends.
--->

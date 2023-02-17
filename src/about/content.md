@@ -1,19 +1,34 @@
 ---
 layout: default
-title: What's on the site?
+title: Content and services
 author: Daniel Hajas
 reviewer: Danielle Garratt
 date: 2022-08-29
+updated: 2023-02-17
+licence: copyright
 buttonStyle: fg-general-chap
 backgroundStyle: bg-general-chap
+listOfIcons: [["fas fa-pencil-alt", ""], ["fas fa-compass", ""], ["fa-solid fa-handshake", ""], ["fa-solid fa-person-chalkboard", ""]]
 ---
 
 ## {{ page.title }}
 
-The site is split into two parts: [Blog](../blog/index.html) and [{{ site.product }}.](../guide/index.html)
+Our key activities relate to the products and services below.
+
+
+{% assign dataFile = site.data.navigation %}
+{% include global/grid-generator.html heading="h3" %}
+
+---
+
+## Published content
+
+The published content is split into two parts: [Blog](../blog/index.html) and [{{ site.product }}.](../guide/index.html)
 Blog posts and {{ site.product }} notes both come in two types: technical, and lifestyle.
 
-### The blog
+---
+
+### The blog - A deep dive
 
 The blog has two branches: [LogBook](../blog/logbook/index.html) and [TWIST.](../blog/twist/index.html)
 
@@ -24,7 +39,9 @@ This makes LogBook a more technical set of posts.
 Secondly, "The Way I See iT (TWIST) provides lifestyle and reflective posts.
 A wide range of topics are written from living with disabilities, through self-identities, to reading books.
 
-### The {{ site.product }}
+---
+
+### The {{ site.product }} - A deep dive
 
 The {{ site.product }} is an educational, web journal.
 There are five volumes that form part of the journal.
