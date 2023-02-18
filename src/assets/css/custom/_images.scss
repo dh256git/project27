@@ -100,10 +100,9 @@ height: auto;
 }
 
 .feed{
-    padding: 5%;
+    padding: 1%;
     display: grid;
     justify-content: center;
-    grid-auto-flow: row;
     align-content: center;
     height: auto;
     row-gap: 5%;
@@ -119,30 +118,48 @@ height: auto;
 }
 
 .news-image{
-    max-width: 60%;
+    max-width: 80%;
     display: block;
     padding-top: 5%;
 }
 
 .thumbnail-image-blog1{
-max-width: 70%;
+max-width: 80%;
 display: block;
 padding-top: 5%;
 }
 
 .thumbnail-image-blog{
-    max-width: 70%;
+    max-width: 80%;
     display: block;
     padding-top: 5%;
 }
 
 .thumbnail-image{
-   max-width: 70%;
+   max-width: 80%;
    display: block;
-   padding-top: 5px; 
+   padding-top: 5%; 
 }
 
-@media screen and (max-width: 480px) {
+.news-image-testimonials{
+    max-width: 80%;
+    display: block;
+    padding: 5%;
+}
+
+@media screen and (min-width: 480px){
+.feed{
+    padding: 18%;
+    display: grid;
+    justify-content: center;
+    grid-auto-flow: row;
+    align-content: center;
+    height: auto;
+    row-gap: 5%;
+}
+}
+
+@media screen and (min-width: 480px){
 .news-image {
     max-width: 100%;
     display: block;
@@ -150,7 +167,7 @@ padding-top: 5%;
 }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
 .thumbnail-image-blog1{
     max-width: 100%;
     display: block;
@@ -158,7 +175,7 @@ padding-top: 5%;
 }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
 .thumbnail-image-blog{
 max-width: 100%;
 display: block;
@@ -166,10 +183,18 @@ padding: 2%;
 }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
     .thumbnail-image{
     max-width: 100%;
     display: block;
     padding: 2%;
     }
+}
+
+@media screen and (min-width: 480px) {
+    .news-image-testimonials{
+    max-width: 100%;
+    display: block;
+    padding: 5%; 
+}
 }
