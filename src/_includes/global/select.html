@@ -1,3 +1,10 @@
+<div class="row" id="quickLinks">
+<div class="col-md">
+{% include global/global-selector.html %}
+</div>
+</div>
+
+{% if page.url contains "/blog/" or page.url contains "/guide/" %}
 <div class="row">
 <div class="col-md-6">
 {% include global/volume-selector.html %}
@@ -15,3 +22,4 @@
 {% include global/note-selector.html %}
 </div>
 </div>
+{% endif %}
