@@ -7,6 +7,9 @@
   {% endfor %}
   {% elsif page.url contains "guide" %}
   {% for item in site.data.volumes.guide %}
+{% if item.name == "Statistics" %}
+{% continue %}
+{% endif %}
           <a class="dropdown-item" href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
   {% endfor %}
     {% elsif page.url contains "blog" %}

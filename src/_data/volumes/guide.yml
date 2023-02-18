@@ -1,7 +1,7 @@
 - name: Mathematical and Physical Sciences
   link: /guide/MPS/index.html
   description: A volume of notes on topics of mathematics and physics for undergraduate learners.
-- name: Computer Literacy
+- name: Digital Skills
   link: /guide/CL/index.html
   description: A volume of notes on how to do tasks on the computer. Notes are related to studying, researching, and publishing scientific content.
 - name: Statistics
