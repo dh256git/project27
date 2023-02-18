@@ -12,10 +12,10 @@ backgroundStyle: bg-general-chap
 
 We always ask a second person, a peer reviewer, to check the authors' work. We look at four things, and publish our work with C.A.R.E.:
 
-1. content,
-2. accessibility,
-3. readability, and
-4. engagement.
+1. Content
+2. Accessibility
+3. Readability
+4. Engagement
 
 Four independent reviewers are nominated by an associate editor, and assigned to one of the review guidelines. 
 
@@ -35,7 +35,7 @@ We want accessible content. Our primary focus is on blind and low vision readers
 
 *  Make sure text is simple to read.
 *  Text-to-speech friendly equations are used.
-* *  We hid or described figures.
+*  We hid or described figures.
 * Tables are easy to navigate and understand.
 * We selected videos that are accessible.
 

@@ -88,18 +88,18 @@
     max-width: 50%;
     padding: 3%;
     height: auto;
-    border-radius: 10%;
+    border-radius: 5%;
     box-shadow: 0 1% 5% rgba(0,0,0,.3);
   }
 
-  @media screen and (max-width: 480px){
+  @media screen and (min-width: 480px){
   .spotlight{
     margin: 0 auto 0 auto;
     background: white;
     max-width: 100%;
     padding: 3%;
     height: auto;
-    border-radius: 10%;
+    border-radius: 5%;
     box-shadow: 0 1% 5% rgba(0,0,0,.3);
   }
 }
