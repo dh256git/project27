@@ -33,6 +33,8 @@ You can book a support session with Daniel and Danielle - the core team at {{ si
 To learn more about us, check out [our team page]({% link about/team/index.html %}).
 The information you provide in your booking will help us to find the best person in our team to talk to you.
 
+{% include global/testimonials.html %}
+
 ### How to book a support session?
 
 Click "book a support session" below, and use our booking page to arrange a time.
