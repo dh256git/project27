@@ -5,25 +5,25 @@
 
 .bg-general-chap { background: #F9DBBE; border-radius: 12px; }
 
-.bg-blog-land { background: #87CEEB; border-radius: 12px; }
+.bg-blog-land { background: #BFE8F8; border-radius: 12px; }
 
-.bg-blog-vol { background: #55ADD1; border-radius: 12px; }
+.bg-blog-vol { background: #C3E6EE; border-radius: 12px; }
 
-.bg-blog-chap { background: #4198BB; border-radius: 12px; }
+.bg-blog-chap { background: #CDE2EF; border-radius: 12px; }
 
-.bg-blog-sect { background: #2980A2; border-radius: 12px; }
+.bg-blog-sect { background: #CFE8F2; border-radius: 12px; }
 
-.bg-blog-note { background: #1B5F7A; border-radius: 12px; }
+.bg-blog-note { background: #C7E3F5; border-radius: 12px; }
 
-.bg-guide-land { background: #98FB98; border-radius: 12px; }
+.bg-guide-land { background: #CBFBCB; border-radius: 12px; }
 
-.bg-guide-vol { background: #7ED27E; border-radius: 12px; }
+.bg-guide-vol { background: #CBE7CB; border-radius: 12px; }
 
-.bg-guide-chap { background: #54B054; border-radius: 12px; }
+.bg-guide-chap { background: #BDEABD; border-radius: 12px; }
 
-.bg-guide-sect { background: #378037; border-radius: 12px; }
+.bg-guide-sect { background: #C8E9C8; border-radius: 12px; }
 
-.bg-guide-note { background: #336F25; border-radius: 12px; }
+.bg-guide-note { background: #C9E8C9; border-radius: 12px; }
 
 .bg-nav-header { background: #D3D3D3; border-radius: 12px; }
 
@@ -53,25 +53,25 @@
 
 .previous-post { background-color: #D3D3D3; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; width: fit-content; height: fit-content; border-radius: 22px; margin-top: 15px; margin-bottom: 15px; padding: 0px 10px; white-space: normal; text-align: center; display: inline-flex; position: relative; }
 
-.fg-guide-land { background-color: #98FB98; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.fg-guide-land { background-color: #CBFBCB; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.fg-guide-vol { background-color: #7ED27E; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.fg-guide-vol { background-color: #CBE7CB; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.fg-guide-chap { background-color: #54B054; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.fg-guide-chap { background-color: #BDEABD; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.fg-guide-sect { background-color: #378037; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.fg-guide-sect { background-color: #C8E9C8; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.fg-guide-note { background-color: #286128; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.fg-guide-note { background-color: #C9E8C9; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.fg-blog-land { background-color: #87CEEB; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.fg-blog-land { background-color: #BFE8F8; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.fg-blog-vol { background-color: #55ADD1; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.fg-blog-vol { background-color: #C3E6EE; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.fg-blog-chap { background-color: #4198BB; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.fg-blog-chap { background-color: #CDE2EF; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.fg-blog-sect { background-color: #2980A2; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.fg-blog-sect { background-color: #CFE8F2; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.fg-blog-note { background-color: #1B5F7A; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
+.fg-blog-note { background-color: #C7E3F5; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
 .mybtnmps { background-color: #7ED27E; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
