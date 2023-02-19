@@ -6,6 +6,8 @@ author: Daniel
 title: FAQ 2 - How do I read maths in accessible ways?
 buttonStyle: fg-blog-note
 backgroundStyle: bg-blog-note
+image: hand-braille.jpg
+alt: hands going over a baille peice of paper
 ---
 
 If you read my post on [FAQ 1]({{ site.baseurl }}{% link blog/twist/nanotip/_posts/2022-01-09-sight-loss-101.md %}) you may conclude that it is a very beginner level, very standard information pack. In this post, I write down my standard response to the second most frequently asked question, that is "How do I read maths?". While this is just as basic as the response given in FAQ 1, the topic of science accessibility is much more specialised. 
