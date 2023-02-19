@@ -8,6 +8,7 @@ updated: 2023-01-21
 licence: copyright
 buttonStyle: fg-general-land
 backgroundStyle: bg-general-land
+listOfIcons: [["fas fa-pencil-alt", ""], ["fas fa-compass", ""], ["fa-solid fa-handshake", ""], ["fa-solid fa-person-chalkboard", ""]]
 ---
 
 ## Why trust us
@@ -31,12 +32,10 @@ Danielle is a sociable learning disabled person, with an interest in art, media,
 
 ## What we do
 
-We engage in five key activities to support our mission.
+We engage in four key activities to support our mission.
 
-1. **Sharing thoughts**: We share our lived experience of sight-loss, learning disability, and success, through our [blog.]({% link blog/index.html %})
-2. **Passive learning**: We enable people to learn about science and lifestyle, by creating accessible articles in the [{{ site.brand }} {{ site.product }}.]({% link guide/index.html %})
-3. **Active learning**: We promote active learning, by [getting volunteers involved]({% link volunteering/index.md %}) in building the [{{ site.brand }} {{ site.product }}.]({% link guide/index.html %})
-4. **Consultancy**: Anyone who needs time to talk things through with us can [book a support session]({% link support/index.md %}) for a session of consulting, tutoring, or mentoring.
-5. **Research and innovation**: We work with academic researchers and businesses to push the frontiers of access to science, and disability inclusion.
+{% assign dataFile = site.data.what-we-do %}
+{% assign gridLimit = 4 %}
+{% include global/grid-generator-2.html heading="h4" %}
 
 {% include spotlight.html %}
