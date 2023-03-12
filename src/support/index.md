@@ -12,36 +12,29 @@ backgroundStyle: bg-general-vol
 
 ## {{ page.title }}: {{ page.tagline }}
 
-We are here to support those who need it the most.
-A phone or necklace you bought could be broken, lost, or taken.
-The knowledge and skills you learn with us will remain yours forever.
-Invest in the only thing nobody can take from you.
-The return will be employability, and a richer human experience overall.
-We will help you invest wisely, in the skills that matter the most to you.
+We support blind or learning disabled people directly.
+For caretakers and professionals, who care for or work with our beneficiaries, we offer consultancy sessions.
+Moreover, we support researchers and businesses through project collaboration and co-creation.
 
 {% include global/cover-image.html image="support-cover.png" alt="A cartoon hand holding a wrench and reaching out from a laptop screen." %}
 
-### Why do we offer personalised support?
+### Why get our support?
 
-We know from experience, written tutorials and guides aren't always enough.
+We know from experience, a written guide is not always enough.
 Sometimes we just need a little more hands-on support.
 That's why we come to you, listen to your needs and unique circumstances, and why we want to help.
 
+{% include global/testimonials.html %}
+
 ### Who is going to provide the support?
 
-You can book a support session with Daniel and Danielle - the core team at {{ site.brand }}.
-To learn more about us, check out [our team page]({% link about/team/index.html %}).
+You can book a support session with [Daniel and Danielle]({% link about/team/index.html %}) - the core team at {{ site.brand }}.
 The information you provide in your booking will help us to find the best person in our team to talk to you.
-
-{% include global/testimonials.html %}
 
 ### How to book a support session?
 
 Click "book a support session" below, and use our booking page to arrange a time.
-You can book one free session every month.
-For further details, please read our [pricing page]({% link support/pricing.md %}) and our [terms of service.]({% link legal/terms-of-service.md %})
-
-**If you can afford it, please always consider donating money following a free session of support. Payments received through our support services help with funding the costs associated with [{{ site.brand }} {{ site.product }}]({% link guide/index.html %}) and [{{ site.brand }} Volunteering.]({% link volunteering/index.md %})**
+For further details on what's included, please read our [pricing page]({% link support/pricing.md %}) and our [terms of service.]({% link legal/terms-of-service.md %})
 
 <button class="{{ page.buttonStyle }}" onclick="showBookingFrame()" id="button-show-booking">Book a support session</button>
 
@@ -73,7 +66,8 @@ Amongst others, we can provide support in the following ways:
 The location of support sessions will depend on the type of support required.
 We are based in East Sussex, England.
 However, our skills can reach far with the help of the internet.
-To illustrate where it all happens, let's look at an example, with ten sessions in our Studio 27:
+
+To illustrate where it all happens, let's look at an example, with ten sessions in our signature skill studio, Studio27:
 
 + Session 1 (consultancy): an initial in-person session at your home, or remotely over a video call;
 + Sessions 2-4 (mentoring): three sessions remotely, over video calls or text messaging;
@@ -84,11 +78,11 @@ To illustrate where it all happens, let's look at an example, with ten sessions 
 Please note:
 
 1. Some sessions, such as training to cook or capture a life story, is best done in-person;
-2. In-person sessions are currently limited to East and West Sussex.
+2. In-person sessions are currently limited to East and West Sussex, and include a non-refundable travel fee.
 
 ### Have a question?
 
 Our wish to help is true, and our ways of support is flexible.
 However, we appreciate this flexibility and multitude of options may be confusing at first.
-If you would like to clarify something, or ask questions we haven't thought of, please send us an e-mail on support@project27skills.com.
+If you would like to clarify something, or ask questions we haven't thought of, please send us an e-mail on `support@project27skills.com`.
 We look forward to hearing from you.

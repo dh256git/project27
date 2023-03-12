@@ -19,6 +19,8 @@ If you'd like to set up a regular support plan with a variety of support session
 ### Personal support - 60 minutes for £35.00
 
 Personal support sessions are for people who directly benefit from our help.
+We help blind or learning disabled people to develop skills that matter, by reducing the frustration caused by inaccessible learning tools, and building their self-confidence.
+We do this through mentoring, tutoring, and other forms of peer support..
 
 <ul>
 <li>
@@ -58,11 +60,31 @@ For blind or learning disabled people, who want to get hands-on and learn new sk
 </ul>
 </div>
 </li>
+<li>
+<a data-toggle="collapse" href="#supervision" aria-expanded="false" aria-controls="supervision">
+Supervision (members only)
+</a>
+<div class="collapse" id="supervision">
+<p>
+Exclusively for {{ site.brand }} volunteers, who want to get hands-on and learn new skills, but need extra supervision on top of their membership credit.
+</p>
+<ul>
+<li>identifying and breaking down tasks you got stuck on;</li>
+<li>selecting 'how-to' tutorials and resources;</li>
+<li>a 1-to-1 live troubleshooting session, during a virtual or in-person meeting;</li>
+<li>verbal guidance and feedback during the session;</li>
+<li>a written summary of the feedback and a set of recommended tasks to try;</li>
+<li>optionally, introducing you to experts in our community, to get even more support.</li>
+</ul>
+</div>
+</li>
 </ul>
 
 ### Professional support - 60 minutes for £50.00
 
 Professional support sessions are designed to help people who want to support blind or learning disabled members in their community.
+We help caretakers and professionals to develop skills, empowering them to provide the appropriate support to their beneficiaries.
+When consulting us, you will face less uncertainty, and gain confidence in making the right decisions.
 
 <ul>
 <li>
@@ -103,6 +125,10 @@ For specific questions, where we might need to do a bit of digging to come up wi
 ### Specialist support - 60 minutes for £75.00
 
 Specialist support is dedicated for academic research groups and businesses who want to get support with a specific project.
+We help researchers and businesses to design and develop products or services, ensuring outstanding user experience and accessibility through co-creation.
+Working with us increases the probability of successful innovation, positive impact, and customer satisfaction, while decreasing the hours wasted on unwanted outputs.
+
+To discuss collaboration proposals, and for bespoke quotes for long-term projects, please get in touch.
 
 <ul>
 <li>
@@ -122,6 +148,8 @@ For businesses and academic research groups, who value the benefits of co-design
 </div>
 </li>
 </ul>
+
+{% include global/buttonLink.html url="https://research.project27skills.com" label="View our research and innovation portfolio" %}
 
 Can't decide what's best for you? Check out our Skill Studio below.
 
@@ -163,16 +191,3 @@ The studio includes:
 We appreciate these prices may be difficult to pay for some. We are actively working with donors, funders, and partners to buy some of these services on your behalf.
 
 The revenue and funds raised through {{ site.brand }} Support are invested into maintaining and improving other {{ site.brand }} products and services, such as the [{{ site.brand }} {{ site.product }}]({% link guide/index.html %}) and [{{ site.brand }} Volunteering.]({% link volunteering/index.md %})
-
-<!--
-#### 3. Supervision - 60 minutes for £35.00
-
-Exclusively, for {{ site.brand }} volunteers, who want to get hands-on and learn new skills, but need extra supervision on top of their volunteer credit.
-
-* identifying and breaking down tasks you got stuck on;
-* selecting 'how-to' tutorials and resources;
-* a 1-to-1 live troubleshooting session, during a virtual or in-person meeting;
-* verbal guidance and feedback during the session;
-* a written summary of the feedback and a set of recommended tasks to try;
-* optionally, introducing you to experts in our community, to get even more support.
--->
