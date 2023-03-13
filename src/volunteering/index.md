@@ -18,8 +18,7 @@ backgroundStyle: bg-general-vol
 ## {{ page.title }}: {{ page.tagline }}
 
 Get involved!
-Volunteer to work with the {{ site.brand }} team, and learn through hands-on tasks.
-By doing so, you will also teach those who want to learn, but are not yet ready to roll their sleeves up.
+Become a {{ site.brand }} volunteer or member, and develop your skills through hands-on tasks.
 
 {% include global/cover-image.html image="volunteering-cover.jpg" alt="A drawn tree, with handprints as leaves on the branches." %}
 
@@ -29,9 +28,10 @@ By doing so, you will also teach those who want to learn, but are not yet ready 
 {% include spotlight.html %}
 ---
 
-## Why would I volunteer to contribute to {{ site.brand }}?
+## Why should I volunteer?
 
-Volunteer for two main reasons:
+{{ site.brand }} is built by its community.
+Here is why you should become a part of it:
 
 1. We need your help. We are not experts or professionals in everything that's needed to keep {{ site.brand }} up and running. There is a lot to do, so a helpful hand is always appreciated.
 2. Do it for yourself. We can guarantee, you will learn something new and useful. Benefits include:
@@ -80,7 +80,7 @@ Then you'll also get the rewards on <a href="/about/team/index.html">our team pa
 
 ---
 
-## How much time should you commit?
+## How much time should I commit?
 
 The level of engagement is flexible. You may
 
@@ -97,9 +97,9 @@ We are committed to certifying your contributions. Currently, we offer the follo
 + Intern: after successful completion of 48 tasks (~16 hours of regular commitment per week, for three months);
 + Active volunteer: after successful completion of 100 tasks (~8 hours of regular commitment per week, for one year)
 
-Active volunteers will be considered for part-time employment at {{ site.brand }} or one of our partners; subject to funding and the legal constitution of the {{ site.brand }} community interest company in 2024.
+Active volunteers will be considered for part-time employment at {{ site.brand }} or one of our partners; subject to funding and the legal constitution of the {{ site.brand }} business entity.
 
-## What happens after I apply to volunteer?
+## What happens after I apply?
 
 We follow a three step process to ensure you have a great experience of joining the team.
 
@@ -109,17 +109,11 @@ We follow a three step process to ensure you have a great experience of joining 
 
 ---
 
-## Volunteering opportunities
+## What can I work on?
 
-We do it all.
-And we can't wait to find people who do some of our tasks much better than we do.
-We don't have roles, we work on tasks.
-As such, we adopted [Apple's Directly Responsible Individual (DRI) way of working.](https://mentorphile.com/2019/03/05/fostering-apples-culture-of-accountability-the-dri/)
-Everyone in the team is directly responsible for the task assigned to them.
-
-Still interested in volunteering?
-We are ready to delegate.
-The following tasks are waiting for you to take.
+Browse our activity catalogue, and get involved.
+Select a team, before viewing a list of available activities.
+The activity pages provide an overview of what's expected, as well as a list of very specific tasks to choose from.
 
 ### Research and Development team
 
@@ -193,11 +187,45 @@ By doing so, they can also create new, senior leadership roles in the C-suite of
 <p>Currently no roles are available in this team.</p>
 {% endfor %}
 
+
+### How does it work?
+
+At the moment, we do it all.
+And we can't wait to find people who do some of our tasks much better than we do.
+That's how {{ site.brand }} grows.
+That's also how we build a community of peer support.
+
+We don't have roles, we work on tasks.
+As such, we adopted [Apple's Directly Responsible Individual (DRI) way of working.](https://mentorphile.com/2019/03/05/fostering-apples-culture-of-accountability-the-dri/)
+Everyone in the team is directly responsible for the task assigned to them.
+
+Some tasks are permanent, just like washing up is.
+Other tasks may disappear once they are done, just like you would post a letter only once.
+When you become a volunteer, you can bid on tasks, using an internal system.
+The rest is history.
+
 ---
 
-## Become a {{ site.brand }} volunteer
+## Become a {{ site.brand }} member
 
-Are you interested in contributing to {{ site.brand }} and becoming a volunteer?
-Please, express your interest by using the button below.
+We plan to open a membership application on 1st of January, 2024.
+Members will access additional benefits, based on a subscription.
 
-<a id="apply-to-volunteer-bottom" class="{{ page.buttonStyle }}" aria-disabled="false" href="{{ '/volunteering/become-a-volunteer.html' | prepend: site.baseurl }}">BECOME A VOLUNTEER</a>
+### What are the benefits of becoming a member?
+
+There are multiple benefits to becoming a member. For example, you will
+
+* get certifications of your contributions;
+* get 1 credit of [supervision support]({% link support/pricing.md %}) per month;
+* get access to exclusive content on the {{ site.brand }} {{ site.product }};
+* get access to collectable badges to display on your profile;
+* get discounts on our community events.
+
+### How much does membership cost?
+
+For the first year, membership will be free of charge.
+After the 31st of December, 2024, membership will cost £19.99 a month, or £199.99 a year.
+
+Please, express your interest in becoming a member, by using the button below.
+
+<a id="apply-to-volunteer-bottom" class="{{ page.buttonStyle }}" aria-disabled="false" href="{{ '/volunteering/become-a-volunteer.html' | prepend: site.baseurl }}">I'd like to bECOME A member</a>
