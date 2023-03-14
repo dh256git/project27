@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Research & Development
 author: Daniel Hajas
 reviewer: Danielle Garratt
@@ -13,18 +12,21 @@ backgroundStyle: bg-general-vol
 {% assign teamER = site.volunteering | where:"team","ER" %}
 {% assign teamCC = site.volunteering | where:"team","CC" %}
 
-### Research and Development team
+### Research & Development team
 
 Join the Research and Development (R&D) team.
-There are {{ teamRnD | size }} available tasks.
 The R&D team members help with the research and development activities of {{ site.brand }}, such as website development or researching solutions to ongoing challenges in the project.
+
+### Activity list
+
+There are {{ teamRnD | size }} available activities.
 
 {% for member in teamRnD %}
 <h4>{{ member.task }}</h4>
 
 <p>{{ member.excerpt }}</p>
 
-<a href="{{ member.url | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">View task details</a>
+<a href="{{ member.url | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">View details: {{ member.task }}</a>
 {% else %}
 <p>Currently no roles are available in this team.</p>
 {% endfor %}
