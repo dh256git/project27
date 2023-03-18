@@ -30,7 +30,7 @@ Here is why you should become a part of it:
 1. We need your help. We are not experts or professionals in everything that's needed to keep {{ site.brand }} up and running. There is a lot to do, so a helpful hand is always appreciated.
 2. Do it for yourself. We can guarantee, you will learn something new and useful.
 
-<a id="apply-to-volunteer-top" class="{{ page.buttonStyle }}" aria-disabled="false" href="{{ '/volunteering/become-a-volunteer.html' | prepend: site.baseurl }}">BECOME A VOLUNTEER</a>
+<a id="apply-to-volunteer-top" class="{{ page.buttonStyle }}" aria-disabled="false" href="{{ '/volunteering/become-a-volunteer.html' | prepend: site.baseurl }}">Become a volunteer</a>
 
 ### What are the benefits of becoming a volunteer?
 
@@ -78,6 +78,13 @@ Then you'll also get the rewards on <a href="/about/team/index.html">our team pa
 </li>
 </ol>
 
+### When can I become a volunteer?
+
+Applications open on the 1st of October, 2023.
+You can submit an application anytime after this date.
+
+Volunteer registration will open with the launch of version 1.0 of the {{ site.brand }} site, on the 31st of January, 2024.
+
 ---
 
 ## How much time should I commit?
@@ -88,16 +95,21 @@ The level of engagement is flexible. You may
 + continue working on multiple challenges, whenever you find time, even if only a couple hours in a month.
 + get hooked, and if you have nothing better to do, treat it as a part time role.
 
-### Certified pathways of volunteering
+### Certified pathways of volunteering {#certification}
 
-<p id="certification">
 We are committed to certifying your contributions. Currently, we offer the following achievements:
-</p>
 
-+ Trainee: after successful completion of 4 tasks (~16 hours of commitment);
-+ Apprentice: after successful completion of 16 tasks (~16 hours of regular commitment per week, for one month);
-+ Intern: after successful completion of 48 tasks (~16 hours of regular commitment per week, for three months);
-+ Active member: after successful completion of 100 tasks (~8 hours of regular commitment per week, for one year)
+Trainee
+: after successful completion of 4 tasks (~16 hours of commitment);
+
+Apprentice
+: after successful completion of 16 tasks (~16 hours of regular commitment per week, for one month);
+
+Intern
+: after successful completion of 48 tasks (~16 hours of regular commitment per week, for three months);
+
+Active member
+: after successful completion of 100 tasks (~8 hours of regular commitment per week, for one year)
 
 Active members will be considered for part-time employment at {{ site.brand }} or one of our partners; subject to funding and the legal constitution of the {{ site.brand }} business entity.
 
@@ -152,12 +164,12 @@ The rest is history.
 
 ---
 
-## Membership at {{ site.brand }}
+## Membership at {{ site.brand }} {#membership}
 
-<p id="membership">
+
 We plan to open a membership application on 1st of January, 2024.
 Members will access additional benefits, based on a subscription.
-</p>
+
 
 ### What are the benefits of becoming a member?
 
@@ -171,14 +183,21 @@ There are multiple benefits to becoming a member. For example, you will
 * get access to collectable badges to display on your profile;
 * get discounts on our community events.
 
-### How much does membership cost?
-
-For the first year, membership will be free of charge.
-After the 31st of December, 2024, membership will cost £24.99 a month, or £249.99 a year.
+### When can I become a member?
 
 Please, express your interest in becoming a member, by using the button below.
+The launch date of membership registration may change depending on your interest.
 
-<a id="apply-to-volunteer-bottom" class="{{ page.buttonStyle }}" aria-disabled="false" href="{{ '/volunteering/become-a-volunteer.html' | prepend: site.baseurl }}">I'd like to bECOME A member</a>
+We plan to open membership registration with the launch of version 2.0 of the {{ site.brand }} site, on the 31st of January, 2025.
+
+<a id="apply-to-volunteer-bottom" class="{{ page.buttonStyle }}" aria-disabled="false" href="{{ '/volunteering/become-a-volunteer.html' | prepend: site.baseurl }}">I'd like to become A member</a>
+
+### How much does membership cost?
+
+Membership is priced slightly differently, depending on the subscription you select.
+
+* paid monthly: £24.99 a month,
+* paid yearly: £239.90 a year (£19.99 a month).
 
 ---
 
@@ -187,6 +206,14 @@ Please, express your interest in becoming a member, by using the button below.
 Whether you join our community as a volunteer, or as a member, we will set you up for success.
 We follow a three step process to ensure you have a great experience of joining the team.
 
-1. Introduction: We organise a virtual meeting with you to make introductions, understand your interests, and discuss the tasks you would like to help with.
-2. Onboarding: During your first week, we ask you to complete our onboarding workflow, which involves reading through our 'getting started' package, a 30 minute virtual meeting to get you familiar with our systems, and another 30 minute to set you up on your first task.
-3. Supervision: During the first month with us, we offer two hours of [supervision support]({% link support/pricing.md %}), to make sure you can give us feedback, ask questions, and to help you combat initial difficulties.
+Introduction
+: We organise a 30 minute long virtual meeting with you to make introductions, understand your interests, and discuss the tasks you would like to help with.
+
+On-boarding
+: During your first week, we ask you to complete our on-boarding workflow, which involves reading through our 'getting started' package.
+: A 30 minute long virtual meeting, to get you familiar with our systems.
+: A second 30 minute long virtual meeting, to set you up on your first task.
+
+Supervision
+: During the first month with us, we offer a [free supervision session]({% link support/pricing.md %}), to make sure you can give us feedback, ask questions, and to help you combat initial difficulties.
+: Supervision is optional and flexible. You can choose to take the full hour, take two 30 minute long sessions, or not use it at all.

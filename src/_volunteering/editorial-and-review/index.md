@@ -26,7 +26,7 @@ There are {{ teamER | size }} available activities.
 
 <p>{{ member.excerpt }}</p>
 
-<a href="{{ member.url | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">View details: {{ member.task }}</a>
+<a target="_blank" rel="noreferrer noopener" href="{{ member.url | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">{{ member.task }}: View tasks and the activity description</a>
 {% else %}
-<p>Currently no roles are available in this team.</p>
+<p>Currently no activities are available in this team.</p>
 {% endfor %}
