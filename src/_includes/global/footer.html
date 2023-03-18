@@ -1,41 +1,42 @@
+{% assign footer-side = site.data.footer-side %}
+{% assign social-side = site.data.social-side %}
+
+<div class="row">
+<div class="col-md-10">
 {% include global/navigation-footer.html %}
 
-{% if page.licence == "copyright" %}
-Copyright © 2023 Project27. All rights reserved.
-{% elsif page.url contains "/blog/" %}
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="margin: 10px" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />Except where otherwise noted, posts of the <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Project27 Blog</span> are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a>
-{% elsif page.url contains "/guide/" %}
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="margin: 10px" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />Except where otherwise noted, articles of the <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Project27 Guide</span> are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License.</a>
-{% else %}
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="margin: 10px" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />Except where otherwise noted, <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Project27</span> materials hosted by <a xmlns:cc="http://creativecommons.org/ns#" href="{{ '/about/team/Daniel/index.html' | prepend: site.baseurl }}" property="cc:attributionName" rel="cc:attributionURL">Daniel Hajas</a> are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License.</a>
-{% endif %}
-
-<p>Powered by: 
-<a href="https://github.com">
-<img src="{{ '/assets/images/Github logo.png' | prepend: site.baseurl }}" alt="Github" class= "poweredby">
-</a>
-<a href="https://jekyllrb.com">
-<img src="{{ '/assets/images/Jekyll logo.png' | prepend: site.baseurl }}" alt="Jekyll" class= "poweredbyx2">     
-</a>
-<a href="https://getbootstrap.com">
-<img src="{{ '/assets/images/Bootstrap logo.png' | prepend: site.baseurl }}" alt="Bootstrap" class= "poweredby">  
-</a>
-<a href="https://www.markdownguide.org">
-<img src="{{ '/assets/images/Markdown logo.png' | prepend: site.baseurl }}" alt="Markdown" class= "poweredbyx3"> 
-</a>
-<a href="https://www.latex-project.org">
-<img src="{{ '/assets/images/LaTeX logo.png' | prepend: site.baseurl }}" alt="LaTeX" class= "poweredbyx5">  
-</a>
-<a href="https://www.python.org">
-<img src="{{ '/assets/images/Python logo.png' | prepend: site.baseurl }}" alt="Python" class= "poweredbyx6">
-</a>
-<a href="https://www.r-project.org">
-<img src="{{ '/assets/images/Rlogo.png' | prepend: site.baseurl }}" alt="R" class= "poweredbyx4">
-</a>
-<a href="https://www.gnu.org/software/bash/">
-<img src="{{ '/assets/images/Bash shell logo.png' | prepend: site.baseurl }}" alt="Bash" class= "poweredbyx7">
+{% include global/licence.html %}
+</div>
+<div class="col-md-2">
+{% for item in footer-side %}
+<p>
+<a href="{{ item.link | prepend: site.baseurl }}">
+{{ item.name }}
 </a>
 </p>
+{% endfor %}
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-10">
+<H5>Powered by</h5>
+{% include global/powered-by.html %}
+</div>
+<div class="col-md-2">
+<H5>Follow us</h5>
+{% for item in social-side %}
+<div class="row">
+<div class="col">
+<a href="{{ item.link | prepend: site.baseurl }}">
+<img src="{{ item.icon | prepend: site.baseurl }}" alt="{{ item.name }}" class="social-icon">
+</a>
+</div>
+</div>
+{% endfor %}
+</div>
+</div>
+
 <div class="mycontainer">
 <div class="row justify-content-start">
 <div class="col">
