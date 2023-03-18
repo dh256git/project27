@@ -145,7 +145,7 @@ nav a { color: black; }
 
 .blog-cover { width: 200px; justify-content: center; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; }
 
-.social-icon { width: 100%; height: auto; }
+.social-icon { width: 25%; height: 100%; }
 
 .feature-feed { padding: 5%; display: block; justify-content: center; grid-auto-flow: row; height: auto; }
 
@@ -2594,6 +2594,8 @@ html * ol { text-align: left; }
 html * ul { text-align: left; }
 
 html * li { text-align: left; }
+
+html * dl { text-align: left; }
 
 html * h1 { font-size: 2.5em; color: #000; font-family: Charter; }
 
