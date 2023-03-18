@@ -19,7 +19,7 @@ We do this through peer support, personalised opportunities for learning, creati
 
 {% include global/cover-image.html image="founders-cover.jpg" alt="Daniel and Danielle are photographed in the UK Parliament. They are wearing smart clothing. A guide dog is sitting in front of them. In the background multiple signs are visible, such as logos of University College London, World Health Organisation, and GDI Hub. Other signs read 'AT changes lives' and 'Launching the Global Report on Assistive Technology'." %}
 
-{{ site.brand }} is developed by a couple - [Daniel]({% link about/team/Daniel/index.html %}) and [Danielle]({% link about/team/Daniel/index.html %}).
+{{ site.brand }} is developed by a couple - [Daniel]({% link about/team/Daniel/index.html %}) and [Danielle]({% link about/team/Danielle/index.html %}).
 We draw on our lived experiences and professional skills.
 Daniel is a scientifically-minded blind person, with an interest in social entrepreneurship.
 Danielle is a sociable learning disabled person, with an interest in art, media, gaming, and self-advocacy.

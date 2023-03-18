@@ -36,7 +36,7 @@ As a transition from my undergraduate to PhD studentship, in my master year I fo
 
 #### 2. PhD in Informatics at the SCHI Lab
 
-Between 2017 and 2021 I have completed a PhD in Informatics, under the supervision of [Prof marianna Obrist](https://uclic.ucl.ac.uk/people/marianna-obrist) at the [Sussex Computer-Human Interaction (SCHI) laboratory.](https://www.sussex.ac.uk/schi/) My thesis discussed ultrasonic mid-air haptics in context of science communication. The research was funded by Ultraleap Limited.
+Between 2017 and 2021 I have completed a PhD in Informatics, under the supervision of [Prof Marianna Obrist](https://uclic.ucl.ac.uk/people/marianna-obrist) at the [Sussex Computer-Human Interaction (SCHI) laboratory.](https://www.sussex.ac.uk/schi/) My thesis discussed ultrasonic mid-air haptics in context of science communication. The research was funded by Ultraleap Limited.
 
 #### 3. Research collaboration with the MIT Visualisation Group
 

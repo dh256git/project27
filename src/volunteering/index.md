@@ -17,24 +17,24 @@ backgroundStyle: bg-general-vol
 
 ## {{ page.title }}: {{ page.tagline }}
 
-Get involved!
-Volunteer to work with the {{ site.brand }} team, and learn through hands-on tasks.
-By doing so, you will also teach those who want to learn, but are not yet ready to roll their sleeves up.
+Get involved and become a part of our community.
+You can contribute as a [volunteer,](#apply-to-volunteer-top) or as a [member,](#membership) and [develop your skills]({% link about/skills.md %}) through hands-on tasks.
 
 {% include global/cover-image.html image="volunteering-cover.jpg" alt="A drawn tree, with handprints as leaves on the branches." %}
 
-<a id="apply-to-volunteer-top" class="{{ page.buttonStyle }}" aria-disabled="false" href="{{ '/volunteering/become-a-volunteer.html' | prepend: site.baseurl }}">BECOME A VOLUNTEER</a>
+## Why should I contribute?
 
----
-{% include spotlight.html %}
----
-
-## Why would I volunteer to contribute to {{ site.brand }}?
-
-Volunteer for two main reasons:
+{{ site.brand }} is built by its community.
+Here is why you should become a part of it:
 
 1. We need your help. We are not experts or professionals in everything that's needed to keep {{ site.brand }} up and running. There is a lot to do, so a helpful hand is always appreciated.
-2. Do it for yourself. We can guarantee, you will learn something new and useful. Benefits include:
+2. Do it for yourself. We can guarantee, you will learn something new and useful.
+
+<a id="apply-to-volunteer-top" class="{{ page.buttonStyle }}" aria-disabled="false" href="{{ '/volunteering/become-a-volunteer.html' | prepend: site.baseurl }}">Become a volunteer</a>
+
+### What are the benefits of becoming a volunteer?
+
+There are benefits of volunteering in our community, even if you don't want to become a member.
 
 <ol>
 <li>
@@ -78,9 +78,16 @@ Then you'll also get the rewards on <a href="/about/team/index.html">our team pa
 </li>
 </ol>
 
+### When can I become a volunteer?
+
+Applications open on the 1st of October, 2023.
+You can submit an application anytime after this date.
+
+Volunteer registration will open with the launch of version 1.0 of the {{ site.brand }} site, on the 31st of January, 2024.
+
 ---
 
-## How much time should you commit?
+## How much time should I commit?
 
 The level of engagement is flexible. You may
 
@@ -88,116 +95,125 @@ The level of engagement is flexible. You may
 + continue working on multiple challenges, whenever you find time, even if only a couple hours in a month.
 + get hooked, and if you have nothing better to do, treat it as a part time role.
 
-### Certified pathways of volunteering
+### Certified pathways of volunteering {#certification}
 
 We are committed to certifying your contributions. Currently, we offer the following achievements:
 
-+ Trainee: after successful completion of 4 tasks (~16 hours of commitment);
-+ Apprentice: after successful completion of 16 tasks (~16 hours of regular commitment per week, for one month);
-+ Intern: after successful completion of 48 tasks (~16 hours of regular commitment per week, for three months);
-+ Active volunteer: after successful completion of 100 tasks (~8 hours of regular commitment per week, for one year)
+Trainee
+: after successful completion of 4 tasks (~16 hours of commitment);
 
-Active volunteers will be considered for part-time employment at {{ site.brand }} or one of our partners; subject to funding and the legal constitution of the {{ site.brand }} community interest company in 2024.
+Apprentice
+: after successful completion of 16 tasks (~16 hours of regular commitment per week, for one month);
 
-## What happens after I apply to volunteer?
+Intern
+: after successful completion of 48 tasks (~16 hours of regular commitment per week, for three months);
 
-We follow a three step process to ensure you have a great experience of joining the team.
+Active member
+: after successful completion of 100 tasks (~8 hours of regular commitment per week, for one year)
 
-1. Introduction: We organise a virtual meeting with you to make introductions, understand your interests, and discuss the tasks you would like to help with.
-2. Onboarding: During your first week, we ask you to complete our onboarding workflow, which involves reading through our 'getting started' package, a 30 minute virtual meeting to get you familiar with our systems, and another 30 minute to set you up on your first task.
-3. Supervision: During the first month with us, we offer two hours of [supervision support]({% link support/pricing.md %}), to make sure you can give us feedback, ask questions, and to help you combat initial difficulties.
+Active members will be considered for part-time employment at {{ site.brand }} or one of our partners; subject to funding and the legal constitution of the {{ site.brand }} business entity.
 
 ---
 
-## Volunteering opportunities
+## What can I work on?
 
-We do it all.
+Browse our activity catalogue, and get involved.
+Select a team, before viewing a list of available activities.
+The activity pages provide an overview of what's expected, as well as a list of very specific tasks to choose from.
+
+{% assign community-teams = site.data.volunteering.community %}
+<div class="row">
+<div class="col-3">
+<p>Team:</p>
+</div>
+<div class="col-3">
+<select onchange="handleChange(this)">
+{% for item in community-teams %}
+<option value="{{ item.value | prepend: site.baseurl }}" label="{{ item.label }}">{{ item.text }}</option>
+{% endfor %}
+</select>
+</div>
+<div class="col-6">
+<a data-toggle="collapse" href="#how-it-works" aria-expanded="false" aria-controls="how-it-works">How does it work?</a>
+</div>
+</div>
+
+<div class="collapse" id="how-it-works">
+<h3>How does it work?</h3>
+
+At the moment, we do it all.
 And we can't wait to find people who do some of our tasks much better than we do.
+That's how {{ site.brand }} grows.
+That's also how we build a community of peer support.
+
 We don't have roles, we work on tasks.
-As such, we adopted [Apple's Directly Responsible Individual (DRI) way of working.](https://mentorphile.com/2019/03/05/fostering-apples-culture-of-accountability-the-dri/)
+As such, we adopted <a href="https://mentorphile.com/2019/03/05/fostering-apples-culture-of-accountability-the-dri/">Apple's Directly Responsible Individual (DRI) way of working.</a>
 Everyone in the team is directly responsible for the task assigned to them.
 
-Still interested in volunteering?
-We are ready to delegate.
-The following tasks are waiting for you to take.
+Some tasks are permanent, just like washing up is.
+Other tasks may disappear once they are done, just like you would post a letter only once.
+When you become a volunteer, you can bid on tasks, using an internal system.
+The rest is history.
+</div>
 
-### Research and Development team
+<div class="iframe-container">
+<iframe src="{{ '/volunteering/research-and-development/index.html' | prepend: site.baseurl }}" title="Research and Development" id="iframe-id" class="responsive-iframe"></iframe>
+</div>
 
-Join the Research and Development (R&D) team.
-There are {{ teamRnD | size }} available tasks.
-The R&D team members help with the research and development activities of {{ site.brand }}, such as website development or researching solutions to ongoing challenges in the project.
-
-{% for member in teamRnD %}
-<h4>{{ member.task }}</h4>
-
-<p>{{ member.excerpt }}</p>
-
-<a href="{{ member.url | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">View details: {{ member.task }}</a>
-{% else %}
-<p>Currently no roles are available in this team.</p>
-{% endfor %}
-
-### Content team
-
-{% assign taskCountContent = teamContent | size %}
-Join the Content team.
-{% case taskCountContent %}
-{% when 1 %}There is {{ taskCountContent }} available task.
-{% else %}There are {{ taskCountContent }} available tasks.
-{% endcase %}
-The Content team helps with authoring new notes for {{ site.product }}.
-
-{% for member in teamContent %}
-<h4>{{ member.task }}</h4>
-
-<p>{{ member.excerpt }}</p>
-
-<a href="{{ member.url | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">View details: {{ member.task }}</a>
-{% else %}
-<p>Currently no roles are available in this team.</p>
-{% endfor %}
-
-### Editorial and review team
-
-Join the Editorial and Review team.
-There are {{ teamER | size }} available tasks.
-The team of editors and reviewers help us make sure content is relevant and a high quality.
-
-{% for member in teamER %}
-<h4>{{ member.task }}</h4>
-
-<p>{{ member.excerpt }}</p>
-
-<a href="{{ member.url | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">View details: {{ member.task }}</a>
-{% else %}
-<p>Currently no roles are available in this team.</p>
-{% endfor %}
-
-### Management team
-
-Join the management team.
- We need to plan the future, while coordinating our work in the present.
-There are {{ teamLeadership | size }} available tasks.
-Members of the management team help with business activities and other key tasks.
-Managers lead by example, supporting volunteers of other teams.
-Team members can break down  their tasks, and recruit new members to work on these smaller tasks.
-By doing so, they can also create new, senior leadership roles in the C-suite of {{ site.brand }} for themselves.
-
-{% for member in teamLeadership %}
-<h4>{{ member.task }}</h4>
-
-<p>{{ member.excerpt }}</p>
-
-<a href="{{ member.url | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">View details: {{ member.task }}</a>
-{% else %}
-<p>Currently no roles are available in this team.</p>
-{% endfor %}
+{% include spotlight.html %}
 
 ---
 
-## Become a {{ site.brand }} volunteer
+## Membership at {{ site.brand }} {#membership}
 
-Are you interested in contributing to {{ site.brand }} and becoming a volunteer?
-Please, express your interest by using the button below.
 
-<a id="apply-to-volunteer-bottom" class="{{ page.buttonStyle }}" aria-disabled="false" href="{{ '/volunteering/become-a-volunteer.html' | prepend: site.baseurl }}">BECOME A VOLUNTEER</a>
+We plan to open a membership application on 1st of January, 2024.
+Members will access additional benefits, based on a subscription.
+
+
+### What are the benefits of becoming a member?
+
+There are multiple benefits to becoming a member. For example, you will
+
+* get 1 credit of [supervision support]({% link support/pricing.md %}) per month;
+* get [certifications](#certification) of your contributions;
+* be able to join more than 1 team;
+* be able to contribute an unlimited number of tasks;
+* get access to exclusive content on the {{ site.brand }} {{ site.product }};
+* get access to collectable badges to display on your profile;
+* get discounts on our community events.
+
+### When can I become a member?
+
+Please, express your interest in becoming a member, by using the button below.
+The launch date of membership registration may change depending on your interest.
+
+We plan to open membership registration with the launch of version 2.0 of the {{ site.brand }} site, on the 31st of January, 2025.
+
+<a id="apply-to-volunteer-bottom" class="{{ page.buttonStyle }}" aria-disabled="false" href="{{ '/volunteering/become-a-volunteer.html' | prepend: site.baseurl }}">I'd like to become A member</a>
+
+### How much does membership cost?
+
+Membership is priced slightly differently, depending on the subscription you select.
+
+* paid monthly: £24.99 a month,
+* paid yearly: £239.90 a year (£19.99 a month).
+
+---
+
+## What happens after I apply?
+
+Whether you join our community as a volunteer, or as a member, we will set you up for success.
+We follow a three step process to ensure you have a great experience of joining the team.
+
+Introduction
+: We organise a 30 minute long virtual meeting with you to make introductions, understand your interests, and discuss the tasks you would like to help with.
+
+On-boarding
+: During your first week, we ask you to complete our on-boarding workflow, which involves reading through our 'getting started' package.
+: A 30 minute long virtual meeting, to get you familiar with our systems.
+: A second 30 minute long virtual meeting, to set you up on your first task.
+
+Supervision
+: During the first month with us, we offer a [free supervision session]({% link support/pricing.md %}), to make sure you can give us feedback, ask questions, and to help you combat initial difficulties.
+: Supervision is optional and flexible. You can choose to take the full hour, take two 30 minute long sessions, or not use it at all.

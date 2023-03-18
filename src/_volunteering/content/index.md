@@ -1,6 +1,5 @@
 ---
-layout: default
-title: Volunteering
+title: Content
 author: Daniel Hajas
 reviewer: Danielle Garratt
 date: 2020-10-02
@@ -13,18 +12,25 @@ backgroundStyle: bg-general-vol
 {% assign teamER = site.volunteering | where:"team","ER" %}
 {% assign teamCC = site.volunteering | where:"team","CC" %}
 
-### Content Creation team
+### Content team
 
-Join the Content Creation team.
-There are {{ teamCC | size }} available tasks.
-The Content Creation team helps with authoring new notes for {{ site.product }}.
+Join the Content team.
+The Content team helps with authoring new notes for {{ site.product }}.
 
-{% for member in teamCC %}
+### Activity list
+
+{% assign taskCountContent = teamContent | size %}
+{% case taskCountContent %}
+{% when 1 %}There is {{ taskCountContent }} available activity.
+{% else %}There are {{ taskCountContent }} available activities.
+{% endcase %}
+
+{% for member in teamContent %}
 <h4>{{ member.task }}</h4>
 
 <p>{{ member.excerpt }}</p>
 
-<a href="{{ member.url | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">View task details</a>
+<a target="_blank" rel="noreferrer noopener" href="{{ member.url | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">{{ member.task }}: View tasks and the activity description</a>
 {% else %}
-<p>Currently no roles are available in this team.</p>
+<p>Currently no activities are available in this team.</p>
 {% endfor %}
