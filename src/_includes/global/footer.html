@@ -3,25 +3,14 @@
 
 <div class="row">
 <div class="col-md-10">
-{% include global/navigation-footer.html %}
-
+<div class="row">
+<div class="col-md-6">
 {% include global/licence.html %}
 </div>
-<div class="col-md-2">
-{% for item in footer-side %}
-<p>
-<a href="{{ item.link | prepend: site.baseurl }}">
-{{ item.name }}
-</a>
-</p>
-{% endfor %}
+<div class="col-md-6">
+{% include global/navigation-footer.html %}
 </div>
 </div>
-
-<div class="row">
-<div class="col-md-10">
-<H5>Powered by</h5>
-{% include global/powered-by.html %}
 </div>
 <div class="col-md-2">
 <H5>Follow us</h5>
@@ -33,6 +22,23 @@
 </a>
 </div>
 </div>
+{% endfor %}
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-10">
+<H5>Powered by</h5>
+{% include global/powered-by.html %}
+</div>
+<div class="col-md-2">
+<hr>
+{% for item in footer-side %}
+<p>
+<a href="{{ item.link | prepend: site.baseurl }}">
+{{ item.name }}
+</a>
+</p>
 {% endfor %}
 </div>
 </div>
