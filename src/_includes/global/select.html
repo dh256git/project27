@@ -1,24 +1,15 @@
-<div class="row" id="quickLinks">
-<div class="col-md">
-{% include global/global-selector.html %}
-</div>
-</div>
-
 {% if page.url contains "/blog/" or page.url contains "/guide/" %}
 <div class="row">
-<div class="col-md-6">
+<div class="col-md-3">
 {% include global/volume-selector.html %}
 </div>
-<div class="col-md-6">
+<div class="col-md-3">
 {% include global/chapter-selector.html %}
 </div>
-</div>
-
-<div class="row">
-<div class="col-md-6">
+<div class="col-md-3">
 {% include global/section-selector.html %}
 </div>
-<div class="col-md-6">
+<div class="col-md-3">
 {% include global/note-selector.html %}
 </div>
 </div>
