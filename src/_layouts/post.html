@@ -4,7 +4,7 @@ layout: default
 
   <div class="row">
     <div class="col-md-8">
-      {% if page.layout == "post" or page.layout == "recipes" %}
+      {% if page.layout == "post" or page.layout == "recipes" or page.layout == "recipe-card" %}
   {% include blog/pagination-by-tag.html %}
   {% elsif page.branch == "LogBook" or page.branch == "Twist" %}
         {% include blog/branch-and-featured.html %}
@@ -35,6 +35,10 @@ layout: default
   </div><!-- /.blog-main -->
 
     <aside class="col-md-4 blog-sidebar">
-{% include blog/categories.html %}
+{% if page.url contains "blog/" %}
+{% include blog/sidebar.html %}
+{% elsif page.url contains "guide/" %}
+{% include guide/sidebar.html %}
+{% endif %}
     </aside><!-- /.blog-sidebar -->
       </div><!-- /.row -->
