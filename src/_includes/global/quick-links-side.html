@@ -5,14 +5,16 @@
 <div class="row">
 <div class="col">
   {% for item in site.data.quick-links-side["about"] %}
-<a class="dropdown-item" href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+  <div class="mybtnquick">
+  <a href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+  </div>
   {% endfor %}
   </div>
   </div>
 <div class="row">
 <div class="col">
 <div class="dropdown bg-my-nav">
-<button type="button" class="mybtn" data-toggle="collapse" data-target="#products" aria-haspopup="true">Products & Services</button>
+<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#products" aria-haspopup="true">Products & Services</button>
         <div class="dropdown-menu" id="products">
     {% for item in site.data.quick-links-side["productsAndServices"] %}
           <a class="dropdown-item" href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
@@ -20,7 +22,7 @@
   </div>
 </div>
 <div class="dropdown bg-my-nav">
-<button type="button" class="mybtn" data-toggle="collapse" data-target="#media" aria-haspopup="true">Media</button>
+<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#media" aria-haspopup="true">Media</button>
         <div class="dropdown-menu" id="media">
   {% for item in site.data.quick-links-side["media"] %}
           <a class="dropdown-item" href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
@@ -28,7 +30,7 @@
 </div>
 </div>
 <div class="dropdown bg-my-nav">
-<button type="button" class="mybtn" data-toggle="collapse" data-target="#development" aria-haspopup="true">Development</button>
+<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#development" aria-haspopup="true">Development</button>
         <div class="dropdown-menu" id="development">
     {% for item in site.data.quick-links-side["development"] %}
 {% if item.link contains "github.com" %}

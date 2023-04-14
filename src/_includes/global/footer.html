@@ -12,10 +12,11 @@
 </div>
 </div>
 <div class="row">
-<H5>Follow us</h5>
+<div class="col">
+<h5>Follow us</h5>
 {% for item in social-side %}
 <div class="col">
-<a href="{{ item.link | prepend: site.baseurl }}">
+    <a href="{{ item.link | prepend: site.baseurl }}">
 <img src="{{ item.icon | prepend: site.baseurl }}" alt="{{ item.name }}" class="social-icon">
 </a>
 </div>
@@ -29,7 +30,7 @@
 
 <div class="row">
 <div class="col-md-10">
-<H5>Powered by</h5>
+<h5>Powered by</h5>
 {% include global/powered-by.html %}
 </div>
 <div class="col-md-2">
@@ -54,7 +55,7 @@
 </div>
 <div class="row justify-content-end">
 <div class="col">
-<p>Last updated: {{ site.time | date_to_rfc822 | date: "%d %b %Y at %H:%M" }}.</p>
+<p>Last updated:  </blockquote> {{ site.time | date_to_rfc822 | date: "%d %b %Y at %H:%M" }}.</p>
 </div>
 </div>
 </div>
