@@ -22,24 +22,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
-<!-- Google Tag -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ET7GNZ55YP"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-ET7GNZ55YP');
-</script>
-
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PPHS22H');</script>
-<!-- End Google Tag Manager -->
-
   </head>
   <body>
 <!-- Google Tag Manager (noscript) -->
@@ -48,31 +30,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column bg-background">
-
-<div class="bg-background">
+  <header class="bg-background">
 <div class="row">
-<div class="col-md-6">
+<div class="col-md-6" id="skip">
 <a class="d-flex justify-content-center" href="#mainContent">Skip to main content</a>
 </div>
-<div class="col-md-6">
+<div class="col-md-6" id="skip">
 <a class="d-flex justify-content-center" href="#footerContent">Skip to footer</a>
 </div>
 </div>
 
-  <header>
-      <span class="masthead-brand">
-<a href="/index.html" class=navbar-brand">
+<div class="row">
+<div class="col-md-10">
+<div class="row">
+<div class="col-md-8">
+      <div class="masthead-brand">
+<a href="/index.html" class="navbar-brand">
       <img src="/assets/images/Project27 logo.png" alt="Project 27 logo" class="logo" width="90em">
       </a>
       Skills that matter
-      </span>
-
-      <nav class="navbar navbar-expand-md navbar-dark bg-nav-header" tabindex="0" aria-label="Primary">
-  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+      </div>
+</div>
+<div class="col-md-4">
+<div class="navbar navbar-expand-md bg-nav-header">
+  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle global navigation">
+    <span class="fa-solid fa-bars"></span>
   </button>
         <div class="collapse navbar-collapse" id="primaryNavigation">
-<ul class="navbar-nav ml-auto" role="menubar">
+      <nav class="navbar-dark" tabindex="0" aria-label="Global">
+<ul class="navbar-nav" role="menubar">
   
   <li>
     <a href="/blog/index.html">Blog</a>
@@ -91,13 +77,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </li>
   
   </ul>
+  </nav>
 </div>
-</nav>
-  </header>
 </div>
-
-  <main role="main" id="mainContent" class="container bg-background">
-
+</div>
+</div>
+<div class="row">
+<div class="col">
 <div class="row bg-guide-chap">
 <div class="col-md-6">
 
@@ -120,51 +106,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </div>
 
-  
 </div>
-<div class="col-md-3">
+<div class="col-md-6">
   <button href="#quickLinks" type="button" class="d-lg-none mysecondarybtn" data-toggle="collapse" data-target="#selector" aria-controls="selector" aria-expanded="false" aria-label="Quick links">
     <span><i class="fas fa-bookmark fa-lg" aria-hidden="false"></i></span>
   </button>
 <div class="collapse d-lg-block" id="selector">
-<div class="row" id="quickLinks">
-<div class="col-md">
-<div class="dropdown bg-my-nav">
-<button type="button" class="mybtn" data-toggle="collapse" data-target="#global-selector" aria-haspopup="true">Quick links</button>
-        <div class="dropdown-menu" id="global-selector">
-  
-          <a class="dropdown-item" href= "/about/index.html" >What we do</a>
-  
-          <a class="dropdown-item" href= "/about/team/index.html" >Who we are</a>
-  
-          <a class="dropdown-item" href= "/contact/index.html" >Contact us and FAQs</a>
-  
-          <a class="dropdown-item" href= "/volunteering/become-a-volunteer.html" >Become a volunteer</a>
-  
-          <a class="dropdown-item" href= "/support/index.html" >Book a support session</a>
-  
-          <a class="dropdown-item" href= "/support/pricing.html" >Pricing</a>
-  
-          <a class="dropdown-item" href= "/about/news.html" >News</a>
-  
-          <a class="dropdown-item" href= "/blog/all-posts.html" >Latest posts</a>
-  
-          <a class="dropdown-item" href= "/blog/logbook/dev/change-log.html" >Roadmap</a>
-  
-          <a class="dropdown-item" href= "/blog/logbook/issues/2020/06/05/initialise.html" >Issue tracking</a>
-  
-          <a class="dropdown-item" href= "https://github.com/dh256git/project27" >Git Hub</a>
-  
-</div>
-</div>
-</div>
-</div>
-
 
 <div class="row">
-<div class="col-md-6">
+<div class="col-md-3">
 <div class="dropdown bg-my-nav">
-<button type="button" class="mybtn" data-toggle="collapse" data-target="#volume-selector" aria-haspopup="true">Volume</button>
+<button type="button" class="Read-More" data-toggle="collapse" data-target="#volume-selector" aria-haspopup="true">Volume</button>
         <div class="dropdown-menu" id="volume-selector">
   
   
@@ -187,9 +139,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 </div>
-<div class="col-md-6">
+<div class="col-md-3">
 <div class="dropdown bg-my-nav">
-<button type="button" class="mybtn" data-toggle="collapse" data-target="#chapter-selector" aria-haspopup="true">Chapter</button>
+<button type="button" class="Read-More" data-toggle="collapse" data-target="#chapter-selector" aria-haspopup="true">Chapter</button>
         <div class="dropdown-menu" id="chapter-selector">
   
   
@@ -213,12 +165,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 </div>
-</div>
-
-<div class="row">
-<div class="col-md-6">
+<div class="col-md-3">
 <div class="dropdown bg-my-nav">
-<button type="button" class="mybtn" data-toggle="collapse" data-target="#section-selector" aria-haspopup="true">Section</button>
+<button type="button" class="Read-More" data-toggle="collapse" data-target="#section-selector" aria-haspopup="true">Section</button>
         <div class="dropdown-menu" id="section-selector">
   
   <p>Please open a volume and a chapter, before you are able to select a section. It may also be that this chapter has not been divided into sections.</p>
@@ -227,9 +176,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 </div>
-<div class="col-md-6">
+<div class="col-md-3">
 <div class="dropdown bg-my-nav">
-<button type="button" class="mybtn" data-toggle="collapse" data-target="#note-selector" aria-haspopup="true">Note</button>
+<button type="button" class="Read-More" data-toggle="collapse" data-target="#note-selector" aria-haspopup="true">Note</button>
         <div class="dropdown-menu" id="note-selector">
   
   <p>Please select a section before selecting a note.</p>
@@ -241,42 +190,120 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </div>
 </div>
-<div class="col-md-3">
-  <button type="button" class="mysecondarybtn" data-toggle="collapse" data-target="#meta-info" aria-controls="meta-info" aria-expanded="false" aria-label="Page information">
-    <span><i class="fa fa-info-circle fa-lg" aria-hidden="false"></i></span>
-  </button>
-<div class="blog-post-meta collapse" id="meta-info">
-<p class="reading-time">Estimated time to read: 
-  
-  
-    1 min
-  
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col">
+<div class="announcement">
+<p>
+    📣 This area of the website is a 
+<a target="_blank" rel="noreferrer noopener" href="https://en.wikipedia.org/wiki/Software_release_life_cycle">
+beta version.
+</a>
 </p>
-
-<p>Written by: Daniel Hajas</p>
-
-
-<p>Reviewed by: To be assigned. <a href="/guidelines/review.html">Read our guidelines on reviews.</a></p>
-
-
-<p>Published on: 01 Jan 2021</p>
-
-
-<p>Revised on: 01 Jan 2023</p>
-
-
-<p>Revision due: 01 Jan 2024</p>
-
 </div>
 </div>
 </div>
+</div>
+<div class="col-md-2">
+  <button href="#sidebar" type="button" class="d-lg-none mysecondarybtn" data-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle sidebar">
+    <span><i class="fas fa-bookmark fa-lg" aria-hidden="false"></i></span>
+  </button>
+<div class="collapse d-lg-block bg-background" id="sidebar" aria-label="sidebar navigation">
+<div class="row">
+<div class="col">
+  
+  <div class="mybtnquick">
+  <a href= "/about/index.html" >What we do</a>
+  </div>
+  
+  <div class="mybtnquick">
+  <a href= "/about/team/index.html" >Who we are</a>
+  </div>
+  
+  <div class="mybtnquick">
+  <a href= "/contact/index.html" >Contact us and FAQs</a>
+  </div>
+  
+  </div>
+  </div>
+<div class="row">
+<div class="col">
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#products" aria-haspopup="true">Products & Services</button>
+        <div class="dropdown-menu" id="products">
+    
+          <a class="dropdown-item" href= "/volunteering/become-a-volunteer.html" >Become a volunteer</a>
+  
+          <a class="dropdown-item" href= "/support/index.html" >Book a support session</a>
+  
+          <a class="dropdown-item" href= "/support/pricing.html" >Pricing</a>
+  
+  </div>
+</div>
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#media" aria-haspopup="true">Media</button>
+        <div class="dropdown-menu" id="media">
+  
+          <a class="dropdown-item" href= "/about/news.html" >News</a>
+  
+          <a class="dropdown-item" href= "/blog/all-posts.html" >Latest posts</a>
+  
+</div>
+</div>
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#development" aria-haspopup="true">Development</button>
+        <div class="dropdown-menu" id="development">
+    
+
+                    <a class="dropdown-item" href= "/blog/logbook/dev/change-log.html" >Roadmap</a>
+                    
+  
+
+                    <a class="dropdown-item" href= "/blog/logbook/issues/2020/06/05/initialise.html" >Issue tracking</a>
+                    
+  
+
+          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "https://github.com/dh256git/project27" >Git Hub</a>
+          
+  
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </header>
+
+  <main role="main" id="mainContent" class="container bg-background">
  <h1 id="chapter-on-gitbash">Chapter on gitbash</h1>
 
   </main>
 
 <footer id="footerContent" class="bg-guide-chap">
+
+
+
+<div class="row">
+<div class="col-md-10">
+<div class="row">
+<div class="col-md-8">
+
+<div class="row">
+<div class="col-md-2">
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="margin: 10px" src="/assets/images/CC-88x31.png"/></a>
+</div>
+<div class="col-md-10">
+Except where otherwise noted, articles of the <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Project27 Guide</span> are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License.</a>
+</div>
+</div>
+
+</div>
+<div class="col-md-4">
       <nav class="navbar navbar-expand-md navbar-dark bg-nav-footer" tabindex="0" aria-label="Footer">
-<ul class="navbar-nav ml-auto" role="menubar">
+<ul class="navbar-nav" role="menubar">
   
   <li>
     <a href="/about/index.html">About</a>
@@ -296,48 +323,118 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
   </ul>
 </nav>
+</div>
+</div>
+<div class="row">
+<div class="col">
+<h5>Follow us</h5>
 
+<div class="col">
+    <a href="https://www.twitter.com/project27skills/">
+<img src="/assets/images/icons/twitter.png" alt="Twitter icon" class="social-icon">
+</a>
+</div>
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="margin: 10px" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />Except where otherwise noted, articles of the <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Project27 Guide</span> are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License.</a>
+<div class="col">
+    <a href="/404.html">
+<img src="/assets/images/icons/mastodon.jpg" alt="Mastodon icon" class="social-icon">
+</a>
+</div>
 
+<div class="col">
+    <a href="/404.html">
+<img src="/assets/images/icons/linkedin.png" alt="LinkedIn icon" class="social-icon">
+</a>
+</div>
 
-<p>Powered by: 
+<div class="col">
+    <a href="/404.html">
+<img src="/assets/images/icons/youtube.jpg" alt="YouTube icon" class="social-icon">
+</a>
+</div>
+
+</div>
+</div>
+<div class="col-md-2">
+
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-10">
+<h5>Powered by</h5>
+<div class="row">
+<div class="col-md-3">
 <a href="https://github.com">
-<img src="/assets/images/Github logo.png" alt="Github" class= "poweredby">
+<img src="/assets/images/Github logo.png" alt="Github" class= "powered-by-new">
 </a>
+</div>
+<div class="col-md-3">
 <a href="https://jekyllrb.com">
-<img src="/assets/images/Jekyll logo.png" alt="Jekyll" class= "poweredbyx2">     
+<img src="/assets/images/Jekyll logo.png" alt="Jekyll" class= "powered-by-new">     
 </a>
+</div>
+<div class="col-md-3">
 <a href="https://getbootstrap.com">
-<img src="/assets/images/Bootstrap logo.png" alt="Bootstrap" class= "poweredby">  
+<img src="/assets/images/Bootstrap logo.png" alt="Bootstrap" class= "powered-by-new">  
 </a>
+</div>
+<div class="col-md-3">
 <a href="https://www.markdownguide.org">
-<img src="/assets/images/Markdown logo.png" alt="Markdown" class= "poweredbyx3"> 
+<img src="/assets/images/Markdown logo.png" alt="Markdown" class= "powered-by-new"> 
 </a>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
 <a href="https://www.latex-project.org">
-<img src="/assets/images/LaTeX logo.png" alt="LaTeX" class= "poweredbyx5">  
+<img src="/assets/images/LaTeX logo.png" alt="LaTeX" class= "powered-by-new">  
 </a>
+</div>
+<div class="col-md-3">
 <a href="https://www.python.org">
-<img src="/assets/images/Python logo.png" alt="Python" class= "poweredbyx6">
+<img src="/assets/images/Python logo.png" alt="Python" class= "powered-by-new">
 </a>
+</div>
+<div class="col-md-3">
 <a href="https://www.r-project.org">
-<img src="/assets/images/Rlogo.png" alt="R" class= "poweredbyx4">
+<img src="/assets/images/Rlogo.png" alt="R" class= "powered-by-new">
 </a>
+</div>
+<div class="col-md-3">
 <a href="https://www.gnu.org/software/bash/">
-<img src="/assets/images/Bash shell logo.png" alt="Bash" class= "poweredbyx7">
+<img src="/assets/images/Bash shell logo.png" alt="Bash" class= "powered-by-new">
+</a>
+</div>
+</div>
+</div>
+<div class="col-md-2">
+<hr>
+
+<p>
+<a href="/about/terms-of-use.html">
+Terms of use
 </a>
 </p>
-<div class="mycontainer">
-<div class="row justify-content-start">
-<div class="col">
+
+<p>
+<a href="/contact/terms-of-service.html">
+Terms of service
+</a>
+</p>
+
+<p>
+<a href="/legal/privacy.html">
+Privacy policy
+</a>
+</p>
+
 <p><a href="/blog/logbook/dev/change-log.html">Version: 0.2.282.</a></p>
-</div>
-<div class="row justify-content-end">
-<div class="col">
-<p>Last updated: 18 Mar 2023 at 20:06.</p>
+<p>Last updated: 23 Apr 2023 at 21:15.</p>
 </div>
 </div>
-</div>
+
+
 </footer>
 </div>
 <!-- Bootstrap dependency scripts -->

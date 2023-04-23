@@ -27,7 +27,7 @@
 
 .bg-nav-header { background: #D3D3D3; border-radius: 12px; }
 
-.bg-nav-footer { padding-left: 5px; background: #D3D3D3; text-align: center; border-radius: 12px; }
+.bg-nav-footer { background: #D3D3D3; border-radius: 12px; }
 
 .bg-background { background: #F8F5E9; }
 
@@ -91,7 +91,7 @@
 
 .mybtnvocal { background-color: #7ED27E; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.mysecondarybtn { background-color: #D3D3D3; border: solid black 3px; font-weight: bold; margin-top: 30px; border-radius: 12px; position: sticky; display: inline-block; overflow: hiddens; font-weight: bold; }
+.mysecondarybtn { background-color: #ff0101; border: solid black 3px; font-weight: bold; margin-top: 30px; border-radius: 12px; position: sticky; display: inline-block; overflow: hiddens; font-weight: bold; }
 
 .Read-More { background-color: #D3D3D3; border: solid black 3px; font-weight: bold; margin-top: 20px; margin-bottom: 20px; border-radius: 12px; position: sticky; display: inline-block; overflow: hiddens; font-weight: bold; }
 
@@ -107,9 +107,19 @@
 
 .volume-selector { width: 100%; overflow: unset; text-overflow: inherit; position: absolute; text-indent: unset; display: inline-block; vertical-align: middle; }
 
+.mybtnswitch { background-color: #D3D3D3; border: solid black 3px; font-weight: bold; margin-top: 5%; margin-bottom: 5%; border-radius: 22%; position: sticky; display: inline-block; overflow: hiddens; }
+
+.dropdown-item { background-color: #D3D3D3; border: solid black 3px; font-weight: bold; margin-left: 0%; margin-top: 5%; margin-bottom: 5%; border-radius: 22%; position: sticky; display: inline-block; overflow: hidden; font-weight: bold; }
+
+.mybtnquick { background-color: #D3D3D3; border: solid black 3px; font-weight: bold; margin-top: 5%; margin-bottom: 5%; border-radius: 20%; position: sticky; display: inline-block; overflow: hidden; }
+
+.mybtnquick a { color: black; }
+
+.mybtnquick a:hover { color: #0000EE; }
+
 a.disabled { /* Make the disabled links grayish*/ color: #a7a4a4; opacity: 30%; /* And disable the pointer events */ pointer-events: none; }
 
-nav li { display: list-item; margin-right: 20px; font-weight: bold; }
+nav li { display: list-item; padding-right: 5%; font-weight: bold; }
 
 nav a { color: black; }
 
@@ -117,21 +127,13 @@ nav a { color: black; }
 
 .btn-outline-secondary { padding-top: 10px; }
 
+#skip a { display: block; position: absolute; left: -999px; top: -999px; }
+
+#skip a:focus { left: 0; top: 0; padding: 3px; background: #F9DBBE; border: 1px solid #F9DBBE; }
+
 .photo-of-daniel { width: 50%; }
 
-.poweredby { padding-top: 15px; height: 80px; padding-right: 10px; }
-
-.poweredbyx2 { padding-top: 15px; height: 80px; padding-right: 10px; }
-
-.poweredbyx3 { padding-top: 14px; height: 85px; padding-right: 10px; }
-
-.poweredbyx4 { padding-top: 10px; height: 80px; padding-right: 10px; }
-
-.poweredbyx5 { padding-top: 12px; height: 83px; padding-right: 10px; }
-
-.poweredbyx6 { padding-top: 11px; height: 80px; padding-right: 10px; }
-
-.poweredbyx7 { padding-top: 11px; height: 80px; padding-right: 10px; }
+.powered-by-new { overflow: hidden; width: 25%; height: 60%; }
 
 .license { color: black; padding-left: 5px; margin-left: 10px; display: block; }
 
@@ -145,7 +147,9 @@ nav a { color: black; }
 
 .blog-cover { width: 200px; justify-content: center; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; }
 
-.social-icon { width: 25%; height: 100%; }
+.social-icon { width: 20%; height: 10%; object-fit: scale-down; }
+
+@media screen and (min-width: 480px) { .social-icon { overflow: hidden; width: 50%; height: 60%; } }
 
 .feature-feed { padding: 5%; display: block; justify-content: center; grid-auto-flow: row; height: auto; }
 
@@ -195,7 +199,11 @@ nav a { color: black; }
 
 .spotlight { margin: 0 auto 0 auto; background: white; max-width: 60px; padding: 3px; height: auto; border-radius: 10px; box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3); }
 
-.spotlight { background: white; max-width: 100%; padding-block: 3%; border-radius: 5%; box-shadow: 0 1% 5% rgba(0, 0, 0, 0.3); }
+.announcement { display: inline-block; height: 100%; text-align: center; width: 100%; background: #D3D3D3; color: black; margin: 0; padding: 0; vertical-align: middle; border: solid black 3px; }
+
+.announcement a { color: black; }
+
+.announcement a:hover { color: #0000EE; }
 
 @media screen and (min-width: 480px) { .spotlight { background: white; max-width: 100%; padding-block: 3%; border-radius: 5%; box-shadow: 0 1% 5% rgba(0, 0, 0, 0.3); } }
 
