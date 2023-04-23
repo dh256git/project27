@@ -1,10 +1,10 @@
 <div class="navbar navbar-expand-md bg-nav-header">
   <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle global navigation">
-    <span class="navbar-toggler-icon"></span>
+    <span class="fa-solid fa-bars"></span>
   </button>
         <div class="collapse navbar-collapse" id="primaryNavigation">
       <nav class="navbar-dark" tabindex="0" aria-label="Global">
-<ul class="navbar-nav ml-auto" role="menubar">
+<ul class="navbar-nav" role="menubar">
   {% for item in site.data.navigation %}
   <li>
     <a href="{{ item.link | prepend: site.baseurl }}">{{ item.name }}</a>

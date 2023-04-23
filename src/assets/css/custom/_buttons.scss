@@ -328,7 +328,7 @@ margin: 0;
 }
 
 .mysecondarybtn {
-background-color: #D3D3D3;
+background-color: #ff0101;
 border: solid black 3px;
 font-weight: bold;
 margin-top: 30px;
@@ -422,6 +422,52 @@ margin-bottom: 5px;
       display: inline-block;
       vertical-align: middle;
 } 
+
+.mybtnswitch{
+      background-color: #D3D3D3;
+      border: solid black 3px;
+      font-weight: bold;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      border-radius: 22%;
+      position: sticky;
+      display: inline-block;
+      overflow: hiddens;
+}
+
+.dropdown-item{
+      background-color: #D3D3D3;
+      border: solid black 3px;
+      font-weight: bold;
+      margin-left: 0%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      border-radius: 22%;
+      position: sticky;
+      display: inline-block;
+      overflow: hidden;
+      font-weight: bold;
+}
+
+.mybtnquick{
+      background-color: #D3D3D3;
+      border: solid black 3px;
+      font-weight: bold;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      border-radius: 20%;
+      position: sticky;
+      display: inline-block;
+      overflow: hidden;
+}
+
+.mybtnquick a { 
+      color: black; 
+    }
+    
+.mybtnquick a:hover {
+      color: #0000EE;
+    }
 
 a.disabled {
       /* Make the disabled links grayish*/
