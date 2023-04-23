@@ -1,0 +1,582 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- scripts for vega lite -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2/build/vega.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0/build/vega-lite.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- olli -->
+  <script src="https://cdn.jsdelivr.net/npm/olli@1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/olli-adapters@1"></script>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title> Talking at TEDx Margate</title>
+
+<!--Custom style sheets-->
+        <link rel="stylesheet" href="/assets/css/main.css">
+
+<!--font awesome icons-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  </head>
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPHS22H"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column bg-background">
+  <header class="bg-background">
+<div class="row">
+<div class="col-md-6" id="skip">
+<a class="d-flex justify-content-center" href="#mainContent">Skip to main content</a>
+</div>
+<div class="col-md-6" id="skip">
+<a class="d-flex justify-content-center" href="#footerContent">Skip to footer</a>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-10">
+<div class="row">
+<div class="col-md-8">
+      <div class="masthead-brand">
+<a href="/index.html" class="navbar-brand">
+      <img src="/assets/images/Project27 logo.png" alt="Project 27 logo" class="logo" width="90em">
+      </a>
+      Skills that matter
+      </div>
+</div>
+<div class="col-md-4">
+<div class="navbar navbar-expand-md bg-nav-header">
+  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle global navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="primaryNavigation">
+      <nav class="navbar-dark" tabindex="0" aria-label="Global">
+<ul class="navbar-nav" role="menubar">
+  
+  <li>
+    <a href="/blog/index.html">Blog</a>
+  </li>
+  
+  <li>
+    <a href="/guide/index.html">Guide</a>
+  </li>
+  
+  <li>
+    <a href="/volunteering/index.html">Volunteering</a>
+  </li>
+  
+  <li>
+    <a href="/support/index.html">Support</a>
+  </li>
+  
+  </ul>
+  </nav>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col">
+<div class="row bg-blog-note">
+<div class="col-md-6">
+
+<div id="breadcrumbs">
+<h1 class="you-are-here">You are here</h1>
+
+<a href="/">Home</a>
+
+  
+    <a href="/blog/index.html">👉 Blog</a>
+  
+
+  
+    <a href="/blog/twist/index.html">👉 Twist</a>
+  
+
+  
+    <a href="/blog/twist/disabilities/index.html">👉 Disabilities</a>
+  
+
+  
+    <br> 👉 Talking at TEDx Margate
+  
+
+</div>
+
+</div>
+<div class="col-md-6">
+  <button href="#quickLinks" type="button" class="d-lg-none mysecondarybtn" data-toggle="collapse" data-target="#selector" aria-controls="selector" aria-expanded="false" aria-label="Quick links">
+    <span><i class="fas fa-bookmark fa-lg" aria-hidden="false"></i></span>
+  </button>
+<div class="collapse d-lg-block" id="selector">
+
+<div class="row">
+<div class="col-md-3">
+<div class="dropdown bg-my-nav">
+<button type="button" class="Read-More" data-toggle="collapse" data-target="#volume-selector" aria-haspopup="true">Volume</button>
+        <div class="dropdown-menu" id="volume-selector">
+  
+  
+          <a class="dropdown-item" href= "/blog/logbook/index.html" >LogBook</a>
+  
+          <a class="dropdown-item" href= "/blog/twist/index.html" >TWIST</a>
+  
+  
+</div>
+</div>
+
+</div>
+<div class="col-md-3">
+<div class="dropdown bg-my-nav">
+<button type="button" class="Read-More" data-toggle="collapse" data-target="#chapter-selector" aria-haspopup="true">Chapter</button>
+        <div class="dropdown-menu" id="chapter-selector">
+  
+  
+          <a class="dropdown-item" href="/blog/twist/disabilities/index.html" >Living with disabilities</a>
+  
+          <a class="dropdown-item" href="/blog/twist/identities/index.html" >Identities</a>
+  
+          <a class="dropdown-item" href="/blog/twist/reading/index.html" >Reading</a>
+  
+          <a class="dropdown-item" href="/blog/twist/science/index.html" >Special interests</a>
+  
+    
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="dropdown bg-my-nav">
+<button type="button" class="Read-More" data-toggle="collapse" data-target="#section-selector" aria-haspopup="true">Section</button>
+        <div class="dropdown-menu" id="section-selector">
+  
+  <p>Please open a volume and a chapter, before you are able to select a section. It may also be that this chapter has not been divided into sections.</p>
+  
+</div>
+</div>
+
+</div>
+<div class="col-md-3">
+<div class="dropdown bg-my-nav">
+<button type="button" class="Read-More" data-toggle="collapse" data-target="#note-selector" aria-haspopup="true">Note</button>
+        <div class="dropdown-menu" id="note-selector">
+  
+  <p>Please select a section before selecting a note.</p>
+  
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col">
+<div class="announcement">
+<p>
+    📣 This area of the website is a 
+<a target="_blank" rel="noreferrer noopener" href="https://en.wikipedia.org/wiki/Software_release_life_cycle">
+beta version.
+</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-2">
+  <button href="#sidebar" type="button" class="d-lg-none mysecondarybtn" data-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle sidebar">
+    <span><i class="fas fa-bookmark fa-lg" aria-hidden="false"></i></span>
+  </button>
+<div class="collapse d-lg-block bg-background" id="sidebar" aria-label="sidebar navigation">
+<div class="row">
+<div class="col">
+  
+  <div class="mybtnquick">
+  <a href= "/about/index.html" >What we do</a>
+  </div>
+  
+  <div class="mybtnquick">
+  <a href= "/about/team/index.html" >Who we are</a>
+  </div>
+  
+  <div class="mybtnquick">
+  <a href= "/contact/index.html" >Contact us and FAQs</a>
+  </div>
+  
+  </div>
+  </div>
+<div class="row">
+<div class="col">
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#products" aria-haspopup="true">Products & Services</button>
+        <div class="dropdown-menu" id="products">
+    
+          <a class="dropdown-item" href= "/volunteering/become-a-volunteer.html" >Become a volunteer</a>
+  
+          <a class="dropdown-item" href= "/support/index.html" >Book a support session</a>
+  
+          <a class="dropdown-item" href= "/support/pricing.html" >Pricing</a>
+  
+  </div>
+</div>
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#media" aria-haspopup="true">Media</button>
+        <div class="dropdown-menu" id="media">
+  
+          <a class="dropdown-item" href= "/about/news.html" >News</a>
+  
+          <a class="dropdown-item" href= "/blog/all-posts.html" >Latest posts</a>
+  
+</div>
+</div>
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#development" aria-haspopup="true">Development</button>
+        <div class="dropdown-menu" id="development">
+    
+
+                    <a class="dropdown-item" href= "/blog/logbook/dev/change-log.html" >Roadmap</a>
+                    
+  
+
+                    <a class="dropdown-item" href= "/blog/logbook/issues/2020/06/05/initialise.html" >Issue tracking</a>
+                    
+  
+
+          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "https://github.com/dh256git/project27" >Git Hub</a>
+          
+  
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </header>
+
+  <main role="main" id="mainContent" class="container bg-background">
+   <div class="row">
+    <div class="col-md-8">
+      
+          
+        <a class="previous-post" href="/blog/twist/disabilities/2017/09/28/coins.html">Previous: Coins of vision impairment</a>
+        
+        <br>
+        
+        <a class="next-post" href="/blog/twist/disabilities/2017/09/15/category.html" tabindex="-1" aria-disabled="false">Next: Living with disabilities - An introduction to this category</a>
+        
+  
+    </div>
+    <div class="col-md-4">
+      <button type="button" class="mysecondarybtn" data-toggle="collapse" data-target="#meta-info" aria-controls="meta-info" aria-expanded="false" aria-label="Page information">
+    <span><i class="fa fa-info-circle fa-lg" aria-hidden="false"></i></span>
+  </button>
+<div class="blog-post-meta collapse" id="meta-info">
+<p class="reading-time">Estimated time to read: 
+  
+  
+    6 - 8 mins
+  
+</p>
+
+<p>Written by: Daniel Hajas</p>
+
+
+<p>Reviewed by: To be assigned. <a href="/guidelines/review.html">Read our guidelines on reviews.</a></p>
+
+
+<p>Published on: 16 Sep 2017</p>
+
+
+<p>Revised on: 01 Jan 2023</p>
+
+
+<p>Revision due: 01 Jan 2024</p>
+
+</div>
+    </div>
+    </div>
+
+  <div class="row">
+    <div class="col-md-8 blog-main">
+      <div class="blog-post">
+<h2>Talking at TEDx Margate</h2>
+
+
+<img src="/assets/images/Project27 logo.png" class="blog-cover" alt="The Project27 logo, used as a placeholder image.">
+
+
+<p>Having survived the excitement of presenting at the British Science Festival, as well as jumping on the wrong train to Manchester (instead of Birmingham), where me and Prof Kathy Romer were attending the INTERACT symposium; now here I am writing about my experience of giving a TED talk.
+<!-- excerpt-end -->
+Yeah, okay… it’s a TEDx event but still, it’s part of the giant Technology, Entertainment and Design conference series.
+It all started with a LinkedIn message in July triggered by an article I posted about IRIS. At the first glance, it nearly looked identical to one of those promotional messages. Have I been in a more occupied state of mind, probably I’d have deleted it straight away; however, the magic words “TEDx” and “invitation” tempted me to have a quick look. Thinking it’s worth a try, I hit reply and responded with saying I’d be happy to talk about the Grapheel IRIS at TEDxMargate, to be honest not expecting a reply. It turns out, I was wrong and sending this was a good choice, as the official invitation with the paperwork to sign has arrived soon after.
+The event has been scheduled for Saturday, 16th of September, in Margate (Kent) giving me about 5-6 weeks of preparation time. The general TED philosophy of “Ideas worth spreading” was topped up with the mentality of “Think differently” as the theme of the day. So after the initial shock, the first and foremost arrangement I made is getting my great friend, Dominic Ransom on board. He was born to be a public speaker, and is a master of english language with a wide spectrum of knowledge. Most crucially, he’s an amazing chef. Dominic kindly agreed to train me like Rocky would, which I’m utterly grateful for. All that was left: write script and back it up with visuals in form of a slideshow.
+Me and Dominic developed the routine of meeting once a week for pretty much the entire day, working on the talk, and enjoy the pleasures of cooking and eating tastebud satisfying meals. The first week we spent on looking at my draft of the structure and main threads of the talk, to make sure we both know what the talk should aim for, and how to approach it. The general outline we came up with was the following. Talk about what science is in my mind, why most people freak out even just hearing the horrifying word, and how science does it’s job, what has changed over the past few centuries. After this, just to give it a more personal touch, I wanted to introduce my own journey into science while losing my sight. In the final third of the talk, I was aiming to transmit the message of “anyone can engage with science, all we need is the appropriate hook to it”. This was meant to inspire the audience to get away from the misconception that science is only for those who wear a lab coat and can solve odd looking mathematical scribbles on a blackboard. Warming up those cogwheels , this was the time to introduce Grapheel’s IRIS, and propose it as a way for people to hook into science by forming a community, enabling others while they are learning about the science illustrated by the images seeking descriptions. All in all, this brought us to the talk I named: “Science: The way I see it, and the way you can engage with it”. 
+I’m not going to give away details of the talk, hopefully this is something you can see anyway on the recorded video in a few months time. But before jumping to the evaluation of how the actual event felt like, let’s quickly see the rest of the preparation.  Week 2, writing the script, with week 3 fine tuning it and adding the slides all the way until week 5. The more we prepared, the more we laughed, the more great material I had to present, and the more delicious dinners we had, making me leave with not only excitement about delivering the talk, but with an extra few kilograms in forms of roast meals and pudding.
+Once all the content was finalised and submitted towards the organisers, it was time to memorise, practise, time the length, adjust, and finally 3 days before action, do a full dress rehearsal in a lecture hall, with clip-on microphones, clickers, and so on. Getting rid of the last “Erms”, “you knows” and fidget movements, all was set.
+I arrived to Margate the day before, and after dinner with friends it was time too go to bed after a last rehearsal. The day has come! Arriving at 9 AM to the Turner Contemporary Gallery the seats nicely lined up waiting for those 100 owners of tickets sold. Few minutes after finding the place, I’ve met the other four speakers. According to the programme, the five live performances were separated with recorded talks and a lunch break. I was last in the queue to speak, which left me just enough time to bite all my nails under a decent adrenalin cocktail. Though now I say I’m happy with the way I managed to spread the word, despite room for improvement in public speaking, there were a few factors that I didn’t count with. Of course, in live nothing goes as smoothly as when practising in an empty theatre; however, the first loose screw in the machinery was when I came to the recognition that as opposed to the clip-on mic, we’ll have a stand. On its own this isn’t a huge issue, only if I didn’t have my talk start with a bit of acting where I poke  and make vivid movements across stage with my long cane. Ignoring the fact that more often than not I didn’t actually speak into the mic, it worried me slightly more that 4 of 3 times I, with high precision, right strength, better than any rock star, managed to knock over the mic stand. Ah well. The second loose screw opening a new adrenalin pump up, was the misbehaviour of the video of the TED talk shown to the audience just before my turn, designed to give 15 minutes of preparation time for the next speaker, both physically and mentally. Well, the video this time decided I don’t need this preparation time and stopped streaming half way through, resulting in me being called to stage somewhat urgently.
+After all, the feedback suggested that the content of the talk made sense, it was a fund day which I utterly enjoyed both in terms on learning new ideas and spreading the word about IRIS as a way for people to engage with science. Most importantly I enjoyed the time preparing with Dominic, and after a long day returning home with the feeling as if I was expecting twins. Now I just need to come up with a new talk invitation for say April, which we can start preparing for weekly as an excuse to get more of those flavours going.
+That’s my summary of TEDx Daniel. Once becomes available, I would much appreciate from anyone reading this post and watching the video, if in comments you added some constructive criticism. While TEDxMargate was an excellent experience, and despite studying and practising a dozen public speaking tutorials, talks; there is still a lot to work on for a potential TED talk in the future.</p>
+
+      </div><!-- /.blog-post -->
+
+<hr>
+        
+        <a class="previous-post" href="/blog/twist/disabilities/2017/09/28/coins.html">Previous: Coins of vision impairment</a>
+        
+        <br>
+        
+        <a class="next-post" href="/blog/twist/disabilities/2017/09/15/category.html" tabindex="-1" aria-disabled="false">Next: Living with disabilities - An introduction to this category</a>
+        
+  </div><!-- /.blog-main -->
+
+    <aside class="col-md-4 blog-sidebar">
+
+<h2>More posts from the  category</h2>
+
+<p>Did you like this post? Choose another post from the  category below.</p>
+
+
+<ul>
+
+<li>
+<a href="/blog/twist/disabilities/2022/12/02/award.html">
+Leadership in self-advocacy - How I won an award
+</a>
+</li>
+
+<li>
+<a href="/blog/twist/disabilities/2018/03/28/climbing.html">
+Climbing walls and barriers
+</a>
+</li>
+
+<li>
+<a href="/blog/twist/disabilities/2017/10/03/travel.html">
+Travel on the 25 express
+</a>
+</li>
+
+<li>
+<a href="/blog/twist/disabilities/2017/09/28/coins.html">
+Coins of vision impairment
+</a>
+</li>
+
+<li>
+<a href="/blog/twist/disabilities/2017/09/16/tedx.html">
+Talking at TEDx Margate
+</a>
+</li>
+
+<li>
+<a href="/blog/twist/disabilities/2017/09/15/category.html">
+Living with disabilities - An introduction to this category
+</a>
+</li>
+
+</ul>
+
+
+    </aside><!-- /.blog-sidebar -->
+      </div><!-- /.row -->
+  </main>
+
+<footer id="footerContent" class="bg-blog-note">
+
+
+
+<div class="row">
+<div class="col-md-10">
+<div class="row">
+<div class="col-md-8">
+
+<div class="row">
+<div class="col-md-2">
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="margin: 10px" src="/assets/images/CC-88x31.png"/></a>
+</div>
+<div class="col-md-10">
+Except where otherwise noted, posts of the <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Project27 Blog</span> are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a>
+</div>
+</div>
+
+</div>
+<div class="col-md-4">
+      <nav class="navbar navbar-expand-md navbar-dark bg-nav-footer" tabindex="0" aria-label="Footer">
+<ul class="navbar-nav" role="menubar">
+  
+  <li>
+    <a href="/about/index.html">About</a>
+  </li>
+  
+  <li>
+    <a href="/contact/index.html">Contact</a>
+  </li>
+  
+  <li>
+    <a href="/guidelines/index.html">Guidelines</a>
+  </li>
+  
+  <li>
+    <a href="/legal/index.html">Legal</a>
+  </li>
+  
+  </ul>
+</nav>
+</div>
+</div>
+<div class="row">
+<div class="col">
+<h5>Follow us</h5>
+
+<div class="col">
+    <a href="https://www.twitter.com/project27skills/">
+<img src="/assets/images/icons/twitter.png" alt="Twitter icon" class="social-icon">
+</a>
+</div>
+
+<div class="col">
+    <a href="/404.html">
+<img src="/assets/images/icons/mastodon.jpg" alt="Mastodon icon" class="social-icon">
+</a>
+</div>
+
+<div class="col">
+    <a href="/404.html">
+<img src="/assets/images/icons/linkedin.png" alt="LinkedIn icon" class="social-icon">
+</a>
+</div>
+
+<div class="col">
+    <a href="/404.html">
+<img src="/assets/images/icons/youtube.jpg" alt="YouTube icon" class="social-icon">
+</a>
+</div>
+
+</div>
+</div>
+<div class="col-md-2">
+
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-10">
+<h5>Powered by</h5>
+<div class="row">
+<div class="col-md-3">
+<a href="https://github.com">
+<img src="/assets/images/Github logo.png" alt="Github" class= "powered-by-new">
+</a>
+</div>
+<div class="col-md-3">
+<a href="https://jekyllrb.com">
+<img src="/assets/images/Jekyll logo.png" alt="Jekyll" class= "powered-by-new">     
+</a>
+</div>
+<div class="col-md-3">
+<a href="https://getbootstrap.com">
+<img src="/assets/images/Bootstrap logo.png" alt="Bootstrap" class= "powered-by-new">  
+</a>
+</div>
+<div class="col-md-3">
+<a href="https://www.markdownguide.org">
+<img src="/assets/images/Markdown logo.png" alt="Markdown" class= "powered-by-new"> 
+</a>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<a href="https://www.latex-project.org">
+<img src="/assets/images/LaTeX logo.png" alt="LaTeX" class= "powered-by-new">  
+</a>
+</div>
+<div class="col-md-3">
+<a href="https://www.python.org">
+<img src="/assets/images/Python logo.png" alt="Python" class= "powered-by-new">
+</a>
+</div>
+<div class="col-md-3">
+<a href="https://www.r-project.org">
+<img src="/assets/images/Rlogo.png" alt="R" class= "powered-by-new">
+</a>
+</div>
+<div class="col-md-3">
+<a href="https://www.gnu.org/software/bash/">
+<img src="/assets/images/Bash shell logo.png" alt="Bash" class= "powered-by-new">
+</a>
+</div>
+</div>
+</div>
+<div class="col-md-2">
+<hr>
+
+<p>
+<a href="/about/terms-of-use.html">
+Terms of use
+</a>
+</p>
+
+<p>
+<a href="/contact/terms-of-service.html">
+Terms of service
+</a>
+</p>
+
+<p>
+<a href="/legal/privacy.html">
+Privacy policy
+</a>
+</p>
+
+<p><a href="/blog/logbook/dev/change-log.html">Version: 0.2.282.</a></p>
+<p>Last updated: 23 Apr 2023 at 21:15.</p>
+</div>
+</div>
+
+
+</footer>
+</div>
+<!-- Bootstrap dependency scripts -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- Mathematics script -->
+<script type="text/x-mathjax-config">
+(function () {
+
+MathJax.Hub.Config({
+	'showProcessingMessages': false,
+	'messageStyle': 'none'
+});
+
+if (typeof MathJaxListener !== 'undefined') {
+	MathJax.Hub.Register.StartupHook('End', function () {
+		MathJaxListener.invokeCallbackForKey_('End');
+	});
+}
+
+})();
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<!--script for read more modal -->
+<script defer src="/assets/js/modal.js"></script>
+
+<!--script for select pop-up -->
+<script defer src="/assets/js/pop-up.js"></script>
+
+  </body>
+</html>

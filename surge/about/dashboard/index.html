@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- scripts for vega lite -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2/build/vega.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0/build/vega-lite.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- olli -->
+  <script src="https://cdn.jsdelivr.net/npm/olli@1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/olli-adapters@1"></script>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title> Dashboard</title>
+
+<!--Custom style sheets-->
+        <link rel="stylesheet" href="/assets/css/main.css">
+
+<!--font awesome icons-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  </head>
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPHS22H"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column bg-background">
+  <header class="bg-background">
+<div class="row">
+<div class="col-md-6" id="skip">
+<a class="d-flex justify-content-center" href="#mainContent">Skip to main content</a>
+</div>
+<div class="col-md-6" id="skip">
+<a class="d-flex justify-content-center" href="#footerContent">Skip to footer</a>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-10">
+<div class="row">
+<div class="col-md-8">
+      <div class="masthead-brand">
+<a href="/index.html" class="navbar-brand">
+      <img src="/assets/images/Project27 logo.png" alt="Project 27 logo" class="logo" width="90em">
+      </a>
+      Skills that matter
+      </div>
+</div>
+<div class="col-md-4">
+<div class="navbar navbar-expand-md bg-nav-header">
+  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle global navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="primaryNavigation">
+      <nav class="navbar-dark" tabindex="0" aria-label="Global">
+<ul class="navbar-nav" role="menubar">
+  
+  <li>
+    <a href="/blog/index.html">Blog</a>
+  </li>
+  
+  <li>
+    <a href="/guide/index.html">Guide</a>
+  </li>
+  
+  <li>
+    <a href="/volunteering/index.html">Volunteering</a>
+  </li>
+  
+  <li>
+    <a href="/support/index.html">Support</a>
+  </li>
+  
+  </ul>
+  </nav>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col">
+<div class="row bg-general-chap">
+<div class="col-md-6">
+
+<div id="breadcrumbs">
+<h1 class="you-are-here">You are here</h1>
+
+<a href="/">Home</a>
+
+  
+    <a href="/about/index.html">👉 About</a>
+  
+
+  
+    <br> 👉 Dashboard
+  
+
+</div>
+
+</div>
+<div class="col-md-6">
+  <button href="#quickLinks" type="button" class="d-lg-none mysecondarybtn" data-toggle="collapse" data-target="#selector" aria-controls="selector" aria-expanded="false" aria-label="Quick links">
+    <span><i class="fas fa-bookmark fa-lg" aria-hidden="false"></i></span>
+  </button>
+<div class="collapse d-lg-block" id="selector">
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col">
+<div class="announcement">
+<p>
+    📣 This area of the website is a 
+<a target="_blank" rel="noreferrer noopener" href="https://en.wikipedia.org/wiki/Software_release_life_cycle">
+beta version.
+</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-2">
+  <button href="#sidebar" type="button" class="d-lg-none mysecondarybtn" data-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle sidebar">
+    <span><i class="fas fa-bookmark fa-lg" aria-hidden="false"></i></span>
+  </button>
+<div class="collapse d-lg-block bg-background" id="sidebar" aria-label="sidebar navigation">
+<div class="row">
+<div class="col">
+  
+  <div class="mybtnquick">
+  <a href= "/about/index.html" >What we do</a>
+  </div>
+  
+  <div class="mybtnquick">
+  <a href= "/about/team/index.html" >Who we are</a>
+  </div>
+  
+  <div class="mybtnquick">
+  <a href= "/contact/index.html" >Contact us and FAQs</a>
+  </div>
+  
+  </div>
+  </div>
+<div class="row">
+<div class="col">
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#products" aria-haspopup="true">Products & Services</button>
+        <div class="dropdown-menu" id="products">
+    
+          <a class="dropdown-item" href= "/volunteering/become-a-volunteer.html" >Become a volunteer</a>
+  
+          <a class="dropdown-item" href= "/support/index.html" >Book a support session</a>
+  
+          <a class="dropdown-item" href= "/support/pricing.html" >Pricing</a>
+  
+  </div>
+</div>
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#media" aria-haspopup="true">Media</button>
+        <div class="dropdown-menu" id="media">
+  
+          <a class="dropdown-item" href= "/about/news.html" >News</a>
+  
+          <a class="dropdown-item" href= "/blog/all-posts.html" >Latest posts</a>
+  
+</div>
+</div>
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#development" aria-haspopup="true">Development</button>
+        <div class="dropdown-menu" id="development">
+    
+
+                    <a class="dropdown-item" href= "/blog/logbook/dev/change-log.html" >Roadmap</a>
+                    
+  
+
+                    <a class="dropdown-item" href= "/blog/logbook/issues/2020/06/05/initialise.html" >Issue tracking</a>
+                    
+  
+
+          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "https://github.com/dh256git/project27" >Git Hub</a>
+          
+  
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </header>
+
+  <main role="main" id="mainContent" class="container bg-background">
+ <h2 id="dashboard">Dashboard</h2>
+
+<p>Welcome to the project dashboard.
+You will find our roadmap and you can view status updates below.</p>
+
+<p><strong>Accessibility notice</strong>:</p>
+
+<ul>
+  <li>Currently, the burndown chart is not accessible on mobile platforms.</li>
+  <li>The roadmap is not an easy read.</li>
+</ul>
+
+<h3 id="roadmap">Roadmap</h3>
+
+<p>The roadmap of Project27 starts on 6th of October, 2019 with setting the cornerstone.
+The road ahead is made up of four milestones, separated by five year intervals.</p>
+
+<div class="dropdown">
+  <button type="button" class="fg-general-chap" data-toggle="collapse" data-target="#R2020" aria-controls="R2020" aria-expanded="false">
+                2020 cornerstone
+                </button>
+        <div class="dropdown-menu " aria-label="2020 cornerstone" id="R2020">      
+<p>
+
+Collecting physics notes and recipes scattered around the hard-drive into a single,  accessible, and usable platform.
+
+</p>
+</div>
+</div>
+<div class="dropdown">
+  <button type="button" class="fg-general-chap" data-toggle="collapse" data-target="#R2025" aria-controls="R2025" aria-expanded="false">
+                2025 milestone
+                </button>
+        <div class="dropdown-menu " aria-label="2025 milestone" id="R2025">      
+<p>
+
+<h4>2025 milestone</h4></p>
+<p>
+Theme: Development of a private site based on product requirements of the product owner.
+</p>
+<p>
+The key initiatives towards the milestone are:
+</p>
+<ul>
+<li>Team: Project27 is developed by the product owner. Contributions are made by trusted friends and family.</li>
+<li>Research and Development (R&amp;D): Learning basic web development skills, and developing v0.1.</li>
+<li>Project management (PM) &amp; business development (BD) : Learning basic project management and business development skills, and setting a workflow up.</li>
+<li>R&amp;D: Documenting the challenges and solutions occurred during the experimentation with methods of creating accessible content for  technical documents.</li>
+<li>Content: Expanding original content with reviewed written notes and posts, external links, and external multimedia.</li>
+</ul>
+<p>
+The key performance indicators are:
+</p>
+<ul>
+<li>How much do people in the organisation engage with the initiatives of the current milestone?</li>
+<li>Is Project27 a stable release of a coherent, usable, and easy-to-maintain website architecture?</li>
+<li>Are basic project management procedures and business development strategies established in a sustainable framework?</li>
+<li>How regularly are R&amp;D challenges and solutions executed and documented?;</li>
+<li>How many reviewed "notes" and "posts" are published in individual Guide "chapters", and Blog "categories" respectively?</li>
+<li>Does the next milestone and its initiatives reflect the latest requirements, and are Keep Performance Indicators (KPIs) updated?</li>
+</ul>
+<p>Moving on...
+
+</p>
+</div>
+</div>
+<div class="dropdown">
+  <button type="button" class="fg-general-chap" data-toggle="collapse" data-target="#R2030" aria-controls="R2030" aria-expanded="false">
+                2030 milestone
+                </button>
+        <div class="dropdown-menu " aria-label="2030 milestone" id="R2030">      
+<p>
+
+<h4>2030 milestone</h4></p>
+<p>
+Theme: Pivoting towards requirements set by stakeholders.
+</p>
+<p>
+The key initiatives towards the milestone are:
+</p>
+<ul>
+<li>Team: The product owner and a business partner works together to adapt the product to new requirements set by stakeholders. Contributions are made by three Project27 teams: the R&amp;D team, the editorial and review team, and the content creation team.</li>
+<li>R&amp;D: Exploring challenges and solutions for accessible data visualisations, figures, and videos of technical nature.</li>
+<li>Content: Expanding notes and posts in existing volumes and branches. Considering new volumes based on stakeholder requirements.</li>
+</ul><p>
+Moving on...
+
+</p>
+</div>
+</div>
+<div class="dropdown">
+  <button type="button" class="fg-general-chap" data-toggle="collapse" data-target="#R2035" aria-controls="R2035" aria-expanded="false">
+                2035 milestone
+                </button>
+        <div class="dropdown-menu " aria-label="2035 milestone" id="R2035">      
+<p>
+
+<h4>2035 milestone</h4></p>
+<p>
+Theme: Consolidating operations.
+</p>
+<p>
+The key initiatives towards the milestone are:
+</p>
+<ul>
+<li>Team: Establishing organisational structure. The CEO oversees the content creation, funding and marketing tasks. The CTO is responsible for quality assurance of the web architecture including accessibility and functionality, as well as exploring new technological solutions in line with the vision and mission statements.</li>
+<li>Community: associate editors are appointed to take care of individual volumes, and content authors are recruited for creative and review tasks.</li>
+<li>Content: Volumes are expanded by content authors. User requirements are used to design content.</li>
+<li>R&amp;D: A system is developed for submitting user authored content and its distribution for peer-review.</li>
+</ul><p>
+Moving on...
+
+</p>
+</div>
+</div>
+<div class="dropdown">
+  <button type="button" class="fg-general-chap" data-toggle="collapse" data-target="#R2050" aria-controls="R2050" aria-expanded="false">
+                2050 milestone
+                </button>
+        <div class="dropdown-menu " aria-label="2050 milestone" id="R2050">      
+<p>
+
+<h4>2050 milestone</h4></p>
+<p>
+Theme: Project27 opens for public contributions, which are published after peer-review.
+</p>
+<p>
+The key initiatives towards the milestone are:
+</p>
+<ul>
+<li>Community: Operation starts as conventional journals with editor, associate editors,-reviewers, and authors.</li>
+<li>Project management "PM" &amp; business development "BD": Strategy is developed for harnessing revenue streams from the tools developed and the team expertise, reinvesting in advancing Project27 R&amp;D initiatives.</li>
+</ul><p>
+If the project has got as far as this, the roadmap will be extended.
+
+</p>
+</div>
+</div>
+
+<h4 id="the-roadmap-explained">The roadmap explained</h4>
+
+<p>The time between the cornerstone and the first milestone is used to learn, experiment, and set the scene for a scalable project.
+Although one of the key objective at the personal level is to learn web development, expanding the Research and Development (R&amp;D) team with a professional web developer who is able to innovate through modern technological solutions, would be desirable.</p>
+
+<p>The second milestone introduces the project and its stakeholders to each other, updating product requirements, with a business partner on board.
+The project management (PM) &amp; business development (BD) team is formed.</p>
+
+<p>The third milestone transfers ownership parts of the product to associate editors, and reviewers are recruited to make up the Project27 community.
+Content is heavily influenced by user requirements.</p>
+
+<p>In the final milestone, the project is community driven, by means of peer-reviewed contributions. Content is managed by associate editors, while the management team looks after sustainability, scalability, and reinvestment in R&amp;D initiatives.</p>
+
+<h4 id="issue-tracking">Issue tracking</h4>
+
+<p>Project27 tracks known issues on inaccurate information, as well as known accessibility bugs around the scientific content.
+This is done through the GitHub repository and the LogBook posts.</p>
+
+<h3 id="latest-sprint---progress-chart">Latest sprint - progress chart</h3>
+
+<p>View how the latest sprint is progressing.</p>
+
+<div id="vega-container" aria-hidden="true"></div>
+<div id="olli-container"></div>
+
+<script type="text/javascript">
+
+    const vlSpec =
+      {
+        $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
+        "description": "Burndown chart for the ongoing sprint.",
+        "data": {
+        "url": "/about/dashboard/burndown-data/current-sprint.csv"
+        },
+        "mark": "line",
+        "encoding": {
+        "x": { "field": "date", "type": "ordinal" },
+        "y": { "field": "story point", "type": "quantitative" }
+        }
+      };
+
+  // code to render the vega-lite chart
+  const vegaSpec = vegaLite.compile(vlSpec).spec;
+  const runtime = vega.parse(vegaSpec);
+  const vegaContainer = document.getElementById('vega-container');
+  const view = new vega.View(runtime)
+    .logLevel(vega.Warn)
+    .initialize(vegaContainer)
+    .renderer('svg')
+    .hover()
+    .run();
+    
+  // code to render the olli treeview
+  OlliAdapters.VegaLiteAdapter(vlSpec).then(olliVisSpec => {
+    const olliRender = olli(olliVisSpec);
+    document.getElementById("olli-container").append(olliRender);
+  })
+  </script>
+
+
+  </main>
+
+<footer id="footerContent" class="bg-general-chap">
+
+
+
+<div class="row">
+<div class="col-md-10">
+<div class="row">
+<div class="col-md-8">
+
+<div class="row">
+<div class="col-md-2">
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="margin: 10px" src="/assets/images/CC-88x31.png"/></a>
+</div>
+<div class="col-md-10">
+Except where otherwise noted, <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Project27</span> materials hosted by <a xmlns:cc="http://creativecommons.org/ns#" href="/about/team/Daniel/index.html" property="cc:attributionName" rel="cc:attributionURL">Daniel Hajas</a> are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License.</a>
+</div>
+</div>
+
+</div>
+<div class="col-md-4">
+      <nav class="navbar navbar-expand-md navbar-dark bg-nav-footer" tabindex="0" aria-label="Footer">
+<ul class="navbar-nav" role="menubar">
+  
+  <li>
+    <a href="/about/index.html">About</a>
+  </li>
+  
+  <li>
+    <a href="/contact/index.html">Contact</a>
+  </li>
+  
+  <li>
+    <a href="/guidelines/index.html">Guidelines</a>
+  </li>
+  
+  <li>
+    <a href="/legal/index.html">Legal</a>
+  </li>
+  
+  </ul>
+</nav>
+</div>
+</div>
+<div class="row">
+<div class="col">
+<h5>Follow us</h5>
+
+<div class="col">
+    <a href="https://www.twitter.com/project27skills/">
+<img src="/assets/images/icons/twitter.png" alt="Twitter icon" class="social-icon">
+</a>
+</div>
+
+<div class="col">
+    <a href="/404.html">
+<img src="/assets/images/icons/mastodon.jpg" alt="Mastodon icon" class="social-icon">
+</a>
+</div>
+
+<div class="col">
+    <a href="/404.html">
+<img src="/assets/images/icons/linkedin.png" alt="LinkedIn icon" class="social-icon">
+</a>
+</div>
+
+<div class="col">
+    <a href="/404.html">
+<img src="/assets/images/icons/youtube.jpg" alt="YouTube icon" class="social-icon">
+</a>
+</div>
+
+</div>
+</div>
+<div class="col-md-2">
+
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-10">
+<h5>Powered by</h5>
+<div class="row">
+<div class="col-md-3">
+<a href="https://github.com">
+<img src="/assets/images/Github logo.png" alt="Github" class= "powered-by-new">
+</a>
+</div>
+<div class="col-md-3">
+<a href="https://jekyllrb.com">
+<img src="/assets/images/Jekyll logo.png" alt="Jekyll" class= "powered-by-new">     
+</a>
+</div>
+<div class="col-md-3">
+<a href="https://getbootstrap.com">
+<img src="/assets/images/Bootstrap logo.png" alt="Bootstrap" class= "powered-by-new">  
+</a>
+</div>
+<div class="col-md-3">
+<a href="https://www.markdownguide.org">
+<img src="/assets/images/Markdown logo.png" alt="Markdown" class= "powered-by-new"> 
+</a>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<a href="https://www.latex-project.org">
+<img src="/assets/images/LaTeX logo.png" alt="LaTeX" class= "powered-by-new">  
+</a>
+</div>
+<div class="col-md-3">
+<a href="https://www.python.org">
+<img src="/assets/images/Python logo.png" alt="Python" class= "powered-by-new">
+</a>
+</div>
+<div class="col-md-3">
+<a href="https://www.r-project.org">
+<img src="/assets/images/Rlogo.png" alt="R" class= "powered-by-new">
+</a>
+</div>
+<div class="col-md-3">
+<a href="https://www.gnu.org/software/bash/">
+<img src="/assets/images/Bash shell logo.png" alt="Bash" class= "powered-by-new">
+</a>
+</div>
+</div>
+</div>
+<div class="col-md-2">
+<hr>
+
+<p>
+<a href="/about/terms-of-use.html">
+Terms of use
+</a>
+</p>
+
+<p>
+<a href="/contact/terms-of-service.html">
+Terms of service
+</a>
+</p>
+
+<p>
+<a href="/legal/privacy.html">
+Privacy policy
+</a>
+</p>
+
+<p><a href="/blog/logbook/dev/change-log.html">Version: 0.2.282.</a></p>
+<p>Last updated: 23 Apr 2023 at 21:15.</p>
+</div>
+</div>
+
+
+</footer>
+</div>
+<!-- Bootstrap dependency scripts -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- Mathematics script -->
+<script type="text/x-mathjax-config">
+(function () {
+
+MathJax.Hub.Config({
+	'showProcessingMessages': false,
+	'messageStyle': 'none'
+});
+
+if (typeof MathJaxListener !== 'undefined') {
+	MathJax.Hub.Register.StartupHook('End', function () {
+		MathJaxListener.invokeCallbackForKey_('End');
+	});
+}
+
+})();
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<!--script for read more modal -->
+<script defer src="/assets/js/modal.js"></script>
+
+<!--script for select pop-up -->
+<script defer src="/assets/js/pop-up.js"></script>
+
+  </body>
+</html>

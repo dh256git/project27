@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- scripts for vega lite -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2/build/vega.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0/build/vega-lite.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- olli -->
+  <script src="https://cdn.jsdelivr.net/npm/olli@1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/olli-adapters@1"></script>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title> Grapheel archive - An introduction to this category</title>
+
+<!--Custom style sheets-->
+        <link rel="stylesheet" href="/assets/css/main.css">
+
+<!--font awesome icons-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  </head>
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPHS22H"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column bg-background">
+  <header class="bg-background">
+<div class="row">
+<div class="col-md-6" id="skip">
+<a class="d-flex justify-content-center" href="#mainContent">Skip to main content</a>
+</div>
+<div class="col-md-6" id="skip">
+<a class="d-flex justify-content-center" href="#footerContent">Skip to footer</a>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-10">
+<div class="row">
+<div class="col-md-8">
+      <div class="masthead-brand">
+<a href="/index.html" class="navbar-brand">
+      <img src="/assets/images/Project27 logo.png" alt="Project 27 logo" class="logo" width="90em">
+      </a>
+      Skills that matter
+      </div>
+</div>
+<div class="col-md-4">
+<div class="navbar navbar-expand-md bg-nav-header">
+  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle global navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="primaryNavigation">
+      <nav class="navbar-dark" tabindex="0" aria-label="Global">
+<ul class="navbar-nav" role="menubar">
+  
+  <li>
+    <a href="/blog/index.html">Blog</a>
+  </li>
+  
+  <li>
+    <a href="/guide/index.html">Guide</a>
+  </li>
+  
+  <li>
+    <a href="/volunteering/index.html">Volunteering</a>
+  </li>
+  
+  <li>
+    <a href="/support/index.html">Support</a>
+  </li>
+  
+  </ul>
+  </nav>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col">
+<div class="row bg-blog-note">
+<div class="col-md-6">
+
+<div id="breadcrumbs">
+<h1 class="you-are-here">You are here</h1>
+
+<a href="/">Home</a>
+
+  
+    <a href="/blog/index.html">👉 Blog</a>
+  
+
+  
+    <a href="/blog/twist/index.html">👉 Twist</a>
+  
+
+  
+    <a href="/blog/twist/grapheel-archive/index.html">👉 Grapheel archive</a>
+  
+
+  
+    <br> 👉 Grapheel archive - An introduction to this category
+  
+
+</div>
+
+</div>
+<div class="col-md-6">
+  <button href="#quickLinks" type="button" class="d-lg-none mysecondarybtn" data-toggle="collapse" data-target="#selector" aria-controls="selector" aria-expanded="false" aria-label="Quick links">
+    <span><i class="fas fa-bookmark fa-lg" aria-hidden="false"></i></span>
+  </button>
+<div class="collapse d-lg-block" id="selector">
+
+<div class="row">
+<div class="col-md-3">
+<div class="dropdown bg-my-nav">
+<button type="button" class="Read-More" data-toggle="collapse" data-target="#volume-selector" aria-haspopup="true">Volume</button>
+        <div class="dropdown-menu" id="volume-selector">
+  
+  
+          <a class="dropdown-item" href= "/blog/logbook/index.html" >LogBook</a>
+  
+          <a class="dropdown-item" href= "/blog/twist/index.html" >TWIST</a>
+  
+  
+</div>
+</div>
+
+</div>
+<div class="col-md-3">
+<div class="dropdown bg-my-nav">
+<button type="button" class="Read-More" data-toggle="collapse" data-target="#chapter-selector" aria-haspopup="true">Chapter</button>
+        <div class="dropdown-menu" id="chapter-selector">
+  
+  
+          <a class="dropdown-item" href="/blog/twist/disabilities/index.html" >Living with disabilities</a>
+  
+          <a class="dropdown-item" href="/blog/twist/identities/index.html" >Identities</a>
+  
+          <a class="dropdown-item" href="/blog/twist/reading/index.html" >Reading</a>
+  
+          <a class="dropdown-item" href="/blog/twist/science/index.html" >Special interests</a>
+  
+    
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="dropdown bg-my-nav">
+<button type="button" class="Read-More" data-toggle="collapse" data-target="#section-selector" aria-haspopup="true">Section</button>
+        <div class="dropdown-menu" id="section-selector">
+  
+  <p>Please open a volume and a chapter, before you are able to select a section. It may also be that this chapter has not been divided into sections.</p>
+  
+</div>
+</div>
+
+</div>
+<div class="col-md-3">
+<div class="dropdown bg-my-nav">
+<button type="button" class="Read-More" data-toggle="collapse" data-target="#note-selector" aria-haspopup="true">Note</button>
+        <div class="dropdown-menu" id="note-selector">
+  
+  <p>Please select a section before selecting a note.</p>
+  
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col">
+<div class="announcement">
+<p>
+    📣 This area of the website is a 
+<a target="_blank" rel="noreferrer noopener" href="https://en.wikipedia.org/wiki/Software_release_life_cycle">
+beta version.
+</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-2">
+  <button href="#sidebar" type="button" class="d-lg-none mysecondarybtn" data-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle sidebar">
+    <span><i class="fas fa-bookmark fa-lg" aria-hidden="false"></i></span>
+  </button>
+<div class="collapse d-lg-block bg-background" id="sidebar" aria-label="sidebar navigation">
+<div class="row">
+<div class="col">
+  
+  <div class="mybtnquick">
+  <a href= "/about/index.html" >What we do</a>
+  </div>
+  
+  <div class="mybtnquick">
+  <a href= "/about/team/index.html" >Who we are</a>
+  </div>
+  
+  <div class="mybtnquick">
+  <a href= "/contact/index.html" >Contact us and FAQs</a>
+  </div>
+  
+  </div>
+  </div>
+<div class="row">
+<div class="col">
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#products" aria-haspopup="true">Products & Services</button>
+        <div class="dropdown-menu" id="products">
+    
+          <a class="dropdown-item" href= "/volunteering/become-a-volunteer.html" >Become a volunteer</a>
+  
+          <a class="dropdown-item" href= "/support/index.html" >Book a support session</a>
+  
+          <a class="dropdown-item" href= "/support/pricing.html" >Pricing</a>
+  
+  </div>
+</div>
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#media" aria-haspopup="true">Media</button>
+        <div class="dropdown-menu" id="media">
+  
+          <a class="dropdown-item" href= "/about/news.html" >News</a>
+  
+          <a class="dropdown-item" href= "/blog/all-posts.html" >Latest posts</a>
+  
+</div>
+</div>
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#development" aria-haspopup="true">Development</button>
+        <div class="dropdown-menu" id="development">
+    
+
+                    <a class="dropdown-item" href= "/blog/logbook/dev/change-log.html" >Roadmap</a>
+                    
+  
+
+                    <a class="dropdown-item" href= "/blog/logbook/issues/2020/06/05/initialise.html" >Issue tracking</a>
+                    
+  
+
+          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "https://github.com/dh256git/project27" >Git Hub</a>
+          
+  
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </header>
+
+  <main role="main" id="mainContent" class="container bg-background">
+   <div class="row">
+    <div class="col-md-8">
+      
+          
+                <a class="previous-post disabled" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+        
+        <br>
+        
+                <a class="next-post disabled" href="#" tabindex="-1" aria-disabled="true">Next</a>
+        
+  
+    </div>
+    <div class="col-md-4">
+      <button type="button" class="mysecondarybtn" data-toggle="collapse" data-target="#meta-info" aria-controls="meta-info" aria-expanded="false" aria-label="Page information">
+    <span><i class="fa fa-info-circle fa-lg" aria-hidden="false"></i></span>
+  </button>
+<div class="blog-post-meta collapse" id="meta-info">
+<p class="reading-time">Estimated time to read: 
+  
+  
+    1 min
+  
+</p>
+
+<p>Written by: Daniel</p>
+
+
+<p>Reviewed by: To be assigned. <a href="/guidelines/review.html">Read our guidelines on reviews.</a></p>
+
+
+<p>Published on: 02 Jan 2022</p>
+
+
+<p>Revised on: 01 Jan 2023</p>
+
+
+<p>Revision due: 01 Jan 2024</p>
+
+</div>
+    </div>
+    </div>
+
+  <div class="row">
+    <div class="col-md-8 blog-main">
+      <div class="blog-post">
+<h2>Grapheel archive - An introduction to this category</h2>
+
+
+<img src="/assets/images/Project27 logo.png" class="blog-cover" alt="The Project27 logo, used as a placeholder image.">
+
+
+<p>The posts in this category have been rolled over and archived from my two previous blogs. My first blog was called “SENSE: Science Education as a Non-Sighted Experience”, while the second blog was populated by the Grapheel team. 
+<!-- excerpt-end --></p>
+
+<p>I started SENSe, when I was a physics undergraduate to talk about some aspects of studying science as a blind student. I also did this blog to get a taste of blogging.</p>
+
+<p>The Grapheel blog was a part of the Grapheel website, which me and a couple other people worked on as student, social entrepreneurs. The website came with Grapheel Limited, a start-up company, which I have co-founded. Grapheel was hoping to make science education more accessible for blind learners.</p>
+
+<p>In this category, I wish to archive those posts which I authored earlier, as part of other blogs, but which never the less still hold value in my opinion. If nothing else, these early posts portray my thoughts and writing style from a few years prior to starting Project27.</p>
+
+      </div><!-- /.blog-post -->
+
+<hr>
+        
+                <a class="previous-post disabled" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+        
+        <br>
+        
+                <a class="next-post disabled" href="#" tabindex="-1" aria-disabled="true">Next</a>
+        
+  </div><!-- /.blog-main -->
+
+    <aside class="col-md-4 blog-sidebar">
+
+<h2>More posts from the  category</h2>
+
+<p>Did you like this post? Choose another post from the  category below.</p>
+
+
+<ul>
+
+<li>
+<a href="/blog/twist/grapheel-archive/2022/01/02/category.html">
+Grapheel archive - An introduction to this category
+</a>
+</li>
+
+</ul>
+
+
+    </aside><!-- /.blog-sidebar -->
+      </div><!-- /.row -->
+  </main>
+
+<footer id="footerContent" class="bg-blog-note">
+
+
+
+<div class="row">
+<div class="col-md-10">
+<div class="row">
+<div class="col-md-8">
+
+<div class="row">
+<div class="col-md-2">
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="margin: 10px" src="/assets/images/CC-88x31.png"/></a>
+</div>
+<div class="col-md-10">
+Except where otherwise noted, posts of the <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Project27 Blog</span> are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.</a>
+</div>
+</div>
+
+</div>
+<div class="col-md-4">
+      <nav class="navbar navbar-expand-md navbar-dark bg-nav-footer" tabindex="0" aria-label="Footer">
+<ul class="navbar-nav" role="menubar">
+  
+  <li>
+    <a href="/about/index.html">About</a>
+  </li>
+  
+  <li>
+    <a href="/contact/index.html">Contact</a>
+  </li>
+  
+  <li>
+    <a href="/guidelines/index.html">Guidelines</a>
+  </li>
+  
+  <li>
+    <a href="/legal/index.html">Legal</a>
+  </li>
+  
+  </ul>
+</nav>
+</div>
+</div>
+<div class="row">
+<div class="col">
+<h5>Follow us</h5>
+
+<div class="col">
+    <a href="https://www.twitter.com/project27skills/">
+<img src="/assets/images/icons/twitter.png" alt="Twitter icon" class="social-icon">
+</a>
+</div>
+
+<div class="col">
+    <a href="/404.html">
+<img src="/assets/images/icons/mastodon.jpg" alt="Mastodon icon" class="social-icon">
+</a>
+</div>
+
+<div class="col">
+    <a href="/404.html">
+<img src="/assets/images/icons/linkedin.png" alt="LinkedIn icon" class="social-icon">
+</a>
+</div>
+
+<div class="col">
+    <a href="/404.html">
+<img src="/assets/images/icons/youtube.jpg" alt="YouTube icon" class="social-icon">
+</a>
+</div>
+
+</div>
+</div>
+<div class="col-md-2">
+
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-10">
+<h5>Powered by</h5>
+<div class="row">
+<div class="col-md-3">
+<a href="https://github.com">
+<img src="/assets/images/Github logo.png" alt="Github" class= "powered-by-new">
+</a>
+</div>
+<div class="col-md-3">
+<a href="https://jekyllrb.com">
+<img src="/assets/images/Jekyll logo.png" alt="Jekyll" class= "powered-by-new">     
+</a>
+</div>
+<div class="col-md-3">
+<a href="https://getbootstrap.com">
+<img src="/assets/images/Bootstrap logo.png" alt="Bootstrap" class= "powered-by-new">  
+</a>
+</div>
+<div class="col-md-3">
+<a href="https://www.markdownguide.org">
+<img src="/assets/images/Markdown logo.png" alt="Markdown" class= "powered-by-new"> 
+</a>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<a href="https://www.latex-project.org">
+<img src="/assets/images/LaTeX logo.png" alt="LaTeX" class= "powered-by-new">  
+</a>
+</div>
+<div class="col-md-3">
+<a href="https://www.python.org">
+<img src="/assets/images/Python logo.png" alt="Python" class= "powered-by-new">
+</a>
+</div>
+<div class="col-md-3">
+<a href="https://www.r-project.org">
+<img src="/assets/images/Rlogo.png" alt="R" class= "powered-by-new">
+</a>
+</div>
+<div class="col-md-3">
+<a href="https://www.gnu.org/software/bash/">
+<img src="/assets/images/Bash shell logo.png" alt="Bash" class= "powered-by-new">
+</a>
+</div>
+</div>
+</div>
+<div class="col-md-2">
+<hr>
+
+<p>
+<a href="/about/terms-of-use.html">
+Terms of use
+</a>
+</p>
+
+<p>
+<a href="/contact/terms-of-service.html">
+Terms of service
+</a>
+</p>
+
+<p>
+<a href="/legal/privacy.html">
+Privacy policy
+</a>
+</p>
+
+<p><a href="/blog/logbook/dev/change-log.html">Version: 0.2.282.</a></p>
+<p>Last updated: 23 Apr 2023 at 21:15.</p>
+</div>
+</div>
+
+
+</footer>
+</div>
+<!-- Bootstrap dependency scripts -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- Mathematics script -->
+<script type="text/x-mathjax-config">
+(function () {
+
+MathJax.Hub.Config({
+	'showProcessingMessages': false,
+	'messageStyle': 'none'
+});
+
+if (typeof MathJaxListener !== 'undefined') {
+	MathJax.Hub.Register.StartupHook('End', function () {
+		MathJaxListener.invokeCallbackForKey_('End');
+	});
+}
+
+})();
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<!--script for read more modal -->
+<script defer src="/assets/js/modal.js"></script>
+
+<!--script for select pop-up -->
+<script defer src="/assets/js/pop-up.js"></script>
+
+  </body>
+</html>
