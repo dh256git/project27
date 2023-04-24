@@ -48,12 +48,28 @@ padding-right: 10px;
 padding-bottom: 10px;
 }
 
-.social-icon {
-    width: 20%;
-  height: 10%;
-  object-fit: scale-down;
-    }
+.twitter{
+width: 20%;
+height: 10%;
+}
 
+.mastodon {
+width: 20%;
+height: 10%;
+}
+
+.linkedin {
+width: 20%;
+height: 10%;
+}
+
+
+.youtube{
+width: 20%;
+height: 10%;
+}
+                
+                
 @media screen and (min-width: 480px){
     .social-icon {
         overflow: hidden;
