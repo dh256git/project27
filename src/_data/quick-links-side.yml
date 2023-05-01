@@ -15,7 +15,7 @@ productsAndServices:
 media:
   - name: News
     link: /about/news.html
-  - name: Latest posts
+  - name: Posts
     link: /blog/all-posts.html
 development:
   - name: Roadmap
@@ -24,3 +24,5 @@ development:
     link: /blog/logbook/issues/2020/06/05/initialise.html
   - name: Git Hub
     link: https://github.com/dh256git/project27
+  - name: Surge
+    link: http://p27skills.surge.sh

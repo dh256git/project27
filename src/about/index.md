@@ -11,11 +11,12 @@ listOfIcons: [["", ""], ["", ""]]
 ---
 ## About {{ site.brand }}
 
-We are a mission driven small family business, supporting blind or learning disabled people, and the community around them.
+We are a small family business, supporting blind or learning disabled people, and the community around them.
+{{ site.brand }} combines for-profit practices with nonprofit missions to create positive outcomes in a sustainable way.
 
 ### What we do
 
-We engage in five key activities to support our mission.
+We engage in multiple key activities to support our mission.
 
 1. **Sharing thoughts**: We share our lived experience of sight-loss, learning disability, and success, through our [blog.]({% link blog/index.html %})
 2. **Passive learning**: We enable people to learn about science and lifestyle, by creating accessible articles in the [{{ site.brand }} {{ site.product }}.]({% link guide/index.html %})

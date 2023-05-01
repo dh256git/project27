@@ -38,7 +38,9 @@
 </p>
 {% endfor %}
 <p><a href="{{ '/blog/logbook/dev/change-log.html' | prepend: site.baseurl }}">Version: {{ include.version }}.{{ include.subversion }}.{{ include.commit }}.</a></p>
-<p>Last updated: <br> {{ site.time | date_to_rfc822 | date: "%d %b %Y at %H:%M" }}.</p>
+<p>Last updated: 
+<span id="last-updated">{{ site.time | date_to_rfc822 | date: "%d %b %Y at %H:%M" }}.</span>
+</p>
 </div>
 </div>
 

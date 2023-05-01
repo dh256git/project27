@@ -8,6 +8,10 @@ licence: copyright
 buttonStyle: fg-general-land
 backgroundStyle: bg-general-land
 logs:
+  - name: April 2023
+    link: /blog/logbook/dev/changes/2023-04.html
+  - name: March 2023
+    link: /blog/logbook/dev/changes/2023-03.html
   - name: February 2023
     link: /blog/logbook/dev/changes/2023-02.html
   - name: January 2023
@@ -35,7 +39,7 @@ Here is what changed on the {{ site.brand }} site.
 
 ### Versioning
 
-The versioning convention is split to three parts:
+We use a versioning convention where the version number is split to three parts:
 
 1. Version: incremented once a year, typically in January;
 2. Sub-version: incremented once a month, typically on the first Sunday of the month;
@@ -46,3 +50,8 @@ The versioning convention is split to three parts:
 We aim to merge changes made in the development environment, with the live production site, once a month.
 This allows us to collect feedback, develop or update features, and test them, before publishing changes live.
 Occasional, quick fixes may be published before a sub-version update is due.
+
+### {{ site.brand }} on Surge
+
+We are using Surge to host our live test site.
+If you can't wait to see the latest updates, [check out {{ site.brand }} on Surge.](http://p27skills.surge.sh)

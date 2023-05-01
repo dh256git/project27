@@ -32,9 +32,9 @@
 </li>
 {% endfor %}
 </ul>
-{% elsif page.url contains "science" %}
+{% elsif page.url contains "special-interests" %}
 <ul>
-{% for post in site.categories.science %}
+{% for post in site.categories.special-interests %}
 <li>
 <a href="{{ post.url | prepend: site.baseurl }}">
 {{ post.title }}

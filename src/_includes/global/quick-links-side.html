@@ -33,7 +33,7 @@
 <button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#development" aria-haspopup="true">Development</button>
         <div class="dropdown-menu" id="development">
     {% for item in site.data.quick-links-side["development"] %}
-{% if item.link contains "github.com" %}
+{% if item.link contains "github.com" or item.link contains "surge.sh" %}
           <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
           {% else %}
                     <a class="dropdown-item" href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>

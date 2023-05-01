@@ -15,7 +15,7 @@ backgroundStyle: bg-blog-sect
 {% assign identitiesLink = '/blog/twist/identities/index.html' %}
 {% assign nanotipLink = '/blog/twist/nanotip/index.html' %}
 {% assign readingLink = '/blog/twist/reading/index.html' %}
-{% assign scienceLink = '/blog/twist/science/index.html' %}
+{% assign specialLink = '/blog/twist/special-interests/index.html' %}
 
 ## All posts
 
@@ -25,7 +25,7 @@ All the {{ site.brand }} blog posts in one place.
 
 <div class="blog-feed">
 {% for post in site.posts %}
-{% if post.url contains "cookbook" or post.url contains "vocal"  or post.url contains "grapheel" %}
+{% if post.url contains "guide" or post.url contains "grapheel" %}
 {% continue %}
 {% endif %}
 <div class="row">
@@ -55,8 +55,8 @@ All the {{ site.brand }} blog posts in one place.
 {% assign categoryLink = nanotipLink %}
 {% elsif post.url contains "reading" %}
 {% assign categoryLink = readingLink %}
-{% elsif post.url contains "science" %}
-{% assign categoryLink = scienceLink %}
+{% elsif post.url contains "special-interests" %}
+{% assign categoryLink = specialLink %}
 {% else %}
 {% assign categoryLink = '/404.html' %}
 {% endif %}

@@ -2,9 +2,10 @@
     
 {% if page.url contains "blog" %}
 <div id="spotlight" class="spotlight">
-<h3>Spotlight: View the latest posts</h3>
+<h3>Latest posts</h3>
 <div class="featured-feed">
 {% for post in site.posts limit:3 %}
+{% if post.url contains "blog/" %}
 <div class="row">
 <div class="col-3">
 {% if post.image %}
@@ -18,13 +19,14 @@
 <p>{{ post.date | date_to_rfc822 | date: "%d %b %Y" }}</p>
 </div>
 </div>
+{% endif %}
 {% endfor %}
 </div>
 {% include global/buttonLink.html url="/blog/all-posts.html" label="View all posts" %}
 </div>
 {% elsif page.url contains "volunteering" %}
 <div id="spotlight" class="spotlight">
-<h3>Spotlight: View the latest tasks</h3>
+<h3>Latest tasks</h3>
 <ul>
 {% for member in sortedTasks limit:3 %}
 <li>
@@ -35,7 +37,7 @@
 </div>
 {% else %}
 <div id="spotlight" class="spotlight">
-<h3>Spotlight: The latest news on {{ site.brand }}</h3>
+<h3>Latest news</h3>
 <div class="feed">
 {% for news in site.data.news  limit:3 %}
 <div class="row">
