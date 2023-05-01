@@ -49,9 +49,9 @@
 
 .fg-general-chap { background-color: #F9DBBE; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; margin-bottom: 10px; margin-top: 10px; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
-.next-post { background-color: #D3D3D3; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; width: fit-content; height: fit-content; border-radius: 22px; margin-top: 15px; margin-bottom: 15px; padding: 0px 10px; margin-left: 1px; display: inline-flex; text-align: center; }
+.next-post { background-color: #D3D3D3; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; width: fit-content; height: fit-content; border-radius: 22px; margin-top: 15px; margin-bottom: 15px; padding: 0px 10px; text-align: left; }
 
-.previous-post { background-color: #D3D3D3; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; width: fit-content; height: fit-content; border-radius: 22px; margin-top: 15px; margin-bottom: 15px; padding: 0px 10px; white-space: normal; text-align: center; display: inline-flex; position: relative; }
+.previous-post { background-color: #D3D3D3; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; width: fit-content; height: fit-content; border-radius: 22px; margin-top: 15px; margin-bottom: 15px; padding: 0px 10px; white-space: normal; text-align: left; }
 
 .fg-guide-land { background-color: #CBFBCB; font-size: 20px; color: black; border: solid black 3px; font-weight: bold; border-radius: 12px; display: inline-block; text-align: center; padding: 0 20px; margin: 0; }
 
@@ -147,9 +147,7 @@ nav a { color: black; }
 
 .blog-cover { width: 200px; justify-content: center; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; }
 
-.social-icon { width: 20%; height: 10%; object-fit: scale-down; }
-
-@media screen and (min-width: 480px) { .social-icon { overflow: hidden; width: 50%; height: 60%; } }
+.follow-by-new { overflow: hidden; width: 30%; height: 60%; }
 
 .feature-feed { padding: 5%; display: block; justify-content: center; grid-auto-flow: row; height: auto; }
 
@@ -166,6 +164,10 @@ nav a { color: black; }
 .thumbnail-image { padding-top: 5%; max-width: 80%; display: block; }
 
 .news-image-testimonials { padding-top: 5%; max-width: 80%; display: block; }
+
+@media screen and (min-width: 480px) { .powered-by-new { overflow: hidden; width: 50%; height: 60%; } }
+
+@media screen and (min-width: 480px) { .follow-us-new { overflow: hidden; width: 50%; height: 60%; } }
 
 @media screen and (min-width: 480px) { .feed { padding: 18%; display: grid; justify-content: center; grid-auto-flow: row; align-content: center; height: auto; row-gap: 5%; } }
 
