@@ -1,22 +1,9 @@
 <div class="row">
+{% for item in site.data.social-side %}
     <div class="col-md-3">
-    <a href="https://twitter.com/project27skills/">
-    <img src="{{ '/assets/images/icons/twitter logo.png' | prepend: site.baseurl }}" alt="Twitter" class= "follow-us-new">
+    <a href="{{ item.link }}">
+    <img src="{{ item.icon }}" alt="{{ item.name }}" class="follow-us-new">
     </a>
     </div>
-    <div class="col-md-3">
-    <a href="/404.html">
-    <img src="{{ '/assets/images/icons/mastodon logo.jpg' | prepend: site.baseurl }}" alt="Mastodon" class= "follow-us-new">     
-    </a>
-    </div>
-    <div class="col-md-3">
-    <a href="/404.html">
-    <img src="{{ '/assets/images/icons/linkedin logo.png' | prepend: site.baseurl }}" alt="Linkedin" class= "follow-us-new">  
-    </a>
-    </div>
-    <div class="col-md-3">
-    <a href="/404.html">
-    <img src="{{ '/assets/images/icons/youtube logo.jpg' | prepend: site.baseurl }}" alt="Youtube" class= "follow-us-new">  
-    </a>
-    </div>
+{% endfor %}
     </div>

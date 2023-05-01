@@ -1,12 +1,12 @@
-- name: Twitter icon
+- name: Twitter
   link: https://www.twitter.com/project27skills/
   icon: /assets/images/icons/twitter.png
-- name: Mastodon icon
+- name: Mastodon
   link: /404.html
   icon: /assets/images/icons/mastodon.jpg
-- name: LinkedIn icon
+- name: LinkedIn
   link: /404.html
   icon: /assets/images/icons/linkedin.png
-- name: YouTube icon
+- name: YouTube
   link: /404.html
   icon: /assets/images/icons/youtube.jpg
