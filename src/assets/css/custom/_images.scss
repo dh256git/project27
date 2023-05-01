@@ -48,35 +48,12 @@ padding-right: 10px;
 padding-bottom: 10px;
 }
 
-.twitter{
-width: 20%;
-height: 10%;
-}
-
-.mastodon {
-width: 20%;
-height: 10%;
-}
-
-.linkedin {
-width: 20%;
-height: 10%;
-}
-
-
-.youtube{
-width: 20%;
-height: 10%;
-}
+.follow-by-new {
+    overflow: hidden;
+    width: 30%;
+    height: 60%;
+    }
                 
-                
-@media screen and (min-width: 480px){
-    .social-icon {
-        overflow: hidden;
-        width: 50%;
-        height: 60%;
-        }
-}
 
 .feature-feed{
     padding: 5%;
@@ -130,6 +107,22 @@ height: 10%;
     padding-top: 5%;
     max-width: 80%;
     display: block;
+}
+
+@media screen and (min-width: 480px){
+.powered-by-new {
+    overflow: hidden;
+    width: 50%;
+    height: 60%;
+    }
+}
+
+@media screen and (min-width: 480px){
+    .follow-us-new {
+        overflow: hidden;
+        width: 50%;
+        height: 60%;
+        }
 }
 
 @media screen and (min-width: 480px){
