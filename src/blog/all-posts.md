@@ -58,7 +58,7 @@ All the {{ site.brand }} blog posts in one place.
 {% elsif post.url contains "science" %}
 {% assign categoryLink = scienceLink %}
 {% else %}
-{% assign categoryLink = '404.html' %}
+{% assign categoryLink = '/404.html' %}
 {% endif %}
 <a href="{{ categoryLink | prepend: site.baseurl }}">
 {{ post.tag }}
