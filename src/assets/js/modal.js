@@ -157,3 +157,16 @@ function showBookingFrame() {
     moreText.style.display = "inline";
   }
 }
+
+function showTimeLastUpdated() {
+  var dots = document.getElementById("time-last-updated-hide");
+  var moreText = document.getElementById("time-last-updated-show");
+
+  if (dots.style.display === "none") {
+    moreText.style.display = "none";
+      dots.style.display = "inline";
+  } else {
+    dots.style.display = "none";
+    moreText.style.display = "inline";
+  }
+}
