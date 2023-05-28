@@ -27,6 +27,10 @@ layout: default
 
 {% include global/blog-cover.html %}
 
+{% if page.youtube %}
+{% include global/youtube-frame.html link=page.youtube %}
+{% endif %}
+
 {{ content }}
       </div><!-- /.blog-post -->
 
