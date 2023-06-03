@@ -73,11 +73,10 @@
 }
 
 .spotlight{
-	margin: 0 auto 0 auto;
-	background: white;
-	max-width: 60px;
-	padding: 3px;
+  width: 100%;
   height: auto;
+	background: white;
+	padding: 3px;
 	border-radius: 10px;
 	box-shadow: 0 1px 5px rgba(0,0,0,.3);
 }
@@ -105,10 +104,6 @@
 
   @media screen and (min-width: 480px){
   .spotlight{
-    background: white;
-    max-width: 100%;
-    padding-block: 3%;
-    border-radius: 5%;
-    box-shadow: 0 1% 5% rgba(0,0,0,.3);
+    padding: 0% 20%;
   }
 }
