@@ -23,7 +23,14 @@ layout: default
   <div class="row">
     <div class="col-md-8 blog-main">
       <div class="blog-post">
+
+{% assign content_array = page.content | split: site.excerpt_separator %}
+{% assign excerpt_only = content_array | first %}
+{% assign content_remainder = content_array | last %}
+
 <h2>{{ page.title }}</h2>
+
+  {{ excerpt_only | append: '</p>'}}
 
 {% include global/blog-cover.html %}
 
@@ -31,7 +38,8 @@ layout: default
 {% include global/youtube-frame.html link=page.youtube %}
 {% endif %}
 
-{{ content }}
+  {{ content_remainder | remove_first: '</p>'}}
+
       </div><!-- /.blog-post -->
 
 <hr>

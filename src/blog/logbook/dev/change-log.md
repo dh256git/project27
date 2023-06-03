@@ -8,13 +8,15 @@ licence: copyright
 buttonStyle: fg-general-land
 backgroundStyle: bg-general-land
 logs:
-  - name: April 2023
+  - name: May 2023 (version 0.4)
+    link: /blog/logbook/dev/changes/2023-05.html
+  - name: April 2023 (version 0.3)
     link: /blog/logbook/dev/changes/2023-04.html
-  - name: March 2023
+  - name: March 2023 (version 0.2)
     link: /blog/logbook/dev/changes/2023-03.html
-  - name: February 2023
+  - name: February 2023 (version 0.1)
     link: /blog/logbook/dev/changes/2023-02.html
-  - name: January 2023
+  - name: January 2023 (version 0.0)
     link: /blog/logbook/dev/changes/2023-01.html
 ---
 
