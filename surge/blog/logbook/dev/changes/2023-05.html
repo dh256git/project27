@@ -13,7 +13,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title> Danielle Garratt</title>
+    <title> May - Change log</title>
 
 <!--Custom style sheets-->
         <link rel="stylesheet" href="/assets/css/main.css">
@@ -102,7 +102,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 <div class="row">
 <div class="col">
-<div class="row bg-general-chap">
+<div class="row bg-general-land">
 <div class="col-md-6">
 
 <div id="breadcrumbs">
@@ -111,21 +111,83 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <a href="/">Home</a>
 
   
-    <a href="/about/index.html">👉 About</a>
+    <a href="/blog/index.html">👉 Blog</a>
   
 
   
-    <a href="/about/team/index.html">👉 Team</a>
+    <a href="/blog/logbook/index.html">👉 Logbook</a>
   
 
   
-    <br> 👉 Danielle Garratt
+    <a href="/blog/logbook/dev/index.html">👉 Dev</a>
+  
+
+  
+    <br> 👉 May - Change log
   
 
 </div>
 
 </div>
 <div class="col-md-6">
+
+  <button href="#quickLinks" type="button" class="d-lg-none mysecondarybtn" data-toggle="collapse" data-target="#selector" aria-controls="selector" aria-expanded="false" aria-label="Quick links">
+    <span><i class="fas fa-bookmark fa-lg" aria-hidden="false"></i></span>
+  </button>
+<div class="collapse d-lg-block" id="selector">
+<div class="row">
+<div class="col-md-3">
+<div class="dropdown bg-my-nav">
+<button type="button" class="Read-More" data-toggle="collapse" data-target="#volume-selector" aria-haspopup="true">Volume</button>
+        <div class="dropdown-menu" id="volume-selector">
+  
+  
+          <a class="dropdown-item" href= "/blog/logbook/index.html" >LogBook</a>
+  
+          <a class="dropdown-item" href= "/blog/twist/index.html" >TWIST</a>
+  
+  
+</div>
+</div>
+
+</div>
+<div class="col-md-3">
+<div class="dropdown bg-my-nav">
+<button type="button" class="Read-More" data-toggle="collapse" data-target="#chapter-selector" aria-haspopup="true">Chapter</button>
+        <div class="dropdown-menu" id="chapter-selector">
+  
+  
+          <a class="dropdown-item" href="/blog/logbook/dev/index.html" >Project27 site development</a>
+  
+          <a class="dropdown-item" href="/blog/logbook/issues/index.html" >Issue tracking</a>
+  
+  
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="dropdown bg-my-nav">
+<button type="button" class="Read-More" data-toggle="collapse" data-target="#section-selector" aria-haspopup="true">Section</button>
+        <div class="dropdown-menu" id="section-selector">
+  
+  <p>Please open a volume and a chapter, before you are able to select a section. It may also be that this chapter has not been divided into sections.</p>
+  
+</div>
+</div>
+
+</div>
+<div class="col-md-3">
+<div class="dropdown bg-my-nav">
+<button type="button" class="Read-More" data-toggle="collapse" data-target="#note-selector" aria-haspopup="true">Note</button>
+        <div class="dropdown-menu" id="note-selector">
+  
+  <p>Please select a section before selecting a note.</p>
+  
+</div>
+</div>
+</div>
+</div>
+</div>
 
 </div>
 </div>
@@ -222,36 +284,25 @@ beta version.
   </header>
 
   <main role="main" id="mainContent" class="container bg-background">
- 
+ <h2 id="may---change-log">May - Change log</h2>
 
+<ol>
+  <li>Updated the post layout
+    <ul>
+      <li>excerpts now appear right under the title, and the content follows after the cover image and video content, if any.</li>
+    </ul>
+  </li>
+  <li>Made it easier to include YouTube content
+    <ul>
+      <li>If a post has an associated video, the site builder will automatically include the embedded YouTube video player, append a short text, display attribution, and separate the video region from the rest of the post.</li>
+    </ul>
+  </li>
+  <li>We also broke the mobile view, and images don’t display correctly on phones.</li>
+</ol>
 
-<div class="profilecontainertitle">
-<h2>Miss Danielle Garratt</h2>
-</div>
-<div class="profilecontainer">
-<img src="/assets/images/team/Danielle.png" class="danielle-profile" alt="Danielle is wearing a grey shirt with overalls over the top with a bread roll in her hand." height="300px" width="200px">
-
-<p>Danielle is taking a lead on our work with learning disability. She is also researching ways to make the project site look more visually appealing, while doing lots of hands-on CSS development.</p>
-</div>
-
-<select onchange="handleChange(this)">
-
-<option value="/about/team/Danielle/introduction.html" label="Welcome letter">Open letter</option>
-
-<option value="/about/team/Danielle/CV.html" label="Biography">Biography</option>
-
-<option value="/about/team/Danielle/publications.html" label="Publications">Publications</option>
-
-</select>
-
-<h3 id="frame-heading">Open letter</h3>
-
-<div class="iframe-container">
-<iframe src="/about/team/Danielle/introduction.html"title="Welcome letter" id="iframe-id" class="responsive-iframe"></iframe>
-</div>
   </main>
 
-<footer id="footerContent" class="bg-general-chap">
+<footer id="footerContent" class="bg-general-land">
 
 
 
@@ -260,14 +311,7 @@ beta version.
 <div class="row">
 <div class="col-md-8">
 
-<div class="row">
-<div class="col-md-2">
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="margin: 10px" src="/assets/images/CC-88x31.png"/></a>
-</div>
-<div class="col-md-10">
-Except where otherwise noted, <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Project27</span> materials hosted by <a xmlns:cc="http://creativecommons.org/ns#" href="/about/team/Daniel/index.html" property="cc:attributionName" rel="cc:attributionURL">Daniel Hajas</a> are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License.</a>
-</div>
-</div>
+Copyright © 2023 Project27. All rights reserved.
 
 </div>
 <div class="col-md-4">

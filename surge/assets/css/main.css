@@ -133,7 +133,7 @@ nav a { color: black; }
 
 .photo-of-daniel { width: 50%; }
 
-.powered-by-new { overflow: hidden; width: 25%; height: 60%; }
+.img-powered-by-new { width: 70%; height: auto; }
 
 .license { color: black; padding-left: 5px; margin-left: 10px; display: block; }
 
@@ -147,7 +147,7 @@ nav a { color: black; }
 
 .blog-cover { width: 200px; justify-content: center; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; }
 
-.follow-by-new { overflow: hidden; width: 30%; height: 60%; }
+.img-follow-us-new { width: 70%; height: auto; }
 
 .feature-feed { padding: 5%; display: block; justify-content: center; grid-auto-flow: row; height: auto; }
 
@@ -165,9 +165,9 @@ nav a { color: black; }
 
 .news-image-testimonials { padding-top: 5%; max-width: 80%; display: block; }
 
-@media screen and (min-width: 480px) { .powered-by-new { overflow: hidden; width: 50%; height: 60%; } }
+@media screen and (max-width: 480px) { .img-powered-by-new { padding: 0% 20%; } }
 
-@media screen and (min-width: 480px) { .follow-us-new { overflow: hidden; width: 50%; height: 60%; } }
+@media screen and (max-width: 480px) { .img-follow-us-new { padding: 0% 20%; } }
 
 @media screen and (min-width: 480px) { .feed { padding: 18%; display: grid; justify-content: center; grid-auto-flow: row; align-content: center; height: auto; row-gap: 5%; } }
 
@@ -199,7 +199,7 @@ nav a { color: black; }
 
 .responsive-iframe { position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100%; height: 100%; }
 
-.spotlight { margin: 0 auto 0 auto; background: white; max-width: 60px; padding: 3px; height: auto; border-radius: 10px; box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3); }
+.spotlight { width: 100%; height: auto; background: white; padding: 3px; border-radius: 10px; box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3); }
 
 .announcement { display: inline-block; height: 100%; text-align: center; width: 100%; background: #D3D3D3; color: black; margin: 0; padding: 0; vertical-align: middle; border: solid black 3px; }
 
@@ -207,7 +207,7 @@ nav a { color: black; }
 
 .announcement a:hover { color: #0000EE; }
 
-@media screen and (min-width: 480px) { .spotlight { background: white; max-width: 100%; padding-block: 3%; border-radius: 5%; box-shadow: 0 1% 5% rgba(0, 0, 0, 0.3); } }
+@media screen and (min-width: 480px) { .spotlight { padding: 0% 20%; } }
 
 :root { --blue: #007bff; --indigo: #6610f2; --purple: #6f42c1; --pink: #e83e8c; --red: #dc3545; --orange: #fd7e14; --yellow: #ffc107; --green: #28a745; --teal: #20c997; --cyan: #17a2b8; --white: #fff; --gray: #6c757d; --gray-dark: #343a40; --primary: #0000EE; --secondary: #6c757d; --success: #28a745; --info: #17a2b8; --warning: #ffc107; --danger: #dc3545; --light: #f8f9fa; --dark: #343a40; --breakpoint-xs: 0; --breakpoint-sm: 576px; --breakpoint-md: 768px; --breakpoint-lg: 992px; --breakpoint-xl: 1200px; --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
