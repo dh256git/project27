@@ -5,37 +5,31 @@ menu: meat feast
 tag: meat feast
 buttonStyle: fg-guide-sect
 backgroundStyle: bg-guide-sect
-video: https://youtu.be/nWvHNLHrXZ0
+youtube: nWvHNLHrXZ0
+attribution: The Stay At Home Chef
+attributionLink: https://www.youtube.com/@Thestayathomechef
 music: https://open.spotify.com/playlist/37i9dQZF1DX1riuLHc7Ui5?si=P7Fz8s18QQKamfbkYGBJ_w
 additional:
   - name: Phil’s Slow Roasted Pork Steak
     link: https://www.stltoday.com/lifestyles/food-and-cooking/recipes/phil-s-slow-roasted-pork-steak/article_898b02f5-138a-5a56-836b-a9b3bb12c4d3.html
   - name: Easy bake pork chops
     link: https://thestayathomechef.com/easy-baked-pork-chops/
-time: Takes as long as it takes.
-serves: Make sure to share, and buy for your pals.
+time: 90
+serves: 6
 ---
 
-Let's see how to cook your chosen dish.
+If you like stake. This stake is one for you to try.
 <!-- excerpt-end -->
 
-## Ingredients
-
-Here is what you need to have at home.
-
-
 {% assign dataFile = site.data.cookbook.meats.slow %}
-{% include global/tabulator2.html %}
 
+{% capture kitchenware %}
+1. a glass mixing bowl;
+2. a baking tray;
+3. a knife, and a squeezer;
+{% endcapture %}
 
-Serves: {{ page.serves }}
-
-## Preparation
-
-Here are the steps to cook the meal. {{ page.time }} Share and enjoy!
-
-1. Play music in the kitchen. [I recommend this playlist.]({{ page.music }})
-2. Pore a glass of drink for the chef.
+{% capture steps %}
 3. Peal the potatos, dice them and let it rest in cold water.
 4. Boil the eggs, and the potato. For the potato, keep checking softness. 
 5. In a big mixing, glass bowl, mix the sliced eggs, diced potato, chopped onions, mayonnaise, and the smoked lardon. If available, add a bit of lemon juice.
@@ -48,3 +42,6 @@ For the meet:
 4. Add 1/3 cup of water and seal the tray with foil.
 5. Bake for 1.5 hours, on 160 degrees.
 6. Serve the meat with the potato salad.
+{% endcapture %}
+
+{% include guide/recipe-card.html kitchenware=kitchenware steps=steps tip1=tip1 tip2=tip2 tip3=tip3 %}

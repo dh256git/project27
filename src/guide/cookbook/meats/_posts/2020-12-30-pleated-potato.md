@@ -5,37 +5,31 @@ menu: meat feast
 tag: meat feast
 buttonStyle: fg-guide-sect
 backgroundStyle: bg-guide-sect
-video: https://youtu.be/hTPSdevZPEg
+youtube: hTPSdevZPEg
+attribution: Budapesti Família
+attributionLink: https://www.youtube.com/@BudapestiFamilia
 music: https://open.spotify.com/playlist/37i9dQZF1DX1riuLHc7Ui5?si=P7Fz8s18QQKamfbkYGBJ_w
 additional:
   - name: Pleated potato casserole (Rakott krumpli)
     link: https://jamiegeller.com/recipes/pleated-potato-casserole-rakott-krumpli/
   - name: Rakott krumpli (World Food Story)
     link: https://www.worldfoodstory.co.uk/recipe/rakott-krumpli?cn-reloaded=1
-time: Takes as long as it takes.
-serves: Make sure to share, and buy for your pals.
+time: 40
+serves: 4
 ---
 
-Let's see how to cook your chosen dish.
+This is one of my favourites. It has so many different flavours. 
 <!-- excerpt-end -->
 
-## Ingredients
-
-Here is what you need to have at home.
-
-
 {% assign dataFile = site.data.cookbook.meats.pleated-potato %}
-{% include global/tabulator2.html %}
 
+{% capture kitchenware %}
+1. a saucepan;
+2. a knife;
+3. a baking tray;
+{% endcapture %}
 
-Serves: {{ page.serves }}
-
-## Preparation
-
-Here are the steps to cook the meal. {{ page.time }} Share and enjoy!
-
-1. Play music in the kitchen. [I recommend this playlist.]({{ page.music }})
-2. Pore a glass of drink for the chef.
+{% capture steps %}
 3. Start with boiling the whole pilled potatoes and eggs. After these are done, wait until they cool down.
 4. SLice the sausage, potatos, and eggs.
 5. Take a baking tray and oil up the bottom of it. Spread some bread crumble over the tray.
@@ -46,3 +40,6 @@ Here are the steps to cook the meal. {{ page.time }} Share and enjoy!
 10. Finish it with olive oil on the potato and breadcrumbs.
 11. Bake in the oven for 20 minutes, on 180 degrees Celsius.
 12. Serve and enjoy.
+{% endcapture %}
+
+{% include guide/recipe-card.html kitchenware=kitchenware steps=steps tip1=tip1 tip2=tip2 tip3=tip3 %}

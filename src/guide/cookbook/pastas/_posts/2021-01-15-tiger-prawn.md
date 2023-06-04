@@ -5,36 +5,31 @@ menu: pasta
 tag: pasta
 buttonStyle: fg-guide-sect
 backgroundStyle: bg-guide-sect
-video: https://youtu.be/3aQIYxXLlP4
+youtube: 3aQIYxXLlP4
+attribution: Adrian Heeley
+attributionLink: https://www.youtube.com/@adrianheeley1157
 music: https://open.spotify.com/playlist/37i9dQZF1DZ06evO2piM6c?si=dZHuHcdOQLacrYrR7N5_Yg
 additional:
   - name: Wild Garlic Pesto Spaghetti with Prawns
     link: https://www.finefoodspecialist.co.uk/blog/wild-garlic-pesto-spaghetti-with-prawns
   - name: Tagliatelle with wild garlic pesto
     link: https://www.kitchenstories.com/en/recipes/tagliatelle-with-wild-garlic-pesto
-time: Takes as long as it takes.
-serves: Make sure to share, and buy for your pals.
+time: 30
+serves: 4
 ---
 
 If you want to show off with a tasty, healthy, mediterranean meal, this pasta is a great choice.
 <!-- excerpt-end -->
 
-## Ingredients
-
-Here is what you need to have at home.
-
 {% assign dataFile = site.data.cookbook.pastas.tiger-prawn %}
-{% include global/tabulator2.html %}
 
+{% capture kitchenware %}
+1. a frying pan;
+2. a knife;
+3. tongs;
+{% endcapture %}
 
-Serves: {{ page.serves }}
-
-## Preparation
-
-Here are the steps to cook the meal. {{ page.time }} Share and enjoy!
-
-1. Play music in the kitchen. [I recommend this playlist.]({{ page.music }})
-2. Pore a glass of drink for the chef.
+{% capture steps %}
 3. Slice the pealed cloves of garlic, and the shiitake mushrooms. Clean the tiger prawns if needed.
 4. Add olive oil in a frying pan, and start frying the garlic and the mushroom a few minutes later. Meantime, boil cooking water for the pasta.
 5. When the garlic and mushroom starts to soften (1-2 minutes), add the pasta to the water to cook for 6-8 minutes. At the same time, fry the tiger prawns with the garlic and mushroom. After 3-4 minutes, flip the tiger prawns on their other side, so they fry equally. When the pasta has cooked, and prawns have fried, take prawns off the hob to avoid over cooking.
@@ -42,3 +37,6 @@ Here are the steps to cook the meal. {{ page.time }} Share and enjoy!
 7. When the pasta has been mixed, serve it on a plate, than top it up with a handful of rucola and a handful of halfed cherry tomatoes.
 8. Scoop a couple of prawns onto it, adding a bit of the mushroom and garlic too.
 9. Enjoy the meal with a glass of white or rose wine.
+{% endcapture %}
+
+{% include guide/recipe-card.html kitchenware=kitchenware steps=steps tip1=tip1 tip2=tip2 tip3=tip3 %}

@@ -5,37 +5,32 @@ menu: meat feast
 tag: meat feast
 buttonStyle: fg-guide-sect
 backgroundStyle: bg-guide-sect
-video: https://youtu.be/49wU-HxpK1Y
+youtube: 49wU-HxpK1Y
+attribution: Green Healthy Cooking
+attributionLink: https://www.youtube.com/@Greenhealthycooking
 music: https://open.spotify.com/playlist/37i9dQZF1E8TxPTejrlr81?si=-kV5aNERRXaMfq0WuERfvw
 additional:
   - name: 12 minute chicken and broccoli
     link: https://www.gimmesomeoven.com/chicken-broccoli-recipe/
   - name: Soy glazed chicken with broccoli
     link: https://www.epicurious.com/recipes/food/views/soy-glazed-chicken-with-broccoli
-time: Takes as long as it takes.
-serves: Make sure to share, and buy for your pals.
+time: 60
+serves: 6
 ---
 
 The roasted seeds, sweet chilly sauce, soft pieces of broccoli, and the marinated chicken bits make a flavourful dinner.
 <!-- excerpt-end -->
 
-## Ingredients
-
-Here is what you need to have at home.
-
 
 {% assign dataFile = site.data.cookbook.meats.broccoli %}
-{% include global/tabulator2.html %}
 
+{% capture kitchenware %}
+1. a knife, and a chopping board;
+2. a baking dish;
+3. a tin foil;
+{% endcapture %}
 
-Serves: {{ page.serves }}
-
-## Preparation
-
-Here are the steps to cook the meal. {{ page.time }} Share and enjoy!
-
-1. Play music in the kitchen. [I recommend this playlist.]({{ page.music }})
-2. Pore a glass of drink for the chef.
+{% capture steps %}
 3. Dice the chicken breasts into small pieces, and set it aside.
 4. In a bowl for marination, add the soy sauce, mustard, honey, and a few twists of black pepper. Mix them until smooth.
 5. Drop the chicken peaces in the sauce, and stir it well. Set it aside in the fridge, while you chop up the broccoli.
@@ -44,3 +39,6 @@ Here are the steps to cook the meal. {{ page.time }} Share and enjoy!
 8. Fill in the gaps with the marinated chicken pieces. Spray a little oil over the top of the content, then cover with foil.
 9. Bake for 30 minutes at 180 degrees.
 10. Serve with roasted seeds, and a splash of sweet chilly.
+{% endcapture %}
+
+{% include guide/recipe-card.html kitchenware=kitchenware steps=steps tip1=tip1 tip2=tip2 tip3=tip3 %}

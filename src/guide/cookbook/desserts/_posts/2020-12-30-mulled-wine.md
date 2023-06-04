@@ -24,9 +24,9 @@ This is a quick and tasty treat. No chewing is required. Ideal during the winter
 {% assign dataFile = site.data.cookbook.desserts.mulled %}
 
 {% capture kitchenware %}
-1. a large pot
-2. a tea infuser and a mannual wisk
-3. a grater and a squeezer 
+1. a large pot;
+2. a tea infuser and a mannual wisk;
+3. a grater and a squeezer;
 {% endcapture %}
 
 {% capture steps %}

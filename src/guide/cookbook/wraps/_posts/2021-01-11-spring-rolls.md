@@ -5,37 +5,31 @@ menu: wraps and rolls
 tag: wraps and rolls
 buttonStyle: fg-guide-sect
 backgroundStyle: bg-guide-sect
-video: https://youtu.be/7uzL7Ep2Ii0
+youtube: 7uzL7Ep2Ii0
+attribution: Lacey Baier
+attributionLink: https://www.youtube.com/@laceybaier_
 music: https://open.spotify.com/album/5O2Blb3Ti3eHPluZq7hfrk?si=A00Cj6mOTeapmfKbc9Iy9w
 additional:
   - name: Vietnamese fresh spring rolls (All recipes)
     link: https://www.allrecipes.com/recipe/24239/vietnamese-fresh-spring-rolls/
   - name: Fresh Summer Rolls with Peanut Dipping Sauce
     link: https://sallysbakingaddiction.com/homemade-fresh-summer-rolls-with-easy-peanut-dipping-sauce/
-time: Takes as long as it takes.
-serves: Make sure to share, and buy for your pals.
+time: 30
+serves: 4
 ---
 
 A roll for every season, let it be spring or summer. The wife of a Vietnamese colleague makes these amazing spring rolls, so I had to try it myself. Crispy, delicious, and you can easily eat one too many.
 <!-- excerpt-end -->
 
-## Ingredients
-
-Here is what you need to have at home.
-
 {% assign dataFile = site.data.cookbook.wrap.spring %}
-{% include global/tabulator2.html %}
 
+{% capture kitchenware %}
+1. 2 mixing bowl;
+2. a frying pan;
+3. a teaspoon;
+{% endcapture %}
 
-Serves: {{ page.serves }}
-
-## Preparation
-
-Here are the steps to cook the meal. {{ page.time }} Share and enjoy!
-
-1. Play music in the kitchen. [I recommend this playlist.]({{ page.music }})
-2. Pore a glass of drink for the chef.
-
+{% capture steps %}
 ### Dipping sauce:
 
 1. In a mixing bowl, combine the fish sauce, sugar, lime, a bit soy sauce for nice colouring, very finely chopped garlic and chilly flakes or nicely chopped chilly if it's fresh. Add warm water to play with the thickness of the sauce.
@@ -55,3 +49,6 @@ So you’ve done the most challenging bit. Now come to the fun: Frying. This ste
 - Gently flip the rolls to fry the other side when they start to get yellow / light brown.
 
 If you want to save some in freezer, wait for it to cool down. These can be cooked from frozen, Just pan fry to achieve the golden brown finish when you want to eat it.
+{% endcapture %}
+
+{% include guide/recipe-card.html kitchenware=kitchenware steps=steps tip1=tip1 tip2=tip2 tip3=tip3 %}
