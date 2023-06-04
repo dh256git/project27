@@ -5,17 +5,25 @@ levelToOpen: chapter
 buttonStyle: fg-guide-vol
 backgroundStyle: bg-guide-vol
 listOfIcons: [["", "Bash shell logo.png"], ["", "Github logo.png"], ["", "Markdown logo.png"], ["", "Jekyll logo.png"], ["", "Python logo.png"], ["", "Rlogo.png"]]
-levelToOpen: volume
 ---
+
+{% comment %}
 <div class="container">
-    <h2 class="cover-heading">Volume on digital skills</h2>
+{% endcomment %}
 
-<p>Digital skills is a volume of notes on how to do small, practical tasks on the computer, in context of studying, researching, and publishing scientific content.</p>
+## {{ page.title }}
 
-<hr>
+This volume includes notes on developing useful digital skills, and learning how to use tools, such as the command-line, git version control, or web technologies.
+
+Initially, we include four chapters in this volume.
+These topics cover technologies and digital skills we learnt, while building the {{ site.brand }} site.
+
+---
 
 {% assign dataFile = site.data.chapters.CL %}
 {% assign gridLimit = 4 %}
 {% include global/grid-generator.html heading="h3" %}
 
+{% comment %}
 </div>
+{% endcomment %}

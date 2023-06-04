@@ -1,8 +1,8 @@
 ---
-layout: default
-title: Chapter on git
+layout: contents
+title: Git and GitHub
 buttonStyle: fg-guide-chap
 backgroundStyle: bg-guide-chap
 ---
 
-# Chapter on gitbash
+{% assign theCategory = site.categories.git %}

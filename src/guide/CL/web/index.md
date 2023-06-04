@@ -1,8 +1,6 @@
 ---
-layout: default
-title: Chapter on web development
+layout: contents
+title: Web development
 buttonStyle: fg-guide-chap
 backgroundStyle: bg-guide-chap
 ---
-
-# Chapter on web development
