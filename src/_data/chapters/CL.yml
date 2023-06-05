@@ -5,7 +5,7 @@
   link: /guide/CL/git/index.html
   description: Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 - name: Markdown
-  link: /guide/CL/md/index.html
+  link: /guide/CL/markdown/index.html
   description: Markdown is a lightweight markup language with plain-text-formatting syntax. ... Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
 - name: Web development
   link: /guide/CL/web/index.html

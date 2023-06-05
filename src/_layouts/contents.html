@@ -53,8 +53,17 @@ layout: default
 {% elsif page.url contains "salads/" %}
 {% assign theCategory = site.categories.salads %}
 {% elsif page.url contains "soups/" %}
-{% assign theCategory = site.categories.soups %}{% elsif page.url contains "wraps/" %}
+{% assign theCategory = site.categories.soups %}
+{% elsif page.url contains "wraps/" %}
 {% assign theCategory = site.categories.wraps %}
+{% elsif page.url contains "bash/" %}
+{% assign theCategory = site.categories.bash %}
+{% elsif page.url contains "git/" %}
+{% assign theCategory = site.categories.git %}
+{% elsif page.url contains "markdown/" %}
+{% assign theCategory = site.categories.markdown %}
+{% elsif page.url contains "web/" %}
+{% assign theCategory = site.categories.web %}
 {% endif %}
 
   <h2>{{ page.title }}</h2>
