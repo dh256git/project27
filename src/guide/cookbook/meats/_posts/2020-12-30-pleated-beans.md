@@ -1,6 +1,7 @@
 ---
 layout: recipes
 title: Pleated green bean casserole
+volume: cookbook
 menu: meat feast
 tag: meat feast
 buttonStyle: fg-guide-sect

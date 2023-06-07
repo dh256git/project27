@@ -1,6 +1,7 @@
 ---
 layout: recipes
 title: Origano-tomato tuna pasta
+volume: cookbook
 menu: pasta
 tag: pasta
 buttonStyle: fg-guide-sect

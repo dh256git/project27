@@ -1,6 +1,7 @@
 ---
 layout: recipes
 title: Prawn and sun-dried tomato risotto
+volume: cookbook
 menu: risotto
 tag: risotto
 buttonStyle: fg-guide-sect

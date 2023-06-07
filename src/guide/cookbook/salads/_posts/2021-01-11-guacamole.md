@@ -1,6 +1,7 @@
 ---
 layout: recipes
 title: Guacamole
+volume: cookbook
 menu: salads
 tag: salads
 buttonStyle: fg-guide-sect

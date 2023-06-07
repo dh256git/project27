@@ -1,6 +1,7 @@
 ---
 layout: recipes
 title: Marinated chicken with tomato and mozarella salad
+volume: cookbook
 menu: meat feast
 tag: meat feast
 buttonStyle: fg-guide-sect

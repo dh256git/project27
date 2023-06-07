@@ -64,6 +64,10 @@ layout: default
 {% assign theCategory = site.categories.markdown %}
 {% elsif page.url contains "web/" %}
 {% assign theCategory = site.categories.web %}
+{% elsif page.url contains "capturing-stories/" %}
+{% assign theCategory = site.categories.capturing-stories %}
+{% elsif page.url contains "sharing-stories/" %}
+{% assign theCategory = site.categories.sharing-stories %}
 {% endif %}
 
   <h2>{{ page.title }}</h2>

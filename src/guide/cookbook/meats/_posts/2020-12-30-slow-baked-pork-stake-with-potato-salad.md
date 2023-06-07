@@ -1,6 +1,7 @@
 ---
 layout: recipes
 title: Slow baked pork stake
+volume: cookbook
 menu: meat feast
 tag: meat feast
 buttonStyle: fg-guide-sect

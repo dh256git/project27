@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Writing questions and taking notes
+title: How do you capture stories and why do you care?
 volume: vocal
 chapter: capturing stories 
 tag: capturing stories
