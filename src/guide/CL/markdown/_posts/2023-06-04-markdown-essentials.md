@@ -1,4 +1,7 @@
 ---
 layout: post
-title: Add, commit, push - the git essentials
+title: Headings, lists, and links - the Markdown essentials
+volume: digital skills
+chapter: markdown
+tag: markdown
 ---
