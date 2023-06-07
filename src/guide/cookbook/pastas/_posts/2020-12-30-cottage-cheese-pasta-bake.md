@@ -1,6 +1,7 @@
 ---
 layout: recipes
 title: Cottage cheese pasta bake
+volume: cookbook
 menu: pasta
 tag: pasta
 buttonStyle: fg-guide-sect

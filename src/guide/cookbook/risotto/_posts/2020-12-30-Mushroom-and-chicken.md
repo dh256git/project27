@@ -1,6 +1,7 @@
 ---
 layout: recipes
 title: Mushroom and chicken risotto
+volume: cookbook
 menu: risotto
 tag: risotto
 buttonStyle: fg-guide-sect

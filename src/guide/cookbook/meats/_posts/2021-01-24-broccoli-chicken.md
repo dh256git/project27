@@ -1,6 +1,7 @@
 ---
 layout: recipes
 title: Broccoli with honey glazed chicken
+volume: cookbook
 menu: meat feast
 tag: meat feast
 buttonStyle: fg-guide-sect

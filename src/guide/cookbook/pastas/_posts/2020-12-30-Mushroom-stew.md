@@ -1,6 +1,7 @@
 ---
 layout: recipes
 title: Mushroom stew
+volume: cookbook
 menu: pasta
 tag: pasta
 buttonStyle: fg-guide-sect

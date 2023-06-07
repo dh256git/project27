@@ -1,6 +1,7 @@
 ---
 layout: recipes
 title: Creamy pea soup
+volume: cookbook
 menu: soups to scoop
 tag: soups to scoop
 buttonStyle: fg-guide-sect

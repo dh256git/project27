@@ -1,6 +1,7 @@
 ---
 layout: recipes
 title: Spaghetti Carbonara
+volume: cookbook
 menu: pasta
 tag: pasta
 buttonStyle: fg-guide-sect

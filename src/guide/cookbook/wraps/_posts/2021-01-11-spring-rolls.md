@@ -1,6 +1,7 @@
 ---
 layout: recipes
 title: Vietnamese spring rolls
+volume: cookbook
 menu: wraps and rolls
 tag: wraps and rolls
 buttonStyle: fg-guide-sect

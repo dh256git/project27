@@ -1,6 +1,7 @@
 ---
 layout: recipes
 title: Prawn cocktail
+volume: cookbook
 menu: fish dish
 tag: fish dish
 buttonStyle: fg-guide-sect

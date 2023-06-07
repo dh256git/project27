@@ -1,6 +1,7 @@
 ---
 layout: recipes
 title: Mulled wine
+volume: cookbook
 menu: desserts and breakfast
 tag: desserts and breakfast
 buttonStyle: fg-guide-sect

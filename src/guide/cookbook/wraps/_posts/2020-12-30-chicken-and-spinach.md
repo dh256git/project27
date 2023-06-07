@@ -1,6 +1,7 @@
 ---
 layout: recipes
 title: Chicken and spinach wrap
+volume: cookbook
 menu: wraps and rolls
 tag: wraps and rolls
 buttonStyle: fg-guide-sect
