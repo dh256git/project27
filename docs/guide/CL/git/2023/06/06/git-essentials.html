@@ -13,7 +13,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title> Mushroom stew</title>
+    <title> Add, commit, push - the git essentials</title>
 
 <!--Custom style sheets-->
         <link rel="stylesheet" href="/assets/css/main.css">
@@ -102,7 +102,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 <div class="row">
 <div class="col">
-<div class="row bg-guide-sect">
+<div class="row ">
 <div class="col-md-6">
 
 <div id="breadcrumbs">
@@ -115,15 +115,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   
 
   
-    <a href="/guide/cookbook/index.html">👉 Cookbook</a>
+    <a href="/guide/cl/index.html">👉 Cl</a>
   
 
   
-    <a href="/guide/cookbook/pastas/index.html">👉 Pastas</a>
+    <a href="/guide/cl/git/index.html">👉 Git</a>
   
 
   
-    <br> 👉 Mushroom stew
+    <a href="/guide/cl/git/2023/index.html">👉 2023</a>
+  
+
+  
+    <a href="/guide/cl/git/2023/06/index.html">👉 06</a>
+  
+
+  
+    <a href="/guide/cl/git/2023/06/06/index.html">👉 06</a>
+  
+
+  
+    <br> 👉 Add, commit, push - the git essentials
   
 
 </div>
@@ -166,25 +178,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <button type="button" class="Read-More" data-toggle="collapse" data-target="#chapter-selector" aria-haspopup="true">Chapter</button>
         <div class="dropdown-menu" id="chapter-selector">
   
-  
-          <a class="dropdown-item" href="/guide/cookbook/desserts/index.html" >Desserts and breakfast</a>
-  
-          <a class="dropdown-item" href="/guide/cookbook/fish/index.html" >Fish dish and other sea bits</a>
-  
-          <a class="dropdown-item" href="/guide/cookbook/meats/index.html" >Meat feast and casseroles</a>
-  
-          <a class="dropdown-item" href="/guide/cookbook/pastas/index.html" >Pasta</a>
-  
-          <a class="dropdown-item" href="/guide/cookbook/risotto/index.html" >Risotto</a>
-  
-          <a class="dropdown-item" href="/guide/cookbook/salads/index.html" >Salads and dips</a>
-  
-          <a class="dropdown-item" href="/guide/cookbook/soups/index.html" >Soups to scoop</a>
-  
-          <a class="dropdown-item" href="/guide/cookbook/wraps/index.html" >Wraps and rolls</a>
-  
-          <a class="dropdown-item" href="/guide/cookbook/general/freezer/inventory.html" >Freezer inventory</a>
-  
+  <p>Please select a volume before selecting a chapter.</p>
   
 </div>
 </div>
@@ -312,11 +306,11 @@ beta version.
     <div class="col-md-8">
       
           
-        <a class="previous-post" href="/guide/cookbook/pastas/2020/12/30/Spaghetti-Carbonara.html">Previous: Spaghetti Carbonara</a>
+                <a class="previous-post disabled" href="" tabindex="-1" aria-disabled="true">Previous</a>
         
         <br>
         
-                <a class="next-post disabled" href="" tabindex="-1" aria-disabled="true">Next</a>
+        <a class="next-post" href="/guide/cl/git/2023/06/04/git-hub.html" tabindex="-1" aria-disabled="false">Next: An introduction to GitHub</a>
         
   
     </div>
@@ -328,7 +322,7 @@ beta version.
 <p class="reading-time">Estimated time to read: 
   
   
-    2 - 2 mins
+    3 - 4 mins
   
 </p>
 
@@ -338,7 +332,7 @@ beta version.
 <p>Reviewed by: To be assigned. <a href="/guidelines/review.html">Read our guidelines on reviews.</a></p>
 
 
-<p>Published on: 30 Dec 2020</p>
+<p>Published on: 06 Jun 2023</p>
 
 
 <p>Revised on: 01 Jan 2023</p>
@@ -358,9 +352,10 @@ beta version.
 
 
 
-<h2>Mushroom stew</h2>
+<h2>Add, commit, push - the git essentials</h2>
 
-  <p>Six steaps to make a really easy recipe that you can enjoy.
+  <p>There are only 3 Git commands you need to know, before you can start enjoying the benefits of Git.
+Add, commit, and push.
 </p>
 
 
@@ -368,217 +363,132 @@ beta version.
 
 
 
-<h3>Not keen on reading?</h3>
-
-
-<p>We thought this video by 
-<a href="https://www.youtube.com/@foodwishes">
-Food Wishes
-</a>
- is a good alternative of this post.</p>
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UxZk762hZgM" title="Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<hr>
-
 
   
 
-<h3 id="ingredients-and-kitchenware">Ingredients and kitchenware</h3>
+<h3 id="cheatsheet">Cheatsheet</h3>
 
-<p>The following recommendation usually serves 4 of us.
-Make sure you have enough to share with your pals.</p>
+<p>To add, commit, and push changes in your current working directory, use the following git commands:</p>
 
-<p>Before you start, check that you have the following ingredients.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add .
+git commit -m '&lt;your commit message&gt;'
+git push origin &lt;name of remote branch&gt;
+</code></pre></div></div>
 
-<table>
-  
-    
-    <tr>
-      
-        <th scope="col">Ingredient</th>
-      
-        <th scope="col"> Quantity</th>
-      
-        <th scope="col"> Unit</th>
-      
-    </tr>
-    
+<h3 id="before-you-start">Before you start</h3>
 
-    <tr class="row1">
-<td class="col1">
-      mushroom
-    </td><td class="col2">
-       600
-    </td><td class="col3">
-       g
-    </td></tr>
+<p>For the following tip to work, we assume you have</p>
 
-      
-    
+<ul>
+  <li>installed git in your command-line interface;</li>
+  <li>Created a remote repository on GitHub, initialising it with a README file;</li>
+  <li>cloned the remote repository to a local folder on your computer using the address GitHub provided;</li>
+</ul>
 
-    <tr class="row1">
-<td class="col1">
-      cooking onion
-    </td><td class="col2">
-       1
-    </td><td class="col3">
-       piece
-    </td></tr>
+<p>Don’t worry, we can write short notes on all of the above on demand.
+In the meantime, we encourage you to ask Google, and to <a href="/support/">get support</a> from us.</p>
 
-      
-    
+<h3 id="the-3-most-used-commands">The 3 most used commands</h3>
 
-    <tr class="row1">
-<td class="col1">
-      lard or olive oil
-    </td><td class="col2">
-       1
-    </td><td class="col3">
-       tbsp
-    </td></tr>
+<p>To get started, open the README file in the repository, and change the text, then save the file.
+Now switch to your command-line interface, and type the following commands.</p>
 
-      
-    
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add .
+git commit -m '&lt;your commit message&gt;'
+git push origin &lt;name of remote branch&gt;
+</code></pre></div></div>
 
-    <tr class="row1">
-<td class="col1">
-      sour cream
-    </td><td class="col2">
-       150
-    </td><td class="col3">
-       ml
-    </td></tr>
+<p>Let’s unpick what all of this means.</p>
 
-      
-    
+<h4 id="adding-changes-to-the-staging-area">Adding changes to the staging area</h4>
 
-    <tr class="row1">
-<td class="col1">
-      pasta (small shells)
-    </td><td class="col2">
-       250
-    </td><td class="col3">
-       g
-    </td></tr>
+<p>Every-time you modify a file, Git knows about it.
+If you want your changes to be committed to version control, the first thing you need to do is adding the file to the so called staging area.
+The way to do this is by writing the command:</p>
 
-      
-    
+<p><code class="language-plaintext highlighter-rouge">git add &lt;file-name&gt; &lt;other-file-name&gt;</code></p>
 
-    <tr class="row1">
-<td class="col1">
-      seasoning: -paprika -salt -pepper -garlic powder and -Vegeta
-    </td><td class="col2">
-       to your taste
-    </td><td class="col3">
-       -
-    </td></tr>
+<p>Note that you can add a single file, or multiple modified files.
+However, you should avoid having spaces in your file name, as spaces separate commands and the name of files you want to add.</p>
 
-      
-</table>
+<p>You can also add all the modified files in the current directory, by the following command:</p>
 
-<p>You will also have things to wash up afterwards.
-The dishes and appliances to have at hand are:</p>
+<p><code class="language-plaintext highlighter-rouge">git add .</code></p>
 
-<ol>
-  <li>2 sauce pan;</li>
-  <li>a knife;</li>
-  <li>a grater;</li>
-</ol>
+<p>The (.) character denotes “this directory”. You can learn more about these shortcuts in our “BASH” chapter.</p>
 
-<h3 id="preparation-and-cooking-time">Preparation and cooking time</h3>
+<h4 id="committing-changes">Committing changes</h4>
 
-<p>It usually takes us 20 minutes to prepare this meal.
-No rush though, takes as long as it takes.</p>
+<p>Great, now your modified files are staged.
+Next, you need to commit them.
+Use this command:</p>
 
-<p>Every Project27 Skills recipe takes only 3 key steps to prepare.
-The rest is a matter of creativity..</p>
+<p><code class="language-plaintext highlighter-rouge">git commit -m 'A commit message.'</code></p>
 
-<p>Step 1: Play music in the kitchen. <a href="https://open.spotify.com/user/spotify/playlist/37i9dQZF1DZ06evO1SC425?si=jzJwDaN9RM-uak4XEwGrOA" target="_blank" rel="noreferrer noopener">I recommend this playlist.</a></p>
+<p>You can enclose a short message about the changes you made to help other people working on the project.
+Keep it short though.
+In following notes of this chapter, we will talk about good commit messages.</p>
 
-<p>Step 2: Pour a glass of drink for the chef.</p>
+<h4 id="pushing-changes">Pushing changes</h4>
 
-<p>Step 3: Get cooking, get creative! Here is how we do it:</p>
+<p>Your changes are safe on your local machine.
+However, if you want other people to see these changes, you will need to push your commits to the remote server.
+This is how:</p>
 
-<h4 id="steps">Steps</h4>
+<p><code class="language-plaintext highlighter-rouge">git push origin master</code></p>
 
-<ol>
-  <li>Add the lard to a sauce pan, and fry the finely chopped onions.</li>
-  <li>Add paprika to the onions, then add the chopped mushrooms.</li>
-  <li>Stir until it goes soft, then add vegeta mix and seasoning. Meantime, boil pasta.</li>
-  <li>Add little water if necessary, then the sour cream. Grate garlic onto the stew to finish it off.</li>
-  <li>Serve on pasta and enjoy.</li>
-</ol>
+<p>Here, <code class="language-plaintext highlighter-rouge">git push</code> is the basic command.
+Once you link your local branch with a remote branch, the basic command is enough to get the job done.
+To link branches between local and remote repositories, use the command:</p>
 
-<h3 id="tips-and-assistive-products">Tips and assistive products</h3>
+<p><code class="language-plaintext highlighter-rouge">git push -u origin master</code></p>
 
-<p>Sorry, we don’t have any special tips. Don’t hesitate to send us an e-mail to <code class="language-plaintext highlighter-rouge">support@project27skills.com</code> to ask for some support with this meal.</p>
+<p>Here, <code class="language-plaintext highlighter-rouge">origin</code> is the default name given to the remote repository.
+It is a memorable word hiding the internet address of where your project lives.
+The word <code class="language-plaintext highlighter-rouge">master</code> or <code class="language-plaintext highlighter-rouge">main</code> are the default branch names when you have a single branch working.
+Names of remote repositories and branches can be changed.
+If you want to push changes from another local branch to a remote branch, generally speaking you can use the command:</p>
 
-<h3 id="share-and-enjoy">Share and enjoy!</h3>
+<p><code class="language-plaintext highlighter-rouge">git push &lt;name-of-remote-repository&gt; &lt;name-of-remote-branch&gt;</code></p>
 
-<p>If you decide to prepare this meal, invite someone to share it with.
-Then, why not share this recipe with all your friends on social media?
-Tag us to let us know what twist you introduced.
-Bon appetit!</p>
+<h3 id="next-up">Next up</h3>
+
+<p>Well done if you were able to make your first commit.
+To unlock the magic in the Git toolbox, there are a few more things to learn.
+Quite a bit actually, but let’s take it step by step.
+In coming notes, we will introduce branching, and a typical development workflow.</p>
+
+<p>Some commands to get excited about are:</p>
+
+<ul>
+  <li>status, branch, checkout: welcome to the multiverse of Git.</li>
+  <li>pull, merge, push: Avoiding conflict through best practice.</li>
+</ul>
 
 
       </div><!-- /.blog-post -->
 
 <hr>
         
-        <a class="previous-post" href="/guide/cookbook/pastas/2020/12/30/Spaghetti-Carbonara.html">Previous: Spaghetti Carbonara</a>
+                <a class="previous-post disabled" href="" tabindex="-1" aria-disabled="true">Previous</a>
         
         <br>
         
-                <a class="next-post disabled" href="" tabindex="-1" aria-disabled="true">Next</a>
+        <a class="next-post" href="/guide/cl/git/2023/06/04/git-hub.html" tabindex="-1" aria-disabled="false">Next: An introduction to GitHub</a>
         
   </div><!-- /.blog-main -->
 
     <aside class="col-md-4 blog-sidebar">
 
 
-      <div>
-<h4>More like this</h4>
-<p>Did you like this recipe? Ask the video chef to demonstrate how it's done. Alternatively, you can look at my hand picked online resources of similar recipes, or select another chapter of the cookbook in the header.</p>
 
-<h5>Video chef</h5>
-<p>Check out the <a href="">video chef</a> for inspiration of preparing this recipe.</p>
-
-<h5>Other mushroom stew recipes</h5>
-  <ul>
-    
-      <li><a href="https://paleoleap.com/creamy-mushroom-stew/">Creamy mushroom stew</a></li>
-    
-      <li><a href="https://cooking.nytimes.com/recipes/1015198-fresh-and-wild-mushroom-stew">Fresh and wild mushroom stew (NYT)</a></li>
-    
-  </ul>
-
-<h5>More recipes from the pasta menu</h5>
-  <ul>
-  
-        
-      <li><a href="/guide/cookbook/pastas/2021/01/15/tiger-prawn.html">Tiger prawn and wild garlic pesto pasta</a></li>
-    
-      <li><a href="/guide/cookbook/pastas/2020/12/30/origano-tomato-tuna-pasta.html">Origano-tomato tuna pasta</a></li>
-    
-      <li><a href="/guide/cookbook/pastas/2020/12/30/cottage-cheese-pasta-bake.html">Cottage cheese pasta bake</a></li>
-    
-      <li><a href="/guide/cookbook/pastas/2020/12/30/Spaghetti-Carbonara.html">Spaghetti Carbonara</a></li>
-    
-      <li><a href="/guide/cookbook/pastas/2020/12/30/Mushroom-stew.html">Mushroom stew</a></li>
-    
-        
-  </ul>
-
-      </div>
 
 
     </aside><!-- /.blog-sidebar -->
       </div><!-- /.row -->
   </main>
 
-<footer id="footerContent" class="bg-guide-sect">
+<footer id="footerContent" class="">
 
 
 
