@@ -6,7 +6,7 @@
 {% if page.url contains "cookbook" %}
 <a href="{{ post.url | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">
 Open {{ post.title | downcase }} recipe
-{% elsif page.url contains "MPS" or page.url contains "CL/" %}
+{% elsif page.url contains "MPS" or page.url contains "cl/" %}
 <a href="{{ post.url | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">
 Open the note on {{ post.title | downcase }}
 {% elsif page.url contains "blog" %}
