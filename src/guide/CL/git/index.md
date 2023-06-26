@@ -29,4 +29,4 @@ Our notes are based on our personal experiences, as well as the very thorough
 [Git book.](https://git-scm.com/book/en/v2)
 It's an excellent resource, with as many details as many you can wish for, when learning about git.
 Now, let's branch out to our notes, starting with: 
-What is git, and why should you care?
+[What is git, and why should you care?]({% post_url 2023-06-03-why-git %})
