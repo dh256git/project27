@@ -13,7 +13,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title> Content guidelines</title>
+    <title> Add, commit, push - the git essentials</title>
 
 <!--Custom style sheets-->
         <link rel="stylesheet" href="/assets/css/main.css">
@@ -102,7 +102,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 <div class="row">
 <div class="col">
-<div class="row bg-general-chap">
+<div class="row ">
 <div class="col-md-6">
 
 <div id="breadcrumbs">
@@ -111,11 +111,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <a href="/">Home</a>
 
   
-    <a href="/guidelines/index.html">👉 Guidelines</a>
+    <a href="/CL/index.html">👉 Cl</a>
   
 
   
-    <br> 👉 Content guidelines
+    <br> 👉 Add, commit, push - the git essentials
   
 
 </div>
@@ -218,21 +218,189 @@ beta version.
   </header>
 
   <main role="main" id="mainContent" class="container bg-background">
- <h2 id="content-guidelines">Content guidelines</h2>
+   <div class="row">
+    <div class="col-md-8">
+      
+          
+                <a class="previous-post disabled" href="" tabindex="-1" aria-disabled="true">Previous</a>
+        
+        <br>
+        
+        <a class="next-post" href="/CL/introduction-to-github.html" tabindex="-1" aria-disabled="false">Next: An introduction to GitHub</a>
+        
+  
+    </div>
+    <div class="col-md-4">
+      <button type="button" class="mysecondarybtn" data-toggle="collapse" data-target="#meta-info" aria-controls="meta-info" aria-expanded="false" aria-label="Page information">
+    <span><i class="fa fa-info-circle fa-lg" aria-hidden="false"></i></span>
+  </button>
+<div class="blog-post-meta collapse" id="meta-info">
+<p class="reading-time">Estimated time to read: 
+  
+  
+    3 - 4 mins
+  
+</p>
 
-<p>We follow the guidelines below, when creating content on Project27 Skills.</p>
+<p>Written by: Daniel Hajas</p>
 
-<h3 id="1-length">1. Length</h3>
 
-<p>The content should not exceed 18 minutes of estimated reading time.</p>
+<p>Reviewed by: To be assigned. <a href="/guidelines/review.html">Read our guidelines on reviews.</a></p>
 
-<h3 id="2-readability">2. Readability</h3>
 
-<p>The <a href="https://en.wikipedia.org/wiki/Flesch–Kincaid_readability_tests">Flesch reading-ease score (FRES)</a>  should not be lower than 60.</p>
+<p>Published on: 06 Jun 2023</p>
 
+
+<p>Revised on: 01 Jan 2023</p>
+
+
+<p>Revision due: 01 Jan 2024</p>
+
+</div>
+    </div>
+    </div>
+
+  <div class="row">
+    <div class="col-md-8 blog-main">
+      <div class="blog-post">
+
+
+
+
+
+<h2>Add, commit, push - the git essentials</h2>
+
+  <p>There are only 3 Git commands you need to know, before you can start enjoying the benefits of Git.
+Add, commit, and push.
+</p>
+
+
+<img src="/assets/images/Project27 logo.png" class="blog-cover" alt="The Project27 logo, used as a placeholder image.">
+
+
+
+
+  
+
+<h3 id="cheatsheet">Cheatsheet</h3>
+
+<p>To add, commit, and push changes in your current working directory, use the following git commands:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add .
+git commit -m '&lt;your commit message&gt;'
+git push origin &lt;name of remote branch&gt;
+</code></pre></div></div>
+
+<h3 id="before-you-start">Before you start</h3>
+
+<p>For the following tip to work, we assume you have</p>
+
+<ul>
+  <li>installed git in your command-line interface;</li>
+  <li>Created a remote repository on GitHub, initialising it with a README file;</li>
+  <li>cloned the remote repository to a local folder on your computer using the address GitHub provided;</li>
+</ul>
+
+<p>Don’t worry, we can write short notes on all of the above on demand.
+In the meantime, we encourage you to ask Google, and to <a href="/support/">get support</a> from us.</p>
+
+<h3 id="the-3-most-used-commands">The 3 most used commands</h3>
+
+<p>To get started, open the README file in the repository, and change the text, then save the file.
+Now switch to your command-line interface, and type the following commands.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add .
+git commit -m '&lt;your commit message&gt;'
+git push origin &lt;name of remote branch&gt;
+</code></pre></div></div>
+
+<p>Let’s unpick what all of this means.</p>
+
+<h4 id="adding-changes-to-the-staging-area">Adding changes to the staging area</h4>
+
+<p>Every-time you modify a file, Git knows about it.
+If you want your changes to be committed to version control, the first thing you need to do is adding the file to the so called staging area.
+The way to do this is by writing the command:</p>
+
+<p><code class="language-plaintext highlighter-rouge">git add &lt;file-name&gt; &lt;other-file-name&gt;</code></p>
+
+<p>Note that you can add a single file, or multiple modified files.
+However, you should avoid having spaces in your file name, as spaces separate commands and the name of files you want to add.</p>
+
+<p>You can also add all the modified files in the current directory, by the following command:</p>
+
+<p><code class="language-plaintext highlighter-rouge">git add .</code></p>
+
+<p>The (.) character denotes “this directory”. You can learn more about these shortcuts in our “BASH” chapter.</p>
+
+<h4 id="committing-changes">Committing changes</h4>
+
+<p>Great, now your modified files are staged.
+Next, you need to commit them.
+Use this command:</p>
+
+<p><code class="language-plaintext highlighter-rouge">git commit -m 'A commit message.'</code></p>
+
+<p>You can enclose a short message about the changes you made to help other people working on the project.
+Keep it short though.
+In following notes of this chapter, we will talk about good commit messages.</p>
+
+<h4 id="pushing-changes">Pushing changes</h4>
+
+<p>Your changes are safe on your local machine.
+However, if you want other people to see these changes, you will need to push your commits to the remote server.
+This is how:</p>
+
+<p><code class="language-plaintext highlighter-rouge">git push origin master</code></p>
+
+<p>Here, <code class="language-plaintext highlighter-rouge">git push</code> is the basic command.
+Once you link your local branch with a remote branch, the basic command is enough to get the job done.
+To link branches between local and remote repositories, use the command:</p>
+
+<p><code class="language-plaintext highlighter-rouge">git push -u origin master</code></p>
+
+<p>Here, <code class="language-plaintext highlighter-rouge">origin</code> is the default name given to the remote repository.
+It is a memorable word hiding the internet address of where your project lives.
+The word <code class="language-plaintext highlighter-rouge">master</code> or <code class="language-plaintext highlighter-rouge">main</code> are the default branch names when you have a single branch working.
+Names of remote repositories and branches can be changed.
+If you want to push changes from another local branch to a remote branch, generally speaking you can use the command:</p>
+
+<p><code class="language-plaintext highlighter-rouge">git push &lt;name-of-remote-repository&gt; &lt;name-of-remote-branch&gt;</code></p>
+
+<h3 id="next-up">Next up</h3>
+
+<p>Well done if you were able to make your first commit.
+To unlock the magic in the Git toolbox, there are a few more things to learn.
+Quite a bit actually, but let’s take it step by step.
+In coming notes, we will introduce branching, and a typical development workflow.</p>
+
+<p>Some commands to get excited about are:</p>
+
+<ul>
+  <li>status, branch, checkout: welcome to the multiverse of Git.</li>
+  <li>pull, merge, push: Avoiding conflict through best practice.</li>
+</ul>
+
+
+      </div><!-- /.blog-post -->
+
+<hr>
+        
+                <a class="previous-post disabled" href="" tabindex="-1" aria-disabled="true">Previous</a>
+        
+        <br>
+        
+        <a class="next-post" href="/CL/introduction-to-github.html" tabindex="-1" aria-disabled="false">Next: An introduction to GitHub</a>
+        
+  </div><!-- /.blog-main -->
+
+    <aside class="col-md-4 blog-sidebar">
+
+    </aside><!-- /.blog-sidebar -->
+      </div><!-- /.row -->
   </main>
 
-<footer id="footerContent" class="bg-general-chap">
+<footer id="footerContent" class="">
 
 
 
