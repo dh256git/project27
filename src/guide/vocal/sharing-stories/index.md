@@ -5,5 +5,5 @@ buttonStyle: fg-guide-chap
 backgroundStyle: bg-guide-chap
 ---    
 
-Chapter intro
+Sharing stories is a place for us to tell peoples stories about there lives. 
 
