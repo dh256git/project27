@@ -107,7 +107,3 @@ Some commands to get excited about are:
 
 - status, branch, checkout: welcome to the multiverse of Git.
 - pull, merge, push: Avoiding conflict through best practice.
-
----
-
-This is a proposed change by the other me. XOXO
