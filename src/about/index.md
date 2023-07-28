@@ -11,18 +11,22 @@ listOfIcons: [["", ""], ["", ""]]
 ---
 ## About {{ site.brand }}
 
-We are a small family business, supporting blind or learning disabled people, and the community around them.
-{{ site.brand }} combines for-profit practices with nonprofit missions to create positive outcomes in a sustainable way.
+{{ site.brand }} is the talent arm of {{ site.organisation }} ({{ site.org }}).
+We combine for-profit practices with nonprofit missions to create positive outcomes in a sustainable way.
+
+The mission of {{ site.org }} is to 
+**develop skills that matter, and design solutions that work.**
+We believe that this mission will take us closer to our ultimate vision.
+
+In the vision of {{ site.org }}, 
+**Researchers, businesses, and the community of blind or learning disabled people work together on solving accessibility challenges at every stage of design and development.**
 
 ### What we do
-
-We engage in multiple key activities to support our mission.
 
 1. **Sharing thoughts**: We share our lived experience of sight-loss, learning disability, and success, through our [blog.]({% link blog/index.html %})
 2. **Passive learning**: We enable people to learn about science and lifestyle, by creating accessible articles in the [{{ site.brand }} {{ site.product }}.]({% link guide/index.html %})
 3. **Active learning**: We promote active learning, by [getting volunteers involved]({% link volunteering/index.md %}) in building the [{{ site.brand }} {{ site.product }}.]({% link guide/index.html %})
 4. **Consultancy**: Anyone who needs time to talk things through with us can [book a support session]({% link support/index.md %}) for a session of consulting, tutoring, or mentoring.
-5. **Research and innovation**: We work with academic researchers and businesses to push the frontiers of access to science, and disability inclusion.
 
 {% include global/buttonLink.html url="/about/content.html" label="Read more about our published content and services" %}
 
@@ -34,12 +38,12 @@ We live with disabilities, and we have a lot to share.
 
 {% include global/buttonLink.html url="/about/team/index.html" label="Learn more about our team" %}
 
-### Our vision
+### Our vision at {{ site.brand }}
 
 Blind or learning disabled people get to live the lives they want to live,
 while they are acknowledged as productive members of society.
 
-### Our mission
+### Our mission at {{ site.brand }}
 
 Our mission is 
 to create personalised opportunities for skills development 
