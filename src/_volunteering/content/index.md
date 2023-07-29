@@ -10,12 +10,12 @@ backgroundStyle: bg-general-vol
 {% assign teamLeadership = site.volunteering | where:"team","Management" %}
 {% assign teamRnD = site.volunteering | where:"team","RnD" %}
 {% assign teamER = site.volunteering | where:"team","ER" %}
-{% assign teamCC = site.volunteering | where:"team","CC" %}
+{% assign teamContent = site.volunteering | where:"team","Content" %}
 
-### Content team
+### The Posts and Notes team
 
-Join the Content team.
-The Content team helps with authoring new notes for {{ site.product }}.
+Join the Posts and Notes (P&N) team.
+The P&N team helps with authoring new posts for our blog, and new notes for the {{ site.brand }} {{ site.product }}.
 
 ### Activity list
 

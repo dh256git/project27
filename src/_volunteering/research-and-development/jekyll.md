@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: volunteering
 title: Developing the site structure
 team: RnD
 task: Developing the site structure

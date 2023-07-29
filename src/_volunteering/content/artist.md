@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: volunteering
 title: Finding and adding visual assets to content
 team: Content
 task: Finding and adding visual assets to content

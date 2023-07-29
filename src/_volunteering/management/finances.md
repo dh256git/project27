@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: volunteering
 title: Managing the finances
 team: Management
 task: Managing the finances

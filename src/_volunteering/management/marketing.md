@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: volunteering
 title: Managing sales and marketing
 team: Management
 task: Managing sales and marketing

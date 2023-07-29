@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: volunteering
 title: Developing the visual design
 team: RnD
 task: Developing the visual design

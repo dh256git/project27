@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: volunteering
 title: Managing the operational activities
 team: Management
 task: Managing the operational activities

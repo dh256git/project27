@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: volunteering
 title: Managing research and development
 team: Management
 task: Managing research and development
