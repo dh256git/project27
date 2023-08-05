@@ -38,11 +38,17 @@ We began to establish, and gradually grow our social media presence.
 Follow us at the following platforms.
 
 <div class="row">
-{% for profile in site.data.social %}
+{% for profile in site.data.social-side %}
 <div class="col">
-<a href="{{ profile.link }}">
-<img src="{{ profile.icon | prepend: site.baseurl }}" alt="{{ profile.alt }}" class="social-icon">
+{% if profile.link contains "dragonscave.space" %}
+<a target="_blank" rel="me" href="{{ profile.link }}">
+<img src="{{ profile.icon | prepend: site.baseurl }}" alt="{{ profile.name }}" class="img-follow-us-new">
 </a>
+{% else %}
+<a target="_blank" rel="noopenner noreferrer" href="{{ profile.link }}">
+<img src="{{ profile.icon | prepend: site.baseurl }}" alt="{{ profile.name }}" class="img-follow-us-new">
+</a>
+{% endif %}
 </div>
 {% endfor %}
 </div>
