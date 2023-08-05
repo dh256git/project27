@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<!-- scripts for vega lite -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2/build/vega.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0/build/vega-lite.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- olli -->
+  <script src="https://cdn.jsdelivr.net/npm/olli@1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/olli-adapters@1"></script>
+  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> June - Change log</title>
+
+<!--Custom style sheets-->
+        <link rel="stylesheet" href="/assets/css/main.css">
+
+<!--font awesome icons-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<!-- Google Tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ET7GNZ55YP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ET7GNZ55YP');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PPHS22H');</script>
+<!-- End Google Tag Manager -->
+
+  </head>
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPHS22H"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column bg-background">
+  <header class="bg-background">
+<div class="row">
+<div class="col-md-6" id="skip">
+<a class="d-flex justify-content-center" href="#mainContent">Skip to main content</a>
+</div>
+<div class="col-md-6" id="skip">
+<a class="d-flex justify-content-center" href="#footerContent">Skip to footer</a>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-10">
+<div class="row">
+<div class="col-md-8">
+      <div class="masthead-brand">
+<a href="/index.html" class="navbar-brand">
+      <img src="/assets/images/Project27 logo.png" alt="Project 27 logo" class="logo" width="90em">
+      </a>
+      Skills that matter
+      </div>
+</div>
+<div class="col-md-4">
+<div class="navbar navbar-expand-md bg-nav-header">
+  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle global navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="primaryNavigation">
+      <nav class="navbar-dark" tabindex="0" aria-label="Global">
+<ul class="navbar-nav" role="menubar">
+  
+  <li>
+    <a href="/blog/index.html">Blog</a>
+  </li>
+  
+  <li>
+    <a href="/guide/index.html">Guide</a>
+  </li>
+  
+  <li>
+    <a href="/volunteering/index.html">Volunteering</a>
+  </li>
+  
+  <li>
+    <a href="/support/index.html">Support</a>
+  </li>
+  
+  </ul>
+  </nav>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col">
+<div class="row bg-general-land">
+<div class="col-md-6">
+
+<div id="breadcrumbs">
+<h1 class="you-are-here">You are here</h1>
+
+<a href="/">Home</a>
+
+  
+    <a href="/blog/index.html">👉 Blog</a>
+  
+
+  
+    <a href="/blog/logbook/index.html">👉 Logbook</a>
+  
+
+  
+    <a href="/blog/logbook/dev/index.html">👉 Dev</a>
+  
+
+  
+    <br> 👉 June - Change log
+  
+
+</div>
+
+</div>
+<div class="col-md-6">
+
+  <button href="#quickLinks" type="button" class="d-lg-none mysecondarybtn" data-toggle="collapse" data-target="#selector" aria-controls="selector" aria-expanded="false" aria-label="Quick links">
+    <span><i class="fas fa-bookmark fa-lg" aria-hidden="false"></i></span>
+  </button>
+<div class="collapse d-lg-block" id="selector">
+<div class="row">
+<div class="col-md-3">
+<div class="dropdown bg-my-nav">
+<button type="button" class="Read-More" data-toggle="collapse" data-target="#volume-selector" aria-haspopup="true">Volume</button>
+        <div class="dropdown-menu" id="volume-selector">
+  
+  
+          <a class="dropdown-item" href= "/blog/logbook/index.html" >LogBook</a>
+  
+          <a class="dropdown-item" href= "/blog/twist/index.html" >TWIST</a>
+  
+  
+</div>
+</div>
+
+</div>
+<div class="col-md-3">
+<div class="dropdown bg-my-nav">
+<button type="button" class="Read-More" data-toggle="collapse" data-target="#chapter-selector" aria-haspopup="true">Chapter</button>
+        <div class="dropdown-menu" id="chapter-selector">
+  
+  
+          <a class="dropdown-item" href="/blog/logbook/dev/index.html" >Project27 site development</a>
+  
+          <a class="dropdown-item" href="/blog/logbook/issues/index.html" >Issue tracking</a>
+  
+  
+</div>
+</div>
+</div>
+<div class="col-md-3">
+<div class="dropdown bg-my-nav">
+<button type="button" class="Read-More" data-toggle="collapse" data-target="#section-selector" aria-haspopup="true">Section</button>
+        <div class="dropdown-menu" id="section-selector">
+  
+  <p>Please open a volume and a chapter, before you are able to select a section. It may also be that this chapter has not been divided into sections.</p>
+  
+</div>
+</div>
+
+</div>
+<div class="col-md-3">
+<div class="dropdown bg-my-nav">
+<button type="button" class="Read-More" data-toggle="collapse" data-target="#note-selector" aria-haspopup="true">Note</button>
+        <div class="dropdown-menu" id="note-selector">
+  
+  <p>Please select a section before selecting a note.</p>
+  
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col">
+
+<div class="announcement">
+<p>
+    📣 This area of the website is a 
+<a target="_blank" rel="noreferrer noopener" href="https://en.wikipedia.org/wiki/Software_release_life_cycle">
+beta version.
+</a>
+</p>
+</div>
+
+</div>
+</div>
+</div>
+<div class="col-md-2">
+  <button href="#sidebar" type="button" class="d-lg-none mysecondarybtn" data-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle sidebar">
+    <span><i class="fa-solid fa-circle-chevron-down" aria-hidden="false"></i></span>
+  </button>
+<div class="collapse d-lg-block bg-background" id="sidebar" aria-label="sidebar navigation">
+<div class="row">
+<div class="col">
+  
+  <div class="mybtnquick">
+  <a href= "/about/index.html" >What we do</a>
+  </div>
+  
+  <div class="mybtnquick">
+  <a href= "/about/team/index.html" >Who we are</a>
+  </div>
+  
+  <div class="mybtnquick">
+  <a href= "/contact/index.html" >Contact us and FAQs</a>
+  </div>
+  
+  </div>
+  </div>
+<div class="row">
+<div class="col">
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#products" aria-haspopup="true">Products & Services</button>
+        <div class="dropdown-menu" id="products">
+    
+          <a class="dropdown-item" href= "/volunteering/become-a-volunteer.html" >Become a volunteer</a>
+  
+          <a class="dropdown-item" href= "/support/index.html" >Book a support session</a>
+  
+          <a class="dropdown-item" href= "/support/pricing.html" >Pricing</a>
+  
+  </div>
+</div>
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#media" aria-haspopup="true">Media</button>
+        <div class="dropdown-menu" id="media">
+  
+          <a class="dropdown-item" href= "/about/news.html" >News</a>
+  
+          <a class="dropdown-item" href= "/blog/all-posts.html" >Posts</a>
+  
+</div>
+</div>
+<div class="dropdown bg-my-nav">
+<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#development" aria-haspopup="true">Development</button>
+        <div class="dropdown-menu" id="development">
+    
+
+                    <a class="dropdown-item" href= "/blog/logbook/dev/change-log.html" >Roadmap</a>
+                    
+  
+
+                    <a class="dropdown-item" href= "/blog/logbook/issues/2020/06/05/initialise.html" >Issue tracking</a>
+                    
+  
+
+          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "https://github.com/dh256git/project27" >Git Hub</a>
+          
+  
+
+          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "http://p27skills.surge.sh" >Surge</a>
+          
+  
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+  </header>
+
+  <main role="main" id="mainContent" class="container bg-background">
+ <h2 id="june---change-log">June - Change log</h2>
+
+<ol>
+  <li>Fixed major layout bugs in the CSS code, such as:
+    <ul>
+      <li>icon sizes in the footer;</li>
+      <li>separation of menu items in the footer.</li>
+    </ul>
+  </li>
+  <li>Set up a sub-domain at <code class="language-plaintext highlighter-rouge">research.project27skills.com</code>:
+    <ul>
+      <li>to point at a second repository, hosting P27 Solutions content;</li>
+      <li>cloned the content of P27 Skills to template the general layout of P27 Solutions;</li>
+    </ul>
+  </li>
+  <li>Introduced “edit on GitHub” links, at the bottom of the main content region:
+    <ul>
+      <li>visitors are now able to fork, edit, and propose changes directly to a page with the help of GitHub pull requests;</li>
+      <li>pull requests will be merged with the “development” branch,</li>
+    </ul>
+  </li>
+</ol>
+
+
+ <hr>
+ <p>
+ This is an open source website. Please, 
+ <a target="_blank" rel="noreferrer noopener" href="https://github.com/dh256git/project27/edit/development/src/blog/logbook/dev/changes/2023-06.md">
+ help improve the content on this page.
+ </a>
+ </p>
+  </main>
+
+<footer id="footerContent" class="bg-general-land">
+
+
+
+<div class="row">
+<div class="col-md-10">
+<div class="row">
+<div class="col-md-8">
+
+Copyright © 2023 Project27 Consultancy Group C.I.C. All rights reserved.
+
+</div>
+<div class="col-md-4">
+      <nav class="navbar navbar-expand-md navbar-dark bg-nav-footer" tabindex="0" aria-label="Footer">
+<ul class="navbar-nav" role="menubar">
+  
+  <li>
+    <a href="/about/index.html">About</a>
+  </li>
+  
+  <li>
+    <a href="/contact/index.html">Contact</a>
+  </li>
+  
+  <li>
+    <a href="/guidelines/index.html">Guidelines</a>
+  </li>
+  
+  <li>
+    <a href="/accessibility/index.html">Access</a>
+  </li>
+  
+  </ul>
+</nav>
+</div>
+</div>
+<div class="row">
+<div class="col">
+<h5>Follow us</h5>
+<div class="row">
+
+    <div class="col-md-3">
+    <a href="https://www.twitter.com/project27skills/">
+    <img src="/assets/images/icons/twitter.png" alt="Twitter" class="img-follow-us-new">
+    </a>
+    </div>
+
+    <div class="col-md-3">
+    <a href="/404.html">
+    <img src="/assets/images/icons/mastodon.jpg" alt="Mastodon" class="img-follow-us-new">
+    </a>
+    </div>
+
+    <div class="col-md-3">
+    <a href="/404.html">
+    <img src="/assets/images/icons/linkedin.png" alt="LinkedIn" class="img-follow-us-new">
+    </a>
+    </div>
+
+    <div class="col-md-3">
+    <a href="https://youtube.com/@project27skills">
+    <img src="/assets/images/icons/youtube.jpg" alt="YouTube" class="img-follow-us-new">
+    </a>
+    </div>
+
+    </div>
+</div>
+</div>
+</div>
+<div class="col-md-2">
+
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-10">
+<h5>Powered by</h5>
+<div class="row">
+<div class="col-md-3">
+<a href="https://github.com">
+<img class="img-powered-by-new" src="/assets/images/Github logo.png" alt="Github" >
+</a>
+</div>
+<div class="col-md-3">
+<a href="https://jekyllrb.com">
+<img class="img-powered-by-new" src="/assets/images/Jekyll logo.png" alt="Jekyll" >   
+</a>
+</div>
+<div class="col-md-3">
+<a href="https://getbootstrap.com">
+<img class="img-powered-by-new" src="/assets/images/Bootstrap logo.png" alt="Bootstrap" > 
+</a>
+</div>
+<div class="col-md-3">
+<a href="https://www.markdownguide.org">
+<img class="img-powered-by-new" src="/assets/images/Markdown logo.png" alt="Markdown" >
+</a>
+</div>
+</div>
+<div class="row">
+<div class="col-md-3">
+<a href="https://www.latex-project.org">
+<img class="img-powered-by-new" src="/assets/images/LaTeX logo.png" alt="LaTeX" >  
+</a>
+</div>
+<div class="col-md-3">
+<a href="https://www.python.org">
+<img class="img-powered-by-new" src="/assets/images/Python logo.png" alt="Python" >
+</a>
+</div>
+<div class="col-md-3">
+<a href="https://www.r-project.org">
+<img class="img-powered-by-new" src="/assets/images/Rlogo.png" alt="R" >
+</a>
+</div>
+<div class="col-md-3">
+<a href="https://www.gnu.org/software/bash/">
+<img class="img-powered-by-new" src="/assets/images/Bash shell logo.png" alt="Bash" >
+</a>
+</div>
+</div>
+</div>
+<div class="col-md-2">
+<hr>
+
+<p>
+<a href="/legal/terms-of-use.html">
+Terms of use
+</a>
+</p>
+
+<p>
+<a href="/legal/terms-of-service.html">
+Terms of service
+</a>
+</p>
+
+<p>
+<a href="/legal/privacy.html">
+Privacy policy
+</a>
+</p>
+
+<p><a href="/blog/logbook/dev/change-log.html">Version: 0.6.293.</a></p>
+<p onclick="showTimeLastUpdated()">Last updated: 
+<span id="time-last-updated-show">05 Aug 2023.</span>
+<span id="time-last-updated-hide" class="hidden-text">10:22.</span>
+</p>
+</div>
+</div>
+
+
+</footer>
+</div>
+<!-- Bootstrap dependency scripts -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- Mathematics script -->
+<script type="text/x-mathjax-config">
+(function () {
+
+MathJax.Hub.Config({
+	'showProcessingMessages': false,
+	'messageStyle': 'none'
+});
+
+if (typeof MathJaxListener !== 'undefined') {
+	MathJax.Hub.Register.StartupHook('End', function () {
+		MathJaxListener.invokeCallbackForKey_('End');
+	});
+}
+
+})();
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<!--script for read more modal -->
+<script defer src="/assets/js/modal.js"></script>
+
+<!--script for select pop-up -->
+<script defer src="/assets/js/pop-up.js"></script>
+
+  </body>
+</html>
