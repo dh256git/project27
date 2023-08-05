@@ -1,4 +1,6 @@
-- name: Twitter
+- name: Mastodon
+  link: https://dragonscave.space/@daniel/
+  icon: /assets/images/icons/mastodon.png
+- name: X
   link: https://twitter.com/project27skills
-  icon: /assets/images/icons/twitter.png
-  alt: Twitter
+  icon: /assets/images/icons/x.png
