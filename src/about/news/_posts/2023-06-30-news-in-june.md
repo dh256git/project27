@@ -5,7 +5,7 @@ author: Daniel Hajas
 title: Gearing up for multimedia content
 buttonStyle: fg-blog-sect
 backgroundStyle: bg-blog-sect
-image: 
+image: june.png
 alt: Podcast mics attached to stands on a table, wired to an audio interface and a laptop.
 ---
 

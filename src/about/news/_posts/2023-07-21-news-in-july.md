@@ -5,7 +5,7 @@ author: Daniel Hajas
 title: Successful registration of the Project27 C.I.C.
 buttonStyle: fg-blog-sect
 backgroundStyle: bg-blog-sect
-image: 
+image: july.png
 alt: A screenshot of the Companies House website, showing the registered company number and company name of Project27 Consultancy Group C.I.C.
 ---
 
