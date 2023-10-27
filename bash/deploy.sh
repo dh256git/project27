@@ -3,7 +3,7 @@
 # script to automate deployment of static site files
 
 ## Go to project root directory
-cd ~/Documents/self/informatics/projects/project27/
+cd ~/Documents/archive/work/Project27/Project27\ Skills/
 
 ## execute version-counter python script to increment commit count
 python3 bash/version-counter.py
