@@ -3,7 +3,7 @@
 # script to semi-automate deployment of static test site files onto Surge.
 
 ## Go to project root directory
-cd ~/Documents/self/informatics/projects/project27/
+cd ~/Documents/archive/work/Project27/Project27\ Skills/
 
 ## execute version-counter python script to increment commit count
 # python3 bash/version-counter.py # commenting out for surge deployment
@@ -27,3 +27,6 @@ read commitMessage
 git commit -m "$commitMessage"
 git push origin staging
 echo "Unstable release is ready to surge."
+
+# # Initiate the surge deployment
+surge
