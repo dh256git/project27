@@ -1,6 +1,7 @@
 ---
 ---
 
+{% capture text-highlights %}
 ## The highlights
 
 * Guest researcher (Innovation to Market) at London Business School (since October 2022)
@@ -14,6 +15,7 @@
 * Master of Theoretical Physics (University of Sussex)
 * International Baccalaurate (IB) Diploma (Zagreb)
 
+{% endcapture %}
 ---
 
 ## Education and employment
