@@ -1,5 +1,24 @@
-{% capture text-education %}
-## Education
+---
+---
+
+{% capture text-highlights %}
+## The highlights
+
+* Guest researcher (Innovation to Market) at London Business School (since October 2022)
+* Innovation Manager at Global Disability Innovation Hub (since November 2021)
+* Volunteer mentor at LOOK UK (since October 2021)
+* Research collaborator in the MIT Visualisation research group (since June 2022)
+* Haptics Researcher at Ultraleap Limited
+* Co-founder and CEO of Grapheel Limited
+* Developer and consultant at the IT Foundation for the Visually Impaired (Budapest)
+* PhD in Informatics (Sussex Computer-Human Interaction Lab)
+* Master of Theoretical Physics (University of Sussex)
+* International Baccalaurate (IB) Diploma (Zagreb)
+
+{% endcapture %}
+---
+
+## Education and employment
 
 Let me introduce where I came from, what study and career path I've taken, and what causes interest me.
 
@@ -24,9 +43,7 @@ Between 2017 and 2021 I have completed a PhD in Informatics, under the supervisi
 #### 3. Research collaboration with the MIT Visualisation Group
 
 After my PhD, I began a research collaboration with the [MIT Visualisation Research Group.](http://vis.csail.mit.edu) Our research studies how data visualisations on the web can be accessible to screen reader users. Multiple research projects sparked from the initial collaboration. We published an open source accessible visualisation adapter, called [Olli](https://mitvis.github.io/olli/). In addition, we have explored the commercial viability of the research output.
-{% endcapture %}
 
-{% capture text-employment %}
 ### Employment - Path to career
 
 I have had numerous paid employment experiences.
@@ -46,9 +63,9 @@ After carrying out undergraduate research related to the concept of a tactile gr
 #### 4. Developer and consultant at IT Foundation for the Visually Impaired (March 2016 – October 2017)
 
 I worked for the ‘IT Foundation for Visually Impaired’ ([Infoalap](http://infoalap.hu/english/), a Hungarian charity) as an Accessible STEM consultant and assistant software developer. My role was to assist a team of programmers in converting [LaTeX](https://www.latex-project.org) and MathML source documents into audio and braille formats. Prior to this contracted work, I volunteered to test and enhance mathematical features of [FS JAWS](https://www.freedomscientific.com/products/software/jaws/) 17.0, one of the most advanced screen readers. As a result of my work, for the first time in Hungary, users of JAWS were able to fully and correctly access mathematics. I also authored a 70 pages training booklet on ‘Using LaTeX for accessible maths’.
-{% endcapture %}
 
-{% capture text-qulifications %}
+---
+
 ## Qualifications and professional development
 
 I have been fortunate to receive a high standard of education and additional training from reputable international institutions.
@@ -74,9 +91,9 @@ I and the Grapheel team were shortlisted to win one of the prizes awarded annual
 * In 2017, I was awarded the David Axon Prize for outstanding achievement in physics.
 * In 2015, I was awarded the Junior Research Associate Award, including a chance to exhibit my research at the UK Parliament.
 Activities
-{% endcapture %}
 
-{% capture text-volunteering %}
+---
+
 ## Community and volunteering
 
 I have always been interested in community building and volunteering.
@@ -88,4 +105,3 @@ I joined a volunteer group of mentors at [Look UK](https://www.look-uk.org/mento
 ### 2. The Sussex Universe Lecture Series (October 2014 – April 2016)
 
 I established the [Sussex Universe lecture series](http://sussexuniverse.org) to showcase the best research taking place in the Physics and Astronomy Department to members of the University community and to the general public. I have been responsible for all aspects of this series, from the initial idea, to booking and introducing speakers, to organising refreshments and advertising. I organised 12 lectures over two years. The series is still running, four years after I handed the responsibilities over. On a number of occasions, local radios asked permission to broadcast the talks. During the 2020 pandemic the lecture series transitioned into a weekly [online talk.](https://www.youtube.com/c/sussexuniverse)
-{% endcapture %}

@@ -1,10 +1,4 @@
----
-author: Daniel Hajas
-reviewer: Danielle Garratt
-date: 2022-08-27
-update: 2023-01-20
----
-
+{% capture text-publications %}
 I regularly share my work and passion with other scientists and the public.
 
 ##### Doctoral thesis
@@ -29,3 +23,4 @@ I regularly share my work and passion with other scientists and the public.
 * Invited speaker for TEDX Margate 2017 (September 2017)
 * Invited talk at the Hack the Senses event at Google’s London campus (April 2016)
 * Poster at the Posters In Parliament event (February 2016)
+{% endcapture %}

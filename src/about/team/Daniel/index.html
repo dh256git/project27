@@ -18,44 +18,39 @@ listOfIcons: [["", ""], ["", ""]]
 </div>
 <div class="profilecontainer">
 <img src="{{ profile.photo | prepend: site.baseurl }}" class="daniel-profile" alt="{{ profile.alt }}" height="250px" width="230px">
-
-<p>{{ profile.contribution }}</p>
-</div>
-
-<select onchange="handleChange(this)">
-{% for item in profile-sections %}
-<option value="{{ item.value | prepend: site.baseurl }}" label="{{ item.label }}">{{ item.text }}</option>
-{% endfor %}
-</select>
-
-<h3 id="frame-heading">Open letter</h3>
-
-<div class="iframe-container">
-<iframe src="{{ '/about/team/Daniel/letter.html' | prepend: site.baseurl }}" title="Welcome letter" id="iframe-id" class="responsive-iframe"></iframe>
 </div>
 
 --- <h2>Tabs area</h2>
-
+{% include team/Daniel/introduction.md %}
 {% include team/Daniel/CV.md %}
+{% include team/Daniel/publications.md %}
 
 <div role='tablist'>
   <button role='tab' id='tab-intro' aria-controls='tabpanel-intro' onClick="setTab('intro')">Introduction</button>
   <button role='tab' id='tab-education' aria-controls='tabpanel-education' onClick="setTab('education')">Education</button>
-  <button role='tab' id='tab-visual' aria-controls='tabpanel-visual' onClick="setTab('visual')">Visual</button>
-  <button role='tab' id='tab-audio' aria-controls='tabpanel-audio' onClick="setTab('audio')">Audio</button>
+  <button role='tab' id='tab-employment' aria-controls='tabpanel-employment' onClick="setTab('employment')">Employment</button>
+  <button role='tab' id='tab-qulifications' aria-controls='tabpanel-qulifications' onClick="setTab('qulifications')">Qulifications</button>
+  <button role='tab' id='tab-volunteering' aria-controls='tabpanel-volunteering' onClick="setTab('volunteering')">Volunteering</button>
+  <button role='tab' id='tab-publications' aria-controls='tabpanel-publications' onClick="setTab('publications')">Publications</button>
 </div>
 
 <div role='tabpanel' id='tabpanel-intro' aria-labelledby='tab-intro'>
-  {{ text-highlights | markdownify }}
+  {{ text-introduction | markdownify }}
 </div>
 <div role='tabpanel' id='tabpanel-education' aria-labelledby='tab-education'>
-  This is where my education appears.
+  {{ text-education | markdownify }}
 </div>
-<div role='tabpanel' id='tabpanel-visual' aria-labelledby='tab-visual'>
-  Visual tab
+<div role='tabpanel' id='tabpanel-employment' aria-labelledby='tab-employment'>
+  {{ text-employment | markdownify }}
 </div>
-<div role='tabpanel' id='tabpanel-audio' aria-labelledby='tab-audio'>
-  Audio tab
+<div role='tabpanel' id='tabpanel-qulifications' aria-labelledby='tab-qulifications'>
+  {{ text-qulifications | markdownify }}
+</div>
+<div role='tabpanel' id='tabpanel-volunteering' aria-labelledby='tab-volunteering'>
+  {{ text-volunteering | markdownify }}
+</div>
+<div role='tabpanel' id='tabpanel-publications' aria-labelledby='tab-publications'>
+  {{ text-publications | markdownify }}
 </div>
 
 <script>
