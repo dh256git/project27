@@ -4,8 +4,9 @@ reviewer: Daniel Hajas
 date: 2022-08-27
 updated: 2023-01-20
 ---
-
+{% capture cv %}
 ## Path to self-advocacy
+
 
 I am Danielle, a young woman with mild learning disabilities. I was an intern at Amaze and also a member of the Power Group (co run by Amaze/Speak Out) where I developed skills and confidence to speak up.  Using skills I learnt at Amaze, I went onto getting a paid job at Speak Out in 2019 as a project worker.
 
@@ -46,3 +47,4 @@ Between 2009 to 2013 I went to Sussex Downs college and studied.
 
 * I was awarded the "Leadership in Learning Disability and Autism" award by [Dimensions](https://dimensions-uk.org/dimensions-campaigns/meet-leaders-list-award-winners/find-out-more/enter-leaders-list/), in the advocacy, policy, and media category.
 * One of my biggest achievements has been to carry the Paralympic torch from Abby Road to Lords cricket ground in 2012. I got the opportunity to do this by playing visually impaired cricket with the all women's team.
+{% endcapture %}

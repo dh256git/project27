@@ -11,7 +11,6 @@ listOfIcons: [["", ""], ["", ""]]
 ---
 
 {% assign profile = site.data.volunteering.core-team[1] %}
-{% assign profile-sections = site.data.volunteering.danielle %}
 
 <div class="profilecontainertitle">
 <h2>{{ profile.title }} {{ profile.name }}</h2>
@@ -22,14 +21,52 @@ listOfIcons: [["", ""], ["", ""]]
 <p>{{ profile.contribution }}</p>
 </div>
 
-<select onchange="handleChange(this)">
-{% for item in profile-sections %}
-<option value="{{ item.value | prepend: site.baseurl }}" label="{{ item.label }}">{{ item.text }}</option>
-{% endfor %}
-</select>
-
-<h3 id="frame-heading">Open letter</h3>
-
-<div class="iframe-container">
-<iframe src="{{ '/about/team/Danielle/introduction.html' | prepend: site.baseurl }}"title="Welcome letter" id="iframe-id" class="responsive-iframe"></iframe>
+<div role='tablist'>
+  <button role='tab' id='tab-intro' aria-controls='tabpanel-intro' onClick="setTab('intro')">Introduction</button>
+  <button role='tab' id='tab-education' aria-controls='tabpanel-education' onClick="setTab('education')">Education</button>
+  <button role='tab' id='tab-visual' aria-controls='tabpanel-visual' onClick="setTab('visual')">Visual</button>
+  <button role='tab' id='tab-audio' aria-controls='tabpanel-audio' onClick="setTab('audio')">Audio</button>
 </div>
+
+<div role='tabpanel' id='tabpanel-intro' aria-labelledby='tab-intro'>
+  This is the introduction tab
+</div>
+<div role='tabpanel' id='tabpanel-education' aria-labelledby='tab-education'>
+  This is the education tab
+</div>
+<div role='tabpanel' id='tabpanel-visual' aria-labelledby='tab-visual'>
+  Visual tab
+</div>
+<div role='tabpanel' id='tabpanel-audio' aria-labelledby='tab-audio'>
+  Audio tab
+</div>
+
+<script>
+
+  setTab('intro');
+
+  function setTab(tabName) {
+    console.log(tabName);
+    const allTabButtons = document.querySelectorAll('button[role=tab]');
+
+    const tabButtonId = 'tab-' + tabName;
+    const selectedTabButton = document.getElementById(tabButtonId);
+
+    allTabButtons.forEach((tabButton) => {
+      tabButton.setAttribute('aria-selected', false);
+    });
+    selectedTabButton.setAttribute('aria-selected', true);
+
+    const allTabPanels = document.querySelectorAll('[role=tabpanel]');
+
+    const tabPanelId = 'tabpanel-' + tabName;
+    const selectedTabPanel = document.getElementById(tabPanelId);
+
+    allTabPanels.forEach((tabPanel) => {
+      tabPanel.setAttribute('hidden', true);
+    });
+    selectedTabPanel.removeAttribute('hidden');
+
+    console.log(tabName, selectedTabButton, selectedTabPanel)
+  }
+</script>
