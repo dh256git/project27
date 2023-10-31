@@ -16,29 +16,49 @@ listOfIcons: [["", ""], ["", ""]]
 <h2>{{ profile.title }} {{ profile.name }}</h2>
 </div>
 <div class="profilecontainer">
-<img src="{{ profile.photo | prepend: site.baseurl }}" class="danielle-profile" alt="{{ profile.alt }}" height="300px" width="200px">
+<img src="{{ profile.photo | prepend: site.baseurl }}" class="danielle-profile" alt="{{ profile.alt }}" height="200px" width="200px">
 
 <p>{{ profile.contribution }}</p>
 </div>
 
+{% include team/Danielle/introduction.md %}
+{% include team/Danielle/path-to-self-advocacy.md %}
+{% include team/Danielle/education.md %}
+{% include team/Danielle/employment.md %}
+{% include team/Danielle/volunteering.md %}
+{% include team/Danielle/achievements.md %}
+{% include team/Danielle/publications.md %}
+
 <div role='tablist'>
   <button role='tab' id='tab-intro' aria-controls='tabpanel-intro' onClick="setTab('intro')">Introduction</button>
+ <button role='tab' id='tab-path' aria-controls='tabpanel-path' onClick="setTab('path')">Path to Self-Advocacy</button>
   <button role='tab' id='tab-education' aria-controls='tabpanel-education' onClick="setTab('education')">Education</button>
-  <button role='tab' id='tab-visual' aria-controls='tabpanel-visual' onClick="setTab('visual')">Visual</button>
-  <button role='tab' id='tab-audio' aria-controls='tabpanel-audio' onClick="setTab('audio')">Audio</button>
+  <button role='tab' id='tab-employment' aria-controls='tabpanel-employment' onClick="setTab('employment')">Employment</button>
+  <button role='tab' id='tab-volunteering' aria-controls='tabpanel-volunteering' onClick="setTab('volunteering')">Volunteering</button>
+  <button role='tab' id='tab-achievements' aria-controls='tabpanel-achievements' onClick="setTab('achievements')">Achievements</button>
+  <button role='tab' id='tab-publications' aria-controls='tabpanel-publications' onClick="setTab('publications')">Publicationss</button>
 </div>
 
 <div role='tabpanel' id='tabpanel-intro' aria-labelledby='tab-intro'>
   {{ text-introduction | markdownify }}
 </div>
+<div role='tabpanel' id='tabpanel-path' aria-labelledby='tab-path'>
+  {{ text-self-advocacy | markdownify }}
+</div>
 <div role='tabpanel' id='tabpanel-education' aria-labelledby='tab-education'>
-  This is the education tab
+  {{ text-education | markdownify }}
 </div>
-<div role='tabpanel' id='tabpanel-visual' aria-labelledby='tab-visual'>
-  Visual tab
+<div role='tabpanel' id='tabpanel-employment' aria-labelledby='tab-employment'>
+  {{ text-employment | markdownify }}
 </div>
-<div role='tabpanel' id='tabpanel-audio' aria-labelledby='tab-audio'>
-  Audio tab
+<div role='tabpanel' id='tabpanel-volunteering' aria-labelledby='tab-volunteering'>
+  {{ text-volunteering | markdownify }}
+</div>
+<div role='tabpanel' id='tabpanel-achievements' aria-labelledby='tab-achievements'>
+  {{ text-achievements | markdownify }}
+</div>
+<div role='tabpanel' id='tabpanel-publications' aria-labelledby='tab-publications'>
+  {{ text-publications | markdownify }}
 </div>
 
 <script>
