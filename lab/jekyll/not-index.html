@@ -1,0 +1,17 @@
+<select id="page-selector" onchange="handleChange(this.value)">
+  <option value="./test-pages/page1.html" selected="selected">First page</option>
+  <option value="./test-pages/page2.html">Second page</option>
+  <option value="./test-pages/page3.html">Third page</option>
+</select>
+
+<iframe id="iframe-id" src="./test-pages/page1.html" title="First page"></iframe>
+
+<script>
+  const handleChange = (value) => {
+    console.log(value);
+    document.getElementById('iframe-id').setAttribute('src', value);
+    var popupMenu = document.getElementById("page-selector");
+    var selectedMenuItem = popupMenu.options[popupMenu.selectedIndex].text;
+    document.getElementById('iframe-id').setAttribute('title', selectedMenuItem);
+  }
+</script>
