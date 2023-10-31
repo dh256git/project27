@@ -4,7 +4,7 @@ reviewer: Daniel Hajas
 date: 2022-08-27
 update: 2023-01-20
 ---
-{% capture introduction %}
+{% capture text-introduction %}
 # Introduction 
 Hello, my name is Danielle and I'm working on Project27. 
 
