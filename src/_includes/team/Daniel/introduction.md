@@ -1,10 +1,5 @@
----
-author: Daniel Hajas
-reviewer: Danielle Garratt
-date: 2022-08-27
-update: 2023-01-20
----
-
+{% capture text-introduction %}
+## Introduction
 Welcome, my name is Daniel, and the {{ site.brand }} vision is my vision too.
 
 I was born in 1994 with healthy eye sight.
@@ -63,3 +58,4 @@ Get involved, to develop skills that matter to you.
 So long, all the best!
 
 Daniel
+{% endcapture %}

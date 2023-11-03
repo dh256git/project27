@@ -1,0 +1,48 @@
+<div role="tablist">
+    <button role="tab" id='tab-introduction' aria-controls='tabpanel-introduction' onclick="setTab('introduction')">Introduction</button>
+    <button role="tab" id='tab-education' aria-controls='tabpanel-education' onclick="setTab('education')">Education</button>
+    <button role="tab" id="tab-employment" aria-controls='tabpanel-employment' onclick="setTab('employment')">Employment</button>
+    <button role="tab" id="tab-volunteering" aria-controls='tabpanel-volunteering' onclick="setTab('volunteering')">Volunteering</button>
+    <button role="tab" id="tab-achevements" aria-controls='tabpanel-achievements' onclick="setTab('achevements')">Achevements</button>
+    <button role="tab" id="tab-publications" aria-controls='tabpanel-publications' onclick="setTab('publications')">Publications</button>
+</div>
+
+<div role='tabpanel' id="tabpanel-introduction" aria-labelledby="tab-introduction">
+    {% include danielle/introduction.md %}
+    <div>
+    {{ introduction | markdownify }}
+    </div>
+</div>
+<div role='tabpanel' id="tabpanel-education" aria-labelledby="tab-education">
+    {% include danielle/education.md %}
+</div>
+
+<script>
+
+    setTab('introduction');
+  
+    function setTab(tabName) {
+      console.log(tabName);
+      const allTabButtons = document.querySelectorAll('button[role=tab]');
+  
+      const tabButtonId = 'tab-' + tabName;
+      const selectedTabButton = document.getElementById(tabButtonId);
+  
+      allTabButtons.forEach((tabButton) => {
+        tabButton.setAttribute('aria-selected', false);
+      });
+      selectedTabButton.setAttribute('aria-selected', true);
+  
+      const allTabPanels = document.querySelectorAll('[role=tabpanel]');
+  
+      const tabPanelId = 'tabpanel-' + tabName;
+      const selectedTabPanel = document.getElementById(tabPanelId);
+  
+      allTabPanels.forEach((tabPanel) => {
+        tabPanel.setAttribute('hidden', true);
+      });
+      selectedTabPanel.removeAttribute('hidden');
+  
+      console.log(tabName, selectedTabButton, selectedTabPanel)
+    }
+  </script>

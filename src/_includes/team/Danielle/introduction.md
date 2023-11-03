@@ -1,10 +1,6 @@
----
-author: Danielle Garratt
-reviewer: Daniel Hajas
-date: 2022-08-27
-update: 2023-01-20
----
+{% capture text-introduction %}
 
+# Introduction 
 Hello, my name is Danielle and I'm working on Project27. 
 
 I was born in 1993 with a left sided hemiplegia, I am blind in my left eye and I have nystagmus in my right eye. I also have a learning disability. 
@@ -18,3 +14,6 @@ I want to show that people with a learning disability and people who have a visu
 Kind regards,
 
 Danielle
+
+
+{% endcapture %}

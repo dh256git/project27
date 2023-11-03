@@ -11,25 +11,82 @@ listOfIcons: [["", ""], ["", ""]]
 ---
 
 {% assign profile = site.data.volunteering.core-team[1] %}
-{% assign profile-sections = site.data.volunteering.danielle %}
+{% include team/Danielle/introduction.md %}
+{% include team/Danielle/path-to-self-advocacy.md %}
+{% include team/Danielle/education.md %}
+{% include team/Danielle/employment.md %}
+{% include team/Danielle/volunteering.md %}
+{% include team/Danielle/achievements.md %}
+{% include team/Danielle/publications.md %}
 
 <div class="profilecontainertitle">
 <h2>{{ profile.title }} {{ profile.name }}</h2>
 </div>
 <div class="profilecontainer">
-<img src="{{ profile.photo | prepend: site.baseurl }}" class="danielle-profile" alt="{{ profile.alt }}" height="300px" width="200px">
+<img src="{{ profile.photo | prepend: site.baseurl }}" class="danielle-profile" alt="{{ profile.alt }}" height="200px" width="200px">
 
 <p>{{ profile.contribution }}</p>
 </div>
 
-<select onchange="handleChange(this)">
-{% for item in profile-sections %}
-<option value="{{ item.value | prepend: site.baseurl }}" label="{{ item.label }}">{{ item.text }}</option>
-{% endfor %}
-</select>
 
-<h3 id="frame-heading">Open letter</h3>
-
-<div class="iframe-container">
-<iframe src="{{ '/about/team/Danielle/introduction.html' | prepend: site.baseurl }}"title="Welcome letter" id="iframe-id" class="responsive-iframe"></iframe>
+<div role='tablist'>
+  <button role='tab' id='tab-intro' aria-controls='tabpanel-intro' onClick="setTab('intro')">Introduction</button>
+  <button role='tab' id='tab-education' aria-controls='tabpanel-education' onClick="setTab('education')">Education</button>
+  <button role='tab' id='tab-employment' aria-controls='tabpanel-employment' onClick="setTab('employment')">Employment</button>
+ <button role='tab' id='tab-path' aria-controls='tabpanel-path' onClick="setTab('path')">Self-Advocacy</button>
+  <button role='tab' id='tab-volunteering' aria-controls='tabpanel-volunteering' onClick="setTab('volunteering')">Volunteering</button>
+  <button role='tab' id='tab-achievements' aria-controls='tabpanel-achievements' onClick="setTab('achievements')">Achievements</button>
+  <button role='tab' id='tab-publications' aria-controls='tabpanel-publications' onClick="setTab('publications')">Publicationss</button>
 </div>
+
+<div role='tabpanel' id='tabpanel-intro' aria-labelledby='tab-intro'>
+  {{ text-introduction | markdownify }}
+</div>
+<div role='tabpanel' id='tabpanel-path' aria-labelledby='tab-path'>
+  {{ text-self-advocacy | markdownify }}
+</div>
+<div role='tabpanel' id='tabpanel-education' aria-labelledby='tab-education'>
+  {{ text-education | markdownify }}
+</div>
+<div role='tabpanel' id='tabpanel-employment' aria-labelledby='tab-employment'>
+  {{ text-employment | markdownify }}
+</div>
+<div role='tabpanel' id='tabpanel-volunteering' aria-labelledby='tab-volunteering'>
+  {{ text-volunteering | markdownify }}
+</div>
+<div role='tabpanel' id='tabpanel-achievements' aria-labelledby='tab-achievements'>
+  {{ text-achievements | markdownify }}
+</div>
+<div role='tabpanel' id='tabpanel-publications' aria-labelledby='tab-publications'>
+  {{ text-publications | markdownify }}
+</div>
+
+<script>
+
+  setTab('intro');
+
+  function setTab(tabName) {
+    console.log(tabName);
+    const allTabButtons = document.querySelectorAll('button[role=tab]');
+
+    const tabButtonId = 'tab-' + tabName;
+    const selectedTabButton = document.getElementById(tabButtonId);
+
+    allTabButtons.forEach((tabButton) => {
+      tabButton.setAttribute('aria-selected', false);
+    });
+    selectedTabButton.setAttribute('aria-selected', true);
+
+    const allTabPanels = document.querySelectorAll('[role=tabpanel]');
+
+    const tabPanelId = 'tabpanel-' + tabName;
+    const selectedTabPanel = document.getElementById(tabPanelId);
+
+    allTabPanels.forEach((tabPanel) => {
+      tabPanel.setAttribute('hidden', true);
+    });
+    selectedTabPanel.removeAttribute('hidden');
+
+    console.log(tabName, selectedTabButton, selectedTabPanel)
+  }
+</script>
