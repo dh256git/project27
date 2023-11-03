@@ -1,3 +1,16 @@
+{% capture homeAnnouncement %}
+    📣 Time to have your say!
+    <a href="{% link about/stakeholders/consult-me.md %}">Express your interest in our upcoming stakeholder engagement,</a> or 
+    <a href="{% link about/stakeholders/my-question.md %}">ask your questions.</a>
+{% endcapture %}
+
+{% capture betaAnnouncement %}
+    📣 This area of the website is a 
+<a target="_blank" rel="noreferrer noopener" href="https://en.wikipedia.org/wiki/Software_release_life_cycle">
+beta version.
+</a>
+{% endcapture %}
+
 {% if page.announcement %}
 <div class="announcement">
 <p>
@@ -7,36 +20,25 @@
 {% elsif page.title == "Project27 - Skills that matter" %}
 <div class="announcement">
 <p>
-    📣 Time to have your say!
-    <a href="{% link about/stakeholders/consult-me.md %}">Express your interest in our upcoming stakeholder engagement,</a> or 
-    <a href="{% link about/stakeholders/my-question.md %}">ask your questions.</a>
+{{ homeAnnouncement }}
 </p>
 </div>
 {% elsif page.url contains "guide/" %}
 <div class="announcement">
 <p>
-    📣 The {{ site.brand }} {{ site.product }} is a 
-<a target="_blank" rel="noreferrer noopener" href="https://en.wikipedia.org/wiki/Software_release_life_cycle">
-beta version.
-</a>
+    📣 View our work in progress! We plan to launch the {{ site.product }} on 31st of January, 2025.
 </p>
 </div>
 {% elsif page.url contains "volunteering/" %}
 <div class="announcement">
 <p>
-    📣 The {{ site.brand }} Volunteering site is a 
-<a target="_blank" rel="noreferrer noopener" href="https://en.wikipedia.org/wiki/Software_release_life_cycle">
-beta version.
-</a>
+    📣 View our work in progress! We plan to launch membership applications on 31st of January, 2024.
 </p>
 </div>
 {% else %}
 <div class="announcement">
 <p>
-    📣 This area of the website is a 
-<a target="_blank" rel="noreferrer noopener" href="https://en.wikipedia.org/wiki/Software_release_life_cycle">
-beta version.
-</a>
+{{ betaAnnouncement }}
 </p>
 </div>
 {% endif %}

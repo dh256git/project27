@@ -11,6 +11,13 @@ listOfIcons: [["", ""], ["", ""]]
 ---
 
 {% assign profile = site.data.volunteering.core-team[1] %}
+{% include team/Danielle/introduction.md %}
+{% include team/Danielle/path-to-self-advocacy.md %}
+{% include team/Danielle/education.md %}
+{% include team/Danielle/employment.md %}
+{% include team/Danielle/volunteering.md %}
+{% include team/Danielle/achievements.md %}
+{% include team/Danielle/publications.md %}
 
 <div class="profilecontainertitle">
 <h2>{{ profile.title }} {{ profile.name }}</h2>
@@ -21,19 +28,12 @@ listOfIcons: [["", ""], ["", ""]]
 <p>{{ profile.contribution }}</p>
 </div>
 
-{% include team/Danielle/introduction.md %}
-{% include team/Danielle/path-to-self-advocacy.md %}
-{% include team/Danielle/education.md %}
-{% include team/Danielle/employment.md %}
-{% include team/Danielle/volunteering.md %}
-{% include team/Danielle/achievements.md %}
-{% include team/Danielle/publications.md %}
 
 <div role='tablist'>
   <button role='tab' id='tab-intro' aria-controls='tabpanel-intro' onClick="setTab('intro')">Introduction</button>
- <button role='tab' id='tab-path' aria-controls='tabpanel-path' onClick="setTab('path')">Path to Self-Advocacy</button>
   <button role='tab' id='tab-education' aria-controls='tabpanel-education' onClick="setTab('education')">Education</button>
   <button role='tab' id='tab-employment' aria-controls='tabpanel-employment' onClick="setTab('employment')">Employment</button>
+ <button role='tab' id='tab-path' aria-controls='tabpanel-path' onClick="setTab('path')">Self-Advocacy</button>
   <button role='tab' id='tab-volunteering' aria-controls='tabpanel-volunteering' onClick="setTab('volunteering')">Volunteering</button>
   <button role='tab' id='tab-achievements' aria-controls='tabpanel-achievements' onClick="setTab('achievements')">Achievements</button>
   <button role='tab' id='tab-publications' aria-controls='tabpanel-publications' onClick="setTab('publications')">Publicationss</button>

@@ -11,17 +11,23 @@ I was born in Hungary, where I lived my childhood. Prior to moving to Brighton (
 
 From physics to computer science, but science nevertheless.
 
-#### 1. Master of Theoretical Physics at the University of Sussex
+#### Master of Theoretical Physics at the University of Sussex
 
 In 2017 I graduated with a first class honours, Master of theoretical physics degree. Although fundamental physics studies was very satisfying and a great opportunity to acquire skills for solving problems, I also developed an interest in touch technologies. This has led to my early research interest in Human-Computer Interaction (HCI) and haptic interfaces in context of science communication.
 
 As a transition from my undergraduate to PhD studentship, in my master year I focused on a science communication project under the supervision of [Prof Kathy Romer.](https://profiles.sussex.ac.uk/p114410-kathy-romer)
 
-#### 2. PhD in Informatics at the SCHI Lab
+#### Doctor of Philosophy in Informatics at the Sussex Computer and Human Interactions Lab
 
-Between 2017 and 2021 I have completed a PhD in Informatics, under the supervision of [Prof Marianna Obrist](https://uclic.ucl.ac.uk/people/marianna-obrist) at the [Sussex Computer-Human Interaction (SCHI) laboratory.](https://www.sussex.ac.uk/schi/) My thesis discussed ultrasonic mid-air haptics in context of science communication. The research was funded by Ultraleap Limited.
+Between 2017 and 2021 I have completed a PhD in Informatics, under the supervision of [Prof Marianna Obrist](https://uclic.ucl.ac.uk/people/marianna-obrist) at the [Sussex Computer and Human Interactions (SCHI) laboratory.](https://www.sussex.ac.uk/schi/) My thesis discussed ultrasonic mid-air haptics in context of science communication. The research was funded by Ultraleap Limited.
+{% endcapture %}
 
-#### 3. Research collaboration with the MIT Visualisation Group
+{% capture text-research %}
+## Research
+
+I continue to collaborate with research groups, ever since I handed my student ID back.
+
+### Collaboration with the MIT Visualisation Group
 
 After my PhD, I began a research collaboration with the [MIT Visualisation Research Group.](http://vis.csail.mit.edu) Our research studies how data visualisations on the web can be accessible to screen reader users. Multiple research projects sparked from the initial collaboration. We published an open source accessible visualisation adapter, called [Olli](https://mitvis.github.io/olli/). In addition, we have explored the commercial viability of the research output.
 {% endcapture %}
