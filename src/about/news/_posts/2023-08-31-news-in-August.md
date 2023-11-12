@@ -6,9 +6,9 @@ reviewer: Daniel Hajas
 title: We took a break. So who wrote this?
 updated: 2023-10-23
 buttonStyle: fg-blog-sect
-backgroundStyle: bg-blog-sect
-image: july.png
-alt: Placeholder.
+backgroundStyle: abg-blog-sect
+image: august.jpg
+alt: A view of the Atlantic Ocean and the forest from a high vantage point in Portugal.
 ---
 
 We were looking forward to August. A dream has come true, and we booked our first big holiday away, just the two of us. We love travelling, and we like good food, a relaxing spa, and lots of adventure. So we decided to set sail, and jump on a cruise around the Mediterranean.

@@ -1,8 +1,18 @@
+- headline: Introducing tabs - A new look on our profile pages
+  link: /news-in-october.html
+  date: 2023-10-31
+  thumbnail: October.png
+  thumbnailAlt: A screenshot of the new tab panel on Danielle's profile page, showing tabs, such as education, employment, or self-advocacy. 
+- headline: A new recruit - Experimenting with AI tools
+  link: /news-in-september.html
+  date: 2023-09-30
+  thumbnail: september.jpg
+  thumbnailAlt: An illustration of a robot flying over a computer motherboard.
 - headline: We took a break. So who wrote this?
   link: /news-in-august.html
   date: 2023-08-31
-  thumbnail: July.png
-  thumbnailAlt: Example
+  thumbnail: august.jpg
+  thumbnailAlt: A view of the Atlantic Ocean and the forest from a high vantage point in Portugal.
 - headline: Successful registration of the Project27 C.I.C.
   link: /news-in-july.html
   date: 2023-07-31
