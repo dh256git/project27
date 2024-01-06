@@ -1,6 +1,6 @@
 {% capture text-events %}
 
-## Events
+## Our events
 
 Currently, we have no events planned. Please check back later.
 

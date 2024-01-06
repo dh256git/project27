@@ -1,22 +1,27 @@
 {% capture text-members %}
 
-## Members
+## Members of our community
 
-### What are the benefits of becoming a member?
+Our membership programme is designed to act as a springboard for skills development, employability, and personal growth.
 
-There are multiple benefits to becoming a member. For example, you will
+### What are the benefits of membership?
 
-* get 1 credit of [supervision support]({% link support/pricing.md %}) per month;
+There are multiple benefits to becoming a member, beyond volunteering. For example, you will
+
 * get [certifications](#certification) of your contributions;
 * be able to join more than 1 team;
 * be able to contribute an unlimited number of tasks;
+* get 1 credit of [supervision support]({% link support/pricing.md %}) per month;
+* get discounts on our community events.
 * get access to exclusive content on the {{ site.brand }} {{ site.product }};
 * get access to collectable badges to display on your profile;
-* get discounts on our community events.
 
-### Certified pathways of volunteering {#certification}
+## Certified pathways of volunteering {#certification}
 
-We are committed to certifying your contributions. Currently, we offer the following achievements:
+We are committed to certifying member contributions. Currently, we offer the following achievements:
+
+Guest member
+: after successful completion of the onboarding activity (~4 hours of commitment), and payment of the membership fee;
 
 Trainee
 : after successful completion of 4 tasks (~16 hours of commitment);
@@ -27,18 +32,18 @@ Apprentice
 Intern
 : after successful completion of 48 tasks (~16 hours of regular commitment per week, for three months);
 
-Active member
+Fellow
 : after successful completion of 100 tasks (~8 hours of regular commitment per week, for one year)
 
-Active members will be considered for part-time employment at {{ site.brand }} or one of our partners; subject to funding and the legal constitution of the {{ site.brand }} business entity.
+{{ site.org }} Fellows will be considered for employment at {{ site.organisation }} or one of our partners; subject to funding.
 
-{% include global/buttonLink.html url="/volunteering/certification.html" label="Read more" %}
+{% include global/buttonLink.html url="/volunteering/certification.html" label="Compare our certified development pathways" %}
 
-### How much does membership cost?
+## How much does membership cost?
 
 Membership is priced slightly differently, depending on the subscription you select.
 
-* paid monthly: £24.99 a month,
-* paid yearly: £239.90 a year (£19.99 a month).
+* paid monthly: £149.99 a month,
+* paid yearly: £1499.90 a year (12 months of membership at the price of 10 months)
 
 {% endcapture %}

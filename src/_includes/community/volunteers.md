@@ -1,6 +1,8 @@
 {% capture text-volunteers %}
 
-## Volunteers
+## Volunteers of our community
+
+Our volunteer scheme is designed to leave noone behind, and get support from industry professionals who want to be part of our community, but do not need us to certify their achievements.
 
 ### What are the benefits of becoming a volunteer?
 
