@@ -32,7 +32,7 @@ Active member
 
 Active members will be considered for part-time employment at {{ site.brand }} or one of our partners; subject to funding and the legal constitution of the {{ site.brand }} business entity.
 
-{% include global/buttonLink.html url="volunteering/certification.md" label="Read more" %}
+{% include global/buttonLink.html url="/volunteering/certification.html" label="Read more" %}
 
 ### How much does membership cost?
 
