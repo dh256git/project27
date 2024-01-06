@@ -16,7 +16,7 @@ There are multiple benefits to becoming a member, beyond volunteering. For examp
 * get access to exclusive content on the {{ site.brand }} {{ site.product }};
 * get access to collectable badges to display on your profile;
 
-## Certified pathways of volunteering {#certification}
+## Certified pathways of skills development {#certification}
 
 We are committed to certifying member contributions. Currently, we offer the following achievements:
 

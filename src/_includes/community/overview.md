@@ -5,8 +5,9 @@
 {{ site.org }} is built by its community.
 Here is why you should become a part of it:
 
+
 1. We need your help. We are not experts or professionals in everything that's needed to keep {{ site.org }} up and running. There is a lot to do, so a helpful hand is always appreciated.
-2. Do it for yourself. We can guarantee, you will learn something new and useful.
+2. Do it for yourself. We can guarantee, you will learn something new and useful. Joining our community is the entry point of our active learning promise.
 
 # How much time should I commit?
 
