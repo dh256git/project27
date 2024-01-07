@@ -37,7 +37,7 @@ Some ways you can get in touch with us are:
 + a 3 minute video or audio recording;
 + an electronic document, such as Microsoft Word or a text file attached and sent to our e-mail address;
 + responses directly sent in the body of an e-mail to our e-mail address;
-+ a posted letter to our PO box.
++ a posted letter to our [PO box.]({% link contact/index.md %})
 
 ## What happens after you get in touch?
 
@@ -68,8 +68,8 @@ It is a small, self-contained challenge.
 
 By sending us your completed application form, you show us:
 
-* how committed you are to learning,
-* how well you can create a screen reader accessible document,
+* how committed you are to learning, and taking challenges;
+* how well you can create a screen reader accessible and easy read document, for blind or learning disabled people;
 * how engaging your first {{ site.brand }} written piece is.
 
 please download the short application form and e-mail it to us as an attachment. Our e-mail address is support@project27skills.com.

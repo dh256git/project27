@@ -23,7 +23,7 @@ backgroundStyle: bg-general-vol
 
 ## {{ page.title }}: {{ page.tagline }}
 
-<a id="apply-to-volunteer-top" class="{{ page.buttonStyle }}" aria-disabled="false" href="https://docs.google.com/forms/d/e/1FAIpQLSeq5EFjDtIjXKPDgu8l9YYBwfP7gnrop7uKOTRoIxtZZQTRwQ/viewform?usp=sf_link">Join out community</a>
+{% include global/buttonLink.html url="https://docs.google.com/forms/d/e/1FAIpQLSeq5EFjDtIjXKPDgu8l9YYBwfP7gnrop7uKOTRoIxtZZQTRwQ/viewform?usp=sf_link" label="Express your interest in joining our community" %}
 
 Get involved and become a part of our community.
 You can contribute as a [volunteer,](#apply-to-volunteer-top) or as a [member,](#apply-to-volunteer-top) and [develop your skills]({% link about/skills.md %}) through hands-on tasks.
