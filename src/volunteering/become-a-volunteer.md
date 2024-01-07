@@ -55,8 +55,6 @@ Supervision (members only)
 : During the first month with us, we offer a [free supervision session]({% link support/pricing.md %}), to make sure you can give us feedback, ask questions, and to help you combat initial difficulties.
 : Supervision is optional and flexible. You can choose to take the full hour, take two 30 minute long sessions, or not use it at all.
 
-{% endcapture %}
-
 ### Fancy a challenge to show your commitment?
 The application process is very quick and simple, but it is also a small, self-contained challenge. By sending us your completed application form, you show us:
 

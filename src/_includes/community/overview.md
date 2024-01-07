@@ -21,6 +21,6 @@ The level of engagement is flexible. You may
 
 If you would like to join our community, click the "join our community" button below, and we will walk you through our light-weight onboarding step by step.
 
-<a id="apply-to-volunteer-top" class="{{ page.buttonStyle }}" aria-disabled="false" href="{{ '/volunteering/join-our-community.html' | prepend: site.baseurl }}">Join out community</a>
+<a id="apply-to-volunteer-top" class="{{ page.buttonStyle }}" aria-disabled="false" href="{{ '/volunteering/become-a-volunteer.html' | prepend: site.baseurl }}">Join out community</a>
 
 {% endcapture %}
