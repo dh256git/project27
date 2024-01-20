@@ -1,8 +1,8 @@
 Certification,Guest,Apprentice,Intern,Scholar,Fellow
-Tasks,1,4,16,48,100
+Tasks completed,1,4,16,48,100
 Focus,Onboarding,Training activities,Personal project,Team activities,Project27 projects
-Period,1 month,1 month,1 month,3 months,12 months
-Time commitment (per week),1 hour,4 hours,16 hours,16 hours,8 hours
+Active period,1 month,1 month,1 month,3 months,12 months
+Minimum time commitment (per week),1 hour,4 hours,16 hours,16 hours,8 hours
 Supervision (per week),30 minutes,60 minutes,30 minutes,15 minutes,on demand
-Description of support,"Trainees are introduced to our systems and processes, meet the onboarding activity lead, and get to select their first task.","Trainees seeking the apprentice certification work through tasks within training activities, supervised by individual volunteers, developing fundamental skills.","Intern candidates begin working on personal projects, practicing relevant skills while receiving guidance and feedback from community members","Interns join teams on the path to becoming scholars. Team leaders and team members highlight opportunities for improvement, ask critical questions, but do not directly influence how tasks are completed.","To become a fellow, team leaders help trainees to become leaders themselves by encouraging scholars to take responsibility for specific activities, and recruit team members."
+Description of support,"Trainees are introduced to our systems and processes, meet the onboarding activity lead, and get to select their first task.","Trainees seeking the apprentice certification work through tasks within training activities, supervised by individual volunteers, developing fundamental skills.","Apprenticees begin working on personal projects, practicing relevant skills while receiving guidance and feedback from community members","Interns join teams, and work on team activities. Team leaders and team members highlight opportunities for improvement, ask critical questions, but do not directly influence how interns should complete tasks.","To become a fellow, team leaders help trainees to become leaders themselves by encouraging scholars to take responsibility for specific activities, and recruit team members."
 Price,£0,£150,£200,£400,£750

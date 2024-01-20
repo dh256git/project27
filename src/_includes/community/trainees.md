@@ -21,13 +21,13 @@ Guests
 : after registration, during the onboarding activity (~4 hours of commitment over 1 month);
 
 Apprentice
-: after successful completion of 4 tasks (~4 hours of regular commitment per week, for one month);
+: after successful completion of 4 tasks (~4 hours of regular commitment per week, for 1 month);
 
 Intern
-: after successful completion of 16 tasks (~16 hours of regular commitment per week, for one month);
+: after successful completion of 16 tasks (~16 hours of regular commitment per week, for 1 month);
 
 Scholar
-: after successful completion of 48 tasks (~16 hours of regular commitment per week, for three months);
+: after successful completion of 48 tasks (~16 hours of regular commitment per week, for 3 months);
 
 Fellow
 : after successful completion of 100 tasks (~8 hours of regular commitment per week, for 12 months)
