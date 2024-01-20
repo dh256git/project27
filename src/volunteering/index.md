@@ -11,7 +11,7 @@ backgroundStyle: bg-general-vol
 ---
 
 {% include community/overview.md %}
-{% include community/members.md %}
+{% include community/trainees.md %}
 {% include community/volunteers.md %}
 {% include community/teams-and-tasks.md %}
 {% include community/events.md %}
@@ -25,14 +25,14 @@ backgroundStyle: bg-general-vol
 
 {% include global/buttonLink.html url="https://docs.google.com/forms/d/e/1FAIpQLSeq5EFjDtIjXKPDgu8l9YYBwfP7gnrop7uKOTRoIxtZZQTRwQ/viewform?usp=sf_link" label="Express your interest in joining our community" %}
 
-Get involved and become a part of our community.
-You can contribute as a [volunteer,](#apply-to-volunteer-top) or as a [member,](#apply-to-volunteer-top) and [develop your skills]({% link about/skills.md %}) through hands-on tasks.
+Join our community as a [volunteer,](#apply-to-volunteer-top) or as a [trainee.](#apply-to-volunteer-top)
+Our members [develop skills that matter,]({% link about/skills.md %}) through bespoke training, completing tasks, and working in teams.
 
 {% include global/cover-image.html image="volunteering-cover.jpg" alt="A drawn tree, with handprints as leaves on the branches." %}
 
 <div role='tablist'>
   <button role='tab' id='tab-overview' aria-controls='tabpanel-overview' onClick="setTab('overview')">Overview</button>
-  <button role='tab' id='tab-members' aria-controls='tabpanel-members' onClick="setTab('members')">Members</button>
+  <button role='tab' id='tab-trainees' aria-controls='tabpanel-trainees' onClick="setTab('trainees')">Trainees</button>
   <button role='tab' id='tab-volunteers' aria-controls='tabpanel-volunteers' onClick="setTab('volunteers')">Volunteers</button>
   <button role='tab' id='tab-teams' aria-controls='tabpanel-teams' onClick="setTab('teams')">Teams and Tasks</button>
   <button role='tab' id='tab-events' aria-controls='tabpanel-events' onClick="setTab('events')">Events</button>
@@ -41,8 +41,8 @@ You can contribute as a [volunteer,](#apply-to-volunteer-top) or as a [member,](
 <div role='tabpanel' id='tabpanel-overview' aria-labelledby='tab-overview'>
   {{ text-overview | markdownify }}
 </div>
-<div role='tabpanel' id='tabpanel-members' aria-labelledby='tab-members'>
-  {{ text-members | markdownify }}
+<div role='tabpanel' id='tabpanel-trainees' aria-labelledby='tab-trainees'>
+  {{ text-trainees | markdownify }}
 </div>
 <div role='tabpanel' id='tabpanel-volunteers' aria-labelledby='tab-volunteers'>
   {{ text-volunteers | markdownify }}

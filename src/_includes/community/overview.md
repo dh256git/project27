@@ -1,26 +1,23 @@
 {% capture text-overview %}
 
-## Why should I join the {{ site.org }} community?
+## Join our community
 
 {{ site.org }} is built by its community.
-Here is why you should become a part of it:
+By joining, you will
 
+1. develop skills that matter to you, and your employers;
+2. grow professionally and personally, through disability inclusive practices and active learning;
+3. help other disabled people to become professionals.
 
-1. We need your help. We are not experts or professionals in everything that's needed to keep {{ site.org }} up and running. There is a lot to do, so a helpful hand is always appreciated.
-2. Do it for yourself. We can guarantee, you will learn something new and useful. Joining our community is the entry point of our active learning promise.
+The level of engagement is flexible.
+You choose how far you want to go, and how much time you want to commit.
 
-# How much time should I commit?
+Guests complete our onboarding workflow before making any commitment.
+Volunteers help with creating tasks, leading teams, and supervising trainees.
 
-The level of engagement is flexible. You may
+Trainees continue working on multiple tasks, committing time depending on the level of certification they aim to achieve..
+{{ site.org }} Fellows get hooked, treating task completion as a part time role.
 
-+ identify, or ask us for a single challenge, solve it, and you are done.
-+ continue working on multiple challenges, whenever you find time, even if only a couple hours in a month.
-+ get hooked, and if you have nothing better to do, treat it as a part time role.
-
-# Join our community
-
-If you would like to join our community, click the "join our community" button below, and we will walk you through our light-weight onboarding step by step.
-
-<a id="apply-to-volunteer-top" class="{{ page.buttonStyle }}" aria-disabled="false" href="{{ '/volunteering/become-a-volunteer.html' | prepend: site.baseurl }}">Join out community</a>
+<a id="apply-to-volunteer-top" class="{{ page.buttonStyle }}" aria-disabled="false" href="{{ '/volunteering/become-a-volunteer.html' | prepend: site.baseurl }}">Join now</a>
 
 {% endcapture %}
