@@ -39,7 +39,6 @@ Our volunteers and members can contribute to expanding the {{ site.product }}, a
     </div>
 
     <div role='tabpanel' id='tabpanel-science' aria-labelledby='tab-science'>
-        {{ text-science-collection | markdownify }}
         <h3>Science collection</h3>
 
 <p>The science collection consists of two volumes, including notes on mathematical and physical sciences, and digital skills respectively. We recognize the importance of science, technology, engineering, and mathematics (STEM) as prerequisites for skills development, innovation, creativity, entrepreneurship, and employability</p>
@@ -50,28 +49,25 @@ Our volunteers and members can contribute to expanding the {{ site.product }}, a
 {% assign gridLimit = 2 %}
 {% include global/grid-generator.html heading="h4" %}
       </div>
-      </div>
-      <div role='tabpanel' id='tabpanel-lifestyle' aria-labelledby='tab-lifestyle'>
-        {{ text-lifestyle | markdownify }}
-        <h3>Lifestyle collection</h3>
 
+      <div role='tabpanel' id='tabpanel-lifestyle' aria-labelledby='tab-lifestyle'>
+        <h3>Lifestyle collection</h3>
         <p>
         The lifestyle collection consists of two volumes, including notes on cooking, and storytelling respectively. We recognise the importance of human stories, social interaction, and peer support in the community. Cooking and sharing stories is a great way to bond, build confidence, and develop social skills.
         </p>
-        
         <p>Lifestyle Editor: <a href="{{ '/about/team/Danielle/index.html' | prepend: site.baseurl }}">Danielle Garratt</a></p>
         {% assign dataFile = site.data.volumes.guide %}
         {% assign gridOffset = 3 %}
         {% include global/grid-generator.html heading="h4" %}
         </div>
-      </div>
 
       <div role='tabpanel' id='tabpanel-training' aria-labelledby='tab-training'>
-        {{ text-training | markdownify }}
         <h3>Training and community projects</h3>
-        <p>This is a test to see if this works</p>
+        <p>
+          This is a test to see if this works</p>
+          <p> Training Editor: <a href="{{ '/about/team/Danielle/index.html' | prepend: site.baseurl }}">Danielle Garratt</a> </p>
         </div>
-      </div>
+        </div>
 
 <script>
 
