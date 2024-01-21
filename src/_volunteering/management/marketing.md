@@ -6,6 +6,7 @@ task: Managing sales and marketing
 date: 2022-10-01
 buttonStyle: fg-general-chap
 backgroundStyle: bg-general-chap
+board: https://trello.com/b/4zWypJIw
 ---
 
 Have you heard of the "diffusion of innovation" curve? Do you know how it relates to marketing?

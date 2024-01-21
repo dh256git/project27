@@ -6,6 +6,7 @@ task: Developing the site structure
 date: 2021-01-21
 buttonStyle: fg-general-chap
 backgroundStyle: bg-general-chap
+board: https://trello.com/b/3WejjMbP/team-3-research-development
 ---
 
 Could you enhance the site structure under the hood using Jekyll? Do you have ideas on how to improve the code written in Liquid syntax?

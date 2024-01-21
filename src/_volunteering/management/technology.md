@@ -6,6 +6,7 @@ task: Managing research and development
 date: 2022-10-01
 buttonStyle: fg-general-chap
 backgroundStyle: bg-general-chap
+board: https://trello.com/b/4zWypJIw
 ---
 
 Do you code? Can you do research? Do you have good person skills and academic connections?
