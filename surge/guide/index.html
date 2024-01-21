@@ -300,7 +300,14 @@ Our volunteers and members can contribute to expanding the Guide, and develop a 
 
 <hr>
 
-<h3>Science collection</h3>
+<div role='tablist'>
+    <button role='tab' id='tab-science' aria-controls='tabpanel-science' onClick="setTab('science')">Science and technology</button>
+    <button role='tab' id='tab-lifestyle' aria-controls='tabpanel-lifestyle' onClick="setTab('lifestyle')">Lifestyle</button>
+    <button role='tab' id='tab-training' aria-controls='tabpanel-training' onClick="setTab('training')">Training and community projects</button>
+    </div>
+
+    <div role='tabpanel' id='tabpanel-science' aria-labelledby='tab-science'>
+        <h3>Science collection</h3>
 
 <p>The science collection consists of two volumes, including notes on mathematical and physical sciences, and digital skills respectively. We recognize the importance of science, technology, engineering, and mathematics (STEM) as prerequisites for skills development, innovation, creativity, entrepreneurship, and employability</p>
 
@@ -363,19 +370,17 @@ Our volunteers and members can contribute to expanding the Guide, and develop a 
 
 <!-- if more than two columns are desired and modulo can take other values than 0 and 1. -->
 
+      </div>
 
-<hr>
-
-<h3>Lifestyle collection</h3>
-
-<p>
-The lifestyle collection consists of two volumes, including notes on cooking, and storytelling respectively. We recognise the importance of human stories, social interaction, and peer support in the community. Cooking and sharing stories is a great way to bond, build confidence, and develop social skills.
-</p>
-
-<p>Lifestyle Editor: <a href="/about/team/Danielle/index.html">Danielle Garratt</a></p>
-
-
-                       
+      <div role='tabpanel' id='tabpanel-lifestyle' aria-labelledby='tab-lifestyle'>
+        <h3>Lifestyle collection</h3>
+        <p>
+        The lifestyle collection consists of two volumes, including notes on cooking, and storytelling respectively. We recognise the importance of human stories, social interaction, and peer support in the community. Cooking and sharing stories is a great way to bond, build confidence, and develop social skills.
+        </p>
+        <p>Lifestyle Editor: <a href="/about/team/Danielle/index.html">Danielle Garratt</a></p>
+        
+        
+                               
  
     
 <!-- Hide the item in the grid. Remove if statement to show item. -->
@@ -430,8 +435,45 @@ The lifestyle collection consists of two volumes, including notes on cooking, an
 
 <!-- if more than two columns are desired and modulo can take other values than 0 and 1. -->
 
+        </div>
 
-</div>
+      <div role='tabpanel' id='tabpanel-training' aria-labelledby='tab-training'>
+        <h3>Training and community projects</h3>
+        <p>
+          This is a test to see if this works</p>
+          <p> Training Editor: <a href="/about/team/Danielle/index.html">Danielle Garratt</a> </p>
+        </div>
+        </div>
+
+<script>
+
+    setTab('science');
+  
+    function setTab(tabName) {
+      console.log(tabName);
+      const allTabButtons = document.querySelectorAll('button[role=tab]');
+  
+      const tabButtonId = 'tab-' + tabName;
+      const selectedTabButton = document.getElementById(tabButtonId);
+  
+      allTabButtons.forEach((tabButton) => {
+        tabButton.setAttribute('aria-selected', false);
+      });
+      selectedTabButton.setAttribute('aria-selected', true);
+  
+      const allTabPanels = document.querySelectorAll('[role=tabpanel]');
+  
+      const tabPanelId = 'tabpanel-' + tabName;
+      const selectedTabPanel = document.getElementById(tabPanelId);
+  
+      allTabPanels.forEach((tabPanel) => {
+        tabPanel.setAttribute('hidden', true);
+      });
+      selectedTabPanel.removeAttribute('hidden');
+  
+      console.log(tabName, selectedTabButton, selectedTabPanel)
+    }
+  </script>
 
  <hr>
  <p>
@@ -590,8 +632,8 @@ Privacy policy
 
 <p><a href="/blog/logbook/dev/change-log.html">Version: 0.6.296.</a></p>
 <p onclick="showTimeLastUpdated()">Last updated: 
-<span id="time-last-updated-show">07 Jan 2024.</span>
-<span id="time-last-updated-hide" class="hidden-text">19:28.</span>
+<span id="time-last-updated-show">21 Jan 2024.</span>
+<span id="time-last-updated-hide" class="hidden-text">16:35.</span>
 </p>
 </div>
 </div>
