@@ -14,8 +14,9 @@ backgroundStyle: bg-general-vol
 {% include community/trainees.md %}
 {% include community/volunteers.md %}
 {% include community/teams-and-tasks.md %}
-{% include community/events.md %}
 {% include community/skills.md %}
+{% include community/events.md %}
+
 
 {% assign teamLeadership = site.volunteering | where:"team","Management" %}
 {% assign teamRnD = site.volunteering | where:"team","RnD" %}

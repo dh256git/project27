@@ -1,12 +1,14 @@
 - value: /volunteering/research-and-development/index.html
   label: Research & Development
-  text: Research & Development
+  text: View members of the Research & Development team
+  data: /about/team/Daniel/index.html
 - value: /volunteering/content/index.html
-  label: Posts and Notes
-  text: Posts and Notes
+  label: Content creation
+  text: View members of the Content creation team
+  data: /about/team/Danielle/index.html
 - value: /volunteering/editorial-and-review/index.html
   label: Editorial & Review
-  text: Editorial & Review
+  text: View members of the Editorial & Review team
 - value: /volunteering/management/index.html
   label: Leadership and Management
-  text: Leadership and Management
+  text: View members of the Leadership and Management team

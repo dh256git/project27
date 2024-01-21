@@ -13,7 +13,7 @@ View the full set of skills we can support you with below.
 <p>Skillset:</p>
 </div>
 <div class="col-3">
-<select onchange="handleChange(this)">
+<select onchange="handleChange2(this)">
 {% for item in skillsets %}
 <option value="{{ item.value | prepend: site.baseurl }}" label="{{ item.label }}">{{ item.text }}</option>
 {% endfor %}
@@ -25,6 +25,6 @@ View the full set of skills we can support you with below.
 </div>
 
 <div class="iframe-container">
-<iframe src="{{ '/skills/accessibility.html' | prepend: site.baseurl }}" title="Accessibility skillset" id="iframe-id" class="responsive-iframe"></iframe>
+<iframe src="{{ '/skills/accessibility.html' | prepend: site.baseurl }}" title="Accessibility skillset" id="iframe-id2" class="responsive-iframe"></iframe>
 </div>
 {% endcapture %}
