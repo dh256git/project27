@@ -1,5 +1,7 @@
 description: The official Project27 site. Skills that matter to blind or learning disabled people. .
 collections:
+  skills:
+    output: true
   volunteering:
     output: true
   about:

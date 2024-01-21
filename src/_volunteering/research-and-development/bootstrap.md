@@ -6,6 +6,15 @@ task: Developing the visual design
 date: 2021-01-20
 buttonStyle: fg-general-chap
 backgroundStyle: bg-general-chap
+lead: ["Daniel Hajas", "/about/team/Daniel/index.html"]
+board: https://trello.com/b/3WejjMbP/team-3-research-development
+certification: Scholar
+teamExperience: ["Research and Development", "Content creation"]
+skills:
+  - set: Accessibility
+    link: /skills/accessibility.html
+  - set: Web design
+    link: /skills/web-design.html
 ---
 
 Could you make the {{ site.brand }} site look better?
