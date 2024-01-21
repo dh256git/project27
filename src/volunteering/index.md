@@ -15,6 +15,7 @@ backgroundStyle: bg-general-vol
 {% include community/volunteers.md %}
 {% include community/teams-and-tasks.md %}
 {% include community/events.md %}
+{% include community/skills.md %}
 
 {% assign teamLeadership = site.volunteering | where:"team","Management" %}
 {% assign teamRnD = site.volunteering | where:"team","RnD" %}
@@ -35,6 +36,7 @@ Our members [develop skills that matter,]({% link about/skills.md %}) through be
   <button role='tab' id='tab-trainees' aria-controls='tabpanel-trainees' onClick="setTab('trainees')">Trainees</button>
   <button role='tab' id='tab-volunteers' aria-controls='tabpanel-volunteers' onClick="setTab('volunteers')">Volunteers</button>
   <button role='tab' id='tab-teams' aria-controls='tabpanel-teams' onClick="setTab('teams')">Teams and Tasks</button>
+  <button role='tab' id='tab-skills' aria-controls='tabpanel-skills' onClick="setTab('skills')">Skills</button>
   <button role='tab' id='tab-events' aria-controls='tabpanel-events' onClick="setTab('events')">Events</button>
 </div>
 
@@ -49,6 +51,9 @@ Our members [develop skills that matter,]({% link about/skills.md %}) through be
 </div>
 <div role='tabpanel' id='tabpanel-teams' aria-labelledby='tab-teams'>
   {{ text-teams | markdownify }}
+</div>
+<div role='tabpanel' id='tabpanel-skills' aria-labelledby='tab-skills'>
+  {{ text-skills | markdownify }}
 </div>
 <div role='tabpanel' id='tabpanel-events' aria-labelledby='tab-events'>
   {{ text-events | markdownify }}

@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Web design skillset
 author: Daniel Hajas
 reviewer: Danielle Garratt

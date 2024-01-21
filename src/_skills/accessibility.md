@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Accessibility skillset
 author: Daniel Hajas
 reviewer: Danielle Garratt
@@ -13,7 +12,7 @@ backgroundStyle: bg-general-chap
 
 ## {{ page.title }}
 
-The accessibility skill set is useful to anyone, who wants to learn how to make web content accessible to screen reader users, as well as learning disabled and low vision visitors. We strive to develop the best user experience, making our space disability inclusive.
+The accessibility skillset is useful to anyone, who wants to learn how to make web content accessible to screen reader users, as well as learning disabled and low vision visitors. We strive to develop the best user experience, making our space disability inclusive.
 
 ### Skills to develop
 

@@ -14,9 +14,18 @@ layout: default
 
 <h2>{{ page.title }}</h2>
 
-<p>Activity lead: {{ lead | markdownify }}. Team or activity leads work with you to pick the right tasks.</p>
+<dl>
+<dt>
+Activity lead:
+</dt>
+<dd>{{ lead | markdownify }}</dd>
+<dd>Team or activity leads work with you to pick the right tasks.</dd>
 
-<p>Developmental outcomes: These are the sets of skills you can develop within this activity</p>
+<dt>
+Developmental outcomes:
+</dt>
+<dd>These are the sets of skills you can develop within this activity.</dd>
+<dd>
 {% if page.skills %}
 <ul>
 {% for skillset in page.skills %}
@@ -32,9 +41,13 @@ layout: default
 Please check again later. We are yet to identify the relevant skillsets with the activity lead.
 </p>
 {% endif %}
+</dd>
 
-<p>Prerequisites: Before you can pick tasks from this activity, you will need</p>
-
+<dt>
+Prerequisites:
+</dt>
+<dd>Before you can pick tasks from this activity, you will need:</dd>
+<dd>
 <ul>
 <li>
 {% if page.certification %}
@@ -55,6 +68,9 @@ Team experience: Member of the {{ page.team }} team.
 {% endif %}
 </li>
 </ul>
+</dd>
+</dl>
+
 <h3>Description </h3>
 
 {{ content }}
