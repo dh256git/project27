@@ -6,6 +6,7 @@ task: Reviewing science content
 date: 2022-10-02
 buttonStyle: fg-general-chap
 backgroundStyle: bg-general-chap
+board: https://trello.com/b/a1jiOSqm
 ---
 
 Are you good at spotting incorrect claims in maths and physics?

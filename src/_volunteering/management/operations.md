@@ -6,6 +6,7 @@ task: Managing the operational activities
 date: 2022-10-01
 buttonStyle: fg-general-chap
 backgroundStyle: bg-general-chap
+board: https://trello.com/b/4zWypJIw
 ---
 
 Do you value partnerships? Do you know how to build a good strategy?

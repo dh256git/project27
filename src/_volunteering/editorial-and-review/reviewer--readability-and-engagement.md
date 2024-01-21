@@ -6,6 +6,7 @@ task: Reviewing the readability and engagement of existing content
 date: 2022-10-02
 buttonStyle: fg-general-chap
 backgroundStyle: bg-general-chap
+board: https://trello.com/b/a1jiOSqm
 ---
 
 Is your vocabulary an infinite space? Is your favourite dinosaur a thesaurus?

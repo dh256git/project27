@@ -6,6 +6,7 @@ task: Managing the finances
 date: 2022-10-01
 buttonStyle: fg-general-chap
 backgroundStyle: bg-general-chap
+board: https://trello.com/b/4zWypJIw
 ---
 
 Do you have experience in fundraising? Do you know how to file tax returns?

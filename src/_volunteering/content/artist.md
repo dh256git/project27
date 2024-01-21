@@ -6,6 +6,7 @@ task: Finding and adding visual assets to content
 date: 2022-10-02
 buttonStyle: fg-general-chap
 backgroundStyle: bg-general-chap
+board: https://trello.com/b/V0jzt8gS
 ---
 
 Are you an iconic figure? Do you know where to find great images, or how to create attractive illustrations?

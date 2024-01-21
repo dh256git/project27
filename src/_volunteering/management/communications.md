@@ -6,6 +6,7 @@ task: Managing communications and public engagement
 date: 2022-10-01
 buttonStyle: fg-general-chap
 backgroundStyle: bg-general-chap
+board: https://trello.com/b/4zWypJIw
 ---
 
 Are you good with setting the right tone? Is the "social" gene in your DNA?
