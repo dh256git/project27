@@ -8,7 +8,7 @@ date: 2022-09-01
 licence: copyright
 buttonStyle: fg-guide-land
 backgroundStyle: bg-guide-land
-listOfIcons: [["fas fa-atom", ""], ["fas fa-desktop", ""], ["fas fa-chart-line"], ["fas fa-utensils", ""], ["fas fa-record-vinyl", ""]]
+listOfIcons: [["fas fa-atom", ""], ["fas fa-desktop", ""], ["fas fa-chart-line"], ["fas fa-utensils", ""], ["fas fa-record-vinyl", ""], ["fas graduation-cap", ""], ["fas hands-holding-circle", ""]]
 levelToOpen: volume
 listOfDots: ["dots", "dots1", "dots2", "dots3", "dots4"]
 listOfMore: ["more", "more1", "more2", "more3", "more4"]
@@ -63,9 +63,11 @@ Our volunteers and members can contribute to expanding the {{ site.product }}, a
 
       <div role='tabpanel' id='tabpanel-training' aria-labelledby='tab-training'>
         <h3>Training and community projects</h3>
-        <p>
-          This is a test to see if this works</p>
+        <p>This is the training and community projects collection, this section consists of two volumes, Training and Community projects.</p>
           <p> Training Editor: <a href="{{ '/about/team/Danielle/index.html' | prepend: site.baseurl }}">Danielle Garratt</a> </p>
+          {% assign dataFile = site.data.volumes.guide %}
+          {% assign gridOffset = 5 %}
+          {% include global/grid-generator.html heading="h4" %}
         </div>
         </div>
 

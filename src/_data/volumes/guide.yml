@@ -13,3 +13,9 @@
 - name: Vocal
   link: /guide/vocal/index.html
   description: This volume is a collection of short biographies and recorded conversations. We speak with family, friends, and acquaintances. We portray multiple life stories and honour the storytellers.
+  name: Training
+  link: /guide/training/index.html
+  description: This volume is a collection of training resources for the onboarding members. To help develop their skills.
+  name: Community Projects
+  link: /guide/community-projects/index.html
+  description: This is a volume of community project for people seeking to become a intern.  
