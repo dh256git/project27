@@ -1,8 +1,6 @@
-{% assign footer-side = site.data.footer-side %}
-{% assign social-side = site.data.social-side %}
+{% assign policy-strip = site.data.policy-strip %}
+{% assign social-strip = site.data.social-strip %}
 
-<div class="row">
-<div class="col-md-10">
 <div class="row">
 <div class="col-md-8">
 {% include global/licence.html %}
@@ -11,33 +9,25 @@
 {% include global/navigation-footer.html %}
 </div>
 </div>
+
 <div class="row">
-<div class="col">
-<h5>Follow us</h5>
 {% include global/follow-us.html %}
 </div>
-</div>
-</div>
-<div class="col-md-2">
 
-</div>
-</div>
-
-<!-- <div class="row">
-<div class="col-md-10">
-<h5>Powered by</h5>
- {% include global/powered-by.html %} 
-</div>-->
-<div class="col-md-2"> 
-<hr>
-{% for item in footer-side %}
+<div class="row">
+{% for item in policy-strip %}
+<div class="col">
 <p>
 <a href="{{ item.link | prepend: site.baseurl }}">
 {{ item.name }}
 </a>
 </p>
+</div>
 {% endfor %}
+<div class="col">
 <p><a href="{{ '/blog/logbook/dev/change-log.html' | prepend: site.baseurl }}">Version: {{ include.version }}.{{ include.subversion }}.{{ include.commit }}.</a></p>
+</div>
+<div class="col">
 <p onclick="showTimeLastUpdated()">Last updated: 
 <span id="time-last-updated-show">{{ site.time | date_to_rfc822 | date: "%d %b %Y" }}.</span>
 <span id="time-last-updated-hide" class="hidden-text">{{ site.time | date_to_rfc822 | date: "%H:%M" }}.</span>
@@ -46,6 +36,13 @@
 </div>
 
 {% comment %}
+<div class="row">
+<div class="col-md-12">
+<h5>Powered by</h5>
+ {% include global/powered-by.html %} 
+</div>
+</div>
+
 <div class="mycontainer">
 <div class="row justify-content-start">
 <div class="col">
