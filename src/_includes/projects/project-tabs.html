@@ -1,0 +1,45 @@
+<div role='tablist'>
+  <button role='tab' id='tab-blog' aria-controls='tabpanel-blog' onClick="setTab('blog')">{{ include.tab1 }}</button>
+  <button role='tab' id='tab-notes' aria-controls='tabpanel-notes' onClick="setTab('notes')">{{ include.tab2 }}</button>
+  <button role='tab' id='tab-team' aria-controls='tabpanel-team' onClick="setTab('team')">{{ include.tab3 }}</button>
+</div>
+
+<div role='tabpanel' id='tabpanel-blog' aria-labelledby='tab-blog'>
+  {{ include.tabpanel1 | markdownify }}
+</div>
+<div role='tabpanel' id='tabpanel-notes' aria-labelledby='tab-notes'>
+  {{ include.tabpanel2 | markdownify }}
+</div>
+<div role='tabpanel' id='tabpanel-team' aria-labelledby='tab-team'>
+  {{ include.tabpanel3 | markdownify }}
+</div>
+
+<script>
+
+  setTab('blog');
+
+  function setTab(tabName) {
+    console.log(tabName);
+    const allTabButtons = document.querySelectorAll('button[role=tab]');
+
+    const tabButtonId = 'tab-' + tabName;
+    const selectedTabButton = document.getElementById(tabButtonId);
+
+    allTabButtons.forEach((tabButton) => {
+      tabButton.setAttribute('aria-selected', false);
+    });
+    selectedTabButton.setAttribute('aria-selected', true);
+
+    const allTabPanels = document.querySelectorAll('[role=tabpanel]');
+
+    const tabPanelId = 'tabpanel-' + tabName;
+    const selectedTabPanel = document.getElementById(tabPanelId);
+
+    allTabPanels.forEach((tabPanel) => {
+      tabPanel.setAttribute('hidden', true);
+    });
+    selectedTabPanel.removeAttribute('hidden');
+
+    console.log(tabName, selectedTabButton, selectedTabPanel)
+  }
+</script>
