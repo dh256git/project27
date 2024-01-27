@@ -1,3 +1,3 @@
 ### Notes
 
-These are the notes for Journeys.
+Currently, there are no notes available in this project. Please visit this page later.

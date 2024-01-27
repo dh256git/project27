@@ -1,3 +1,3 @@
 ### Team
 
-This is the team page for Olli.
+Currently, the team page of this project has no content. Please revisit the page later.

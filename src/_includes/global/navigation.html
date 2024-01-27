@@ -6,9 +6,13 @@
       <nav class="navbar-dark" tabindex="0" aria-label="Global">
 <ul class="navbar-nav" role="menubar">
   {% for item in site.data.navigation limit: 4 %}
+  {% if item.name == "Solutions" %}
+  <a target="_blank" rel="noreferrer noopenner" href="{{ item.link | prepend: site.baseurl }}">{{ item.name }}</a>
+  {% else %}
   <li>
     <a href="{{ item.link | prepend: site.baseurl }}">{{ item.name }}</a>
   </li>
+  {% endif %}
   {% endfor %}
   </ul>
   </nav>

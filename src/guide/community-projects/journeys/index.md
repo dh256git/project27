@@ -2,11 +2,11 @@
 layout: project
 title: Project Journeys
 projectNumber: 1
-author: danielle Garratt
+author: Danielle Garratt
 profile: /about/team/Danielle/index.html
 message: Hey, my name is Danielle, and I enjoy playing video games. It's also really rewarding to be able to design and create my own video game. Do you want to try creating your own game? Check out my notes on how I started my journey.
 buttonStyle: fg-guide-vol
-backgroundStyle: bg-guide-vol["", ""], ["", ""]]
+backgroundStyle: bg-guide-vol
 ---
 
 {% capture tab1-content %}
