@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+{% assign projectInfo = site.data.chapters.projects[page.projectNumber] %}
+
+<h2>Project {{ page.projectNumber | plus: 1 }}: {{ projectInfo.name }}</h2>
+
+<p>
+{{ projectInfo.description }}
+</p>
+
+<h3>A message from the project creator</h3>
+
+<p>
+{{ page.message }}
+</p>
+
+Project tabs.
+
+{{ content }}

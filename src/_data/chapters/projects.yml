@@ -1,0 +1,7 @@
+- name: Olli
+  Id: p01
+  link: /guide/community-projects/olli/index.html
+  description: Olli is an open-source library for converting data visualisations into accessible text structures for screen reader users. Starting with an existing visualisation specification created with a supported toolkit, Olli produces a keyboard-navigable tree view with descriptions at varying levels of detail. Users can explore these structures both to get an initial overview, and to dive into the data in more detail.
+- name: Journeys
+  link: /guide/community-projects/journeys/index.html
+  description: The video game project.
