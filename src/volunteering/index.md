@@ -27,10 +27,29 @@ backgroundStyle: bg-general-vol
 
 {% include global/buttonLink.html url="https://docs.google.com/forms/d/e/1FAIpQLSeq5EFjDtIjXKPDgu8l9YYBwfP7gnrop7uKOTRoIxtZZQTRwQ/viewform?usp=sf_link" label="Express your interest in joining our community" %}
 
-Join our community as a [volunteer,](#apply-to-volunteer-top) or as a [trainee.](#apply-to-volunteer-top)
-Our members [develop skills that matter,]({% link about/skills.md %}) through bespoke training, completing tasks, and working in teams.
+Join our community as a 
+<a href="#tab-volunteers" onClick="setTab('volunteers')">
+volunteer,
+</a>
+ or as a 
+ <a href="#tab-trainees" onClick="setTab('trainees')">
+trainee.
+</a>
+Our members 
+<a href="#tab-skills" onClick="setTab('skills')">
+develop skills that matter,
+</a>
+ through bespoke training, completing tasks, and working in teams.
 
 {% include global/cover-image.html image="volunteering-cover.jpg" alt="A drawn tree, with handprints as leaves on the branches." %}
+
+## Book a support session
+
+Membership is not required to get support from us.
+We offer bookable, paid support sessions for anyone who wants to get advice on topics related to blindness or learning disability.
+The first session is free for everyone, creating an opportunity for introductions and an assessment of your support needs.
+
+{% include global/buttonLink.html url="/support/index.html" label="View our ad hoc support offer" %}
 
 <div role='tablist'>
   <button role='tab' id='tab-overview' aria-controls='tabpanel-overview' onClick="setTab('overview')">Overview</button>

@@ -5,7 +5,7 @@
         <div class="collapse navbar-collapse" id="primaryNavigation">
       <nav class="navbar-dark" tabindex="0" aria-label="Global">
 <ul class="navbar-nav" role="menubar">
-  {% for item in site.data.navigation %}
+  {% for item in site.data.navigation limit: 4 %}
   <li>
     <a href="{{ item.link | prepend: site.baseurl }}">{{ item.name }}</a>
   </li>

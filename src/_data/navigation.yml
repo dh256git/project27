@@ -7,6 +7,9 @@
 - name: Community
   link: /volunteering/index.html
   description: Volunteering is the way we involve learners of all abilities and skills. Through bespoke tasks and active learning, it is the volunteers who build Project27, while developing skills that matter to them. Together we learn, together we grow.
+- name: Solutions
+  link: https://research.project27skills.com
+  description: 
 - name: Support
   link: /support/index.html
   description: We know from experience, written tutorials and guides aren't always enough. Sometimes we just need a little more hands-on support. That's why we come to you, listen to your needs and unique circumstances, and why we want to help.
