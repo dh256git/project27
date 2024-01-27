@@ -650,11 +650,9 @@ nav a {
 }
 
 .cover-image {
-  width: 200px;
-  justify-content: center;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
+  width: 35%;
+  height: auto;
+  display: block;
 }
 
 .blog-cover {
@@ -666,7 +664,7 @@ nav a {
 }
 
 .img-follow-us-new {
-  width: 70%;
+  width: 30%;
   height: auto;
 }
 
@@ -731,7 +729,7 @@ nav a {
 }
 @media screen and (max-width: 480px) {
   .img-follow-us-new {
-    padding: 0% 20%;
+    padding-left: 0%;
   }
 }
 @media screen and (min-width: 480px) {
