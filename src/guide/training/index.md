@@ -4,7 +4,7 @@ title: Training
 levelToOpen: workspace on Trello
 buttonStyle: fg-guide-vol
 backgroundStyle: bg-guide-vol
-listOfIcons: [["", ""], ["", ""], ["", ""], ["", ""], ["", ""], ["", ""]]
+listOfIcons: [["fas fa-list-check", ""], ["fas fa-people-group", ""], ["", ""], ["", ""], ["", ""], ["", ""]]
 ---
 
 {% assign volumeInfo = site.data.volumes.guide[5] %}
