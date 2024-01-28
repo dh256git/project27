@@ -1,7 +1,7 @@
 import re # regular expression
 
 ## read text file content to string variable
-path = "src/_layouts/default.html"
+path = "./src/_layouts/default.html"
 with open(path, 'r') as file:
     myFile = file.read()
 
