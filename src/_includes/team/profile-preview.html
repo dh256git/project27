@@ -1,0 +1,17 @@
+{% for item in teamMembers %}
+<div class="profilecontainertitle">
+<h4>{{ item.name }} - {{ site.brand }} {{ item.role }}</h4>
+</div>
+
+<div class="profilecontainer">
+<img src="{{ item.photo | prepend: site.baseurl }}" class="profile-photo" alt="{{ item.alt }}" height="300px" width="200px">
+
+{{ item.contribution }}
+</div>
+
+<div class="row">
+<a href="{{ item.profile | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">View {{ item.shortname }}'s profile</a>
+</div>
+{% else %}
+<p>Currently, there are no members in this team.</p>
+{% endfor %}

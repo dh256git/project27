@@ -29,7 +29,7 @@ That's why we come to you, listen to your needs and unique circumstances, and wh
 
 ### Who is going to provide the support?
 
-You can book a support session with [Daniel and Danielle]({% link about/team/index.html %}) - the core team at {{ site.brand }}.
+You can book a support session with [Daniel and Danielle]({% link about/team/index.md %}) - the core team at {{ site.brand }}.
 The information you provide in your booking will help us to find the best person in our team to talk to you.
 
 ### How to book a support session?

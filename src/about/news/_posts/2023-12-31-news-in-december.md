@@ -26,7 +26,7 @@ The aim is for us to present our progress and how our thinking has evolved based
 The board's job is to challenge our assumptions, and give critical feedback on our plans.
 This should shape our roadmap, and help us articulate reasons behind our actions.
 
-Currently, we asked a chairman, and three general members to set up our [advisory board.]({% link about/team/index.html %})
+Currently, we asked a chairman, and three general members to set up our [advisory board.]({% link about/team/index.md %})
 However, our intention is to grow and diversify the existing board by the end of 2024, engaging 10 board members.
 
 ### Seasonal news
