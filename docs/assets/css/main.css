@@ -443,6 +443,7 @@
   display: inline-block;
   overflow: hiddens;
   font-weight: bold;
+  padding: auto;
 }
 
 .Read-More {
@@ -533,12 +534,11 @@
   background-color: #D3D3D3;
   border: solid black 3px;
   font-weight: bold;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  border-radius: 22%;
-  position: sticky;
-  display: inline-block;
-  overflow: hiddens;
+  line-height: 1;
+  margin-top: 3%;
+  margin-left: 3%;
+  width: 100%;
+  border-radius: 20%;
 }
 
 .dropdown-item {
@@ -559,12 +559,11 @@
   background-color: #D3D3D3;
   border: solid black 3px;
   font-weight: bold;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  line-height: 1;
+  margin-top: 3%;
+  margin-left: 3%;
+  width: 100%;
   border-radius: 20%;
-  position: sticky;
-  display: inline-block;
-  overflow: hidden;
 }
 
 .mybtnquick a {
@@ -583,6 +582,20 @@ a.disabled {
   pointer-events: none;
 }
 
+@media screen and (min-width: 480px) {
+  .mybtnquick {
+    max-width: 50%;
+    display: block;
+    padding: 1%;
+  }
+}
+@media screen and (min-width: 480px) {
+  .mybtnswitch {
+    max-width: 60%;
+    display: block;
+    padding: 1%;
+  }
+}
 nav li {
   display: list-item;
   padding-right: 5%;
@@ -650,11 +663,9 @@ nav a {
 }
 
 .cover-image {
-  width: 200px;
-  justify-content: center;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
+  width: 35%;
+  height: auto;
+  display: block;
 }
 
 .blog-cover {
@@ -666,7 +677,7 @@ nav a {
 }
 
 .img-follow-us-new {
-  width: 70%;
+  width: 30%;
   height: auto;
 }
 
@@ -731,7 +742,7 @@ nav a {
 }
 @media screen and (max-width: 480px) {
   .img-follow-us-new {
-    padding: 0% 20%;
+    padding-right: 0%;
   }
 }
 @media screen and (min-width: 480px) {
@@ -871,7 +882,8 @@ nav a {
   background: #D3D3D3;
   color: black;
   margin: 0;
-  padding: 0;
+  padding: 0%;
+  padding-bottom: 0%;
   vertical-align: middle;
   border: solid black 3px;
 }

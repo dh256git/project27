@@ -64,7 +64,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="col-md-8">
       <div class="masthead-brand">
 <a href="/index.html" class="navbar-brand">
-      <img src="/assets/images/Project27 logo.png" alt="Project 27 logo" class="logo" width="90em">
+      <img src="/assets/images/Project27 logo.png" alt="Project 27 logo" class="logo" width="60px" height="auto">
       </a>
       Skills that matter
       </div>
@@ -78,21 +78,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <nav class="navbar-dark" tabindex="0" aria-label="Global">
 <ul class="navbar-nav" role="menubar">
   
+  
   <li>
     <a href="/blog/index.html">Blog</a>
   </li>
+  
+  
   
   <li>
     <a href="/guide/index.html">Guide</a>
   </li>
   
-  <li>
-    <a href="/volunteering/index.html">Volunteering</a>
-  </li>
+  
   
   <li>
-    <a href="/support/index.html">Support</a>
+    <a href="/volunteering/index.html">Community</a>
   </li>
+  
+  
+  
+  <li>
+  <a target="_blank" rel="noreferrer noopenner" href="https://research.project27skills.com">Solutions</a>
+  </li>
+  
   
   </ul>
   </nav>
@@ -144,6 +152,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
           <a class="dropdown-item" href= "/guide/vocal/index.html" >Vocal</a>
   
+
+          <a class="dropdown-item" href= "/guide/training/index.html" >Training</a>
+  
+
+          <a class="dropdown-item" href= "/guide/community-projects/index.html" >Community Projects</a>
+  
     
 </div>
 </div>
@@ -190,12 +204,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="row">
 <div class="col">
 
+
+
+
+
 <div class="announcement">
 <p>
-    📣 The Project27 Skills Guide is a 
-<a target="_blank" rel="noreferrer noopener" href="https://en.wikipedia.org/wiki/Software_release_life_cycle">
-beta version.
-</a>
+    📣 View our work in progress! We plan to launch the Guide on 31st of January, 2025.
 </p>
 </div>
 
@@ -257,7 +272,7 @@ beta version.
                     
   
 
-                    <a class="dropdown-item" href= "/blog/logbook/issues/2020/06/05/initialise.html" >Issue tracking</a>
+                    <a class="dropdown-item" href= "/blog/logbook/issues/2020/06/05/initialise.html" >Issues</a>
                     
   
 
@@ -266,6 +281,10 @@ beta version.
   
 
           <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "http://p27skills.surge.sh" >Surge</a>
+          
+  
+
+          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "https://project27-knowledge-base.atlassian.net/wiki/home/" >Confluence</a>
           
   
 </div>
@@ -291,11 +310,18 @@ Blind or learning disabled people can study our notes to learn about topics they
 Our volunteers and members can contribute to expanding the Guide, and develop a wide range of skills on the way.
 </p>
 
-<img src="/assets/images/covers/guide-cover.jpg" class="cover-image" alt="Someone is holding a paper map, and pointing at a location with a finger." height="250px" width="230px">
+<img src="/assets/images/covers/guide-cover.jpg" class="cover-image" alt="Someone is holding a paper map, and pointing at a location with a finger.">
 
 <hr>
 
-<h3>Science collection</h3>
+<div role='tablist'>
+    <button role='tab' id='tab-science' aria-controls='tabpanel-science' onClick="setTab('science')">Science and technology</button>
+    <button role='tab' id='tab-lifestyle' aria-controls='tabpanel-lifestyle' onClick="setTab('lifestyle')">Lifestyle</button>
+    <button role='tab' id='tab-training' aria-controls='tabpanel-training' onClick="setTab('training')">Training and community projects</button>
+    </div>
+
+    <div role='tabpanel' id='tabpanel-science' aria-labelledby='tab-science'>
+        <h3>Science collection</h3>
 
 <p>The science collection consists of two volumes, including notes on mathematical and physical sciences, and digital skills respectively. We recognize the importance of science, technology, engineering, and mathematics (STEM) as prerequisites for skills development, innovation, creativity, entrepreneurship, and employability</p>
 
@@ -358,19 +384,17 @@ Our volunteers and members can contribute to expanding the Guide, and develop a 
 
 <!-- if more than two columns are desired and modulo can take other values than 0 and 1. -->
 
+      </div>
 
-<hr>
-
-<h3>Lifestyle collection</h3>
-
-<p>
-The lifestyle collection consists of two volumes, including notes on cooking, and storytelling respectively. We recognise the importance of human stories, social interaction, and peer support in the community. Cooking and sharing stories is a great way to bond, build confidence, and develop social skills.
-</p>
-
-<p>Lifestyle Editor: <a href="/about/team/Danielle/index.html">Danielle Garratt</a></p>
-
-
-                       
+      <div role='tabpanel' id='tabpanel-lifestyle' aria-labelledby='tab-lifestyle'>
+        <h3>Lifestyle collection</h3>
+        <p>
+        The lifestyle collection consists of two volumes, including notes on cooking, and storytelling respectively. We recognise the importance of human stories, social interaction, and peer support in the community. Cooking and sharing stories is a great way to bond, build confidence, and develop social skills.
+        </p>
+        <p>Lifestyle Editor: <a href="/about/team/Danielle/index.html">Danielle Garratt</a></p>
+        
+        
+                               
  
     
 <!-- Hide the item in the grid. Remove if statement to show item. -->
@@ -425,8 +449,101 @@ The lifestyle collection consists of two volumes, including notes on cooking, an
 
 <!-- if more than two columns are desired and modulo can take other values than 0 and 1. -->
 
+        </div>
+
+      <div role='tabpanel' id='tabpanel-training' aria-labelledby='tab-training'>
+        <h3>Training and community projects</h3>
+        <p>This is the training and community projects collection, this section consists of two volumes, Training and Community projects.</p>
+          <p> Training Editor: <a href="/about/team/Danielle/index.html">Danielle Garratt</a> </p>
+          
+          
+                                 
+ 
+    
+<!-- Hide the item in the grid. Remove if statement to show item. -->
+
+    
+<div class="row">
+<div class="col-md">
+      <h4> Training</h4>
+
+<i class="fas fa-graduation-cap fa-lg" aria-hidden="true"></i>
+
+
+      <p>This volume is a collection of training resources used by our trainees, when they join our community. Members can train in their own topic of interest, through a blend of bespoke and standard skills development exercises.</p>
+
+
+
+      <a class="fg-guide-land" href="/guide/training/index.html">
+
+      Open the Training volume
+
+      </a>
 
 </div>
+    
+    
+                       
+ 
+    
+<!-- Hide the item in the grid. Remove if statement to show item. -->
+
+    
+<div class="col-md">
+      <h4> Community Projects</h4>
+
+<i class="fas fa-hands-holding-circle fa-lg" aria-hidden="true"></i>
+
+
+      <p>This volume is home to projects created by our community members, during the intern stage of their skills development journey. Trainees can use a chapter of this volume to socialise their projects, by posting in the project blog, sharing related learning resources, and recruiting team members.</p>
+
+
+
+      <a class="fg-guide-land" href="/guide/community-projects/index.html">
+
+      Open the Community Projects volume
+
+      </a>
+
+</div>
+</div>
+    
+    
+
+<!-- if more than two columns are desired and modulo can take other values than 0 and 1. -->
+
+        </div>
+        </div>
+
+<script>
+
+    setTab('science');
+  
+    function setTab(tabName) {
+      console.log(tabName);
+      const allTabButtons = document.querySelectorAll('button[role=tab]');
+  
+      const tabButtonId = 'tab-' + tabName;
+      const selectedTabButton = document.getElementById(tabButtonId);
+  
+      allTabButtons.forEach((tabButton) => {
+        tabButton.setAttribute('aria-selected', false);
+      });
+      selectedTabButton.setAttribute('aria-selected', true);
+  
+      const allTabPanels = document.querySelectorAll('[role=tabpanel]');
+  
+      const tabPanelId = 'tabpanel-' + tabName;
+      const selectedTabPanel = document.getElementById(tabPanelId);
+  
+      allTabPanels.forEach((tabPanel) => {
+        tabPanel.setAttribute('hidden', true);
+      });
+      selectedTabPanel.removeAttribute('hidden');
+  
+      console.log(tabName, selectedTabButton, selectedTabPanel)
+    }
+  </script>
 
  <hr>
  <p>
@@ -441,8 +558,6 @@ The lifestyle collection consists of two volumes, including notes on cooking, an
 
 
 
-<div class="row">
-<div class="col-md-10">
 <div class="row">
 <div class="col-md-8">
 
@@ -473,120 +588,86 @@ Copyright © 2023 Project27 Consultancy Group C.I.C. All rights reserved.
 </nav>
 </div>
 </div>
-<div class="row">
-<div class="col">
-<h5>Follow us</h5>
-<div class="row">
 
-    <div class="col-md-3">
+<div class="row">
+<div class="col-md-2">
+<h5>Stay in touch</h5>
+</div>
+<div class="col-md-4">
+<p>Join our mailing list. Coming soon.</p>
+</div>
+
+    <div class="col">
     <a href="https://www.facebook.com/profile.php?id=100095492140913">
     <img src="/assets/images/icons/facebook.png" alt="Facebook" class="img-follow-us-new">
     </a>
     </div>
 
-    <div class="col-md-3">
+    <div class="col">
     <a href="https://www.twitter.com/project27skills/">
     <img src="/assets/images/icons/x.png" alt="X" class="img-follow-us-new">
     </a>
     </div>
 
-    <div class="col-md-3">
+    <div class="col">
     <a href="https://www.linkedin.com/company/project27-consultancy-group/">
     <img src="/assets/images/icons/linkedin.png" alt="LinkedIn" class="img-follow-us-new">
     </a>
     </div>
 
-    <div class="col-md-3">
+    <div class="col">
     <a href="https://youtube.com/@project27skills">
-    <img src="/assets/images/icons/youtube.jpg" alt="YouTube" class="img-follow-us-new">
+    <img src="/assets/images/icons/youtube.png" alt="YouTube" class="img-follow-us-new">
     </a>
     </div>
 
-<p>
-Check out other ways to follow us, on our <a href="/contact/index.html">contact page.</a>
-</p>
+    <div class="col">
+    <a href="https://www.instagram.com/project27skills/">
+    <img src="/assets/images/icons/instagram.png" alt="Instagram" class="img-follow-us-new">
+    </a>
     </div>
-</div>
-</div>
-</div>
-<div class="col-md-2">
 
-</div>
+    <div class="col">
+    <a href="https://dragonscave.space/@daniel/">
+    <img src="/assets/images/icons/mastodon.png" alt="Mastodon" class="img-follow-us-new">
+    </a>
+    </div>
+
 </div>
 
 <div class="row">
-<div class="col-md-10">
-<h5>Powered by</h5>
-<div class="row">
-<div class="col-md-3">
-<a href="https://github.com">
-<img class="img-powered-by-new" src="/assets/images/Github logo.png" alt="Github" >
-</a>
-</div>
-<div class="col-md-3">
-<a href="https://jekyllrb.com">
-<img class="img-powered-by-new" src="/assets/images/Jekyll logo.png" alt="Jekyll" >   
-</a>
-</div>
-<div class="col-md-3">
-<a href="https://getbootstrap.com">
-<img class="img-powered-by-new" src="/assets/images/Bootstrap logo.png" alt="Bootstrap" > 
-</a>
-</div>
-<div class="col-md-3">
-<a href="https://www.markdownguide.org">
-<img class="img-powered-by-new" src="/assets/images/Markdown logo.png" alt="Markdown" >
-</a>
-</div>
-</div>
-<div class="row">
-<div class="col-md-3">
-<a href="https://www.latex-project.org">
-<img class="img-powered-by-new" src="/assets/images/LaTeX logo.png" alt="LaTeX" >  
-</a>
-</div>
-<div class="col-md-3">
-<a href="https://www.python.org">
-<img class="img-powered-by-new" src="/assets/images/Python logo.png" alt="Python" >
-</a>
-</div>
-<div class="col-md-3">
-<a href="https://www.r-project.org">
-<img class="img-powered-by-new" src="/assets/images/Rlogo.png" alt="R" >
-</a>
-</div>
-<div class="col-md-3">
-<a href="https://www.gnu.org/software/bash/">
-<img class="img-powered-by-new" src="/assets/images/Bash shell logo.png" alt="Bash" >
-</a>
-</div>
-</div>
-</div>
-<div class="col-md-2">
-<hr>
 
+<div class="col">
 <p>
 <a href="/legal/terms-of-use.html">
 Terms of use
 </a>
 </p>
+</div>
 
+<div class="col">
 <p>
 <a href="/legal/terms-of-service.html">
 Terms of service
 </a>
 </p>
+</div>
 
+<div class="col">
 <p>
 <a href="/legal/privacy.html">
 Privacy policy
 </a>
 </p>
+</div>
 
-<p><a href="/blog/logbook/dev/change-log.html">Version: 0.6.296.</a></p>
+<div class="col">
+<p><a href="/blog/logbook/dev/change-log.html">Version: 1.0.0.</a></p>
+</div>
+<div class="col">
 <p onclick="showTimeLastUpdated()">Last updated: 
-<span id="time-last-updated-show">27 Oct 2023.</span>
-<span id="time-last-updated-hide" class="hidden-text">17:20.</span>
+<span id="time-last-updated-show">28 Jan 2024.</span>
+<span id="time-last-updated-hide" class="hidden-text">16:58.</span>
 </p>
 </div>
 </div>

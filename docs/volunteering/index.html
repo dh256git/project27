@@ -13,7 +13,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title> Volunteering</title>
+    <title> Community</title>
 
 <!--Custom style sheets-->
         <link rel="stylesheet" href="/assets/css/main.css">
@@ -64,7 +64,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="col-md-8">
       <div class="masthead-brand">
 <a href="/index.html" class="navbar-brand">
-      <img src="/assets/images/Project27 logo.png" alt="Project 27 logo" class="logo" width="90em">
+      <img src="/assets/images/Project27 logo.png" alt="Project 27 logo" class="logo" width="60px" height="auto">
       </a>
       Skills that matter
       </div>
@@ -78,21 +78,29 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <nav class="navbar-dark" tabindex="0" aria-label="Global">
 <ul class="navbar-nav" role="menubar">
   
+  
   <li>
     <a href="/blog/index.html">Blog</a>
   </li>
+  
+  
   
   <li>
     <a href="/guide/index.html">Guide</a>
   </li>
   
-  <li>
-    <a href="/volunteering/index.html">Volunteering</a>
-  </li>
+  
   
   <li>
-    <a href="/support/index.html">Support</a>
+    <a href="/volunteering/index.html">Community</a>
   </li>
+  
+  
+  
+  <li>
+  <a target="_blank" rel="noreferrer noopenner" href="https://research.project27skills.com">Solutions</a>
+  </li>
+  
   
   </ul>
   </nav>
@@ -111,7 +119,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <a href="/">Home</a>
 
   
-    <br> 👉 Volunteering
+    <br> 👉 Community
   
 
 </div>
@@ -126,12 +134,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="row">
 <div class="col">
 
+
+
+
+
 <div class="announcement">
 <p>
-    📣 The Project27 Skills Volunteering site is a 
-<a target="_blank" rel="noreferrer noopener" href="https://en.wikipedia.org/wiki/Software_release_life_cycle">
-beta version.
-</a>
+    📣 View our work in progress! We plan to launch membership applications on 31st of January, 2024.
 </p>
 </div>
 
@@ -193,7 +202,7 @@ beta version.
                     
   
 
-                    <a class="dropdown-item" href= "/blog/logbook/issues/2020/06/05/initialise.html" >Issue tracking</a>
+                    <a class="dropdown-item" href= "/blog/logbook/issues/2020/06/05/initialise.html" >Issues</a>
                     
   
 
@@ -202,6 +211,10 @@ beta version.
   
 
           <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "http://p27skills.surge.sh" >Surge</a>
+          
+  
+
+          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "https://project27-knowledge-base.atlassian.net/wiki/home/" >Confluence</a>
           
   
 </div>
@@ -215,114 +228,150 @@ beta version.
 
   <main role="main" id="mainContent" class="container bg-background">
  
-<h2 id="volunteering-together-we-learn-together-we-grow">Volunteering: Together we learn, together we grow</h2>
+<h2 id="community-together-we-learn-together-we-grow">Community: Together we learn, together we grow</h2>
 
-<p>Get involved and become a part of our community.
-You can contribute as a <a href="#apply-to-volunteer-top">volunteer,</a> or as a <a href="#membership">member,</a> and <a href="/about/skills.html">develop your skills</a> through hands-on tasks.</p>
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSeq5EFjDtIjXKPDgu8l9YYBwfP7gnrop7uKOTRoIxtZZQTRwQ/viewform?usp=sf_link" class="fg-general-vol">Express your interest in joining our community</a></p>
 
-<p><img src="/assets/images/covers/volunteering-cover.jpg" class="cover-image" alt="A drawn tree, with handprints as leaves on the branches." height="250px" width="230px" /></p>
+<p>Join our community as a 
+<a href="#tab-volunteers" onclick="setTab('volunteers')">
+volunteer,
+</a>
+ or as a 
+ <a href="#tab-trainees" onclick="setTab('trainees')">
+trainee.
+</a>
+Our members 
+<a href="#tab-skills" onclick="setTab('skills')">
+develop skills that matter,
+</a>
+ through bespoke training, completing tasks, and working in teams.</p>
 
-<h2 id="why-should-i-contribute">Why should I contribute?</h2>
+<p><img src="/assets/images/covers/volunteering-cover.jpg" class="cover-image" alt="A drawn tree, with handprints as leaves on the branches." /></p>
 
-<p>Project27 Skills is built by its community.
-Here is why you should become a part of it:</p>
+<h2 id="book-a-support-session">Book a support session</h2>
+
+<p>Membership is not required to get support from us.
+We offer bookable, paid support sessions for anyone who wants to get advice on topics related to blindness or learning disability.
+The first session is free for everyone, creating an opportunity for introductions and an assessment of your support needs.</p>
+
+<p><a href="/support/index.html" class="fg-general-vol">View our ad hoc support offer</a></p>
+
+<div role="tablist">
+  <button role="tab" id="tab-overview" aria-controls="tabpanel-overview" onclick="setTab('overview')">Overview</button>
+  <button role="tab" id="tab-trainees" aria-controls="tabpanel-trainees" onclick="setTab('trainees')">Trainees</button>
+  <button role="tab" id="tab-volunteers" aria-controls="tabpanel-volunteers" onclick="setTab('volunteers')">Volunteers</button>
+  <button role="tab" id="tab-teams" aria-controls="tabpanel-teams" onclick="setTab('teams')">Teams and Tasks</button>
+  <button role="tab" id="tab-skills" aria-controls="tabpanel-skills" onclick="setTab('skills')">Skills</button>
+  <button role="tab" id="tab-events" aria-controls="tabpanel-events" onclick="setTab('events')">Events</button>
+</div>
+
+<div role="tabpanel" id="tabpanel-overview" aria-labelledby="tab-overview">
+  
+<h2 id="join-our-community">Join our community</h2>
+
+<p>Project27 is built by its community.
+By joining, you will:</p>
 
 <ol>
-  <li>We need your help. We are not experts or professionals in everything that’s needed to keep Project27 Skills up and running. There is a lot to do, so a helpful hand is always appreciated.</li>
-  <li>Do it for yourself. We can guarantee, you will learn something new and useful.</li>
+  <li>develop skills that matter to you, and your employers;</li>
+  <li>grow professionally and personally, through disability inclusive practices and active learning;</li>
+  <li>help other disabled people to become professionals.</li>
 </ol>
 
-<p><a id="apply-to-volunteer-top" class="fg-general-vol" aria-disabled="false" href="/volunteering/become-a-volunteer.html">Become a volunteer</a></p>
+<p>The level of engagement is flexible.
+You choose how far you want to go, and how much time you want to commit.</p>
 
-<h3 id="what-are-the-benefits-of-becoming-a-volunteer">What are the benefits of becoming a volunteer?</h3>
+<p>Guests complete our onboarding workflow before making any commitment.
+Volunteers help with creating tasks, leading teams, and supervising trainees.
+Trainees continue working on multiple tasks, committing time depending on the level of certification they aim to achieve.</p>
 
-<p>There are benefits of volunteering in our community, even if you don’t want to become a member.</p>
+<p>For example, apprenticees commit to completing only four tasks a month.
+In contrast, Project27 Fellows get hooked, treating task lists as a part time role.</p>
+
+<p><a id="apply-to-volunteer-top" class="fg-general-vol" aria-disabled="false" href="/volunteering/become-a-volunteer.html">Join now</a></p>
+
+
+</div>
+<div role="tabpanel" id="tabpanel-trainees" aria-labelledby="tab-trainees">
+  
+<h2 id="trainees">Trainees</h2>
+
+<p>Our trainees work in teams, on activities led by volunteers.
+Activities help you develop specific skills, by completing tasks.
+We guide you through training activities, personal projects, and Project27 community objectives.
+When you become a trainee, you will</p>
+
+<ul>
+  <li>get <a href="#certification">certifications</a> for completing tasks;</li>
+  <li>be able to join more than 1 team at a time;</li>
+  <li>get 1 credit of <a href="/support/pricing.html">supervision support</a> per month;</li>
+  <li>get discounts at our community events.</li>
+</ul>
+
+<h2 id="certification">Certified pathways of skills development</h2>
+
+<p>We are committed to certifying achievements of trainees.
+Set your target, and share your experience with employers.</p>
+
+<dl>
+  <dt>Guests</dt>
+  <dd>after registration, during the onboarding activity (~4 hours of commitment over 1 month);</dd>
+  <dt>Apprentice</dt>
+  <dd>after successful completion of 4 tasks (~4 hours of regular commitment per week, for 1 month);</dd>
+  <dt>Intern</dt>
+  <dd>after successful completion of 16 tasks (~16 hours of regular commitment per week, for 1 month);</dd>
+  <dt>Scholar</dt>
+  <dd>after successful completion of 48 tasks (~16 hours of regular commitment per week, for 3 months);</dd>
+  <dt>Fellow</dt>
+  <dd>after successful completion of 100 tasks (~8 hours of regular commitment per week, for 12 months)</dd>
+</dl>
+
+<p>Project27 Fellows will be considered for employment at Project27 Consultancy Group or one of our partners; subject to funding.</p>
+
+<p><a href="/volunteering/certification.html" class="fg-general-vol">Compare our certified development pathways</a></p>
+
+<h2 id="how-much-does-membership-cost">How much does membership cost?</h2>
+
+<p>Trainee membership is priced slightly differently, depending on the subscription you select.</p>
+
+<ul>
+  <li>paid monthly: £149.99 a month,</li>
+  <li>paid yearly: £1499.90 a year (12 months of membership at the price of 10 months),</li>
+  <li>paid per certification (see <a href="/volunteering/certification.html">pricing table</a>).</li>
+</ul>
+
+
+</div>
+<div role="tabpanel" id="tabpanel-volunteers" aria-labelledby="tab-volunteers">
+  
+<h2 id="volunteers">Volunteers</h2>
+
+<p>Our volunteers are industry professionals, leading teams of trainees.
+Volunteers are responsible for creating Specific, Measurable, Achievable, Relevant, and Time-bound (SMART) tasks, and grouping these by activities.
+Each activity associated with a team corresponds to a set of relevant skills.
+Volunteers guide trainees in acquiring these skills, by advising on tasks to do, and ways to complete these.</p>
+
+<p>Join our community, and you will be able to:</p>
 
 <ol>
-<li>
-Learn new skills, or improve your existing skills.<div id="volunteer1"></div><div id="morevolunteer1">
-Project27 Skills is all about learning new skills, and getting better in doing certain things, by practicing, and innovating.
-The project offers a wide range of skills to pick up and nurture, and you get to choose which is most valuable to you. All that Project27 Skills volunteering roles do, is setting SMART (Specific, Measurable, Achievable, Relevant, and Timely) targets for you to work towards.
-</div>
-<button onclick="readMoreVolunteering1()" id="Read-More-BTN1">Read more</button>
-</li>
-
-<li>
-Use your knowledge and productivity output to help others.<div id="volunteer2"></div><div id="morevolunteer2">
-In the process of learning, you are also contributing to a shared vision.
-You could learn on your own, and practice through your personal project.
-Wouldn't it be more satisfying though, to help other people in the process?
-There are no deadlines, no punishment if something doesn't work out.
-It's learning through trial and error, and practice.
-What we build together, ultimately helps communities of blind or learning disabled people.
-</div>
-<button onclick="readMoreVolunteering2()" id="Read-More-BTN2">Read more</button>
-</li>
-
-<li>
-Be part of a team. <div id="volunteer3"></div><div id="morevolunteer3">
- Vibrant teams maintain a friendly vibe.
+  <li>Learn to work with disabled people. You are here to learn too. As part of continuous professional development, you will gain first hand experience of disability inclusive co-working. Your role as a team leader will be a great opportunity to understand the needs and preferences of blind or learning disabled colleagues in a work environment.</li>
+  <li>Share your expertise with the community. You are a valued industry professional in your field of expertise. Share some of your knowledge with the community of blind or learning disabled people, and help them become professionals too.</li>
+  <li>Become part of a team. Vibrant teams maintain a friendly vibe.
  There will be opportunities to be social by both digital and physical ways.
  Turn up for every, or every fifth team checkin.
  Stay for an hour, or drop in for only ten minutes.
- Being socially proactive is not a must, only an opportunity.
-</div>
-<button onclick="readMoreVolunteering3()" id="Read-More-BTN3">Read more</button>
-</li>
-
-<li>
-Satisfy your dopamine with an extra reward. <div id="volunteer4"></div> <div id="morevolunteer4">
-Are you the collector type, gathering and displaying credits, kudos,, acknowledgements, thanks, and all that jazz?
-
-Then you'll also get the rewards on <a href="/about/team/index.html">our team page,</a> as well as in the inner circle of Project27 Skills.
-</div>
-<button onclick="readMoreVolunteering4()" id="Read-More-BTN4">Read more</button>
-</li>
+ Being socially proactive is not a must, only an opportunity.</li>
 </ol>
 
-<h3 id="when-can-i-become-a-volunteer">When can I become a volunteer?</h3>
+</div>
+<div role="tabpanel" id="tabpanel-teams" aria-labelledby="tab-teams">
+  
+<h2 id="select-your-team">Select your team</h2>
 
-<p>Applications open on the 1st of October, 2023.
-You can submit an application anytime after this date.</p>
-
-<p>Volunteer registration will open with the launch of version 1.0 of the Project27 Skills site, on the 31st of January, 2024.</p>
-
-<hr />
-
-<h2 id="how-much-time-should-i-commit">How much time should I commit?</h2>
-
-<p>The level of engagement is flexible. You may</p>
-
-<ul>
-  <li>identify, or ask us for a single challenge, solve it, and you are done.</li>
-  <li>continue working on multiple challenges, whenever you find time, even if only a couple hours in a month.</li>
-  <li>get hooked, and if you have nothing better to do, treat it as a part time role.</li>
-</ul>
-
-<h3 id="certification">Certified pathways of volunteering</h3>
-
-<p>We are committed to certifying your contributions. Currently, we offer the following achievements:</p>
-
-<dl>
-  <dt>Trainee</dt>
-  <dd>after successful completion of 4 tasks (~16 hours of commitment);</dd>
-  <dt>Apprentice</dt>
-  <dd>after successful completion of 16 tasks (~16 hours of regular commitment per week, for one month);</dd>
-  <dt>Intern</dt>
-  <dd>after successful completion of 48 tasks (~16 hours of regular commitment per week, for three months);</dd>
-  <dt>Active member</dt>
-  <dd>after successful completion of 100 tasks (~8 hours of regular commitment per week, for one year)</dd>
-</dl>
-
-<p>Active members will be considered for part-time employment at Project27 Skills or one of our partners; subject to funding and the legal constitution of the Project27 Skills business entity.</p>
-
-<hr />
-
-<h2 id="what-can-i-work-on">What can I work on?</h2>
-
-<p>Browse our activity catalogue, and get involved.
-Select a team, before viewing a list of available activities.
-The activity pages provide an overview of what’s expected, as well as a list of very specific tasks to choose from.</p>
+<p>When trainees join our community, they join a team led by a volunteer.
+The team you want to join depends on your interests and motivations.
+Team members work towards the same goals, defined by related team activities, with interns, scholars, and fellows learning from each other.
+Select a team before viewing a list of team specific activities.</p>
 
 <div class="row">
 <div class="col-3">
@@ -331,119 +380,122 @@ The activity pages provide an overview of what’s expected, as well as a list o
 <div class="col-3">
 <select onchange="handleChange(this)">
 
-<option value="/volunteering/research-and-development/index.html" label="Research &amp; Development">Research &amp; Development</option>
+<option value="/volunteering/research-and-development/index.html" label="Research &amp; Development">View members of the Research &amp; Development team</option>
 
-<option value="/volunteering/content/index.html" label="Posts and Notes">Posts and Notes</option>
+<option value="/volunteering/content/index.html" label="Content creation">View members of the Content creation team</option>
 
-<option value="/volunteering/editorial-and-review/index.html" label="Editorial &amp; Review">Editorial &amp; Review</option>
+<option value="/volunteering/editorial-and-review/index.html" label="Editorial &amp; Review">View members of the Editorial &amp; Review team</option>
 
-<option value="/volunteering/management/index.html" label="Leadership and Management">Leadership and Management</option>
+<option value="/volunteering/management/index.html" label="Leadership and Management">View members of the Leadership and Management team</option>
 
 </select>
 </div>
 <div class="col-6">
-<a data-toggle="collapse" href="#how-it-works" aria-expanded="false" aria-controls="how-it-works">How does it work?</a>
-</div>
-</div>
+<h3>How do Project27 teams work?</h3>
 
-<div class="collapse" id="how-it-works">
-<h3>How does it work?</h3>
-
-At the moment, we do it all.
-And we can't wait to find people who do some of our tasks much better than we do.
-That's how Project27 Skills grows.
-That's also how we build a community of peer support.
-
+Teams are the backbone of our community, where peer support is central.
 We don't have roles, we work on tasks.
 As such, we adopted <a href="https://mentorphile.com/2019/03/05/fostering-apples-culture-of-accountability-the-dri/">Apple's Directly Responsible Individual (DRI) way of working.</a>
-Everyone in the team is directly responsible for the task assigned to them.
 
-Some tasks are permanent, just like washing up is.
-Other tasks may disappear once they are done, just like you would post a letter only once.
-When you become a volunteer, you can bid on tasks, using an internal system.
-The rest is history.
+Everyone in the team is directly responsible for the task assigned to them.
+However, everyone has a mentor to learn from, and a mentee to support.
+Scholars learn from fellows, while interns are guided by scholars.
+When you become a team member, you can bid on tasks, using our internal system.
 </div>
+</div>
+
+<h2 id="find-an-activity">Find an activity</h2>
+
+<p>Activity pages provide an overview of related tasks, requirements, and development outcomes.
+You can bid for activity specific tasks, using your Trello account and our task board.</p>
 
 <div class="iframe-container">
 <iframe src="/volunteering/research-and-development/index.html" title="Research and Development" id="iframe-id" class="responsive-iframe"></iframe>
 </div>
 
-<div id="spotlight" class="spotlight">
-<h3>Latest tasks</h3>
-<ul>
+</div>
+<div role="tabpanel" id="tabpanel-skills" aria-labelledby="tab-skills">
+  
+<h2 id="develop-your-skills-with-us">Develop your skills with us</h2>
 
-<li>
-<a href="/volunteering/research-and-development/tester.html">Testing and recording issues</a> - 25 Oct 2022
-</li>
+<p>Our community has developed 54 unique skills to date, and counting!
+Skillsets are a related group of skills that our trainees and volunteers can develop, associated with activities they engage in.
+View the full set of skills we can support you with below.</p>
 
-<li>
-<a href="/volunteering/editorial-and-review/reviewer--readability-and-engagement.html">Reviewing the readability and engagement of existing content</a> - 02 Oct 2022
-</li>
+<div class="row">
+<div class="col-3">
+<p>Skillset:</p>
+</div>
+<div class="col-3">
+<select onchange="handleChange2(this)">
 
-<li>
-<a href="/volunteering/editorial-and-review/reviewer--content.html">Reviewing science content</a> - 02 Oct 2022
-</li>
+<option value="/skills/accessibility.html" label="Accessibility skillset">Accessibility skillset</option>
 
-</ul>
+<option value="/skills/digital-skills.html" label="Digital skillset">Digital skillset</option>
+
+<option value="/skills/entrepreneurship.html" label="Entrepreneurship skillset">Entrepreneurship skillset</option>
+
+<option value="/skills/journalism.html" label="Journalism skillset">Journalism skillset</option>
+
+<option value="/skills/personal-competencies.html" label="Personal competencies">Personal competencies</option>
+
+<option value="/skills/social-skills.html" label="Social skillset">Social skillset</option>
+
+<option value="/skills/research.html" label="Research skillset">Research skillset</option>
+
+<option value="/skills/web-design.html" label="Web-design skillset">Web-design skillset</option>
+
+</select>
+</div>
+<div class="col-6">
+
+</div>
 </div>
 
-<hr />
+<div class="iframe-container">
+<iframe src="/skills/accessibility.html" title="Accessibility skillset" id="iframe-id2" class="responsive-iframe"></iframe>
+</div>
 
-<h2 id="membership">Membership at Project27 Skills</h2>
+</div>
+<div role="tabpanel" id="tabpanel-events" aria-labelledby="tab-events">
+  
+<h2 id="our-events">Our events</h2>
 
-<p>We plan to open a membership application on 1st of January, 2024.
-Members will access additional benefits, based on a subscription.</p>
+<p>Currently, we have no events planned. Please check back later.</p>
 
-<h3 id="what-are-the-benefits-of-becoming-a-member">What are the benefits of becoming a member?</h3>
 
-<p>There are multiple benefits to becoming a member. For example, you will</p>
+</div>
 
-<ul>
-  <li>get 1 credit of <a href="/support/pricing.html">supervision support</a> per month;</li>
-  <li>get <a href="#certification">certifications</a> of your contributions;</li>
-  <li>be able to join more than 1 team;</li>
-  <li>be able to contribute an unlimited number of tasks;</li>
-  <li>get access to exclusive content on the Project27 Skills Guide;</li>
-  <li>get access to collectable badges to display on your profile;</li>
-  <li>get discounts on our community events.</li>
-</ul>
+<script>
 
-<h3 id="when-can-i-become-a-member">When can I become a member?</h3>
+  setTab('overview');
 
-<p>Please, express your interest in becoming a member, by using the button below.
-The launch date of membership registration may change depending on your interest.</p>
+  function setTab(tabName) {
+    console.log(tabName);
+    const allTabButtons = document.querySelectorAll('button[role=tab]');
 
-<p>We plan to open membership registration with the launch of version 2.0 of the Project27 Skills site, on the 31st of January, 2025.</p>
+    const tabButtonId = 'tab-' + tabName;
+    const selectedTabButton = document.getElementById(tabButtonId);
 
-<p><a id="apply-to-volunteer-bottom" class="fg-general-vol" aria-disabled="false" href="/volunteering/become-a-volunteer.html">I’d like to become A member</a></p>
+    allTabButtons.forEach((tabButton) => {
+      tabButton.setAttribute('aria-selected', false);
+    });
+    selectedTabButton.setAttribute('aria-selected', true);
 
-<h3 id="how-much-does-membership-cost">How much does membership cost?</h3>
+    const allTabPanels = document.querySelectorAll('[role=tabpanel]');
 
-<p>Membership is priced slightly differently, depending on the subscription you select.</p>
+    const tabPanelId = 'tabpanel-' + tabName;
+    const selectedTabPanel = document.getElementById(tabPanelId);
 
-<ul>
-  <li>paid monthly: £24.99 a month,</li>
-  <li>paid yearly: £239.90 a year (£19.99 a month).</li>
-</ul>
+    allTabPanels.forEach((tabPanel) => {
+      tabPanel.setAttribute('hidden', true);
+    });
+    selectedTabPanel.removeAttribute('hidden');
 
-<hr />
+    console.log(tabName, selectedTabButton, selectedTabPanel)
+  }
+</script>
 
-<h2 id="what-happens-after-i-apply">What happens after I apply?</h2>
-
-<p>Whether you join our community as a volunteer, or as a member, we will set you up for success.
-We follow a three step process to ensure you have a great experience of joining the team.</p>
-
-<dl>
-  <dt>Introduction</dt>
-  <dd>We organise a 30 minute long virtual meeting with you to make introductions, understand your interests, and discuss the tasks you would like to help with.</dd>
-  <dt>On-boarding</dt>
-  <dd>During your first week, we ask you to complete our on-boarding workflow, which involves reading through our ‘getting started’ package.</dd>
-  <dd>A 30 minute long virtual meeting, to get you familiar with our systems.</dd>
-  <dd>A second 30 minute long virtual meeting, to set you up on your first task.</dd>
-  <dt>Supervision</dt>
-  <dd>During the first month with us, we offer a <a href="/support/pricing.html">free supervision session</a>, to make sure you can give us feedback, ask questions, and to help you combat initial difficulties.</dd>
-  <dd>Supervision is optional and flexible. You can choose to take the full hour, take two 30 minute long sessions, or not use it at all.</dd>
-</dl>
 
 
  <hr>
@@ -459,8 +511,6 @@ We follow a three step process to ensure you have a great experience of joining 
 
 
 
-<div class="row">
-<div class="col-md-10">
 <div class="row">
 <div class="col-md-8">
 
@@ -491,120 +541,86 @@ Copyright © 2023 Project27 Consultancy Group C.I.C. All rights reserved.
 </nav>
 </div>
 </div>
-<div class="row">
-<div class="col">
-<h5>Follow us</h5>
-<div class="row">
 
-    <div class="col-md-3">
+<div class="row">
+<div class="col-md-2">
+<h5>Stay in touch</h5>
+</div>
+<div class="col-md-4">
+<p>Join our mailing list. Coming soon.</p>
+</div>
+
+    <div class="col">
     <a href="https://www.facebook.com/profile.php?id=100095492140913">
     <img src="/assets/images/icons/facebook.png" alt="Facebook" class="img-follow-us-new">
     </a>
     </div>
 
-    <div class="col-md-3">
+    <div class="col">
     <a href="https://www.twitter.com/project27skills/">
     <img src="/assets/images/icons/x.png" alt="X" class="img-follow-us-new">
     </a>
     </div>
 
-    <div class="col-md-3">
+    <div class="col">
     <a href="https://www.linkedin.com/company/project27-consultancy-group/">
     <img src="/assets/images/icons/linkedin.png" alt="LinkedIn" class="img-follow-us-new">
     </a>
     </div>
 
-    <div class="col-md-3">
+    <div class="col">
     <a href="https://youtube.com/@project27skills">
-    <img src="/assets/images/icons/youtube.jpg" alt="YouTube" class="img-follow-us-new">
+    <img src="/assets/images/icons/youtube.png" alt="YouTube" class="img-follow-us-new">
     </a>
     </div>
 
-<p>
-Check out other ways to follow us, on our <a href="/contact/index.html">contact page.</a>
-</p>
+    <div class="col">
+    <a href="https://www.instagram.com/project27skills/">
+    <img src="/assets/images/icons/instagram.png" alt="Instagram" class="img-follow-us-new">
+    </a>
     </div>
-</div>
-</div>
-</div>
-<div class="col-md-2">
 
-</div>
+    <div class="col">
+    <a href="https://dragonscave.space/@daniel/">
+    <img src="/assets/images/icons/mastodon.png" alt="Mastodon" class="img-follow-us-new">
+    </a>
+    </div>
+
 </div>
 
 <div class="row">
-<div class="col-md-10">
-<h5>Powered by</h5>
-<div class="row">
-<div class="col-md-3">
-<a href="https://github.com">
-<img class="img-powered-by-new" src="/assets/images/Github logo.png" alt="Github" >
-</a>
-</div>
-<div class="col-md-3">
-<a href="https://jekyllrb.com">
-<img class="img-powered-by-new" src="/assets/images/Jekyll logo.png" alt="Jekyll" >   
-</a>
-</div>
-<div class="col-md-3">
-<a href="https://getbootstrap.com">
-<img class="img-powered-by-new" src="/assets/images/Bootstrap logo.png" alt="Bootstrap" > 
-</a>
-</div>
-<div class="col-md-3">
-<a href="https://www.markdownguide.org">
-<img class="img-powered-by-new" src="/assets/images/Markdown logo.png" alt="Markdown" >
-</a>
-</div>
-</div>
-<div class="row">
-<div class="col-md-3">
-<a href="https://www.latex-project.org">
-<img class="img-powered-by-new" src="/assets/images/LaTeX logo.png" alt="LaTeX" >  
-</a>
-</div>
-<div class="col-md-3">
-<a href="https://www.python.org">
-<img class="img-powered-by-new" src="/assets/images/Python logo.png" alt="Python" >
-</a>
-</div>
-<div class="col-md-3">
-<a href="https://www.r-project.org">
-<img class="img-powered-by-new" src="/assets/images/Rlogo.png" alt="R" >
-</a>
-</div>
-<div class="col-md-3">
-<a href="https://www.gnu.org/software/bash/">
-<img class="img-powered-by-new" src="/assets/images/Bash shell logo.png" alt="Bash" >
-</a>
-</div>
-</div>
-</div>
-<div class="col-md-2">
-<hr>
 
+<div class="col">
 <p>
 <a href="/legal/terms-of-use.html">
 Terms of use
 </a>
 </p>
+</div>
 
+<div class="col">
 <p>
 <a href="/legal/terms-of-service.html">
 Terms of service
 </a>
 </p>
+</div>
 
+<div class="col">
 <p>
 <a href="/legal/privacy.html">
 Privacy policy
 </a>
 </p>
+</div>
 
-<p><a href="/blog/logbook/dev/change-log.html">Version: 0.6.296.</a></p>
+<div class="col">
+<p><a href="/blog/logbook/dev/change-log.html">Version: 1.0.0.</a></p>
+</div>
+<div class="col">
 <p onclick="showTimeLastUpdated()">Last updated: 
-<span id="time-last-updated-show">27 Oct 2023.</span>
-<span id="time-last-updated-hide" class="hidden-text">17:20.</span>
+<span id="time-last-updated-show">28 Jan 2024.</span>
+<span id="time-last-updated-hide" class="hidden-text">16:58.</span>
 </p>
 </div>
 </div>
