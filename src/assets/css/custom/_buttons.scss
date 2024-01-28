@@ -333,6 +333,7 @@ position: sticky;
 display: inline-block;
 overflow: hiddens;
 font-weight: bold;
+padding: auto;
 }
 
 .Read-More {
@@ -423,12 +424,11 @@ margin-bottom: 5px;
       background-color: #D3D3D3;
       border: solid black 3px;
       font-weight: bold;
-      margin-top: 5%;
-      margin-bottom: 5%;
-      border-radius: 22%;
-      position: sticky;
-      display: inline-block;
-      overflow: hiddens;
+      line-height: 1;
+      margin-top: 3%;
+      margin-left: 3%;
+      width: 100%;
+      border-radius: 20%;
 }
 
 .dropdown-item{
@@ -449,12 +449,11 @@ margin-bottom: 5px;
       background-color: #D3D3D3;
       border: solid black 3px;
       font-weight: bold;
-      margin-top: 5%;
-      margin-bottom: 5%;
+      line-height: 1;
+      margin-top: 3%;
+      margin-left: 3%;
+      width: 100%;
       border-radius: 20%;
-      position: sticky;
-      display: inline-block;
-      overflow: hidden;
 }
 
 .mybtnquick a { 
@@ -472,3 +471,20 @@ a.disabled {
       /* And disable the pointer events */
       pointer-events: none;
     }
+
+    @media screen and (min-width: 480px){
+      .mybtnquick {
+          max-width: 50%;
+          display: block;
+          padding: 1%;
+      }
+      }
+
+      
+    @media screen and (min-width: 480px){
+      .mybtnswitch {
+          max-width: 60%;
+          display: block;
+          padding: 1%;
+      }
+      }
