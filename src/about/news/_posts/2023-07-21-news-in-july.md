@@ -3,6 +3,7 @@ layout: post
 permalink: news-in-july.html
 author: Daniel Hajas
 title: Successful registration of the Project27 C.I.C.
+tag: news
 buttonStyle: fg-blog-sect
 backgroundStyle: bg-blog-sect
 image: july.png

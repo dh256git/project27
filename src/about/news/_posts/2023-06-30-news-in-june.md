@@ -3,6 +3,7 @@ layout: post
 permalink: news-in-june.html
 author: Daniel Hajas
 title: Gearing up for multimedia content
+tag: news
 buttonStyle: fg-blog-sect
 backgroundStyle: bg-blog-sect
 image: june.png

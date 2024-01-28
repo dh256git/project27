@@ -4,6 +4,7 @@ permalink: news-in-october.html
 author: Perplexity AI
 reviewer: Daniel Hajas
 title: Introducing tabs - A new look on our profile pages
+tag: news
 updated: 2023-11-03
 buttonStyle: fg-blog-sect
 backgroundStyle: abg-blog-sect

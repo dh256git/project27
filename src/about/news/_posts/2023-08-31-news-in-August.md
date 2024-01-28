@@ -4,6 +4,7 @@ permalink: news-in-august.html
 author: Perplexity AI
 reviewer: Daniel Hajas
 title: We took a break. So who wrote this?
+tag: news
 updated: 2023-10-23
 buttonStyle: fg-blog-sect
 backgroundStyle: abg-blog-sect

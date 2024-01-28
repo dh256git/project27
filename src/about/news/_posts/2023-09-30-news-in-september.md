@@ -4,6 +4,7 @@ permalink: news-in-september.html
 author: Perplexity AI
 reviewer: Daniel Hajas
 title: A  new recruit - Experimenting with AI tools
+tag: news
 updated: 2023-10-23
 buttonStyle: fg-blog-sect
 backgroundStyle: abg-blog-sect
