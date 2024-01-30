@@ -13,9 +13,21 @@
   </div>
 <div class="row">
 <div class="col">
+
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-target="#test" aria-expanded="false">
+     Dropdown button
+  </button>
+  <ul class="dropdown-menu" id="test">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+</div>
+
 <div class="dropdown bg-my-nav">
-<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#products" aria-haspopup="true">Products & Services</button>
-        <div class="dropdown-menu" id="products">
+<button type="button" class="mybtnswitch" data-bs-toggle="dropdown" aria-haspopup="true">Products & Services</button>
+        <div class="dropdown-menu">
     {% for item in site.data.quick-links-side["productsAndServices"] %}
           <a class="dropdown-item" href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
   {% endfor %}
