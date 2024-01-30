@@ -1,6 +1,11 @@
 ---
 ---
-@import 'bootstrap/bootstrap';
+@import "./custom/background"; //we've added this line
+@import  "./custom/buttons"; // we've added this line
+@import   "./custom/nav";   //   we've   added   this   line
+@import   "./custom/images";   //   we've   added   this   line
+@import   "./custom/variables";   //   we've   added   this   line
+@import   "./custom/general";   //   we've   added   this   line
 
 html *
 {
