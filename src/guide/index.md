@@ -14,61 +14,68 @@ listOfDots: ["dots", "dots1", "dots2", "dots3", "dots4"]
 listOfMore: ["more", "more1", "more2", "more3", "more4"]
 listOfButtons: ["Read-more", "Read-more1", "Read-more2", "Read-more3", "Read-more4"]
 listOfFunctions: ["readMoreMPS()", "readMoreComputerLiteracy()", "readMoreStatistics()", "readMoreCookbook()", "readMoreVocal()"]
+tabpanelIDList: ["science", "lifestyle", "training"]
 ---
 
-    <h2 class="cover-heading">The {{ site.product }}: {{ page.tagline }}</h2>
+{% assign guide = site.data.main['Guide'] %}
 
-<p>
+## The {{ site.product }}: {{ page.tagline }}
+
 The {{ site.brand }} {{ site.product }} is a collection of accessible notes for learning.
 Our library has a science collection, and a lifestyle collection, organised into volumes.
-</p>
 
-<p>
 Blind or learning disabled people can study our notes to learn about topics they are interested in.
 Our volunteers and members can contribute to expanding the {{ site.product }}, and develop a wide range of skills on the way.
-</p>
 
 {% include global/cover-image.html image="guide-cover.jpg" alt="Someone is holding a paper map, and pointing at a location with a finger." %}
 
-<hr>
-
 <div role='tablist'>
-    <button role='tab' id='tab-science' aria-controls='tabpanel-science' onClick="setTab('science')">Science and technology</button>
+    <button role='tab' id='tab-science' aria-controls='tabpanel-science' onClick="setTab('science')">Science and Tech</button>
     <button role='tab' id='tab-lifestyle' aria-controls='tabpanel-lifestyle' onClick="setTab('lifestyle')">Lifestyle</button>
     <button role='tab' id='tab-training' aria-controls='tabpanel-training' onClick="setTab('training')">Training and community projects</button>
     </div>
 
-    <div role='tabpanel' id='tabpanel-science' aria-labelledby='tab-science'>
-        <h3>Science collection</h3>
+{% for collection in guide %}
+<div role='tabpanel' id='tabpanel-{{ page.tabpanelIDList[index] }}' aria-labelledby='tab-{{ page.tabpanelIDList[index] }}'>
+{% capture collection-content %}
+### {{ collection.name }}
 
-<p>The science collection consists of two volumes, including notes on mathematical and physical sciences, and digital skills respectively. We recognize the importance of science, technology, engineering, and mathematics (STEM) as prerequisites for skills development, innovation, creativity, entrepreneurship, and employability</p>
+{{ collection.description }}
 
-<p>Science and Technology Editor: <a href="{{ '/about/team/Daniel/index.html' | prepend: site.baseurl }}">Daniel Hajas</a></p>
+{{ collection.name }} editor: [{{ collection.editor }}]({{ collection.editorLink }})
+{% endcapture %}
 
-{% assign dataFile = site.data.volumes.guide %}
+{{ collection-content | markdownify }}
+
+{% assign dataFile = collection['volumes'] %}
 {% assign gridLimit = 2 %}
 {% include global/grid-generator.html heading="h4" %}
       </div>
+{% endfor %}
 
-      <div role='tabpanel' id='tabpanel-lifestyle' aria-labelledby='tab-lifestyle'>
-        <h3>Lifestyle collection</h3>
-        <p>
-        The lifestyle collection consists of two volumes, including notes on cooking, and storytelling respectively. We recognise the importance of human stories, social interaction, and peer support in the community. Cooking and sharing stories is a great way to bond, build confidence, and develop social skills.
-        </p>
-        <p>Lifestyle Editor: <a href="{{ '/about/team/Danielle/index.html' | prepend: site.baseurl }}">Danielle Garratt</a></p>
+<div role='tabpanel' id='tabpanel-lifestyle' aria-labelledby='tab-lifestyle'>
+### collection name
+
+
+collection description.
+
+collection name editor: editor and editor link
+
         {% assign dataFile = site.data.volumes.guide %}
         {% assign gridOffset = 3 %}
         {% include global/grid-generator.html heading="h4" %}
         </div>
 
-      <div role='tabpanel' id='tabpanel-training' aria-labelledby='tab-training'>
-        <h3>Training and community projects</h3>
-        <p>This is the training and community projects collection, this section consists of two volumes, Training and Community projects.</p>
-          <p> Training Editor: <a href="{{ '/about/team/Danielle/index.html' | prepend: site.baseurl }}">Danielle Garratt</a> </p>
+<div role='tabpanel' id='tabpanel-training' aria-labelledby='tab-training'>
+collection name
+
+collection description
+
+editors
+
           {% assign dataFile = site.data.volumes.guide %}
           {% assign gridOffset = 5 %}
           {% include global/grid-generator.html heading="h4" %}
         </div>
-
 
 {% include global/script-for-tabs.html selectedTabID="science" %}

@@ -8,16 +8,25 @@ date: 2022-10-02
 licence: copyright
 buttonStyle: fg-general-vol
 backgroundStyle: bg-general-vol
+myList: ["apple", "orange", "banana"]
 ---
 
 ## {{ page.title }}
 
-{% capture test %}
-## Test area
-{% endcapture %}
+{% for item in [1, 2, 3] %}
+{{ item }}, 
+{% endfor %}
 
-<div>
 
-{{ test | markdownify }}
 
-</div>
+{% assign main = site.data.main %}
+
+{% assign science =  main['Guide'][0] %}
+
+{{ main['Guide']['overview'] }}
+
+### {{ science['name'] }}
+
+{% for volume in science['volumes'] %}
+[{{ volume.name }}]({{ volume.link }}),
+{% endfor %}
