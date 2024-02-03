@@ -36,7 +36,8 @@ Our volunteers and members can contribute to expanding the {{ site.product }}, a
     </div>
 
 {% for collection in guide %}
-<div role='tabpanel' id='tabpanel-{{ page.tabpanelIDList[index] }}' aria-labelledby='tab-{{ page.tabpanelIDList[index] }}'>
+{% assign collectionIndex = forloop.index | minus: 1 %}
+<div role='tabpanel' id='tabpanel-{{ page.tabpanelIDList[collectionIndex] }}' aria-labelledby='tab-{{ page.tabpanelIDList[collectionIndex] }}'>
 {% capture collection-content %}
 ### {{ collection.name }}
 
@@ -53,6 +54,7 @@ Our volunteers and members can contribute to expanding the {{ site.product }}, a
       </div>
 {% endfor %}
 
+{% comment %}
 <div role='tabpanel' id='tabpanel-lifestyle' aria-labelledby='tab-lifestyle'>
 ### collection name
 
@@ -77,5 +79,6 @@ editors
           {% assign gridOffset = 5 %}
           {% include global/grid-generator.html heading="h4" %}
         </div>
+{% endcomment %}
 
 {% include global/script-for-tabs.html selectedTabID="science" %}

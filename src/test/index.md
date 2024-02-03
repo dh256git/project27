@@ -13,8 +13,10 @@ myList: ["apple", "orange", "banana"]
 
 ## {{ page.title }}
 
-{% for item in [1, 2, 3] %}
-{{ item }}, 
+
+{% for item in page.myList %}
+{% assign myIndex = forloop.index | minus: 1 %}
+{{ page.myList[myIndex] }}, 
 {% endfor %}
 
 
