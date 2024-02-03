@@ -48,7 +48,7 @@ Tutoring: ...
 </a>
 <div class="collapse" id="tutoring">
 <p>
-For blind or learning disabled people, who want to get hands-on and learn new skills in topics we endorse in the <a href="{% link guide/index.html %}">{{ site.brand }} {{ site.product }}.</a>
+For blind or learning disabled people, who want to get hands-on and learn new skills in topics we endorse in the <a href="{% link guide/index.md %}">{{ site.brand }} {{ site.product }}.</a>
 </p>
 <ul>
 <li>scoping and defining the skill you wish to learn;</li>
@@ -190,4 +190,4 @@ The studio includes:
 
 We appreciate these prices may be difficult to pay for some. We are actively working with donors, funders, and partners to buy some of these services on your behalf.
 
-The revenue and funds raised through {{ site.brand }} Support are invested into maintaining and improving other {{ site.brand }} products and services, such as the [{{ site.brand }} {{ site.product }}]({% link guide/index.html %}) and [{{ site.brand }} Volunteering.]({% link volunteering/index.md %})
+The revenue and funds raised through {{ site.brand }} Support are invested into maintaining and improving other {{ site.brand }} products and services, such as the [{{ site.brand }} {{ site.product }}]({% link guide/index.md %}) and [{{ site.brand }} Volunteering.]({% link volunteering/index.md %})

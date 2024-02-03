@@ -1,3 +1,23 @@
+Home:
+
+  services: &services
+
+  - name: Sharing lived experience - Read our Blog!
+    link: /blog/index.html
+    description: We help young disabled people and their parents or carers to find encouraging examples of personal growth and professional development, through sharing our lived experience of sight loss, learning disability, and success in a series of joyful blog posts.
+  - name: Creating learning resources - Study our Guide!
+    link: /guide/index.html
+    description: We enable blind or learning disabled people to learn and develop new skills in science & technology or lifestyle & media on their own, through a collection of accessible learning resources.
+  - name: Training and entrepreneurship - Join our community!
+    link: /volunteering/index.html
+    description: We support blind or learning disabled trainees to develop skills that matter, through certifying their active involvement in training exercises and our community projects. Tasks are created by  industry professionals, leading small entrepreneurial teams of trainees, providing mentorship, and encouraging peer support..
+  - name: Private consultancy - Book Support!
+    link: /support/index.html
+    description: Anyone who has questions about blindness or learning disability, and needs time to talk things through with us but does not want to become a community member, can book one-off support. We offer appointments for general consultation for parents and teachers, tutoring or mentoring for blind or learning disabled individuals, and innovation consultation for researchers and businesses..
+  - name: Research and innovation
+    link: 
+    description: We partner with researchers and businesses to help them understand the real problems blind or learning disabled people experience, through iterative co-design processes in research projects, and innovation consultancy during the early adoption of accessibility solutions considered by businesses.
+
 Guide:
 
   - collection: &collection1
