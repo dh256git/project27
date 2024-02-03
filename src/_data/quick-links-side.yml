@@ -14,7 +14,7 @@ productsAndServices:
     link: /support/pricing.html
 media:
   - name: News
-    link: /about/news.html
+    link: /about/news/index.html
   - name: Posts
     link: /blog/all-posts.html
 development:
