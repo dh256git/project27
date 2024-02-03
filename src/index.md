@@ -8,7 +8,7 @@ updated: 2024-02-04
 licence: copyright
 buttonStyle: fg-general-land
 backgroundStyle: bg-general-land
-listOfIcons: [["fas fa-pencil-alt", ""], ["fas fa-compass", ""], ["fa-solid fa-handshake", ""], ["fa-solid fa-person-chalkboard", ""]]
+listOfIcons: [["fas fa-pencil-alt", ""], ["fas fa-compass", ""], ["fa-solid fa-handshake", ""], ["fa-solid fa-person-chalkboard", ""], ["fas-lightbulb", ""]]
 ---
 
 {% assign home = site.data.main['Home'] %}
