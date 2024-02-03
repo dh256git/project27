@@ -31,10 +31,13 @@ Danielle is a sociable learning disabled person, with an interest in art, media,
 
 ## Our products and services
 
+We have a range of services to meet the needs of our community, from trainees, through parents, to researchers and businesses.
+Read what people say, before browsing our service offer below..
+
+{% assign dataFile = site.data.testimonials %}
+{% include global/carousel.html carouselDescription="A carousel of testimonials" %}
 
 {% assign dataFile = home['services'] %}
 {% include global/grid-generator-2.html heading="h3" %}
 
 {% include spotlight.html %}
-
-{% include global/testimonials.html %}

@@ -1,0 +1,9 @@
+<div class="row">
+<div class="col-3">
+<img src="{{ '/assets/images/clients/' | append: slide.thumbnail | prepend: site.baseurl }}" alt="{{ slide.thumbnailAlt }}" class="d-block w-100">
+</div>
+<div class="col-9">
+<p>{{ slide.quote }} - {{ slide.name }}</p>
+<p><a href="{{ slide.link | prepend: site.baseurl }}">{{ slide.role }} at {{ slide.organisation }}</a></p>
+</div>
+</div>

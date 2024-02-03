@@ -1,0 +1,37 @@
+{% assign numberOfSlides = dataFile | size %}
+{% assign lastSlide = numberOfSlides | minus: 1 %}
+{% assign innerLastSlide = lastSlide | minus: 1 %}
+
+<div id="carouselExampleIndicators" class="carousel slide" aria-label="{{ include.carouselDescription }}">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></button>
+{% for button in dataFile offset: 1 limit: innerLastSlide %}
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{ forloop.index }}" aria-label="Slide {{ forloop.index | plus: 1 }}"></button>
+    {% endfor %}
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{ lastSlide }}" aria-label="Last slide"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+{% assign slide = dataFile[0] %}
+{% include global/testimonial-slide.html %}
+    </div>
+{% for slide in dataFile offset: 1 limit: innerLastSlide %}
+    <div class="carousel-item">
+{% include global/testimonial-slide.html %}
+    </div>
+    {% endfor %}
+    <div class="carousel-item">
+{% assign slide = dataFile[lastSlide] %}
+{% include global/testimonial-slide.html %}
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous slide</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next slide</span>
+  </button>
+</div>
