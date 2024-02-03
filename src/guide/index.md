@@ -10,10 +10,6 @@ buttonStyle: fg-guide-land
 backgroundStyle: bg-guide-land
 listOfIcons: [["fas fa-atom", ""], ["fas fa-desktop", ""], ["fas fa-chart-line"], ["fas fa-utensils", ""], ["fas fa-record-vinyl", ""], ["fas fa-graduation-cap", ""], ["fas fa-hands-holding-circle", ""]]
 levelToOpen: volume
-listOfDots: ["dots", "dots1", "dots2", "dots3", "dots4"]
-listOfMore: ["more", "more1", "more2", "more3", "more4"]
-listOfButtons: ["Read-more", "Read-more1", "Read-more2", "Read-more3", "Read-more4"]
-listOfFunctions: ["readMoreMPS()", "readMoreComputerLiteracy()", "readMoreStatistics()", "readMoreCookbook()", "readMoreVocal()"]
 tabpanelIDList: ["science", "lifestyle", "training"]
 ---
 
@@ -21,25 +17,31 @@ tabpanelIDList: ["science", "lifestyle", "training"]
 
 ## The {{ site.product }}: {{ page.tagline }}
 
-The {{ site.brand }} {{ site.product }} is a collection of accessible notes for learning.
-Our library has a science collection, and a lifestyle collection, organised into volumes.
-
-Blind or learning disabled people can study our notes to learn about topics they are interested in.
-Our volunteers and members can contribute to expanding the {{ site.product }}, and develop a wide range of skills on the way.
+Our {{ site.product }} helps blind or learning disabled people to access learning resources, even if you don't want to join our community.
+The screen reader accessible, and easy read notes enable you to develop and practice new skills in your own time, at no cost.
+We promote {{ guide[0].name | downcase }} skills, as well as self-advocacy through resources in our {{ guide[1].name | downcase }} collection.
+The {{ site.product }} is intended to give direction to blind or learning disabled people, but you should use it as a starting point to learning and practicing new skills that interest you.
 
 {% include global/cover-image.html image="guide-cover.jpg" alt="Someone is holding a paper map, and pointing at a location with a finger." %}
 
+We organise notes into collections of volumes.
+For example, recipes are included in our {{ guide[1]['volumes'][0].name }} {{ page.levelToOpen }}, in the {{ guide[1].name }} collection.
+Our community members find exercises and host their personal projects in our {{ guide[2].name }} collection at the beginning of their skills development journey.
+More experienced trainees, volunteers, and the core {{ site.org }} team edit the rest of our {{ site.product }}. 
+Find a learning resource that you might be interested in, by selecting a tab below.
+
 <div role='tablist'>
-    <button role='tab' id='tab-science' aria-controls='tabpanel-science' onClick="setTab('science')">Science and Tech</button>
-    <button role='tab' id='tab-lifestyle' aria-controls='tabpanel-lifestyle' onClick="setTab('lifestyle')">Lifestyle</button>
-    <button role='tab' id='tab-training' aria-controls='tabpanel-training' onClick="setTab('training')">Training and community projects</button>
+{% for collection in guide %}
+{% assign collectionIndex = forloop.index | minus: 1 %}
+    <button role='tab' id='tab-{{ page.tabpanelIDList[collectionIndex] }}' aria-controls='tabpanel-{{ page.tabpanelIDList[collectionIndex] }}' onClick="setTab('{{ page.tabpanelIDList[collectionIndex] }}')">{{ collection.name }}</button>
+{% endfor %}
     </div>
 
 {% for collection in guide %}
 {% assign collectionIndex = forloop.index | minus: 1 %}
 <div role='tabpanel' id='tabpanel-{{ page.tabpanelIDList[collectionIndex] }}' aria-labelledby='tab-{{ page.tabpanelIDList[collectionIndex] }}'>
 {% capture collection-content %}
-### {{ collection.name }}
+## The {{ collection.name }} collection
 
 {{ collection.description }}
 
@@ -50,35 +52,8 @@ Our volunteers and members can contribute to expanding the {{ site.product }}, a
 
 {% assign dataFile = collection['volumes'] %}
 {% assign gridLimit = 2 %}
-{% include global/grid-generator.html heading="h4" %}
+{% include global/grid-generator.html heading="h3" %}
       </div>
 {% endfor %}
-
-{% comment %}
-<div role='tabpanel' id='tabpanel-lifestyle' aria-labelledby='tab-lifestyle'>
-### collection name
-
-
-collection description.
-
-collection name editor: editor and editor link
-
-        {% assign dataFile = site.data.volumes.guide %}
-        {% assign gridOffset = 3 %}
-        {% include global/grid-generator.html heading="h4" %}
-        </div>
-
-<div role='tabpanel' id='tabpanel-training' aria-labelledby='tab-training'>
-collection name
-
-collection description
-
-editors
-
-          {% assign dataFile = site.data.volumes.guide %}
-          {% assign gridOffset = 5 %}
-          {% include global/grid-generator.html heading="h4" %}
-        </div>
-{% endcomment %}
 
 {% include global/script-for-tabs.html selectedTabID="science" %}
