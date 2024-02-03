@@ -35,11 +35,13 @@ volunteer,
  <a href="#tab-trainees" onClick="setTab('trainees')">
 trainee.
 </a>
-Our members 
+The trainee programme helps blind or learning disabled people to learn through peer support and mentoring.
+Anyone can volunteer, as long as they are joining us to support trainees through their professional experience. 
+Our members, volunteers and trainees alike, come to 
 <a href="#tab-skills" onClick="setTab('skills')">
 develop skills that matter,
 </a>
- through bespoke training, completing tasks, and working in teams.
+ through bespoke training, creating and completing tasks, and working in disability inclusive teams.
 
 {% include global/cover-image.html image="volunteering-cover.jpg" alt="A drawn tree, with handprints as leaves on the branches." %}
 

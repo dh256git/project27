@@ -55,7 +55,7 @@ Through our Skill Studio, we can also help you select and schedule multiple type
 Amongst others, we can provide support in the following ways:
 
 1. mentoring: for those who just need a bit of general guidance and confidence building;
-2. tutoring: for people, who want to get hands-on and learn new skills in topics we endorse in the [{{ site.brand }} {{ site.product }};]({% link guide/index.html %})
+2. tutoring: for people, who want to get hands-on and learn new skills in topics we endorse in the [{{ site.brand }} {{ site.product }};]({% link guide/index.md %})
 3. consultancy: for parents, teachers, carers, disability advisors or whoever wishes to consult us with a specific question in mind;
 4. research: for specific questions, where we might need to do a bit of digging to come up with a solution, or build a demonstrator tool;
 5. referrals: for those occasions we don't know the solution to your challenges.
