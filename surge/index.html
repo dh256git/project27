@@ -1,6 +1,12 @@
 <!doctype html>
 <html lang="en">
   <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Project27 - Skills that matter</title>
+
 <!-- scripts for vega lite -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2/build/vega.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0/build/vega-lite.min.js"></script>
@@ -9,18 +15,17 @@
   <!-- olli -->
   <script src="https://cdn.jsdelivr.net/npm/olli@1"></script>
   <script src="https://cdn.jsdelivr.net/npm/olli-adapters@1"></script>
-  
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title> Project27 - Skills that matter</title>
 
 <!--Custom style sheets-->
         <link rel="stylesheet" href="/assets/css/main.css">
 
+<!-- Bootstrap 5.3 stylesheets -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 <!--font awesome icons-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+<!-- analytics -->
 
 <!-- Google Tag -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ET7GNZ55YP"></script>
@@ -71,7 +76,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 <div class="col-md-4">
 <div class="navbar navbar-expand-md bg-nav-header">
-  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle global navigation">
+  <button type="button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle global navigation">
     <span class="fa-solid fa-bars"></span>
   </button>
         <div class="collapse navbar-collapse" id="primaryNavigation">
@@ -144,7 +149,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 <div class="col-md-2">
-  <button href="#sidebar" type="button" class="d-lg-none mysecondarybtn" data-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle sidebar">
+  <button href="#sidebar" type="button" class="d-lg-none mysecondarybtn" data-bs-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle sidebar">
     <span><i class="fa-solid fa-circle-chevron-down" aria-hidden="false"></i></span>
   </button>
 <div class="collapse d-lg-block bg-background" id="sidebar" aria-label="sidebar navigation">
@@ -167,9 +172,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 <div class="row">
 <div class="col">
+ 
 <div class="dropdown bg-my-nav">
-<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#products" aria-haspopup="true">Products & Services</button>
-        <div class="dropdown-menu" id="products">
+<button type="button" class="mybtnswitch" data-bs-toggle="dropdown" aria-haspopup="true">Products & Services</button>
+        <div class="dropdown-menu">
     
           <a class="dropdown-item" href= "/volunteering/become-a-volunteer.html" >Become a volunteer</a>
   
@@ -180,18 +186,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </div>
 <div class="dropdown bg-my-nav">
-<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#media" aria-haspopup="true">Media</button>
-        <div class="dropdown-menu" id="media">
+<button type="button" class="mybtnswitch" data-bs-toggle="dropdown" aria-haspopup="true">Media</button>
+        <div class="dropdown-menu">
   
-          <a class="dropdown-item" href= "/about/news.html" >News</a>
+          <a class="dropdown-item" href= "/about/news/index.html" >News</a>
   
           <a class="dropdown-item" href= "/blog/all-posts.html" >Posts</a>
   
 </div>
 </div>
 <div class="dropdown bg-my-nav">
-<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#development" aria-haspopup="true">Development</button>
-        <div class="dropdown-menu" id="development">
+<button type="button" class="mybtnswitch" data-bs-toggle="dropdown" aria-haspopup="true">Development</button>
+        <div class="dropdown-menu">
     
 
                     <a class="dropdown-item" href= "/blog/logbook/dev/change-log.html" >Roadmap</a>
@@ -223,80 +229,114 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </header>
 
   <main role="main" id="mainContent" class="container bg-background">
- <h2 id="why-trust-us-with-your-talent">Why trust us with your talent</h2>
+ 
+<p>We enable blind or learning disabled young people to experience <a href="https://www.ted.com/talks/mihaly_csikszentmihalyi_flow_the_secret_to_happiness?language=en">flow</a>, while they are developing skills that matter for professional development and personal growth, through our learning platform, community support, and principles of entrepreneurship.</p>
 
-<p>We help blind or learning disabled people to develop skills that matter.
-Project27 Skills reduces the frustration caused by inaccessible learning tools, and builds confidence in your abilities.
-We do this through peer support, personalised opportunities for learning, creating and discovering new challenges in a safe place, built by it’s community.</p>
+<h2 id="what-we-do">What we do</h2>
+
+<p>We are a Brighton based social enterprise, serving a digital community of blind or learning disabled young people.
+Our work focuses on <strong>accessible science &amp; technology</strong>, <strong>enabling lifestyle &amp; media</strong>, and <strong>inclusive education &amp; employment</strong>.</p>
 
 <p><img src="/assets/images/covers/founders-cover.jpg" class="cover-image" alt="Daniel and Danielle are photographed in the UK Parliament. They are wearing smart clothing. A guide dog is sitting in front of them. In the background multiple signs are visible, such as logos of University College London, World Health Organisation, and GDI Hub. Other signs read 'AT changes lives' and 'Launching the Global Report on Assistive Technology'." /></p>
 
-<p>Project27 Skills is led by a ‘Brighton-based’ couple - <a href="/about/team/Daniel/">Daniel</a> and <a href="/about/team/Danielle/">Danielle</a>.
-We draw on our lived experiences of disability, and professional skills in community engagement.
+<p>Our co-founders - <a href="/about/team/Daniel/">Daniel</a> and <a href="/about/team/Danielle/">Danielle</a> - draw on lived experiences of disability, and professional skills in community engagement.
 Daniel is a scientifically-minded blind person, with an interest in social entrepreneurship.
 Danielle is a sociable learning disabled person, with an interest in art, media, gaming, and self-advocacy.</p>
 
 <p><a href="/about/index.html" class="fg-general-land">Read more about us</a></p>
 
-<div id="spotlight" class="spotlight">
-<h3>What people say</h3>
-<div class="feed">
+<h2 id="our-products-and-services">Our products and services</h2>
+
+<p>We have a range of services to meet the needs of our community, from trainees, through parents, to researchers and businesses.
+Read what people say, before browsing our service offer below..</p>
+
+<div id="carouselExampleIndicators" class="carousel slide" aria-label="A carousel of testimonials">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></button>
+
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Last slide"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
 
 <div class="row">
 <div class="col-3">
-<img src="/assets/images/clients/Zehra.jpg" alt="Photo of Zehra Yunel" class="news-image-testimonials" />
+<img src="/assets/images/clients/Zehra.jpg" alt="Photo of Zehra Yunel" class="d-block w-100" />
 </div>
 <div class="col-9">
 <p>Daniel was an exceptional mentor to me. He is a great listener and he always tried to give the most informed answers possible to my questions and he was willing to share his personal experiences with me during our partnership. He was also a great role model for me in terms of what a visually impaired person can achieve. his support and finding about his experiences helped me a lot to build my confidence and encouraged me to achieve my ambitions. - Zehra Yunel</p>
 <p><a href="https://www.look-uk.org">Mentee at Look UK</a></p>
 </div>
 </div>
+    </div>
 
+    <div class="carousel-item">
 <div class="row">
 <div class="col-3">
-<img src="/assets/images/clients/Sarah.jpg" alt="Photo of Sarah Pickard" class="news-image-testimonials" />
+<img src="/assets/images/clients/Sarah.jpg" alt="Photo of Sarah Pickard" class="d-block w-100" />
 </div>
 <div class="col-9">
 <p>I think Danielle is such a positive member of the team, she is so proactive and sets a good example of how to tackle her work and deal with challenges. She has real drive to learn and succeed and do things well, and support others to get involved. - Sarah Pickard</p>
 <p><a href="https://www.bhspeakout.org.uk">Director at Brighton and Hove Speak Out</a></p>
 </div>
 </div>
-
+    </div>
+    
+    <div class="carousel-item">
 <div class="row">
 <div class="col-3">
-<img src="/assets/images/clients/Emily.jfif" alt="Photo of Emily Yates" class="news-image-testimonials" />
+<img src="/assets/images/clients/Emily.jfif" alt="Photo of Emily Yates" class="d-block w-100" />
 </div>
 <div class="col-9">
 <p>From ensuring PDF accessibility to testing websites and pages as a screen reader user, Daniel has utilised his lived experience and technical knowledge surrounding digital accessibility and assistive technologies to bring incredibly helpful insight to a number of projects. I would recommend him in a heartbeat; he is thorough, engaging and a joy to chat with! - Emily Yates</p>
 <p><a href="https://mimagroup.com">Head of Accessibility and Inclusive Design at Mima Group</a></p>
 </div>
 </div>
+    </div>
+    
+    <div class="carousel-item">
 
+<div class="row">
+<div class="col-3">
+<img src="/assets/images/clients/Jan.jpg" alt="Photo of Jan Walmsley" class="d-block w-100" />
+</div>
+<div class="col-9">
+<p>Danielle is a superb advocate for people with learning disabilities, showing just how much can be achieved with a positive can-do attitude and gentle guidance. She hit the ground running when she worked with me on interviews with self-advocates and showed a great aptitude for empathetic interviewing. - Jan Walmsley</p>
+<p><a href="https://www.open.ac.uk/health-and-social-care/research/shld/research-group/biography-jan-walmsley">Professor in the History of Learning Disabilities at Open University</a></p>
 </div>
 </div>
+    </div>
+  </div>
 
-<hr />
-
-<h2 id="what-we-do">What we do</h2>
-
-<p>Project27 Skills is the talent arm of the Project27 Consultancy Group.
-We enable blind or learning disabled people to share their experiences and learn new skills.</p>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous slide</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next slide</span>
+  </button>
+</div>
 
 <!-- Hide the item in the grid. Remove if statement to show item. -->
 
 <div class="row">
 <div class="col-md">
-<h4>
+<h3>
 <a href="/blog/index.html">
-Sharing thoughts - Read our Blog!
+Sharing lived experience - Read our Blog!
 </a>
-</h4>
+</h3>
 
 
 <i class="fas fa-pencil-alt fa-lg" aria-hidden="true"></i>
 
 
-      <p>We share our lived experience of sight-loss, learning disability, and success, through our blog.</p>
+      <p>We help young disabled people and their parents or carers to find encouraging examples of personal growth and professional development, through sharing our lived experience of sight loss, learning disability, and success in a series of joyful blog posts.</p>
 
 
 
@@ -310,17 +350,17 @@ Sharing thoughts - Read our Blog!
 
     
 <div class="col-md">
-<h4>
+<h3>
 <a href="/guide/index.html">
-Passive learning - Study our Guide!
+Creating learning resources - Study our Guide!
 </a>
-</h4>
+</h3>
 
 
 <i class="fas fa-compass fa-lg" aria-hidden="true"></i>
 
 
-      <p>We enable people to learn about science, technology, and life skills, by creating accessible articles in the Project27 Guide.</p>
+      <p>We enable blind or learning disabled people to learn and develop new skills in science &amp; technology or lifestyle &amp; media on their own, through a collection of accessible learning resources.</p>
 
 
 
@@ -331,17 +371,17 @@ Passive learning - Study our Guide!
 
 <div class="row">
 <div class="col-md">
-<h4>
+<h3>
 <a href="/volunteering/index.html">
-Active learning - Become a volunteer!
+Training and entrepreneurship - Join our community!
 </a>
-</h4>
+</h3>
 
 
 <i class="fa-solid fa-handshake fa-lg" aria-hidden="true"></i>
 
 
-      <p>We promote active learning by getting volunteers involved in building the Project27 Guide, site, and community.</p>
+      <p>We support blind or learning disabled trainees to develop skills that matter, through certifying their active involvement in training exercises and our community projects. Tasks are created by  industry professionals, leading small entrepreneurial teams of trainees, providing mentorship, and encouraging peer support..</p>
 
 
 
@@ -355,32 +395,51 @@ Active learning - Become a volunteer!
 
     
 <div class="col-md">
-<h4>
+<h3>
 <a href="/support/index.html">
-Consultancy - Book Support!
+Private consultancy - Book Support!
 </a>
-</h4>
+</h3>
 
 
 <i class="fa-solid fa-person-chalkboard fa-lg" aria-hidden="true"></i>
 
 
-      <p>Anyone who needs time to talk things through with us can book support, for a session of general consulting, tutoring, or mentoring.</p>
+      <p>Anyone who has questions about blindness or learning disability, and needs time to talk things through with us but does not want to become a community member, can book one-off support. We offer appointments for general consultation for parents and teachers, tutoring or mentoring for blind or learning disabled individuals, and innovation consultation for researchers and businesses..</p>
 
 
 
 </div>
 </div>
+
+<!-- Hide the item in the grid. Remove if statement to show item. -->
+
+<div class="row">
+<div class="col-md">
+<h3>
+<a href="">
+Research and innovation
+</a>
+</h3>
+
+
+<i class="fas-lightbulb fa-lg" aria-hidden="true"></i>
+
+
+      <p>We partner with researchers and businesses to help them understand the real problems blind or learning disabled people experience, through iterative co-design processes in research projects, and innovation consultancy during the early adoption of accessibility solutions considered by businesses.</p>
+
+
+
+</div>
+    
+    
 
 <!-- if more than two columns are desired and modulo can take other values than 0 and 1. -->
 
-<h3 id="are-you-a-researcher-or-business">Are you a researcher or business?</h3>
-
-<p>Check out <a href="https://research.project27skills.com/">Project27 Solutions</a>, the research and innovation arm of the Project27 Consultancy Group.
-We enable researchers and businesses to understand the real problems blind or learning disabled people experience, through an iterative process of co-design and innovation consultancy.</p>
+</div>
 
 <div id="spotlight" class="spotlight">
-<h3>What's new?</h3>
+<h2>What's new?</h2>
 <div class="feed">
 
 <div class="row">
@@ -536,12 +595,12 @@ Privacy policy
 </div>
 
 <div class="col">
-<p><a href="/blog/logbook/dev/change-log.html">Version: 1.0.0.</a></p>
+<p><a href="/blog/logbook/dev/change-log.html">Version: 1.0.100.</a></p>
 </div>
 <div class="col">
 <p onclick="showTimeLastUpdated()">Last updated: 
-<span id="time-last-updated-show">28 Jan 2024.</span>
-<span id="time-last-updated-hide" class="hidden-text">16:51.</span>
+<span id="time-last-updated-show">05 Feb 2024.</span>
+<span id="time-last-updated-hide" class="hidden-text">20:59.</span>
 </p>
 </div>
 </div>
@@ -549,13 +608,9 @@ Privacy policy
 
 </footer>
 </div>
-<!-- Bootstrap dependency scripts -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
-    <!-- Mathematics script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<!-- Mathematics script -->
 <script type="text/x-mathjax-config">
 (function () {
 

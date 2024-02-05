@@ -1,6 +1,12 @@
 <!doctype html>
 <html lang="en">
   <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Guide</title>
+
 <!-- scripts for vega lite -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2/build/vega.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0/build/vega-lite.min.js"></script>
@@ -9,18 +15,17 @@
   <!-- olli -->
   <script src="https://cdn.jsdelivr.net/npm/olli@1"></script>
   <script src="https://cdn.jsdelivr.net/npm/olli-adapters@1"></script>
-  
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title> Guide</title>
 
 <!--Custom style sheets-->
         <link rel="stylesheet" href="/assets/css/main.css">
 
+<!-- Bootstrap 5.3 stylesheets -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 <!--font awesome icons-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+<!-- analytics -->
 
 <!-- Google Tag -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ET7GNZ55YP"></script>
@@ -71,7 +76,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 <div class="col-md-4">
 <div class="navbar navbar-expand-md bg-nav-header">
-  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle global navigation">
+  <button type="button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle global navigation">
     <span class="fa-solid fa-bars"></span>
   </button>
         <div class="collapse navbar-collapse" id="primaryNavigation">
@@ -127,7 +132,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 <div class="col-md-6">
 
-  <button href="#quickLinks" type="button" class="d-lg-none mysecondarybtn" data-toggle="collapse" data-target="#selector" aria-controls="selector" aria-expanded="false" aria-label="Quick links">
+  <button href="#quickLinks" type="button" class="d-lg-none mysecondarybtn" data-bs-toggle="collapse" data-bs-target="#selector" aria-controls="selector" aria-expanded="false" aria-label="Quick links">
     <span><i class="fas fa-bookmark fa-lg" aria-hidden="false"></i></span>
   </button>
 <div class="collapse d-lg-block" id="selector">
@@ -218,7 +223,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 <div class="col-md-2">
-  <button href="#sidebar" type="button" class="d-lg-none mysecondarybtn" data-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle sidebar">
+  <button href="#sidebar" type="button" class="d-lg-none mysecondarybtn" data-bs-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle sidebar">
     <span><i class="fa-solid fa-circle-chevron-down" aria-hidden="false"></i></span>
   </button>
 <div class="collapse d-lg-block bg-background" id="sidebar" aria-label="sidebar navigation">
@@ -241,9 +246,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 <div class="row">
 <div class="col">
+ 
 <div class="dropdown bg-my-nav">
-<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#products" aria-haspopup="true">Products & Services</button>
-        <div class="dropdown-menu" id="products">
+<button type="button" class="mybtnswitch" data-bs-toggle="dropdown" aria-haspopup="true">Products & Services</button>
+        <div class="dropdown-menu">
     
           <a class="dropdown-item" href= "/volunteering/become-a-volunteer.html" >Become a volunteer</a>
   
@@ -254,18 +260,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </div>
 <div class="dropdown bg-my-nav">
-<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#media" aria-haspopup="true">Media</button>
-        <div class="dropdown-menu" id="media">
+<button type="button" class="mybtnswitch" data-bs-toggle="dropdown" aria-haspopup="true">Media</button>
+        <div class="dropdown-menu">
   
-          <a class="dropdown-item" href= "/about/news.html" >News</a>
+          <a class="dropdown-item" href= "/about/news/index.html" >News</a>
   
           <a class="dropdown-item" href= "/blog/all-posts.html" >Posts</a>
   
 </div>
 </div>
 <div class="dropdown bg-my-nav">
-<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#development" aria-haspopup="true">Development</button>
-        <div class="dropdown-menu" id="development">
+<button type="button" class="mybtnswitch" data-bs-toggle="dropdown" aria-haspopup="true">Development</button>
+        <div class="dropdown-menu">
     
 
                     <a class="dropdown-item" href= "/blog/logbook/dev/change-log.html" >Roadmap</a>
@@ -297,35 +303,45 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </header>
 
   <main role="main" id="mainContent" class="container bg-background">
- <div class="container">
-    <h2 class="cover-heading">The Guide: A journal of life-long learning</h2>
+ 
+<h2 id="the-guide-a-journal-of-life-long-learning">The Guide: A journal of life-long learning</h2>
 
-<p>
-The Project27 Skills Guide is a collection of accessible notes for learning.
-Our library has a science collection, and a lifestyle collection, organised into volumes.
-</p>
+<p>Our Guide helps blind or learning disabled people to access learning resources, even if you don’t want to join our community.
+The screen reader accessible, and easy read notes enable you to develop and practice new skills in your own time, at no cost.
+We promote science &amp; technology skills, as well as self-advocacy through resources in our lifestyle &amp; media collection.
+The Guide is intended to give direction to blind or learning disabled people, but you should use it as a starting point to learning and practicing new skills that interest you.</p>
 
-<p>
-Blind or learning disabled people can study our notes to learn about topics they are interested in.
-Our volunteers and members can contribute to expanding the Guide, and develop a wide range of skills on the way.
-</p>
+<p><img src="/assets/images/covers/guide-cover.jpg" class="cover-image" alt="Someone is holding a paper map, and pointing at a location with a finger." /></p>
 
-<img src="/assets/images/covers/guide-cover.jpg" class="cover-image" alt="Someone is holding a paper map, and pointing at a location with a finger.">
+<p>We organise notes into collections of volumes.
+For example, recipes are included in our Cookbook volume, in the Lifestyle &amp; Media collection.
+Our community members find exercises and host their personal projects in our Training &amp; Community Projects collection at the beginning of their skills development journey.
+More experienced trainees, volunteers, and the core Project27 team edit the rest of our Guide. 
+Find a learning resource that you might be interested in, by selecting a tab below.</p>
 
-<hr>
+<div role="tablist">
 
-<div role='tablist'>
-    <button role='tab' id='tab-science' aria-controls='tabpanel-science' onClick="setTab('science')">Science and technology</button>
-    <button role='tab' id='tab-lifestyle' aria-controls='tabpanel-lifestyle' onClick="setTab('lifestyle')">Lifestyle</button>
-    <button role='tab' id='tab-training' aria-controls='tabpanel-training' onClick="setTab('training')">Training and community projects</button>
+
+    <button role="tab" id="tab-science" aria-controls="tabpanel-science" onclick="setTab('science')">Science &amp; Technology</button>
+
+
+    <button role="tab" id="tab-lifestyle" aria-controls="tabpanel-lifestyle" onclick="setTab('lifestyle')">Lifestyle &amp; Media</button>
+
+
+    <button role="tab" id="tab-training" aria-controls="tabpanel-training" onclick="setTab('training')">Training &amp; Community Projects</button>
+
     </div>
 
-    <div role='tabpanel' id='tabpanel-science' aria-labelledby='tab-science'>
-        <h3>Science collection</h3>
+<div role="tabpanel" id="tabpanel-science" aria-labelledby="tab-science">
 
-<p>The science collection consists of two volumes, including notes on mathematical and physical sciences, and digital skills respectively. We recognize the importance of science, technology, engineering, and mathematics (STEM) as prerequisites for skills development, innovation, creativity, entrepreneurship, and employability</p>
 
-<p>Science and Technology Editor: <a href="/about/team/Daniel/index.html">Daniel Hajas</a></p>
+
+<h2 id="the-science--technology-collection">The Science &amp; Technology collection</h2>
+
+<p>In our science and technology collection we publish screen reader accessible notes on studying mathematical and physical sciences, as well as using digital tools. We recognise the importance of accessible science, technology, engineering, and mathematics (STEM) resources, as prerequisites of skills development and employment. The collection is intended for young blind people interested in studying or working in science and technology.</p>
+
+<p>Science &amp; Technology editor: <a href="/about/team/Daniel/index.html">Daniel Hajas</a></p>
+
 
 
 
@@ -337,18 +353,18 @@ Our volunteers and members can contribute to expanding the Guide, and develop a 
     
 <div class="row">
 <div class="col-md">
-      <h4> Mathematical and Physical Sciences</h4>
+      <h3> Mathematical &amp; Physical Sciences</h3>
 
 <i class="fas fa-atom fa-lg" aria-hidden="true"></i>
 
 
-      <p>This volume includes screen reader accessible notes on topics of mathematics and physics for blind science undergraduates and high-school students.</p>
+      <p>This volume includes screen reader accessible notes on topics, such as complex numbers or dynamics, most relevant to blind science undergraduates and high-school students.</p>
 
 
 
       <a class="fg-guide-land" href="/guide/MPS/index.html">
 
-      Open the Mathematical and Physical Sciences volume
+      Open the Mathematical &amp; Physical Sciences volume
 
       </a>
 
@@ -362,12 +378,12 @@ Our volunteers and members can contribute to expanding the Guide, and develop a 
 
     
 <div class="col-md">
-      <h4> Digital Skills</h4>
+      <h3> Digital Skills</h3>
 
 <i class="fas fa-desktop fa-lg" aria-hidden="true"></i>
 
 
-      <p>This volume includes notes on developing useful digital skills, and learning how to use tools, such as the command-line, git version control, or web technologies.</p>
+      <p>Our digital skills volume includes accessible notes on learning how to use tools, such as the command-line, git version control, or web technologies.</p>
 
 
 
@@ -386,15 +402,20 @@ Our volunteers and members can contribute to expanding the Guide, and develop a 
 
       </div>
 
-      <div role='tabpanel' id='tabpanel-lifestyle' aria-labelledby='tab-lifestyle'>
-        <h3>Lifestyle collection</h3>
-        <p>
-        The lifestyle collection consists of two volumes, including notes on cooking, and storytelling respectively. We recognise the importance of human stories, social interaction, and peer support in the community. Cooking and sharing stories is a great way to bond, build confidence, and develop social skills.
-        </p>
-        <p>Lifestyle Editor: <a href="/about/team/Danielle/index.html">Danielle Garratt</a></p>
-        
-        
-                               
+<div role="tabpanel" id="tabpanel-lifestyle" aria-labelledby="tab-lifestyle">
+
+
+
+<h2 id="the-lifestyle--media-collection">The Lifestyle &amp; Media collection</h2>
+
+<p>Our lifestyle and media collection includes engaging content  related to cooking, social occasions, and storytelling. We recognise the importance of social interaction, self-advocacy, and human voices. Cooking and sharing stories is a great way to bond, build confidence, and develop social skills.</p>
+
+<p>Lifestyle &amp; Media editor: <a href="/about/team/Danielle/index.html">Danielle Garratt</a></p>
+
+
+
+
+                       
  
     
 <!-- Hide the item in the grid. Remove if statement to show item. -->
@@ -402,12 +423,12 @@ Our volunteers and members can contribute to expanding the Guide, and develop a 
     
 <div class="row">
 <div class="col-md">
-      <h4> Cookbook</h4>
+      <h3> Cookbook</h3>
 
-<i class="fas fa-utensils fa-lg" aria-hidden="true"></i>
+<i class="fas fa-atom fa-lg" aria-hidden="true"></i>
 
 
-      <p>This volume is a collection of recipes coming from our community. People living with disabilities can indeed cook delicious meals. We show how.</p>
+      <p>Cookbook is a volume of recipes coming from our community. People living with disabilities can indeed cook delicious meals and host unforgettable get-togethers. We show how.</p>
 
 
 
@@ -427,12 +448,12 @@ Our volunteers and members can contribute to expanding the Guide, and develop a 
 
     
 <div class="col-md">
-      <h4> Vocal</h4>
+      <h3> Vocal</h3>
 
-<i class="fas fa-record-vinyl fa-lg" aria-hidden="true"></i>
+<i class="fas fa-desktop fa-lg" aria-hidden="true"></i>
 
 
-      <p>This volume is a collection of short biographies and recorded conversations. We speak with family, friends, and acquaintances. We portray multiple life stories and honour the storytellers.</p>
+      <p>This volume is an album of voices, ranging from short biographies to recorded conversations. We speak with family, friends, and acquaintances, portraying diverse life stories. The content is intended for learning disabled people, interested in media, storytelling, and art.</p>
 
 
 
@@ -449,15 +470,22 @@ Our volunteers and members can contribute to expanding the Guide, and develop a 
 
 <!-- if more than two columns are desired and modulo can take other values than 0 and 1. -->
 
-        </div>
+      </div>
 
-      <div role='tabpanel' id='tabpanel-training' aria-labelledby='tab-training'>
-        <h3>Training and community projects</h3>
-        <p>This is the training and community projects collection, this section consists of two volumes, Training and Community projects.</p>
-          <p> Training Editor: <a href="/about/team/Danielle/index.html">Danielle Garratt</a> </p>
-          
-          
-                                 
+<div role="tabpanel" id="tabpanel-training" aria-labelledby="tab-training">
+
+
+
+<h2 id="the-training--community-projects-collection">The Training &amp; Community Projects collection</h2>
+
+<p>Our community members have a dedicated collection for finding training exercises, hosting their community projects, and showcasing the skills they have developed through our trainee programme.. We recognise the importance of bespoke training and personal projects, tailored to the motivation and interest of individual trainees.</p>
+
+<p>Training &amp; Community Projects editor: <a href="/about/team/Danielle/index.html">Danielle Garratt</a></p>
+
+
+
+
+                       
  
     
 <!-- Hide the item in the grid. Remove if statement to show item. -->
@@ -465,9 +493,9 @@ Our volunteers and members can contribute to expanding the Guide, and develop a 
     
 <div class="row">
 <div class="col-md">
-      <h4> Training</h4>
+      <h3> Training Exercises</h3>
 
-<i class="fas fa-graduation-cap fa-lg" aria-hidden="true"></i>
+<i class="fas fa-atom fa-lg" aria-hidden="true"></i>
 
 
       <p>This volume is a collection of training resources used by our trainees, when they join our community. Members can train in their own topic of interest, through a blend of bespoke and standard skills development exercises.</p>
@@ -476,7 +504,7 @@ Our volunteers and members can contribute to expanding the Guide, and develop a 
 
       <a class="fg-guide-land" href="/guide/training/index.html">
 
-      Open the Training volume
+      Open the Training Exercises volume
 
       </a>
 
@@ -490,9 +518,9 @@ Our volunteers and members can contribute to expanding the Guide, and develop a 
 
     
 <div class="col-md">
-      <h4> Community Projects</h4>
+      <h3> Community Projects</h3>
 
-<i class="fas fa-hands-holding-circle fa-lg" aria-hidden="true"></i>
+<i class="fas fa-desktop fa-lg" aria-hidden="true"></i>
 
 
       <p>This volume is home to projects created by our community members, during the intern stage of their skills development journey. Trainees can use a chapter of this volume to socialise their projects, by posting in the project blog, sharing related learning resources, and recruiting team members.</p>
@@ -512,8 +540,7 @@ Our volunteers and members can contribute to expanding the Guide, and develop a 
 
 <!-- if more than two columns are desired and modulo can take other values than 0 and 1. -->
 
-        </div>
-        </div>
+      </div>
 
 <script>
 
@@ -545,10 +572,12 @@ Our volunteers and members can contribute to expanding the Guide, and develop a 
     }
   </script>
 
+
+
  <hr>
  <p>
  This is an open source website. Please, 
- <a target="_blank" rel="noreferrer noopener" href="https://github.com/dh256git/project27/edit/development/src/guide/index.html">
+ <a target="_blank" rel="noreferrer noopener" href="https://github.com/dh256git/project27/edit/development/src/guide/index.md">
  help improve the content on this page.
  </a>
  </p>
@@ -662,12 +691,12 @@ Privacy policy
 </div>
 
 <div class="col">
-<p><a href="/blog/logbook/dev/change-log.html">Version: 1.0.0.</a></p>
+<p><a href="/blog/logbook/dev/change-log.html">Version: 1.0.100.</a></p>
 </div>
 <div class="col">
 <p onclick="showTimeLastUpdated()">Last updated: 
-<span id="time-last-updated-show">28 Jan 2024.</span>
-<span id="time-last-updated-hide" class="hidden-text">16:51.</span>
+<span id="time-last-updated-show">05 Feb 2024.</span>
+<span id="time-last-updated-hide" class="hidden-text">20:59.</span>
 </p>
 </div>
 </div>
@@ -675,13 +704,9 @@ Privacy policy
 
 </footer>
 </div>
-<!-- Bootstrap dependency scripts -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
-    <!-- Mathematics script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<!-- Mathematics script -->
 <script type="text/x-mathjax-config">
 (function () {
 
