@@ -17,8 +17,8 @@ When you become a trainee, you will
 We are committed to certifying achievements of trainees.
 Set your target, and share your experience with employers.
 
-Guests
-: after registration, during the onboarding activity (~4 hours of commitment over 1 month);
+Registered member
+: after completion of the onboarding activity (~4 hours of commitment over 1 month);
 
 Apprentice
 : after successful completion of 4 tasks (~4 hours of regular commitment per week, for 1 month);
@@ -38,10 +38,27 @@ Fellow
 
 ## How much does membership cost?
 
-Trainee membership is priced slightly differently, depending on the subscription you select.
+Trainee membership is priced slightly differently, depending on the payment model you select.
+We offer subscriptions, pay as you go options, and tiers of discounts to suit everyone's schedule and budget.
 
-* paid monthly: £149.99 a month,
-* paid yearly: £1499.90 a year (12 months of membership at the price of 10 months),
-* paid per certification (see [pricing table]({% link volunteering/certification.md %})).
+Our subscription model is a great choice for those who know exactly what skills they want to develop.
+Annual subscriptions help you save, if you plan to become a certified fellow within 12 months of joining our community, whereas monthly payments help with breaking up the costs of personal growth.
+Subscription costs are:
 
+* paid monthly: £179.99 a month,
+* paid yearly: £1799.90 a year (£149.99 per month),
+
+Ownership of annual subscriptions purchased by businesses on behalf of their service users can be transferred from one service user to another on request.
+
+Pay as you go options are a great choice for those who want to take their time.
+You can take a break between working towards different levels of traineeship in the same team.
+You can also aim for the same certification in a different team, without the need to level up.
+Prices per certification are:
+
+* Apprentice: £200 per month for 1 month,
+* Intern: £180 per month for 1 month,
+* Specialist: £150 per month for 3 months (£450 upfront),
+* Fellow: £100 per month for 12 months (£1200 upfront).
+
+For more details on the pay as you go pricing, view our [certification table]({% link volunteering/certification.md %}).
 {% endcapture %}
