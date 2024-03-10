@@ -14,9 +14,10 @@ We are committed to certifying  the work and achievements of our community membe
 
 ### Before you become a member
 
-We take onboarding very seriously, making sure everyone interested in our programmes are set for success.
-Trainees, volunteers, and consultants alike are asked to take part in our onboarding before they are granted member status.
-Expect the following, before becoming a registered member.
+We take onboarding very seriously, making sure everyone interested in our programmes are set up for success.
+Trainees, volunteers, and consultants are all asked to take part in our onboarding, before they become registered members.
+View the table below for details of the onboarding process.
+
 
 {% assign dataFile = site.data.volunteering.certification-table-guests %}
 {% include global/tabulator2.html %}
