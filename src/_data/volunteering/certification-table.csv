@@ -1,8 +1,10 @@
-Certification,Guest,Apprentice,Intern,Scholar,Fellow
+Certification,Guest,Apprentice,Intern,Specialist,Fellow
+Membership type,General,Trainee,Trainee,Trainee,Trainee
 Tasks completed,1,4,16,48,100
 Focus,Onboarding,Training activities,Personal project,Team activities,Project27 projects
 Active period,1 month,1 month,1 month,3 months,12 months
 Minimum time commitment (per week),1 hour,4 hours,16 hours,16 hours,8 hours
 Supervision (per week),30 minutes,60 minutes,30 minutes,15 minutes,on demand
-Description of support,"Guests are introduced to our systems and processes, meet the onboarding activity lead, and get to select their first task.","Trainees seeking the apprentice certification work through tasks within training activities, supervised by individual volunteers, developing fundamental skills.","Apprenticees begin working on personal projects, practicing relevant skills while receiving guidance and feedback from community members","Interns join teams, and work on team activities. Team leaders and team members highlight opportunities for improvement, ask critical questions, but do not directly influence how interns should complete tasks.","To become a fellow, team leaders help trainees to become leaders themselves by encouraging scholars to take responsibility for specific activities, and recruit team members."
-Price,£0,£150,£200,£400,£750
+Description of support,"Guests are introduced to our systems and processes, meet the onboarding activity lead, and get to select their first task.","Trainees seeking the apprentice certification work through tasks within training activities, supervised by individual volunteers, developing fundamental skills.","Apprenticees begin working on personal projects, practicing relevant skills while receiving guidance and feedback from community members","Interns join teams, and work on team activities. Team leaders and team members highlight opportunities for improvement, ask critical questions, but do not directly influence how interns should complete tasks.","To become a fellow, team leaders help trainees to become leaders themselves by encouraging specialists to take responsibility for specific activities, and recruit team members."
+Requirements,Successful application,Completed onboarding, Apprentice certification,Intern certification,Specialist certification
+Price (pay as you go),£0,£200,£180,£450 (£150 per month),£1200 (£100 per month)
