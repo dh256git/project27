@@ -26,13 +26,13 @@ Apprentice
 Intern
 : after successful completion of 16 tasks (~16 hours of regular commitment per week, for 1 month);
 
-Scholar
+Specialist
 : after successful completion of 48 tasks (~16 hours of regular commitment per week, for 3 months);
 
 Fellow
 : after successful completion of 100 tasks (~8 hours of regular commitment per week, for 12 months)
 
-{{ site.org }} Fellows will be considered for employment at {{ site.organisation }} or one of our partners; subject to funding.
+{{ site.org }} Fellows will be considered for paid temporary consultancy projects, and permanent employment at {{ site.organisation }} or one of our partners; subject to funding.
 
 {% include global/buttonLink.html url="/volunteering/certification.html" label="Compare our certified development pathways" %}
 
