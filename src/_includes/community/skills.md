@@ -12,16 +12,14 @@ View the full set of skills we can support you with below.
 <div class="col-3">
 <p>Skillset:</p>
 </div>
-<div class="col-2">
+<div class="col-3">
 <select onchange="handleChange2(this)">
 {% for item in skillsets %}
 <option value="{{ item.value | prepend: site.baseurl }}" label="{{ item.label }}">{{ item.text }}</option>
 {% endfor %}
 </select>
 </div>
-<div class="col-6">
 
-</div>
 </div>
 
 <div class="iframe-container">
