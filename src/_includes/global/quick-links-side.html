@@ -1,37 +1,37 @@
-  <button href="#sidebar" type="button" class="d-lg-none mysecondarybtn" data-bs-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle sidebar">
-    <span><i class="fa-solid fa-circle-chevron-down" aria-hidden="false"></i></span>
+<div class="navbar navbar-expand-md bg-nav-header">
+  <button type="button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle global navigation">
+    <span class="fa-solid fa-bars"></span>
   </button>
-<div class="collapse d-lg-block bg-background" id="sidebar" aria-label="sidebar navigation">
-<div class="row">
-<div class="col">
-  {% for item in site.data.quick-links-side["about"] %}
-  <div class="mybtnquick">
-  <a href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
-  </div>
-  {% endfor %}
-  </div>
-  </div>
-<div class="row">
-<div class="col">
- 
-<div class="dropdown bg-my-nav">
-<button type="button" class="mybtnswitch" data-bs-toggle="dropdown" aria-haspopup="true">Products & Services</button>
-        <div class="dropdown-menu">
-    {% for item in site.data.quick-links-side["productsAndServices"] %}
-          <a class="dropdown-item" href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
-  {% endfor %}
-  </div>
-</div>
-<div class="dropdown bg-my-nav">
-<button type="button" class="mybtnswitch" data-bs-toggle="dropdown" aria-haspopup="true">Media</button>
+  <div class="collapse navbar-collapse" id="primaryNavigation">
+      <nav class="navbar-dark" tabindex="0" aria-label="Global">
+        <ul class="navbar-nav" role="menubar">
+        {% for item in site.data.quick-links-side["about"] %}
+     
+        <li><button><a href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></button></li>
+     
+        
+        {% endfor %}
+
+       
+       
+   
+          <li>
+            <button   data-bs-toggle="dropdown" aria-haspopup="true">Products & Services</button>
+             <div class="dropdown-menu dropdown bg-my-nav">
+              {% for item in site.data.quick-links-side["productsAndServices"] %}
+                    <a class="dropdown-item" href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+            {% endfor %}
+            </div>
+          </li>
+            <li>
+            <button  data-bs-toggle="dropdown" aria-haspopup="true">Media</button>
         <div class="dropdown-menu">
   {% for item in site.data.quick-links-side["media"] %}
           <a class="dropdown-item" href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
   {% endfor %}
-</div>
-</div>
-<div class="dropdown bg-my-nav">
-<button type="button" class="mybtnswitch" data-bs-toggle="dropdown" aria-haspopup="true">Development</button>
+</div></li>
+<li> 
+<button   data-bs-toggle="dropdown" aria-haspopup="true">Development</button>
         <div class="dropdown-menu">
     {% for item in site.data.quick-links-side["development"] %}
 {% if item.link contains "github.com" or item.link contains "surge.sh" or item.link contains "atlassian.net" %}
@@ -40,8 +40,13 @@
                     <a class="dropdown-item" href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
                     {% endif %}
   {% endfor %}
+</div></li>
+</ul>
+  </nav>
 </div>
 </div>
-</div>
-</div>
-</div>
+
+
+
+
+ 

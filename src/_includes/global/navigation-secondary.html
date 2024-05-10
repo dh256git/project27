@@ -1,14 +1,28 @@
 <div class="row {{ page.backgroundStyle }}">
-<div class="col-md-6">
-{% if page.url contains "blog" or page.url contains "cookbook"  or page.url contains "sharing-stories" %}
+
+<div class="col-md-8" style="vertical-align: middle;">
+  <h1 style="line-height:1.7;"> {{page.title}}</h1>
+  {% if page.url contains "blog" or page.url contains "cookbook"  or page.url contains "sharing-stories" %}
+
 {% include global/breadcrumbs-blog.html %}
 {% elsif page.title contains "Project27 - Skills that matter" %}
-<h1>Welcome to {{ site.brand }}</h1>
+
+<h1 style="line-height:1.7;">Welcome to {{ site.brand }}</h1>
 <p>The skill studio for disabled talents.</p>
+ 
+  <a class="fg-general-land" href="https://project27skills.com/volunteering/become-a-volunteer.html">Join our community</a>
+ 
 {% else %}
+
+
 {% include global/breadcrumbs.html %}
 {% endif %}
 </div>
+<div class="col-md-4">
+  
+ <img src="https://project27skills.com/assets/images/covers/founders-cover.jpg" width="400px;">
+ 
+  </div>
 <div class="col-md-6">
 {% if page.url contains "/blog/" or page.url contains "/guide/" %}
   <button href="#quickLinks" type="button" class="d-lg-none mysecondarybtn" data-bs-toggle="collapse" data-bs-target="#selector" aria-controls="selector" aria-expanded="false" aria-label="Quick links">
