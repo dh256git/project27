@@ -13,7 +13,7 @@
     - name: Meet the team
       link: /about/team/index.html
     - name: Meet our partners
-      link: /404.html
+      link: /about/partners/index.html
 
 - menu: &menu3
   label: Media
@@ -22,6 +22,8 @@
       link: /about/news/index.html
     - name: Posts
       link: /blog/all-posts.html
+    - name: Podcasts
+      link: https://youtube.com/@project27skills
 
 - menu: &menu4
   label: Contact us
@@ -29,4 +31,4 @@
     - name: Get in touch
       link: /contact/index.html
     - name: FAQs
-      link: /404.html
+      link: /contact/index.html#FAQ

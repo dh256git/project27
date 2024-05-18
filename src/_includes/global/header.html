@@ -9,10 +9,17 @@
 
 <div class="row">
 <div class="col">
+{% if page.layout == "solutions" %}
 <a href="{{ '/index.html' | prepend: site.baseurl }}" class="navbar-brand">
-      <img src="{{ '/assets/images/Project27 logo.png' | prepend: site.baseurl }}" alt="Project 27 logo" class="logo" width="60px" height="auto">
+      <img src="{{ '/assets/images/Project27 logo - solutions.png' | prepend: site.baseurl }}" alt="Project 27 Solutions logo" class="logo" width="60px" height="auto">
+      </a>
+      {{ site.motto-solutions }}
+{% else %}
+<a href="{{ '/index.html' | prepend: site.baseurl }}" class="navbar-brand">
+      <img src="{{ '/assets/images/Project27 logo.png' | prepend: site.baseurl }}" alt="Project 27 Skills logo" class="logo" width="60px" height="auto">
       </a>
       {{ site.motto }}
+      {% endif %}
 </div>
 </div>
 

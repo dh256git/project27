@@ -4,7 +4,19 @@
     <a href="{{ item.link | prepend: site.baseurl }}">{{ item.name }}</a>
   </li>
   {% endfor %}
-{% elsif page.layout == "solutions" %}
+{% elsif page.url contains "partners/" %}
+  {% for item in site.data.navigation-context["partners"] limit: 3 %}
+    <li>
+    <a href="{{ item.link | prepend: site.baseurl }}">{{ item.name }}</a>
+  </li>
+  {% endfor %}
+
+{% elsif page.url contains "support/" %}
+  {% for item in site.data.navigation-context["support"] limit: 3 %}
+    <li>
+    <a href="{{ item.link | prepend: site.baseurl }}">{{ item.name }}</a>
+  </li>
+  {% endfor %}{% elsif page.layout == "solutions" %}
   {% for item in site.data.navigation-context["solutions"] limit: 3 %}
     <li>
     <a href="{{ item.link | prepend: site.baseurl }}">{{ item.name }}</a>

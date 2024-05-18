@@ -64,7 +64,7 @@ BN3 6HA.```
 
 ---
 
-## Frequently asked questions
+## Frequently asked questions {#FAQ}
 
 We were asked the following questions many times. See what we usually say.
 

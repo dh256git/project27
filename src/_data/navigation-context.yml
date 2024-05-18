@@ -27,3 +27,19 @@ team:
     link: index.html#advisors
   - name: Our members
     link: index.html#members
+
+support:
+  - name: Support services
+    link: /support/index.html  - name: Skill studio
+  - name: Skill studio
+    link: /support/studio.html
+  - name: Pricing
+    link: /support/pricing.html
+
+partners:
+  - name: Community partnerships
+    link: index.html/#community
+  - name: Research partnerships
+    link: index.html/#research
+  - name: Innovation partnerships
+    link: index.html#innovation
