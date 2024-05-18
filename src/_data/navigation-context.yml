@@ -14,11 +14,11 @@ skills:
 
 solutions:
   - name: Research services
-    link: solutions/research-services/index.html
+    link: /solutions/research-services/index.html
   - name: Innovation services
-    link: solutions/innovation-services/index.html
+    link: /solutions/innovation-services/index.html
   - name: Projects
-    link: solutions/projects/index.html
+    link: /solutions/projects/index.html
 
 team:
   - name: Our team
