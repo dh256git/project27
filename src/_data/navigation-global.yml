@@ -1,30 +1,32 @@
-about:
-  - name: What we do
-    link: /about/index.html
-  - name: Who we are
-    link: /about/team/index.html
-  - name: Contact us and FAQs
-    link: /contact/index.html
-productsAndServices:
-  - name: Become a volunteer
-    link: /volunteering/become-a-volunteer.html
-  - name: Book a support session
-    link: /support/index.html
-  - name: Pricing
-    link: /support/pricing.html
-media:
-  - name: News
-    link: /about/news/index.html
-  - name: Posts
-    link: /blog/all-posts.html
-development:
-  - name: Roadmap
-    link: /blog/logbook/dev/change-log.html
-  - name: Issues
-    link: /blog/logbook/issues/2020/06/05/initialise.html
-  - name: Git Hub
-    link: https://github.com/dh256git/project27
-  - name: Surge
-    link: http://p27skills.surge.sh
-  - name: Confluence
-    link: https://project27-knowledge-base.atlassian.net/wiki/home/
+- menu: &menu1
+
+  label: What we do
+  dropdown-items:
+    - name: Developing skills that matter
+      link: /about/index.html
+    - name: Co-designing solutions that work
+      link: /solutions/index.html
+
+- menu: &menu2
+  label: Who we are
+  dropdown-items:
+    - name: Meet the team
+      link: /about/team/index.html
+    - name: Meet our partners
+      link: /404.html
+
+- menu: &menu3
+  label: Media
+  dropdown-items:
+    - name: News
+      link: /about/news/index.html
+    - name: Posts
+      link: /blog/all-posts.html
+
+- menu: &menu4
+  label: Contact us
+  drop-down-items:
+    - name: Get in touch
+      link: /contact/index.html
+    - name: FAQs
+      link: /404.html

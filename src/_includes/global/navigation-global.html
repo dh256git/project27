@@ -9,35 +9,16 @@
 
       <nav class="navbar-dark" tabindex="0" aria-label="Global">
         <ul class="navbar-nav" role="menubar">
-        {% for item in site.data.navigation-global["about"] %}
-       <li><a href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
-       {% endfor %}
-          <li>
-            <span   data-bs-toggle="dropdown" aria-haspopup="true">Products & Services</span>
-             <div class="dropdown-menu dropdown dropend bg-my-nav">
-              {% for item in site.data.navigation-global["productsAndServices"] %}
-                    <a class="dropdown-item" href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
-            {% endfor %}
-            </div>
-          </li>
-            <li>
-            <span  data-bs-toggle="dropdown" aria-haspopup="true">Media</span>
+     {% for menu in site.data.navigation-global %}  
+               <li>
+            <span  data-bs-toggle="dropdown" aria-haspopup="true">{{ menu.label }}</span>
         <div class="dropdown-menu">
-  {% for item in site.data.navigation-global["media"] %}
+  {% for item in menu.dropdown-items %}
           <a class="dropdown-item" href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
   {% endfor %}
-</div></li>
-<li> 
-<span  data-bs-toggle="dropdown" aria-haspopup="true">Development</span>
-        <div class="dropdown-menu">
-    {% for item in site.data.navigation-global["development"] %}
-{% if item.link contains "github.com" or item.link contains "surge.sh" or item.link contains "atlassian.net" %}
-          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
-          {% else %}
-                    <a class="dropdown-item" href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
-                    {% endif %}
-  {% endfor %}
 </div>
+</li>
+{% endfor %}
 </ul>
 </nav>
 
@@ -48,4 +29,11 @@
 </nav>
 
 </div>
+
+{% if page.layout == "solutions" %}
+{% include global/buttonLink.html label="Co-design inquiries" url="research-services/index.html" %} 
+{% else %}
+{% include global/buttonLink.html label="Book support" url="support/booking-page.html" %}
+{% endif %}
+
 </div>
