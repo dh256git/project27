@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: solutions
 title: Project27 - Solutions that work
 author: Daniel Hajas
 reviewer: Danielle Garratt

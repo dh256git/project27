@@ -6,12 +6,12 @@ backgroundStyle: bg-general-chap
 listOfIcons: [["", ""], ["", ""]]
 ---
 
-<h2>{{ page.title }}</h2>
+## {{ page.title }}
 
 We are a small but committed social enterprise with great friends and advisors.
 View who is in our core team, who gives us advice, and who are our community members.
 
-### The core team
+### Our core team {#team}
 
 {{ site.org }} is managed by this awesome core team.
 
@@ -20,7 +20,7 @@ View who is in our core team, who gives us advice, and who are our community mem
 
 ---
 
-### The advisory team
+### Our advisors {#advisors}
 
 We wouldn't be where we are today, without the invaluable advice and guidance of our advisors.
 
@@ -29,7 +29,7 @@ We wouldn't be where we are today, without the invaluable advice and guidance of
 
 ---
 
-### The volunteer and trainee team
+### Our members {#members}
 
 Say hello to our community members. These are the people we exist for.
 

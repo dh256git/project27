@@ -1,18 +1,21 @@
 <div class="navbar navbar-expand-md bg-nav-header">
+
   <button type="button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNavigation" aria-controls="primaryNavigation"
    aria-expanded="false" aria-label="Toggle global navigation">
     <span class="fa-solid fa-bars"></span>
   </button>
+
   <div class="collapse navbar-collapse" id="primaryNavigation">
+
       <nav class="navbar-dark" tabindex="0" aria-label="Global">
         <ul class="navbar-nav" role="menubar">
-        {% for item in site.data.quick-links-side["about"] %}
+        {% for item in site.data.navigation-global["about"] %}
        <li><a href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
        {% endfor %}
           <li>
             <span   data-bs-toggle="dropdown" aria-haspopup="true">Products & Services</span>
              <div class="dropdown-menu dropdown dropend bg-my-nav">
-              {% for item in site.data.quick-links-side["productsAndServices"] %}
+              {% for item in site.data.navigation-global["productsAndServices"] %}
                     <a class="dropdown-item" href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
             {% endfor %}
             </div>
@@ -20,38 +23,29 @@
             <li>
             <span  data-bs-toggle="dropdown" aria-haspopup="true">Media</span>
         <div class="dropdown-menu">
-  {% for item in site.data.quick-links-side["media"] %}
+  {% for item in site.data.navigation-global["media"] %}
           <a class="dropdown-item" href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
   {% endfor %}
 </div></li>
 <li> 
 <span  data-bs-toggle="dropdown" aria-haspopup="true">Development</span>
         <div class="dropdown-menu">
-    {% for item in site.data.quick-links-side["development"] %}
+    {% for item in site.data.navigation-global["development"] %}
 {% if item.link contains "github.com" or item.link contains "surge.sh" or item.link contains "atlassian.net" %}
           <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
           {% else %}
                     <a class="dropdown-item" href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
                     {% endif %}
   {% endfor %}
-</div></li>
-{% for item in site.data.navigation limit: 4 %}
-{% if item.name == "Solutions" %}
-<li>
-<a target="_blank" rel="noreferrer noopenner" href="{{ item.link | prepend: site.baseurl }}">{{ item.name }}</a>
-</li>
-{% else %}
-<li>
-  <a href="{{ item.link | prepend: site.baseurl }}">{{ item.name }}</a>
-</li>
-{% endif %}
-{% endfor %}
+</div>
 </ul>
-  </nav>
+</nav>
+
+      <nav class="navbar-dark" tabindex="0" aria-label="Context">
+        <ul class="navbar-nav" role="menubar">
+{% include global/navigation-context.html %}
+</ul>
+</nav>
+
 </div>
 </div>
-
-
-
-
- 
