@@ -4,3 +4,14 @@
   link: /contact/index.html
 - name: Guidelines
   link: /guidelines/index.html
+
+- name: Git Hub
+  link: https://github.com/dh256git/project27
+- name: Surge
+  link: http://p27skills.surge.sh
+- name: Confluence
+  link: https://project27-knowledge-base.atlassian.net/wiki/home/
+- name: Issues
+  link: /blog/logbook/issues/2020/06/05/initialise.html
+- name: Roadmap
+  link: /blog/logbook/dev/change-log.html
