@@ -1,10 +1,13 @@
 ---
 layout: default
-title: Project27 - Skills that matter
+title: Project27 Skills - Skills that matter
 author: Daniel Hajas
 reviewer: Danielle Garratt
 date: 2022-08-27
 updated: 2024-02-04
+hero-image: /assets/images/covers/tulips-cover.jpeg
+hero-image-description: Daniel and Danielle are standing on a platform, with vast fields of colourful tulips and a canal in the background. Both of them smile at the camera.
+pitch: We enable blind or learning disabled young people to experience flow, while they are developing skills that matter for professional development and personal growth, through our learning platform, community support, and principles of entrepreneurship.
 licence: copyright
 buttonStyle: fg-general-land
 backgroundStyle: bg-general-land
@@ -13,8 +16,6 @@ listOfIcons: [["fas fa-pencil-alt", ""], ["fas fa-compass", ""], ["fa-solid fa-h
 
 {% assign home = site.data.main['Home'] %}
 {% assign guide = site.data.main['Guide'] %}
-
-We enable blind or learning disabled young people to experience [flow](https://www.ted.com/talks/mihaly_csikszentmihalyi_flow_the_secret_to_happiness?language=en), while they are developing skills that matter for professional development and personal growth, through our learning platform, community support, and principles of entrepreneurship.
 
 ## What we do
 

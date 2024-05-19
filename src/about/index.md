@@ -4,6 +4,7 @@ title: About us
 author: Daniel Hajas
 reviewer: Danielle Garratt
 date: 2022-08-27
+pitch: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec ultrices dui sapien eget mi. Adipiscing elit duis tristique sollicitudin nibh sit amet.
 licence: copyright
 buttonStyle: fg-general-vol
 backgroundStyle: bg-general-vol
