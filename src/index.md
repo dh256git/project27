@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Project27 Skills - Skills that matter
+tagline: A skill studio for disabled talents
 author: Daniel Hajas
 reviewer: Danielle Garratt
 date: 2022-08-27
@@ -22,7 +23,8 @@ listOfIcons: [["fas fa-pencil-alt", ""], ["fas fa-compass", ""], ["fa-solid fa-h
 We are a Brighton based social enterprise, serving a digital community of blind or learning disabled young people.
 Our work focuses on **accessible {{ guide[0].name | downcase }}**, **enabling {{ guide[1].name | downcase }}**, and **inclusive education & employment**.
 
-{% include global/cover-image.html image="founders-cover.jpg" alt="Daniel and Danielle are photographed in the UK Parliament. They are wearing smart clothing. A guide dog is sitting in front of them. In the background multiple signs are visible, such as logos of University College London, World Health Organisation, and GDI Hub. Other signs read 'AT changes lives' and 'Launching the Global Report on Assistive Technology'." %}
+{% include global/cover-image.html image="networking-cover.jpg" alt="Holding his white cane, Daniel is standing in front of a wall full of people's photos, grouped into 'Entrepreneurship', 'Future of talent', 'Innovate education' and 'Partnership'.
+" %}
 
 Our co-founders - [Daniel]({% link about/team/Daniel/index.html %}) and [Danielle]({% link about/team/Danielle/index.html %}) - draw on lived experiences of disability, and professional skills in community engagement.
 Daniel is a scientifically-minded blind person, with an interest in social entrepreneurship.
@@ -30,7 +32,7 @@ Danielle is a sociable learning disabled person, with an interest in art, media,
 
 {% include global/buttonLink.html url="/about/index.html" label="Read more about us" %}
 
-## Our products and services
+## Our community services
 
 We have a range of services to meet the needs of our community, from trainees, through parents, to researchers and businesses.
 Read what people say, before browsing our service offer below..
@@ -39,6 +41,7 @@ Read what people say, before browsing our service offer below..
 {% include global/carousel.html carouselDescription="A carousel of testimonials" %}
 
 {% assign dataFile = home['services'] %}
+{% assign gridLimit = 4 %}
 {% include global/grid-generator-2.html heading="h3" %}
 
 {% include spotlight.html %}
