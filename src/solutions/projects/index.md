@@ -18,5 +18,5 @@ burndownData: /projects/current-sprint.csv
 All of the solutions in our portfolio have been [co-designed with researchers,]({% link solutions/research-services/index.md %}) and the projects are grounded in peer reviewed science.
 To maximise impact, we are working with businesses on [diffusing innovation that works.]({% link solutions/innovation-services/index.md %})
 
-{% assign dataFile = site.data.projects %}
-{% include global/grid-generator.html heading="h3" %}
+{% assign dataFile = site.data.projects-for-solutions %}
+{% include global/grid-generator-for-solutions.html heading="h3" %}
