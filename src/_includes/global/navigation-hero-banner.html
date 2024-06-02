@@ -4,7 +4,7 @@
 
 <div class="col-md-8" style="vertical-align: middle;">
 {% if page.title != "Project27 Skills - Skills that matter" and page.title != "Project27 Solutions - Solutions that work" %}
-  <h1 style="line-height:1.7;">
+  <h1>
   {{page.title}}
   {% if page.tagline %}
 : <br>{{ page.tagline }}
@@ -22,7 +22,7 @@
 </div>
 
 {% elsif page.title contains "Project27 Skills - Skills that matter" %}
-<h1 style="line-height:1.7;">Welcome to Project27 Skills
+<h1>Welcome to Project27 Skills
 {% if page.tagline %}
 : <br>{{ page.tagline }}
 {% endif %}
@@ -30,10 +30,10 @@
 
 <p>{{ page.pitch }}</p>
  
-  <a class="fg-general-land" href="{{ '/volunteering/become-a-volunteer.html' | prepend: site.baseurl }}">Join our community</a>
+  <a class="call-to-action" href="{{ '/volunteering/become-a-volunteer.html' | prepend: site.baseurl }}">Join our community</a>
  
 {% elsif page.title contains "Project27 Solutions - Solutions that work" %}
-<h1 style="line-height:1.7;">
+<h1>
 Welcome to Project27 Solutions
 {% if page.tagline %}
 : <br>{{ page.tagline }}
@@ -42,14 +42,14 @@ Welcome to Project27 Solutions
 
 <p>{{ page.pitch }}</p>
 
-  <a class="fg-general-land" href="{{ '/solutions/research-services/index.html' | prepend: site.baseurl }}">Co-design your solution</a>
+  <a class="call-to-action" href="{{ '/solutions/research-services/index.html' | prepend: site.baseurl }}">Co-design your solution</a>
 {% endif %}
 </div>
 <div class="col-md-4">
 {% if page.hero-image %}
- <img src="{{ page.hero-image | prepend: site.baseurl }}" width="400px;" alt="{{ page.hero-image-description }}">
+ <img src="{{ page.hero-image | prepend: site.baseurl }}" class= "hero-image" alt="{{ page.hero-image-description }}">
  {% else %}
-  <img src="{{ '/assets/images/covers/tulips-cover.jpeg' | prepend: site.baseurl }}" width="400px;" alt="Daniel and Danielle are standing on a platform, with vast fields of colourful tulips and a canal in the background. Both of them smile at the camera.">
+  <img src="{{ '/assets/images/covers/tulips-cover.jpeg' | prepend: site.baseurl }}" class="hero-image2" alt="Daniel and Danielle are standing on a platform, with vast fields of colourful tulips and a canal in the background. Both of them smile at the camera.">
  {% endif %}
   </div>
 
