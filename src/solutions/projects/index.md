@@ -10,7 +10,7 @@ updated: 2023-06-24
 licence: copyright
 buttonStyle: fg-general-land
 backgroundStyle: bg-general-land
-burndownData: /projects/current-sprint.csv
+burndownData: /solutions/projects/current-sprint.csv
 ---
 
 ## Research and innovation portfolio
