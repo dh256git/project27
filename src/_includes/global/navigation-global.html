@@ -10,8 +10,8 @@
       <nav class="navbar-dark" tabindex="0" aria-label="Global">
         <ul class="navbar-nav" role="menubar">
      {% for menu in site.data.navigation-global %}  
-               <li>
-            <span  data-bs-toggle="dropdown" aria-haspopup="true">{{ menu.label }}</span>
+               <li class="nav-item dropdown">
+            <a  data-bs-toggle="dropdown" aria-haspopup="true">{{ menu.label }}</a>
         <div class="dropdown-menu">
   {% for item in menu.dropdown-items %}
           <a class="dropdown-item" href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
