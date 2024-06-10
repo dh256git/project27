@@ -14,7 +14,14 @@
             <a  data-bs-toggle="dropdown" aria-haspopup="true">{{ menu.label }}</a>
         <div class="dropdown-menu">
   {% for item in menu.dropdown-items %}
-          <a class="dropdown-item" href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+          <a href= "{{ item.link | prepend: site.baseurl }}"
+          {% assign truncatedItemLink = item.link | remove: 'index.html' %}
+          {% if page.url contains truncatedItemLink %}
+          class="dropdown-item active" aria-current="item"
+          {% endif %}
+          >
+          {{ item.name }}
+          </a>
   {% endfor %}
 </div>
 </li>

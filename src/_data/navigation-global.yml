@@ -2,9 +2,9 @@
 
   label: What we do
   dropdown-items:
-    - name: Developing skills that matter
+    - name: Developing skills that matter (P27 Skills)
       link: /about/index.html
-    - name: Co-designing solutions that work
+    - name: Co-designing solutions that work (P27 Solutions)
       link: /solutions/index.html
 
 - menu: &menu2
@@ -30,5 +30,9 @@
   drop-down-items:
     - name: Get in touch
       link: /contact/index.html
+    - name: I've got a question
+      link: /my-question
+    - name: I've got a suggestion
+      link: /consult-me
     - name: FAQs
       link: /contact/index.html#FAQ

@@ -2,7 +2,7 @@
   {% for item in site.data.navigation-context["team"] limit: 3 %}
     <li class="nav-item">
     <a href="{{ item.link | prepend: site.baseurl }}"
-    class="nav-link active" aria-current="page"
+    class="nav-link active" aria-label="{{ item.name }} (in-page link)"
     >
     {{ item.name }}
     </a>
@@ -12,7 +12,7 @@
   {% for item in site.data.navigation-context["partners"] limit: 3 %}
     <li class="nav-item">
     <a href="{{ item.link | prepend: site.baseurl }}"
-    class="nav-link active" aria-current="page"
+    class="nav-link active" aria-label="{{ item.name }} (in-page link)"
     >
     {{ item.name }}
     </a>

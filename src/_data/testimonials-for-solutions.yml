@@ -1,3 +1,10 @@
+- name: Jonathan Zong
+  role: PhD student
+  organisation: MIT Visualisation Group
+  link: https://vis.csail.mit.edu
+  quote: Daniel has been an incredible design and research collaborator over the past few years with the MIT Visualization Group. He has played an important role by contributing both his expertise in the lived experience of blindness and his keen research and design sensibility as we have worked together to co-develop software prototypes and widely-recognized research publications. I’ve particularly enjoyed learning from Daniel’s focus on the impact of his work and how to strive for 'solutions that work' for people’s everyday lives.
+  thumbnail: Jonathan.jpg
+  thumbnailAlt: Photo of Jonathan Zong
 - name: Jan Walmsley
   role: Professor in the History of Learning Disabilities
   organisation: Open University

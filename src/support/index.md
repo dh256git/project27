@@ -1,4 +1,5 @@
 ---
+permalink: /support/services/index.html
 layout: default
 title: Support
 tagline: Invest in a guide of your journey

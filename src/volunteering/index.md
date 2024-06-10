@@ -51,7 +51,7 @@ Membership is not required to get support from us.
 We offer bookable, paid support sessions for anyone who wants to get advice on topics related to blindness or learning disability.
 The first session is free for everyone, creating an opportunity for introductions and an assessment of your support needs.
 
-{% include global/buttonLink.html url="/support/index.html" label="View our ad hoc support offer" %}
+{% include global/buttonLink.html url="/support/services/index.html" label="View our ad hoc support offer" %}
 
 <div role='tablist'>
   <button role='tab' id='tab-overview' aria-controls='tabpanel-overview' onClick="setTab('overview')">Overview</button>
