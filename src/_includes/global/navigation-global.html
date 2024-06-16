@@ -11,13 +11,15 @@
         <ul class="navbar-nav" role="menubar">
      {% for menu in site.data.navigation-global %}  
                <li class="nav-item dropdown">
-            <a  data-bs-toggle="dropdown" aria-haspopup="true">{{ menu.label }}</a>
-        <div class="dropdown-menu">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">{{ menu.label }}</a>
+        <div class="dropdown-menu" aria-label="{{ menu.label }}">
   {% for item in menu.dropdown-items %}
           <a href= "{{ item.link | prepend: site.baseurl }}"
           {% assign truncatedItemLink = item.link | remove: 'index.html' %}
           {% if page.url contains truncatedItemLink %}
           class="dropdown-item active" aria-current="item"
+          {% else %}
+          class="dropdown-item"
           {% endif %}
           >
           {{ item.name }}
