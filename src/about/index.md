@@ -24,7 +24,7 @@ In the vision of {{ site.org }},
 
 ### What we do
 
-1. **Sharing thoughts**: We share our lived experience of sight-loss, learning disability, and success, through our [blog.]({% link blog/index.html %})
+1. **Sharing thoughts**: We share our lived experience of sight-loss, learning disability, and success, through our [blog.]({% link blog/index.md %})
 2. **Passive learning**: We enable people to learn about science and lifestyle, by creating accessible articles in the [{{ site.brand }} {{ site.product }}.]({% link guide/index.md %})
 3. **Active learning**: We promote active learning, by [getting volunteers involved]({% link volunteering/index.md %}) in building the [{{ site.brand }} {{ site.product }}.]({% link guide/index.md %})
 4. **Consultancy**: Anyone who needs time to talk things through with us can [book a support session]({% link support/index.md %}) for a session of consulting, tutoring, or mentoring.
