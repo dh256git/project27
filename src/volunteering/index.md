@@ -8,6 +8,9 @@ date: 2022-10-02
 licence: copyright
 buttonStyle: fg-general-vol
 backgroundStyle: bg-general-vol
+pitch: We support blind or learning disabled trainees to develop skills that matter, through certifying their active involvement in training exercises and our community projects. Tasks are created by  industry professionals, leading small entrepreneurial teams of trainees, providing mentorship, and encouraging peer support.
+hero-image: /assets/images/covers/volunteering-cover.jpg
+hero-image-description: A drawn tree, with handprints as leaves on the branches.
 ---
 
 {% include community/overview.md %}
@@ -42,8 +45,6 @@ Our members, volunteers and trainees alike, come to
 develop skills that matter,
 </a>
  through bespoke training, creating and completing tasks, and working in disability inclusive teams.
-
-{% include global/cover-image.html image="volunteering-cover.jpg" alt="A drawn tree, with handprints as leaves on the branches." %}
 
 ## Book a support session
 

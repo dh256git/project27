@@ -10,6 +10,9 @@ licence: copyright
 announcement: Currently, there are no available sessions to book.
 buttonStyle: fg-general-vol
 backgroundStyle: bg-general-vol
+pitch: Book a one-time consultation with our experts to address your questions about blindness or learning disabilities. We offer tailored advice for parents and teachers, as well as tutoring and mentoring for disabled individuals. No membership required.
+hero-image: /assets/images/covers/support-cover.png
+hero-image-description: A cartoon hand holding a wrench and reaching out from a laptop screen.
 ---
 
 ## {{ page.title }}: {{ page.tagline }}
@@ -17,8 +20,6 @@ backgroundStyle: bg-general-vol
 We support blind or learning disabled people directly.
 For caretakers and professionals, who care for or work with our beneficiaries, we offer consultancy sessions.
 Moreover, we support researchers and businesses through project collaboration and co-creation.
-
-{% include global/cover-image.html image="support-cover.png" alt="A cartoon hand holding a wrench and reaching out from a laptop screen." %}
 
 ### Why get our support?
 
