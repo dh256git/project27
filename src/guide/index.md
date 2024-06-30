@@ -8,7 +8,6 @@ date: 2022-09-01
 licence: copyright
 buttonStyle: fg-guide-land
 backgroundStyle: bg-guide-land
-listOfIcons: [["fas fa-atom", ""], ["fas fa-desktop", ""], ["fas fa-chart-line"], ["fas fa-utensils", ""], ["fas fa-record-vinyl", ""], ["fas fa-graduation-cap", ""], ["fas fa-hands-holding-circle", ""]]
 levelToOpen: volume
 tabpanelIDList: ["science", "lifestyle", "training"]
 pitch: We enable blind or learning disabled people to learn and develop new skills in science, technology, lifestyle, and  media on their own, through a collection of accessible learning resources.

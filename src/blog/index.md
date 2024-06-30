@@ -8,7 +8,6 @@ date: 2022-09-01
 licence: copyright
 buttonStyle: fg-blog-land
 backgroundStyle: bg-blog-land
-listOfIcons: [["fas fa-sitemap", ""], ["fas fa-exclamation-triangle", ""], ["fas fa-blind", ""], ["fas fa-people-arrows", ""], ["fas fa-book-open", ""], ["fas fa-satellite", ""]]
 levelToOpen: volume
 tabpanelIDList: ["science", "lifestyle"]
 pitch: We help young disabled people and their parents or carers to find encouraging examples of personal growth and professional development, through sharing our lived experience of sight loss, learning disability, and success in a series of joyful blog posts.
