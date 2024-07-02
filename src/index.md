@@ -44,19 +44,6 @@ Read what people say, before browsing our service offer below..
 {% assign gridLimit = 4 %}
 {% include global/grid-generator-2.html heading="h4" %}
 
-## What's new?
+---
 
-<div class="container mt-5">
-{% for news in site.data.news limit: 3 %}
-<div class="row news-item">
-<div class="col-12 col-md-3">
-<img src="{{ '/assets/images/news/' | append: news.thumbnail | prepend: site.baseurl }}" alt="{{ news.thumbnailAlt }}" class="news-thumbnail img-fluid">
-</div>
-<div class="col-12 col-md-9">
-<h4><a href="{{ news.link | prepend: site.baseurl }}">{{ news.headline }}</a></h4>
-<p class="mb-1">{% if news.teaser %}{{ news.teaser }}{% endif %}</p>
-<small class="text-muted">{{ news.date | date_to_rfc822 | date: "%d %b %Y" }}</small>
-</div>
-</div>
-{% endfor %}
-</div>
+{% include spotlight.html %}
