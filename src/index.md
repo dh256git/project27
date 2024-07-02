@@ -32,7 +32,7 @@ Danielle is a sociable learning disabled person, with an interest in art, media,
 
 {% include global/buttonLink.html url="/about/index.html" label="Read more about us" %}
 
-## Our community services
+### Our community services
 
 We have a range of services to meet the needs of our community, from trainees, through parents, to researchers and businesses.
 Read what people say, before browsing our service offer below..
@@ -42,6 +42,21 @@ Read what people say, before browsing our service offer below..
 
 {% assign dataFile = home['services'] %}
 {% assign gridLimit = 4 %}
-{% include global/grid-generator-2.html heading="h3" %}
+{% include global/grid-generator-2.html heading="h4" %}
 
-{% include spotlight.html %}
+## What's new?
+
+<div class="container mt-5">
+{% for news in site.data.news limit: 3 %}
+<div class="row news-item">
+<div class="col-12 col-md-3">
+<img src="{{ '/assets/images/news/' | append: news.thumbnail | prepend: site.baseurl }}" alt="{{ news.thumbnailAlt }}" class="news-thumbnail img-fluid">
+</div>
+<div class="col-12 col-md-9">
+<h4><a href="{{ news.link | prepend: site.baseurl }}">{{ news.headline }}</a></h4>
+<p class="mb-1">{% if news.teaser %}{{ news.teaser }}{% endif %}</p>
+<small class="text-muted">{{ news.date | date_to_rfc822 | date: "%d %b %Y" }}</small>
+</div>
+</div>
+{% endfor %}
+</div>
