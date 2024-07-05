@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Project27 Skills - Skills that matter
-tagline: A skill studio for disabled talents
+tagline: The skill studio for disabled talents
 author: Daniel Hajas
 reviewer: Danielle Garratt
 date: 2022-08-27
-updated: 2024-02-04
+updated: 2024-07-04
 hero-image: /assets/images/covers/tulips-cover.jpeg
 hero-image-description: Daniel and Danielle are standing on a platform, with vast fields of colourful tulips and a canal in the background. Both of them smile at the camera.
-pitch: We enable blind or learning disabled young people to experience flow, while they are developing skills that matter for professional development and personal growth, through our learning platform, community support, and principles of entrepreneurship.
+pitch: We create personalised pathways of experiential training and professional development opportunities for blind and learning-disabled individuals. Through our community-driven learning resources and co-working platform, we provide a safe-space and tailored support to help members develop valuable skills, find their passions, and succeed in the job market, such that they can grow personally and professionally at the pace that suits them.
 licence: copyright
 buttonStyle: fg-general-land
 backgroundStyle: bg-general-land
@@ -18,13 +18,9 @@ listOfIcons: [["fas fa-pencil-alt", ""], ["fas fa-compass", ""], ["fa-solid fa-h
 {% assign home = site.data.main['Home'] %}
 {% assign guide = site.data.main['Guide'] %}
 
-## What we do
+## Who we are
 
-We are a Brighton based social enterprise, serving a digital community of blind or learning disabled young people.
-Our work focuses on **accessible {{ guide[0].name | downcase }}**, **enabling {{ guide[1].name | downcase }}**, and **inclusive education & employment**.
-
-{% include global/cover-image.html image="networking-cover.jpg" alt="Holding his white cane, Daniel is standing in front of a wall full of people's photos, grouped into 'Entrepreneurship', 'Future of talent', 'Innovate education' and 'Partnership'.
-" %}
+"We are a social enterprise based in Brighton, led by and serving a global digital community of blind and learning disabled individuals who embrace a growth mindset through discovery, learning, and co-creation."
 
 Our co-founders - [Daniel]({% link about/team/Daniel/index.html %}) and [Danielle]({% link about/team/Danielle/index.html %}) - draw on lived experiences of disability, and professional skills in community engagement.
 Daniel is a scientifically-minded blind person, with an interest in social entrepreneurship.
@@ -32,10 +28,25 @@ Danielle is a sociable learning disabled person, with an interest in art, media,
 
 {% include global/buttonLink.html url="/about/index.html" label="Read more about us" %}
 
+## What we do
+
+Our community services and fields of interest are complementary to the value created by mentorship organisations, parent support groups, and training or employment support services.
+
+{% include global/cover-image.html image="networking-cover.jpg" alt="Holding his white cane, Daniel is standing in front of a wall full of people's photos, grouped into 'Entrepreneurship', 'Future of talent', 'Innovate education' and 'Partnership'.
+" %}
+
+### Our fields of interest
+
+We focus on developing analytical and digital skills that matter to blind people interested in {{ guide[0].name | downcase }}, for example studying mathematics, practicing web design, or working in accounting.
+
+In addition, we also develop social and media skills that matter to neurodiverse people  interested in a joyful {{ guide[1].name | downcase }}.
+
 ### Our community services
 
-We have a range of services to meet the needs of our community, from trainees, through parents, to researchers and businesses.
-Read what people say, before browsing our service offer below..
+We offer varying levels of engagement and support for different stages of self-development.
+Our community services are tailoured to the interaction needs of individuals, and their level of disability awareness or learning style.
+
+Read what people say about our community services, before browsing the ways we create value..
 
 {% assign dataFile = site.data.testimonials %}
 {% include global/carousel.html carouselDescription="A carousel of testimonials" %}
