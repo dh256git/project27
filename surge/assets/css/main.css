@@ -116,6 +116,20 @@
   margin: 0;
 }
 
+.call-to-action {
+  background-color: #F9DBBE;
+  font-size: 20px;
+  color: black;
+  border: solid rgb(0, 0, 0) 3px;
+  font-weight: bold;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  display: inline-block;
+  text-align: center;
+  padding: 0 20px;
+}
+
 .fg-general-vol {
   background-color: #F9DBBE;
   font-size: 20px;
@@ -591,8 +605,10 @@ a.disabled {
 }
 nav li {
   display: list-item;
-  padding-right: 5%;
   font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: underline;
 }
 
 nav a {
@@ -620,6 +636,39 @@ nav a {
   padding: 3px;
   background: #F9DBBE;
   border: 1px solid #F9DBBE;
+}
+
+.profile-pic-container {
+  width: 150px; /* Fixed width */
+  height: 150px; /* Fixed height */
+  border-radius: 50%; /* Make the image container circular */
+  overflow: hidden; /* Ensure content does not overflow */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-pic {
+  width: 150px; /* Set a fixed width */
+  height: 150px; /* Set a fixed height */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+  border-radius: 50%; /* Make the image circular */
+}
+
+.news-thumbnail {
+  width: 100%;
+  height: auto;
+  max-width: 150px;
+}
+
+.hero-image {
+  position: relative;
+  height: 300px;
+}
+
+.hero-image2 {
+  position: relative;
+  height: 220px;
 }
 
 .photo-of-daniel {
@@ -784,6 +833,10 @@ nav a {
     padding: 5%;
   }
 }
+.news-item {
+  margin-bottom: 20px;
+}
+
 .container {
   max-width: 60rem;
   margin: 0 auto;
@@ -795,16 +848,6 @@ nav a {
   text-align: left;
   padding-right: 20px;
   padding-left: 15px;
-}
-
-.profilecontainer {
-  text-align: justify;
-  display: inline-flex;
-  gap: 20px;
-}
-
-.profilecontainertitle {
-  padding: 15px;
 }
 
 .you-are-here {
@@ -913,32 +956,32 @@ html * dl {
   text-align: left;
 }
 html * h1 {
-  font-size: 2.5em;
-  color: #000;
-  font-family: Charter;
+  font-size: 1.7em !important;
+  color: #000 !important;
+  font-family: Charter !important;
 }
 html * h2 {
-  font-size: 2.25em !important;
-  color: #000 !important;
-  font-family: Charter !important;
-}
-html * h3 {
-  font-size: 2em !important;
-  color: #000 !important;
-  font-family: Charter !important;
-}
-html * h4 {
-  font-size: 1.75em !important;
-  color: #000 !important;
-  font-family: Charter !important;
-}
-html * h5 {
   font-size: 1.5em !important;
   color: #000 !important;
   font-family: Charter !important;
 }
+html * h3 {
+  font-size: 1.3em !important;
+  color: #000 !important;
+  font-family: Charter !important;
+}
+html * h4 {
+  font-size: 1.2em !important;
+  color: #000 !important;
+  font-family: Charter !important;
+}
+html * h5 {
+  font-size: 1.1em !important;
+  color: #000 !important;
+  font-family: Charter !important;
+}
 html * h6 {
-  font-size: 1.25em !important;
+  font-size: 1em !important;
   color: #000 !important;
   font-family: Charter !important;
 }
