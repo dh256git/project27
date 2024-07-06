@@ -1,0 +1,48 @@
+<div class="navbar navbar-expand-md bg-nav-header">
+
+  <button type="button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNavigation" aria-controls="primaryNavigation"
+   aria-expanded="false" aria-label="Toggle global navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="primaryNavigation">
+
+      <nav class="navbar-dark" tabindex="0" aria-label="Global">
+        <ul class="navbar-nav" role="menubar">
+     {% for menu in site.data.navigation-global %}  
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">{{ menu.label }}</a>
+        <div class="dropdown-menu" aria-label="{{ menu.label }}">
+  {% for item in menu.dropdown-items %}
+          <a href= "{{ item.link | prepend: site.baseurl }}"
+          {% assign truncatedItemLink = item.link | remove: 'index.html' %}
+          {% if page.url contains truncatedItemLink %}
+          class="dropdown-item active" aria-current="item"
+          {% else %}
+          class="dropdown-item"
+          {% endif %}
+          >
+          {{ item.name }}
+          </a>
+  {% endfor %}
+</div>
+</li>
+{% endfor %}
+</ul>
+</nav>
+
+      <nav class="navbar-dark" tabindex="0" aria-label="Context">
+        <ul class="navbar-nav" role="menubar">
+{% include global/navigation-context.html %}
+</ul>
+</nav>
+
+</div>
+
+{% if page.layout == "solutions" %}
+{% include global/buttonLink.html label="Co-design inquiries" url="/solutions/research-services/index.html" %} 
+{% else %}
+{% include global/buttonLink.html label="Book support" url="/support/booking-page.html" %}
+{% endif %}
+
+</div>

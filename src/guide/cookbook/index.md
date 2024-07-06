@@ -4,7 +4,6 @@ title: Cookbook
 volume: cookbook
 buttonStyle: fg-guide-vol
 backgroundStyle: bg-guide-vol
-listOfIcons: [["fas fa-ice-cream", ""], ["fas fa-fish", ""], ["fas fa-drumstick-bite", ""], ["", "Pasta.png"], ["", "Risotto.png"], ["fas fa-carrot", ""], ["", "Soup.png"],  ["", "Wrap.png"]]
 levelToOpen: chapter
 ---
 

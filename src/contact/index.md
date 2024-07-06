@@ -64,13 +64,29 @@ BN3 6HA.```
 
 ---
 
-## Frequently asked questions
+## Frequently asked questions {#FAQ}
 
 We were asked the following questions many times. See what we usually say.
 
 <dl>
 {% for item in site.data.FAQ %}
 <dt>Q: {{ item.question }}</dt>
-<dd>A: {{ item.answer }}</dd>
+<dd>A: {{ item.answer }}
+{% if item.answerLink %}
+<a target="_blank" rel="noopenner noreferrer" href="{{ item.answerLink }}"
+{% if item.answerLinkDescription %}
+aria-label="{{ item.answerLinkDescription }} (opens in new tab)"
+{% else %}
+aria-label="Read more (opens in new tab)"
+{% endif %}
+>
+{% if item.answerLinkDescription %}
+{{ item.answerLinkDescription }}
+{% else %}
+Read more
+{% endif %}
+</a>
+{% endif %}
+</dd>
 {% endfor %}
 </dl>

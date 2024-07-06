@@ -1,0 +1,69 @@
+
+
+<div class="row {{ page.backgroundStyle }}">
+
+<div class="col-md-8" style="vertical-align: middle;">
+{% if page.title != "Project27 Skills - Skills that matter" and page.title != "Project27 Solutions - Solutions that work" %}
+  <h1>
+  {{page.title}}
+  {% if page.tagline %}
+: <br>{{ page.tagline }}
+  {% endif %}
+  </h1>
+
+<p>{{ page.pitch }}</p>
+
+<div>
+   {% if page.url contains "blog" or page.url contains "cookbook"  or page.url contains "sharing-stories" %}
+{% include global/breadcrumbs-blog.html %}
+{% else %}
+{% include global/breadcrumbs.html %}
+{% endif %}
+</div>
+
+{% elsif page.title contains "Project27 Skills - Skills that matter" %}
+<h1>Welcome to Project27 Skills
+{% if page.tagline %}
+: <br>{{ page.tagline }}
+{% endif %}
+</h1>
+
+<p>{{ page.pitch }}</p>
+ 
+  <a class="call-to-action" href="{{ '/volunteering/become-a-volunteer.html' | prepend: site.baseurl }}">Join our community</a>
+ 
+{% elsif page.title contains "Project27 Solutions - Solutions that work" %}
+<h1>
+Welcome to Project27 Solutions
+{% if page.tagline %}
+: <br>{{ page.tagline }}
+{% endif %}
+</h1>
+
+<p>{{ page.pitch }}</p>
+
+  <a class="call-to-action" href="{{ '/solutions/research-services/index.html' | prepend: site.baseurl }}">Co-design your solution</a>
+{% endif %}
+</div>
+<div class="col-md-4">
+{% if page.hero-image %}
+ <img src="{{ page.hero-image | prepend: site.baseurl }}" class= "hero-image" alt="{{ page.hero-image-description }}">
+ {% else %}
+  <img src="{{ '/assets/images/covers/tulips-cover.jpeg' | prepend: site.baseurl }}" class="hero-image2" alt="Daniel and Danielle are standing on a platform, with vast fields of colourful tulips and a canal in the background. Both of them smile at the camera.">
+ {% endif %}
+  </div>
+
+{% comment %}
+<div class="col-md-6">
+{% if page.url contains "/blog/" or page.url contains "/guide/" %}
+  <button href="#quickLinks" type="button" class="d-lg-none mysecondarybtn" data-bs-toggle="collapse" data-bs-target="#selector" aria-controls="selector" aria-expanded="false" aria-label="Quick links">
+    <span><i class="fas fa-bookmark fa-lg" aria-hidden="false"></i></span>
+  </button>
+<div class="collapse d-lg-block" id="selector">
+{% include global/select.html %}
+</div>
+{% endif %}
+</div>
+{% endcomment %}
+
+</div>

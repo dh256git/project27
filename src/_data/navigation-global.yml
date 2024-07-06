@@ -1,0 +1,39 @@
+- menu: &menu1
+
+  label: What we do
+  dropdown-items:
+    - name: Developing skills that matter (P27 Skills)
+      link: /about/index.html
+    - name: Co-designing solutions that work (P27 Solutions)
+      link: /solutions/index.html
+
+- menu: &menu2
+  label: Who we are
+  dropdown-items:
+    - name: Meet the team
+      link: /about/team/index.html
+    - name: Meet our partners
+      link: /about/partners/index.html
+
+- menu: &menu3
+  label: Media
+  dropdown-items:
+    - name: News
+      link: /about/news/index.html
+    - name: Posts
+      link: /blog/all-posts.html
+    - name: Podcasts
+      link: https://youtube.com/@project27skills
+
+- menu: &menu4
+
+  label: Contact us
+  dropdown-items:
+    - name: Get in touch
+      link: /contact/index.html
+    - name: I've got a question
+      link: /my-question
+    - name: I've got a suggestion
+      link: /consult-me
+    - name: FAQs
+      link: /contact/index.html#FAQ
