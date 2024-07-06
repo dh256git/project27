@@ -1,0 +1,543 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Skill studio</title>
+
+<!-- scripts for vega lite -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2/build/vega.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0/build/vega-lite.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- olli -->
+  <script src="https://cdn.jsdelivr.net/npm/olli@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/olli-adapters@2"></script>
+
+
+<!--Custom style sheets-->
+        <link rel="stylesheet" href="/assets/css/main.css">
+
+<!-- Bootstrap 5.3 stylesheets -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<!--font awesome icons-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- analytics -->
+
+<!-- Google Tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ET7GNZ55YP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ET7GNZ55YP');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PPHS22H');</script>
+<!-- End Google Tag Manager -->
+
+  </head>
+  <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPHS22H"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="container-lg">
+  <header class="bg-background">
+<div class="row">
+<div class="col-md-6" id="skip">
+<a class="d-flex justify-content-center" href="#mainContent">Skip to main content</a>
+</div>
+<div class="col-md-6" id="skip">
+<a class="d-flex justify-content-center" href="#footerContent">Skip to footer</a>
+</div>
+</div>
+
+<div class="row">
+<div class="col">
+
+<a href="/index.html" class="navbar-brand">
+      <img src="/assets/images/Project27 logo.png" alt="Project 27 Skills logo" class="logo" width="60px" height="auto">
+      </a>
+      Skills that matter
+      
+</div>
+</div>
+
+<div class="row">
+<div class="col">
+      <div class="navbar navbar-expand-md bg-nav-header">
+
+  <button type="button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNavigation" aria-controls="primaryNavigation"
+   aria-expanded="false" aria-label="Toggle global navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="primaryNavigation">
+
+      <nav class="navbar-dark" tabindex="0" aria-label="Global">
+        <ul class="navbar-nav" role="menubar">
+       
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">What we do</a>
+        <div class="dropdown-menu" aria-label="What we do">
+  
+          <a href= "/about/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Developing skills that matter (P27 Skills)
+          </a>
+  
+          <a href= "/solutions/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Co-designing solutions that work (P27 Solutions)
+          </a>
+  
+</div>
+</li>
+  
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">Who we are</a>
+        <div class="dropdown-menu" aria-label="Who we are">
+  
+          <a href= "/about/team/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Meet the team
+          </a>
+  
+          <a href= "/about/partners/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Meet our partners
+          </a>
+  
+</div>
+</li>
+  
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">Media</a>
+        <div class="dropdown-menu" aria-label="Media">
+  
+          <a href= "/about/news/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          News
+          </a>
+  
+          <a href= "/blog/all-posts.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Posts
+          </a>
+  
+          <a href= "https://youtube.com/@project27skills"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Podcasts
+          </a>
+  
+</div>
+</li>
+  
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">Contact us</a>
+        <div class="dropdown-menu" aria-label="Contact us">
+  
+          <a href= "/contact/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Get in touch
+          </a>
+  
+          <a href= "/my-question"
+          
+          
+          class="dropdown-item"
+          
+          >
+          I've got a question
+          </a>
+  
+          <a href= "/consult-me"
+          
+          
+          class="dropdown-item"
+          
+          >
+          I've got a suggestion
+          </a>
+  
+          <a href= "/contact/index.html#FAQ"
+          
+          
+          class="dropdown-item"
+          
+          >
+          FAQs
+          </a>
+  
+</div>
+</li>
+
+</ul>
+</nav>
+
+      <nav class="navbar-dark" tabindex="0" aria-label="Context">
+        <ul class="navbar-nav" role="menubar">
+
+  
+    <li class="nav-item">
+    <a href="/support/services/index.html"
+    
+    
+    >
+    Support services
+    </a>
+  </li>
+  
+    <li class="nav-item">
+    <a href="/support/studio.html"
+    
+    
+    class="nav-link active" aria-current="page"
+    
+    >
+    Skill studio
+    </a>
+  </li>
+  
+    <li class="nav-item">
+    <a href="/support/pricing.html"
+    
+    
+    >
+    Pricing
+    </a>
+  </li>
+  
+</ul>
+</nav>
+
+</div>
+
+
+<a href="/support/booking-page.html" class="">Book support</a>
+
+
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col">
+
+
+<div class="row ">
+
+<div class="col-md-8" style="vertical-align: middle;">
+
+  <h1>
+  Skill studio
+  
+  </h1>
+
+<p></p>
+
+<div>
+   
+<div id="breadcrumbs">
+<h2 class="you-are-here">You are here</h2>
+
+<a href="/">Home</a>
+
+  
+    <a href="/support/index.html">👉 Support</a>
+  
+
+  
+    <br> 👉 Skill studio
+  
+
+</div>
+
+</div>
+
+
+</div>
+<div class="col-md-4">
+
+  <img src="/assets/images/covers/tulips-cover.jpeg" class="hero-image2" alt="Daniel and Danielle are standing on a platform, with vast fields of colourful tulips and a canal in the background. Both of them smile at the camera.">
+ 
+  </div>
+
+
+
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col">
+
+
+
+
+
+<div class="announcement">
+<p>
+
+    📣 This area of the website is a 
+<a target="_blank" rel="noreferrer noopener" href="https://en.wikipedia.org/wiki/Software_release_life_cycle">
+beta version.
+</a>
+
+</p>
+</div>
+
+</div>
+</div>
+
+
+  </header>
+
+  <main role="main" id="mainContent" class="container bg-background">
+ <h3 id="skill-studio">Skill studio</h3>
+
+
+
+ <hr>
+ <p>
+ This is an open source website. Please, 
+ <a target="_blank" rel="noreferrer noopener" href="https://github.com/dh256git/project27/edit/development/src/support/studio.md">
+ help improve the content on this page.
+ </a>
+ </p>
+  </main>
+
+<footer id="footerContent" class="">
+
+
+
+<div class="row">
+<div class="col-md-8">
+
+<div class="row">
+<div class="col-md-2">
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="margin: 10px" src="/assets/images/icons/CC-88x31.png"/></a>
+</div>
+<div class="col-md-10">
+Except where otherwise noted, <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Project27</span> materials hosted by <a xmlns:cc="http://creativecommons.org/ns#" href="/about/team/Daniel/index.html" property="cc:attributionName" rel="cc:attributionURL">Daniel Hajas</a> are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License.</a>
+</div>
+</div>
+
+</div>
+<div class="col-md-4">
+      <nav class="navbar navbar-expand-md navbar-dark bg-nav-footer" tabindex="0" aria-label="Footer">
+<ul class="navbar-nav" role="menubar">
+  
+  <li>
+    <a href="/about/index.html">About</a>
+  </li>
+  
+  <li>
+    <a href="/contact/index.html">Contact</a>
+  </li>
+  
+  <li>
+    <a href="/guidelines/index.html">Guidelines</a>
+  </li>
+  
+  
+  <div class="dropdown bg-my-nav">
+<button type="button" class="mybtnswitch" data-bs-toggle="dropdown" aria-haspopup="true">Development</button>
+        <div class="dropdown-menu">
+    
+
+          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "https://github.com/dh256git/project27" >Git Hub</a>
+          
+  
+
+          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "http://p27skills.surge.sh" >Surge</a>
+          
+  
+
+          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "https://project27-knowledge-base.atlassian.net/wiki/home/" >Confluence</a>
+          
+  
+
+                    <a class="dropdown-item" href= "/blog/logbook/issues/2020/06/05/initialise.html" >Issues</a>
+                    
+  
+
+                    <a class="dropdown-item" href= "/blog/logbook/dev/change-log.html" >Roadmap</a>
+                    
+  
+</div>
+</div>
+
+  </ul>
+</nav>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-2">
+<h5>Stay in touch</h5>
+</div>
+<div class="col-md-4">
+<p>Join our mailing list. Coming soon.</p>
+</div>
+
+    <div class="col">
+    <a href="https://www.facebook.com/profile.php?id=100095492140913">
+    <img src="/assets/images/icons/facebook.png" alt="Facebook" class="img-follow-us-new">
+    </a>
+    </div>
+
+    <div class="col">
+    <a href="https://www.twitter.com/project27skills/">
+    <img src="/assets/images/icons/x.png" alt="X" class="img-follow-us-new">
+    </a>
+    </div>
+
+    <div class="col">
+    <a href="https://www.linkedin.com/company/project27-consultancy-group/">
+    <img src="/assets/images/icons/linkedin.png" alt="LinkedIn" class="img-follow-us-new">
+    </a>
+    </div>
+
+    <div class="col">
+    <a href="https://youtube.com/@project27skills">
+    <img src="/assets/images/icons/youtube.png" alt="YouTube" class="img-follow-us-new">
+    </a>
+    </div>
+
+    <div class="col">
+    <a href="https://www.instagram.com/project27skills/">
+    <img src="/assets/images/icons/instagram.png" alt="Instagram" class="img-follow-us-new">
+    </a>
+    </div>
+
+    <div class="col">
+    <a href="https://dragonscave.space/@daniel/">
+    <img src="/assets/images/icons/mastodon.png" alt="Mastodon" class="img-follow-us-new">
+    </a>
+    </div>
+
+</div>
+
+<div class="row">
+
+<div class="col">
+<p>
+<a href="/legal/terms-of-use.html">
+Terms of use
+</a>
+</p>
+</div>
+
+<div class="col">
+<p>
+<a href="/legal/terms-of-service.html">
+Terms of service
+</a>
+</p>
+</div>
+
+<div class="col">
+<p>
+<a href="/legal/privacy.html">
+Privacy policy
+</a>
+</p>
+</div>
+
+<div class="col">
+<p>
+<a href="/accessibility/index.html">
+Accessibility statement
+</a>
+</p>
+</div>
+
+<div class="col">
+<p><a href="/blog/logbook/dev/change-log.html">Version: 1.0.102.</a></p>
+</div>
+<div class="col">
+<p onclick="showTimeLastUpdated()">Last updated: 
+<span id="time-last-updated-show">06 Jul 2024.</span>
+<span id="time-last-updated-hide" class="hidden-text">20:28.</span>
+</p>
+</div>
+</div>
+
+
+</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<!-- Mathematics script -->
+<script type="text/x-mathjax-config">
+(function () {
+
+MathJax.Hub.Config({
+	'showProcessingMessages': false,
+	'messageStyle': 'none'
+});
+
+if (typeof MathJaxListener !== 'undefined') {
+	MathJax.Hub.Register.StartupHook('End', function () {
+		MathJaxListener.invokeCallbackForKey_('End');
+	});
+}
+
+})();
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<!--script for read more modal -->
+<script defer src="/assets/js/modal.js"></script>
+
+<!--script for select pop-up -->
+<script defer src="/assets/js/pop-up.js"></script>
+
+  </body>
+</html>

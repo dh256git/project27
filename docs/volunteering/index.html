@@ -1,26 +1,32 @@
 <!doctype html>
 <html lang="en">
   <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Community</title>
+
 <!-- scripts for vega lite -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2/build/vega.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0/build/vega-lite.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <!-- olli -->
-  <script src="https://cdn.jsdelivr.net/npm/olli@1"></script>
-  <script src="https://cdn.jsdelivr.net/npm/olli-adapters@1"></script>
-  
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/olli@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/olli-adapters@2"></script>
 
-    <title> Community</title>
 
 <!--Custom style sheets-->
         <link rel="stylesheet" href="/assets/css/main.css">
 
+<!-- Bootstrap 5.3 stylesheets -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 <!--font awesome icons-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+<!-- analytics -->
 
 <!-- Google Tag -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ET7GNZ55YP"></script>
@@ -47,7 +53,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column bg-background">
+<div class="container-lg">
   <header class="bg-background">
 <div class="row">
 <div class="col-md-6" id="skip">
@@ -59,62 +65,228 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 <div class="row">
-<div class="col-md-10">
-<div class="row">
-<div class="col-md-8">
-      <div class="masthead-brand">
+<div class="col">
+
 <a href="/index.html" class="navbar-brand">
-      <img src="/assets/images/Project27 logo.png" alt="Project 27 logo" class="logo" width="60px" height="auto">
+      <img src="/assets/images/Project27 logo.png" alt="Project 27 Skills logo" class="logo" width="60px" height="auto">
       </a>
       Skills that matter
-      </div>
-</div>
-<div class="col-md-4">
-<div class="navbar navbar-expand-md bg-nav-header">
-  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle global navigation">
-    <span class="fa-solid fa-bars"></span>
-  </button>
-        <div class="collapse navbar-collapse" id="primaryNavigation">
-      <nav class="navbar-dark" tabindex="0" aria-label="Global">
-<ul class="navbar-nav" role="menubar">
-  
-  
-  <li>
-    <a href="/blog/index.html">Blog</a>
-  </li>
-  
-  
-  
-  <li>
-    <a href="/guide/index.html">Guide</a>
-  </li>
-  
-  
-  
-  <li>
-    <a href="/volunteering/index.html">Community</a>
-  </li>
-  
-  
-  
-  <li>
-  <a target="_blank" rel="noreferrer noopenner" href="https://research.project27skills.com">Solutions</a>
-  </li>
-  
-  
-  </ul>
-  </nav>
+      
 </div>
 </div>
-</div>
-</div>
+
 <div class="row">
 <div class="col">
-<div class="row bg-general-vol">
-<div class="col-md-6">
+      <div class="navbar navbar-expand-md bg-nav-header">
 
+  <button type="button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNavigation" aria-controls="primaryNavigation"
+   aria-expanded="false" aria-label="Toggle global navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="primaryNavigation">
+
+      <nav class="navbar-dark" tabindex="0" aria-label="Global">
+        <ul class="navbar-nav" role="menubar">
+       
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">What we do</a>
+        <div class="dropdown-menu" aria-label="What we do">
+  
+          <a href= "/about/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Developing skills that matter (P27 Skills)
+          </a>
+  
+          <a href= "/solutions/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Co-designing solutions that work (P27 Solutions)
+          </a>
+  
+</div>
+</li>
+  
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">Who we are</a>
+        <div class="dropdown-menu" aria-label="Who we are">
+  
+          <a href= "/about/team/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Meet the team
+          </a>
+  
+          <a href= "/about/partners/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Meet our partners
+          </a>
+  
+</div>
+</li>
+  
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">Media</a>
+        <div class="dropdown-menu" aria-label="Media">
+  
+          <a href= "/about/news/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          News
+          </a>
+  
+          <a href= "/blog/all-posts.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Posts
+          </a>
+  
+          <a href= "https://youtube.com/@project27skills"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Podcasts
+          </a>
+  
+</div>
+</li>
+  
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">Contact us</a>
+        <div class="dropdown-menu" aria-label="Contact us">
+  
+          <a href= "/contact/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Get in touch
+          </a>
+  
+          <a href= "/my-question"
+          
+          
+          class="dropdown-item"
+          
+          >
+          I've got a question
+          </a>
+  
+          <a href= "/consult-me"
+          
+          
+          class="dropdown-item"
+          
+          >
+          I've got a suggestion
+          </a>
+  
+          <a href= "/contact/index.html#FAQ"
+          
+          
+          class="dropdown-item"
+          
+          >
+          FAQs
+          </a>
+  
+</div>
+</li>
+
+</ul>
+</nav>
+
+      <nav class="navbar-dark" tabindex="0" aria-label="Context">
+        <ul class="navbar-nav" role="menubar">
+
+  
+  <li class="nav-item">
+    <a href="/blog/index.html"
+    
+    
+    >
+    Stories
+    </a>
+  </li>
+  
+  <li class="nav-item">
+    <a href="/guide/index.html"
+    
+    
+    >
+    Guide
+    </a>
+  </li>
+  
+  <li class="nav-item">
+    <a href="/volunteering/index.html"
+    
+    
+    class="nav-link active" aria-current="page"
+    
+    >
+    Community
+    </a>
+  </li>
+  
+  
+</ul>
+</nav>
+
+</div>
+
+
+<a href="/support/booking-page.html" class="fg-general-vol">Book support</a>
+
+
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col">
+
+
+<div class="row bg-general-vol">
+
+<div class="col-md-8" style="vertical-align: middle;">
+
+  <h1>
+  Community
+  
+: <br>Together we learn, together we grow
+  
+  </h1>
+
+<p>We support blind or learning disabled trainees to develop skills that matter, through certifying their active involvement in training exercises and our community projects. Tasks are created by  industry professionals, leading small entrepreneurial teams of trainees, providing mentorship, and encouraging peer support.</p>
+
+<div>
+   
 <div id="breadcrumbs">
-<h1 class="you-are-here">You are here</h1>
+<h2 class="you-are-here">You are here</h2>
 
 <a href="/">Home</a>
 
@@ -125,12 +297,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 </div>
-<div class="col-md-6">
+
+
+</div>
+<div class="col-md-4">
+
+ <img src="/assets/images/covers/volunteering-cover.jpg" class= "hero-image" alt="A drawn tree, with handprints as leaves on the branches.">
+ 
+  </div>
+
+
 
 </div>
 </div>
 </div>
-</div>
+
 <div class="row">
 <div class="col">
 
@@ -146,84 +327,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </div>
 </div>
-</div>
-<div class="col-md-2">
-  <button href="#sidebar" type="button" class="d-lg-none mysecondarybtn" data-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle sidebar">
-    <span><i class="fa-solid fa-circle-chevron-down" aria-hidden="false"></i></span>
-  </button>
-<div class="collapse d-lg-block bg-background" id="sidebar" aria-label="sidebar navigation">
-<div class="row">
-<div class="col">
-  
-  <div class="mybtnquick">
-  <a href= "/about/index.html" >What we do</a>
-  </div>
-  
-  <div class="mybtnquick">
-  <a href= "/about/team/index.html" >Who we are</a>
-  </div>
-  
-  <div class="mybtnquick">
-  <a href= "/contact/index.html" >Contact us and FAQs</a>
-  </div>
-  
-  </div>
-  </div>
-<div class="row">
-<div class="col">
-<div class="dropdown bg-my-nav">
-<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#products" aria-haspopup="true">Products & Services</button>
-        <div class="dropdown-menu" id="products">
-    
-          <a class="dropdown-item" href= "/volunteering/become-a-volunteer.html" >Become a volunteer</a>
-  
-          <a class="dropdown-item" href= "/support/index.html" >Book a support session</a>
-  
-          <a class="dropdown-item" href= "/support/pricing.html" >Pricing</a>
-  
-  </div>
-</div>
-<div class="dropdown bg-my-nav">
-<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#media" aria-haspopup="true">Media</button>
-        <div class="dropdown-menu" id="media">
-  
-          <a class="dropdown-item" href= "/about/news.html" >News</a>
-  
-          <a class="dropdown-item" href= "/blog/all-posts.html" >Posts</a>
-  
-</div>
-</div>
-<div class="dropdown bg-my-nav">
-<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#development" aria-haspopup="true">Development</button>
-        <div class="dropdown-menu" id="development">
-    
 
-                    <a class="dropdown-item" href= "/blog/logbook/dev/change-log.html" >Roadmap</a>
-                    
-  
 
-                    <a class="dropdown-item" href= "/blog/logbook/issues/2020/06/05/initialise.html" >Issues</a>
-                    
-  
-
-          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "https://github.com/dh256git/project27" >Git Hub</a>
-          
-  
-
-          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "http://p27skills.surge.sh" >Surge</a>
-          
-  
-
-          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "https://project27-knowledge-base.atlassian.net/wiki/home/" >Confluence</a>
-          
-  
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
   </header>
 
   <main role="main" id="mainContent" class="container bg-background">
@@ -240,13 +345,13 @@ volunteer,
  <a href="#tab-trainees" onclick="setTab('trainees')">
 trainee.
 </a>
-Our members 
+The trainee programme helps blind or learning disabled people to learn through peer support and mentoring.
+Anyone can volunteer, as long as they are joining us to support trainees through their professional experience. 
+Our members, volunteers and trainees alike, come to 
 <a href="#tab-skills" onclick="setTab('skills')">
 develop skills that matter,
 </a>
- through bespoke training, completing tasks, and working in teams.</p>
-
-<p><img src="/assets/images/covers/volunteering-cover.jpg" class="cover-image" alt="A drawn tree, with handprints as leaves on the branches." /></p>
+ through bespoke training, creating and completing tasks, and working in disability inclusive teams.</p>
 
 <h2 id="book-a-support-session">Book a support session</h2>
 
@@ -254,7 +359,7 @@ develop skills that matter,
 We offer bookable, paid support sessions for anyone who wants to get advice on topics related to blindness or learning disability.
 The first session is free for everyone, creating an opportunity for introductions and an assessment of your support needs.</p>
 
-<p><a href="/support/index.html" class="fg-general-vol">View our ad hoc support offer</a></p>
+<p><a href="/support/services/index.html" class="fg-general-vol">View our ad hoc support offer</a></p>
 
 <div role="tablist">
   <button role="tab" id="tab-overview" aria-controls="tabpanel-overview" onclick="setTab('overview')">Overview</button>
@@ -314,32 +419,51 @@ When you become a trainee, you will</p>
 Set your target, and share your experience with employers.</p>
 
 <dl>
-  <dt>Guests</dt>
-  <dd>after registration, during the onboarding activity (~4 hours of commitment over 1 month);</dd>
+  <dt>Registered member</dt>
+  <dd>after completion of the onboarding activity (~4 hours of commitment over 1 month);</dd>
   <dt>Apprentice</dt>
   <dd>after successful completion of 4 tasks (~4 hours of regular commitment per week, for 1 month);</dd>
   <dt>Intern</dt>
   <dd>after successful completion of 16 tasks (~16 hours of regular commitment per week, for 1 month);</dd>
-  <dt>Scholar</dt>
+  <dt>Specialist</dt>
   <dd>after successful completion of 48 tasks (~16 hours of regular commitment per week, for 3 months);</dd>
   <dt>Fellow</dt>
   <dd>after successful completion of 100 tasks (~8 hours of regular commitment per week, for 12 months)</dd>
 </dl>
 
-<p>Project27 Fellows will be considered for employment at Project27 Consultancy Group or one of our partners; subject to funding.</p>
+<p>Project27 Fellows will be considered for paid temporary consultancy projects, and permanent employment at Project27 Consultancy Group or one of our partners; subject to funding.</p>
 
 <p><a href="/volunteering/certification.html" class="fg-general-vol">Compare our certified development pathways</a></p>
 
 <h2 id="how-much-does-membership-cost">How much does membership cost?</h2>
 
-<p>Trainee membership is priced slightly differently, depending on the subscription you select.</p>
+<p>Trainee membership is priced slightly differently, depending on the payment model you select.
+We offer subscriptions, pay as you go options, and tiers of discounts to suit everyone’s schedule and budget.</p>
+
+<p>Our subscription model is a great choice for those who know exactly what skills they want to develop.
+Annual subscriptions help you save, if you plan to become a certified fellow within 12 months of joining our community, whereas monthly payments help with breaking up the costs of personal growth.
+Subscription costs are:</p>
 
 <ul>
-  <li>paid monthly: £149.99 a month,</li>
-  <li>paid yearly: £1499.90 a year (12 months of membership at the price of 10 months),</li>
-  <li>paid per certification (see <a href="/volunteering/certification.html">pricing table</a>).</li>
+  <li>paid monthly: £179.99 a month,</li>
+  <li>paid yearly: £1799.90 a year (£149.99 per month),</li>
 </ul>
 
+<p>Ownership of annual subscriptions purchased by businesses on behalf of their service users can be transferred from one service user to another on request.</p>
+
+<p>Pay as you go options are a great choice for those who want to take their time.
+You can take a break between working towards different levels of traineeship in the same team.
+You can also aim for the same certification in a different team, without the need to level up.
+Prices per certification are:</p>
+
+<ul>
+  <li>Apprentice: £200 per month for 1 month,</li>
+  <li>Intern: £180 per month for 1 month,</li>
+  <li>Specialist: £150 per month for 3 months (£450 upfront),</li>
+  <li>Fellow: £100 per month for 12 months (£1200 upfront).</li>
+</ul>
+
+<p>For more details on the pay as you go pricing, view our <a href="/volunteering/certification.html">certification table</a>.</p>
 
 </div>
 <div role="tabpanel" id="tabpanel-volunteers" aria-labelledby="tab-volunteers">
@@ -390,7 +514,7 @@ Select a team before viewing a list of team specific activities.</p>
 
 </select>
 </div>
-<div class="col-6">
+<div>
 <h3>How do Project27 teams work?</h3>
 
 Teams are the backbone of our community, where peer support is central.
@@ -447,9 +571,7 @@ View the full set of skills we can support you with below.</p>
 
 </select>
 </div>
-<div class="col-6">
 
-</div>
 </div>
 
 <div class="iframe-container">
@@ -533,10 +655,34 @@ Copyright © 2023 Project27 Consultancy Group C.I.C. All rights reserved.
     <a href="/guidelines/index.html">Guidelines</a>
   </li>
   
-  <li>
-    <a href="/accessibility/index.html">Access</a>
-  </li>
   
+  <div class="dropdown bg-my-nav">
+<button type="button" class="mybtnswitch" data-bs-toggle="dropdown" aria-haspopup="true">Development</button>
+        <div class="dropdown-menu">
+    
+
+          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "https://github.com/dh256git/project27" >Git Hub</a>
+          
+  
+
+          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "http://p27skills.surge.sh" >Surge</a>
+          
+  
+
+          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "https://project27-knowledge-base.atlassian.net/wiki/home/" >Confluence</a>
+          
+  
+
+                    <a class="dropdown-item" href= "/blog/logbook/issues/2020/06/05/initialise.html" >Issues</a>
+                    
+  
+
+                    <a class="dropdown-item" href= "/blog/logbook/dev/change-log.html" >Roadmap</a>
+                    
+  
+</div>
+</div>
+
   </ul>
 </nav>
 </div>
@@ -615,12 +761,20 @@ Privacy policy
 </div>
 
 <div class="col">
-<p><a href="/blog/logbook/dev/change-log.html">Version: 1.0.101.</a></p>
+<p>
+<a href="/accessibility/index.html">
+Accessibility statement
+</a>
+</p>
+</div>
+
+<div class="col">
+<p><a href="/blog/logbook/dev/change-log.html">Version: 1.0.102.</a></p>
 </div>
 <div class="col">
 <p onclick="showTimeLastUpdated()">Last updated: 
-<span id="time-last-updated-show">28 Jan 2024.</span>
-<span id="time-last-updated-hide" class="hidden-text">21:26.</span>
+<span id="time-last-updated-show">06 Jul 2024.</span>
+<span id="time-last-updated-hide" class="hidden-text">20:28.</span>
 </p>
 </div>
 </div>
@@ -628,13 +782,9 @@ Privacy policy
 
 </footer>
 </div>
-<!-- Bootstrap dependency scripts -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
-    <!-- Mathematics script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<!-- Mathematics script -->
 <script type="text/x-mathjax-config">
 (function () {
 

@@ -1,26 +1,32 @@
 <!doctype html>
 <html lang="en">
   <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> About us</title>
+
 <!-- scripts for vega lite -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2/build/vega.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0/build/vega-lite.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <!-- olli -->
-  <script src="https://cdn.jsdelivr.net/npm/olli@1"></script>
-  <script src="https://cdn.jsdelivr.net/npm/olli-adapters@1"></script>
-  
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/olli@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/olli-adapters@2"></script>
 
-    <title> About us</title>
 
 <!--Custom style sheets-->
         <link rel="stylesheet" href="/assets/css/main.css">
 
+<!-- Bootstrap 5.3 stylesheets -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 <!--font awesome icons-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+<!-- analytics -->
 
 <!-- Google Tag -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ET7GNZ55YP"></script>
@@ -47,7 +53,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column bg-background">
+<div class="container-lg">
   <header class="bg-background">
 <div class="row">
 <div class="col-md-6" id="skip">
@@ -59,62 +65,224 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 <div class="row">
-<div class="col-md-10">
-<div class="row">
-<div class="col-md-8">
-      <div class="masthead-brand">
+<div class="col">
+
 <a href="/index.html" class="navbar-brand">
-      <img src="/assets/images/Project27 logo.png" alt="Project 27 logo" class="logo" width="60px" height="auto">
+      <img src="/assets/images/Project27 logo.png" alt="Project 27 Skills logo" class="logo" width="60px" height="auto">
       </a>
       Skills that matter
-      </div>
-</div>
-<div class="col-md-4">
-<div class="navbar navbar-expand-md bg-nav-header">
-  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle global navigation">
-    <span class="fa-solid fa-bars"></span>
-  </button>
-        <div class="collapse navbar-collapse" id="primaryNavigation">
-      <nav class="navbar-dark" tabindex="0" aria-label="Global">
-<ul class="navbar-nav" role="menubar">
-  
-  
-  <li>
-    <a href="/blog/index.html">Blog</a>
-  </li>
-  
-  
-  
-  <li>
-    <a href="/guide/index.html">Guide</a>
-  </li>
-  
-  
-  
-  <li>
-    <a href="/volunteering/index.html">Community</a>
-  </li>
-  
-  
-  
-  <li>
-  <a target="_blank" rel="noreferrer noopenner" href="https://research.project27skills.com">Solutions</a>
-  </li>
-  
-  
-  </ul>
-  </nav>
+      
 </div>
 </div>
-</div>
-</div>
+
 <div class="row">
 <div class="col">
-<div class="row bg-general-vol">
-<div class="col-md-6">
+      <div class="navbar navbar-expand-md bg-nav-header">
 
+  <button type="button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNavigation" aria-controls="primaryNavigation"
+   aria-expanded="false" aria-label="Toggle global navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="primaryNavigation">
+
+      <nav class="navbar-dark" tabindex="0" aria-label="Global">
+        <ul class="navbar-nav" role="menubar">
+       
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">What we do</a>
+        <div class="dropdown-menu" aria-label="What we do">
+  
+          <a href= "/about/index.html"
+          
+          
+          class="dropdown-item active" aria-current="item"
+          
+          >
+          Developing skills that matter (P27 Skills)
+          </a>
+  
+          <a href= "/solutions/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Co-designing solutions that work (P27 Solutions)
+          </a>
+  
+</div>
+</li>
+  
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">Who we are</a>
+        <div class="dropdown-menu" aria-label="Who we are">
+  
+          <a href= "/about/team/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Meet the team
+          </a>
+  
+          <a href= "/about/partners/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Meet our partners
+          </a>
+  
+</div>
+</li>
+  
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">Media</a>
+        <div class="dropdown-menu" aria-label="Media">
+  
+          <a href= "/about/news/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          News
+          </a>
+  
+          <a href= "/blog/all-posts.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Posts
+          </a>
+  
+          <a href= "https://youtube.com/@project27skills"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Podcasts
+          </a>
+  
+</div>
+</li>
+  
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">Contact us</a>
+        <div class="dropdown-menu" aria-label="Contact us">
+  
+          <a href= "/contact/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Get in touch
+          </a>
+  
+          <a href= "/my-question"
+          
+          
+          class="dropdown-item"
+          
+          >
+          I've got a question
+          </a>
+  
+          <a href= "/consult-me"
+          
+          
+          class="dropdown-item"
+          
+          >
+          I've got a suggestion
+          </a>
+  
+          <a href= "/contact/index.html#FAQ"
+          
+          
+          class="dropdown-item"
+          
+          >
+          FAQs
+          </a>
+  
+</div>
+</li>
+
+</ul>
+</nav>
+
+      <nav class="navbar-dark" tabindex="0" aria-label="Context">
+        <ul class="navbar-nav" role="menubar">
+
+  
+  <li class="nav-item">
+    <a href="/blog/index.html"
+    
+    
+    >
+    Stories
+    </a>
+  </li>
+  
+  <li class="nav-item">
+    <a href="/guide/index.html"
+    
+    
+    >
+    Guide
+    </a>
+  </li>
+  
+  <li class="nav-item">
+    <a href="/volunteering/index.html"
+    
+    
+    >
+    Community
+    </a>
+  </li>
+  
+  
+</ul>
+</nav>
+
+</div>
+
+
+<a href="/support/booking-page.html" class="fg-general-vol">Book support</a>
+
+
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col">
+
+
+<div class="row bg-general-vol">
+
+<div class="col-md-8" style="vertical-align: middle;">
+
+  <h1>
+  About us
+  
+  </h1>
+
+<p>At Project27, we help disabled individuals, their co-workers, and their employers develop practical skills relevant to the jobs they are passionate about, unlocking the potential for personal and professional growth. We also co-design solutions that enhance social participation across the entire value chain. We combine for-profit practices with nonprofit missions to create positive outcomes in a sustainable way.</p>
+
+<div>
+   
 <div id="breadcrumbs">
-<h1 class="you-are-here">You are here</h1>
+<h2 class="you-are-here">You are here</h2>
 
 <a href="/">Home</a>
 
@@ -125,12 +293,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 </div>
-<div class="col-md-6">
+
+
+</div>
+<div class="col-md-4">
+
+  <img src="/assets/images/covers/tulips-cover.jpeg" class="hero-image2" alt="Daniel and Danielle are standing on a platform, with vast fields of colourful tulips and a canal in the background. Both of them smile at the camera.">
+ 
+  </div>
+
+
 
 </div>
 </div>
 </div>
-</div>
+
 <div class="row">
 <div class="col">
 
@@ -151,111 +328,60 @@ beta version.
 
 </div>
 </div>
-</div>
-<div class="col-md-2">
-  <button href="#sidebar" type="button" class="d-lg-none mysecondarybtn" data-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle sidebar">
-    <span><i class="fa-solid fa-circle-chevron-down" aria-hidden="false"></i></span>
-  </button>
-<div class="collapse d-lg-block bg-background" id="sidebar" aria-label="sidebar navigation">
-<div class="row">
-<div class="col">
-  
-  <div class="mybtnquick">
-  <a href= "/about/index.html" >What we do</a>
-  </div>
-  
-  <div class="mybtnquick">
-  <a href= "/about/team/index.html" >Who we are</a>
-  </div>
-  
-  <div class="mybtnquick">
-  <a href= "/contact/index.html" >Contact us and FAQs</a>
-  </div>
-  
-  </div>
-  </div>
-<div class="row">
-<div class="col">
-<div class="dropdown bg-my-nav">
-<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#products" aria-haspopup="true">Products & Services</button>
-        <div class="dropdown-menu" id="products">
-    
-          <a class="dropdown-item" href= "/volunteering/become-a-volunteer.html" >Become a volunteer</a>
-  
-          <a class="dropdown-item" href= "/support/index.html" >Book a support session</a>
-  
-          <a class="dropdown-item" href= "/support/pricing.html" >Pricing</a>
-  
-  </div>
-</div>
-<div class="dropdown bg-my-nav">
-<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#media" aria-haspopup="true">Media</button>
-        <div class="dropdown-menu" id="media">
-  
-          <a class="dropdown-item" href= "/about/news.html" >News</a>
-  
-          <a class="dropdown-item" href= "/blog/all-posts.html" >Posts</a>
-  
-</div>
-</div>
-<div class="dropdown bg-my-nav">
-<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#development" aria-haspopup="true">Development</button>
-        <div class="dropdown-menu" id="development">
-    
 
-                    <a class="dropdown-item" href= "/blog/logbook/dev/change-log.html" >Roadmap</a>
-                    
-  
 
-                    <a class="dropdown-item" href= "/blog/logbook/issues/2020/06/05/initialise.html" >Issues</a>
-                    
-  
-
-          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "https://github.com/dh256git/project27" >Git Hub</a>
-          
-  
-
-          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "http://p27skills.surge.sh" >Surge</a>
-          
-  
-
-          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "https://project27-knowledge-base.atlassian.net/wiki/home/" >Confluence</a>
-          
-  
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
   </header>
 
   <main role="main" id="mainContent" class="container bg-background">
- <h2 id="about-project27-skills">About Project27 Skills</h2>
+ <h3 id="our-vision">Our vision</h3>
 
-<p>Project27 Skills is the talent arm of Project27 Consultancy Group (Project27).
-We combine for-profit practices with nonprofit missions to create positive outcomes in a sustainable way.</p>
+<p>We envision a world where everyone has the opportunity for social and economic participation, ensuring that disabled individuals are included and benefit from personal and professional growth.</p>
 
-<p>The mission of Project27 is to 
-<strong>develop skills that matter, and design solutions that work.</strong>
-We believe that this mission will take us closer to our ultimate vision.</p>
+<h3 id="our-mission">Our mission</h3>
 
-<p>In the vision of Project27, 
-<strong>Researchers, businesses, and the community of blind or learning disabled people work together on solving accessibility challenges at every stage of design and development.</strong></p>
+<p>Our mission is to create personalised opportunities for skills development and pathways for personal and professional growth in a safe environment for communities of blind and learning disabled individuals.</p>
 
-<h3 id="what-we-do">What we do</h3>
+<h3 id="our-values-and-community-culture">Our values and community culture</h3>
+
+<p>The community culture of Project27 can be expressed in a single word. We promote ‘CARE’, referring to ‘commitment, accessibility, respect, and engagement’.</p>
+
+<div class="container mt-5">
+<div class="row align-items-center">
+<div class="col-sm-12 col-md-6">
+<img src="/assets/images/general/values-word-cloud.png" alt="A word cloud of values printed in different font size, colour, and location. The largest words are growth, flow, sense of belonging. In smaller print, the words curiosity, self-development, and structure appear. In even smaller print, words like mentorship, or agility are shown." class="img-fluid" />
+</div>
+<div class="col-sm-12 col-md-6">
+<p>
+<p>Our core values are:</p>
 
 <ol>
-  <li><strong>Sharing thoughts</strong>: We share our lived experience of sight-loss, learning disability, and success, through our <a href="/blog/">blog.</a></li>
-  <li><strong>Passive learning</strong>: We enable people to learn about science and lifestyle, by creating accessible articles in the <a href="/guide/">Project27 Skills Guide.</a></li>
-  <li><strong>Active learning</strong>: We promote active learning, by <a href="/volunteering/">getting volunteers involved</a> in building the <a href="/guide/">Project27 Skills Guide.</a></li>
-  <li><strong>Consultancy</strong>: Anyone who needs time to talk things through with us can <a href="/support/">book a support session</a> for a session of consulting, tutoring, or mentoring.</li>
+  <li>Growth, encompassing curiosity and self-development, leading to new opportunities of discovery and achievement.</li>
+  <li>Sense of belonging, where everyone has a team member to go to for advice and mentorship.</li>
+  <li>Structure, enabling community members to follow processes, track and recognise progress, build on solid foundations, and spot missing elements.</li>
+  <li>Flow, referring to the ultimate experience of accessibility, barrier-free joy, creativity, and productivity, while engaging in a subject of passion, setting the right level of challenge. If this is a new concept to you, <a href="https://youtu.be/znwUCNrjpD4?si=-6k0xuaWMltD7rFH">watch this video on flow.</a></li>
 </ol>
+</p>
+</div>
+</div>
+</div>
 
-<p><a href="/about/content.html" class="fg-general-vol">Read more about our published content and services</a></p>
+<h3 id="our-history">Our history</h3>
 
-<h3 id="who-we-are">Who we are</h3>
+<p>Project27 has evolved significantly since its inception in 2019. Initially conceived as an accessible resource for studying science subjects and practicing cooking skills, we quickly realised the value lay in the learning and networking opportunities during development. Our journey includes several key milestones:</p>
+
+<ul>
+  <li><strong>2019</strong>: Conceptualisation of Project27 as an accessible resource.</li>
+  <li><strong>2021</strong>: Collaboration with the MIT Visualisation Group, leading to new referrals for co-designing research projects in fields of accessible data visualisation, and self-advocacy.</li>
+  <li><strong>2022</strong>: Shift in focus to the active learning and mentorship process, leading to a refined value proposition.</li>
+  <li><strong>March 2023</strong>: Recognition at the London Business School with an innovation prize in the “investment-ready” category, for a research translation project under Project27 Solutions.</li>
+  <li><strong>July 2023</strong>: Registration as a Community Interest Company (CIC), uniting our community, research, and innovation services, to leverage synergies between the two business arms through creating additional development pathways for our community members as co-design consultants.</li>
+</ul>
+
+<p>Currently, we are concentrating on developing the Project27 Skills value proposition, through stakeholder engagement, and aligning it with the resource needs and revenue streams associated with Project27 Solution activities.</p>
+
+<p><a href="/about/history.html" class="fg-general-vol">Find out more about where exactly our adventure began</a></p>
+
+<h3 id="our-founders">Our founders</h3>
 
 <p>We are Daniel and Danielle, a couple from Brighton, England.
 We wanted to learn, so we started developing Project27 Skills.
@@ -263,46 +389,170 @@ We live with disabilities, and we have a lot to share.</p>
 
 <p><a href="/about/team/index.html" class="fg-general-vol">Learn more about our team</a></p>
 
-<h3 id="our-vision-at-project27-skills">Our vision at Project27 Skills</h3>
+<h3 id="our-services">Our services</h3>
 
-<p>Blind or learning disabled people get to live the lives they want to live,
-while they are acknowledged as productive members of society.</p>
+<p>We offer community services through our Project27 Skills portfolio, while our research and innovation services make up the Project27 Solutions portfolio.</p>
 
-<h3 id="our-mission-at-project27-skills">Our mission at Project27 Skills</h3>
+<!-- Hide the item in the grid. Remove if statement to show item. -->
 
-<p>Our mission is 
-to create personalised opportunities for skills development 
-in a safe environment 
-for communities of blind or learning disabled people.</p>
+<div class="row">
+<div class="col-md">
+<h4>
+<a href="/blog/index.html">
+Sharing lived experience - Read our Stories!
+</a>
+</h4>
 
-<h3 id="our-values">Our values</h3>
 
-<p>The culture at Project27 Skills is defined by four core values:</p>
+<i class="fas fa-pencil-alt fa-lg" aria-hidden="true"></i>
 
-<ol>
-  <li>Commitment</li>
-  <li>Accessibility</li>
-  <li>Respect</li>
-  <li>Engagement</li>
-</ol>
 
-<p><a href="/about/values.html" class="fg-general-vol">Read more about our values</a></p>
+      <p>We share our lived experience of social participation with anyone in doubt of the incredible achievements disabled people are capable of bringing about at work, at home, and anywhere in-between.</p>
 
-<h3 id="our-history">Our history</h3>
 
-<p>Daniel wanted to collect his physics notes, and family recipes, in one place. 
-He set two conditions for this library:</p>
 
-<ul>
-  <li>notes must be accessible for blind readers, like himself; and</li>
-  <li>notes must provide the same user experience regardless what device it is viewed on.</li>
-</ul>
+</div>
+    
+    
+                       
+ 
+    
+<!-- Hide the item in the grid. Remove if statement to show item. -->
 
-<p>This quickly turned into an exciting challenge of web development.
-After Danielle joined the team, we realised that there are many <a href="/about/skills.html">skills that matter to us.</a>
-We wanted to get better at doing certain things, by building Project27 Skills bit by bit.
-This was always meant to be a private project.
-Then, we realised, we can help people, while they help us.</p>
+    
+<div class="col-md">
+<h4>
+<a href="/guide/index.html">
+Publishing learning resources - Study our Guide!
+</a>
+</h4>
+
+
+<i class="fas fa-compass fa-lg" aria-hidden="true"></i>
+
+
+      <p>We enable blind or learning disabled people to learn and develop new skills in science, technology, lifestyle, and  media on their own, through a collection of accessible learning resources.</p>
+
+
+
+</div>
+</div>
+
+<!-- Hide the item in the grid. Remove if statement to show item. -->
+
+<div class="row">
+<div class="col-md">
+<h4>
+<a href="/volunteering/index.html">
+Certifying work experience - Join our community!
+</a>
+</h4>
+
+
+<i class="fa-solid fa-handshake fa-lg" aria-hidden="true"></i>
+
+
+      <p>We support blind, learning disabled, and any non-disabled industry professional member of our community with identifying their passions, strengths, and areas of development in small teams; certifying every step of their personal and professional growth during active participation in building Project27.</p>
+
+
+
+</div>
+    
+    
+                       
+ 
+    
+<!-- Hide the item in the grid. Remove if statement to show item. -->
+
+    
+<div class="col-md">
+<h4>
+<a href="/support/services/index.html">
+Providing expert mentorship - Book ad-hoc Support!
+</a>
+</h4>
+
+
+<i class="fa-solid fa-person-chalkboard fa-lg" aria-hidden="true"></i>
+
+
+      <p>Book a one-time consultation or a series of mentorship sessions with our experts to address your questions about blindness or learning disability. We offer tailored advice for disabled individuals, parents and teachers, as well as employers of disabled staff. No membership required.</p>
+
+
+
+</div>
+</div>
+
+<!-- Hide the item in the grid. Remove if statement to show item. -->
+
+<div class="row">
+<div class="col-md">
+<h4>
+<a href="/solutions/research-services/index.html">
+Co-designing solutions - Validate your research question!
+</a>
+</h4>
+
+
+<i class="fas-lightbulb fa-lg" aria-hidden="true"></i>
+
+
+      <p>We enable researchers to understand the real problems blind or learning disabled people experience, through an iterative process of co-design and consultancy, such that the right research questions are addressed.</p>
+
+
+
+</div>
+    
+    
+                       
+ 
+    
+<!-- Hide the item in the grid. Remove if statement to show item. -->
+
+    
+<div class="col-md">
+<h4>
+<a href="/solutions/innovation-services/index.html">
+Diffusing innovation - Be an early adopter!
+</a>
+</h4>
+
+
+<i class=" fa-lg" aria-hidden="true"></i>
+
+
+      <p>We work with businesses to identify opportunities for innovation in accessibility, diffuse the latest research and development outputs, and scale solutions that work for blind or learning disabled people.</p>
+
+
+
+</div>
+</div>
+
+<!-- Hide the item in the grid. Remove if statement to show item. -->
+
+<div class="row">
+<div class="col-md">
+<h4>
+<a href="/solutions/projects/index.html">
+Knowledge exchange - Disseminate your project learnings!
+</a>
+</h4>
+
+
+<i class=" fa-lg" aria-hidden="true"></i>
+
+
+      <p>We help researchers and businesses with knowledge exchange, disseminating project learnings, and engaging with other stakeholders, through our blog and network.</p>
+
+
+
+</div>
+    
+    
+
+<!-- if more than two columns are desired and modulo can take other values than 0 and 1. -->
+
+</div>
 
 
  <hr>
@@ -340,10 +590,34 @@ Copyright © 2023 Project27 Consultancy Group C.I.C. All rights reserved.
     <a href="/guidelines/index.html">Guidelines</a>
   </li>
   
-  <li>
-    <a href="/accessibility/index.html">Access</a>
-  </li>
   
+  <div class="dropdown bg-my-nav">
+<button type="button" class="mybtnswitch" data-bs-toggle="dropdown" aria-haspopup="true">Development</button>
+        <div class="dropdown-menu">
+    
+
+          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "https://github.com/dh256git/project27" >Git Hub</a>
+          
+  
+
+          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "http://p27skills.surge.sh" >Surge</a>
+          
+  
+
+          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "https://project27-knowledge-base.atlassian.net/wiki/home/" >Confluence</a>
+          
+  
+
+                    <a class="dropdown-item" href= "/blog/logbook/issues/2020/06/05/initialise.html" >Issues</a>
+                    
+  
+
+                    <a class="dropdown-item" href= "/blog/logbook/dev/change-log.html" >Roadmap</a>
+                    
+  
+</div>
+</div>
+
   </ul>
 </nav>
 </div>
@@ -422,12 +696,20 @@ Privacy policy
 </div>
 
 <div class="col">
-<p><a href="/blog/logbook/dev/change-log.html">Version: 1.0.101.</a></p>
+<p>
+<a href="/accessibility/index.html">
+Accessibility statement
+</a>
+</p>
+</div>
+
+<div class="col">
+<p><a href="/blog/logbook/dev/change-log.html">Version: 1.0.102.</a></p>
 </div>
 <div class="col">
 <p onclick="showTimeLastUpdated()">Last updated: 
-<span id="time-last-updated-show">28 Jan 2024.</span>
-<span id="time-last-updated-hide" class="hidden-text">21:26.</span>
+<span id="time-last-updated-show">06 Jul 2024.</span>
+<span id="time-last-updated-hide" class="hidden-text">20:28.</span>
 </p>
 </div>
 </div>
@@ -435,13 +717,9 @@ Privacy policy
 
 </footer>
 </div>
-<!-- Bootstrap dependency scripts -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
-    <!-- Mathematics script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<!-- Mathematics script -->
 <script type="text/x-mathjax-config">
 (function () {
 
