@@ -19,15 +19,15 @@ Home:
     link: /support/services/index.html
     description: Book a one-time consultation or a series of mentorship sessions with our experts to address your questions about blindness or learning disability. We offer tailored advice for disabled individuals, parents and teachers, as well as employers of disabled staff. No membership required.
   - name: Co-designing solutions - Validate your research question!
-    icon: fas-lightbulb
+    icon: fas fa-lightbulb
     link: /solutions/research-services/index.html
     description: We enable researchers to understand the real problems blind or learning disabled people experience, through an iterative process of co-design and consultancy, such that the right research questions are addressed.
   - name: Diffusing innovation - Be an early adopter!
-    icon: 
+    icon: fas fa-broadcast-tower
     link: /solutions/innovation-services/index.html
     description: We work with businesses to identify opportunities for innovation in accessibility, diffuse the latest research and development outputs, and scale solutions that work for blind or learning disabled people.
   - name: Knowledge exchange - Disseminate your project learnings!
-    icon: 
+    icon: fas fa-envelope-open-text
     link: /solutions/projects/index.html
     description: We help researchers and businesses with knowledge exchange, disseminating project learnings, and engaging with other stakeholders, through our blog and network.
 

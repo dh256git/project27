@@ -31,7 +31,7 @@ Our core values are:
 4. Flow, referring to the ultimate experience of accessibility, barrier-free joy, creativity, and productivity, while engaging in a subject of passion, setting the right level of challenge. If this is a new concept to you, [watch this video on flow.](https://youtu.be/znwUCNrjpD4?si=-6k0xuaWMltD7rFH)
 {% endcapture %}
 
-{% include global/image-with-text.html left-column="6" right-column="6" text=values image="/general/values-word-cloud.png" alt="A word cloud of values printed in different font size, colour, and location. The largest words are growth, flow, sense of belonging. In smaller print, the words curiosity, self-development, and structure appear. In even smaller print, words like mentorship, or agility are shown." %}
+{% include global/image-with-text.html left-column="6" right-column="6" text=values image="/general/values-word-cloud.png" alt="A word cloud of values printed in different font size, colour, and location. The largest words are growth, flow, sense of belonging. In smaller print, the words curiosity, self-development, and structure appear. In even smaller print, words like mentorship, or agility are shown." width="100%" height="100%" %}
 
 ### Our history
 
