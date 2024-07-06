@@ -1,49 +1,60 @@
 ---
 layout: default
-title: Project27 - Skills that matter
+title: Project27 Skills - Skills that matter
+tagline: The skill studio for disabled talents
 author: Daniel Hajas
 reviewer: Danielle Garratt
 date: 2022-08-27
-updated: 2023-06-24
+updated: 2024-07-04
+hero-image: /assets/images/covers/tulips-cover.jpeg
+hero-image-description: Daniel and Danielle are standing on a platform, with vast fields of colourful tulips and a canal in the background. Both of them smile at the camera.
+pitch: We create personalised pathways of experiential training and professional development opportunities for blind and learning-disabled individuals. Through our community-driven learning resources and co-working platform, we provide a safe-space and tailored support to help members develop valuable skills, find their passions, and succeed in the job market, such that they can grow personally and professionally at the pace that suits them.
 licence: copyright
 buttonStyle: fg-general-land
 backgroundStyle: bg-general-land
-listOfIcons: [["fas fa-pencil-alt", ""], ["fas fa-compass", ""], ["fa-solid fa-handshake", ""], ["fa-solid fa-person-chalkboard", ""]]
+listOfIcons: [["fas fa-pencil-alt", ""], ["fas fa-compass", ""], ["fa-solid fa-handshake", ""], ["fa-solid fa-person-chalkboard", ""], ["fas-lightbulb", ""]]
 ---
 
-## Why trust us with your talent
+{% assign home = site.data.main['Home'] %}
+{% assign guide = site.data.main['Guide'] %}
 
-We help blind or learning disabled people to develop skills that matter.
-{{ site.brand }} reduces the frustration caused by inaccessible learning tools, and builds confidence in your abilities.
-We do this through peer support, personalised opportunities for learning, creating and discovering new challenges in a safe place, built by it's community.
+## Who we are
 
-{% include global/cover-image.html image="founders-cover.jpg" alt="Daniel and Danielle are photographed in the UK Parliament. They are wearing smart clothing. A guide dog is sitting in front of them. In the background multiple signs are visible, such as logos of University College London, World Health Organisation, and GDI Hub. Other signs read 'AT changes lives' and 'Launching the Global Report on Assistive Technology'." %}
+"We are a social enterprise based in Brighton, led by and serving a global digital community of blind and learning disabled individuals who embrace a growth mindset through discovery, learning, and co-creation."
 
-{{ site.brand }} is led by a 'Brighton-based' couple - [Daniel]({% link about/team/Daniel/index.html %}) and [Danielle]({% link about/team/Danielle/index.html %}).
-We draw on our lived experiences of disability, and professional skills in community engagement.
+Our co-founders - [Daniel]({% link about/team/Daniel/index.html %}) and [Danielle]({% link about/team/Danielle/index.html %}) - draw on lived experiences of disability, and professional skills in community engagement.
 Daniel is a scientifically-minded blind person, with an interest in social entrepreneurship.
 Danielle is a sociable learning disabled person, with an interest in art, media, gaming, and self-advocacy.
 
 {% include global/buttonLink.html url="/about/index.html" label="Read more about us" %}
 
-{% include global/testimonials.html %}
-
----
-
 ## What we do
 
-{{ site.brand }} is the talent arm of the {{ site.organisation }}.
-We enable blind or learning disabled people to share their experiences and learn new skills.
+Our community services and fields of interest are complementary to the value created by mentorship organisations, parent support groups, and training or employment support services.
 
-{% assign dataFile = site.data.what-we-do %}
+{% include global/cover-image.html image="networking-cover.jpg" alt="Holding his white cane, Daniel is standing in front of a wall full of people's photos, grouped into 'Entrepreneurship', 'Future of talent', 'Innovate education' and 'Partnership'.
+" %}
+
+### Our fields of interest
+
+We focus on developing analytical and digital skills that matter to blind people interested in {{ guide[0].name | downcase }}, for example studying mathematics, practicing web design, or working in accounting.
+
+In addition, we also develop social and media skills that matter to neurodiverse people  interested in a joyful {{ guide[1].name | downcase }}.
+
+### Our community services
+
+We offer varying levels of engagement and support for different stages of self-development.
+Our community services are tailoured to the interaction needs of individuals, and their level of disability awareness or learning style.
+
+Read what people say about our community services, before browsing the ways we create value..
+
+{% assign dataFile = site.data.testimonials %}
+{% include global/carousel.html carouselDescription="A carousel of testimonials" %}
+
+{% assign dataFile = home['services'] %}
 {% assign gridLimit = 4 %}
 {% include global/grid-generator-2.html heading="h4" %}
 
-### Are you a researcher or business?
-
-Check out [Project27 Solutions](https://research.project27skills.com/), the research and innovation arm of the {{ site.organisation }}.
-We enable researchers and businesses to understand the real problems blind or learning disabled people experience, through an iterative process of co-design and innovation consultancy.
-
-
+---
 
 {% include spotlight.html %}

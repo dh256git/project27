@@ -1,26 +1,32 @@
 <!doctype html>
 <html lang="en">
   <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Differential equations</title>
+
 <!-- scripts for vega lite -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2/build/vega.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0/build/vega-lite.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <!-- olli -->
-  <script src="https://cdn.jsdelivr.net/npm/olli@1"></script>
-  <script src="https://cdn.jsdelivr.net/npm/olli-adapters@1"></script>
-  
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/olli@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/olli-adapters@2"></script>
 
-    <title> Differential equations</title>
 
 <!--Custom style sheets-->
         <link rel="stylesheet" href="/assets/css/main.css">
 
+<!-- Bootstrap 5.3 stylesheets -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 <!--font awesome icons-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+<!-- analytics -->
 
 <!-- Google Tag -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ET7GNZ55YP"></script>
@@ -47,7 +53,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column bg-background">
+<div class="container-lg">
   <header class="bg-background">
 <div class="row">
 <div class="col-md-6" id="skip">
@@ -59,62 +65,226 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 <div class="row">
-<div class="col-md-10">
-<div class="row">
-<div class="col-md-8">
-      <div class="masthead-brand">
+<div class="col">
+
 <a href="/index.html" class="navbar-brand">
-      <img src="/assets/images/Project27 logo.png" alt="Project 27 logo" class="logo" width="60px" height="auto">
+      <img src="/assets/images/Project27 logo.png" alt="Project 27 Skills logo" class="logo" width="60px" height="auto">
       </a>
       Skills that matter
-      </div>
-</div>
-<div class="col-md-4">
-<div class="navbar navbar-expand-md bg-nav-header">
-  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle global navigation">
-    <span class="fa-solid fa-bars"></span>
-  </button>
-        <div class="collapse navbar-collapse" id="primaryNavigation">
-      <nav class="navbar-dark" tabindex="0" aria-label="Global">
-<ul class="navbar-nav" role="menubar">
-  
-  
-  <li>
-    <a href="/blog/index.html">Blog</a>
-  </li>
-  
-  
-  
-  <li>
-    <a href="/guide/index.html">Guide</a>
-  </li>
-  
-  
-  
-  <li>
-    <a href="/volunteering/index.html">Community</a>
-  </li>
-  
-  
-  
-  <li>
-  <a target="_blank" rel="noreferrer noopenner" href="https://research.project27skills.com">Solutions</a>
-  </li>
-  
-  
-  </ul>
-  </nav>
+      
 </div>
 </div>
-</div>
-</div>
+
 <div class="row">
 <div class="col">
-<div class="row bg-guide-sect">
-<div class="col-md-6">
+      <div class="navbar navbar-expand-md bg-nav-header">
 
+  <button type="button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNavigation" aria-controls="primaryNavigation"
+   aria-expanded="false" aria-label="Toggle global navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="primaryNavigation">
+
+      <nav class="navbar-dark" tabindex="0" aria-label="Global">
+        <ul class="navbar-nav" role="menubar">
+       
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">What we do</a>
+        <div class="dropdown-menu" aria-label="What we do">
+  
+          <a href= "/about/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Developing skills that matter (P27 Skills)
+          </a>
+  
+          <a href= "/solutions/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Co-designing solutions that work (P27 Solutions)
+          </a>
+  
+</div>
+</li>
+  
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">Who we are</a>
+        <div class="dropdown-menu" aria-label="Who we are">
+  
+          <a href= "/about/team/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Meet the team
+          </a>
+  
+          <a href= "/about/partners/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Meet our partners
+          </a>
+  
+</div>
+</li>
+  
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">Media</a>
+        <div class="dropdown-menu" aria-label="Media">
+  
+          <a href= "/about/news/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          News
+          </a>
+  
+          <a href= "/blog/all-posts.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Posts
+          </a>
+  
+          <a href= "https://youtube.com/@project27skills"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Podcasts
+          </a>
+  
+</div>
+</li>
+  
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">Contact us</a>
+        <div class="dropdown-menu" aria-label="Contact us">
+  
+          <a href= "/contact/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Get in touch
+          </a>
+  
+          <a href= "/my-question"
+          
+          
+          class="dropdown-item"
+          
+          >
+          I've got a question
+          </a>
+  
+          <a href= "/consult-me"
+          
+          
+          class="dropdown-item"
+          
+          >
+          I've got a suggestion
+          </a>
+  
+          <a href= "/contact/index.html#FAQ"
+          
+          
+          class="dropdown-item"
+          
+          >
+          FAQs
+          </a>
+  
+</div>
+</li>
+
+</ul>
+</nav>
+
+      <nav class="navbar-dark" tabindex="0" aria-label="Context">
+        <ul class="navbar-nav" role="menubar">
+
+  
+  <li class="nav-item">
+    <a href="/blog/index.html"
+    
+    
+    >
+    Stories
+    </a>
+  </li>
+  
+  <li class="nav-item">
+    <a href="/guide/index.html"
+    
+    
+    class="nav-link active" aria-current="page"
+    
+    >
+    Guide
+    </a>
+  </li>
+  
+  <li class="nav-item">
+    <a href="/volunteering/index.html"
+    
+    
+    >
+    Community
+    </a>
+  </li>
+  
+  
+</ul>
+</nav>
+
+</div>
+
+
+<a href="/support/booking-page.html" class="fg-guide-sect">Book support</a>
+
+
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col">
+
+
+<div class="row bg-guide-sect">
+
+<div class="col-md-8" style="vertical-align: middle;">
+
+  <h1>
+  Differential equations
+  
+  </h1>
+
+<p></p>
+
+<div>
+   
 <div id="breadcrumbs">
-<h1 class="you-are-here">You are here</h1>
+<h2 class="you-are-here">You are here</h2>
 
 <a href="/">Home</a>
 
@@ -137,96 +307,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 </div>
-<div class="col-md-6">
 
-  <button href="#quickLinks" type="button" class="d-lg-none mysecondarybtn" data-toggle="collapse" data-target="#selector" aria-controls="selector" aria-expanded="false" aria-label="Quick links">
-    <span><i class="fas fa-bookmark fa-lg" aria-hidden="false"></i></span>
-  </button>
-<div class="collapse d-lg-block" id="selector">
-<div class="row">
-<div class="col-md-3">
-<div class="dropdown bg-my-nav">
-<button type="button" class="Read-More" data-toggle="collapse" data-target="#volume-selector" aria-haspopup="true">Volume</button>
-        <div class="dropdown-menu" id="volume-selector">
-  
-  
 
-          <a class="dropdown-item" href= "/guide/MPS/index.html" >Mathematical and Physical Sciences</a>
-  
+</div>
+<div class="col-md-4">
 
-          <a class="dropdown-item" href= "/guide/CL/index.html" >Digital Skills</a>
-  
+  <img src="/assets/images/covers/tulips-cover.jpeg" class="hero-image2" alt="Daniel and Danielle are standing on a platform, with vast fields of colourful tulips and a canal in the background. Both of them smile at the camera.">
+ 
+  </div>
 
 
 
-          <a class="dropdown-item" href= "/guide/cookbook/index.html" >Cookbook</a>
-  
-
-          <a class="dropdown-item" href= "/guide/vocal/index.html" >Vocal</a>
-  
-
-          <a class="dropdown-item" href= "/guide/training/index.html" >Training</a>
-  
-
-          <a class="dropdown-item" href= "/guide/community-projects/index.html" >Community Projects</a>
-  
-    
-</div>
-</div>
-
-</div>
-<div class="col-md-3">
-<div class="dropdown bg-my-nav">
-<button type="button" class="Read-More" data-toggle="collapse" data-target="#chapter-selector" aria-haspopup="true">Chapter</button>
-        <div class="dropdown-menu" id="chapter-selector">
-  
-  
-          <a class="dropdown-item" href="/guide/MPS/mathematics/index.html" >Mathematics</a>
-  
-          <a class="dropdown-item" href="/guide/MPS/mechanics/index.html" >Classical mechanics</a>
-  
-          <a class="dropdown-item" href="/guide/MPS/oscillations/index.html" >Oscillations</a>
-  
-          <a class="dropdown-item" href="/guide/MPS/quantum-mechanics/index.html" >Quantum mechanics</a>
-  
-    
-</div>
-</div>
-</div>
-<div class="col-md-3">
-<div class="dropdown bg-my-nav">
-<button type="button" class="Read-More" data-toggle="collapse" data-target="#section-selector" aria-haspopup="true">Section</button>
-        <div class="dropdown-menu" id="section-selector">
-  
-  
-          <a class="dropdown-item" href="/guide/MPS/mathematics/complex-numbers/index.html" >Complex numbers</a>
-  
-          <a class="dropdown-item" href="/guide/MPS/mathematics/differential-equations/index.html" >Differential equations</a>
-  
-  
-</div>
-</div>
-
-</div>
-<div class="col-md-3">
-<div class="dropdown bg-my-nav">
-<button type="button" class="Read-More" data-toggle="collapse" data-target="#note-selector" aria-haspopup="true">Note</button>
-        <div class="dropdown-menu" id="note-selector">
-  
-  
-          <a class="dropdown-item" href="" ></a>
-  
-  
-</div>
-</div>
 </div>
 </div>
 </div>
 
-</div>
-</div>
-</div>
-</div>
 <div class="row">
 <div class="col">
 
@@ -242,84 +337,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </div>
 </div>
-</div>
-<div class="col-md-2">
-  <button href="#sidebar" type="button" class="d-lg-none mysecondarybtn" data-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle sidebar">
-    <span><i class="fa-solid fa-circle-chevron-down" aria-hidden="false"></i></span>
-  </button>
-<div class="collapse d-lg-block bg-background" id="sidebar" aria-label="sidebar navigation">
-<div class="row">
-<div class="col">
-  
-  <div class="mybtnquick">
-  <a href= "/about/index.html" >What we do</a>
-  </div>
-  
-  <div class="mybtnquick">
-  <a href= "/about/team/index.html" >Who we are</a>
-  </div>
-  
-  <div class="mybtnquick">
-  <a href= "/contact/index.html" >Contact us and FAQs</a>
-  </div>
-  
-  </div>
-  </div>
-<div class="row">
-<div class="col">
-<div class="dropdown bg-my-nav">
-<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#products" aria-haspopup="true">Products & Services</button>
-        <div class="dropdown-menu" id="products">
-    
-          <a class="dropdown-item" href= "/volunteering/become-a-volunteer.html" >Become a volunteer</a>
-  
-          <a class="dropdown-item" href= "/support/index.html" >Book a support session</a>
-  
-          <a class="dropdown-item" href= "/support/pricing.html" >Pricing</a>
-  
-  </div>
-</div>
-<div class="dropdown bg-my-nav">
-<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#media" aria-haspopup="true">Media</button>
-        <div class="dropdown-menu" id="media">
-  
-          <a class="dropdown-item" href= "/about/news.html" >News</a>
-  
-          <a class="dropdown-item" href= "/blog/all-posts.html" >Posts</a>
-  
-</div>
-</div>
-<div class="dropdown bg-my-nav">
-<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#development" aria-haspopup="true">Development</button>
-        <div class="dropdown-menu" id="development">
-    
 
-                    <a class="dropdown-item" href= "/blog/logbook/dev/change-log.html" >Roadmap</a>
-                    
-  
 
-                    <a class="dropdown-item" href= "/blog/logbook/issues/2020/06/05/initialise.html" >Issues</a>
-                    
-  
-
-          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "https://github.com/dh256git/project27" >Git Hub</a>
-          
-  
-
-          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "http://p27skills.surge.sh" >Surge</a>
-          
-  
-
-          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "https://project27-knowledge-base.atlassian.net/wiki/home/" >Confluence</a>
-          
-  
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
   </header>
 
   <main role="main" id="mainContent" class="container bg-background">
@@ -356,7 +375,7 @@ Open the note on differential equations
 
 <div class="row">
 <div class="col-md-2">
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="margin: 10px" src="/assets/images/CC-88x31.png"/></a>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="margin: 10px" src="/assets/images/icons/CC-88x31.png"/></a>
 </div>
 <div class="col-md-10">
 Except where otherwise noted, articles of the <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Project27 Guide</span> are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License.</a>
@@ -380,10 +399,34 @@ Except where otherwise noted, articles of the <span xmlns:dct="http://purl.org/d
     <a href="/guidelines/index.html">Guidelines</a>
   </li>
   
-  <li>
-    <a href="/accessibility/index.html">Access</a>
-  </li>
   
+  <div class="dropdown bg-my-nav">
+<button type="button" class="mybtnswitch" data-bs-toggle="dropdown" aria-haspopup="true">Development</button>
+        <div class="dropdown-menu">
+    
+
+          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "https://github.com/dh256git/project27" >Git Hub</a>
+          
+  
+
+          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "http://p27skills.surge.sh" >Surge</a>
+          
+  
+
+          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "https://project27-knowledge-base.atlassian.net/wiki/home/" >Confluence</a>
+          
+  
+
+                    <a class="dropdown-item" href= "/blog/logbook/issues/2020/06/05/initialise.html" >Issues</a>
+                    
+  
+
+                    <a class="dropdown-item" href= "/blog/logbook/dev/change-log.html" >Roadmap</a>
+                    
+  
+</div>
+</div>
+
   </ul>
 </nav>
 </div>
@@ -462,12 +505,20 @@ Privacy policy
 </div>
 
 <div class="col">
-<p><a href="/blog/logbook/dev/change-log.html">Version: 1.0.0.</a></p>
+<p>
+<a href="/accessibility/index.html">
+Accessibility statement
+</a>
+</p>
+</div>
+
+<div class="col">
+<p><a href="/blog/logbook/dev/change-log.html">Version: 1.0.100.</a></p>
 </div>
 <div class="col">
 <p onclick="showTimeLastUpdated()">Last updated: 
-<span id="time-last-updated-show">28 Jan 2024.</span>
-<span id="time-last-updated-hide" class="hidden-text">16:51.</span>
+<span id="time-last-updated-show">06 Jul 2024.</span>
+<span id="time-last-updated-hide" class="hidden-text">20:11.</span>
 </p>
 </div>
 </div>
@@ -475,13 +526,9 @@ Privacy policy
 
 </footer>
 </div>
-<!-- Bootstrap dependency scripts -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
-    <!-- Mathematics script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<!-- Mathematics script -->
 <script type="text/x-mathjax-config">
 (function () {
 

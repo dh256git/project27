@@ -1,3 +1,36 @@
+.profile-pic-container {
+width: 150px;  /* Fixed width */
+height: 150px; /* Fixed height */
+border-radius: 50%; /* Make the image container circular */
+overflow: hidden; /* Ensure content does not overflow */
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.profile-pic {
+    width: 150px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    border-radius: 50%; /* Make the image circular */
+}
+
+.news-thumbnail {
+width: 100%;
+height: auto;
+max-width: 150px;
+}
+
+.hero-image{
+    position:relative;
+    height: 300px;
+}
+
+.hero-image2{
+    position:relative;
+     height: 220px;
+}
+
 .photo-of-daniel {
 width: 50%;
 } 

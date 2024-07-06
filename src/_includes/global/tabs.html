@@ -1,0 +1,15 @@
+<div role='tablist'>
+  <button role='tab' id='tab-blog' aria-controls='tabpanel-blog' onClick="setTab('blog')">{{ include.tab1 }}</button>
+  <button role='tab' id='tab-notes' aria-controls='tabpanel-notes' onClick="setTab('notes')">{{ include.tab2 }}</button>
+  <button role='tab' id='tab-team' aria-controls='tabpanel-team' onClick="setTab('team')">{{ include.tab3 }}</button>
+</div>
+
+<div role='tabpanel' id='tabpanel-blog' aria-labelledby='tab-blog'>
+  {{ include.tabpanel1 | markdownify }}
+</div>
+<div role='tabpanel' id='tabpanel-notes' aria-labelledby='tab-notes'>
+  {{ include.tabpanel2 | markdownify }}
+</div>
+<div role='tabpanel' id='tabpanel-team' aria-labelledby='tab-team'>
+  {{ include.tabpanel3 | markdownify }}
+</div>

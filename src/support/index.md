@@ -1,4 +1,5 @@
 ---
+permalink: /support/services/index.html
 layout: default
 title: Support
 tagline: Invest in a guide of your journey
@@ -9,6 +10,9 @@ licence: copyright
 announcement: Currently, there are no available sessions to book.
 buttonStyle: fg-general-vol
 backgroundStyle: bg-general-vol
+pitch: Book a one-time consultation with our experts to address your questions about blindness or learning disabilities. We offer tailored advice for parents and teachers, as well as tutoring and mentoring for disabled individuals. No membership required.
+hero-image: /assets/images/covers/support-cover.png
+hero-image-description: A cartoon hand holding a wrench and reaching out from a laptop screen.
 ---
 
 ## {{ page.title }}: {{ page.tagline }}
@@ -16,8 +20,6 @@ backgroundStyle: bg-general-vol
 We support blind or learning disabled people directly.
 For caretakers and professionals, who care for or work with our beneficiaries, we offer consultancy sessions.
 Moreover, we support researchers and businesses through project collaboration and co-creation.
-
-{% include global/cover-image.html image="support-cover.png" alt="A cartoon hand holding a wrench and reaching out from a laptop screen." %}
 
 ### Why get our support?
 
@@ -55,7 +57,7 @@ Through our Skill Studio, we can also help you select and schedule multiple type
 Amongst others, we can provide support in the following ways:
 
 1. mentoring: for those who just need a bit of general guidance and confidence building;
-2. tutoring: for people, who want to get hands-on and learn new skills in topics we endorse in the [{{ site.brand }} {{ site.product }};]({% link guide/index.html %})
+2. tutoring: for people, who want to get hands-on and learn new skills in topics we endorse in the [{{ site.brand }} {{ site.product }};]({% link guide/index.md %})
 3. consultancy: for parents, teachers, carers, disability advisors or whoever wishes to consult us with a specific question in mind;
 4. research: for specific questions, where we might need to do a bit of digging to come up with a solution, or build a demonstrator tool;
 5. referrals: for those occasions we don't know the solution to your challenges.

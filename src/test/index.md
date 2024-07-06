@@ -8,16 +8,11 @@ date: 2022-10-02
 licence: copyright
 buttonStyle: fg-general-vol
 backgroundStyle: bg-general-vol
+myList: ["apple", "orange", "banana"]
 ---
 
 ## {{ page.title }}
 
-{% capture test %}
-## Test area
-{% endcapture %}
 
-<div>
-
-{{ test | markdownify }}
-
-</div>
+{% assign dataFile = site.data.testimonials %}
+{% include global/carousel.html carouselDescription="A carousel of testimonials" %}

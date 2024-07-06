@@ -5,7 +5,6 @@ volume: digital skills
 levelToOpen: chapter
 buttonStyle: fg-guide-vol
 backgroundStyle: bg-guide-vol
-listOfIcons: [["", "Bash shell logo.png"], ["", "Github logo.png"], ["", "Markdown logo.png"], ["", "Jekyll logo.png"], ["", "Python logo.png"], ["", "Rlogo.png"]]
 ---
 
 {% comment %}

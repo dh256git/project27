@@ -1,0 +1,138 @@
+Home:
+
+  services: &services
+
+  - name: Sharing lived experience - Read our Stories!
+    icon: fas fa-pencil-alt
+    link: /blog/index.html
+    description: We share our lived experience of social participation with anyone in doubt of the incredible achievements disabled people are capable of bringing about at work, at home, and anywhere in-between.
+  - name: Publishing learning resources - Study our Guide!
+    icon: fas fa-compass
+    link: /guide/index.html
+    description: We enable blind or learning disabled people to learn and develop new skills in science, technology, lifestyle, and  media on their own, through a collection of accessible learning resources.
+  - name: Certifying work experience - Join our community!
+    icon: fa-solid fa-handshake
+    link: /volunteering/index.html
+    description: We support blind, learning disabled, and any non-disabled industry professional member of our community with identifying their passions, strengths, and areas of development in small teams; certifying every step of their personal and professional growth during active participation in building Project27. 
+  - name: Providing expert mentorship - Book ad-hoc Support!
+    icon: fa-solid fa-person-chalkboard
+    link: /support/services/index.html
+    description: Book a one-time consultation or a series of mentorship sessions with our experts to address your questions about blindness or learning disability. We offer tailored advice for disabled individuals, parents and teachers, as well as employers of disabled staff. No membership required.
+  - name: Co-designing solutions - Validate your research question!
+    icon: fas-lightbulb
+    link: /solutions/research-services/index.html
+    description: We enable researchers to understand the real problems blind or learning disabled people experience, through an iterative process of co-design and consultancy, such that the right research questions are addressed.
+  - name: Diffusing innovation - Be an early adopter!
+    icon: 
+    link: /solutions/innovation-services/index.html
+    description: We work with businesses to identify opportunities for innovation in accessibility, diffuse the latest research and development outputs, and scale solutions that work for blind or learning disabled people.
+  - name: Knowledge exchange - Disseminate your project learnings!
+    icon: 
+    link: /solutions/projects/index.html
+    description: We help researchers and businesses with knowledge exchange, disseminating project learnings, and engaging with other stakeholders, through our blog and network.
+
+Stories:
+
+  - collection: &collection1
+
+    name: Science & Technology
+    editor: Daniel Hajas
+    editorLink: /about/team/Daniel/index.html
+    description: Stories of science and technology share our experiences of learning about web design, tools for consuming and creating accessible science content, and emerging technologies through the lens of blind people. 
+    volumes:
+
+    - name: Web design & Web accessibility
+      icon: fas fa-sitemap
+      link: /blog/logbook/dev/index.html
+      description: Here, I aim to log challenges and solutions encountered while building the Project27 website with our community.
+    - name: Issue tracking
+      icon: fas fa-exclamation-triangle
+      link: /blog/logbook/issues/index.html
+      description: Then there is a general page to track issues. This can be issues with the quality of the creative content, issues with web development, or issues with accessibility. Some of this issue tracking will happen through short posts, and some will happen through more robust methods, such as GitHub's own issue tracking. Yes, I know. Issue is an overused word. Issue-Issue-Issue... Any issues with that?
+
+  - collection: &collection2
+
+    name: Lifestyle
+    editor: Danielle Garratt
+    editorLink: /about/team/Danielle/index.html
+    description: We share the Way we See Things, as people with lived experience of disability. We would like to encourage people with sight-loss, learning disabilities, their families, teachers, and friends to adopt a growth mindset and enjoy social participation. We want to be open, and lead by example.
+    volumes:
+
+    - name: Living with disabilities
+      icon: fas fa-blind
+      link: /blog/twist/disabilities/index.html
+      description: Living with disabilities is an adventure. There are so many things in life that give us the opportunity to think about how different people with different needs approach their adventure. Let it be a bus journey, a long weekend in the woods, or a sailing trip across the Atlantic, we like to speculate on one or another journey of our lives.
+    - name: Identities
+      icon: fas fa-people-arrows
+      link: /blog/twist/identities/index.html
+      description: I am not just I. I am Me, myself, and I. I believe it is important to understand that we can not stick labels on people. The way we see a person is as a collection of identities. Through these set of scribbles, we’d like to illustrate this point through our own identities. As our founder’s good friend once said - ‘Daniel, you are 50 shades of Daniel’.
+    - name: Reading
+      icon: fas fa-book
+      link: /blog/twist/reading/index.html
+      description: Once you know yourself, yes, all many of yourselves, it is time to get to know others. Luckily, the greatest invention of time - writing - enable you and I to meet, and have a conversation with anyone. Well, anyone who decided to publish a book. Here, we’ll attempt to paint a picture of the conversations between book authors and Project27 community members.
+    - name: Special interests
+      icon: fas fa-satellite
+      link: /blog/twist/special-interests/index.html
+      description: As we learn new skills, we discover new interests. Special interests cover topics, such as entrepreneurship, science communication, haptics, self-advocacy, and more.
+
+Guide:
+
+  - collection: &collection1
+
+    name: Science & Technology
+    editor: Daniel Hajas
+    editorLink: /about/team/Daniel/index.html
+    description: In our science and technology collection we publish screen reader accessible notes on studying mathematical and physical sciences, as well as using digital tools. We recognise the importance of accessible science, technology, engineering, and mathematics (STEM) resources, as prerequisites of skills development and employment. The collection is intended for young blind people interested in studying or working in science and technology.
+    volumes:
+
+    - name: Analytical Skills
+      icon: fas fa-atom
+      link: /guide/MPS/index.html
+      description: This volume addresses development of analytical skills through mathematical and physical sciences. Chapters include screen reader accessible notes on topics, such as complex numbers or dynamics, most relevant to blind science undergraduates and high-school students.
+    - name: Digital Skills
+      icon: fas fa-desktop
+      link: /guide/CL/index.html
+      description: Our digital skills volume includes screen reader accessible notes on learning how to use tools, such as the command-line, git version control, or web technologies by blind individuals.
+    - name: Statistics
+      icon: fas fa-chart-line
+      link: /guide/statistics/index.html
+      description: A volume of notes on how statistical calculations work. Theory and practice are both included.
+
+  - collection: &collection2
+
+    name: Lifestyle & Media
+    editor: Danielle Garratt
+    editorLink: /about/team/Danielle/index.html
+    description: Our lifestyle and media collection includes engaging content  related to cooking, social occasions, and storytelling. We recognise the importance of social interaction, self-advocacy, and human voices. Cooking and sharing stories is a great way to bond, build confidence, and develop social skills.
+    volumes:
+
+    - name: Social Skills
+      icon: fas fa-utensils
+      link: /guide/cookbook/index.html
+      description: People living with disabilities can indeed cook delicious meals and host unforgettable get-togethers. We show how in our social skills volume, through a crowd sourced cookbook, written by our community.
+    - name: Media Skills
+      icon: fas fa-record-vinyl
+      link: /guide/vocal/index.html
+      description: The media skills volume includes chapters related to journalism, multimedia, and storytelling. Amongst others, it is an album of voices, ranging from short biographies to recorded conversations. We speak with family, friends, and acquaintances, portraying diverse life stories. The content is intended for learning disabled people, interested in media, storytelling, and art.
+
+  - collection: &collection3
+
+    name: Training & Community Projects
+    editor: Danielle Garratt
+    editorLink: /about/team/Danielle/index.html
+    description: Our community members have a dedicated collection for finding training exercises, hosting their community projects, and showcasing the skills they have developed through our trainee programme.. We recognise the importance of bespoke training and personal projects, tailored to the motivation and interest of individual trainees.
+    volumes:
+
+    - name: Training Exercises
+      icon: fas fa-graduation-cap
+      link: /guide/training/index.html
+      description: This volume is a collection of training resources used by our trainees, when they join our community. Members can train in their own topic of interest, through a blend of bespoke and standard skills development exercises.
+    - name: Community Projects
+      icon: fas fa-hands-holding-circle
+      link: /guide/community-projects/index.html
+      description: This volume is home to projects created by our community members, during the intern stage of their skills development journey. Trainees can use a chapter of this volume to socialise their projects, by posting in the project blog, sharing related learning resources, and recruiting team members.
+
+Community:
+
+  - team1: &team1
+    name: Core team

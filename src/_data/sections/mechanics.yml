@@ -1,6 +1,8 @@
 - name: Kinematics
+  icon: Kinematics.jpg
   link: /guide/MPS/mechanics/kinematics/index.html
   description: Kinematics is the branch of mechanics concerned with the motion of objects without reference to the forces which cause the motion.
 - name: Dynamics
+  icon: Dynamics.png
   link: /guide/MPS/mechanics/dynamics/index.html
   description: Dynamics is the branch of mechanics concerned with the motion of bodies under the action of forces.

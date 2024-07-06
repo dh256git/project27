@@ -1,26 +1,32 @@
 <!doctype html>
 <html lang="en">
   <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> News archive</title>
+
 <!-- scripts for vega lite -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2/build/vega.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0/build/vega-lite.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <!-- olli -->
-  <script src="https://cdn.jsdelivr.net/npm/olli@1"></script>
-  <script src="https://cdn.jsdelivr.net/npm/olli-adapters@1"></script>
-  
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/olli@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/olli-adapters@2"></script>
 
-    <title> News archive</title>
 
 <!--Custom style sheets-->
         <link rel="stylesheet" href="/assets/css/main.css">
 
+<!-- Bootstrap 5.3 stylesheets -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 <!--font awesome icons-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+<!-- analytics -->
 
 <!-- Google Tag -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ET7GNZ55YP"></script>
@@ -47,7 +53,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column bg-background">
+<div class="container-lg">
   <header class="bg-background">
 <div class="row">
 <div class="col-md-6" id="skip">
@@ -59,62 +65,224 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 <div class="row">
-<div class="col-md-10">
-<div class="row">
-<div class="col-md-8">
-      <div class="masthead-brand">
+<div class="col">
+
 <a href="/index.html" class="navbar-brand">
-      <img src="/assets/images/Project27 logo.png" alt="Project 27 logo" class="logo" width="60px" height="auto">
+      <img src="/assets/images/Project27 logo.png" alt="Project 27 Skills logo" class="logo" width="60px" height="auto">
       </a>
       Skills that matter
-      </div>
-</div>
-<div class="col-md-4">
-<div class="navbar navbar-expand-md bg-nav-header">
-  <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#primaryNavigation" aria-controls="primaryNavigation" aria-expanded="false" aria-label="Toggle global navigation">
-    <span class="fa-solid fa-bars"></span>
-  </button>
-        <div class="collapse navbar-collapse" id="primaryNavigation">
-      <nav class="navbar-dark" tabindex="0" aria-label="Global">
-<ul class="navbar-nav" role="menubar">
-  
-  
-  <li>
-    <a href="/blog/index.html">Blog</a>
-  </li>
-  
-  
-  
-  <li>
-    <a href="/guide/index.html">Guide</a>
-  </li>
-  
-  
-  
-  <li>
-    <a href="/volunteering/index.html">Community</a>
-  </li>
-  
-  
-  
-  <li>
-  <a target="_blank" rel="noreferrer noopenner" href="https://research.project27skills.com">Solutions</a>
-  </li>
-  
-  
-  </ul>
-  </nav>
+      
 </div>
 </div>
-</div>
-</div>
+
 <div class="row">
 <div class="col">
-<div class="row bg-general-chap">
-<div class="col-md-6">
+      <div class="navbar navbar-expand-md bg-nav-header">
 
+  <button type="button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNavigation" aria-controls="primaryNavigation"
+   aria-expanded="false" aria-label="Toggle global navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="primaryNavigation">
+
+      <nav class="navbar-dark" tabindex="0" aria-label="Global">
+        <ul class="navbar-nav" role="menubar">
+       
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">What we do</a>
+        <div class="dropdown-menu" aria-label="What we do">
+  
+          <a href= "/about/index.html"
+          
+          
+          class="dropdown-item active" aria-current="item"
+          
+          >
+          Developing skills that matter (P27 Skills)
+          </a>
+  
+          <a href= "/solutions/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Co-designing solutions that work (P27 Solutions)
+          </a>
+  
+</div>
+</li>
+  
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">Who we are</a>
+        <div class="dropdown-menu" aria-label="Who we are">
+  
+          <a href= "/about/team/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Meet the team
+          </a>
+  
+          <a href= "/about/partners/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Meet our partners
+          </a>
+  
+</div>
+</li>
+  
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">Media</a>
+        <div class="dropdown-menu" aria-label="Media">
+  
+          <a href= "/about/news/index.html"
+          
+          
+          class="dropdown-item active" aria-current="item"
+          
+          >
+          News
+          </a>
+  
+          <a href= "/blog/all-posts.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Posts
+          </a>
+  
+          <a href= "https://youtube.com/@project27skills"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Podcasts
+          </a>
+  
+</div>
+</li>
+  
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">Contact us</a>
+        <div class="dropdown-menu" aria-label="Contact us">
+  
+          <a href= "/contact/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Get in touch
+          </a>
+  
+          <a href= "/my-question"
+          
+          
+          class="dropdown-item"
+          
+          >
+          I've got a question
+          </a>
+  
+          <a href= "/consult-me"
+          
+          
+          class="dropdown-item"
+          
+          >
+          I've got a suggestion
+          </a>
+  
+          <a href= "/contact/index.html#FAQ"
+          
+          
+          class="dropdown-item"
+          
+          >
+          FAQs
+          </a>
+  
+</div>
+</li>
+
+</ul>
+</nav>
+
+      <nav class="navbar-dark" tabindex="0" aria-label="Context">
+        <ul class="navbar-nav" role="menubar">
+
+  
+  <li class="nav-item">
+    <a href="/blog/index.html"
+    
+    
+    >
+    Stories
+    </a>
+  </li>
+  
+  <li class="nav-item">
+    <a href="/guide/index.html"
+    
+    
+    >
+    Guide
+    </a>
+  </li>
+  
+  <li class="nav-item">
+    <a href="/volunteering/index.html"
+    
+    
+    >
+    Community
+    </a>
+  </li>
+  
+  
+</ul>
+</nav>
+
+</div>
+
+
+<a href="/support/booking-page.html" class="fg-general-chap">Book support</a>
+
+
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col">
+
+
+<div class="row bg-general-chap">
+
+<div class="col-md-8" style="vertical-align: middle;">
+
+  <h1>
+  News archive
+  
+  </h1>
+
+<p>Find all of our news in one convenient place. Want to receive our quorterly newsletter straight in your inbox? Sign up in the footer.</p>
+
+<div>
+   
 <div id="breadcrumbs">
-<h1 class="you-are-here">You are here</h1>
+<h2 class="you-are-here">You are here</h2>
 
 <a href="/">Home</a>
 
@@ -129,12 +297,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 </div>
-<div class="col-md-6">
+
+
+</div>
+<div class="col-md-4">
+
+  <img src="/assets/images/covers/tulips-cover.jpeg" class="hero-image2" alt="Daniel and Danielle are standing on a platform, with vast fields of colourful tulips and a canal in the background. Both of them smile at the camera.">
+ 
+  </div>
+
+
 
 </div>
 </div>
 </div>
-</div>
+
 <div class="row">
 <div class="col">
 
@@ -155,232 +332,153 @@ beta version.
 
 </div>
 </div>
-</div>
-<div class="col-md-2">
-  <button href="#sidebar" type="button" class="d-lg-none mysecondarybtn" data-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle sidebar">
-    <span><i class="fa-solid fa-circle-chevron-down" aria-hidden="false"></i></span>
-  </button>
-<div class="collapse d-lg-block bg-background" id="sidebar" aria-label="sidebar navigation">
-<div class="row">
-<div class="col">
-  
-  <div class="mybtnquick">
-  <a href= "/about/index.html" >What we do</a>
-  </div>
-  
-  <div class="mybtnquick">
-  <a href= "/about/team/index.html" >Who we are</a>
-  </div>
-  
-  <div class="mybtnquick">
-  <a href= "/contact/index.html" >Contact us and FAQs</a>
-  </div>
-  
-  </div>
-  </div>
-<div class="row">
-<div class="col">
-<div class="dropdown bg-my-nav">
-<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#products" aria-haspopup="true">Products & Services</button>
-        <div class="dropdown-menu" id="products">
-    
-          <a class="dropdown-item" href= "/volunteering/become-a-volunteer.html" >Become a volunteer</a>
-  
-          <a class="dropdown-item" href= "/support/index.html" >Book a support session</a>
-  
-          <a class="dropdown-item" href= "/support/pricing.html" >Pricing</a>
-  
-  </div>
-</div>
-<div class="dropdown bg-my-nav">
-<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#media" aria-haspopup="true">Media</button>
-        <div class="dropdown-menu" id="media">
-  
-          <a class="dropdown-item" href= "/about/news.html" >News</a>
-  
-          <a class="dropdown-item" href= "/blog/all-posts.html" >Posts</a>
-  
-</div>
-</div>
-<div class="dropdown bg-my-nav">
-<button type="button" class="mybtnswitch" data-toggle="collapse" data-target="#development" aria-haspopup="true">Development</button>
-        <div class="dropdown-menu" id="development">
-    
 
-                    <a class="dropdown-item" href= "/blog/logbook/dev/change-log.html" >Roadmap</a>
-                    
-  
 
-                    <a class="dropdown-item" href= "/blog/logbook/issues/2020/06/05/initialise.html" >Issues</a>
-                    
-  
-
-          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "https://github.com/dh256git/project27" >Git Hub</a>
-          
-  
-
-          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "http://p27skills.surge.sh" >Surge</a>
-          
-  
-
-          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "https://project27-knowledge-base.atlassian.net/wiki/home/" >Confluence</a>
-          
-  
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
   </header>
 
   <main role="main" id="mainContent" class="container bg-background">
- <h2 id="news-archive">News archive</h2>
+ <div class="container mt-5">
 
-<p>All the Project27 Skills news in one place.</p>
-
-<hr />
-
-<div class="feed">
-
-<div class="row">
-<div class="col-3">
-<img src="/assets/images/news/December.jpg" alt="A cartoon illustration of a board meeting with people sitting around a conference table, and a person pointing at the word 'meeting' written on a whiteboard." class="thumbnail-image" />
+<div class="row news-item">
+<div class="col-12 col-md-3">
+<img src="/assets/images/news/December.jpg" alt="A cartoon illustration of a board meeting with people sitting around a conference table, and a person pointing at the word 'meeting' written on a whiteboard." class="news-thumbnail img-fluid" />
 </div>
-<div class="col-9">
-<p><a href="/news-in-december.html">Ending the year with our inaugural advisory board meeting</a></p>
-<p>31 Dec 2023</p>
+<div class="col-12 col-md-9">
+<h4><a href="/news-in-december.html">Ending the year with our inaugural advisory board meeting</a></h4>
+<p class="mb-1">We asked our critical and trusted friends with plenty of relevant expertise to keep our thinking on track. Read more about why this matters to us.</p>
+<small class="text-muted">31 Dec 2023</small>
 </div>
 </div>
 
-<div class="row">
-<div class="col-3">
-<img src="/assets/images/news/November.jpg" alt="Daniel and Jonathan are presenting on a conference stage." class="thumbnail-image" />
+<div class="row news-item">
+<div class="col-12 col-md-3">
+<img src="/assets/images/news/November.jpg" alt="Daniel and Jonathan are presenting on a conference stage." class="news-thumbnail img-fluid" />
 </div>
-<div class="col-9">
-<p><a href="/news-in-november.html">We presented Olli v2.0 at Info Plus 2023</a></p>
-<p>30 Nov 2023</p>
-</div>
-</div>
-
-<div class="row">
-<div class="col-3">
-<img src="/assets/images/news/October.png" alt="A screenshot of the new tab panel on Danielle's profile page, showing tabs, such as education, employment, or self-advocacy." class="thumbnail-image" />
-</div>
-<div class="col-9">
-<p><a href="/news-in-october.html">Introducing tabs - A new look on our profile pages</a></p>
-<p>31 Oct 2023</p>
+<div class="col-12 col-md-9">
+<h4><a href="/news-in-november.html">Launching Olli v2.0 at Info Plus 2023</a></h4>
+<p class="mb-1">We gave a presentation on the latest advancements of Olli, an accessible data visualisation tool co-designed with the MIT Visualisation Group.</p>
+<small class="text-muted">30 Nov 2023</small>
 </div>
 </div>
 
-<div class="row">
-<div class="col-3">
-<img src="/assets/images/news/september.jpg" alt="An illustration of a robot flying over a computer motherboard." class="thumbnail-image" />
+<div class="row news-item">
+<div class="col-12 col-md-3">
+<img src="/assets/images/news/October.png" alt="A screenshot of the new tab panel on Danielle's profile page, showing tabs, such as education, employment, or self-advocacy." class="news-thumbnail img-fluid" />
 </div>
-<div class="col-9">
-<p><a href="/news-in-september.html">A new recruit - Experimenting with AI tools</a></p>
-<p>30 Sep 2023</p>
-</div>
-</div>
-
-<div class="row">
-<div class="col-3">
-<img src="/assets/images/news/august.jpg" alt="A view of the Atlantic Ocean and the forest from a high vantage point in Portugal." class="thumbnail-image" />
-</div>
-<div class="col-9">
-<p><a href="/news-in-august.html">We took a break. So who wrote this?</a></p>
-<p>31 Aug 2023</p>
+<div class="col-12 col-md-9">
+<h4><a href="/news-in-october.html">Introducing tabs - A new look on our profile pages</a></h4>
+<p class="mb-1">We learnt how to organise content into tabs and started testing how it feels to visitors of our site. Let us know what you think.</p>
+<small class="text-muted">31 Oct 2023</small>
 </div>
 </div>
 
-<div class="row">
-<div class="col-3">
-<img src="/assets/images/news/july.png" alt="A screenshot of the Companies House website, showing the registered company number and company name of Project27 Consultancy Group C.I.C." class="thumbnail-image" />
+<div class="row news-item">
+<div class="col-12 col-md-3">
+<img src="/assets/images/news/september.jpg" alt="An illustration of a robot flying over a computer motherboard." class="news-thumbnail img-fluid" />
 </div>
-<div class="col-9">
-<p><a href="/news-in-july.html">Successful registration of the Project27 C.I.C.</a></p>
-<p>31 Jul 2023</p>
-</div>
-</div>
-
-<div class="row">
-<div class="col-3">
-<img src="/assets/images/news/june.png" alt="Podcast mics attached to stands on a table, wired to an audio interface and a laptop." class="thumbnail-image" />
-</div>
-<div class="col-9">
-<p><a href="/news-in-june.html">Gearing up for multimedia content</a></p>
-<p>30 Jun 2023</p>
+<div class="col-12 col-md-9">
+<h4><a href="/news-in-september.html">A new recruit - Experimenting with AI tools</a></h4>
+<p class="mb-1">Generative AI showed up on our doorstep too. We are experimenting with ways to scaffold our content creation workflows, without losing originality.</p>
+<small class="text-muted">30 Sep 2023</small>
 </div>
 </div>
 
-<div class="row">
-<div class="col-3">
-<img src="/assets/images/news/YT-P27.png" alt="The YouTube and Project27 logos placed side-by-side." class="thumbnail-image" />
+<div class="row news-item">
+<div class="col-12 col-md-3">
+<img src="/assets/images/news/august.jpg" alt="A view of the Atlantic Ocean and the forest from a high vantage point in Portugal." class="news-thumbnail img-fluid" />
 </div>
-<div class="col-9">
-<p><a href="/blog/logbook/dev/2023/05/31/youtube.html">Making space for video content</a></p>
-<p>31 May 2023</p>
-</div>
-</div>
-
-<div class="row">
-<div class="col-3">
-<img src="/assets/images/news/Project27 logo.png" alt="A circular design with Project 27 Skills written in the middle of the logo. The black background is outlined with a grey and a green ring." class="thumbnail-image" />
-</div>
-<div class="col-9">
-<p><a href="/blog/logbook/dev/2023/04/30/logo.html">Introducing our initial logo design</a></p>
-<p>30 Apr 2023</p>
+<div class="col-12 col-md-9">
+<h4><a href="/news-in-august.html">We took a break. So who wrote this?</a></h4>
+<p class="mb-1">Not much happened this month, but we couldn't resist playing with some gadgets. Say hello to AI.</p>
+<small class="text-muted">31 Aug 2023</small>
 </div>
 </div>
 
-<div class="row">
-<div class="col-3">
-<img src="/assets/images/news/LDE-2023.jpg" alt="Danielle on stage, delivering a keynote." class="thumbnail-image" />
+<div class="row news-item">
+<div class="col-12 col-md-3">
+<img src="/assets/images/news/july.png" alt="A screenshot of the Companies House website, showing the registered company number and company name of Project27 Consultancy Group C.I.C." class="news-thumbnail img-fluid" />
 </div>
-<div class="col-9">
-<p><a href="/blog/twist/special-interests/2023/03/31/LDE-LBS.html">Taking the stage at Learning Disability England</a></p>
-<p>31 Mar 2023</p>
-</div>
-</div>
-
-<div class="row">
-<div class="col-3">
-<img src="/assets/images/news/bug.jpg" alt="A computer screen filled with bugs, with a magnifier over one of them." class="thumbnail-image" />
-</div>
-<div class="col-9">
-<p><a href="/blog/logbook/issues/2020/06/05/initialise.html">We have updated our issue tracking processes</a></p>
-<p>28 Feb 2023</p>
+<div class="col-12 col-md-9">
+<h4><a href="/news-in-july.html">Successful registration of the Project27 C.I.C.</a></h4>
+<p class="mb-1">It's official. We are a community interest company now. We want to challenge ourselves, and want you to trust us. We are serious about Project27.</p>
+<small class="text-muted">31 Jul 2023</small>
 </div>
 </div>
 
-<div class="row">
-<div class="col-3">
-<img src="/assets/images/news/domain.jpg" alt="A mouse pointer highlighting the abbreviations of http and www." class="thumbnail-image" />
+<div class="row news-item">
+<div class="col-12 col-md-3">
+<img src="/assets/images/news/june.png" alt="Podcast mics attached to stands on a table, wired to an audio interface and a laptop." class="news-thumbnail img-fluid" />
 </div>
-<div class="col-9">
-<p><a href="/blog/logbook/dev/2022/12/14/google-analytics.html">New milestone by way of a custom domain</a></p>
-<p>31 Jan 2023</p>
-</div>
-</div>
-
-<div class="row">
-<div class="col-3">
-<img src="/assets/images/news/danielle-award.jpg" alt="Danielle is holding an award, in front of a white wall." class="thumbnail-image" />
-</div>
-<div class="col-9">
-<p><a href="/blog/twist/disabilities/2022/12/02/award.html">Danielle wins award for leadership in self-advocacy</a></p>
-<p>31 Dec 2022</p>
+<div class="col-12 col-md-9">
+<h4><a href="/news-in-june.html">Gearing up for multimedia content</a></h4>
+<p class="mb-1">One step closer. In addition to the YouTube channel, we also invested in a couple of quality microphones. Time to hit record.</p>
+<small class="text-muted">30 Jun 2023</small>
 </div>
 </div>
 
-<div class="row">
-<div class="col-3">
-<img src="/assets/images/news/look-icon.jpg" alt="The logo of Look UK" class="thumbnail-image" />
+<div class="row news-item">
+<div class="col-12 col-md-3">
+<img src="/assets/images/news/YT-P27.png" alt="The YouTube and Project27 logos placed side-by-side." class="news-thumbnail img-fluid" />
 </div>
-<div class="col-9">
-<p><a href="">Daniel selected as mentor of the month by Look UK</a></p>
-<p>30 Nov 2022</p>
+<div class="col-12 col-md-9">
+<h4><a href="/blog/logbook/dev/2023/05/31/youtube.html">Making space for video content</a></h4>
+<p class="mb-1">We thought about how to reach more people, and we landed on complementing our written content with videos and podcasts. As a first step, we created a YouTube channel to host it all.</p>
+<small class="text-muted">31 May 2023</small>
+</div>
+</div>
+
+<div class="row news-item">
+<div class="col-12 col-md-3">
+<img src="/assets/images/news/Project27 logo.png" alt="A circular design with Project 27 Skills written in the middle of the logo. The black background is outlined with a grey and a green ring." class="news-thumbnail img-fluid" />
+</div>
+<div class="col-12 col-md-9">
+<h4><a href="/blog/logbook/dev/2023/04/30/logo.html">Introducing our initial logo design</a></h4>
+<p class="mb-1">As we are defining ourselves, we created a visual identifier. What do you think of our logo?</p>
+<small class="text-muted">30 Apr 2023</small>
+</div>
+</div>
+
+<div class="row news-item">
+<div class="col-12 col-md-3">
+<img src="/assets/images/news/LDE-2023.jpg" alt="Danielle on stage, delivering a keynote." class="news-thumbnail img-fluid" />
+</div>
+<div class="col-12 col-md-9">
+<h4><a href="/blog/twist/special-interests/2023/03/31/LDE-LBS.html">Taking the stage at Learning Disability England</a></h4>
+<p class="mb-1">Danielle, our CEO, gave a talk on self-advocacy at the annual Learning Disability England conference.</p>
+<small class="text-muted">31 Mar 2023</small>
+</div>
+</div>
+
+<div class="row news-item">
+<div class="col-12 col-md-3">
+<img src="/assets/images/news/bug.jpg" alt="A computer screen filled with bugs, with a magnifier over one of them." class="news-thumbnail img-fluid" />
+</div>
+<div class="col-12 col-md-9">
+<h4><a href="/blog/logbook/issues/2020/06/05/initialise.html">We have updated our issue tracking processes</a></h4>
+<p class="mb-1">Nobody is perfect. That's why we want to make it easy for you to report issues. We'll address these as best as we can.</p>
+<small class="text-muted">28 Feb 2023</small>
+</div>
+</div>
+
+<div class="row news-item">
+<div class="col-12 col-md-3">
+<img src="/assets/images/news/domain.jpg" alt="A mouse pointer highlighting the abbreviations of http and www." class="news-thumbnail img-fluid" />
+</div>
+<div class="col-12 col-md-9">
+<h4><a href="/blog/logbook/dev/2022/12/14/google-analytics.html">New milestone by way of a custom domain</a></h4>
+<p class="mb-1">Until now we kept our website under wraps. Now, you can find the beta version at a more user friendly internet address.</p>
+<small class="text-muted">31 Jan 2023</small>
+</div>
+</div>
+
+<div class="row news-item">
+<div class="col-12 col-md-3">
+<img src="/assets/images/news/danielle-award.jpg" alt="Danielle is holding an award, in front of a white wall." class="news-thumbnail img-fluid" />
+</div>
+<div class="col-12 col-md-9">
+<h4><a href="/blog/twist/disabilities/2022/12/02/award.html">Danielle wins award for leadership in self-advocacy</a></h4>
+<p class="mb-1">The team is very proud of Danielle, our CEO, for taking the Dimensions  Leadership award home.</p>
+<small class="text-muted">31 Dec 2022</small>
 </div>
 </div>
 
@@ -405,7 +503,7 @@ beta version.
 
 <div class="row">
 <div class="col-md-2">
-<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="margin: 10px" src="/assets/images/CC-88x31.png"/></a>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons Licence" style="margin: 10px" src="/assets/images/icons/CC-88x31.png"/></a>
 </div>
 <div class="col-md-10">
 Except where otherwise noted, <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Project27</span> materials hosted by <a xmlns:cc="http://creativecommons.org/ns#" href="/about/team/Daniel/index.html" property="cc:attributionName" rel="cc:attributionURL">Daniel Hajas</a> are licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License.</a>
@@ -429,10 +527,34 @@ Except where otherwise noted, <span xmlns:dct="http://purl.org/dc/terms/" proper
     <a href="/guidelines/index.html">Guidelines</a>
   </li>
   
-  <li>
-    <a href="/accessibility/index.html">Access</a>
-  </li>
   
+  <div class="dropdown bg-my-nav">
+<button type="button" class="mybtnswitch" data-bs-toggle="dropdown" aria-haspopup="true">Development</button>
+        <div class="dropdown-menu">
+    
+
+          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "https://github.com/dh256git/project27" >Git Hub</a>
+          
+  
+
+          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "http://p27skills.surge.sh" >Surge</a>
+          
+  
+
+          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "https://project27-knowledge-base.atlassian.net/wiki/home/" >Confluence</a>
+          
+  
+
+                    <a class="dropdown-item" href= "/blog/logbook/issues/2020/06/05/initialise.html" >Issues</a>
+                    
+  
+
+                    <a class="dropdown-item" href= "/blog/logbook/dev/change-log.html" >Roadmap</a>
+                    
+  
+</div>
+</div>
+
   </ul>
 </nav>
 </div>
@@ -511,12 +633,20 @@ Privacy policy
 </div>
 
 <div class="col">
-<p><a href="/blog/logbook/dev/change-log.html">Version: 1.0.0.</a></p>
+<p>
+<a href="/accessibility/index.html">
+Accessibility statement
+</a>
+</p>
+</div>
+
+<div class="col">
+<p><a href="/blog/logbook/dev/change-log.html">Version: 1.0.100.</a></p>
 </div>
 <div class="col">
 <p onclick="showTimeLastUpdated()">Last updated: 
-<span id="time-last-updated-show">28 Jan 2024.</span>
-<span id="time-last-updated-hide" class="hidden-text">16:51.</span>
+<span id="time-last-updated-show">06 Jul 2024.</span>
+<span id="time-last-updated-hide" class="hidden-text">20:11.</span>
 </p>
 </div>
 </div>
@@ -524,13 +654,9 @@ Privacy policy
 
 </footer>
 </div>
-<!-- Bootstrap dependency scripts -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
-    <!-- Mathematics script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<!-- Mathematics script -->
 <script type="text/x-mathjax-config">
 (function () {
 

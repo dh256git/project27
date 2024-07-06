@@ -1,5 +1,5 @@
 <div id="breadcrumbs">
-<h1 class="you-are-here">You are here</h1>
+<h2 class="you-are-here">You are here</h2>
 {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
 <a href="{{ '/' | prepend: site.baseurl }}">{{ 'Home' | capitalize }}</a>
 {% for crumb in crumbs offset: 1 %}

@@ -1,0 +1,29 @@
+<script>
+
+    setTab('{{ include.selectedTabID }}');
+  
+    function setTab(tabName) {
+      console.log(tabName);
+      const allTabButtons = document.querySelectorAll('button[role=tab]');
+  
+      const tabButtonId = 'tab-' + tabName;
+      const selectedTabButton = document.getElementById(tabButtonId);
+  
+      allTabButtons.forEach((tabButton) => {
+        tabButton.setAttribute('aria-selected', false);
+      });
+      selectedTabButton.setAttribute('aria-selected', true);
+  
+      const allTabPanels = document.querySelectorAll('[role=tabpanel]');
+  
+      const tabPanelId = 'tabpanel-' + tabName;
+      const selectedTabPanel = document.getElementById(tabPanelId);
+  
+      allTabPanels.forEach((tabPanel) => {
+        tabPanel.setAttribute('hidden', true);
+      });
+      selectedTabPanel.removeAttribute('hidden');
+  
+      console.log(tabName, selectedTabButton, selectedTabPanel)
+    }
+  </script>

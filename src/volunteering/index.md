@@ -8,6 +8,9 @@ date: 2022-10-02
 licence: copyright
 buttonStyle: fg-general-vol
 backgroundStyle: bg-general-vol
+pitch: We support blind or learning disabled trainees to develop skills that matter, through certifying their active involvement in training exercises and our community projects. Tasks are created by  industry professionals, leading small entrepreneurial teams of trainees, providing mentorship, and encouraging peer support.
+hero-image: /assets/images/covers/volunteering-cover.jpg
+hero-image-description: A drawn tree, with handprints as leaves on the branches.
 ---
 
 {% include community/overview.md %}
@@ -35,13 +38,13 @@ volunteer,
  <a href="#tab-trainees" onClick="setTab('trainees')">
 trainee.
 </a>
-Our members 
+The trainee programme helps blind or learning disabled people to learn through peer support and mentoring.
+Anyone can volunteer, as long as they are joining us to support trainees through their professional experience. 
+Our members, volunteers and trainees alike, come to 
 <a href="#tab-skills" onClick="setTab('skills')">
 develop skills that matter,
 </a>
- through bespoke training, completing tasks, and working in teams.
-
-{% include global/cover-image.html image="volunteering-cover.jpg" alt="A drawn tree, with handprints as leaves on the branches." %}
+ through bespoke training, creating and completing tasks, and working in disability inclusive teams.
 
 ## Book a support session
 
@@ -49,7 +52,7 @@ Membership is not required to get support from us.
 We offer bookable, paid support sessions for anyone who wants to get advice on topics related to blindness or learning disability.
 The first session is free for everyone, creating an opportunity for introductions and an assessment of your support needs.
 
-{% include global/buttonLink.html url="/support/index.html" label="View our ad hoc support offer" %}
+{% include global/buttonLink.html url="/support/services/index.html" label="View our ad hoc support offer" %}
 
 <div role='tablist'>
   <button role='tab' id='tab-overview' aria-controls='tabpanel-overview' onClick="setTab('overview')">Overview</button>

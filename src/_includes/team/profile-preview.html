@@ -1,17 +1,19 @@
-{% for item in teamMembers %}
-<div class="profilecontainertitle">
-<h4>{{ item.name }} - {{ site.brand }} {{ item.role }}</h4>
-</div>
-
-<div class="profilecontainer">
-<img src="{{ item.photo | prepend: site.baseurl }}" class="profile-photo" alt="{{ item.alt }}" height="300px" width="200px">
-
-{{ item.contribution }}
-</div>
-
+<div class="container mt-5">
 <div class="row">
-<a href="{{ item.profile | prepend: site.baseurl }}" class="{{ page.buttonStyle }}">View {{ item.shortname }}'s profile</a>
+{% for item in teamMembers %}
+<div class="col-sm-12 col-md-6 col-lg-6 d-flex flex-column align-items-center mb-4">
+<h4>{{ item.name }} - {{ item.role }}</h4>
+
+<img src="{{ '/assets/images' | prepend: site.baseurl }}{{ item.photo }}" alt="{{ item.alt }}" class="profile-pic img-fluid mb-3">
+
+
+<a href="{{ item.profile | prepend: site.baseurl }}" class="mb-3 {{ page.buttonStyle }}">View {{ item.shortname }}'s profile</a>
+
+<p>{{ item.contribution }}</p>
+
 </div>
 {% else %}
 <p>Currently, there are no members in this team.</p>
 {% endfor %}
+</div>
+</div>

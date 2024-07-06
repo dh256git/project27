@@ -18,7 +18,7 @@ Select a team before viewing a list of team specific activities.
 {% endfor %}
 </select>
 </div>
-<div class="col-6">
+<div>
 <h3>How do {{ site.org }} teams work?</h3>
 
 Teams are the backbone of our community, where peer support is central.

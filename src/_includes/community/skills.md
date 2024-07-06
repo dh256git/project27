@@ -19,9 +19,7 @@ View the full set of skills we can support you with below.
 {% endfor %}
 </select>
 </div>
-<div class="col-6">
 
-</div>
 </div>
 
 <div class="iframe-container">

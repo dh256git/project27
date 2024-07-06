@@ -1,0 +1,21 @@
+- name: Jonathan Zong
+  role: PhD student
+  organisation: MIT Visualisation Group
+  link: https://vis.csail.mit.edu
+  quote: Daniel has been an incredible design and research collaborator over the past few years with the MIT Visualization Group. He has played an important role by contributing both his expertise in the lived experience of blindness and his keen research and design sensibility as we have worked together to co-develop software prototypes and widely-recognized research publications. I’ve particularly enjoyed learning from Daniel’s focus on the impact of his work and how to strive for 'solutions that work' for people’s everyday lives.
+  thumbnail: Jonathan.jpg
+  thumbnailAlt: Photo of Jonathan Zong
+- name: Jan Walmsley
+  role: Professor in the History of Learning Disabilities
+  organisation: Open University
+  link: https://www.open.ac.uk/health-and-social-care/research/shld/research-group/biography-jan-walmsley
+  quote: Danielle is a superb advocate for people with learning disabilities, showing just how much can be achieved with a positive can-do attitude and gentle guidance. She hit the ground running when she worked with me on interviews with self-advocates and showed a great aptitude for empathetic interviewing.
+  thumbnail: Jan.jpg
+  thumbnailAlt: Photo of Jan Walmsley
+- name: Emily Yates
+  role: Head of Accessibility and Inclusive Design
+  organisation: Mima Group
+  link: https://mimagroup.com
+  quote: From ensuring PDF accessibility to testing websites and pages as a screen reader user, Daniel has utilised his lived experience and technical knowledge surrounding digital accessibility and assistive technologies to bring incredibly helpful insight to a number of projects. I would recommend him in a heartbeat; he is thorough, engaging and a joy to chat with!
+  thumbnail: Emily.jfif
+  thumbnailAlt: Photo of Emily Yates
