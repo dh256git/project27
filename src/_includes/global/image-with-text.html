@@ -1,7 +1,10 @@
 <div class="container mt-5">
-<div class="row align-items-center">
+<div class="row">
 <div class="col-sm-12 col-md-{{ include.left-column }}">
-<img src="{{ '/assets/images' | prepend: site.baseurl }}{{ include.image }}" alt="{{ include.alt }}" class="img-fluid">
+
+<div class="image-text-container">
+<img src="{{ '/assets/images' | prepend: site.baseurl }}{{ include.image }}" alt="{{ include.alt }}" class="img-fluid" width="{{ include.width }}" height="{{ include.height }}" style="object-fit: cover;">
+</div>
 </div>
 <div class="col-sm-12 col-md-{{ include.right-column }}">
 <p>{{ include.text | markdownify }}</p>

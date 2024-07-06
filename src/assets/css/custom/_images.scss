@@ -1,10 +1,9 @@
-.profile-pic-container {
-width: 150px;  /* Fixed width */
-height: 150px; /* Fixed height */
-border-radius: 50%; /* Make the image container circular */
+.image-text-container {
+width: 450px;  /* Fixed width */
+height: 350px; /* Fixed height */
 overflow: hidden; /* Ensure content does not overflow */
 display: flex;
-align-items: center;
+align-items: centre;
 justify-content: center;
 }
 
