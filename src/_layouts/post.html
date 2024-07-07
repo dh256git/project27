@@ -28,7 +28,12 @@ layout: default
 {% assign excerpt_only = content_array | first %}
 {% assign content_remainder = content_array | last %}
 
-<h2>{{ page.title }}</h2>
+{% if page.audio %}
+<audio controls>
+<source src="{{ page.audio }}" type="audio/wav">
+There is a problem.
+</audio>
+{% endif %}
 
   {{ excerpt_only | append: '</p>'}}
 
