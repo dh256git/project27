@@ -3,191 +3,88 @@ layout: default
 title: Pricing and details of support
 author: Daniel Hajas
 date: 2023-02-04
-updated: 2023-02-04
+updated: 2024-07-04
 licence: copyright
 buttonStyle: fg-general-vol
 backgroundStyle: bg-general-vol
+pitch: We offer a range of support sessions, to suit your individual needs. If you'd like to set up a regular support plan with a variety of support sessions, we will work with you to build and schedule a personalised skill studio.
 ---
 
-## {{ page.title }}
+{% capture tab1-content %}
+The pricing of our pay-as-you-go support sessions varies based on whether they are for personal, professional, or business purposes, with the session format tailored to your preferences.
 
-We offer a range of support sessions, to suit your individual needs.
-If you'd like to set up a regular support plan with a variety of support sessions, we will work with you to build and schedule a personalised skill studio.
+### Personal Support - 60 Minutes for £35.00
 
----
+Personal support sessions are for individuals who directly benefit from our help. That is, blind or learning disabled individuals who are not already a member of our community.
 
-### Personal support - 60 minutes for £35.00
-
-Personal support sessions are for people who directly benefit from our help.
-We help blind or learning disabled people to develop skills that matter, by reducing the frustration caused by inaccessible learning tools, and building their self-confidence.
-We do this through mentoring, tutoring, and other forms of peer support..
-
-<ul>
-<li>
-<a data-toggle="collapse" href="#mentoring" aria-expanded="false" aria-controls="mentoring">
-Mentoring: ...
-</a>
-<div class="collapse" id="mentoring">
-<p>
-For those blind or learning disabled people, who just need a bit of general guidance and confidence building.
-</p>
-<ul>
-<li>an online introduction, or catch-up;</li>
-<li>listening to your individual needs, wants, challenges, or ideas;</li>
-<li>sharing our own lived experience of living with disabilities;</li>
-<li>taking a role model approach;</li>
-<li>recommending products, services, or communities to explore;</li>
-<li>flexibility to split the session up into multiple shorter sessions,, for example four 15 minute long sessions;</li>
-<li>optionally, introducing you to experts in our community, to get even more support.</li>
-</ul>
-</div>
-</li>
-<li>
-<a data-toggle="collapse" href="#tutoring" aria-expanded="false" aria-controls="tutoring">
-Tutoring: ...
-</a>
-<div class="collapse" id="tutoring">
-<p>
-For blind or learning disabled people, who want to get hands-on and learn new skills in topics we endorse in the <a href="{% link guide/index.md %}">{{ site.brand }} {{ site.product }}.</a>
-</p>
-<ul>
-<li>scoping and defining the skill you wish to learn;</li>
-<li>selecting personalised tasks, and creating materials for the tutorial;</li>
-<li>a 1-to-1 live tutorial, during a virtual or in-person meeting;</li>
-<li>verbal feedback during the session;</li>
-<li>a written summary of the feedback and recommendations for further practice;</li>
-<li>optionally, introducing you to experts in our community, to get even more support.</li>
-</ul>
-</div>
-</li>
-<li>
-<a data-toggle="collapse" href="#supervision" aria-expanded="false" aria-controls="supervision">
-Supervision (members only)
-</a>
-<div class="collapse" id="supervision">
-<p>
-Exclusively for {{ site.brand }} volunteers, who want to get hands-on and learn new skills, but need extra supervision on top of their membership credit.
-</p>
-<ul>
-<li>identifying and breaking down tasks you got stuck on;</li>
-<li>selecting 'how-to' tutorials and resources;</li>
-<li>a 1-to-1 live troubleshooting session, during a virtual or in-person meeting;</li>
-<li>verbal guidance and feedback during the session;</li>
-<li>a written summary of the feedback and a set of recommended tasks to try;</li>
-<li>optionally, introducing you to experts in our community, to get even more support.</li>
-</ul>
-</div>
-</li>
-</ul>
+1. **Coaching**: Empower your journey with our coaching services, designed for blind or learning disabled individuals seeking to set clear goals and explore options for barrier-free social participation. Our coaching sessions include:
+   - An online introduction or catch-up (if previously met).
+   - Listening to your individual needs, wants, challenges, or ideas.
+   - Setting clear goals for personal and professional growth.
+   - Taking a role model approach while considering options and pathways for growth.
+   - Recommending products, services, or communities to explore.
+   - Optionally, introducing you to experts in our community for additional support.
+2. **Mentoring**: Enhance your skills with our hands-on mentoring sessions, perfect for blind or learning disabled individuals eager to learn new skills in areas we endorse in the {{ site.org }} {{ site.product }}. Mentorship includes:
+   - Scoping and defining the skill you wish to learn.
+   - Sharing our lived experiences of developing new skills and the accessibility of tools.
+   - Selecting personalised tasks and creating materials for your development journey.
+   - A one-to-one live tutorial during a virtual or in-person meeting.
+   - Verbal feedback during the session.
+   - A written summary of the feedback and recommendations for further practice.
+   - Optionally, introducing you to experts in our community for additional support.
+3. **Research (Members Only)**: Exclusive for {{ site.org }} community members who want to learn new skills but need extra supervision. Our research support includes:
+   - Identifying and breaking down tasks you are stuck on.
+   - Selecting 'how-to' tutorials and resources.
+   - A one-to-one live troubleshooting session during a virtual or in-person meeting.
+   - Verbal guidance and feedback during the session.
+   - A written summary of the feedback and a set of recommended tasks to try.
+   - Optionally, introducing you to experts in our community for additional support.
 
 ### Professional support - 60 minutes for £50.00
 
-Professional support sessions are designed to help people who want to support blind or learning disabled members in their community.
-We help caretakers and professionals to develop skills, empowering them to provide the appropriate support to their beneficiaries.
-When consulting us, you will face less uncertainty, and gain confidence in making the right decisions.
+Professional support sessions are designed to help people who want to support blind or learning disabled members in their local community, such as volunteers, teachers, or parents.
 
-<ul>
-<li>
-<a data-toggle="collapse" href="#consultancy" aria-expanded="false" aria-controls="consultancy">
-General consultancy: ...
-</a>
-<div class="collapse" id="consultancy">
-<p>
-For the community around blind or learning disabled people. This may include family members, teachers, carers, disability advisors or other professionals wishing to consult us.
-</p>
-<ul>
-<li>scoping and defining your challenge;</li>
-<li>an open-ended verbal discussion during a virtual meeting;</li>
-<li>a written summary of insights, follow up actions, and recommendations;</li>
-<li>optionally, introducing you to experts in our community, to get even more support.</li>
-</ul>
-</div>
-</li>
-<li>
-<a data-toggle="collapse" href="#research" aria-expanded="false" aria-controls="research">
-Research support: ...
-</a>
-<div class="collapse" id="research">
-<p>
-For specific questions, where we might need to do a bit of digging to come up with a solution, or build a demonstrator tool.
-</p>
-<ul>
-<li>independent research by a member of the {{ site.brand }} team;</li>
-<li>a 1-2 pages long summary of findings e-mailed to you;</li>
-<li>building a demonstrator tool (if applicable);</li>
-<li>sharing access to the demonstrator tool with you (if applicable);</li>
-<li>optionally, introducing you to experts in our community, to get even more support.</li>
-</ul>
-</div>
-</li>
-</ul>
+1. Coaching: Unlock the potential of your support efforts with our coaching services. Designed for professionals, such as teachers, disability advisors, carers, or family members, our coaching helps you set clear goals and explore effective strategies for supporting blind or learning disabled individuals with their personal and professional growth. Our comprehensive sessions include:
+ - Defining and scoping your specific challenges.
+ - Engaging in open-ended discussions during virtual meetings.
+ - Providing written summaries of insights, follow-up actions, and recommendations.
+ - Optionally, connecting you with experts in our community for further support.
+2. Mentoring: Our mentorship offer goes beyond coaching by providing hands-on, ongoing support tailored to your unique needs. Mentorship includes:
+ - **Personalised Guidance**: Receive continuous, one-on-one support from experienced mentors to help you navigate complex challenges, when it comes to supporting blind or learning disabled individuals to develop new skills.
+ - **Co-Design Sessions**: Engage in collaborative sessions to develop practical, customised accessibility solutions for the individuals you support.
+ - **Actionable Feedback**: Get regular, constructive feedback on your strategies and progress, ensuring you stay on the right track.
+ - **Long-Term Partnership**: Benefit from a lasting relationship with your mentor, offering ongoing advice, support, and expertise as your needs evolve.
+3. Research: Empower your decision-making with our targeted research support. We address specific accessibility questions from professionals, such as teachers, disability advisors, carers, or family members, through thorough investigation and solution development. Our research offerings include:
+ - Conducting independent research by a member of the {{ site.brand }} team.
+ - Delivering a concise, 1-2 page summary of findings via email.
+ - Creating demonstrator tools when applicable.
+ - Sharing access to demonstrator tools if developed.
+ - Optionally, connecting you with experts in our community for additional insights.
 
-### Specialist support - 60 minutes for £75.00
+### Business support - 60 minutes for £75.00
 
-Specialist support is dedicated for academic research groups and businesses who want to get support with a specific project.
-We help researchers and businesses to design and develop products or services, ensuring outstanding user experience and accessibility through co-creation.
-Working with us increases the probability of successful innovation, positive impact, and customer satisfaction, while decreasing the hours wasted on unwanted outputs.
+Business support is dedicated to small and medium enterprises, who want to be more disability inclusive.
 
-To discuss collaboration proposals, and for bespoke quotes for long-term projects, please get in touch.
+1. Coaching: Unlock the full potential of your workforce with our specialised coaching. Empower your business to set clear goals and explore innovative strategies to maximise the performance of disabled employees. Through insightful and open-ended questions on disability inclusion, we coach you to create a more inclusive and high-performing workplace.
+ - **Customised Goal Setting**: Work with our experts to define clear, actionable goals tailored to your organisation's needs and aspirations regarding disability inclusion.
+ - **Performance Optimisation Strategies**: Discover and implement proven strategies to enhance the productivity and engagement of your disabled employees.
+ - **Inclusive Policy Development**: Ask relevant questions about creating and refining workplace policies that foster an inclusive and supportive environment for all employees.
+ - **Employee Engagement Workshops**: Participate in interactive workshops designed to educate and engage your entire workforce on the importance and benefits of disability inclusion.
+2. Mentoring: Elevate your business with our mentor sessions for businesses, designed for those who recognise the value of co-designing accessibility solutions. Our practical guidance will help you navigate where to start and determine the best direction to take. Unlike coaching, which focuses on goal-setting and performance optimisation, our mentorship offers hands-on, collaborative support to create tailor-made accessibility initiatives. We'll work with you to transform your vision of an inclusive workplace into a reality.
+ - **Tailored Accessibility Roadmap**: Collaborate with mentors who have lived experience of disability to develop a step-by-step plan for implementing accessibility solutions unique to your organisation.
+ - **Co-Design Workshops**: Participate in interactive sessions that involve your team in the co-creation of practical, effective accessibility strategies.
+ - **Expert Guidance and Feedback**: Receive continuous, personalised advice from industry experts to ensure your accessibility initiatives are on the right track.
+ - **Ongoing Mentorship and Support**: Benefit from regular check-ins and support from your mentor to address challenges, celebrate successes, and refine your approach as needed.
+3. Research: Unlock the power of knowledge with our research support, designed to complement our coaching and mentoring offers. Gain valuable insights and solutions tailored to your specific accessibility questions. Let us do the deep digging to provide you with evidence-based answers and innovative tools to enhance your workplace's inclusivity.
+ - **Customised Accessibility Reports**: Receive detailed, research-based reports that address your specific accessibility questions and challenges.
+ - **Innovative Demonstrator Tools**: Benefit from the creation of demonstrator tools designed to showcase practical solutions and best practices for your organisation.
 
-<ul>
-<li>
-<a data-toggle="collapse" href="#innovation" aria-expanded="false" aria-controls="innovation">Innovation consultancy: ...</a>
-<div class="collapse" id="innovation">
-<p>
-For businesses and academic research groups, who value the benefits of co-design and disability inclusion, and want to make real impact through innovation.
-</p>
-<ul>
-<li>academic research collaboration and participation;</li>
-<li>business modelling and strategy development;</li>
-<li>over 10 years of  lived experience in blindness;</li>
-<li>over 5 years of academic experience in Human-Computer Interaction, accessibility, and user experience;</li>
-<li>over 8 years of professional experience  in entrepreneurship, disability innovation, and commercialisation;</li>
-<li>connections to academic researchers and entrepreneurs in disability inclusion.</li>
-</ul>
-</div>
-</li>
-</ul>
+{% include global/buttonLink.html url="/solutions/index.md" label="Learn more about Project27 Solutions - our comprehensive research and innovation services" %}
+{% endcapture %}
 
-{% include global/buttonLink.html url="https://research.project27skills.com" label="View our research and innovation portfolio" %}
-
-Can't decide what's best for you? Check out our Skill Studio below.
+{% include global/tabs.html tab1="Pay as you go" tab2="Community memberships" tab3="Business membership" tabpanel1=tab1-content tabpanel2=tab2-content tabpanel3=tab3-content %}
+{% include global/script-for-tabs.html selectedTabID="blog" %}
 
 ---
 
-### Our Skill studios
-
-Skill studios are personalised to your needs. However, we have some recommendations to consider.
-
-<ul>
-<li>
-<a data-toggle="collapse" href="#studio27" aria-expanded="false" aria-controls="studio27">
-Studio 27: ...
-</a>
-<div class="collapse" id="studio27">
-<p>
-Our classic studio, with a taster of sessions.
-</p>
-<ul>
-<li>Time: 8.5 hours</li>
-<li>Price: £320.00 (valued at £350.00)</li>
-</ul>
-<p>
-The studio includes:
-</p>
-<ul>
-<li>Session 1 (consultancy): an initial in-person session at your home, or remotely over a video call;</li>
-<li>Sessions 2-4 (mentoring): three sessions remotely, over video calls or text messaging;</li>
-<li>Sessions 5-6 (research): two sessions of remote research or demonstrator tool development, with the outputs e-mailed to you;</li>
-<li>Sessions 7-9 (tutorials): three sessions in-person at your home, or remotely over video calls;</li>
-<li>Session 10 (consultancy): to talk through the progress and advise on steps ahead.</li>
-</ul>
-</div>
-</li>
-</ul>
-
-### Where does the money go?
-
-We appreciate these prices may be difficult to pay for some. We are actively working with donors, funders, and partners to buy some of these services on your behalf.
-
-The revenue and funds raised through {{ site.brand }} Support are invested into maintaining and improving other {{ site.brand }} products and services, such as the [{{ site.brand }} {{ site.product }}]({% link guide/index.md %}) and [{{ site.brand }} Volunteering.]({% link volunteering/index.md %})
+Can't decide what's best for you? Check out our [Skill Studio]({% link support/studio.md %}) for our recommendations on how to combine support sessions to achieve maximum impact.
