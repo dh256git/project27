@@ -8,7 +8,6 @@ reviewer: Danielle Garratt
 date: 2022-10-15
 updated: 2024-07-14
 licence: copyright
-announcement: Currently, there are no available sessions to book.
 buttonStyle: fg-general-vol
 backgroundStyle: bg-general-vol
 pitch: Book a one-time consultation or a series of mentorship sessions with our experts to address your questions about blindness or learning disability. We offer tailored advice for disabled individuals, parents and teachers, as well as employers of disabled staff. No membership required.
@@ -41,7 +40,7 @@ For further details on what's included, please read our [pricing page]({% link s
 
 <div id="booking-frame-show" class="hidden-text">
 <div class="iframe-container">
-<iframe src="{{ '/support/booking-page.html' | prepend: site.baseurl }}" title="Booking page" id="booking" class="responsive-iframe"></iframe>
+<iframe src="https://calendly.com/dh256/project27-support-enquiry" title="Booking page for general support enquiries" id="booking" class="responsive-iframe"></iframe>
 </div>
 </div>
 
