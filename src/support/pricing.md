@@ -7,10 +7,14 @@ updated: 2024-07-04
 licence: copyright
 buttonStyle: fg-general-vol
 backgroundStyle: bg-general-vol
-pitch: We offer a range of support sessions, to suit your individual needs. If you'd like to set up a regular support plan with a variety of support sessions, we will work with you to build and schedule a personalised skill studio.
+pitch: We offer a range of ad-hoc support sessions and regular supervision for members and non-members alike, to suit your individual needs. If you'd like to set up a regular support plan with a variety of support sessions, we will work with you to build and schedule a personalised skill studio.
 ---
 
+We offer subscriptions, pay as you go options, and tiers of discounts to suit everyone's schedule and budget.
+
 {% capture tab1-content %}
+## Ad-hoc support (no membership required)
+
 The pricing of our pay-as-you-go support sessions varies based on whether they are for personal, professional, or business purposes, with the session format tailored to your preferences.
 
 ### Personal Support - 60 Minutes for £35.00
@@ -32,7 +36,7 @@ Personal support sessions are for individuals who directly benefit from our help
    - Verbal feedback during the session.
    - A written summary of the feedback and recommendations for further practice.
    - Optionally, introducing you to experts in our community for additional support.
-3. **Research (Members Only)**: Exclusive for {{ site.org }} community members who want to learn new skills but need extra supervision. Our research support includes:
+3. **Supervision (Members Only)**: Exclusive for {{ site.org }} community members who want to learn new skills but need extra supervision. Our research support includes:
    - Identifying and breaking down tasks you are stuck on.
    - Selecting 'how-to' tutorials and resources.
    - A one-to-one live troubleshooting session during a virtual or in-person meeting.
@@ -80,6 +84,70 @@ Business support is dedicated to small and medium enterprises, who want to be mo
  - **Innovative Demonstrator Tools**: Benefit from the creation of demonstrator tools designed to showcase practical solutions and best practices for your organisation.
 
 {% include global/buttonLink.html url="/solutions/index.md" label="Learn more about Project27 Solutions - our comprehensive research and innovation services" %}
+
+## Trainee certifications (membership required)
+
+Pay as you go membership options are a great choice for those who want to take their time.
+You can take a break between working towards different levels of trainee certification in the same team.
+You can also aim for the same certification in a different team, without the need to level up.
+Prices per certification are:
+
+* Registered member: £0 per on-boarding for 1 month,
+* Apprentice: £200 per month for 1 month,
+* Intern: £180 per month for 1 month,
+* Specialist: £150 per month for 3 months (£450 upfront),
+* Fellow: £100 per month for 12 months (£1200 upfront).
+
+For more details on the pay as you go pricing, view our [certification table.]({% link volunteering/certification.md %})
+{% endcapture %}
+
+{% capture tab2-content %}
+## Community membership
+
+Our subscription model is a great choice for those who know exactly what skills they want to develop.
+Annual subscriptions help you save, if you plan to become a certified fellow within 18 months of joining our community, whereas monthly payments help with breaking up the costs of personal growth.
+Similar to our pay-as-you-go support sessions, membership pricing varies slightly between personal and professional subscribers.
+
+### Personal membership
+
+A personal membership is exclusive to the individual who subscribed. Subscription costs are:
+
+* paid monthly: £179.99 a month,
+* paid yearly: £1799.90 a year (£149.99 per month),
+
+### Professional membership
+
+Perfect for social enterprises and charitable organisations, who want to complement their mentorship or skills development programmes with our community services for a few of their own members.
+Ownership of annual subscriptions purchased by businesses on behalf of their service users can be transferred from one service user to another on request.
+
+* paid yearly: £1999.99 a year per subscription,
+* multiple members discount: £100.00 off (for each additional member added),
+* flat fee: £999.99 a year (for the 11th member onwards).
+{% endcapture %}
+
+{% capture tab3-content %}
+## Business membership
+
+There are multiple subscription types for businesses, tailored to what your organisation wants to get out of the engagement with us.
+
+### Community membership for businesses
+
+For organisations interested in reverse mentoring on disability awareness,  the community membership is a great way to get involved.
+Mentorship on working and communicating with disabled team members is provided by our blind or learning disabled community members to your employees, who volunteer to mentor our community members in their field of expertise.
+
+* paid yearly: £999.99 a year per subscription,
+* multiple members discount: £100.00 off (for each additional industry professional referred),
+* credits: 12 supervision sessions per volunteer a year.
+
+### Support membership for businesses
+
+A support membership helps with reducing the cost of business support for organisations committed to recurring coaching or mentoring sessions, or longer research assignments.
+
+* paid yearly: £2999.99 a year (save £750),
+* credits: up to 50 coaching or mentoring sessions, or 6 days of research support a year.
+
+For inquiries about additional business support, please [check out our innovation services on Project27 Solutions.]({% link solutions/innovation-services/index.md %})
+
 {% endcapture %}
 
 {% include global/tabs.html tab1="Pay as you go" tab2="Community memberships" tab3="Business membership" tabpanel1=tab1-content tabpanel2=tab2-content tabpanel3=tab3-content %}
