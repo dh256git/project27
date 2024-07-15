@@ -60,7 +60,7 @@ Amongst others, we can provide support in the following ways:
 
 ### Where does the money go?
 
-We appreciate that the prices of our services may be difficult to pay by everyone.
-We are actively working with our partners and funders to buy some of these services on your behalf.
-
 The funds raised through {{ site.org }} Support are reinvested into maintaining and improving other {{ site.brand }} products and services, such as the [{{ site.org }} {{ site.product }}]({% link guide/index.md %}) and [{{ site.org }} Community.]({% link volunteering/index.md %})
+We appreciate that the prices of our services may be difficult to afford by everyone.
+That's why we are actively working with our partners and funders to buy some of these services on behalf of disabled members of our community.
+To learn more, view our [discounts and blended finance approach.]({% link support/pricing.md %})
