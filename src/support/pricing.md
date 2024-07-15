@@ -10,7 +10,7 @@ backgroundStyle: bg-general-vol
 pitch: We offer a range of ad-hoc support sessions and regular supervision for members and non-members alike, to suit your individual needs. If you'd like to set up a regular support plan with a variety of support sessions, we will work with you to build and schedule a personalised skill studio.
 ---
 
-We offer subscriptions, pay as you go options, and tiers of discounts to suit everyone's schedule and budget.
+We offer pay as you go options for getting support, memberships for periodic participation, and tiers of blended finance discount plans to suit everyone's schedule and budget.
 
 {% capture tab1-content %}
 ## Ad-hoc support (no membership required)
@@ -102,15 +102,15 @@ For more details on the pay as you go pricing, view our [certification table.]({
 {% endcapture %}
 
 {% capture tab2-content %}
-## Community membership
+## Membership plans
 
-Our subscription model is a great choice for those who know exactly what skills they want to develop.
-Annual subscriptions help you save, if you plan to become a certified fellow within 18 months of joining our community, whereas monthly payments help with breaking up the costs of personal growth.
-Similar to our pay-as-you-go support sessions, membership pricing varies slightly between personal and professional subscribers.
+Similar to our pay-as-you-go support sessions, membership pricing varies slightly between personal, professional, and business members.
 
 ### Personal membership
 
-A personal membership is exclusive to the individual who subscribed. Subscription costs are:
+A personal membership is exclusive to the individual who subscribed.
+Our subscription model is a great choice for those who know exactly what skills they want to develop.
+Annual subscriptions help you save, if you plan to become a certified fellow within 18 months of joining our community, whereas monthly payments help with breaking up the costs of personal growth.
 
 * paid monthly: £179.99 a month,
 * paid yearly: £1799.90 a year (£149.99 per month),
@@ -123,23 +123,21 @@ Ownership of annual subscriptions purchased by businesses on behalf of their ser
 * paid yearly: £1999.99 a year per subscription,
 * multiple members discount: £100.00 off (for each additional member added),
 * flat fee: £999.99 a year (for the 11th member onwards).
-{% endcapture %}
 
-{% capture tab3-content %}
-## Business membership
+### Business membership
 
 There are multiple subscription types for businesses, tailored to what your organisation wants to get out of the engagement with us.
 
-### Community membership for businesses
+#### Community membership for businesses
 
 For organisations interested in reverse mentoring on disability awareness,  the community membership is a great way to get involved.
 Mentorship on working and communicating with disabled team members is provided by our blind or learning disabled community members to your employees, who volunteer to mentor our community members in their field of expertise.
 
 * paid yearly: £999.99 a year per subscription,
-* multiple members discount: £100.00 off (for each additional industry professional referred),
+* multiple members discount: £100.00 off (for each additional industry professional referred to our volunteer programme),
 * credits: 12 supervision sessions per volunteer a year.
 
-### Support membership for businesses
+#### Support membership for businesses
 
 A support membership helps with reducing the cost of business support for organisations committed to recurring coaching or mentoring sessions, or longer research assignments.
 
@@ -147,12 +145,39 @@ A support membership helps with reducing the cost of business support for organi
 * credits: up to 50 coaching or mentoring sessions, or 6 days of research support a year.
 
 For inquiries about additional business support, please [check out our innovation services on Project27 Solutions.]({% link solutions/innovation-services/index.md %})
-
 {% endcapture %}
 
-{% include global/tabs.html tab1="Pay as you go" tab2="Community memberships" tab3="Business membership" tabpanel1=tab1-content tabpanel2=tab2-content tabpanel3=tab3-content %}
-{% include global/script-for-tabs.html selectedTabID="blog" %}
+{% capture tab3-content %}
+## Discount plans
 
----
+We are a social enterprise, combining for-profit practices with nonprofit missions to create positive outcomes in a sustainable way.
+We strive to reduce the cost of our services to end-users, through our blended finance approach.
+
+### Where does the money go?
+
+The funds raised through {{ site.org }} Support sessions and memberships are reinvested into maintaining and improving other {{ site.brand }} products and services, such as the [{{ site.org }} {{ site.product }}]({% link guide/index.md %}) and [{{ site.org }} Community.]({% link volunteering/index.md %})
+We appreciate that the prices of our services may be difficult to afford by everyone.
+That's why we are actively working with our partners and funders to buy some of these services on behalf of disabled members of our community.
+
+### Tiers of our blended finance discounts
+
+Our end-users always make the decision to invest their money in our services, even if it is only 1% of the full price of the membership.
+Applications to discount plans are announced intermittently, subject to sponsorship agreements and availability of {{ site.org }} funding.
+
+{% assign dataFile = site.data.discounts %}
+{% include global/tabulator2.html %}
+
+#### Example: Discounted price of a personal membership, paid yearly
+
+The full price of an annual personal membership is £1799.90.
+The following examples illustrate how specific discount plans distribute the cost of membership across the end-user, a sponsor organisation, and {{ site.org }}.
+
+- Emerald: The end-user pays £17.99 (1%), and the sponsor organisation pays £1781.91 (99%) per year,
+- Gold: The end-user pays £611.97 (34%), while {{ site.org }} and the sponsor organisation each pay £593.97 (33%) per year,
+- Palladium: The end-user pays £1205.93 (67%), and {{ site.org }} pays £593.97 (33%)
+{% endcapture %}
+
+{% include global/tabs.html tab1="Pay as you go" tab2="Membership plans" tab3="Discount plans" tabpanel1=tab1-content tabpanel2=tab2-content tabpanel3=tab3-content %}
+{% include global/script-for-tabs.html selectedTabID="blog" %}
 
 Can't decide what's best for you? Check out our [Skill Studio]({% link support/studio.md %}) for our recommendations on how to combine support sessions to achieve maximum impact.
