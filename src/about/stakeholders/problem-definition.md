@@ -22,8 +22,7 @@ A clear problem statement helps us identify **what** problem we need to address 
 
 ### Insights survey - 15-20 minutes
 
-Our insights surveys help us understand the details of the challenges you experience.
-Understanding the details of the problems is essential to be able to design impactful services.
+Our insights surveys help us understand the details of the challenges you experience, and aid our thinking on **how** might we design impactful solutions.
 Please take 15-20 minutes to respond to our questions, at one of the surveys below, which best describes your perspective.
 
 - [Your personal and professional growth](https://forms.gle/25Luuux5ai8YdNCW9) - for blind, partially sighted, learning disabled individuals and their parents, teachers, or carers.
@@ -32,8 +31,9 @@ Please take 15-20 minutes to respond to our questions, at one of the surveys bel
 
 ### Opportunity definition interview - 30-60 minutes
 
-Sometimes it is difficult to express our needs, challenges, desires, and feelings in a survey.
-To surface and capture the nuances of solving the right problem, we'd like to invite you to an opportunity definition interview .
+Sometimes it is difficult to express our needs, desires, and feelings in a survey.
+Conversations help us understand **why** your problem needs a better solution.
+To surface and capture the nuances of overcoming your challenges, we'd like to invite you to an opportunity definition interview.
 It takes 30-60 minutes, and you can schedule the interview at your convenience using the tool below.
 
 <div class="iframe-container">
@@ -46,4 +46,4 @@ Have ideas to share?
 Visit the [consult me page]({% link about/stakeholders/consult-me.md %}) and let us know that you have ideas or feedback to share.
 
 Have a question?
-Visit the [my question page]({% link about/stakeholders/my-question.md %}) ), and ask us directly.
+Visit the [my question page]({% link about/stakeholders/my-question.md %}), and ask us directly.
