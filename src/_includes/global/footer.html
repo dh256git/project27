@@ -1,57 +1,58 @@
 {% assign policy-strip = site.data.policy-strip %}
 {% assign social-strip = site.data.social-strip %}
 
+<div class="container mt-5">
 <div class="row">
-<div class="col-md-8">
+{% if page.licence == "copyright" %}
+<div class="col-12">
 {% include global/licence.html %}
 </div>
-<div class="col-md-4">
-{% include global/navigation-footer.html %}
+{% else %}
+<div class="col-12 text-start">
+{% include global/licence.html %}
 </div>
+{% endif %}
 </div>
 
 <div class="row">
-{% include global/follow-us.html %}
+<div class="col-sm-12 col-md-4 footer-links">
+{% for item in social-strip %}
+    <a href="{{ item.link }}">
+    <img src="{{ item.icon }}" alt="{{ item.name }}" class="social-strip-icons img-fluid">
+    </a>
+{% endfor %}
+    </div>
+    <div class="col-sm-12 col-md-8">
+    
+    </div>
+</div>
+
+<div class="row">
+  {% for item in site.data.navigation-footer %}
+<div class="col-sm-6 col-md-2 text-start">
+{% if item.link contains "github.com" or item.link contains "surge.sh" or item.link contains "atlassian.net" %}
+          <a target="_blank" rel="noreferrer noopener" href= "{{ item.link }}">{{ item.name }}</a>
+          {% else %}
+    <a href="{{ item.link | prepend: site.baseurl }}">{{ item.name }}</a>
+                    {% endif %}
+</div>
+  {% endfor %}
 </div>
 
 <div class="row">
 {% for item in policy-strip %}
-<div class="col">
-<p>
-<a href="{{ item.link | prepend: site.baseurl }}">
-{{ item.name }}
+<div class="col-sm-6 col-md-2 text-start">
+{% if item.link contains "change-log" %}
+<a href="{{ item.link | prepend: site.baseurl }}">{{ item.name }}: {{ include.version }}.{{ include.subversion }}.{{ include.commit }}.</a>
+{% elsif item.name == "Updated on" %}
+<a onclick="showTimeLastUpdated()">{{ item.name }}: 
+<span id="time-last-updated-show">{{ site.time | date_to_rfc822 | date: "%d %b %Y" }}</span>
+<span id="time-last-updated-hide" class="hidden-text">{{ site.time | date_to_rfc822 | date: "%H:%M" }}</span>
 </a>
-</p>
+{% else %}
+<a href="{{ item.link | prepend: site.baseurl }}">
+{{ item.name }}</a>{% endif %}
 </div>
 {% endfor %}
-<div class="col">
-<p><a href="{{ '/blog/logbook/dev/change-log.html' | prepend: site.baseurl }}">Version: {{ include.version }}.{{ include.subversion }}.{{ include.commit }}.</a></p>
-</div>
-<div class="col">
-<p onclick="showTimeLastUpdated()">Last updated: 
-<span id="time-last-updated-show">{{ site.time | date_to_rfc822 | date: "%d %b %Y" }}.</span>
-<span id="time-last-updated-hide" class="hidden-text">{{ site.time | date_to_rfc822 | date: "%H:%M" }}.</span>
-</p>
 </div>
 </div>
-
-{% comment %}
-<div class="row">
-<div class="col-md-12">
-<h5>Powered by</h5>
- {% include global/powered-by.html %} 
-</div>
-</div>
-
-<div class="mycontainer">
-<div class="row justify-content-start">
-<div class="col">
-<p><a href="{{ '/blog/logbook/dev/change-log.html' | prepend: site.baseurl }}">Version: {{ include.version }}.{{ include.subversion }}.{{ include.commit }}.</a></p>
-</div>
-<div class="row justify-content-end">
-<div class="col">
-<p>Last updated: {{ site.time | date_to_rfc822 | date: "%d %b %Y at %H:%M" }}.</p>
-</div>
-</div>
-</div>
-{% endcomment %}

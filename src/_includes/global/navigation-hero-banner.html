@@ -7,24 +7,28 @@
   <h1>
   {{page.title}}
   {% if page.tagline %}
-: <br>{{ page.tagline }}
+: {{ page.tagline }}
   {% endif %}
   </h1>
 
 <p>{{ page.pitch }}</p>
 
+{% if page.callToActionLabel %}
+  <a class="call-to-action" href="{{ page.callToActionLink }}">{{ page.callToActionLabel }}</a>
+{% else %}
 <div>
    {% if page.url contains "blog" or page.url contains "cookbook"  or page.url contains "sharing-stories" %}
 {% include global/breadcrumbs-blog.html %}
 {% else %}
 {% include global/breadcrumbs.html %}
 {% endif %}
+{% endif %}
 </div>
 
 {% elsif page.title contains "Project27 Skills - Skills that matter" %}
 <h1>Welcome to Project27 Skills
 {% if page.tagline %}
-: <br>{{ page.tagline }}
+: {{ page.tagline }}
 {% endif %}
 </h1>
 
@@ -36,7 +40,7 @@
 <h1>
 Welcome to Project27 Solutions
 {% if page.tagline %}
-: <br>{{ page.tagline }}
+: {{ page.tagline }}
 {% endif %}
 </h1>
 

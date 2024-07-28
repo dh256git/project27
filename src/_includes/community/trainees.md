@@ -42,7 +42,7 @@ Trainee membership is priced slightly differently, depending on the payment mode
 We offer subscriptions, pay as you go options, and tiers of discounts to suit everyone's schedule and budget.
 
 Our subscription model is a great choice for those who know exactly what skills they want to develop.
-Annual subscriptions help you save, if you plan to become a certified fellow within 12 months of joining our community, whereas monthly payments help with breaking up the costs of personal growth.
+Annual subscriptions help you save, if you plan to become a certified fellow within 18 months of joining our community, whereas monthly payments help with breaking up the costs of personal growth.
 Subscription costs are:
 
 * paid monthly: £179.99 a month,
@@ -55,10 +55,11 @@ You can take a break between working towards different levels of traineeship in 
 You can also aim for the same certification in a different team, without the need to level up.
 Prices per certification are:
 
+* Registered member: £0 per on-boarding for 1 month,
 * Apprentice: £200 per month for 1 month,
 * Intern: £180 per month for 1 month,
 * Specialist: £150 per month for 3 months (£450 upfront),
 * Fellow: £100 per month for 12 months (£1200 upfront).
 
-For more details on the pay as you go pricing, view our [certification table]({% link volunteering/certification.md %}).
+For more details on the pay as you go pricing, view our [certification table,]({% link volunteering/certification.md %}) and [pricing page.]({% link support/pricing.md %}))
 {% endcapture %}

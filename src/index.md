@@ -12,7 +12,6 @@ pitch: We create personalised pathways of experiential training and professional
 licence: copyright
 buttonStyle: fg-general-land
 backgroundStyle: bg-general-land
-listOfIcons: [["fas fa-pencil-alt", ""], ["fas fa-compass", ""], ["fa-solid fa-handshake", ""], ["fa-solid fa-person-chalkboard", ""], ["fas-lightbulb", ""]]
 ---
 
 {% assign home = site.data.main['Home'] %}
@@ -32,14 +31,16 @@ Danielle is a sociable learning disabled person, with an interest in art, media,
 
 Our community services and fields of interest are complementary to the value created by mentorship organisations, parent support groups, and training or employment support services.
 
-{% include global/cover-image.html image="networking-cover.jpg" alt="Holding his white cane, Daniel is standing in front of a wall full of people's photos, grouped into 'Entrepreneurship', 'Future of talent', 'Innovate education' and 'Partnership'.
-" %}
-
+{% capture interests %}
 ### Our fields of interest
 
 We focus on developing analytical and digital skills that matter to blind people interested in {{ guide[0].name | downcase }}, for example studying mathematics, practicing web design, or working in accounting.
 
 In addition, we also develop social and media skills that matter to neurodiverse people  interested in a joyful {{ guide[1].name | downcase }}.
+{% endcapture %}
+
+{% include global/image-with-text.html left-column="6" right-column="6" text=interests image="/covers/networking-cover.jpg" alt="Holding his white cane, Daniel is standing in front of a wall full of people's photos, grouped into 'Entrepreneurship', 'Future of talent', 'Innovate education' and 'Partnership'.
+" width="100%" height="100%" %}
 
 ### Our community services
 

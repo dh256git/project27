@@ -10,13 +10,19 @@ layout: default
         {% include blog/branch-and-featured.html %}
   {% endif %}
     </div>
-    <div class="col-md-4">
-      <button type="button" class="mysecondarybtn" data-bs-toggle="collapse" data-bs-target="#meta-info" aria-controls="meta-info" aria-expanded="false" aria-label="Page information">
+    <div class="col-md-4 d-flex flex-column align-items-center">
+     <button type="button" class="mysecondarybtn" data-bs-toggle="collapse" data-bs-target="#meta-info" aria-controls="meta-info" aria-expanded="false" aria-label="Page information">
     <span><i class="fa fa-info-circle fa-lg" aria-hidden="false"></i></span>
   </button>
 <div class="blog-post-meta collapse" id="meta-info">
 {% include global/meta.html %}
 </div>
+{% if page.audio %}
+<audio controls>
+<source src="{{ page.audio }}" type="audio/wav">
+There is a problem.
+</audio>
+{% endif %}
     </div>
     </div>
 
@@ -27,8 +33,6 @@ layout: default
 {% assign content_array = page.content | split: site.excerpt_separator %}
 {% assign excerpt_only = content_array | first %}
 {% assign content_remainder = content_array | last %}
-
-<h2>{{ page.title }}</h2>
 
   {{ excerpt_only | append: '</p>'}}
 

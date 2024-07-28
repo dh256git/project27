@@ -1,0 +1,625 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Building on stronger foundations - Summer, 2024</title>
+
+<!-- scripts for vega lite -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2/build/vega.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0/build/vega-lite.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- olli -->
+  <script src="https://cdn.jsdelivr.net/npm/olli@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/olli-adapters@2"></script>
+
+
+<!--Custom style sheets-->
+        <link rel="stylesheet" href="/assets/css/main.css">
+
+<!-- Bootstrap 5.3 stylesheets -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<!--font awesome icons-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- analytics -->
+
+<!-- Google Tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ET7GNZ55YP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ET7GNZ55YP');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PPHS22H');</script>
+<!-- End Google Tag Manager -->
+
+  </head>
+  <body class="bg-background">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPHS22H"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="container-lg">
+  <header>
+<div class="row">
+<div class="col-md-6" id="skip">
+<a class="d-flex justify-content-center" href="#mainContent">Skip to main content</a>
+</div>
+<div class="col-md-6" id="skip">
+<a class="d-flex justify-content-center" href="#footerContent">Skip to footer</a>
+</div>
+</div>
+
+<div class="row">
+<div class="col">
+
+<a href="/index.html" class="navbar-brand">
+      <img src="/assets/images/Project27 logo.png" alt="Project 27 Skills logo" class="logo" width="60px" height="auto">
+      </a>
+      Skills that matter
+      
+</div>
+</div>
+
+<div class="row">
+<div class="col">
+      <div class="navbar navbar-expand-md bg-nav-header">
+
+  <button type="button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNavigation" aria-controls="primaryNavigation"
+   aria-expanded="false" aria-label="Toggle global navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="primaryNavigation">
+
+      <nav class="navbar-dark" tabindex="0" aria-label="Global">
+        <ul class="navbar-nav" role="menubar">
+       
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">What we do</a>
+        <div class="dropdown-menu" aria-label="What we do">
+  
+          <a href= "/about/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Developing skills that matter (P27 Skills)
+          </a>
+  
+          <a href= "/solutions/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Co-designing solutions that work (P27 Solutions)
+          </a>
+  
+</div>
+</li>
+  
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">Who we are</a>
+        <div class="dropdown-menu" aria-label="Who we are">
+  
+          <a href= "/about/team/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Meet the team
+          </a>
+  
+          <a href= "/about/partners/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Meet our partners
+          </a>
+  
+</div>
+</li>
+  
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">Media</a>
+        <div class="dropdown-menu" aria-label="Media">
+  
+          <a href= "/about/news/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          News
+          </a>
+  
+          <a href= "/blog/all-posts.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Posts
+          </a>
+  
+          <a href= "https://youtube.com/@project27skills"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Podcasts
+          </a>
+  
+</div>
+</li>
+  
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">Contact us</a>
+        <div class="dropdown-menu" aria-label="Contact us">
+  
+          <a href= "/contact/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Get in touch
+          </a>
+  
+          <a href= "/problem-definition"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Help us address the right problem
+          </a>
+  
+          <a href= "/my-question"
+          
+          
+          class="dropdown-item"
+          
+          >
+          I've got a question
+          </a>
+  
+          <a href= "/consult-me"
+          
+          
+          class="dropdown-item"
+          
+          >
+          I've got a suggestion
+          </a>
+  
+          <a href= "/contact/index.html#FAQ"
+          
+          
+          class="dropdown-item"
+          
+          >
+          FAQs
+          </a>
+  
+          <a href= "/blog/logbook/issues/2020/06/05/initialise.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Report an issue
+          </a>
+  
+</div>
+</li>
+
+</ul>
+</nav>
+
+      <nav class="navbar-dark" tabindex="0" aria-label="Context">
+        <ul class="navbar-nav" role="menubar">
+
+  
+  <li class="nav-item">
+    <a href="/blog/index.html"
+    
+    
+    >
+    Stories
+    </a>
+  </li>
+  
+  <li class="nav-item">
+    <a href="/guide/index.html"
+    
+    
+    >
+    Guide
+    </a>
+  </li>
+  
+  <li class="nav-item">
+    <a href="/volunteering/index.html"
+    
+    
+    >
+    Community
+    </a>
+  </li>
+  
+  
+</ul>
+</nav>
+
+</div>
+
+
+<a href="/support/booking-page.html" class="fg-blog-sect">Book support</a>
+
+
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col">
+
+
+<div class="row abg-blog-sect">
+
+<div class="col-md-8" style="vertical-align: middle;">
+
+  <h1>
+  Building on stronger foundations - Summer, 2024
+  
+  </h1>
+
+<p>Project27 is making strides in disability inclusion with its selection for business incubation at the Sussex Innovation Centre, a collaborative project with Level3 on playable media for disabled artists, and a refined value proposition. These initiatives, backed by the UK Shared Prosperity Fund and Arts  Council England, aim to expand accessibility and skills development in the workplace and creative industries.</p>
+
+
+<div>
+   
+<div id="breadcrumbs">
+<h2 class="you-are-here">You are here</h2>
+
+<a href="/">Home</a>
+
+  
+    <br> 👉 Building on stronger foundations - Summer, 2024
+  
+
+</div>
+
+
+</div>
+
+
+</div>
+<div class="col-md-4">
+
+  <img src="/assets/images/covers/tulips-cover.jpeg" class="hero-image2" alt="Daniel and Danielle are standing on a platform, with vast fields of colourful tulips and a canal in the background. Both of them smile at the camera.">
+ 
+  </div>
+
+
+
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col">
+
+
+
+
+
+<div class="announcement">
+<p>
+
+    📣 This area of the website is a 
+<a target="_blank" rel="noreferrer noopener" href="https://en.wikipedia.org/wiki/Software_release_life_cycle">
+beta version.
+</a>
+
+</p>
+</div>
+
+</div>
+</div>
+
+
+  </header>
+
+  <main role="main" id="mainContent" class="container">
+   <div class="row">
+    <div class="col-md-8">
+      
+          
+                <a class="previous-post disabled" href="" tabindex="-1" aria-disabled="true">Previous</a>
+        
+        <br>
+        
+        <a class="next-post" href="/news-in-december.html" tabindex="-1" aria-disabled="false">Next: Ending the year with our inaugural advisory board meeting</a>
+        
+  
+    </div>
+    <div class="col-md-4 d-flex flex-column align-items-center">
+     <button type="button" class="mysecondarybtn" data-bs-toggle="collapse" data-bs-target="#meta-info" aria-controls="meta-info" aria-expanded="false" aria-label="Page information">
+    <span><i class="fa fa-info-circle fa-lg" aria-hidden="false"></i></span>
+  </button>
+<div class="blog-post-meta collapse" id="meta-info">
+<p class="reading-time">Estimated time to read: 
+  
+  
+    2 - 2 mins
+  
+</p>
+
+<p>Written by: Daniel Hajas</p>
+
+
+<p>Reviewed by: Danielle Garratt. <a href="/guidelines/review.html">Read our guidelines on reviews.</a></p>
+
+
+<p>Published on: 30 Jun 2024</p>
+
+
+<p>Revised on: 01 Jul 2024</p>
+
+
+
+
+<p>Revision due: 1 Jul 2026</p>
+
+</div>
+
+<audio controls>
+<source src="https://dl.dropbox.com/scl/fi/din3mt623zxwir12exgt5/Summer-news-2024.wav?rlkey=tk869hwurouslqec2vioer3yf&dl=1" type="audio/wav">
+There is a problem.
+</audio>
+
+    </div>
+    </div>
+
+  <div class="row">
+    <div class="col-md-8 blog-main">
+      <div class="blog-post">
+
+
+
+
+
+  <h3 id="selected-by-the-sussex-innovation-centre-to-undergo-business-incubation">Selected by the Sussex Innovation Centre to Undergo Business Incubation</h3>
+
+<p>Project27 has been selected by the <a href="https://www.sussexinnovation.co.uk">Sussex Innovation Centre</a> to participate in a business incubation programme funded by the <a href="https://www.gov.uk/government/publications/uk-shared-prosperity-fund-prospectus/uk-shared-prosperity-fund-prospectus">UK Shared Prosperity Fund.</a> This prestigious opportunity will involve comprehensive market research, including competitor analysis and sector-based analysis, to identify gaps and opportunities within industries focusing on blindness and learning disabilities. A key component will be the development of a robust business model through workshops designed to clarify and distil our core value propositions. Additionally, Project27 will gain access to a list of potential partners and funding opportunities, furthering our mission to develop skills that matter in the workplace and create solutions that work for disability inclusion.
+</p>
+
+
+<img src="/assets/images/Project27 logo.png" class="blog-cover" alt="The Project27 logo, used as a placeholder image.">
+
+
+
+
+  
+
+<h3 id="level3-partnership-and-arts-council-england-funding">Level3 Partnership and Arts Council England Funding</h3>
+
+<p>In collaboration with <a href="https://www.level-3.co.uk">Level3 Production,</a> Project27 has secured funding from <a href="https://www.artscouncil.org.uk">Arts Council England (ACE)</a> to launch an innovative project aimed at developing playable media centred on the journeys of disabled individuals. This project will involve close collaboration with three disabled artists—Dr. Daniel Hajas, Prina Patel, and Danielle Garratt—each exploring their unique perspectives and challenges. Through a series of sessions focusing on software like Unity and Blender, and immersive storytelling techniques, the project will document and share the creative processes and outcomes, including the skills, tools, and mindsets required to develop interactive media  content. This initiative aims to broaden access to playful media tools for disabled artists, culminating in prototype artworks and a comprehensive report shared online to foster greater accessibility and inclusivity. And that’s not all. Level3 and Project27 have began to form an ongoing partnership, planning the next collaboration opportunity.</p>
+
+<h3 id="refining-our-website-and-value-proposition">Refining Our Website and Value Proposition</h3>
+
+<p>We have recently refined our website for greater clarity and better user experience; and revised our value proposition, integrating insights gained from our community interactions. This minor revision marks our commitment to continually iterate based on deeper understanding of how we can complement existing services and address prevalent challenges. Our aim is to better meet the needs of our audience, focusing on skills development and supporting both professional and personal growth. Moving forward, we will continue to engage with our community to identify areas for improvement and expansion, ensuring our offerings remain relevant and impactful.</p>
+
+
+      </div><!-- /.blog-post -->
+
+<hr>
+        
+                <a class="previous-post disabled" href="" tabindex="-1" aria-disabled="true">Previous</a>
+        
+        <br>
+        
+        <a class="next-post" href="/news-in-december.html" tabindex="-1" aria-disabled="false">Next: Ending the year with our inaugural advisory board meeting</a>
+        
+  </div><!-- /.blog-main -->
+
+    <aside class="col-md-4 blog-sidebar">
+
+    </aside><!-- /.blog-sidebar -->
+      </div><!-- /.row -->
+
+ <hr>
+ <p>
+ This is an open source website. Please, 
+ <a target="_blank" rel="noreferrer noopener" href="https://github.com/dh256git/project27/edit/development/src/about/news/_posts/2024-06-30-summer-news-2024.md">
+ help improve the content on this page.
+ </a>
+ </p>
+  </main>
+
+<footer id="footerContent" class="abg-blog-sect">
+
+
+
+<div class="container mt-5">
+<div class="row">
+
+<div class="col-12 text-start">
+
+Copyright © 2024 Project27 Consultancy Group C.I.C. All rights reserved.
+
+</div>
+
+</div>
+
+<div class="row">
+<div class="col-sm-12 col-md-4 footer-links">
+
+    <a href="https://www.facebook.com/profile.php?id=100095492140913">
+    <img src="/assets/images/icons/facebook.png" alt="Facebook" class="social-strip-icons img-fluid">
+    </a>
+
+    <a href="https://www.twitter.com/project27skills/">
+    <img src="/assets/images/icons/x.png" alt="X" class="social-strip-icons img-fluid">
+    </a>
+
+    <a href="https://www.linkedin.com/company/project27-consultancy-group/">
+    <img src="/assets/images/icons/linkedin.png" alt="LinkedIn" class="social-strip-icons img-fluid">
+    </a>
+
+    <a href="https://youtube.com/@project27skills">
+    <img src="/assets/images/icons/youtube.png" alt="YouTube" class="social-strip-icons img-fluid">
+    </a>
+
+    <a href="https://www.instagram.com/project27skills/">
+    <img src="/assets/images/icons/instagram.png" alt="Instagram" class="social-strip-icons img-fluid">
+    </a>
+
+    <a href="https://dragonscave.space/@daniel/">
+    <img src="/assets/images/icons/mastodon.png" alt="Mastodon" class="social-strip-icons img-fluid">
+    </a>
+
+    </div>
+    <div class="col-sm-12 col-md-8">
+    
+    </div>
+</div>
+
+<div class="row">
+  
+<div class="col-sm-6 col-md-2 text-start">
+
+    <a href="/about/index.html">About us</a>
+                    
+</div>
+  
+<div class="col-sm-6 col-md-2 text-start">
+
+    <a href="/guidelines/index.html">Guidelines</a>
+                    
+</div>
+  
+<div class="col-sm-6 col-md-2 text-start">
+
+    <a href="https://community.project27skills.com">Community workspace</a>
+                    
+</div>
+  
+<div class="col-sm-6 col-md-2 text-start">
+
+          <a target="_blank" rel="noreferrer noopener" href= "https://project27-knowledge-base.atlassian.net/wiki/home/">Staff workspace</a>
+          
+</div>
+  
+<div class="col-sm-6 col-md-2 text-start">
+
+          <a target="_blank" rel="noreferrer noopener" href= "https://github.com/dh256git/project27">Git Hub</a>
+          
+</div>
+  
+<div class="col-sm-6 col-md-2 text-start">
+
+          <a target="_blank" rel="noreferrer noopener" href= "http://p27skills.surge.sh">Staging site</a>
+          
+</div>
+  
+</div>
+
+<div class="row">
+
+<div class="col-sm-6 col-md-2 text-start">
+
+<a href="/legal/terms-of-use.html">
+Terms of use</a>
+</div>
+
+<div class="col-sm-6 col-md-2 text-start">
+
+<a href="/legal/terms-of-service.html">
+Terms of service</a>
+</div>
+
+<div class="col-sm-6 col-md-2 text-start">
+
+<a href="/legal/privacy.html">
+Privacy policy</a>
+</div>
+
+<div class="col-sm-6 col-md-2 text-start">
+
+<a href="/accessibility/index.html">
+Accessibility statement</a>
+</div>
+
+<div class="col-sm-6 col-md-2 text-start">
+
+<a href="/blog/logbook/dev/change-log.html">Version: 1.0.100.</a>
+
+</div>
+
+<div class="col-sm-6 col-md-2 text-start">
+
+<a onclick="showTimeLastUpdated()">Updated on: 
+<span id="time-last-updated-show">28 Jul 2024</span>
+<span id="time-last-updated-hide" class="hidden-text">18:44</span>
+</a>
+
+</div>
+
+</div>
+</div>
+
+</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<!-- Mathematics script -->
+<script type="text/x-mathjax-config">
+(function () {
+
+MathJax.Hub.Config({
+	'showProcessingMessages': false,
+	'messageStyle': 'none'
+});
+
+if (typeof MathJaxListener !== 'undefined') {
+	MathJax.Hub.Register.StartupHook('End', function () {
+		MathJaxListener.invokeCallbackForKey_('End');
+	});
+}
+
+})();
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<!--script for read more modal -->
+<script defer src="/assets/js/modal.js"></script>
+
+<!--script for select pop-up -->
+<script defer src="/assets/js/pop-up.js"></script>
+
+  </body>
+</html>

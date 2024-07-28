@@ -638,13 +638,24 @@ nav a {
   border: 1px solid #F9DBBE;
 }
 
-.profile-pic-container {
-  width: 150px; /* Fixed width */
-  height: 150px; /* Fixed height */
-  border-radius: 50%; /* Make the image container circular */
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-strip-icons {
+  width: 24px; /* Set a fixed width */
+  height: 24px; /* Set a fixed height */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
+.image-text-container {
+  width: 450px; /* Fixed width */
+  height: 350px; /* Fixed height */
   overflow: hidden; /* Ensure content does not overflow */
   display: flex;
-  align-items: center;
+  align-items: centre;
   justify-content: center;
 }
 
@@ -716,11 +727,6 @@ nav a {
   padding-top: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
-}
-
-.img-follow-us-new {
-  width: 30%;
-  height: auto;
 }
 
 .feature-feed {

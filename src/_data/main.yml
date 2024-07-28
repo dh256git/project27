@@ -2,14 +2,6 @@ Home:
 
   services: &services
 
-  - name: Sharing lived experience - Read our Stories!
-    icon: fas fa-pencil-alt
-    link: /blog/index.html
-    description: We share our lived experience of social participation with anyone in doubt of the incredible achievements disabled people are capable of bringing about at work, at home, and anywhere in-between.
-  - name: Publishing learning resources - Study our Guide!
-    icon: fas fa-compass
-    link: /guide/index.html
-    description: We enable blind or learning disabled people to learn and develop new skills in science, technology, lifestyle, and  media on their own, through a collection of accessible learning resources.
   - name: Certifying work experience - Join our community!
     icon: fa-solid fa-handshake
     link: /volunteering/index.html
@@ -18,16 +10,24 @@ Home:
     icon: fa-solid fa-person-chalkboard
     link: /support/services/index.html
     description: Book a one-time consultation or a series of mentorship sessions with our experts to address your questions about blindness or learning disability. We offer tailored advice for disabled individuals, parents and teachers, as well as employers of disabled staff. No membership required.
+  - name: Publishing learning resources - Study our Guide!
+    icon: fas fa-compass
+    link: /guide/index.html
+    description: We enable blind or learning disabled people to learn and develop new skills in science, technology, lifestyle, and  media on their own, through a collection of accessible learning resources.
+  - name: Sharing lived experience - Read our Stories!
+    icon: fas fa-pencil-alt
+    link: /blog/index.html
+    description: We share our lived experience of social participation with anyone in doubt of the incredible achievements disabled people are capable of bringing about at work, at home, and anywhere in-between.
   - name: Co-designing solutions - Validate your research question!
-    icon: fas-lightbulb
+    icon: fas fa-lightbulb
     link: /solutions/research-services/index.html
     description: We enable researchers to understand the real problems blind or learning disabled people experience, through an iterative process of co-design and consultancy, such that the right research questions are addressed.
   - name: Diffusing innovation - Be an early adopter!
-    icon: 
+    icon: fas fa-broadcast-tower
     link: /solutions/innovation-services/index.html
     description: We work with businesses to identify opportunities for innovation in accessibility, diffuse the latest research and development outputs, and scale solutions that work for blind or learning disabled people.
   - name: Knowledge exchange - Disseminate your project learnings!
-    icon: 
+    icon: fas fa-envelope-open-text
     link: /solutions/projects/index.html
     description: We help researchers and businesses with knowledge exchange, disseminating project learnings, and engaging with other stakeholders, through our blog and network.
 
@@ -123,14 +123,14 @@ Guide:
     description: Our community members have a dedicated collection for finding training exercises, hosting their community projects, and showcasing the skills they have developed through our trainee programme.. We recognise the importance of bespoke training and personal projects, tailored to the motivation and interest of individual trainees.
     volumes:
 
-    - name: Training Exercises
+    - name: Learning skills
       icon: fas fa-graduation-cap
       link: /guide/training/index.html
-      description: This volume is a collection of training resources used by our trainees, when they join our community. Members can train in their own topic of interest, through a blend of bespoke and standard skills development exercises.
-    - name: Community Projects
+      description: This volume facilitates the development of learning skills, through a collection of training resources used by our trainees, when they join our community. Members can train in their own topic of interest, learning how to learn, through a blend of bespoke and standard skills development exercises.
+    - name: Entrepreneurial skills
       icon: fas fa-hands-holding-circle
       link: /guide/community-projects/index.html
-      description: This volume is home to projects created by our community members, during the intern stage of their skills development journey. Trainees can use a chapter of this volume to socialise their projects, by posting in the project blog, sharing related learning resources, and recruiting team members.
+      description: Publishing content in this volume requires the development of entrepreneurial skills, such as time management, team building, and value creation. Chapters are home to projects owned by our community members, during the intern stage of their skills development journey. Trainees can socialise their entrepreneurial ideas, by posting in the project blog, sharing related learning resources, and recruiting team members.
 
 Community:
 
