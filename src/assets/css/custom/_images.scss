@@ -1,3 +1,9 @@
+.social-strip-icons {
+    width: 24px; /* Set a fixed width */
+    height: 24px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
 .image-text-container {
 width: 450px;  /* Fixed width */
 height: 350px; /* Fixed height */
@@ -76,11 +82,6 @@ padding-top: 10px;
 padding-right: 10px;
 padding-bottom: 10px;
 }
-
-.img-follow-us-new {
-    width: 30%;
-    height: auto;
-    }
 
 .feature-feed{
     padding: 5%;

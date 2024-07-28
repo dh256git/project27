@@ -2,18 +2,18 @@ nav li{
     display: list-item;
     //padding-right: 5%;
     font-weight: bold;
-    margin-left:10px; //14 may
-    margin-right:10px;
+    margin-left: 10px; //14 may
+    margin-right: 10px;
     text-decoration: underline;
     }
-``
+
 nav a{
     color: black;
 }
 
 .btn-outline-primary{
 padding-top: 10px;
-}```
+}
 
 .btn-outline-secondary{
    padding-top: 10px;
@@ -33,3 +33,9 @@ padding-top: 10px;
     background: #F9DBBE;
     border:1px solid #F9DBBE;
     }
+
+.footer-links {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
