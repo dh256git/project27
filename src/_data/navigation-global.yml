@@ -31,9 +31,13 @@
   dropdown-items:
     - name: Get in touch
       link: /contact/index.html
+    - name: Help us address the right problem
+      link: /problem-definition
     - name: I've got a question
       link: /my-question
     - name: I've got a suggestion
       link: /consult-me
     - name: FAQs
       link: /contact/index.html#FAQ
+    - name: Report an issue
+      link: /blog/logbook/issues/2020/06/05/initialise.html
