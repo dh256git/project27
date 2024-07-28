@@ -1,5 +1,4 @@
 ---
-permalink: CL/git-essentials.html
 layout: post
 title: Add, commit, push - the git essentials
 volume: digital skills
