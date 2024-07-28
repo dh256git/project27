@@ -1,13 +1,7 @@
-<div class="col-md-2">
-<h5>Stay in touch</h5>
-</div>
-<div class="col-md-4">
-<p>Join our mailing list. Coming soon.</p>
-</div>
-{% for item in social-strip %}
     <div class="col">
+{% for item in social-strip %}
     <a href="{{ item.link }}">
     <img src="{{ item.icon }}" alt="{{ item.name }}" class="img-follow-us-new">
     </a>
-    </div>
 {% endfor %}
+    </div>

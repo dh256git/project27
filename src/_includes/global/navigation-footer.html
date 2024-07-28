@@ -1,23 +1,9 @@
-      <nav class="navbar navbar-expand-md navbar-dark bg-nav-footer" tabindex="0" aria-label="Footer">
-<ul class="navbar-nav" role="menubar">
-  {% for item in site.data.navigation-footer limit: 3 %}
-  <li>
-    <a href="{{ item.link | prepend: site.baseurl }}">{{ item.name }}</a>
-  </li>
-  {% endfor %}
-  
-  <div class="dropdown bg-my-nav">
-<button type="button" class="mybtnswitch" data-bs-toggle="dropdown" aria-haspopup="true">Development</button>
-        <div class="dropdown-menu">
-    {% for item in site.data.navigation-footer offset: 3 %}
+<div class="col">
+  {% for item in site.data.navigation-footer %}
 {% if item.link contains "github.com" or item.link contains "surge.sh" or item.link contains "atlassian.net" %}
-          <a target="_blank" rel="noreferrer noopener" class="dropdown-item" href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+          <a target="_blank" rel="noreferrer noopener" href= "{{ item.link }}">{{ item.name }}</a>
           {% else %}
-                    <a class="dropdown-item" href= "{{ item.link | prepend: site.baseurl }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+    <a href="{{ item.link | prepend: site.baseurl }}">{{ item.name }}</a>
                     {% endif %}
   {% endfor %}
 </div>
-</div>
-
-  </ul>
-</nav>

@@ -2,11 +2,8 @@
 {% assign social-strip = site.data.social-strip %}
 
 <div class="row">
-<div class="col-md-8">
+<div class="col">
 {% include global/licence.html %}
-</div>
-<div class="col-md-4">
-{% include global/navigation-footer.html %}
 </div>
 </div>
 
@@ -15,25 +12,25 @@
 </div>
 
 <div class="row">
+{% include global/navigation-footer.html %}
+</div>
+
+<div class="row">
+<div class="col">
 {% for item in policy-strip %}
-<div class="col">
-<p>
-<a href="{{ item.link | prepend: site.baseurl }}">
-{{ item.name }}
-</a>
-</p>
-</div>
-{% endfor %}
-<div class="col">
-<p><a href="{{ '/blog/logbook/dev/change-log.html' | prepend: site.baseurl }}">Version: {{ include.version }}.{{ include.subversion }}.{{ include.commit }}.</a></p>
-</div>
-<div class="col">
-<p onclick="showTimeLastUpdated()">Last updated: 
+{% if item.link contains "change-log" %}
+<a href="{{ item.link | prepend: site.baseurl }}">{{ item.name }}: {{ include.version }}.{{ include.subversion }}.{{ include.commit }}.</a>
+{% elsif item.name == "Updated on" %}
+<a onclick="showTimeLastUpdated()">{{ item.name }}: 
 <span id="time-last-updated-show">{{ site.time | date_to_rfc822 | date: "%d %b %Y" }}.</span>
 <span id="time-last-updated-hide" class="hidden-text">{{ site.time | date_to_rfc822 | date: "%H:%M" }}.</span>
-</p>
+</a>
+{% else %}
+<a href="{{ item.link | prepend: site.baseurl }}">
+{{ item.name }}</a>{% endif %}
+{% endfor %}
 </div>
-</div>
+
 
 {% comment %}
 <div class="row">
