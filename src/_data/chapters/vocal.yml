@@ -1,6 +1,17 @@
-- name: Capturing stories
-  link: /guide/vocal/capturing-stories/index.html
-  description: Capturing stories is a chapter of notes on concepts and techniques of audio editing, the art of listening and asking questions, and responsible journalism.
-- name: Sharing stories
-  link: /guide/vocal/sharing-stories/index.html
-  description: Sharing stories may be a source of inspiration. So let us get to know the people that shaped the identity of Project27 through their own stories.
+- name: Capturing voices and experiences
+  link: /guide/vocal/capturing-voices-and-experiences/index.html
+  icon: fa-regular fa-pen-to-square
+  description: 
+Capturing voices and experiences involves collecting data through various methods such as in-depth interviews, keen observation, and comprehensive desk research. 
+- name: Checking facts and analysing data
+  link: /guide/vocal/checking-facts-and-analysing-data/index.html
+  icon: fa-solid fa-book-open-reader
+  description: Checking facts and analyzing data content involves honing skills to verify the accuracy of information and uncover emerging trends and themes. 
+- name: Creating multimedia content
+  link: guide/vocal/creating-multimedia-content/index.html
+  icon: fa-solid fa-photo-film
+  description: Creating multimedia content is about audio editing, video editing and scripting methods.
+- name: Telling and sharing stories
+  link: /guide/vocal/telling-and-sharing-stories/index.html
+  icon: fas fa-broadcast-tower
+  description: Sharing stories is about story telling, story editing, creating a narrotive and digital marketing
