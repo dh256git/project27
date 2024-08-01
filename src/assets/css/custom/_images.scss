@@ -20,6 +20,13 @@ justify-content: center;
     border-radius: 50%; /* Make the image circular */
 }
 
+.allies-profile {
+    width: 150px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    border-radius: 0%;
+}
+
 .news-thumbnail {
 width: 100%;
 height: auto;

@@ -12,7 +12,7 @@
   dropdown-items:
     - name: Meet the team
       link: /about/team/index.html
-    - name: Meet our partners
+    - name: Meet our allies
       link: /about/partners/index.html
 
 - menu: &menu3
