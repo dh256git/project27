@@ -11,6 +11,8 @@ backgroundStyle: bg-general-vol
 pitch: We support blind or learning disabled trainees to develop skills that matter, through certifying their active involvement in training exercises and our community projects. Tasks are created by  industry professionals, leading small entrepreneurial teams of trainees, providing mentorship, and encouraging peer support.
 hero-image: /assets/images/covers/volunteering-cover.jpg
 hero-image-description: A drawn tree, with handprints as leaves on the branches.
+callToActionLabel: Login
+callToActionLink: https://community.project27skills.com/
 ---
 
 {% include community/overview.md %}
@@ -26,9 +28,9 @@ hero-image-description: A drawn tree, with handprints as leaves on the branches.
 {% assign teamER = site.volunteering | where:"team","ER" %}
 {% assign teamContent = site.volunteering | where:"team","Content" %}
 
-## {{ page.title }}: {{ page.tagline }}
+## Building pathways for growth
 
-{% include global/buttonLink.html url="https://docs.google.com/forms/d/e/1FAIpQLSeq5EFjDtIjXKPDgu8l9YYBwfP7gnrop7uKOTRoIxtZZQTRwQ/viewform?usp=sf_link" label="Express your interest in joining our community" %}
+{% include global/buttonLink.html url="https://docs.google.com/forms/d/e/1FAIpQLSeq5EFjDtIjXKPDgu8l9YYBwfP7gnrop7uKOTRoIxtZZQTRwQ/viewform?usp=sf_link" label="Join our community" %}
 
 Join our community as a 
 <a href="#tab-volunteers" onClick="setTab('volunteers')">
@@ -46,6 +48,7 @@ develop skills that matter,
 </a>
  through bespoke training, creating and completing tasks, and working in disability inclusive teams.
 
+{% include global/full-screen-figure.html alt="A flowchart illustrating user journeys of community members and possible growth pathways, including various entry and exit points, using a metaphor of cars driving on a motorway." description="pathways-flowchart-vertical.html" image="/general/pathways-flowchart-vertical.png" %}
 ## Book a support session
 
 Membership is not required to get support from us.
