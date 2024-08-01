@@ -1,8 +1,10 @@
 <div class="col-sm-12 col-md-3 d-flex flex-column align-items-center mb-4">
 <h4><a target="_blank" rel="noopenner noreferrer" href="{{ item.link }}">{{ item.name }}</a></h4>
 
+<p>{{ item.project }}</p>
+
 <img src="{{ '/assets/images' | prepend: site.baseurl }}{{ item.logo }}" alt="{{ item.name }} logo" class="allies-profile img-fluid mb-3">
 
-<p>{{ item.project }}</p>
+<a href="{{ '/solutions/projects/index.html' | prepend: site.baseurl }}" class="mb-3 {{ page.buttonStyle }}">Learn more</a>
 
 </div>
