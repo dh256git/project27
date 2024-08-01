@@ -8,7 +8,7 @@ tag: news
 updated: 2023-10-23
 buttonStyle: fg-blog-sect
 backgroundStyle: abg-blog-sect
-image: august.jpg
+image: /news/august.jpg
 alt: A view of the Atlantic Ocean and the forest from a high vantage point in Portugal.
 ---
 

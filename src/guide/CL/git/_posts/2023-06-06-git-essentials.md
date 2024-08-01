@@ -4,6 +4,8 @@ title: Add, commit, push - the git essentials
 volume: digital skills
 chapter: git
 tag: git
+image:
+alt: 
 ---
 
 There are only 3 Git commands you need to know, before you can start enjoying the benefits of Git.
