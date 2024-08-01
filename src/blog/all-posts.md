@@ -28,7 +28,7 @@ pitch: Find all of our stories on one page. Nothing new, but it's convenient on 
 <div class="row news-item">
 <div class="col-12 col-md-3">
 {% if post.image %}
-<img src="{{ '/assets/images/blog/' | append: post.image | prepend: site.baseurl }}" alt="{{ post.alt }}" class="news-thumbnail img-fluid">
+<img src="{{ '/assets/images' | append: post.image | prepend: site.baseurl }}" alt="{{ post.alt }}" class="news-thumbnail img-fluid">
 {% else %}
 <img src="{{ '/assets/images/Project27 logo.png' | prepend: site.baseurl }}" alt="A placeholder image, showing the Project27 logo." class="news-thumbnail img-fluid">
 {% endif %}

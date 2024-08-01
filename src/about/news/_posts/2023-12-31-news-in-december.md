@@ -8,7 +8,7 @@ tag: news
 updated: 2024-01-04
 buttonStyle: fg-blog-sect
 backgroundStyle: abg-blog-sect
-image: December.jpg
+image: /news/December.jpg
 alt: A cartoon illustration of a board meeting with people sitting around a conference table, and a person pointing at the word 'meeting' written on a whiteboard.
 ---
 

@@ -5,6 +5,8 @@ branch: Twist
 tag: Identities
 buttonStyle: fg-blog-note
 backgroundStyle: bg-blog-note
+image: /blog/PHD-graduate.png
+alt: A image of PhD graduate, dressed in a traditional black cap and gown, energetically punching the air with one fist. The graduate has a broad smile, and the background is lively with floating confetti, emphasizing a festive atmosphere of celebration and academic achievement.
 ---
 
 After so many years of phone conversations where I've been asked, "is it Miss or Mrs?", I can now finally say "Dr" and punch my fist in the air with the sense of victory. It is much more satisfying than saying "Mr" with a sense of defeat, and a comically deep, rough, and totally fake voice. Yes, today I have received my Doctor of Philosophy degree certificate. 
