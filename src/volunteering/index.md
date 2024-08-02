@@ -48,7 +48,8 @@ develop skills that matter,
 </a>
  through bespoke training, creating and completing tasks, and working in disability inclusive teams.
 
-{% include global/full-screen-figure.html alt="A flowchart illustrating user journeys of community members and possible growth pathways, including various entry and exit points, using a metaphor of cars driving on a motorway." description="pathways-flowchart-vertical.html" image="/general/pathways-flowchart-vertical.png" %}
+{% include global/full-screen-figure.html alt="A flowchart illustrating user journeys of community members and possible growth pathways, including various entry and exit points, using a metaphor of cars driving on a motorway." description="pathways-flowchart-horizontal.html" image="/general/pathways-flowchart-horizontal.png" %}
+
 ## Book a support session
 
 Membership is not required to get support from us.
