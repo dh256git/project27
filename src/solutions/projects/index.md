@@ -10,7 +10,6 @@ updated: 2023-06-24
 licence: copyright
 buttonStyle: fg-general-land
 backgroundStyle: bg-general-land
-listOfIcons: [["", "olli-logo.png", "The Olli logo"]]
 burndownData: /solutions/projects/current-sprint.csv
 ---
 

@@ -1,12 +1,18 @@
-- name: Project Olli
+- name: Olli
   link: https://mitvis.github.io/olli/
   description: Olli is an open-source library for converting data visualizations into accessible text structures for screen reader users. Starting with an existing visualization specification created with a supported toolkit, Olli produces a keyboard-navigable tree view with descriptions at varying levels of detail. Users can explore these structures both to get an initial overview, and to dive into the data in more detail.
-- name: Project Upset
-  link: 
-  description: Placeholder text.
-- name: Project Journeys
-  link: 
-  description: Placeholder text.
-- name: Project Ground Work
-  link: 
-  description: Placeholder text.
+  icon: /logos/olli-logo.png
+- name: Upset
+  link: https://upset.app
+  description: This project aims to enhance the accessibility and usability of the UpSet visualisation technique, widely used in biomedical research. It will address challenges faced by low-vision and blind users in reading and creating UpSet plots. Key objectives include developing accessible workflows and alt-text templates, and improving the interactive, web-based version for non-coders.
+  icon: /logos/Upset.png
+- name: Journeys
+  link: https://www.level-3.co.uk
+  description: This experimental project, led by Level3 Productions, aims to enhance accessibility in playful media creation for disabled artists. Collaborating with three disabled artists—a blind man, a woman in an electric wheelchair, and a woman with learning disabilities—we'll assist in developing prototype artworks suited to their needs. The process will be documented in a short film and a written report, shared online to broaden access to playful media tools for disabled artists.
+  icon: 
+  buttonLabel: Learn more about Level3
+- name: Groundwork
+  link: https://thisnewground.com
+  description: Groundwork, led by This New Ground, aims to preserve and archive the heritage of people with learning disabilities in Portsmouth. By filling gaps in historical records, this co-designed project amplifies their voices, challenges historical views, and ensures their stories are accessible through permanent archives and exhibitions.
+  icon: 
+  buttonLabel: Learn more about This New Ground
