@@ -10,7 +10,6 @@ updated: 2023-06-24
 licence: copyright
 buttonStyle: fg-general-land
 backgroundStyle: bg-general-land
-listOfIcons: [["", "olli-logo.png", "The Olli logo"]]
 burndownData: /solutions/projects/current-sprint.csv
 ---
 
@@ -20,4 +19,13 @@ All of the solutions in our portfolio have been [co-designed with researchers,](
 To maximise impact, we are working with businesses on [diffusing innovation that works.]({% link solutions/innovation-services/index.md %})
 
 {% assign dataFile = site.data.solutions.projects %}
+{% assign gridLimit = 2 %}
+{% include global/grid-generator-for-solutions.html heading="h3" %}
+
+## Community portfolio
+
+All of our community projects are inspired by the skills our community members want to develop.
+
+{% assign dataFile = site.data.solutions.projects %}
+{% assign gridOffset = 2 %}
 {% include global/grid-generator-for-solutions.html heading="h3" %}
