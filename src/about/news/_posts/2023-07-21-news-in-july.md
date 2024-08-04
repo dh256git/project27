@@ -6,7 +6,7 @@ title: Successful registration of the Project27 C.I.C.
 tag: news
 buttonStyle: fg-blog-sect
 backgroundStyle: bg-blog-sect
-image: july.png
+image: /news/july.png
 alt: A screenshot of the Companies House website, showing the registered company number and company name of Project27 Consultancy Group C.I.C.
 ---
 

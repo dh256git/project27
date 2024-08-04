@@ -8,7 +8,7 @@ date: 2022-08-27
 updated: 2024-07-04
 hero-image: /assets/images/covers/tulips-cover.jpeg
 hero-image-description: Daniel and Danielle are standing on a platform, with vast fields of colourful tulips and a canal in the background. Both of them smile at the camera.
-pitch: We create personalised pathways of experiential training and professional development opportunities for blind and learning-disabled individuals. Through our community-driven learning resources and co-working platform, we provide a safe-space and tailored support to help members develop valuable skills, find their passions, and succeed in the job market, such that they can grow personally and professionally at the pace that suits them.
+pitch: We enable blind or learning-disabled people to participate in learning, work, and social life. Through project-based learning, working in teams, and building unique pathways for growth; we provide a safe-space and tailored support to help members of our community find their passions, develop valuable skills, and succeed in the job market, such that they can grow personally and professionally at the pace that suits them.
 licence: copyright
 buttonStyle: fg-general-land
 backgroundStyle: bg-general-land

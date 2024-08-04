@@ -6,7 +6,7 @@ title: Gearing up for multimedia content
 tag: news
 buttonStyle: fg-blog-sect
 backgroundStyle: bg-blog-sect
-image: june.png
+image: /news/june.png
 alt: Podcast mics attached to stands on a table, wired to an audio interface and a laptop.
 ---
 

@@ -1,19 +1,19 @@
-- name: Shell commands
+- name: Shell commands and scripting
   icon: Bash shell logo.png
   link: /guide/CL/bash/index.html
-  description: Bash is a command line interface, a shell, between the user and the computer kernel.
-- name: Git and Git Hub
+  description: In 'Shell Commands and Scripting', discover how the Bash command line interface acts as a powerful intermediary between you and your computer's kernel, allowing you to accomplish tasks swiftly and efficiently. Learn to harness the power of shell commands and scripts to automate processes and create mini-programs that elevate your productivity beyond the capabilities of graphical user interfaces.
+- name: Version control and collaboration
   icon: Github logo.png
   link: /guide/CL/git/index.html
-  description: Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
-- name: Markdown
+  description: In 'Version Control and Collaboration', delve into Git, the robust, open-source version control system that seamlessly manages projects of all sizes with remarkable speed and efficiency. Explore how Git enables parallel development and fosters effective collaboration, empowering teams to work simultaneously on the same digital product without conflicts.
+- name: Markup languages
   icon: Markdown logo.png
   link: /guide/CL/markdown/index.html
-  description: Markdown is a lightweight markup language with plain-text-formatting syntax. ... Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
-- name: Web development
+  description: In 'Markup Languages', uncover the simplicity and power of Markdown, a lightweight language that transforms plain text into formatted documents effortlessly. Learn how this versatile tool is essential for formatting readme files, online discussions, and creating rich text, forming the backbone of efficient web design and communication.
+- name: Web design
   icon: Jekyll logo.png
   link: /guide/CL/web/index.html
-  description: Web development constitutes anything from html, to css; from javascript, to Jekyll, and beyond.
+  description: In 'Web Design', explore the foundational role of HTML in crafting the backbone of web content, and see how CSS and JavaScript breathe life into your digital creations. Discover how templating tools like Jekyll and Bootstrap simplify the design process, and learn how generative AI can revolutionize your approach to mastering web design.
 - name: Python
   icon: Python logo.png
   link: /guide/CL/python/index.html

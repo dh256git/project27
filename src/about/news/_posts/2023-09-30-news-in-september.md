@@ -8,7 +8,7 @@ tag: news
 updated: 2023-10-23
 buttonStyle: fg-blog-sect
 backgroundStyle: abg-blog-sect
-image: september.jpg
+image: /news/september.jpg
 alt: An illustration of a robot flying over a computer motherboard.
 ---
 

@@ -13,7 +13,7 @@ pitch: Find all of our news in one convenient place. Want to receive our quorter
 {% for news in site.data.news %}
 <div class="row news-item">
 <div class="col-12 col-md-3">
-<img src="{{ '/assets/images/news/' | append: news.thumbnail | prepend: site.baseurl }}" alt="{{ news.thumbnailAlt }}" class="news-thumbnail img-fluid">
+<img src="{{ '/assets/images' | append: news.thumbnail | prepend: site.baseurl }}" alt="{{ news.thumbnailAlt }}" class="news-thumbnail img-fluid">
 </div>
 <div class="col-12 col-md-9">
 <h4><a href="{{ news.link | prepend: site.baseurl }}">{{ news.headline }}</a></h4>

@@ -10,7 +10,7 @@ backgroundStyle: bg-general-vol
 pitch: We offer a range of ad-hoc support sessions and regular supervision for members and non-members alike, to suit your individual needs. If you'd like to set up a regular support plan with a variety of support sessions, we will work with you to build and schedule a personalised skill studio.
 ---
 
-We offer pay as you go options for getting support, memberships for periodic participation, and tiers of blended finance discount plans to suit everyone's schedule and budget.
+We offer pay as you go options for getting support, membership plans for periodic participation, and tiers of blended finance discounts to suit everyone's schedule and budget.
 
 {% capture tab1-content %}
 ## Ad-hoc support (no membership required)
@@ -67,7 +67,7 @@ Professional support sessions are designed to help people who want to support bl
 
 ### Business support - 60 minutes for £75.00
 
-Business support is dedicated to small and medium enterprises, who want to be more disability inclusive.
+Business support is dedicated to small and medium enterprises, who want to be more disability inclusive, or enable their clients to become more accessible.
 
 1. Coaching: Unlock the full potential of your workforce with our specialised coaching. Empower your business to set clear goals and explore innovative strategies to maximise the performance of disabled employees. Through insightful and open-ended questions on disability inclusion, we coach you to create a more inclusive and high-performing workplace.
  - **Customised Goal Setting**: Work with our experts to define clear, actionable goals tailored to your organisation's needs and aspirations regarding disability inclusion.
@@ -79,15 +79,15 @@ Business support is dedicated to small and medium enterprises, who want to be mo
  - **Co-Design Workshops**: Participate in interactive sessions that involve your team in the co-creation of practical, effective accessibility strategies.
  - **Expert Guidance and Feedback**: Receive continuous, personalised advice from industry experts to ensure your accessibility initiatives are on the right track.
  - **Ongoing Mentorship and Support**: Benefit from regular check-ins and support from your mentor to address challenges, celebrate successes, and refine your approach as needed.
-3. Research: Unlock the power of knowledge with our research support, designed to complement our coaching and mentoring offers. Gain valuable insights and solutions tailored to your specific accessibility questions. Let us do the deep digging to provide you with evidence-based answers and innovative tools to enhance your workplace's inclusivity.
+3. Research: Unlock the power of knowledge with our research support, designed to complement our coaching and mentoring offers. Gain valuable insights and solutions tailored to your specific accessibility questions. Let us do the deep digging to provide you with evidence-based answers and innovative tools to enhance your products' accessibility and workplace's inclusivity.
  - **Customised Accessibility Reports**: Receive detailed, research-based reports that address your specific accessibility questions and challenges.
  - **Innovative Demonstrator Tools**: Benefit from the creation of demonstrator tools designed to showcase practical solutions and best practices for your organisation.
 
 {% include global/buttonLink.html url="/solutions/index.md" label="Learn more about Project27 Solutions - our comprehensive research and innovation services" %}
 
-## Trainee certifications (membership required)
+## Trainee certifications (community membership required)
 
-Pay as you go membership options are a great choice for those who want to take their time.
+Pay as you go certifications are a great choice for those who want to take their time.
 You can take a break between working towards different levels of trainee certification in the same team.
 You can also aim for the same certification in a different team, without the need to level up.
 Prices per certification are:
@@ -109,9 +109,24 @@ Similar to our pay-as-you-go support sessions, membership pricing varies slightl
 ### Personal membership
 
 A personal membership is exclusive to the individual who subscribed.
-Our subscription model is a great choice for those who know exactly what skills they want to develop.
+Individuals can opt for a community membership, or a trainee membership.
+
+#### Community membership for individuals
+
+Our community membership is the most affordable way to join our community, but it does not include any of the trainee benefits, such as onboarding, project-based learning, working in teams, or supervision from team leaders and industry professionals.
+
+* paid yearly: £17.90 a year (£1.49 per month),
+* join the conversation on our WhatsApp Community,
+* contribute blog posts and 'how to' notes in the {{ site.org }} {{ site.product }},
+* access members-only resources, events, and event recordings,
+* unlock pay as you go trainee certifications.
+
+#### Trainee membership for individuals
+
+Our subscription model for trainees is a great choice for those who know exactly what skills they want to develop.
 Annual subscriptions help you save, if you plan to become a certified fellow within 18 months of joining our community, whereas monthly payments help with breaking up the costs of personal growth.
 
+* includes the price of community membership for individuals,
 * paid monthly: £179.99 a month,
 * paid yearly: £1799.90 a year (£149.99 per month),
 
@@ -120,6 +135,7 @@ Annual subscriptions help you save, if you plan to become a certified fellow wit
 Perfect for social enterprises and charitable organisations, who want to complement their mentorship or skills development programmes with our community services for a few of their own members.
 Ownership of annual subscriptions purchased by businesses on behalf of their service users can be transferred from one service user to another on request.
 
+* includes the price of community membership for individuals,
 * paid yearly: £1999.99 a year per subscription,
 * multiple members discount: £100.00 off (for each additional member added),
 * flat fee: £999.99 a year (for the 11th member onwards).

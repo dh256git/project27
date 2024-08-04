@@ -2,9 +2,11 @@
 
   label: What we do
   dropdown-items:
-    - name: Developing skills that matter (P27 Skills)
+    - name: Building pathways for growth
+      link: /volunteering/index.html
+    - name: Developing skills that matter
       link: /about/index.html
-    - name: Co-designing solutions that work (P27 Solutions)
+    - name: Co-designing solutions that work
       link: /solutions/index.html
 
 - menu: &menu2
@@ -12,7 +14,7 @@
   dropdown-items:
     - name: Meet the team
       link: /about/team/index.html
-    - name: Meet our partners
+    - name: Meet our allies
       link: /about/partners/index.html
 
 - menu: &menu3
