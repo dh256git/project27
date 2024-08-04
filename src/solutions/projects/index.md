@@ -29,3 +29,12 @@ All of our community projects are inspired by the skills our community members w
 {% assign dataFile = site.data.solutions.projects %}
 {% assign gridOffset = 2 %}
 {% include global/grid-generator-for-solutions.html heading="h3" %}
+
+---
+
+## Project spotlight
+
+Learn more about Olli, by viewing curated content in the tabs below.
+<div class="container-mt-5">
+{% include projects/solutions/tabs-for-projects.html %}
+</div>
