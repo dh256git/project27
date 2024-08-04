@@ -9,10 +9,10 @@
 - name: Journeys
   link: https://www.level-3.co.uk
   description: This experimental project, led by Level3 Productions, aims to enhance accessibility in playful media creation for disabled artists. Collaborating with three disabled artists—a blind man, a woman in an electric wheelchair, and a woman with learning disabilities—we'll assist in developing prototype artworks suited to their needs. The process will be documented in a short film and a written report, shared online to broaden access to playful media tools for disabled artists.
-  icon: 
+  icon: /logos/journeys.png
   buttonLabel: Learn more about Level3
 - name: Groundwork
   link: https://thisnewground.com
   description: Groundwork, led by This New Ground, aims to preserve and archive the heritage of people with learning disabilities in Portsmouth. By filling gaps in historical records, this co-designed project amplifies their voices, challenges historical views, and ensures their stories are accessible through permanent archives and exhibitions.
-  icon: 
+  icon: /logos/groundwork.png
   buttonLabel: Learn more about This New Ground
