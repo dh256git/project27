@@ -644,6 +644,20 @@ nav a {
   align-items: center;
 }
 
+.figure-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.figure-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn-group {
+  margin-top: 10px;
+}
+
 .social-strip-icons {
   width: 24px; /* Set a fixed width */
   height: 24px; /* Set a fixed height */
@@ -664,6 +678,13 @@ nav a {
   height: 150px; /* Set a fixed height */
   object-fit: cover; /* Ensure the image covers the area without distortion */
   border-radius: 50%; /* Make the image circular */
+}
+
+.allies-profile {
+  width: 150px; /* Set a fixed width */
+  height: 150px; /* Set a fixed height */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+  border-radius: 0%;
 }
 
 .news-thumbnail {
