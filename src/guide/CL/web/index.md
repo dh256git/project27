@@ -1,6 +1,6 @@
 ---
 layout: contents
-title: Web development
+title: Web design
 buttonStyle: fg-guide-chap
 backgroundStyle: bg-guide-chap
 ---

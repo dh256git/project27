@@ -8,7 +8,7 @@ tag: news
 updated: 2023-11-03
 buttonStyle: fg-blog-sect
 backgroundStyle: abg-blog-sect
-image: october.png
+image: /news/october.png
 alt: A screenshot of the new tab panel on Danielle's profile page, showing tabs, such as education, employment, or self-advocacy.
 ---
 

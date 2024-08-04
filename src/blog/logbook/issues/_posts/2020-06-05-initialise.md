@@ -6,6 +6,8 @@ branch: LogBook
 tag: Issue tracking
 buttonStyle: fg-blog-sect
 backgroundStyle: bg-blog-sect
+image: /blog/issue-tracking.png
+alt: In the cartoon image, a simplified office setting is portrayed with two people observing a large digital screen displaying a few tasks marked as 'In Progress' and 'Completed'. The scene uses minimal details, focusing on the digital issue tracking system and a few office elements like a desk and a plant.
 ---
 
 This blog category is here to capture posts about issues and their solutions during the development of {{ site.brand }}. We are learning as we build, so undoubtedly there will be issues to fix. There will be many issues, at pretty much all times.

@@ -8,7 +8,7 @@ tag: news
 updated: 2023-12-03
 buttonStyle: fg-blog-sect
 backgroundStyle: abg-blog-sect
-image: November.jpg
+image: /news/November.jpg
 alt: Daniel and Jonathan are presenting on a conference stage.
 ---
 

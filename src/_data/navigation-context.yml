@@ -37,9 +37,7 @@ support:
     link: /support/pricing.html
 
 partners:
-  - name: Community partnerships
-    link: index.html/#community
-  - name: Research partnerships
-    link: index.html/#research
-  - name: Innovation partnerships
-    link: index.html#innovation
+  - name: Collaborations and partnerships
+    link: index.html/#collaborations
+  - name: Funders
+    link: index.html/#funders

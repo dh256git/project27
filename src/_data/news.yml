@@ -2,83 +2,89 @@
   teaser: We are making strides towards building stronger foundations through our selection for business incubation at the Sussex Innovation Centre, and a collaborative project with Level3 on playable media for disabled artists.
   link: /summer-news-2024.html
   date: 2024-06-30
-  thumbnail: 
-  thumbnailAlt: 
+  thumbnail: /news/summer-2024.png
+  thumbnailAlt: Cartoon illustration of two men and one woman working together in a bright, creative studio. They are seated at a desk with a large computer monitor, discussing and pointing at the screen. The background features posters, action figures, and multiple monitors, creating an energetic atmosphere.
+- headline: Your voice matters - Spring, 2024
+  teaser: We've recruited industry expert Harpreet to enhance our website and launched a user research campaign to design impactful community services for blind or learning disabled individuals. Join us and make your voice heard!
+  link: /spring-news-2024.html
+  date: 2024-03-31
+  thumbnail: /news/spring-2024.jpg
+  thumbnailAlt: A cartoon illustration of a man interviewing a young blind woman. The scene is set in a minimalistic room with clean lines and a modern aesthetic. The man, sitting across from the woman, is taking notes on a laptop. The room includes a simple design with a plant on a desk and a poster on the wall with the words ‘help us address the right problem on it’.  
 - headline: Ending the year with our inaugural advisory board meeting
   teaser: We asked our critical and trusted friends with plenty of relevant expertise to keep our thinking on track. Read more about why this matters to us. 
   link: /news-in-december.html
   date: 2023-12-31
-  thumbnail: December.jpg
+  thumbnail: /news/December.jpg
   thumbnailAlt: A cartoon illustration of a board meeting with people sitting around a conference table, and a person pointing at the word 'meeting' written on a whiteboard.
 - headline: Launching Olli v2.0 at Info Plus 2023
   teaser: We gave a presentation on the latest advancements of Olli, an accessible data visualisation tool co-designed with the MIT Visualisation Group.
   link: /news-in-november.html
   date: 2023-11-30
-  thumbnail: November.jpg
+  thumbnail: /news/November.jpg
   thumbnailAlt: Daniel and Jonathan are presenting on a conference stage.
 - headline: Introducing tabs - A new look on our profile pages
   teaser: We learnt how to organise content into tabs and started testing how it feels to visitors of our site. Let us know what you think. 
   link: /news-in-october.html
   date: 2023-10-31
-  thumbnail: October.png
+  thumbnail: /news/October.png
   thumbnailAlt: A screenshot of the new tab panel on Danielle's profile page, showing tabs, such as education, employment, or self-advocacy. 
 - headline: A new recruit - Experimenting with AI tools
   teaser: Generative AI showed up on our doorstep too. We are experimenting with ways to scaffold our content creation workflows, without losing originality.
   link: /news-in-september.html
   date: 2023-09-30
-  thumbnail: september.jpg
+  thumbnail: /news/september.jpg
   thumbnailAlt: An illustration of a robot flying over a computer motherboard.
 - headline: We took a break. So who wrote this?
   teaser: Not much happened this month, but we couldn't resist playing with some gadgets. Say hello to AI.
   link: /news-in-august.html
   date: 2023-08-31
-  thumbnail: august.jpg
+  thumbnail: /news/august.jpg
   thumbnailAlt: A view of the Atlantic Ocean and the forest from a high vantage point in Portugal.
 - headline: Successful registration of the Project27 C.I.C.
   teaser: It's official. We are a community interest company now. We want to challenge ourselves, and want you to trust us. We are serious about Project27.
   link: /news-in-july.html
   date: 2023-07-31
-  thumbnail: july.png
+  thumbnail: /news/july.png
   thumbnailAlt: A screenshot of the Companies House website, showing the registered company number and company name of Project27 Consultancy Group C.I.C.
 - headline: Gearing up for multimedia content
   teaser: One step closer. In addition to the YouTube channel, we also invested in a couple of quality microphones. Time to hit record.
   link: /news-in-june.html
   date: 2023-06-30
-  thumbnail: june.png
+  thumbnail: /news/june.png
   thumbnailAlt: Podcast mics attached to stands on a table, wired to an audio interface and a laptop.
 - headline: Making space for video content
   teaser: We thought about how to reach more people, and we landed on complementing our written content with videos and podcasts. As a first step, we created a YouTube channel to host it all.
   link: /blog/logbook/dev/2023/05/31/youtube.html
   date: 2023-05-31
-  thumbnail: YT-P27.png
+  thumbnail: /news/YT-P27.png
   thumbnailAlt: The YouTube and Project27 logos placed side-by-side.
 - headline: Introducing our initial logo design
   teaser: As we are defining ourselves, we created a visual identifier. What do you think of our logo?
   link: /blog/logbook/dev/2023/04/30/logo.html
   date: 2023-04-30
-  thumbnail: Project27 logo.png
+  thumbnail: /news/Project27 logo.png
   thumbnailAlt: A circular design with Project 27 Skills written in the middle of the logo. The black background is outlined with a grey and a green ring.
 - headline: Taking the stage at Learning Disability England
   teaser: Danielle, our CEO, gave a talk on self-advocacy at the annual Learning Disability England conference.
   link: /blog/twist/special-interests/2023/03/31/LDE-LBS.html
   date: 2023-03-31
-  thumbnail: LDE-2023.jpg
+  thumbnail: /news/LDE-2023.jpg
   thumbnailAlt: Danielle on stage, delivering a keynote.
 - headline: We have updated our issue tracking processes
   teaser: Nobody is perfect. That's why we want to make it easy for you to report issues. We'll address these as best as we can.
   link: /blog/logbook/issues/2020/06/05/initialise.html
   date: 2023-02-28
-  thumbnail: bug.jpg
+  thumbnail: /news/bug.jpg
   thumbnailAlt: A computer screen filled with bugs, with a magnifier over one of them.
 - headline: New milestone by way of a custom domain
   teaser: Until now we kept our website under wraps. Now, you can find the beta version at a more user friendly internet address.
   link: /blog/logbook/dev/2022/12/14/google-analytics.html
   date: 2023-01-31
-  thumbnail: domain.jpg
+  thumbnail: /news/domain.jpg
   thumbnailAlt: A mouse pointer highlighting the abbreviations of http and www.
 - headline: Danielle wins award for leadership in self-advocacy
   teaser: The team is very proud of Danielle, our CEO, for taking the Dimensions  Leadership award home.
   link: /blog/twist/disabilities/2022/12/02/award.html
   date: 2022-12-31
-  thumbnail: danielle-award.jpg
+  thumbnail: /news/danielle-award.jpg
   thumbnailAlt: Danielle is holding an award, in front of a white wall.

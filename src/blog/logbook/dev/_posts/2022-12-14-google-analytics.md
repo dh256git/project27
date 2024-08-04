@@ -6,7 +6,7 @@ branch: LogBook
 tag: Site development
 buttonStyle: fg-blog-sect
 backgroundStyle: bg-blog-sect
-image: google-analytics.png
+image: /blog/google-analytics.png
 alt: The Google Analytics logo, spelling the name of the service out, with a bar-chart underneath it.
 ---
 

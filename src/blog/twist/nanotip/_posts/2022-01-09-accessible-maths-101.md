@@ -6,7 +6,7 @@ author: Daniel
 title: FAQ 2 - How do I read maths in accessible ways?
 buttonStyle: fg-blog-note
 backgroundStyle: bg-blog-note
-image: hand-braille.jpg
+image: /blog/hand-braille.jpg
 alt: hands going over a baille peice of paper
 ---
 

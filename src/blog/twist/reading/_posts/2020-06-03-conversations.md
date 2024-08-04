@@ -6,6 +6,8 @@ author: Daniel
 title: Reading - An introduction to this category
 buttonStyle: fg-blog-note
 backgroundStyle: bg-blog-note
+image: /blog/man-writing-in-a-book.png
+alt: A image of an adult sitting at a desk, engrossed in writing in a large book. The room is warmly decorated with a lamp, scattered papers, a coffee cup, and bookshelves by a sunny window.
 ---
 
 It's been said that fire is the greatest discovery in history, and writing is the greatest invention of time. Writing enables people to capture their thoughts and share it with other people, who can read.

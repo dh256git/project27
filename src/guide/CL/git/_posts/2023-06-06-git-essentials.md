@@ -1,10 +1,11 @@
 ---
-permalink: CL/git-essentials.html
 layout: post
 title: Add, commit, push - the git essentials
 volume: digital skills
 chapter: git
 tag: git
+image: /guide/spider-trolley.png
+alt: A image of a spider with large eyes pushing a shopping trolley filled with computer disks across a web. The intricate web spreads out beneath them, set against a soft, forested background.
 ---
 
 There are only 3 Git commands you need to know, before you can start enjoying the benefits of Git.

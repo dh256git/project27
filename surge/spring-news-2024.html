@@ -1,0 +1,636 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Your voice matters - Spring, 2024</title>
+
+<!-- scripts for vega lite -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2/build/vega.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0/build/vega-lite.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- olli -->
+  <script src="https://cdn.jsdelivr.net/npm/olli@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/olli-adapters@2"></script>
+
+
+<!--Custom style sheets-->
+        <link rel="stylesheet" href="/assets/css/main.css">
+
+<!-- Bootstrap 5.3 stylesheets -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<!--font awesome icons-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- analytics -->
+
+<!-- Google Tag -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ET7GNZ55YP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ET7GNZ55YP');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PPHS22H');</script>
+<!-- End Google Tag Manager -->
+
+  </head>
+  <body class="bg-background">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PPHS22H"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div class="container-lg">
+  <header>
+<div class="row">
+<div class="col-md-6" id="skip">
+<a class="d-flex justify-content-center" href="#mainContent">Skip to main content</a>
+</div>
+<div class="col-md-6" id="skip">
+<a class="d-flex justify-content-center" href="#footerContent">Skip to footer</a>
+</div>
+</div>
+
+<div class="row">
+<div class="col">
+
+<a href="/index.html" class="navbar-brand">
+      <img src="/assets/images/Project27 logo.png" alt="Project 27 Skills logo" class="logo" width="60px" height="auto">
+      </a>
+      Skills that matter
+      
+</div>
+</div>
+
+<div class="row">
+<div class="col">
+      <div class="navbar navbar-expand-md bg-nav-header">
+
+  <button type="button" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#primaryNavigation" aria-controls="primaryNavigation"
+   aria-expanded="false" aria-label="Toggle global navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="primaryNavigation">
+
+      <nav class="navbar-dark" tabindex="0" aria-label="Global">
+        <ul class="navbar-nav" role="menubar">
+       
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">What we do</a>
+        <div class="dropdown-menu" aria-label="What we do">
+  
+          <a href= "/volunteering/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Building pathways for growth
+          </a>
+  
+          <a href= "/about/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Developing skills that matter
+          </a>
+  
+          <a href= "/solutions/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Co-designing solutions that work
+          </a>
+  
+</div>
+</li>
+  
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">Who we are</a>
+        <div class="dropdown-menu" aria-label="Who we are">
+  
+          <a href= "/about/team/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Meet the team
+          </a>
+  
+          <a href= "/about/partners/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Meet our allies
+          </a>
+  
+</div>
+</li>
+  
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">Media</a>
+        <div class="dropdown-menu" aria-label="Media">
+  
+          <a href= "/about/news/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          News
+          </a>
+  
+          <a href= "/blog/all-posts.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Posts
+          </a>
+  
+          <a href= "https://youtube.com/@project27skills"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Podcasts
+          </a>
+  
+</div>
+</li>
+  
+               <li class="nav-item dropdown">
+            <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" role="button">Contact us</a>
+        <div class="dropdown-menu" aria-label="Contact us">
+  
+          <a href= "/contact/index.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Get in touch
+          </a>
+  
+          <a href= "/problem-definition"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Help us address the right problem
+          </a>
+  
+          <a href= "/my-question"
+          
+          
+          class="dropdown-item"
+          
+          >
+          I've got a question
+          </a>
+  
+          <a href= "/consult-me"
+          
+          
+          class="dropdown-item"
+          
+          >
+          I've got a suggestion
+          </a>
+  
+          <a href= "/contact/index.html#FAQ"
+          
+          
+          class="dropdown-item"
+          
+          >
+          FAQs
+          </a>
+  
+          <a href= "/blog/logbook/issues/2020/06/05/initialise.html"
+          
+          
+          class="dropdown-item"
+          
+          >
+          Report an issue
+          </a>
+  
+</div>
+</li>
+
+</ul>
+</nav>
+
+      <nav class="navbar-dark" tabindex="0" aria-label="Context">
+        <ul class="navbar-nav" role="menubar">
+
+  
+  <li class="nav-item">
+    <a href="/blog/index.html"
+    
+    
+    >
+    Stories
+    </a>
+  </li>
+  
+  <li class="nav-item">
+    <a href="/guide/index.html"
+    
+    
+    >
+    Guide
+    </a>
+  </li>
+  
+  <li class="nav-item">
+    <a href="/volunteering/index.html"
+    
+    
+    >
+    Community
+    </a>
+  </li>
+  
+  
+</ul>
+</nav>
+
+</div>
+
+
+<a href="/support/booking-page.html" class="fg-blog-sect">Book support</a>
+
+
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col">
+
+
+<div class="row abg-blog-sect">
+
+<div class="col-md-8" style="vertical-align: middle;">
+
+  <h1>
+  Your voice matters - Spring, 2024
+  
+  </h1>
+
+<p>We've recruited industry expert Harpreet to enhance our website and launched a user research campaign to design impactful community services for blind or learning disabled individuals. Join us and make your voice heard!</p>
+
+
+  <a class="call-to-action" href="/problem-definition">Help us address the right problem</a>
+
+
+
+
+</div>
+<div class="col-md-4">
+
+  <img src="/assets/images/covers/tulips-cover.jpeg" class="hero-image2" alt="Daniel and Danielle are standing on a platform, with vast fields of colourful tulips and a canal in the background. Both of them smile at the camera.">
+ 
+  </div>
+
+
+
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col">
+
+
+
+
+
+<div class="announcement">
+<p>
+
+    📣 This area of the website is a 
+<a target="_blank" rel="noreferrer noopener" href="https://en.wikipedia.org/wiki/Software_release_life_cycle">
+beta version.
+</a>
+
+</p>
+</div>
+
+</div>
+</div>
+
+
+  </header>
+
+  <main role="main" id="mainContent" class="container">
+   <div class="row">
+    <div class="col-md-8">
+      
+          
+        <a class="previous-post" href="/summer-news-2024.html">Previous: Building on stronger foundations - Summer, 2024</a>
+        
+        <br>
+        
+        <a class="next-post" href="/news-in-december.html" tabindex="-1" aria-disabled="false">Next: Ending the year with our inaugural advisory board meeting</a>
+        
+  
+    </div>
+    <div class="col-md-4 d-flex flex-column align-items-center">
+     <button type="button" class="mysecondarybtn" data-bs-toggle="collapse" data-bs-target="#meta-info" aria-controls="meta-info" aria-expanded="false" aria-label="Page information">
+    <span><i class="fa fa-info-circle fa-lg" aria-hidden="false"></i></span>
+  </button>
+<div class="blog-post-meta collapse" id="meta-info">
+<p class="reading-time">Estimated time to read: 
+  
+  
+    3 - 4 mins
+  
+</p>
+
+<p>Written by: Daniel Hajas</p>
+
+
+<p>Reviewed by: Danielle Garratt. <a href="/guidelines/review.html">Read our guidelines on reviews.</a></p>
+
+
+<p>Published on: 31 Mar 2024</p>
+
+
+<p>Revised on: 02 Apr 2024</p>
+
+
+
+
+<p>Revision due: 2 Apr 2026</p>
+
+</div>
+
+    </div>
+    </div>
+
+  <div class="row">
+    <div class="col-md-8 blog-main">
+      <div class="blog-post">
+
+
+
+
+
+  <p>In an exciting new development, our team has recruited Harpreet, a skilled industry professional, to help us improve our website. This initiative marks the beginning of a fruitful collaboration where we will not only benefit from Harpreet’s extensive experience and best practices but also engage in reverse mentoring, providing her with valuable insights into web accessibility considerations. Additionally, we have launched an extensive user research campaign aimed at designing services that truly make a difference for blind or learning disabled individuals. We offer three levels of engagement to ensure everyone has a chance to contribute.
+</p>
+
+
+<img src="/assets/images/news/spring-2024.jpg" class="blog-cover" alt="A cartoon illustration of a man interviewing a young blind woman. The scene is set in a minimalistic room with clean lines and a modern aesthetic. The man, sitting across from the woman, is taking notes on a laptop. The room includes a simple design with a plant on a desk and a poster on the wall with the words ‘help us address the right problem on it’.">
+
+
+
+
+  
+
+<h3 id="getting-help-with-our-website">Getting help with our website</h3>
+
+<p>In an era where digital accessibility is paramount, Project27 seeks to bridge gaps and foster inclusivity in the online space. Harpreet, an expert with a wealth of industry knowledge, has joined our team as a volunteer to enhance our website’s functionality and user experience. Her arrival heralds a new chapter of collaboration and mutual growth, as we engage in reverse mentoring. Harpreet will share her professional best practices, while we provide her with deeper insights into the nuances of web accessibility.</p>
+
+<blockquote>
+  <p>“Working with Harpreet is a fantastic opportunity for us,” - says Daniel, our Digital Skills team leader. “Her expertise is invaluable, and the reverse mentoring model allows us to share our knowledge on accessibility, ensuring that our and all other websites that Harpreet works with in the future becomes more user-friendly for all.”</p>
+</blockquote>
+
+<h3 id="make-your-voice-heard">Make your voice heard</h3>
+
+<p>Our commitment to improvement doesn’t stop there. Recognising the importance of understanding the needs and preferences of our users, we have embarked on an ambitious user research project. This research is crucial for designing and launching services that have a significant impact on blind or learning disabled individuals. We are also keen to support organisations that offer mentorship, skills development, and employment support services.</p>
+
+<p>To achieve this, we have devised three distinct levels of engagement, ensuring that everyone can participate in a way that suits their availability and preference. 
+The first level is a quick, couple of minutes task where participants help us define a problem statement. This brief interaction provides us with initial insights and helps steer our research in the right direction.</p>
+
+<p>The second level involves a more detailed engagement—a one-hour, in-depth interview. During these sessions, we delve deeper into the experiences and challenges faced by our users, gaining valuable qualitative data that will inform our design decisions. These interviews are instrumental in understanding the specific needs and expectations of our target audience.</p>
+
+<p>Finally, the third level of engagement is through surveys. These surveys are designed to gather comprehensive feedback from a broader audience, allowing us to identify trends and common issues. The quantitative data obtained from these surveys will complement the qualitative insights from interviews, providing a holistic view of the user experience.</p>
+
+<p>We believe that by involving our users directly in the research process, we can develop services that are truly impactful and relevant. This user-centred approach ensures that the voices of blind or learning disabled individuals are heard and considered at every stage of the design and development process.</p>
+
+<p>We invite you to participate in this crucial research. Your feedback is invaluable in helping us address the right problems and design solutions that make a real difference. You can read more about how you can get involved and contribute to our research efforts by visiting <a href="https://project27skills.com/problem-definition">our problem definition page.</a></p>
+
+<h3 id="spring-takeaway">Spring takeaway</h3>
+
+<p>As we move forward with these initiatives, we remain committed to fostering a culture of inclusivity and accessibility. Harpreet’s collaboration and our comprehensive user research are just the beginning of our efforts to create a more inclusive digital world. Your voice matters, and together, we can build a better, more accessible future for everyone.</p>
+
+<p>In conclusion, the recruitment of Harpreet and the launch of our user research campaign underscore our dedication to improving digital accessibility. Through reverse mentoring and user-centred design, we aim to create services that genuinely cater to the needs of blind or learning disabled individuals. Join us in this endeavour and let your voice be heard—because your voice matters.</p>
+
+
+      </div><!-- /.blog-post -->
+
+<hr>
+        
+        <a class="previous-post" href="/summer-news-2024.html">Previous: Building on stronger foundations - Summer, 2024</a>
+        
+        <br>
+        
+        <a class="next-post" href="/news-in-december.html" tabindex="-1" aria-disabled="false">Next: Ending the year with our inaugural advisory board meeting</a>
+        
+  </div><!-- /.blog-main -->
+
+    <aside class="col-md-4 blog-sidebar">
+
+    </aside><!-- /.blog-sidebar -->
+      </div><!-- /.row -->
+
+ <hr>
+ <p>
+ This is an open source website. Please, 
+ <a target="_blank" rel="noreferrer noopener" href="https://github.com/dh256git/project27/edit/development/src/about/news/_posts/2024-03-31-spring-news-2024.md">
+ help improve the content on this page.
+ </a>
+ </p>
+  </main>
+
+<footer id="footerContent" class="abg-blog-sect">
+
+
+
+<div class="container mt-5">
+<div class="row">
+
+<div class="col-12 text-start">
+
+Copyright © 2024 Project27 Consultancy Group C.I.C. All rights reserved.
+
+</div>
+
+</div>
+
+<div class="row">
+<div class="col-sm-12 col-md-4 footer-links">
+
+    <a href="https://www.facebook.com/profile.php?id=100095492140913">
+    <img src="/assets/images/icons/facebook.png" alt="Facebook" class="social-strip-icons img-fluid">
+    </a>
+
+    <a href="https://www.twitter.com/project27skills/">
+    <img src="/assets/images/icons/x.png" alt="X" class="social-strip-icons img-fluid">
+    </a>
+
+    <a href="https://www.linkedin.com/company/project27-consultancy-group/">
+    <img src="/assets/images/icons/linkedin.png" alt="LinkedIn" class="social-strip-icons img-fluid">
+    </a>
+
+    <a href="https://youtube.com/@project27skills">
+    <img src="/assets/images/icons/youtube.png" alt="YouTube" class="social-strip-icons img-fluid">
+    </a>
+
+    <a href="https://www.instagram.com/project27skills/">
+    <img src="/assets/images/icons/instagram.png" alt="Instagram" class="social-strip-icons img-fluid">
+    </a>
+
+    <a href="https://dragonscave.space/@daniel/">
+    <img src="/assets/images/icons/mastodon.png" alt="Mastodon" class="social-strip-icons img-fluid">
+    </a>
+
+    </div>
+    <div class="col-sm-12 col-md-8">
+    
+    </div>
+</div>
+
+<div class="row">
+  
+<div class="col-sm-6 col-md-2 text-start">
+
+    <a href="/about/index.html">About us</a>
+                    
+</div>
+  
+<div class="col-sm-6 col-md-2 text-start">
+
+    <a href="/guidelines/index.html">Guidelines</a>
+                    
+</div>
+  
+<div class="col-sm-6 col-md-2 text-start">
+
+    <a href="https://community.project27skills.com">Community workspace</a>
+                    
+</div>
+  
+<div class="col-sm-6 col-md-2 text-start">
+
+          <a target="_blank" rel="noreferrer noopener" href= "https://project27-knowledge-base.atlassian.net/wiki/home/">Staff workspace</a>
+          
+</div>
+  
+<div class="col-sm-6 col-md-2 text-start">
+
+          <a target="_blank" rel="noreferrer noopener" href= "https://github.com/dh256git/project27">Git Hub</a>
+          
+</div>
+  
+<div class="col-sm-6 col-md-2 text-start">
+
+          <a target="_blank" rel="noreferrer noopener" href= "http://p27skills.surge.sh">Staging site</a>
+          
+</div>
+  
+</div>
+
+<div class="row">
+
+<div class="col-sm-6 col-md-2 text-start">
+
+<a href="/legal/terms-of-use.html">
+Terms of use</a>
+</div>
+
+<div class="col-sm-6 col-md-2 text-start">
+
+<a href="/legal/terms-of-service.html">
+Terms of service</a>
+</div>
+
+<div class="col-sm-6 col-md-2 text-start">
+
+<a href="/legal/privacy.html">
+Privacy policy</a>
+</div>
+
+<div class="col-sm-6 col-md-2 text-start">
+
+<a href="/accessibility/index.html">
+Accessibility statement</a>
+</div>
+
+<div class="col-sm-6 col-md-2 text-start">
+
+<a href="/blog/logbook/dev/change-log.html">Version: 1.2.103.</a>
+
+</div>
+
+<div class="col-sm-6 col-md-2 text-start">
+
+<a onclick="showTimeLastUpdated()">Updated on: 
+<span id="time-last-updated-show">04 Aug 2024</span>
+<span id="time-last-updated-hide" class="hidden-text">19:16</span>
+</a>
+
+</div>
+
+</div>
+</div>
+
+</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<!-- Mathematics script -->
+<script type="text/x-mathjax-config">
+(function () {
+
+MathJax.Hub.Config({
+	'showProcessingMessages': false,
+	'messageStyle': 'none'
+});
+
+if (typeof MathJaxListener !== 'undefined') {
+	MathJax.Hub.Register.StartupHook('End', function () {
+		MathJaxListener.invokeCallbackForKey_('End');
+	});
+}
+
+})();
+</script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<!--script for read more modal -->
+<script defer src="/assets/js/modal.js"></script>
+
+<!--script for select pop-up -->
+<script defer src="/assets/js/pop-up.js"></script>
+
+  </body>
+</html>

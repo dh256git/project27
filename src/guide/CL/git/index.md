@@ -1,6 +1,6 @@
 ---
 layout: contents
-title: Git and GitHub
+title: Version control and collaboration
 category: git
 buttonStyle: fg-guide-chap
 backgroundStyle: bg-guide-chap

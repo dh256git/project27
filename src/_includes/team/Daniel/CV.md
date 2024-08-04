@@ -59,23 +59,32 @@ I worked for the ‘IT Foundation for Visually Impaired’ ([Infoalap](http://in
 
 I have been fortunate to receive a high standard of education and additional training from reputable international institutions.
 
-### 1. From Innovation to Market - London Business School (October 2022 - March 2023)
+### 1. Incubator programmes
 
-I was selected as one of the guest researchers on an MBA course, accredited by the [London Business School](https://www.london.edu). On the ["Innovation to Market"](https://www.london.edu/faculty-and-research/strategy-and-entrepreneurship/innovation-to-market) course, I attended taught sessions on business development. Teaming up with MBA students, we were exploring the commercial strategy and possibility of spinning out a business, based on the research I have been collaborating on, with researchers from the [MIT Visualisation group](https://mitvis.github.io/olli/).
+Incubator programmes are extended training programmes, where people can explore strategies of turning ideas into valuable opportunities in teams.
 
-### 2. Interaction Design Foundation (July 2018 – June 2021)
+#### From Innovation to Market - London Business School
 
-I completed multiple international online courses on:
+In 2022, I was selected as one of the guest researchers on a Master of Business Administration (MBA) course, accredited by the [London Business School](https://www.london.edu). On the ["Innovation to Market"](https://www.london.edu/faculty-and-research/strategy-and-entrepreneurship/innovation-to-market) course, I attended taught sessions on business development. Teaming up with MBA students, we were exploring the commercial strategy and possibility of spinning out a business, based on the research I have been collaborating on, with researchers from the [MIT Visualisation group](https://mitvis.github.io/olli/).
 
-1. [“Accessibility for all”](https://www.interaction-design.org/daniel-14/certificate/course/fltqnHSHvHjCN1qDLG) with a top 10% distinction.
-2. [“Human-Computer Interaction”](https://www.interaction-design.org/daniel-14/certificate/course/9d3a4ac4-4c7d-4686-a847-84a293aa6d4c) with a top 10% distinction.
-3. “Interaction Design for Usability” with a top 10% distinction.
+#### Start-up Sussex - Sussex Innovation Centre
 
-### 3. Start-up Sussex and Social Impact Prize Competition (October 2015 – April 2016)
+I took part in a start-up incubator in 2015, ran annually to student entrepreneurs by the [Sussex Innovation Centre.](https://www.sinc.co.uk) As part of this process I have taken part in weekly workshops and one-to-one consultancies with business experts. I have learned the basics of business, entrepreneurship, IP protection, management, and accounting.
 
-I and the Grapheel team were shortlisted to win one of the prizes awarded annually to student entrepreneurs by the [Sussex Innovation Centre.](https://www.sinc.co.uk) As part of this process I have taken part in weekly workshops and one-to-one consultancies with business experts. I have learned the basics of business, entrepreneurship, IP protection, management, and accounting.
+### 2. Professional qualifications
 
-### 4. Other certificates and awards
+I have undertaken multiple continuous professional development courses, and gained certified qualifications.
+
+1. [The Association for Project Management (APM)](https://www.apm.org.uk)
+ - [Project Management Qualification (PMQ)](https://www.credly.com/badges/01e4a15d-145d-433e-9843-0781b5326b7f/public_url)
+2. [We Love Mentors](https://welovementors.com)
+ - [Mentorship Programme Manager Certification](https://thomas-site-e94a.thinkific.com/certificates/7ger3iwbbn)
+3. Interaction Design Foundation
+ - [“Accessibility for all”](https://www.interaction-design.org/daniel-14/certificate/course/fltqnHSHvHjCN1qDLG) with a top 10% distinction.
+ - [“Human-Computer Interaction”](https://www.interaction-design.org/daniel-14/certificate/course/9d3a4ac4-4c7d-4686-a847-84a293aa6d4c) with a top 10% distinction.
+ - “Interaction Design for Usability” with a top 10% distinction.
+
+### 3. Other certificates and awards
 
 * In 2017, I was awarded the David Axon Prize for outstanding achievement in physics.
 * In 2015, I was awarded the Junior Research Associate Award, including a chance to exhibit my research at the UK Parliament.
