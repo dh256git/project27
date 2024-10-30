@@ -106,5 +106,5 @@ In coming notes, we will introduce branching, and a typical development workflow
 
 Some commands to get excited about are:
 
-- status, branch, checkout: welcome to the multiverse of Git.
-- pull, merge, push: Avoiding conflict through best practice.
+- [status, branch, checkout: welcome to the multiverse of Git.]({% post_url 2024-10-30-git-multiverse %})
+- [pull, merge, push: Avoiding conflict through best practice.]({% post_url 2024-10-30-push-and-pull %})
